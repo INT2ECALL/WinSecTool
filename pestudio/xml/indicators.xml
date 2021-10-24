@@ -1,0 +1,152 @@
+<!--
+This file is part of the pestudio solution (www.winitor.com).
+Any usage of this file outside of the context of pestudio (e.g. in third-party application, tools chain, etc...) must be explicitely authorized.
+
+Please note that this file will be modified when running pestudio.
+-->
+<xml version="1.0" encoding="utf-8" detail="">
+	<indicators>
+		<indicator enable="1" severity="3" id="1000" detail="status: %s">The file is not an executable file</indicator>
+		<indicator enable="1" severity="1" id="1001" detail="status: %s">The MZ signature is missing</indicator>
+		<indicator enable="1" severity="2" id="1002" detail="size: %i bytes">The size of the file is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1003" detail="ratio: %s">The file-ratio of the overlay is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1004" detail="size: %i bytes">The size of the optional-header is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1005" detail="size: %i bytes">The size of the file-header is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1007" detail="size: %i bytes">The size of the certificate is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1008" detail="tool: %s">The file has been post-processed</indicator>
+		<indicator enable="1" severity="1" id="1009" detail="status: %s">The content of the certificate is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1010" detail="status: %s">The file is Self-Extractable (SFX)</indicator>
+		<indicator enable="1" severity="3" id="1011" detail="size: %i bytes">The file references a certificate</indicator>
+		<indicator enable="1" severity="1" id="1012" detail="status: %s">The compiler time stamp is outside of the Certificate time stamp</indicator>
+		<indicator enable="1" severity="1" id="1018" detail="hint: %s">The rich-header has been tampered</indicator>
+		<indicator enable="1" severity="4" id="1019" detail="status: %s">The file contains a rich-header</indicator>
+		<indicator enable="1" severity="4" id="1023" detail="status: %s">The file is managed</indicator>
+		<indicator enable="1" severity="1" id="1025" detail="status: %s">The file references the Reflective DLL Injection technique</indicator>
+		<indicator enable="1" severity="4" id="1026" detail="count: %i">The file is bound to other library(ies)</indicator>
+		<indicator enable="1" severity="3" id="1027" detail="status: %s">The file is Code-less</indicator>
+		<indicator enable="1" severity="1" id="1033" detail="count: %i">The file exposes thread-local-storage (TLS) callback(s)</indicator>
+		<indicator enable="1" severity="1" id="1035" detail="status: %s">The entry-point is located in a section that is not executable</indicator>
+		<indicator enable="1" severity="3" id="1036" detail="checksum: 0x%08X">The file checksum is invalid</indicator>
+		<indicator enable="1" severity="1" id="1037" detail="address: 0x%08X">The entry-point is outside the file</indicator>
+		<indicator enable="1" severity="2" id="1038" detail="stamp: %s">The certificate has expired</indicator>
+		<indicator enable="1" severity="4" id="1040" detail="status: %s">The file contains a digital Certificate</indicator>
+		<indicator enable="1" severity="4" id="1043" detail="status: %s">The file contains a Manifest</indicator>
+		<indicator enable="1" severity="2" id="1044" detail="count: %i">The file export table contains gap(s)</indicator>
+		<indicator enable="0" severity="2" id="1045" detail="library: %s">The description of a library has not been found</indicator>
+		<indicator enable="1" severity="4" id="1050" detail="status: %s">The file uses Control Flow Guard (CFG) as software security defense</indicator>
+		<indicator enable="1" severity="1" id="1051" detail="status: %s">The file will be copied and run from to the system swap if started from the Network</indicator>
+		<indicator enable="1" severity="1" id="1052" detail="status: %s">The file will be copied and run from to the system swap if started from a removable Media</indicator>
+		<indicator enable="1" severity="2" id="1055" detail="status: %s">The file runs in the Visual Basic Virtual Machine (VBVM)</indicator>
+		<indicator enable="1" severity="3" id="1056" detail="status: %s">The file is a Device Driver</indicator>
+		<indicator enable="1" severity="4" id="1100" detail="status: %s">The file opts for Data Execution Prevention (DEP) as software security defense</indicator>
+		<indicator enable="1" severity="4" id="1102" detail="status: %s">The file opts for Address Space Layout Randomization (ASLR) as software security defense</indicator>
+		<indicator enable="0" severity="4" id="1105" detail="status: %s">The file uses Structured Exception Handling (SEH)</indicator>
+		<indicator enable="1" severity="4" id="1106" detail="status: %s">The file opts for Stack Buffer Overrun Detection (GS) as software security defense</indicator>
+		<indicator enable="1" severity="4" id="1109" detail="status: %s">The file opts for Code Integrity (CI) a software security defense</indicator>
+		<indicator enable="1" severity="3" id="1111" detail="status: %s">The file is isolation aware but should not be isolated</indicator>
+		<indicator enable="0" severity="4" id="1112" detail="status: %s">The file references Safe Structured Exception Handling (SafeSEH)</indicator>
+		<indicator enable="0" severity="3" id="1113" detail="count: %i">The file registers Exception handler(s)</indicator>
+		<indicator enable="1" severity="1" id="1115" detail="offset: 0x%08X">The offset of the dos-header is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1120" detail="score: %i/%i">The file is scored by virustotal</indicator>
+		<indicator enable="1" severity="3" id="1121" detail="status: %s">The file has been compiled with Delphi</indicator>
+		<indicator enable="1" severity="2" id="1122" detail="name: %s">The file is detected by the prefered engine</indicator>
+		<indicator enable="1" severity="2" id="1123" detail="name: %s">The file is not detected by the prefered engine</indicator>
+		<indicator enable="1" severity="2" id="1124" detail="count: %i">The file references MITRE Technique(s)</indicator>
+		<indicator enable="0" severity="2" id="1125" detail="count: %i">The file references MITRE Tactics(s)</indicator>
+		<indicator enable="1" severity="1" id="1150" detail="offset: 0x%08X">The offset of the file-header is suspicious</indicator>
+		<indicator enable="1" severity="3" id="1152" detail="file: %s">The file references debug symbols</indicator>
+		<indicator enable="1" severity="2" id="1153" detail="section: %s">The file contains a virtualized section</indicator>
+		<indicator enable="1" severity="2" id="1154" detail="value: %s">The GUID of the debug symbols is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1155" detail="path: %s">The path of the debug symbols is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1157" detail="age: %i">The age of the debug symbols is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1158" detail="status: %s">The format of the debug symbols is suspicious</indicator>
+		<indicator enable="0" severity="2" id="1200" detail="value: 0x%08X">The value of 'pointer-symbol-table' is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1201" detail="value: 0x%08X">The value of 'number-of-symbols' is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1203" detail="value: 0x%08X">The value of 'size-of-code' is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1204" detail="value: 0x%08X">The value of 'base-of-code' is suspicious</indicator>
+		<indicator enable="0" severity="2" id="1205" detail="value: 0x%08X">The value of 'base-of-data' is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1206" detail="value: 0x%08X">The value of 'FileAlignment' is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1207" detail="value: 0x%08X">The value of 'SizeOfImage' is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1209" detail="value: 0x%08X">The value of 'SizeOfHeaders' is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1210" detail="count: %i">The count of directories is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1211" detail="address: 0x%08X">The address of the entry-point is suspicious</indicator>
+		<indicator enable="1" severity="4" id="1215" detail="ratio: %.02f">The file-ratio of the section(s) has been determined</indicator>
+		<indicator enable="1" severity="2" id="1216" detail="ratio: %.02f">The file-ratio of the section(s) is high</indicator>
+		<indicator enable="1" severity="2" id="1220" detail="ratio: %s">The file-ratio of the resource(s) is high</indicator>
+		<indicator enable="1" severity="1" id="1222" detail="section: %s">The last section is executable</indicator>
+		<indicator enable="1" severity="1" id="1223" detail="section: %s">The first section is writable</indicator>
+		<indicator enable="1" severity="1" id="1225" detail="section: %s:0x%08X">The location of the entry-point is suspicious</indicator>
+		<indicator enable="1" severity="3" id="1229" detail="signature: %s">The file signature has been found</indicator>
+		<indicator enable="1" severity="4" id="1232" detail="status: %s">The file contains resource(s)</indicator>
+		<indicator enable="0" severity="2" id="1233" detail="count: %i">The file references resources in several languages</indicator>
+		<indicator enable="1" severity="1" id="1236" detail="language: %s">The file contains resource(s) in a language tagged as blacklist</indicator>
+		<indicator enable="1" severity="1" id="1237" detail="type: %s, name: %s">The file contains an invalid resource</indicator>
+		<indicator enable="0" severity="2" id="1240" detail="status: %s">The manifest does not contain trust information</indicator>
+		<indicator enable="1" severity="3" id="1241" detail="name: %s">The manifest identity has been found</indicator>
+		<indicator enable="1" severity="1" id="1244" detail="resource: %s.%s">The size of a resource is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1245" detail="section: %s">The file contains a blacklist section</indicator>
+		<indicator enable="1" severity="1" id="1247" detail="count: %i">The count of executable section(s) is suspicious</indicator>
+		<indicator enable="0" severity="2" id="1251" detail="resource: %s:%s">The file references an unknown resource</indicator>
+		<indicator enable="1" severity="4" id="1252" detail="count: %i">The file exports function(s)</indicator>
+		<indicator enable="1" severity="2" id="1253" detail="count: %i">The file exports anonymous function(s)</indicator>
+		<indicator enable="1" severity="4" id="1254" detail="count: %i">The file exports forwarded function(s)</indicator>
+		<indicator enable="1" severity="4" id="1256" detail="count: %i">The file exports decorated function(s)</indicator>
+		<indicator enable="1" severity="2" id="1257" detail="count: %i">The file exports duplicated function(s)</indicator>
+		<indicator enable="0" severity="1" id="1258" detail="count: %i">The file exports blacklist function(s)</indicator>
+		<indicator enable="1" severity="1" id="1259" detail="text: %s">The dos-stub message is unusual</indicator>
+		<indicator enable="1" severity="1" id="1260" detail="status: %s">The dos-stub message is missing</indicator>
+		<indicator enable="1" severity="3" id="1261" detail="count: %i">The file imports deprecated function(s)</indicator>
+		<indicator enable="1" severity="2" id="1262" detail="count: %i">The file imports anonymous function(s)</indicator>
+		<indicator enable="1" severity="3" id="1263" detail="count: %i">The file imports forwarded function(s)</indicator>
+		<indicator enable="0" severity="3" id="1264" detail="count: %i">The file imports decorated function(s)</indicator>
+		<indicator enable="1" severity="1" id="1265" detail="count: %i">The count of imports is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1266" detail="type: %s, count: %i">The file imports symbol(s)</indicator>
+		<indicator enable="1" severity="2" id="1267" detail="size: %i bytes">The file references a string with a suspicious size</indicator>
+		<indicator enable="1" severity="2" id="1269" detail="count: %i">The file references blacklist library(ies)</indicator>
+		<indicator enable="1" severity="1" id="1274" detail="status: %s">The dos-stub is missing</indicator>
+		<indicator enable="1" severity="3" id="1277" detail="count: %i">The file imports undocumented function(s)</indicator>
+		<indicator enable="1" severity="1" id="1286" detail="status: %s">The file subsystem is unknown</indicator>
+		<indicator enable="1" severity="4" id="1287" detail="type: %s">The file subsystem has been found</indicator>
+		<indicator enable="1" severity="1" id="1301" detail="type: %s">A directory is missing</indicator>
+		<indicator enable="1" severity="1" id="1302" detail="type: %s">A directory is invalid</indicator>
+		<indicator enable="1" severity="1" id="1306" detail="status: %s">The directories table is empty</indicator>
+		<indicator enable="1" severity="2" id="1320" detail="directory: %s, stamp: %s">The time-stamp of a directory is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1321" detail="year: %i">The time-stamp of the compiler is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1400" detail="level: %s">The file execution privilege has been found</indicator>
+		<indicator enable="1" severity="1" id="1401" detail="status: %s">The file requests User Interface Privilege Isolation (UIPI)</indicator>
+		<indicator enable="1" severity="3" id="1424" detail="name: %s">The original name of the file has been found</indicator>
+		<indicator enable="1" severity="4" id="1430" detail="type: %s, count: %i">The file references string(s)</indicator>
+		<indicator enable="1" severity="1" id="1431" detail="count: %i">The count of strings is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1434" detail="url: %s">The file references a URL pattern</indicator>
+		<indicator enable="1" severity="4" id="1484" detail="error: 0x%08X">The file score is not available</indicator>
+		<indicator enable="1" severity="1" id="1485" detail="count: %i">The count of libraries is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1503" detail="size: %i bytes">The size of the version resource is suspicious</indicator>
+		<indicator enable="1" severity="3" id="1512" detail="status: %s">The file supports OLE Self-Registration</indicator>
+		<indicator enable="1" severity="1" id="1514" detail="type: %s, location: %s, offset: 0x%08X &gt; scored %i/%i by virustotal">The file contains another file</indicator>
+		<indicator enable="1" severity="1" id="1520" detail="machine: %s">The file is target for a specific machine</indicator>
+		<indicator enable="1" severity="1" id="1523" detail="status: %s">The file intents to execute with UAC auto-elevation</indicator>
+		<indicator enable="1" severity="2" id="1525" detail="signature: %s, location: %s, offset: 0x%08X, size: %i">The file contains another file</indicator>
+		<indicator enable="1" severity="1" id="1590" detail="size: %i bytes">The size of the dos-header is suspicious</indicator>
+		<indicator enable="1" severity="1" id="1601" detail="size: %i bytes">The size of the dos-stub is suspicious</indicator>
+		<indicator enable="1" severity="3" id="1603" detail="resource: %s.%s">The hash of a resource is well-known</indicator>
+		<indicator enable="1" severity="2" id="1606" detail="count: %i">The count of section(s) is suspicious</indicator>
+		<indicator enable="1" severity="2" id="1621" detail="status: %s">The file is self-extractable with IEXPRESS</indicator>
+		<indicator enable="1" severity="1" id="1624" detail="count: %i">The file references Regex pattern(s)</indicator>
+		<indicator enable="1" severity="1" id="1625" detail="count: %i">The file contains unreadable section(s)</indicator>
+		<indicator enable="1" severity="1" id="1626" detail="count: %i">The file references Windows built-in privilege(s)</indicator>
+		<indicator enable="1" severity="1" id="1628" detail="signature: %s">The file signature is tagged as blacklist</indicator>
+		<indicator enable="1" severity="1" id="1629" detail="signature: %s">The file signature of the overlay is blacklist</indicator>
+		<indicator enable="1" severity="2" id="1630" detail="signature: %s">The file signature of a resource is blacklist</indicator>
+		<indicator enable="1" severity="1" id="1631" detail="status: %s">The file contains self-modifying executable section(s)</indicator>
+		<indicator enable="1" severity="3" id="1633" detail="type: %s, count: %i">The file references a group of hint</indicator>
+		<indicator enable="1" severity="3" id="1634" detail="type: %s, count: %i">The file references a group of API</indicator>
+		<indicator enable="1" severity="1" id="1635" detail="keys: %i">The file references keyboard keys like a Keylogger</indicator>
+		<indicator enable="1" severity="1" id="1636" detail="count: %i">The file references file extensions like a Ransomware | Wiper</indicator>
+		<indicator enable="1" severity="1" id="1637" detail="count: %i">The file references passwords like a Brute-forcer</indicator>
+		<indicator enable="1" severity="2" id="2213" detail="section: %s">The file contains a shared section</indicator>
+		<indicator enable="1" severity="1" id="2215" detail="count: %i">The file contains writable and executable section(s)</indicator>
+		<indicator enable="1" severity="2" id="2217" detail="count: %i">The file contains nameless section(s)</indicator>
+		<indicator enable="1" severity="1" id="2246" detail="count: %i">The file contains several executable sections</indicator>
+		<indicator enable="1" severity="3" id="2270" detail="status: %s">The file references antidebug function(s)</indicator>
+	</indicators>
+</xml>
