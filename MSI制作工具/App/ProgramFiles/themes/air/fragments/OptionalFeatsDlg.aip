@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="OptionalFeatsDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="304" Attributes="1" Text="[Background]" Order="100"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="Next" Type="ImageButton" X="246" Y="277" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="200" TextLocId="-" ExtDataLocId="-" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Next]"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="Cancel" Type="ImageButton" X="306" Y="277" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="300" TextLocId="-" ExtDataLocId="-" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="Back" Type="ImageButton" X="0" Y="2" Width="22" Height="22" Attributes="3" Text="[BackButton]" Order="400" TextLocId="-" ExtDataLocId="-" HelpLocId="Air.Control.Help#Back" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Back]"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="TitleIcon" Type="Icon" X="27" Y="5" Width="16" Height="16" Attributes="3145729" Text="[AppLogoIcon]" Order="500"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="Title" Type="Text" X="46" Y="7" Width="237" Height="11" Attributes="196611" TextStyle="Title" Order="600" TextLocId="Air.Control.Text.WelcomeDlg#Title"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="SubTitle" Type="Text" X="25" Y="45" Width="304" Height="18" Attributes="196611" TextStyle="SubTitle" Order="700" TextLocId="Control.Text.OptionalFeatsDlg#Title"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="QuickSelectionList" Type="QuickSelectionList" X="35" Y="83" Width="315" Height="153" Attributes="6291459" Property="QuickSelectionListProp" Text="QuickSelectionList" Order="700" ExtType="QuickSelectionList" ExtAttributes="8194"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="SelectAllCheckbox" Type="CheckBox" X="35" Y="242" Width="90" Height="20" Attributes="3" Property="SelectAllChechBox" Text="&amp;Select All" Order="700" TextLocId="Control.Text.SelectAll"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="TotalSpaceLabel" Type="Text" X="173" Y="242" Width="111" Height="11" Attributes="196611" Text="Total space required on drive: " Order="800" TextLocId="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="TotalSpaceText" Type="Text" X="284" Y="242" Width="51" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceRequired" Text="[PrimaryVolumeSpaceRequired]" Order="900" TextLocId="Azure.Control.Text.CustomizeDlg#TotalSpaceText"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="AvailableSpaceLabel" Type="Text" X="173" Y="252" Width="96" Height="11" Attributes="196611" Text="Space available on drive: " Order="1000" TextLocId="Azure.Control.Text.CustomizeDlg#AvailableSpaceLabel"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="AvailableSpaceText" Type="Text" X="265" Y="252" Width="71" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceAvailable" Text="[PrimaryVolumeSpaceAvailable]" Order="1100" TextLocId="Azure.Control.Text.CustomizeDlg#AvailableSpaceText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="OptionalFeatsDlg" Control_="Title" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control_="TitleIcon" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control_="SelectAllCheckbox" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="OptionalFeatsDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="OptionalFeatsDlg" HCentering="50" VCentering="50" Width="370" Height="304" Attributes="3" Title="[ProductName] [Setup]" Control_Default="Next" Control_Cancel="Cancel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEventMappingComponent">
+    <ROW Dialog_="OptionalFeatsDlg" Control_="SelectAllCheckbox" Event="AiAllItemsChecked" Attribute="Text"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCheckBoxComponent">
+    <ROW Property="SelectAllChechBox" Value="0"/>
+  </COMPONENT>
+</FRAGMENT>

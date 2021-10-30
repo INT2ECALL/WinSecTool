@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities/3"
+           xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities/3"
+           xmlns:t="http://schemas.microsoft.com/appx/manifest/types"
+           xmlns:f="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+           >
+
+  <xs:import namespace="http://schemas.microsoft.com/appx/manifest/types"/>
+  <xs:import namespace="http://schemas.microsoft.com/appx/manifest/foundation/windows10"/>
+
+  <!-- Starting RS2, wincap extensions will skip manifest validation -->
+  <xs:element name="Extension" substitutionGroup="f:ExtensionChoice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:any minOccurs="0" maxOccurs="1" processContents="skip"/>
+      </xs:sequence>
+      <xs:attribute name="Category" type="t:ST_ExtensionCategory_Windows_Restricted_Party3" use="required"/>
+      <xs:attributeGroup ref="t:ExtensionBaseAttributes"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:attributeGroup name="InprocMediaCodecAttributes">
+    <xs:attribute name="ActivatableClassId" type="t:ST_ActivatableClassId" form="qualified" use="optional"/>
+    <xs:attribute name="Path" type="t:ST_DllFile" form="qualified" use="optional"/>
+    <xs:attribute name="ProcessorArchitecture" type="t:ST_Architecture" form="qualified" use="optional"/>
+  </xs:attributeGroup>
+</xs:schema>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.3" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="DB95C79D_BEB0_412A_8763_CCAE132E37E6" DisplayName="SQL Server Express 2008 SP2 x86" VersionMin="10.0.4000.0"
+      SetupFileUrl="http://download.microsoft.com/download/3/9/A/39ABE28E-9A82-41FE-A923-AD52FDAD165C/SQLEXPR_x86_ENU.exe"
+      Location="1" ExactSize="105386848" MD5="d5875c71f0297fe80c2d7e22d844b9ac"
+      WinNTVersions="Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /ACTION=Install /FEATURES=SQLEngine /INSTANCENAME=SQLEXPRESS /SQLSVCACCOUNT=&quot;NT AUTHORITY\NETWORK SERVICE&quot; /SQLSYSADMINACCOUNTS=&quot;%USERDOMAIN%\%USERNAME%&quot;"
+      Operator="1" Options="f" TargetName="SQL Server Express 2008 SP2"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="DB95C79D_BEB0_412A_8763_CCAE132E37E6CurrentVersion" Prereq="DB95C79D_BEB0_412A_8763_CCAE132E37E6" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\100\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="10.0.4000.0"
+      Order="1" Property="PreReqSearch_DB95C79D_BEB0_412A_8763_CCAE132E37E6"/>
+    <ROW SearchKey="DB95C79D_BEB0_412A_8763_CCAE132E37E6CurrentVersion_1" Prereq="DB95C79D_BEB0_412A_8763_CCAE132E37E6" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\110\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="11.0"
+      Order="2" Property="PreReqSearch_1_DB95C79D_BEB0_412A_8763_CCAE132E37E6"/>
+    <ROW SearchKey="DB95C79D_BEB0_412A_8763_CCAE132E37E6CurrentVersion_2" Prereq="DB95C79D_BEB0_412A_8763_CCAE132E37E6" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\120\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="12.0"
+      Order="3" Property="PreReqSearch_2_DB95C79D_BEB0_412A_8763_CCAE132E37E6"/>
+    <ROW SearchKey="DB95C79D_BEB0_412A_8763_CCAE132E37E6CurrentVersion_3" Prereq="DB95C79D_BEB0_412A_8763_CCAE132E37E6" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\130\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="13.0"
+      Order="4" Property="PreReqSearch_3_DB95C79D_BEB0_412A_8763_CCAE132E37E6"/>
+  </COMPONENT>
+</FRAGMENT>

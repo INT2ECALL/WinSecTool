@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="E275424811B28D95B40CAB85CC" DisplayName=".NET Framework 4.5.2 (web installer)"
+      SetupFileUrl="http://download.microsoft.com/download/B/4/1/B4119C11-0423-477B-80EE-7A474314B347/NDP452-KB2901954-Web.exe"
+      Location="1" ExactSize="1118920" MD5="ca41dba55a727f01104871b160cd5b1d"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="xy" TargetName=".NET Framework 4.5.2"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="E275424811B28D95B40CAB85CCRelease" Prereq="E275424811B28D95B40CAB85CC" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Release" RefContent="G379892"
+      Order="1" Property="PreReqSearch_E275424811B28D95B40CAB85CC"/>
+  </COMPONENT>
+</FRAGMENT>

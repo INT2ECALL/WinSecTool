@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="A3A449A9204A9BC036DEB0B" DisplayName="SQL Server Express 2012 SP1 x86" VersionMin="11.0.3000.0"
+      SetupFileUrl="http://download.microsoft.com/download/5/2/9/529FEF7B-2EFB-439E-A2D1-A1533227CD69/SQLEXPR_x86_ENU.exe"
+      Location="1" ExactSize="139571184" MD5="3a8b6a378303d72a57d7f67dfb617e57"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista RTM x86, Windows Vista SP1 x86, Windows 7 RTM x86, Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64, Windows Vista SP1 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64, Windows 10 x64, Windows Server 2016 x64"
+      ComLine="/UpdateEnabled=False"
+      BasicUiComLine="/UpdateEnabled=False"
+      NoUiComLine="/q /IACCEPTSQLSERVERLICENSETERMS /ACTION=Install /FEATURES=SQLEngine /INSTANCENAME=SQLEXPRESS /UpdateEnabled=False"
+      Operator="1" Options="y" TargetName="SQL Server Express 2012 SP1"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="A3A449A9204A9BC036DEB0BCurrentVersion" Prereq="A3A449A9204A9BC036DEB0B" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\110\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="11.0.3000.0"
+      Order="1" Property="PreReqSearch_A3A449A9204A9BC036DEB0B"/>
+    <ROW SearchKey="A3A449A9204A9BC036DEB0BCurrentVersion_1" Prereq="A3A449A9204A9BC036DEB0B" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\120\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="12.0"
+      Order="2" Property="PreReqSearch_1_A3A449A9204A9BC036DEB0B"/>
+    <ROW SearchKey="A3A449A9204A9BC036DEB0BCurrentVersion_2" Prereq="A3A449A9204A9BC036DEB0B" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\130\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="13.0"
+      Order="3" Property="PreReqSearch_2_A3A449A9204A9BC036DEB0B"/>
+  </COMPONENT>
+</FRAGMENT>

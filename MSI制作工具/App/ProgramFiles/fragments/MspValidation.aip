@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT type="ReadOnly" RootPath=".">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiValidationComponent">
+    <ROW Table="ImageFamilies" Column="Family" Category="Text" Description="Image family identifier" Options="2" ColumnType="1" ColumnIndex="0" ColumnSize="8"/>
+    <ROW Table="ImageFamilies" Column="MediaSrcPropName" Category="Text" Description="The value entered into the Source field of the new Media table entry of the upgraded image" Options="1" ColumnType="1" ColumnIndex="1" ColumnSize="72"/>
+    <ROW Table="ImageFamilies" Column="MediaDiskId" MinValue="0" MaxValue="32767" Description="The installer enters this value into the DiskId field of the new Media table record." Options="1" ColumnType="2" ColumnIndex="2" ColumnSize="2"/>
+    <ROW Table="ImageFamilies" Column="FileSequenceStart" MinValue="0" MaxValue="2147483647" Description="This field is the sequence number for the starting file" Options="1" ColumnType="3" ColumnIndex="3" ColumnSize="4"/>
+    <ROW Table="ImageFamilies" Column="DiskPrompt" Category="Text" Description="The installer enters this value into the DiskPrompt field of the new Media table record." Options="5" ColumnType="1" ColumnIndex="4" ColumnSize="128"/>
+    <ROW Table="ImageFamilies" Column="VolumeLabel" Category="Text" Description="The installer enters this value into the VolumeLabel field of the new Media record." Options="1" ColumnType="1" ColumnIndex="5" ColumnSize="32"/>
+    <ROW Table="PatchMetadata" Column="Company" Category="Text" Description="The company name." Options="3" ColumnType="1" ColumnIndex="0" ColumnSize="72"/>
+    <ROW Table="PatchMetadata" Column="Property" Category="Text" Description="The name of a metadata property." Options="2" ColumnType="1" ColumnIndex="1" ColumnSize="72"/>
+    <ROW Table="PatchMetadata" Column="Value" Category="Text" Description="The value of the patch metadata property." Options="1" ColumnType="1" ColumnIndex="2" ColumnSize="254"/>
+    <ROW Table="PatchSequence" Column="PatchFamily" Category="Identifier" Description="The identifier that indicates the sequence families to which this patch belongs." Options="2" ColumnType="1" ColumnIndex="0" ColumnSize="72"/>
+    <ROW Table="PatchSequence" Column="Target" Category="Text" Description="The Target column is used to filter the PatchFamily by product code." Options="3" ColumnType="1" ColumnIndex="1" ColumnSize="72"/>
+    <ROW Table="PatchSequence" Column="Sequence" Category="Version" Description="Ptch sequence." Options="1" ColumnType="1" ColumnIndex="2" ColumnSize="72"/>
+    <ROW Table="PatchSequence" Column="Supersede" MinValue="0" MaxValue="32767" Description="Indicates that this patch supersedes earlier small updates in the sequence families to which this patch belongs." Options="1" ColumnType="2" ColumnIndex="3" ColumnSize="2"/>
+    <ROW Table="Properties" Column="Name" Category="Text" Description="The name of a patch creation property." Options="2" ColumnType="1" ColumnIndex="0" ColumnSize="72"/>
+    <ROW Table="Properties" Column="Value" Category="Text" Description="The value of the patch creation property." Options="1" ColumnType="1" ColumnIndex="1" ColumnSize="128"/>
+    <ROW Table="TargetImages" Column="Target" Category="Text" Description="Target image identifier" Options="2" ColumnType="1" ColumnIndex="0" ColumnSize="13"/>
+    <ROW Table="TargetImages" Column="MsiPath" Category="Text" Description="Full path to the location of the .msi file for the target image." Options="0" ColumnType="1" ColumnIndex="1" ColumnSize="255"/>
+    <ROW Table="TargetImages" Column="SymbolPaths" Category="Text" Description="Semicolon delimited list of folders that are to be searched for symbol files" Options="1" ColumnType="1" ColumnIndex="2" ColumnSize="255"/>
+    <ROW Table="TargetImages" Column="Upgraded" KeyTable="UpgradedImages" KeyColumn="1" Description="Foreign key into the UpgradedImages table." Options="0" ColumnType="1" ColumnIndex="3" ColumnSize="13"/>
+    <ROW Table="TargetImages" Column="Order" MinValue="0" MaxValue="32767" Description="Relative order of the target image." Options="0" ColumnType="2" ColumnIndex="4" ColumnSize="2"/>
+    <ROW Table="TargetImages" Column="ProductValidateFlags" Category="Text" Description="The ProductValidateFlags field is used to specify product checking to avoid applying irrelevant transforms." Options="1" ColumnType="1" ColumnIndex="5" ColumnSize="16"/>
+    <ROW Table="TargetImages" Column="IgnoreMissingSrcFiles" MinValue="0" MaxValue="32767" Description="Enables patches to be made without requiring the entire image." Options="0" ColumnType="2" ColumnIndex="6" ColumnSize="2"/>
+    <ROW Table="UpgradedImages" Column="Upgraded" Category="Text" Description="Upgraded image identifier" Options="2" ColumnType="1" ColumnIndex="0" ColumnSize="13"/>
+    <ROW Table="UpgradedImages" Column="MsiPath" Category="Text" Description="Full path to the location of the .msi file for the upgraded image." Options="0" ColumnType="1" ColumnIndex="1" ColumnSize="255"/>
+    <ROW Table="UpgradedImages" Column="PatchMsiPath" Category="Text" Description="Full path to a modified copy of the upgraded installation database" Options="1" ColumnType="1" ColumnIndex="2" ColumnSize="255"/>
+    <ROW Table="UpgradedImages" Column="SymbolPaths" Category="Text" Description="Semicolon delimited list of folders that are to be searched for symbol files" Options="1" ColumnType="1" ColumnIndex="3" ColumnSize="255"/>
+    <ROW Table="UpgradedImages" Column="Family" KeyTable="ImageFamilies" KeyColumn="1" Description="Foreign key into the ImageFamilies table." Options="0" ColumnType="1" ColumnIndex="4" ColumnSize="8"/>
+    <ROW Table="UpgradedFilesToIgnore" Column="Upgraded" Category="Text" Description="Upgraded image identifier" Options="2" ColumnType="1" ColumnIndex="0" ColumnSize="13"/>
+    <ROW Table="UpgradedFilesToIgnore" Column="FTK" Category="Text" Description="Foreign key into the File table of the upgraded image." Options="2" ColumnType="1" ColumnIndex="1" ColumnSize="255"/>
+  </COMPONENT>
+</FRAGMENT>

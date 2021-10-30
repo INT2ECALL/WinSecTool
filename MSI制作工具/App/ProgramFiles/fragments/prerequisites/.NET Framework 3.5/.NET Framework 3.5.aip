@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D832EB6855842008B7F789DD1122E78" DisplayName=".NET Framework 3.5"
+      SetupFileUrl="http://download.microsoft.com/download/6/0/f/60fc5854-3cb8-4892-b6db-bd4f42510f28/dotnetfx35.exe"
+      Location="1" ExactSize="206692864" MD5="d1b341c1bc8b96e4898450c9881b1425"
+      WinNTVersions="Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="xy" TargetName=".NET Framework 3.5"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D832EB6855842008B7F789DD1122E78Install" Prereq="D832EB6855842008B7F789DD1122E78" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5\Install" RefContent="M1"
+      Order="1" Property="PreReqSearch_D832EB6855842008B7F789DD1122E78"/>
+  </COMPONENT>
+</FRAGMENT>

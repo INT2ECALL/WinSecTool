@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="BC59E81E2ED4810B71F06DEA5C3A309" DisplayName="Adobe AIR 21" VersionMin="21.0"
+      SetupFileUrl="http://airdownload.adobe.com/air/win/download/21.0/AdobeAIRInstaller.exe"
+      Location="1" ExactSize="0"
+      NoUiComLine="-silent"
+      Operator="1" Options="f" TargetName="Adobe AIR?AdobeAIRInstaller_21_0_0_215.exe"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="BC59E81E2ED4810B71F06DEA5C3A309AdobeAIR.dll" Prereq="BC59E81E2ED4810B71F06DEA5C3A309" SearchType="0"
+      SearchString="[CommonFilesFolder]Adobe AIR\Versions\1.0\Adobe AIR.dll" VerMin="21.0.0.215"
+      Order="1" Property="PreReqSearch_BC59E81E2ED4810B71F06DEA5C3A309"/>
+  </COMPONENT>
+</FRAGMENT>

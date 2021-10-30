@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_Upgrade_Question_Yes" ValueLocId="Property.AI_Upgrade_Question_Yes" Type="4"/>
+    <ROW Property="AI_Upgrade_Question_No" ValueLocId="Property.AI_Upgrade_Question_No" Type="4"/>
+    <ROW Property="AI_Upgrade_Replace_Question_Yes" ValueLocId="Property.AI_Upgrade_Replace_Question_Yes" Type="4"/>
+    <ROW Property="AI_Upgrade_Replace_Question_No" ValueLocId="Property.AI_Upgrade_Replace_Question_No" Type="4"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="UpgradeDlg" Control_="Question" Action="Hide" Condition="AI_REPLACE_PRODUCTS"/>
+    <ROW Dialog_="UpgradeDlg" Control_="QuestionReplace" Action="Hide" Condition="NOT AI_REPLACE_PRODUCTS"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="UpgradeDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="525" Height="395" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="UpgradeDlg" Control="Next" Type="PushButton" X="368" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UpgradeDlg" Control="Back" Type="PushButton" X="312" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UpgradeDlg" Control="Cancel" Type="PushButton" X="436" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UpgradeDlg" Control="Description" Type="Text" X="175" Y="70" Width="304" Height="15" Attributes="196611" TextStyle="Intro" Order="500" TextLocId="Control.Text.UpgradeDlg#Description"/>
+    <ROW Dialog_="UpgradeDlg" Control="Question" Type="Text" X="175" Y="158" Width="314" Height="30" Attributes="196611" TextStyle="Normal" Order="600" TextLocId="Control.Text.UpgradeDlg#Question"/>
+    <ROW Dialog_="UpgradeDlg" Control="QuestionReplace" Type="Text" X="175" Y="158" Width="314" Height="30" Attributes="196611" TextStyle="Normal" Order="700" TextLocId="Control.Text.UpgradeDlg#QuestionReplace"/>
+    <ROW Dialog_="UpgradeDlg" Control="Title" Type="Text" X="11" Y="9" Width="304" Height="15" Attributes="196611" TextStyle="Title" Order="800" TextLocId="Control.Text.UpgradeDlg#Title"/>
+    <ROW Dialog_="UpgradeDlg" Control="Buttons" Type="RadioButtonGroup" X="175" Y="223" Width="254" Height="40" Attributes="3" Property="AI_UPGRADE" Order="900"/>
+    <ROW Dialog_="UpgradeDlg" Control="GlobalProgress" Type="Bitmap" X="14" Y="88" Width="14" Height="86" Attributes="1048577" Text="[Collecting]" Order="1000"/>
+    <ROW Dialog_="UpgradeDlg" Control="CollectingLabel" Type="Text" X="35" Y="90" Width="104" Height="11" Attributes="196611" Property="WELCOMEDLGTEXT_1_PROP_30" TextStyle="Labels" Order="1100" TextLocId="Graphite.Control.Text.Dlg#CollectingLabel"/>
+    <ROW Dialog_="UpgradeDlg" Control="PreparingLabel" Type="Text" X="35" Y="114" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1200" TextLocId="Graphite.Control.Text.Dlg#PreparingLabel"/>
+    <ROW Dialog_="UpgradeDlg" Control="InstallingLabel" Type="Text" X="35" Y="138" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1300" TextLocId="Graphite.Control.Text.Dlg#InstallingLabel"/>
+    <ROW Dialog_="UpgradeDlg" Control="FinalizingLabel" Type="Text" X="35" Y="162" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1400" TextLocId="Graphite.Control.Text.Dlg#FinalizingLabel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="UpgradeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="UpgradeDlg" HCentering="50" VCentering="50" Width="525" Height="395" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.UpgradeDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="AI_UPGRADE" Order="1" Value="Yes" X="5" Y="0" Width="250" Height="15" Text="[AI_Upgrade_Question_Yes]" TextStyle="Normal" TextLocId="-"/>
+    <ROW Property="AI_UPGRADE" Order="2" Value="No" X="5" Y="20" Width="250" Height="15" Text="[AI_Upgrade_Question_No]" TextStyle="Normal" TextLocId="-"/>
+  </COMPONENT>
+</FRAGMENT>

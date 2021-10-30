@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C046B66AD422FACB3E9EFCC48928A" DisplayName="Adobe Reader XI" VersionMin="11.0"
+      SetupFileUrl="http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe"
+      Location="1" ExactSize="75858112" MD5="31688efbc3b9c99914a5bb7fb58aec9e"
+      NoUiComLine="/sAll"
+      Operator="1" Options="f" TargetName="Adobe Reader"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C046B66AD422FACB3E9EFCC48928AUpgradeCode" Prereq="C046B66AD422FACB3E9EFCC48928A" SearchType="4"
+      SearchString="{A6EADE66-0000-0000-484E-7E8A45000000}" VerMin="11.0.10"
+      Order="1" Property="PreReqSearch_C046B66AD422FACB3E9EFCC48928A"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="E9BFB0D602DD498F96473C9BBCDDEC89" DisplayName=".NET Framework 4.5 (web installer)"
+      SetupFileUrl="http://download.microsoft.com/download/b/a/4/ba4a7e71-2906-4b2d-a0e1-80cf16844f5f/dotNetFx45_Full_setup.exe"
+      Location="1" ExactSize="1005568" MD5="9e8253f0a993e53b4809dbd74b335227"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="xy" TargetName=".NET Framework 4.5"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="E9BFB0D602DD498F96473C9BBCDDEC89Release" Prereq="E9BFB0D602DD498F96473C9BBCDDEC89" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Release" RefContent="G378388"
+      Order="1" Property="PreReqSearch_E9BFB0D602DD498F96473C9BBCDDEC89"/>
+  </COMPONENT>
+</FRAGMENT>

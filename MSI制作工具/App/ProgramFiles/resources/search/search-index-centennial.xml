@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SearchIndex version="1.0">
+
+  <View id="AppXProductDetailsComponent">
+    uwp universal centennial package store logo version architecture publisher required OS target id information
+  </View>
+
+  <View id="AppXDependenciesComponent">
+    uwp universal centennial package dependency version
+  </View>
+
+  <View id="AppXAppDetailsComponent">
+    uwp universal centennial name description "start page" "entry point" rotation lock screen badge application id landscape portrait tile reccurence executable
+  </View>
+
+  <View id="AppXVisualAssetsComponent">
+    uwp universal centennial tile foreground background logo splash screen badge visual asset applist color
+  </View>
+
+  <View id="AppXCapabilitiesComponent">
+    uwp universal centennial capability internet network documents pictures music videos certificate storage location microphone proximity webcam usb bluetooth human POS alljoyn appointments blocked chat message code generation contacts enterprise authentication objects 3d phone call user account voip trust
+  </View>
+
+  <View id="AppXAppDeclarationsComponent">
+    uwp universal centennial declaration auto play device content background "file type" protocol account picture cached camera contact print search certificate file open save share app service dial above lock screen alarm appointments provider call media playback personal assistant launch pre-installed configuration 3d workflow publisher cache folders restricted update task web server in-process
+  </View>
+
+  <View id="AppXUriRulesComponent">
+    uwp universal centennial content URI rule include exclude winrt access
+  </View>
+
+</SearchIndex>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="A8359BB99C8E4D5C97657B40B00B7989" DisplayName="SQL Server ODBC Driver 11 x86" VersionMin="12.1.4100.1"
+      SetupFileUrl="http://download.microsoft.com/download/F/E/E/FEE62C90-E5A9-4746-8478-11980609E5C2/ENU/x86/msodbcsql.msi"
+      Location="1" ExactSize="2531328" MD5="1aa7129e18a9eadb4a2ca0ed48f795af"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista RTM x86, Windows Vista SP1 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      BasicUiComLine="/qb IACCEPTMSODBCSQLLICENSETERMS=YES"
+      NoUiComLine="/qn IACCEPTMSODBCSQLLICENSETERMS=YES"
+      Operator="1" Options="f" TargetName="SQL Server Express 2014 SP1?msodbcsql_x86.msi"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="A8359BB99C8E4D5C97657B40B00B7989Version" Prereq="A8359BB99C8E4D5C97657B40B00B7989" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft ODBC Driver 11 for SQL Server\CurrentVersion\Version" VerMin="12.1.4100.1"
+      Order="1" Property="PreReqSearch_A8359BB99C8E4D5C97657B40B00B7989"/>
+  </COMPONENT>
+</FRAGMENT>

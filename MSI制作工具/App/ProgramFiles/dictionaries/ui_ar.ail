@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="ar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="مجلد جديد"/>
+  <STRING id="AI.DuplicateFile.DestName" value="تكرار %s من %s"/>
+  <STRING id="AI.Environment.DefaultName" value="متغير جديد"/>
+  <STRING id="AI.Feature.DefaultDescription" value="الوصف"/>
+  <STRING id="AI.Feature.DefaultTitle" value="الميزة"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="تشغيل"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="الدعم"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="وصفك لـ [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="ملف جديد"/>
+  <STRING id="AI.IniFile.DefaultKey" value="مفتاح جديد"/>
+  <STRING id="AI.IniFile.DefaultSection" value="قسم جديد"/>
+  <STRING id="AI.IniFile.DefaultValue" value="قيمة جديدة"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="منتجك"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="لا يمكن تثبيت [ProductName] على الأنظمة المثبت عليها إصدار Adobe Reader أقل من [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName] لا يمكن تثبيته على أنظمة لا تحتوي على  [AI_REQUIRED_ACTIVESYNC_DISPLAY] أَو أعلى."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="لا يمكن تثبيت [ProductName] على الأنظمة ذات جودة ألوان أقل من [AI_REQUIRED_COLOR_QUALITY] بت."/>
+  <STRING id="AI.LaunchCondition.Description" value="وصف شروط التشغيل"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="لا يمكن تثبيت [ProductName] على الأنظمة المثبت عليها إصدار DirectX أقل من [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="لا يمكن تثبيت [ProductName] على الأنظمة المثبت عليها إصدار .NET Framework أقل من [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="لا يمكن تثبيت [ProductName] على الأنظمة المثبت عليها إصدار .NET Core أقل من [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="لا يمكن تثبيت [ProductName] على الأنظمة المثبت عليها إصدار Internet Explorer أقل من [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="لا يمكن تثبيت [ProductName] على الأنظمة المثبت عليها إصدار خدمات معلومات إنترنت أقل من [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="يتطلب [ProductName] اتصال إنترنت نشط للتثبيت. الرجاء التحقق من تكوين شبكة الاتصال وإعدادات الخادم الوكيل."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] لا يمكن تثبيته في أنظمة نسخة JDK فيها أقل من [AI_REQUIRED_JDK_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="لا يمكن تثبيت [ProductName] على الأنظمة المثبت عليها إصدار JRE أقل من [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="لا يمكن تثبيت [ProductName] على [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="لا يمكن تثبيت [ProductName] على [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="لا يمكن تثبيت [ProductName] على [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="لا يمكن تثبيت [ProductName] على [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="لا يمكن تثبيت [ProductName] على [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="لا يمكن تثبيت [ProductName] على [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="[ProductName] لا يمكن تثبيته في أنظمة لا تحتوي على [AI_REQUIRED_OFFICE_APPNAME]"/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] لا يمكن تثبيته في أنظمة لا تحوي [AI_REQUIRED_OFFICE_APPNAME] 2003."/>
+  <STRING id="AI.LaunchCondition.Office2003PIA" value="[ProductName] لا يمكن تثبيته على أنظمة لا تحتوي على [AI_REQUIRED_OFFICE2003_PIA_APPNAME] 2003 مجمع  التشغيل الداخلي (Primary Interop Assembly)."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="لا يمكن تثبيت [ProductName] على الأنظمة بدون [AI_REQUIRED_OFFICE_APPNAME] 2007."/>
+  <STRING id="AI.LaunchCondition.Office2007PIA" value="[ProductName] لا يمكن تثبيته في أنظمة لا تحتوي على [AI_REQUIRED_OFFICE2007_PIA_APPNAME] 2007 مجموعة الأنظمة الداخلية الأساسية "/>
+  <STRING id="AI.LaunchCondition.Office2007SharedPIA" value="[ProductName] لا يمكن تثبيته في أنظمة لا تحتوي على مجموعة الأنظمة الداخلية المشتركة لبرنامج الأوفيس 2007 "/>
+  <STRING id="AI.LaunchCondition.Privileged" value="يتطلب تثبيت [ProductName] امتيازات المسئول من أجل تثبيت."/>
+  <STRING id="AI.LaunchCondition.RAM" value="لا يمكن تثبيت [ProductName] على الأنظمة التي تحتوي على ذاكرة فعلية أقل من [AI_REQUIRED_PHYSICAL_MEMORY] ميجا بايت."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="لا يمكن تثبيت [ProductName] على الأنظمة ذات دقة شاشة أقل من [AI_REQUIRED_SCREEN_RESOLUTION_X] × [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName] لا يمكن تثبيته في أنظمة لا تحتوي على  [AI_REQUIRED_SQLCOMPACT_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName] لا يمكن تثبيته في أنظمة لا تحتوي على  [AI_REQUIRED_SQLEXPRESS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.VM" value="لا يمكن تثبيت [ProductName] على الأنظمة التي تعمل على الأجهزة الظاهرية."/>
+  <STRING id="AI.LaunchCondition.VSTO" value="[ProductName] لا يمكن تثبيته في أنظمة لا تحتوي على [AI_REQUIRED_VSTO_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.WI" value="لا يمكن تثبيت [ProductName] على الأنظمة المثبت عليها إصدار مثبت الويندوز أقل من [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName] لا يمكن تثبيته على أنظمة فيها نسخة إطار XNA أقل من [AI_REQUIRED_XNA_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="YourFile.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="تحتوي قاعدة بيانات المثبت على المعلومات المنطقية والبيانات المطلوبة لتثبيت [|ProductName]."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="شركتك"/>
+  <STRING id="AI.Property.DefaultModuleName" value="وحدة الدمج الخاصة بك"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="تحتوي قاعدة البيانات هذه على المعلومات المنطقية والبيانات المطلوبة لتثبيت مكون &lt;module name&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="تطبيقك"/>
+  <STRING id="AI.Property.DefaultValue" value="قيمتك"/>
+  <STRING id="AI.Property.FindExeTitle" value="حدد حزمة التثبيت لبرنامج [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="تحتوي هذه الحزمة على وحدة دمج تم إنشاؤها بإصدار تجريبي من المثبت المتقدم. ويمكنك استخدامها لأغراض التقييم فقط."/>
+  <STRING id="AI.Property.TrialMessageBody" value="تم إنشاء هذه الحزمة بإصدار تجريبي من المثبت المتقدم. ويمكنك استخدامها لأغراض التقييم فقط."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="تحذير"/>
+  <STRING id="AI.Registry.DefaultKey" value="New_Key"/>
+  <STRING id="AI.Registry.DefaultName" value="قيمة جديدة"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="YourFile.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="YourValue"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="ServiceName"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="وصف خدمتك"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="خدمتك"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="مشاركة جديدة"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="اختصار لـ YourCommand"/>
+  <STRING id="AI.Shortcut.DefaultName" value="اختصار لـ %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="إلغاء تثبيت"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;فتح"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="ملف جديد"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.BrowseDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.CancelDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ErrorDlg" value="معلومات المثبت"/>
+  <STRING id="Dialog.ExitDialog" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.FatalError" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.FilesInUse" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.FolderDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.LogonInformationDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.PrepareDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ProgressDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ResumeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.TemplateDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.UserExit" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[Setup] [ProductName]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="إنشاء مجلد جديد|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="مستوى واحد لأعلى|"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="إنشاء مجلد جديد|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="مستوى واحد لأعلى|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="رمز المعلومات|"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="تثبيت تام|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="تثبيت خادم|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="تثبيت زبون|"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="رمز المعلومات|"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="تعديل تثبيت|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="إزالة تثبيت|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="إصلاح تثبيت|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="تثبيت تام|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="تثبيت مخصص|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="تثبيت نموذجي|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="رمز التعجب|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="ب&amp;حث في:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="استعراض إلى مجلد الوجهة"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="اسم ال&amp;مجلد:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="تغيير مجلد الوجهة الحالي"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="الرجاء تحديد موقع شبكة لصورة الخادم لمنتج [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="أد&amp;خل موقع شبكة جديد أو انقر &quot;استعراض&quot; للاستعراض إلى موقع."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="موقع شبكة الاتصال"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="&amp;مفتاح CD:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="الرجاء إدخال معلومات شركتك"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="ال&amp;رجاء إدخال اسم مؤسستك في المربع التالي.  سوف يستخدم هذا المربع كاسم افتراضي للشركة لعمليات التثبيت اللاحقة لبرنامج [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="بيانات الشركة"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="سوف ينشئ [Wizard] صورة خادم لبرنامج [ProductName]، في موقع محدد على الشبكة.  انقر فوق &quot;التالي&quot; للمتابعة أو فوق &quot;إلغاء&quot; لإنهاء [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#DescriptionNoClose" value="الـ [Wizard] سيقوم بإنشاء صورة خادم لـ  [ProductName]، في موقع محدد على الشبكة أنقر فوق التالي للمواصلة أو أغلق هذه النافذة للخروج من هذا  [Wizard]"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="مرحبا بك في [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;بحث في:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="استعراض إلى مجلد الوجهة"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="اسم ال&amp;مجلد:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="تغيير مجلد الوجهة الحالي"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="هل تريد بالتأكيد إلغاء تثبيت [ProductName]؟"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="إ&amp;نهاء"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="يثبت كل من إعدادات الزبون والخادم. |"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="&amp;الخادم"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="يثبت إعدادات والخادم. |"/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="اختار نوع التثبيت الأفضل لملائمة متطلباتك"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="اختار نوع التثبيت"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="&amp;الزبون"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="يثبت إعدادات الزبون"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="حدد الطريقة التي تريد من خلالها تثبيت الميزات."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="ا&amp;ستخدام القرص"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="وصف متعدد السطور للعنصر المحدد حالياً."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="حجم العنصر المحدد حاليًا."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;مسار التحديد&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="الموقع:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="انقر فوق الرموز الموجودة في الشجرة أدناه لتغيير طريقة تثبيت كل ميزة."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="إعداد مخصص"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="شجرة تحديدات"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="مساحة القرص المطلوبة لتثبيت الميزات المحددة."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="لا تحتوي وحدات التخزين المميزة (في حالة تمييز أي منها) على مساحة كافية للميزات المحددة حاليًا.  يمكنك إزالة ملفات من وحدات التخزين المميزة، أو اختيار تثبيت ميزات أقل على محرك (محركات) الأقراص المحلية، أو تحديد محرك (محركات) أقراص وجهة مختلفة."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="متطلبات مساحة القرص"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="نص المعلومات"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="انقر فوق زر &quot;إنهاء&quot; لإنهاء [Wizard]."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="بدء تشغيل [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="إكمال [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="فتح ملف القراءة"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="ربط [ProductName] بأنواع الملفات."/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="سوف يسجل [Wizard] برنامج [ProductName] لمعالجة أنواع الملفات التالية: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="اقترانات الملفات"/>
+  <STRING id="Control.Text.FatalError#Description1" value="تم إنهاء عملية إعداد [ProductName] قبل الأوان بسبب حدوث خطأ.  لم يتم تعديل النظام.  الرجاء تشغيل التثبيت مرة أخرى لتثبيت هذا البرنامج في وقت لاحق."/>
+  <STRING id="Control.Text.FatalError#Description2" value="انقر فوق زر &quot;إنهاء&quot; لإنهاء [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="تم إنهاء [Wizard] [ProductName] قبل الأوان"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Description" value="اختار الامتدادات التي تريد ربطها بـ [ProductName]"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Text" value="رجاء اختار أنواع الملفات التي تريد فتحها تلقائيا بواسطة [ProductName]:"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Title" value="اختار ربط الملفات"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="بعض الملفات التي تحتاج إلى تحديث قيد التشغيل حالياً."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="تستخدم التطبيقات التالية ملفات تحتاج إلى تحديث بواسطة هذا الإعداد. يمكنك إما إغلاق التطبيقات ثم النقر فوق &quot;إعادة المحاولة&quot;، أو النقر فوق &quot;متابعة&quot; لكي يستمر المثبت في عملية التثبيت، واستبدال تلك الملفات عند إعادة تشغيل النظام."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="الملفات قيد الاستخدام"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="هذا هو المجلد الذي سيتم تثبيت [ProductName] فيه."/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="ال&amp;مجلد:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="للتثبيت إلى هذا المجلد، انقر فوق &quot;التالي&quot;. للتثبيت إلى مجلد مختلف، أدخله في الأسفل أو انقر فوق &quot;استعراض&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="حدد مجلد التثبيت"/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="اختار نوع التثبيت"/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="ثبت [ProductName]  لـ : "/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="نوع التثبيت"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="الرجاء قراءة اتفاقية الترخيص التالية بعناية"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="اتفاقية ترخيص المستخدم النهائي"/>
+  <STRING id="Control.Text.LogonInformationDlg#Description" value="حدد نوع معلومات حساب المستخدم"/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainEdit" value=""/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainLabel" value="&amp;المجال:"/>
+  <STRING id="Control.Text.LogonInformationDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameLabel" value="&amp;اسم المستخدم:"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordLabel" value="&amp;كلمة المرور:"/>
+  <STRING id="Control.Text.LogonInformationDlg#Title" value="معلومات الدخول للكمبيوتر"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;تعديل"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="يسمح للمستخدمين بتغيير طريقة تثبيت الميزات."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="اختر العملية التي ترغب في تنفيذها."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="إ&amp;زالة"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="يزيل [ProductName] من الكمبيوتر."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="إ&amp;صلاح"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="يقوم هذا الخيار بإصلاح الأخطاء في حالة التثبيت الأخيرة - إصلاح الملفات المفقودة أو التالفة، أو الاختصارات وإدخالات التسجيل."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="تعديل أو إصلاح أو إزالة التثبيت"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="سوف يسمح لك [Wizard] بتغيير طريقة تثبيت ميزات [ProductName] على الكمبيوتر أو حتى إزالة [ProductName] من الكمبيوتر.  انقر فوق &quot;التالي&quot; للمتابعة أو فوق &quot;إلغاء&quot; لإنهاء [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#DescriptionNoClose" value="يسمح لك المعالج بتغيير طريقة تثبيت ميزات [ProductName] أو حتى إزالة [ProductName] من جهازك انقر فوق التالي للاستمرار أو إلغاء لإنهاء هذا المعالج"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="مرحبا بك في [Wizard][ProductName]"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="بعض الملفات التي تحتاج إلى تحديث قيد التشغيل حالياً."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="تستخدم التطبيقات التالية ملفات تحتاج إلى تحديث بواسطة هذا الإعداد."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="الملفات قيد الاستخدام"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="تتجاوز مساحة القرص المطلوبة للتثبيت المساحة المتوفرة على القرص."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="لا تحتوي وحدات التخزين المميزة على مساحة كافية للميزات المحددة حاليًا.  يمكنك إزالة ملفات من وحدات التخزين المميزة، أو اختيار تثبيت ميزات أقل على محرك (محركات) الأقراص المحلية، أو تحديد محرك (محركات) أقراص وجهة مختلفة."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="نفدت مساحة القرص"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="تتجاوز مساحة القرص المطلوبة للتثبيت المساحة المتوفرة على القرص."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="لا تحتوي وحدات التخزين المميزة على مساحة كافية للميزات المحددة حاليًا.  يمكنك إزالة ملفات من وحدات التخزين المميزة، أو اختيار تثبيت ميزات أقل على محرك (محركات) الأقراص المحلية، أو تحديد محرك (محركات) أقراص وجهة مختلفة."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="وكإجراء بديل، يمكنك اختيار تعطيل وظيفة التراجع الخاصة بالمثبت.  يسمح هذا للمثبت باستعادة الحالة الأصلية للكمبيوتر إذا لم يكتمل التثبيت بأي طريقة.  انقر فوق &quot;نعم&quot; إذا رغبت في المخاطرة بتعطيل التراجع."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="نفاذ مساحة القرص"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="سيقوم [Wizard] بتثبيت حزمة [ProductName] على الكمبيوتر الخاص بك. انقر فوق &quot;التالي&quot; للمتابعة أو فوق &quot;إلغاء&quot; لإنهاء حزمة [Wizard]."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#DescriptionNoClose" value="[Wizard] سيقوم بتثبيت إصلاحات لـ[ProductName] في جهازك أنقر فوق التالي للمواصلة أو أغلق هذه النافذة للخروج من [Wizard] تبيت الإصلاحات"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="مرحبًا بك في حزمة [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="الرجاء الانتظار أثناء تحضير [Wizard] لإرشادك خلال عملية تثبيت."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="مرحبا بك في [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="نسبة التقدم"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="الحالة:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value=" الرجاء الانتظار أثناء [Progress2] [ProductName].  قد يستغرق ذلك عدة دقائق."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="الرجاء قراءة النص التالي بعناية"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="ملف القراءة"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="سيقوم [Wizard] بإكمال تثبيت [ProductName] على الكمبيوتر.  انقر فوق &quot;تثبيت&quot; للمتابعة أو فوق &quot;إلغاء&quot; لإنهاء [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#DescriptionNoClose" value="[Wizard] سيكمل تثبيت [ProductName] على جهازك . انقر فوق تثبيت للمواصلة أو أغلق هذه النافذة للخروج من [Wizard]"/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="استئناف [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="كا&amp;مل"/>
+  <STRING id="Property.Text_Complete" value="كامل"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="سيتم تثبيت كافة ميزات البرنامج.  (يتطلب معظم مساحة القرص)"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="م&amp;خصص"/>
+  <STRING id="Property.Text_Custom" value="مخصص"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="يسمح للمستخدمين باختيار ميزات البرنامج التي سيتم تثبيتها وأين سيتم تثبيتها. موصى به للمستخدمين المتقدمين."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="اختر نوع الإعداد الأفضل لاحتياجاتك"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="اختر نوع الإعداد"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;نموذجي"/>
+  <STRING id="Property.Text_Typical" value="نموذجي"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="يثبت ميزات البرنامج الأكثر شيوعاً. موصى به لمعظم المستخدمين."/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="إنشاء اختصارات التطبيق"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="الكمبيوتر المكتبي"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Quick Launch toolbar"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="إنشاء اختصارات لبرنامج [ProductName] في المواقع التالية:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="مجلد قائمة ابدأ/البرامج"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="مجلد بدء التشغيل"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="تكوين الاختصارات"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="قاعدة البيانات:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="تكوين اتصال SQL..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="مورد ODBC:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="كلمة المرور:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="المنفذ:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="الخادم:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="قاعدة بيانات SQL"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="اسم المستخدم:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="هذا هو المجلد الذي سيتم تثبيت اختصارات [ProductName] فيه."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="للتثبيت في مجلد فرعي، قم بإلحاق اسم المجلد الفرعي، مفصولا بواسطة &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;مجلد اختصارات قائمة ابدأ:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="لتثبيت الاختصارات في هذا المجلد، انقر فوق &quot;التالي&quot;. للتثبيت إلى مجلد مختلف، أدخله في الأسفل أو حدد واحدًا من مربع التحرير والسرد."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="حدد مجلد اختصارات قائمة ابدأ"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="وصف مربع الحوار الجديد..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="مربع حوار جديد"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="وصف حوار جديد..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="حاور جديد"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="مربع حوار إنتاج (انتظار) جديد"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="رجاء هيئ خواص خادم Tomcat"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="اسم المضيف :"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="رقم منفذ HTTP:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="رقم منفذ HTTP SSL:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="رقم إغلاق المنفذ :"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="خواص خادم Tomcat"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="البحث عن الإصدارات القديمة من [ProductName] وترقيتها."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="يستطيع [Wizard] البحث عن الإصدارات الأقدم من [ProductName] وإزالتها. هل تريد إزالة هذه الإصدارات؟"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="اكتشف [Wizard] أنك اخترت موقع تثبيت مستخدم أيضاً بواسطة الإصدار [AI_Replaced_Versions_List] من [ProductName]. يجب إلغاء تثبيت هذا الإصدار. هل تريد أيضاً إزالة أي إصدار قديم آخر؟"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="ترقية الإصدارات الأقدم"/>
+  <STRING id="Control.Text.UserExit#Description1" value="تمت مقاطعة برنامج إعداد [ProductName].  لم يتم تعديل النظام.  الرجاء تشغيل التثبيت مرة أخرى لتثبيت هذا البرنامج في وقت لاحق."/>
+  <STRING id="Control.Text.UserExit#Description2" value="انقر فوق زر &quot;إنهاء&quot; لإنهاء [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="تمت مقاطعة [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="الرقم المسلسل:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="الرجاء إدخال معلومات العميل"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="ا&amp;سم المستخدم:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="ال&amp;مؤسسة:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="معلومات العميل"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] جاهز لبدء تثبيت [ProductName]"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="انقر فوق &quot;تثبيت&quot; لبدء التثبيت.  إذا أردت معاينة أي من إعدادات التثبيت أو تغييرها، انقر فوق &quot;السابق&quot;.  انقر فوق &quot;إلغاء&quot; لإنهاء المعالج."/>
+  <STRING id="Control.Text.VerifyReadyDlg#TextNoClose" value=""/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="جاهز للتثبيت"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="لقد اخترت إزالة البرنامج من الكمبيوتر."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="انقر فوق &quot;إزالة&quot; لإزالة [ProductName] من الكمبيوتر.  إذا أردت معاينة أي من إعدادات التثبيت أو تغييرها، انقر فوق &quot;السابق&quot;.  انقر فوق &quot;إلغاء&quot; لإنهاء المعالج."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#TextNoClose" value="انقر فوق إزالة لإزالة [ProductName] من جهازك . إذا أردت مراجعة أو تغيير أي من إعدادات التثبيت أنقر على زر السابق .أغلق النافذة للخروج من المعالج"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="إزالة [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard] جاهز لبدء إصلاح [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="المثبت المتقدم"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="انقر فوق &quot;إصلاح&quot; لإصلاح تثبيت [ProductName].  إذا أردت معاينة أي من إعدادات التثبيت أو تغييرها، انقر فوق &quot;السابق&quot;.  انقر فوق &quot;إلغاء&quot; لإنهاء المعالج."/>
+  <STRING id="Control.Text.VerifyRepairDlg#TextNoClose" value=""/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="إصلاح [ProductName]"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="الرجاء الانتظار حتى ينتهي المثبت من تحديد متطلبات مساحة القرص."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="سيقوم [Wizard] بتثبيت [ProductName] على الكمبيوتر.  انقر فوق &quot;التالي&quot; للمتابعة أو فوق &quot;إلغاء&quot; لإنهاء [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#DescriptionNoClose" value="سيقوم [Wizard] بتثبيت [ProductName] على الكمبيوتر.  انقر فوق &quot;التالي&quot; للمتابعة أو فوق &quot;إلغاء&quot; لإنهاء [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="مرحبا بك في [Wizard] [ProductName]"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ClientCommand" value="الزبون"/>
+  <!-- Azure theme strings -->
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#CompleteCommand" value="تام"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ServerCommand" value="خادم"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#ModifyCommand" value="إضافة إو إزالة ميزات"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RemoveCommand" value="إزالة"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RepairCommand" value="إصلاح"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CompleteCommand" value="إ&amp;نهاء"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CustomCommand" value="&amp;مخصص"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#TypicalCommand" value="&amp;نموذجي"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ClientCommand" value="يثبت إعدادات الزبون. |"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#CompleteCommand" value="يثبت كل من إعدادات الزبون والخادم. |"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ServerCommand" value="يثبت إعدادات الخادم. |"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#ModifyCommand" value="تغيير أي من الميزات المثبتة.|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RemoveCommand" value="يزيل [ProductName] من جهازك. |"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RepairCommand" value="يصلح الأخطاء في حالة التثبيت الأخيرة .| "/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CompleteCommand" value="بدء تثبيت كل الميزات . |"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CustomCommand" value="أختيار أي من الميزات سيتم تثبيتها . |"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#TypicalCommand" value="بدء تثبيت الميزات الافتراضية . |"/>
+  <STRING id="Azure.Control.Text.AdminInstallPointDlg#Title" value="اختار موقع الشبكة لصورة الخادم ـ [ProductName] منتج "/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceLabel" value="المساحة المتاحة في القرص"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#ItemDescription" value="وصف متعدد السطور للعنصر المختار حاليا"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#Text" value="اختار أي من عناصر [ProductName] سيتم تبيته "/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel" value="المساحة الكلية المطلوبة في القرص : "/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.DiskCostDlg#Title" value="مساحة القرص المطلوبة للميزة المختارة "/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionConfigured" value="[ProductName] تم تهيئته بنجاح"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionInstalled" value="[ProductName] تم تثبيته بنجاح"/>
+  <STRING id="Azure.Control.Text.ExitDialog#Finish" value="&amp;إغلاق"/>
+  <STRING id="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" value="تشغيل [ProductName]"/>
+  <STRING id="Azure.Control.Text.ExitDialog#ViewReadmeCheckBox" value="فتح ملف القراءة"/>
+  <STRING id="Azure.Control.Text.ExtRegDlg#Title" value="ربط [ProductName] مع امتداد الملف"/>
+  <STRING id="Azure.Control.Text.FilesInUse#Title" value="بعض الملف التي تحتاج إلى تحديث قيد التشغيل الآن"/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceLabel" value="المساحة المتاحة في القرص : "/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#ContinueButton" value="&amp;استمر"/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceLabel" value="المساحة الحرة المتبقية في القرص :"/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceText" value="[PrimaryVolumeSpaceRemaining]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#Title" value="اختار موقع الملف"/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceLabel" value="المساحة الكلية المطلوبة في القرص : "/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.InstallTypeDlg#Title" value="[ProductName] نوع تثبيت"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Description" value="للاستمرار يجب أن تقرأ وتقبل شروط هذه الإتفاقية. إذا كنت لا توافق على شروط ترخيص  [Manufacturer] أغلق هذه النافذة لإلغاء تثبيت"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#EulaAgreeCheckBox" value="أ &amp;قبل البنود الواردة في إتفاقية الترخيص"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Title" value="إقرأ شروط ترخيص [Manufacturer]"/>
+  <STRING id="Azure.Control.Text.LogonInformationDlg#Title" value="معلومات حساب المستخدم"/>
+  <STRING id="Azure.Control.Text.MaintenanceTypeDlg#Title" value="تغيير إعداداتك لتثبيت [ProductName]"/>
+  <STRING id="Azure.Control.Text.MsiRMFilesInUse#Title" value="بعض الملفات التي تحتاج إلى تحديث قيد التشغيل الآن . "/>
+  <STRING id="Azure.Control.Text.OutOfDiskDlg#Title" value="المساحة المطلوبة من القرص للتثبيت أكثر من المساحة المتاحة "/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#OkButton" value="موافق"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#Title" value="المساحة المطلوبة من القرص للتثبيت أكثر من المساحة المتاحة"/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Description" value="رجاء انتظر أثناء تحضير [Wizard] لإرشادك خلال تثبيت "/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Title" value="تحضير [ProductName] [Wizard] "/>
+  <STRING id="Azure.Control.Text.PrerequisitesDlg#Title" value="اختار البرمجيات المطلوب تثبيتها"/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Description" value="[Progress1] [ProductName]..."/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Title" value="تقدم التثبيت"/>
+  <STRING id="Azure.Control.Text.ReadmeDlg#Title" value="رجاء إقرأ النص التالي بحرص"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Customize" value="اختار أي من الميزات المثبتة.|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Description" value="رجاءاختار نوع تثبيت [ProductName] الذي تفضله من اسفل : "/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#InstallNow" value="إبدأ تثبيت الميزات الافتراضية.|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Title" value="اختار نوع التثبيت الذي تريده"/>
+  <STRING id="Azure.Control.Text.ShortcutsDlg#Title" value="إنشاء اختصارات التطبيق"/>
+  <STRING id="Azure.Control.Text.SQLConnectionDlg#Title" value="تهيئة SQL اتصال"/>
+  <STRING id="Azure.Control.Text.StartMenuShortcutsDlg#Title" value="اختار مجلد اختصارات قائمة بدء التشغيل"/>
+  <STRING id="Azure.Control.Text.TomcatServerDlg#Title" value="تهيئة خواص خادم Tomcat "/>
+  <STRING id="Azure.Control.Text.UpgradeDlg#Title" value="ابحث ورق الإصدارات الأخيرة من  [ProductName]"/>
+  <STRING id="Azure.Control.Text.UserRegistrationDlg#Title" value="رجاء أدخل معلومات الزبون"/>
+  <STRING id="Azure.Control.Text.VerifyReadyDlg#Title" value="بدء تثبيت [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRemoveDlg#Title" value="بدء إزالة [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRepairDlg#Title" value="بدء إصلاح [ProductName]"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#ContinueButton" value="&amp;استمر"/>
+  <STRING id="Property.Text_Continue" value="استمر"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Description" value="للاستمرار يجب أن تقرأ وتقبل شروط هذه الإتفاقية. إذا كنت لا توافق على شروط ترخيص  [Manufacturer] أغلق هذه النافذة لإلغاء تثبيت"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#EulaAgreeCheckBox" value="أ &amp;قبل البنود الواردة في إتفاقية الترخيص"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Title" value="مرحبا بك في [Wizard] [ProductName]"/>
+  <!-- Graphite theme strings -->
+  <STRING id="Graphite.Control.Text.AdminInstallPointDlg#Title" value="موقع الشبكة لصورة خادة [ProductName]"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Description" value="رجاء اختار ميزات البرنامج التي تريد تثبيتها . "/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#SpaceRequiredLabel" value="المساحة المطلوبة للعناصر المختارة : "/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Title" value="تثبيت مخصص"/>
+  <STRING id="Graphite.Control.Text.Dlg#CollectingLabel" value="تجميع المعلومات"/>
+  <STRING id="Graphite.Control.Text.Dlg#FinalizingLabel" value="إنهاء التثبيت"/>
+  <STRING id="Graphite.Control.Text.Dlg#InstallingLabel" value="تثبيت"/>
+  <STRING id="Graphite.Control.Text.Dlg#PreparingLabel" value="التحضير للتثبيت"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Intro" value="تم تثبيت [ProductName] بنجاح ."/>
+  <STRING id="Graphite.Control.Text.ExitDialog#IntroUninstall" value="تمت إزالة [ProductName] بنجاح . "/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Title" value="انتهى إعداد [ProductName]"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description1" value="إعداد [ProductName] تم إنهاؤه قبل الأوان لوجود خطأ . لم تحدث أي تغييرات في نظامك . لتبيت هذا البرنامج في وقت لاحق رجاء قم بتشغيل التثبيت مرة أخرى ."/>
+  <STRING id="Graphite.Control.Text.FatalError#Description2" value="انقر فوق زر &quot;إنهاء&quot; للخروج من Wizard]."/>
+  <STRING id="Graphite.Control.Text.FatalError#Title" value="تمت مقاطعة إعداد [ProductName]"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#AvailableSpaceLabel" value="المساحة المتوفرة على القرص"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Description" value="للتثبيت في هذا المجلد انقر فوق &quot;التالي&quot;.للتثبيت في مجلد مختلف أدخله في الأسفل أو أنقر فوق &quot;Browse&quot;."/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Intro" value="هذا هو المجلد الذي سيتم فيه تثبيت [ProductName]"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#RemainingSpaceLabel" value="مساحة القرص المتبقية"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#SpaceRequiredLabel" value="المساحة المطلوبة"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Title" value="مجلد التثبيت"/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Description" value="رجاء إقرأ إتفاقية الترخيص التالية بحرص ."/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Title" value="إتفاقية رخصة الاستخدام"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#ChangeText" value="تغيير حالة التثبيت الحالي ـ إضافة إو إزالة ميزات البرنامج."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Description" value="رجاء اختار نوع الإصلاح الذي تريده وانقر فوق &quot;التالي&quot;."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Intro" value="مرحبا بك في معالج إصلاح [ProductName]."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RemoveText" value="يزيل [ProductName] من جهازك ."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RepairText" value="يقوم هذا الخيار بإصلاح الأخطاء في حالة التثبيت الأخيرة - إصلاح الملفات المفقودة أو التالفة، أو الاختصارات وإدخالات التسجيل"/>
+  <STRING id="Graphite.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] سيسمح لك بتغيير طريقة تثبيت ميزات [ProductName] في كمبيوترك ، أو حتى إزالة [ProductName] من كمبيوترك انقر فوق  &quot;التالي&quot; للاستمرار  أو  &quot;إلغاء&quot; للخروج من [Wizard]."/>
+  <STRING id="Graphite.Control.Text.MsiRMFilesInUse#Description" value="بعض الملفات التي تحتاج لتحديث مستخدمة الآن ."/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Intro" value="مرحبا بك في معالج [ProductName] لإعداد الإصلاح"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Title" value="مرحبا بك في معالج إصلاح [ProductName]"/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Description" value="رجاء انتظر أثناء قيام [Wizard] بالتحضير لإرشادك خلال التثبيت ."/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Title" value="جاري تحضير إعداد  [ProductName]"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Description" value="اختار أي البرمجيات المطلوبة الذي سيتم تثبيته ."/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}الاسم,مطلوب,موجود,الفعل"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Title" value="البرمجيات المطلوبة"/>
+  <STRING id="Graphite.Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Description" value="رجاء إقرأ النص التالي بحرص."/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Title" value="معلومات ملف القراءة"/>
+  <STRING id="Graphite.Control.Text.ResumeDlg#Title" value="مواصلة إعداد [ProductName]"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Description" value="اختر نوع الإعداد الأفضل لاحتياجاتك"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Title" value="نوع الإعداد"/>
+  <STRING id="Graphite.Control.Text.SQLConnectionDlg#Title" value="تهيئة قاعدة بيانات SQL"/>
+  <STRING id="Graphite.Control.Text.TomcatServerDlg#Title" value="تهيئة خواص خادم Tomcat"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description1" value="إعداد [ProductName]  تمت مقاطعته لم تحدث أي تغييرات في نظامك . لتثبيت هذا البرنامج في وقت لاحق، رجاء شغل المثبت مرة أخرى ."/>
+  <STRING id="Graphite.Control.Text.UserExit#Description2" value="أنقر فوق  زر  &quot;إنهاء&quot; للخروج من  [Wizard]."/>
+  <STRING id="Graphite.Control.Text.UserExit#Title" value="إعداد [ProductName] تمت مقاطعته"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Description" value="أنقر فوق  &quot;تثبيت&quot; لبدء التثبيت . إذا أردت مراجعة أو تغيير أي من إعداداتك للتثبيت ، انقر فوق &quot;السابق&quot;. انقرعلى  &quot;إلغاء&quot; للخروج من هذا المعالج ."/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Intro" value="[Wizard] جاهز لبدء تثبيت [ProductName]"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Title" value="جاهز للتثبيت"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Description" value="انقرعلى  &quot;إزالة&quot; لإزالة [ProductName] من جهازك . إذا أردت مراجعة أو تغيير أي من إعداداتك للتثبيت ، انقر فوق &quot;السابق&quot;. انقرعلى  &quot;إلغاء&quot; للخروج من هذا المعالج . "/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Intro" value="[Wizard] جاهز للبدء في إزالة [ProductName]."/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Title" value="جاهز للإزالة"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Description" value="انقرعلى  &quot;إصلاح&quot; لإصلاح تثبيت [ProductName].إذا أردت مراجعة أو تغيير أي من إعداداتك للتثبيت ، انقر فوق &quot;السابق&quot;. انقرعلى  &quot;إلغاء&quot; للخروج من هذا المعالج .   "/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Intro" value="[Wizard] جاهز لبدء إصلاح [ProductName]"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Title" value="جاهز للإصلاح"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Description" value="[Wizard] سيثبت [ProductName] في جهازك . رجاء انقر فوق &quot;التالي&quot; للمواصلة"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Intro" value="مرحبا بك في المعالج لإعداد [ProductName]"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Title" value="مرحبا بك في إعداد [ProductName]"/>
+  <STRING id="Graphite.MaintenanceTypeDlg#Title" value="مرحبا بك في إصلاح [ProductName]"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Complete" value="كامل"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Custom" value="مخصص"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Typical" value="نموذجي"/>
+  <!-- Modern theme strings -->
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#AddRemoveButton" value="تغيير أي من الميزات المثبتة أو إزالة ميزة محددة.|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RemoveButton" value="إزالة [ProductName] من جهازك .|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RepairButton" value="يقوم هذا الخيار بإصلاح الأخطاء في حالة التثبيت الأخيرة - إصلاح الملفات المفقودة أو التالفة، أو الاختصارات وإدخالات التسجيل"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CompleteInstallButton" value="سيتم تثبيت كافة ميزات البرنامج.  (يتطلب معظم مساحة القرص)"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CustomInstallButton" value="يسمح للمتسخدمين باختيار أي الميزات سيتم تثبيتها ومكان تثبيتها . موصى به للمستخدمين المتقدمين . |"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#TypicalInstallButton" value="يثبت ميزات البرنامج الأكثر شيوعاً. موصى به لمعظم المستخدمين"/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#BottomNote" value="أنقر فوق &quot;التالي&quot; للمتابعة"/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#Description" value="سوف ينشئ [Wizard] صورة خادم لبرنامج [ProductName]، في موقع محدد على الشبكة.  انقر فوق"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#Browse" value="استعراض ...."/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#FeatureDescriptionLabel" value="وصف الميزة : "/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#InstallPathLabel" value="&amp;مسار تثبيت المنتج : "/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#SelectionTreeLabel" value="اختار الميزة للتثبيت : "/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#VolumeCostListLabel" value="متطلبات مساحة القرص : "/>
+  <STRING id="Modern.Control.Text.Dlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.Dlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.Dlg#Setup" value="إعداد/الإعداد"/>
+  <STRING id="Modern.Control.Text.FatalError#Description" value="إعداد [ProductName] توقف قبل الأوان لوجود خطأ . لم تحدث أي تغييرات في نظامك . لتثبيت هذا البرنامج في وقت لاحق . رجاء شغل التثبيت مرة أخرى . "/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#AgreementLabel" value="تأكد من قراءة وفهم الحقوق والقيود المشروحة في بنود الترخيص ينبغي قبول بنود الترخيص قبل تثبيت البرنامج . "/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#ButtonLabel" value="اضغط على مفتاح تحريك الصفحة لأسفل لرؤية باقي النص"/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#PrintButton" value="طباعة"/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#BottomNote" value="انقر فوق &quot;التالي&quot; للمتابعة ."/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] سيسمح لك بتغيير طريقة تثبيت ميزات [ProductName] في كمبيوترك أو حتى إزالة [ProductName] من جهازك ."/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Description" value="[Wizard] سيثبت إصلاح  [ProductName] في جهازك أنقر فوق &quot;التالي&quot; للمتابعة أو &quot;إلغاء&quot; للخروج من [Wizard] الإصلاح ."/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Title" value="مرحبا بك في [Wizard] إصلاح [ProductName]"/>
+  <STRING id="Modern.Control.Text.PrepareDlg#Description" value="فضلا انتظر أثناء قيام [Wizard] بالتحضير لإرشادك خلال التثبيت"/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Description" value="اختار أي البرمجيات المطلوبة سيتم تثبيتها"/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Title" value="البرمجيات المطلوبة"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Description" value="رجاء إقرأ النص التالي بحرص"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Title" value="ملف القراءة"/>
+  <STRING id="Modern.Control.Text.ResumeDlg#BottomNote" value="انقر فوق &quot;تثبيت&quot; للمتابعة أو &quot;إلغاء&quot; للخروج من المعالج"/>
+  <STRING id="Modern.Control.Text.ResumeDlg#Description" value="[Wizard] سيكمل تثبيت [ProductName] في جهازك"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#BrowseButton" value="استعراض..."/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#PathLabel" value="&amp;مسار تثبيت المنتج :"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#Title" value="اختار الميزات للتثبيت :"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#VolumeCostListLabel" value="متطلبات مساحة القرص : "/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Description" value="إنشاء اختصارات للتطبيق ."/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#ShortcutsLabel" value="إنشاء اختصارات [ProductName] في المسارات التالية : "/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Title" value="تهيئة الاختصارات"/>
+  <STRING id="Modern.Control.Text.SQLConnectionDlg#Description" value="تهيئة اتصال SQL."/>
+  <STRING id="Modern.Control.Text.TomcatServerDlg#Description" value="رجاء هيئ خواص خادم Tomcat"/>
+  <STRING id="Modern.Control.Text.UserExit#BottomNote" value="انقرعلى &quot;إنهاء&quot; للخروج من [Wizard]."/>
+  <STRING id="Modern.Control.Text.UserExit#Description" value="تمت مقاطعة إعداد [ProductName]. لم تحدث أي تغييرات في نظامك . لتثبيت هذا البرنامج في وقت لاحق ، رجاء شغل التثبيت مرة أخرى ."/>
+  <STRING id="Modern.Control.Text.UserRegistrationDlg#Description" value="رجاء أدخل معلومات زبونك"/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#BottomNote" value="انقرعلى &quot;تثبيت&quot;لبدء التثبيت.إذا أردت تغيير أي من إعدادات تثبيتك ، أنقر فوق &quot;السابق&quot;.أنقر على &quot;إلغاء&quot; للخروج من هذا المعالج  "/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Description" value="[Wizard]جاهز لبدءتثبيت [ProductName]"/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Title" value="جاهز للتثبيت"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#BottomNote" value="إنقر على على &quot;إزالة&quot;لإزالة  [ProductName] من جهازك. إذا أردت تغيير أي من إعدادات تثبيتك ، أنقر فوق &quot;السابق&quot;.أنقر على &quot;إلغاء&quot; للخروج من هذا المعالج  "/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Description" value="لقد اخترت إزالة البرنامج من جهازك ."/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Title" value="إزالة [ProductName]"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#BottomNote" value="أنقر فوق &quot;إصلاح&quot; لإصلاح تثبيت  [ProductName]. إذا أردت تغيير أي من إعدادات تثبيتك ، أنقر فوق &quot;السابق&quot;.أنقر على &quot;إلغاء&quot; للخروج من هذا المعالج  "/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Description" value="[Wizard] جاهز لبدء إصلاح [ProductName]."/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Title" value="إصلاح [ProductName]"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#BottomNote" value="انقرعلى &quot;التالي&quot; للاستمرار ."/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Description" value="سيقوم المعالج بتثبيت [ProductName] في جهازك"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Title" value="مرحبا بك في [Wizard] [ProductName] "/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="تطبيق إعلاني"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="تنفيذ عمليات إزالة الملفات"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="تنفيذ عمليات إزالة الملفات"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="توليد الأفعال لإزالة الملفات"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="تنفيذ عمليات إزالة التسجيل"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="تنفيذ عمليات إزالة التسجيل"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="توليد الأفعال لإزالة إدخالات التسجيل"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="تسجيل تطبيقات المحمول في مدير تطبيقات نظام تشغيل ويندوز CE  "/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="معالجة مدير التطبيقات في تشغيل ويندوز CE لتسجيل البيانات (stage 2) "/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="معالجة مدير التطبيق في نظام تشغيل ويندوز CE لتسجيل البيانات (stage 1)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="تشغيل مدير التطبيق في نظام ويندوز CE لتهيئة التطبيقات المثبتة "/>
+  <STRING id="ActionText.Description.AI_CommitAccounts" value="البدء في إنشاء حسابات مستخدم في الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="إنشاء حساب مستخدم على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="إنشاء مجموعة مستخدمين على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="حذف الملفات المستخرجة من الأرشيف"/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="تحميل البرمجيات المطلوبة"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="استخراج الملفات من الأرشيف"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="استخراج البرامج المطلوبة"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="تنفيذ تكوينات جدار حماية ويندوز"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="إنشاء إجراءات لتكوين جدار حماية ويندوز"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="تنفيذ تكوينات جدار حماية ويندوز"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="التراجع عن تكوينات جدار حماية ويندوز."/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="إنشاء إجراءات لتكوين جدار حماية ويندوز"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="تنفيذ تكوينات مستكشف الألعاب"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="إنشاء إجراءات لتكوين مستكشف الألعاب"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="تنفيذ تكوينات مستكشف الألعاب"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="التراجع عن تكوينات مستكشف الألعاب."/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="إنشاء إجراءات لتكوين مستكشف الألعاب"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="تكوين خدمات معلومات الإنترنت"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="إنشاء إجراءات لتكوين خدمات معلومات الإنترنت"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="تكوين خدمات معلومات الإنترنت"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="التراجع عن تكوين IIS"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="إنشاء إجراءات لتكوين خدمات معلومات الإنترنت"/>
+  <STRING id="ActionText.Description.AI_InstallLibraries" value="تثبيت مكتبات الويندوز"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="تثبيت البرامج المطلوبة"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="إنشاء إجراءات لإنشاء حسابات المستخدمين على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="إنشاء إجراءات لمشاركة المجلدات على الكمبيوتر المحلي:"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="إنشاء إجراءات لإنشاء مجموعات المستخدمين على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="إنشاء إجراءات لجدولة المهام على الكمبيوتر المحلي:"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="إزالة حساب المستخدم من الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="إزالة مجموعة المستخدمين من الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="إزالة مشاركة المجلد من الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="إزالة المهمة المجدولة من الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="التراجع عن إنشاء حسابات المستخدمين على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="التراجع عن إنشاء مجموعات المستخدمين على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_RollbackLibraries" value="استعادة التثبيتات السابقة لمكتبات الويندوز"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="التراجع عن مشاركة المجلد على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="التراجع عن جدولة المهمة على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="جدولة المهمة على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="مشاركة المجلد على الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="تنفيذ تثبيت برامج SQL النصية"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="إنشاء إجراءات لتكوين قواعد البيانات لتثبيت تنفيذ برنامج SQL النصي"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="تنفيذ صيانة برامج SQL النصية"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="تنفيذ إلغاء تثبيت برامج SQL النصية"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="تنفيذ التراجع عن برامج SQL النصية"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="إنشاء إجراءات لتكوين قواعد البيانات لإلغاء تثبيت تنفيذ برنامج SQL النصي"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="إنشاء إجراءات لإزالة حسابات المستخدمين من الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="إنشاء إجراءات لإزالة مجموعات المستخدمين من الكمبيوتر المحلي"/>
+  <STRING id="ActionText.Description.AI_UninstallLibraries" value="إزالة مكتبات الويندوز"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="إنشاء إجراءات لإزالة مشاركة المجلد من الكمبيوتر المحلي:"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="إنشاء إجراءات لإزالة المهام المجدولة من الكمبيوتر المحلي:"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="التحقق من البرامج المطلوبة"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="تنفيذ تكوينات ملف XML"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="إنشاء إجراءات لتكوين ملفات XML"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="تنفيذ تكوينات ملف XML"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="التراجع عن تكوينات ملف XML."/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="إنشاء إجراءات لتكوين ملفات XML"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="تخصيص مساحة السجل"/>
+  <STRING id="ActionText.Description.AppSearch" value="البحث عن التطبيقات المثبتة"/>
+  <STRING id="ActionText.Description.BindImage" value="ربط الملفات التنفيذية"/>
+  <STRING id="ActionText.Description.CCPSearch" value="البحث عن المنتجات المؤهلة"/>
+  <STRING id="ActionText.Description.CostFinalize" value="حساب متطلبات المساحة"/>
+  <STRING id="ActionText.Description.CostInitialize" value="حساب متطلبات المساحة"/>
+  <STRING id="ActionText.Description.CreateFolders" value="إنشاء المجلدات"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="إنشاء الاختصارات"/>
+  <STRING id="ActionText.Description.DeleteServices" value="حذف الخدمات"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="إنشاء ملفات مكررة"/>
+  <STRING id="ActionText.Description.FileCost" value="حساب متطلبات المساحة"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="البحث عن التطبيقات ذات الصلة"/>
+  <STRING id="ActionText.Description.GenerateScript" value="إنشاء عمليات برامج نصية للإجراء:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="نسخ ملفات تثبيت شبكة الاتصال"/>
+  <STRING id="ActionText.Description.InstallFiles" value="نسخ الملفات الجديدة"/>
+  <STRING id="ActionText.Description.InstallODBC" value="تثبيت مكونات ODBC"/>
+  <STRING id="ActionText.Description.InstallServices" value="تثبيت الخدمات الجديدة"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="تثبيت كتالوج النظام"/>
+  <STRING id="ActionText.Description.InstallValidate" value="التحقق من تثبيت"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="تقييم شروط بدء التشغيل"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="ترحيل حالات الميزات من التطبيقات المرتبطة"/>
+  <STRING id="ActionText.Description.MoveFiles" value="نقل الملفات"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="نشر معلومات التجميع"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="إلغاء نشر معلومات التجميع"/>
+  <STRING id="ActionText.Description.PatchFiles" value="تصحيح الملفات"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="تحديث تسجيل المكون"/>
+  <STRING id="ActionText.Description.PublishComponents" value="نشر المكونات المؤهلة"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="نشر ميزات المنتج"/>
+  <STRING id="ActionText.Description.PublishProduct" value="نشر معلومات المنتج"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="تسجيل خوادم الفئات"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="تسجيل تطبيقات ومكونات +COM"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="تسجيل خوادم الملحقات"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="تسجيل الخطوط"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="تسجيل معلومات MIME"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="تسجيل المنتج"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="تسجيل معرفات البرنامج"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="تسجيل مكتبات الأنواع"/>
+  <STRING id="ActionText.Description.RegisterUser" value="تسجيل المستخدم"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="إزالة الملفات المكررة"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="تحديث سلاسل البيئة"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="إزالة التطبيقات"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="إزالة الملفات"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="إزالة المجلدات"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="إزالة إدخالات ملفات INI"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="إزالة مكونات ODBC"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="إزالة قيم تسجيل النظام"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="إزالة الاختصارات"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="البحث عن المنتجات المؤهلة"/>
+  <STRING id="ActionText.Description.Rollback" value="إعادة الإجراء إلى الحالة السابقة:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="إزالة ملفات النسخ الاحتياطي"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="تسجيل الوحدات النمطية"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="إلغاء تسجيل الوحدات النمطية"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="استهلال دلائل ODBC"/>
+  <STRING id="ActionText.Description.StartServices" value="بدء تشغيل الخدمات"/>
+  <STRING id="ActionText.Description.StopServices" value="إيقاف الخدمات"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="إزالة الملفات المنقولة"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="إلغاء نشر المكونات المؤهلة"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="إلغاء نشر ميزات المنتج"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="إلغاء نشر معلومات المنتج"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="إلغاء تسجيل خوادم الفئات"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="إلغاء تسجيل تطبيقات ومكونات +COM"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="إلغاء تسجيل خوادم الملحقات"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="إلغاء تسجيل الخطوط"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="إلغاء تسجيل معلومات MIME"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="إلغاء تسجيل معرفات البرنامج"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="إلغاء تسجيل مكتبات الأنواع"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="تحديث سلاسل البيئة"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="كتابة قيم ملفات INI"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="كتابة قيم تسجيل النظام"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="إزالة الملف :[1] "/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="إزالة الملف :[1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="إزالة إدخالات التسجيل :[1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="إزالة إدخالات التسجيل :[1]"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="الحساب: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="الحساب: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="تحميل [1]{[2] اكتمل} "/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="استخراج [1]{[2] اكتمل}"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="تكوين قاعدة جدار حماية ويندوز: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="تكوين قاعدة جدار حماية ويندوز: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="التراجع عن تكوينات جدار حماية ويندوز."/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="تكوين اللعبة: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="إزالة اللعبة: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="التراجع عن تكوينات مستكشف الألعاب."/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="تثبيت &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="إزالة &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="استعادة تكوين قاعدة التعريف."/>
+  <STRING id="ActionText.Template.AI_InstallLibraries" value="تثبيت [1]"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="تثبيت [1]{[2] اكتمل}"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="الحساب: [1]، السمات: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="المجلد: [1]، اسم المشاركة: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="الحساب: [1]، السمات: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="اسم المهمة: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="الحساب: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="الحساب: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="اسم المشاركة: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="اسم المهمة: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="الحساب: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="الحساب: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackLibraries" value="العودة للوراء [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="اسم المشاركة: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="اسم المهمة: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="اسم المهمة: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="المجلد: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="الاتصال: [1]  البرنامج النصي: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="الاتصال: [1]  البرنامج النصي: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="الاتصال: [1]  البرنامج النصي: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="الاتصال: [1]  البرنامج النصي: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="الحساب: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="الحساب: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallLibraries" value="إزالة [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="اسم المشاركة: [1]"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="[1] لم يتم تثبيته بصورة صحيحة"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="تكوين ملف XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="تكوين ملف XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="التراجع عن تكوينات ملف XML."/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="المساحة المتوفرة: [1]"/>
+  <STRING id="ActionText.Template.AppSearch" value="الخاصية: [1]، التوقيع: [2]"/>
+  <STRING id="ActionText.Template.BindImage" value="الملف: [1]"/>
+  <STRING id="ActionText.Template.CreateFolders" value="المجلد: [1]"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="الاختصار: [1]"/>
+  <STRING id="ActionText.Template.DeleteServices" value="الخدمة: [1]"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="الملف: [1]،  الدليل: [9]،  الحجم: [6]"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="العثور على التطبيق: [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="الملف: [1]،  الدليل: [9]،  الحجم: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="الملف: [1]،  الدليل: [9]،  الحجم: [6]"/>
+  <STRING id="ActionText.Template.InstallServices" value="الخدمة: [2]"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="الملف: [1]،  التوابع: [2]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="التطبيق: [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="الملف: [1]،  الدليل: [9]،  الحجم: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="سياق التطبيق:[1]، اسم التجميع:[2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="سياق التطبيق:[1]، اسم التجميع:[2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="الملف: [1]،  الدليل: [2]،  الحجم: [3]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="معرف المكون: [1]، المؤهل: [2]"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="الميزة: [1]"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="معرف الفئة: [1]"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="معرف التطبيق: [1]{{، نوع التطبيق: [2]، المستخدمون: [3]، RSN: [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="الملحق: [1]"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="الخط: [1]"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="نوع محتوى MIME‏: [1]، الملحق: [2]"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="معرف البرنامج: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="معرف المكتبة: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="الملف: [1]، الدليل: [9]"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="الاسم: [1]، القيمة: [2]، الإجراء [3]"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="التطبيق: [1]، سطر الأوامر: [2]"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="الملف: [1]، الدليل: [9]"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="المجلد: [1]"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="الملف: [1]، المقطع: [2]، المفتاح: [3]، القيمة: [4]"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="المفتاح: [1]، الاسم: [2]"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="الاختصار: [1]"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="الملف: [1]"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="الملف: [1]، المجلد: [2]"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="الملف: [1]، المجلد: [2]"/>
+  <STRING id="ActionText.Template.StartServices" value="الخدمة: [1]"/>
+  <STRING id="ActionText.Template.StopServices" value="الخدمة: [1]"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="الملف: [1]، الدليل: [9]"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="معرف المكون: [1]، المؤهل: [2]"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="الميزة: [1]"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="معرف الفئة: [1]"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="معرف التطبيق: [1]{{, نوع التطبيق: [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="الملحق: [1]"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="الخط: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="نوع محتوى MIME‏: [1]، الملحق: [2]"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="معرف البرنامج: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="معرف المكتبة: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="الاسم: [1]، القيمة: [2]، الإجراء [3]"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="الملف: [1]، المقطع: [2]، المفتاح: [3]، القيمة: [4]"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="المفتاح: [1]، الاسم: [2]، القيمة: [3]"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{خطأ فادح: }}"/>
+  <STRING id="Error.1" value="{{خطأ [1]. }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="نوع الرسالة: [1]، الوسيط: [2]"/>
+  <STRING id="Error.1101" value="خطأ في القراءة من الملف: [2]. {{ خطأ في النظام [3].}}  تحقق من وجود الملف ومن إمكانية الوصول إليه."/>
+  <STRING id="Error.12" value="=== بدء التسجيل: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== إيقاف التسجيل: [Date]  [Time] ==="/>
+  <STRING id="Error.1301" value="لا يمكن إنشاء الملف &apos;[2]&apos;.  هناك دليل بهذا الاسم موجود مسبقاً.  قم بإلغاء عملية التثبيت وحاول التثبيت في موقع مختلف."/>
+  <STRING id="Error.1302" value="الرجاء إدخال القرص: [2]"/>
+  <STRING id="Error.1303" value="لا يمتلك المثبت امتيازات كافية للوصول إلى هذا الدليل: [2].  لا يمكن متابعة التثبيت.  سجل الدخول كمسئول أو اتصل بمدير النظام لديك."/>
+  <STRING id="Error.1304" value="خطأ في الكتابة إلى الملف: [2].  تحقق من إمكانية الوصول إلى ذلك الدليل."/>
+  <STRING id="Error.1305" value="خطأ في القراءة من الملف [2]. {{ خطأ في النظام [3].}}  تحقق من وجود الملف ومن إمكانية الوصول إليه."/>
+  <STRING id="Error.1306" value="يمتلك تطبيق آخر حق الوصول الخاص إلى الملف &apos;[2]&apos;.  يرجى إيقاف تشغيل كافة التطبيقات الأخرى، ثم النقر فوق &quot;إعادة المحاولة&quot;."/>
+  <STRING id="Error.1307" value="لا توجد مساحة كافية على القرص لتثبيت هذا الملف: [2].  حرر بعضاً من مساحة القرص وانقر فوق &quot;إعادة المحاولة&quot;، أو انقر فوق &quot;إلغاء&quot; للخروج."/>
+  <STRING id="Error.1308" value="تعذر العثور على الملف المصدر: [2].  تحقق من وجود الملف ومن إمكانية الوصول إليه."/>
+  <STRING id="Error.1309" value="خطأ في القراءة من الملف: [3]. {{ خطأ في النظام [2].}}  تحقق من وجود الملف ومن إمكانية الوصول إليه."/>
+  <STRING id="Error.1310" value="خطأ في الكتابة إلى الملف: [3]. {{ خطأ في النظام [2].}}  تحقق من إمكانية الوصول إلى ذلك الدليل."/>
+  <STRING id="Error.1311" value="تعذر العثور على الملف المصدر{{(cabinet)}}: [2].  تحقق من وجود الملف ومن إمكانية الوصول إليه."/>
+  <STRING id="Error.1312" value="تعذر إنشاء الدليل &apos;[2]&apos;.  هناك ملف بهذا الاسم موجود مسبقاً.  يرجى إعادة تسمية الملف أو إزالته ثم النقر فوق &quot;إعادة المحاولة&quot;، أو النقر فوق &quot;إلغاء&quot; للإنهاء."/>
+  <STRING id="Error.1313" value="وحدة التخزين [2] غير متوفرة حالياً.  الرجاء تحديد واحدة أخرى."/>
+  <STRING id="Error.1314" value="المسار المحدد &apos;[2]&apos; غير متوفر."/>
+  <STRING id="Error.1315" value="تعذر الكتابة إلى المجلد المحدد: [2]."/>
+  <STRING id="Error.1316" value="حدث خطأ في الشبكة أثناء محاولة القراءة من الملف: [2]"/>
+  <STRING id="Error.1317" value="حدث خطأ أثناء محاولة إنشاء الدليل: [2]"/>
+  <STRING id="Error.1318" value="حدث خطأ في الشبكة أثناء محاولة إنشاء الدليل: [2]"/>
+  <STRING id="Error.1319" value="حدث خطأ في شبكة الاتصال أثناء محاولة فتح خزانة ملف المصدر: [2]"/>
+  <STRING id="Error.1320" value="المسار المحدد أطول مما يجب: [2]"/>
+  <STRING id="Error.1321" value="لا يمتلك المثبت امتيازات كافية لتعديل هذا الملف: [2]."/>
+  <STRING id="Error.1322" value="جزء من مسار المجلد &apos;[2]&apos; غير صالح.  إما أنه فارغ أو أنه يتجاوز الطول المسموح به من قبل النظام."/>
+  <STRING id="Error.1323" value="يحتوي مسار المجلد &apos;[2]&apos; كلمات غير صالحة في مسارات المجلدات."/>
+  <STRING id="Error.1324" value="يحتوي مسار المجلد &apos;[2]&apos; على حرف غير صالح."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; ليس اسم ملف قصير صالح."/>
+  <STRING id="Error.1326" value="خطأ في الحصول على حماية الملف: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="محرك أقراص غير صالح: [2]"/>
+  <STRING id="Error.1328" value="خطأ في تطبيق التصحيح على الملف [2].  ربما تم تحديثه بواسطة طرق أخرى، ولم يعد بالإمكان تعديله بواسطة هذا التصحيح.  لمزيد من المعلومات اتصل ببائع ملفات التصحيح.  {{خطأ في النظام: [3]}}"/>
+  <STRING id="Error.1329" value="تعذر تثبيت ملف مطلوب بسبب عدم توقيع ملف الخزنة [2] رقمياً.  قد يشير هذا إلى أن ملف الخزنة تالف."/>
+  <STRING id="Error.1330" value="تعذر تثبيت ملف مطلوب بسبب عدم صلاحية التوقيع الرقمي لملف الخزنة [2].  قد يشير هذا إلى أن ملف الخزنة تالف.{{  تم إرجاع الخطأ [3] من قبل WinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="لم تتم عملية النسخ بشكل صحيح للملف [2]: خطأ CRC."/>
+  <STRING id="Error.1332" value="لم تتم عملية النقل بشكل صحيح للملف [2]: خطأ CRC."/>
+  <STRING id="Error.1333" value="لم تتم عملية الإصلاح بشكل صحيح للملف [2]: خطأ CRC."/>
+  <STRING id="Error.1334" value="تعذر تثبيت الملف &apos;[2]&apos; بسبب عدم العثور عليه في ملف الخزنة &apos;[3]&apos;. قد يشير هذا إلى حدوث خطأ على شبكة الاتصال أو خطأ أثناء القراءة من القرص المضغوط أو مشكلة في هذه الحزمة."/>
+  <STRING id="Error.1335" value="ملف الخزنة &apos;[2]&apos; المطلوب لعملية التثبيت هذه تالف ولا يصلح للاستخدام. قد يشير هذا إلى حدوث خطأ على شبكة الاتصال أو خطأ أثناء القراءة من القرص المضغوط أو مشكلة في هذه الحزمة."/>
+  <STRING id="Error.1336" value="حدث خطأ أثناء إنشاء ملف مؤقت مطلوب لإتمام عملية التثبيت هذه.{{ المجلد: [3]. رمز خطأ النظام: [2]}}"/>
+  <STRING id="Error.14" value="بدء الإجراء [Time]: [1]."/>
+  <STRING id="Error.1401" value="تعذر إنشاء المفتاح: [2]. {{ خطأ في النظام [3].}} تحقق من وجود وصول كاف إلى هذا المفتاح، أو اتصل بموظفي الدعم. "/>
+  <STRING id="Error.1402" value="تعذر فتح المفتاح: [2]. {{ خطأ في النظام [3].}} تحقق من وجود وصول كاف إلى هذا المفتاح، أو اتصل بموظفي الدعم. "/>
+  <STRING id="Error.1403" value="تعذر حذف القيمة [2] من المفتاح [3]. {{ خطأ في النظام [4].}} تحقق من وجود وصول كاف إلى هذا المفتاح، أو اتصل بموظفي الدعم. "/>
+  <STRING id="Error.1404" value="تعذر حذف المفتاح: [2]. {{ خطأ في النظام [3].}} تحقق من وجود وصول كاف إلى هذا المفتاح، أو اتصل بموظفي الدعم. "/>
+  <STRING id="Error.1405" value="تعذرت قراءة القيمة [2] من المفتاح [3]. {{ خطأ في النظام [4].}} تحقق من وجود وصول كاف إلى هذا المفتاح، أو اتصل بموظفي الدعم. "/>
+  <STRING id="Error.1406" value="تعذرت كتابة القيمة [2] إلى المفتاح [3]. {{ خطأ في النظام [4].}} تحقق من وجود وصول كاف إلى هذا المفتاح، أو اتصل بموظفي الدعم."/>
+  <STRING id="Error.1407" value="تعذر الحصول على أسماء القيم للمفتاح [2]. {{ خطأ في النظام [3].}} تحقق من وجود وصول كاف إلى هذا المفتاح، أو اتصل بموظفي الدعم."/>
+  <STRING id="Error.1408" value="تعذر الحصول على أسماء المفاتيح الفرعية للمفتاح [2]. {{ خطأ في النظام [3].}} تحقق من وجود وصول كاف إلى هذا المفتاح، أو اتصل بموظفي الدعم."/>
+  <STRING id="Error.1409" value="تعذرت قراءة معلومات الحماية للمفتاح [2]. {{ خطأ في النظام [3].}} تحقق من وجود وصول كاف إلى هذا المفتاح، أو اتصل بموظفي الدعم."/>
+  <STRING id="Error.1410" value="تعذر زيادة مساحة السجل المتوفرة. مطلوب [2] كيلوبايت من مساحة السجل الحرة لتثبيت هذا التطبيق."/>
+  <STRING id="Error.15" value="انتهاء الإجراء [Time]: [1]. القيمة المرجعة [2]."/>
+  <STRING id="Error.1500" value="يوجد عملية تثبيت أخرى قيد التشغيل. يجب إكمال ذلك التثبيت قبل متابعة هذا التثبيت."/>
+  <STRING id="Error.1501" value="خطأ في الوصول إلى البيانات المؤمنة. يرجى التأكد من تكوين مثبت ويندوز بشكل صحيح ومحاولة التثبيت مرة أخرى."/>
+  <STRING id="Error.1502" value="قام المستخدم &apos;[2]&apos; ببدء تثبيت منتج &apos;[3]&apos; مسبقاً.  يحتاج ذلك المستخدم إلى تشغيل ذلك التثبيت مرة أخرى قبل استخدام ذلك المنتج.  سيتم الآن متابعة التثبيت الحالي."/>
+  <STRING id="Error.1503" value="قام المستخدم &apos;[2]&apos; ببدء تثبيت منتج &apos;[3]&apos; مسبقاً.  يحتاج ذلك المستخدم إلى تشغيل ذلك التثبيت مرة أخرى قبل استخدام ذلك المنتج."/>
+  <STRING id="Error.16" value="الوقت المتبقي: {[1] دقيقة/دقائق }{[2] ثانية/ثوان}"/>
+  <STRING id="Error.1601" value="نفدت مساحة القرص -- وحدة التخزين: &apos;[2]&apos;؛ المساحة المطلوبة: [3] كيلوبايت؛ المساحة المتوفرة: [4] كيلوبايت.  الرجاء تحرير بعض المساحة على القرص وإعادة المحاولة."/>
+  <STRING id="Error.1602" value="هل تريد بالتأكيد إلغاء الأمر؟"/>
+  <STRING id="Error.1603" value="الملف [2][3] قيد الاستخدام{ من قبل العملية التالية: الاسم: [4]، المعرف: [5]، عنوان الإطار:&apos;[6]&apos;}.  أغلق ذلك التطبيق وأعد المحاولة."/>
+  <STRING id="Error.1604" value="المنتج &apos;[2]&apos; مثبت مسبقاً، امنع تثبيت هذا المنتج.  المنتجان غير متوافقان."/>
+  <STRING id="Error.1605" value="لا يوجد مساحة قرص كافية على وحدة التخزين &apos;[2]&apos; للاستمرار بعملية التثبيت مع تمكين ميزة الاسترداد. المساحة المطلوبة هي [3] كيلوبايت ولا يتوفر حالياً سوى [4] كيلوبايت. انقر فوق &quot;تجاهل&quot; لمتابعة التثبيت دون حفظ معلومات الاسترداد، أو انقر فوق &quot;إعادة المحاولة&quot; لمراجعة المساحة المتوفرة مرة أخرى، أو انقر فوق &quot;إلغاء&quot; لإنهاء التثبيت."/>
+  <STRING id="Error.1606" value="تعذر الوصول إلى موقع الشبكة [2]."/>
+  <STRING id="Error.1607" value="يجب إغلاق التطبيقات التالية قبل متابعة التثبيت:"/>
+  <STRING id="Error.1608" value="تعذر العثور على أي منتجات متوافقة مثبتة سابقاً على الجهاز لتثبيت هذا المنتج."/>
+  <STRING id="Error.1609" value="حدث خطأ أثناء تطبيق إعدادات الحماية. إن [2] ليس بمستخدم صالح أو مجموعة صالحة. قد توجد مشكلة في الحزمة أو في الاتصال بعنصر تحكم المجال على الشبكة. الرجاء التأكد من اتصالك بالشبكة والنقر فوق &quot;إعادة المحاولة&quot; أو فوق &quot;إلغاء&quot; لإنهاء عملية التثبيت.       {{تعذر تحديد موقع معرف حماية المستخدم، خطأ في النظام [3]}}"/>
+  <STRING id="Error.17" value="نفدت الذاكرة. أغلق التطبيقات الأخرى قبل إعادة المحاولة."/>
+  <STRING id="Error.1701" value="المفتاح [2] غير صالح.  تحقق من إدخال المفتاح الصحيح ثم حاول مرة ثانية."/>
+  <STRING id="Error.1702" value="على المُثبت إعادة تشغيل النظام قبل متابعة تكوين [2].  انقر فوق &quot;نعم&quot; لإعادة التشغيل الآن أو انقر فوق &quot;لا&quot; إذا كنت تريد إعادة التشغيل يدوياً لاحقاً."/>
+  <STRING id="Error.1703" value="يجب إعادة تشغيل النظام لإتمام تغييرات التكوين التي أجريت على [2]. انقر فوق &quot;نعم&quot; لإعادة التشغيل الآن أو انقر فوق &quot;لا&quot; إذا كنت تريد إعادة التشغيل يدوياً لاحقاً."/>
+  <STRING id="Error.1704" value="تثبيت [2] معطل مؤقتاً حالياً.  يجب عليك التراجع عن التغييرات التي قام بها ذلك التثبيت للمتابعة.  هل تريد التراجع عن تلك التغييرات؟"/>
+  <STRING id="Error.1705" value="هناك ‏‏تثبيت سابق لهذا المنتج قيد التنفيذ.  يجب عليك التراجع عن التغييرات التي قام بها ذلك التثبيت للمتابعة.  هل تريد التراجع عن تلك التغييرات؟"/>
+  <STRING id="Error.1706" value="لا يمكن العثور على حزمة التثبيت للمنتج [2]. حاول التثبيت مرة أخرى باستخدام نسخة صالحة من حزمة التثبيت &apos;[3]&apos;."/>
+  <STRING id="Error.1707" value="اكتمل التثبيت بنجاح."/>
+  <STRING id="Error.1708" value="فشل التثبيت."/>
+  <STRING id="Error.1709" value="المنتج: [2] -- [3]"/>
+  <STRING id="Error.1710" value="يمكنك إعادة الكمبيوتر إلى حالته السابقة أو متابعة التثبيت فيما بعد. هل تريد الاستعادة؟"/>
+  <STRING id="Error.1711" value="حدث خطأ أثناء كتابة معلومات التثبيت على القرص.  تأكد من توفر مساحة قرص كافية، وانقر فوق &quot;إعادة المحاولة&quot;، أو فوق &quot;إلغاء&quot; لإنهاء التثبيت."/>
+  <STRING id="Error.1712" value="تعذر العثور على واحد أو أكثر من الملفات المطلوبة لإعادة الكمبيوتر لحالته السابقة.  لن تكون عملية الاستعادة ممكنة."/>
+  <STRING id="Error.1713" value="لم يتمكن [2] من تثبيت أحد منتجاته المطلوبة. اتصل بمجموعة الدعم الفني.  {{خطأ في النظام: [3].}}"/>
+  <STRING id="Error.1714" value="لا يمكن إزالة الإصدار القديم من [2].  اتصل بمجموعة الدعم الفني.  {{خطأ في النظام [3].}}"/>
+  <STRING id="Error.1715" value="تم تثبيت [2]"/>
+  <STRING id="Error.1716" value="تم تكوين [2]"/>
+  <STRING id="Error.1717" value="تم إزالة [2]"/>
+  <STRING id="Error.1718" value="تم رفض الملف [2] من قبل نهج التوقيع الرقمي."/>
+  <STRING id="Error.1719" value="تعذر الوصول إلى خدمة مثبت ويندوز. قد يحدث هذا إذا كنت تقوم بتشغيل ويندوز في الوضع الآمن أو إذا لم يتم تثبيت مثبت ويندوز بشكل صحيح. الرجاء الاتصال بموظفي الدعم للحصول على المساعدة."/>
+  <STRING id="Error.1720" value="يوجد مشكلة في حزمة مثبت ويندوز هذه. تعذر تشغيل برنامج نصي مطلوب لإتمام عملية التثبيت هذه. الرجاء الاتصال بموظفي الدعم أو ببائع الحزمة.  {{الإجراء المخصص [2] خطأ البرنامج النصي [3]، [4]: [5] السطر [6]، العمود [7]، [8] }}"/>
+  <STRING id="Error.1721" value="يوجد مشكلة في حزمة مثبت ويندوز هذه. تعذر تشغيل برنامج مطلوب لإتمام عملية التثبيت هذه. الرجاء الاتصال بموظفي الدعم أو ببائع الحزمة. {{الإجراء [2]، الموقع: [3]، الأمر: [4] }}"/>
+  <STRING id="Error.1722" value="يوجد مشكلة في حزمة مثبت ويندوز هذه. تعذر إنهاء برنامج، يتم تشغيله كجزء من عملية التثبيت، بالشكل المتوقع. الرجاء الاتصال بموظفي الدعم أو ببائع الحزمة.  {{الإجراء [2]، الموقع: [3]، الأمر: [4] }}"/>
+  <STRING id="Error.1723" value="يوجد مشكلة في حزمة مثبت ويندوز هذه. تعذر تشغيل ملف DLL مطلوب لإتمام عملية التثبيت هذه. الرجاء الاتصال بموظفي الدعم أو ببائع الحزمة.  {{الإجراء [2]، الإدخال: [3]، المكتبة: [4] }}"/>
+  <STRING id="Error.1724" value="تمت عملية الإزالة بنجاح."/>
+  <STRING id="Error.1725" value="فشلت عملية الإزالة."/>
+  <STRING id="Error.1726" value="تمت عملية الإعلان بنجاح."/>
+  <STRING id="Error.1727" value="فشلت عملية الإعلان."/>
+  <STRING id="Error.1728" value="تمت عملية التكوين بنجاح."/>
+  <STRING id="Error.1729" value="فشلت عملية التكوين."/>
+  <STRING id="Error.1730" value="يجب أن تكون مسؤولاً لتتمكن من إزالة هذا التطبيق. يمكنك تسجيل الدخول كمسؤول أو الاتصال بمجموعة الدعم التقني للحصول على المساعدة."/>
+  <STRING id="Error.18" value="لم يعد المثبت يستجيب."/>
+  <STRING id="Error.1801" value="المسار [2] غير صالح.  يرجى تحديد مسار صالح."/>
+  <STRING id="Error.1802" value="نفدت الذاكرة. أغلق التطبيقات الأخرى قبل إعادة المحاولة."/>
+  <STRING id="Error.1803" value="لا يوجد قرص في محرك الأقراص [2]. الرجاء إدخال قرص وانقر فوق &quot;إعادة المحاولة&quot;، أو انقر فوق &quot;إلغاء&quot; للعودة إلى وحدة التخزين المحددة سابقاً."/>
+  <STRING id="Error.1804" value="لا يوجد قرص في محرك الأقراص [2]. يرجى إدخال قرص ثم النقر فوق &quot;إعادة المحاولة&quot; أو فوق &quot;إلغاء&quot; للرجوع إلى حوار الاستعراض وتحديد وحدة تخزين أخرى."/>
+  <STRING id="Error.1805" value="المجلد [2] غير موجود.  الرجاء إدخال مسار لمجلد موجود."/>
+  <STRING id="Error.1806" value="لا يوجد لديك امتيازات كافية لقراءة هذا المجلد."/>
+  <STRING id="Error.1807" value="تعذر تحديد مجلد وجهة صالح للتثبيت."/>
+  <STRING id="Error.19" value="تم إيقاف المثبت قبل الأوان."/>
+  <STRING id="Error.1901" value="خطأ في محاولة القراءة من قاعدة بيانات تثبيت المصدر: [2]."/>
+  <STRING id="Error.1902" value="يتم الآن جدولة عملية إعادة التمهيد: إعادة تسمية الملف [2] إلى [3]. يجب إعادة التمهيد لإتمام العملية."/>
+  <STRING id="Error.1903" value="يتم الآن جدولة عملية إعادة التمهيد: حذف الملف [2]. يجب إعادة التمهيد لإتمام العملية."/>
+  <STRING id="Error.1904" value="فشل تسجيل الوحدة النمطية [2].  HRESULT [3].  اتصل بموظفي الدعم."/>
+  <STRING id="Error.1905" value="فشل إلغاء تسجيل الوحدة النمطية [2].  HRESULT [3].  اتصل بموظفي الدعم."/>
+  <STRING id="Error.1906" value="فشل التخزين المؤقت للحزمة [2]. الخطأ: [3]. اتصل بموظفي الدعم."/>
+  <STRING id="Error.1907" value="تعذر تسجيل الخط [2].  تحقق من امتلاكك للأذونات الكافية لتثبيت الخطوط، ومن اعتماد النظام لهذا الخط."/>
+  <STRING id="Error.1908" value="تعذر إلغاء تسجيل الخط [2]. تحقق من وجود أذونات كافية لإزالة الخطوط."/>
+  <STRING id="Error.1909" value="تعذر إنشاء الاختصار: [2]. تحقق من وجود مجلد الوجهة ومن إمكانية الوصول إليه."/>
+  <STRING id="Error.1910" value="تعذر حذف الاختصار: [2]. تحقق من وجود ملف الاختصار ومن إمكانية الوصول إليه."/>
+  <STRING id="Error.1911" value="تعذر تسجيل مكتبة النوع للملف [2].  اتصل بموظفي الدعم."/>
+  <STRING id="Error.1912" value="تعذر إلغاء تسجيل مكتبة النوع للملف [2].  اتصل بموظفي الدعم."/>
+  <STRING id="Error.1913" value="تعذر تحديث ملف ini‏ [2][3].  تحقق من وجود الملف ومن إمكانية الوصول إليه."/>
+  <STRING id="Error.1914" value="تعذرت جدولة الملف [2] لاستبدال الملف [3] عند إعادة التمهيد.  تحقق من وجود أذونات كتابة إلى الملف [3]."/>
+  <STRING id="Error.1915" value="خطأ في إزالة إدارة برنامج تشغيل ODBC، خطأ ODBC‏ [2]: [3]. اتصل بموظفي الدعم."/>
+  <STRING id="Error.1916" value="خطأ في تثبيت إدارة برنامج تشغيل ODBC، خطأ ODBC‏ [2]: [3]. اتصل بموظفي الدعم."/>
+  <STRING id="Error.1917" value="خطأ في إزالة برنامج التشغيل ODBC، خطأ ODBC‏ [2]: [3]. تحقق من وجود امتيازات كافية لإزالة برامج تشغيل ODBC."/>
+  <STRING id="Error.1918" value="خطأ في تثبيت برنامج التشغيل ODBC، خطأ ODBC‏ [2]: [3]. تحقق من وجود الملف [4] ومن [6]إمكانية الوصول إليه."/>
+  <STRING id="Error.1919" value="خطأ في تكوين مصدر بيانات ODBC: [4][5]، خطأ ODBC‏ [2]: [3]. تحقق من وجود الملف [4][6] ومن إمكانية الوصول إليه."/>
+  <STRING id="Error.1920" value="فشل بدء خدمة &apos;[2]&apos; ([3]).  تحقق من وجود امتيازات كافية لتشغيل خدمات النظام."/>
+  <STRING id="Error.1921" value="تعذر إيقاف الخدمة &apos;[2]&apos; ([3]).  تحقق من وجود امتيازات كافية لإيقاف خدمات النظام."/>
+  <STRING id="Error.1922" value="تعذر حذف الخدمة &apos;[2]&apos; ([3]).  تحقق من وجود امتيازات كافية لإزالة خدمات النظام."/>
+  <STRING id="Error.1923" value="تعذر تثبيت الخدمة &apos;[2]&apos; ([3]).  تحقق من وجود امتيازات كافية لتثبيت خدمات النظام."/>
+  <STRING id="Error.1924" value="تعذر تعديل متغير البيئة &apos;[2]&apos;.  تحقق من وجود امتيازات كافية لتعديل متغيرات البيئة."/>
+  <STRING id="Error.1925" value="ليس لديك امتيازات كافية لإكمال هذا التثبيت لكافة مستخدمي هذا الجهاز.  قم بتسجيل الدخول كمسئول ثم أعد محاولة التثبيت."/>
+  <STRING id="Error.1926" value="تعذر إعداد حماية الملف للملف &apos;[3]&apos;. الخطأ: [2].  تحقق من وجود امتيازات كافية لتعديل أذونات الحماية لهذا الملف."/>
+  <STRING id="Error.1927" value="خدمات المكونات (COM+ 1.0) غير مثبتة على هذا الكمبيوتر.  يتطلب هذا التثبيت خدمات المكونات ليتم بشكل صحيح.  خدمات المكونات متوفرة في ويندوز 2000."/>
+  <STRING id="Error.1928" value="خطأ في تسجيل COM+ Application.  لمزيد من المعلومات، الرجاء الاتصال بأفراد الدعم."/>
+  <STRING id="Error.1929" value="خطأ في إلغاء تسجيل COM+ Application.  لمزيد من المعلومات، الرجاء الاتصال بأفراد الدعم."/>
+  <STRING id="Error.1930" value="تعذر تغيير الوصف للخدمة &apos;[2]&apos; ([3])."/>
+  <STRING id="Error.1931" value="لا يمكن لخدمة مثبت ويندوز تحديث نظام الملف [2] لأنه محمي من قبل ويندوز.  قد تحتاج إلى تحديث نظام التشغيل لهذا البرنامج ليعمل بشكل صحيح. {{إصدار الحزمة: [3]، إصدار نظام التشغيل المحمي: [4]}}"/>
+  <STRING id="Error.1932" value="لا يمكن لخدمة مثبت ويندوز تحديث ملف ويندوز المحمي [2]. {{إصدار الحزمة: [3]، إصدار نظام التشغيل المحمي: [4]، خطأ SFP: [5]}}"/>
+  <STRING id="Error.1933" value="لا يمكن لخدمة مثبت ويندوز تحديث ملف أو أكثر من ملفات ويندوز المحمية. {{خطأ SFP: [2].  قائمة الملفات المحمية:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="تم تعطيل تثبيت المستخدم بواسطة النهج على الجهاز."/>
+  <STRING id="Error.1935" value="حدث خطأ أثناء تثبيت مكون التجميع [2]. HRESULT: [3]. {{واجهة التجميع: [4]، الوظيفة: [5]، اسم التجميع: [6]}}"/>
+  <STRING id="Error.1936" value="حدث خطأ أثناء تثبيت مكون التجميع ;[6]&apos;. مكون التجميع لم يتم تسميته بدقة أو لم يتم توقيعه بالحد الأدني لطول المفتاح HRESULT: [3].[3]. {{واجهة التجميع: [4], الوظيفة: [5], العنصر : [2]}}"/>
+  <STRING id="Error.1937" value="دث خطأ أثناء تثبيت مكون التجميع ;[6]&apos;. التوقيع أو الكاتالوج لا يمكن التأكد منه أو غير صالح  HRESULT: [3].{{واجهة التجميع: [4], الوظيفة : [5], العنصر : [2]}}"/>
+  <STRING id="Error.1938" value="حدث خطأ أثناء تثبيت مكون التجميع ;[6]&apos;. واحد أو أكثر من مكونات التجميع لم يتم العثور عليه .HRESULT: [3].{{واجهة التجميع: [4], الوظيفة: [5], العنصر : [2]}}"/>
+  <STRING id="Error.1939" value="لخدمة &apos;[2]&apos; ([3]) لا يمكن تهيئتها . ربما كانت هناك مشكلة في الحزمة أو صلاحياتك . تأكد من امتلاكك لصلاحيات كافية لتهيئة خدمات النظام . "/>
+  <STRING id="Error.1940" value="الخدمة &apos;[2]&apos; ([3]) لا يمكن تهيئتها . تهيئة الخدمات مدعومة فقط في أنظمة تشغيل ويندوز فيستا/الخادم 2008 فما فوق . "/>
+  <STRING id="Error.1941" value="كلا الجداول  LockPermissions و MsiLockPermissionsEx لم يتم العثور عليها في الحزمة . واحد منهما فقط ينبغي أن يتوفر .هذه مشكلة في هذه الحزمة ."/>
+  <STRING id="Error.1942" value="لشروط المتعددة (&apos;[2]&apos; and &apos;[3]&apos;)تم معالجتها لصح أثناء تثبيت العنصر [4] (من الجدول [5]).ربما كانت هذه مشكلة في الحزمة ."/>
+  <STRING id="Error.1943" value="سطور SDDL &apos;[2]&apos; للعنصر [3](في الجدول [4]) لا يمكن معالجتها لواصف أمني صالح ."/>
+  <STRING id="Error.1944" value="لا يمكن رؤية أمان الخدمة &apos;[3]&apos;. خطأ :[2].تأكد من امتلاكك لصلاحيات كافية لتغيير تصاريح الأمان لهذه الخدمة ."/>
+  <STRING id="Error.1945" value=" أنت لا تملك صلاحيات كافية لإكمال إعادة الإعلان لهذا المنتج . إعادة الإعلان يتطلب  للبدء حساب نظام محلي لاستدعاء MsiAdvertiseScript API ."/>
+  <STRING id="Error.1946" value="خصائص  &apos;[2]&apos;للاختصارات &apos;[3]&apos; لا يمكن ضبطها .{{ HRESULT [4].}}"/>
+  <STRING id="Error.2" value="تحذير [1]. "/>
+  <STRING id="Error.20" value="الرجاء الانتظار أثناء قيام ويندوز بتكوين [ProductName]"/>
+  <STRING id="Error.21" value="جاري ‏‏تجميع المعلومات المطلوبة..."/>
+  <STRING id="Error.2101" value="الاختصارات غير مدعومة من نظام التشغيل"/>
+  <STRING id="Error.2102" value="تفعيل .ini غير صحيح : [2]"/>
+  <STRING id="Error.2103" value="لا يمكن تحديد مسار مجلد shell [2]."/>
+  <STRING id="Error.2104" value="كتابة ملف .ini : [3] : خطأ نظام : [2]."/>
+  <STRING id="Error.2105" value="فشل إنشاء اختصارات [3]. خطأ نظام : [2]."/>
+  <STRING id="Error.2106" value="فشل إزالة الاختصارات [3]. خطأ نظام : [2]."/>
+  <STRING id="Error.2107" value="خطأ [3] تسجيل مكتبة النوع [2]."/>
+  <STRING id="Error.2108" value="خطأ [3] إلغاء تسجيل مكتبة النوع [2]."/>
+  <STRING id="Error.2109" value="قسم مفقود لفعل  .ini "/>
+  <STRING id="Error.2110" value="مفتاح مفقود لفعل .ini"/>
+  <STRING id="Error.2111" value="الكشف عن التطبيقات المشغلة فشل ، لم نحصل على بيانات الأداء . العملية المسجلة أعيدت : [2]."/>
+  <STRING id="Error.2112" value="الكشف عن التطبيقات المشغلة فشل ، لم نحصل على سجل الأداء . العملية المسجلة أعيدت : [2]."/>
+  <STRING id="Error.2113" value="الكشف عن التطبيقات المشغلة فشل"/>
+  <STRING id="Error.22" value="جاري إزالة الإصدارات القديمة لهذا التطبيق..."/>
+  <STRING id="Error.2200" value="قاعدة البيانات : [2].إنشاء عنصر قاعدة البيانات فشل ، النمط = [3]."/>
+  <STRING id="Error.2201" value="قاعدة البيانات : [2].التهيئة فشلت ، خارج نطاق الذاكرة"/>
+  <STRING id="Error.2202" value="قاعدة البيانات : [2].الدخول للبيانات فشل ، خارج نطاق الذاكرة"/>
+  <STRING id="Error.2203" value="قاعدة البيانات : [2].لا يمكن فتح ملف قاعدة البيانات . خطأ نظام [3]."/>
+  <STRING id="Error.2204" value="قاعدة البيانات : [2].الجدول موجود مسبقا : [3]."/>
+  <STRING id="Error.2205" value="قاعدة البيانات :[2].الجدول غير موجود :[3]."/>
+  <STRING id="Error.2206" value="قاعدة البيانات :[2].الجدول لا يمكن إسقاطه :[3]."/>
+  <STRING id="Error.2207" value="قاعدة البيانات : [2]. إصرار على الانتهاك"/>
+  <STRING id="Error.2208" value="قاعدة البيانات : [2]. المتثابتات غير كافية"/>
+  <STRING id="Error.2209" value="قاعدة البيانات : [2]. حالة المؤشر غير صالحة"/>
+  <STRING id="Error.2210" value="قاعدة البيانات : [2]. تحديث البيانات غير صالح في العمود [3]."/>
+  <STRING id="Error.2211" value="قاعدة البيانات : [2]. لا يمكن تكوين جدول قاعدة البيانات [3]."/>
+  <STRING id="Error.2212" value="قاعدة البيانات : [2]. قاعدة البيانات ليست للكتابة"/>
+  <STRING id="Error.2213" value="قاعدة البيانات : [2]. خطأ حفظ جداول قاعدة البيانات"/>
+  <STRING id="Error.2214" value="قاعدة البيانات : [2]. خطأ كتابة الملف الصادر : [3]."/>
+  <STRING id="Error.2215" value="قاعدة البيانات : [2]. لا يمكن فتح الملف الوارد : [3]."/>
+  <STRING id="Error.2216" value="قاعدة البيانات : [2]. خطأ صيغة الملف الوارد : [3]، السطر [4]."/>
+  <STRING id="Error.2217" value="قاعدة البيانات : [2].صيغة خاطئة لإنشاء CreateOutputDatabase [3]."/>
+  <STRING id="Error.2218" value="قاعدة البيانات : [2].لم يتم توفير اسم الجدول."/>
+  <STRING id="Error.2219" value="قاعدة البيانات : [2].صيغة قاعدة بيانات المثبت غير صالحة . "/>
+  <STRING id="Error.2220" value="قاعدة البيانات : [2].بيانات صف/ حقل غير صالحة . "/>
+  <STRING id="Error.2221" value="قاعدة البيانات : [2].تشفير الصفحة يتعارض مع الملف المستورد : [3]."/>
+  <STRING id="Error.2222" value="قاعدة البيانات : [2].تحويل أو دمج تشفير الصفحة [3] يختلف عن تشفير صفحة قاعدة البيانات [4]."/>
+  <STRING id="Error.2223" value="قاعدة البيانات : [2].قواعد البيانات متشابهة . لم يتم إنشاء أي تحويل ."/>
+  <STRING id="Error.2224" value="قاعدة البيانات : [2]. GenerateTransform: قاعدة البيانات تالفة . الجدول : Table: [3]."/>
+  <STRING id="Error.2225" value="قاعدة البيانات : [2]. التحويل : لا يمكن تحويل جدول مؤقت : الجدول : [3]."/>
+  <STRING id="Error.2226" value="قاعدة البيانات : [2]. التحويل فشل . "/>
+  <STRING id="Error.2227" value="قاعدة البيانات : [2]. المعرف غير صالح &apos;[3]&apos; في SQL query: [4]. "/>
+  <STRING id="Error.2228" value="قاعدة البيانات : [2]. جدول غير معروف &apos;[3]&apos; في SQL query: [4]."/>
+  <STRING id="Error.2229" value="قاعدة البيانات : [2]. لا يمكن تحميل الجدول &apos;[3]&apos; في SQL query: [4]."/>
+  <STRING id="Error.2230" value="قاعدة البيانات :[2].جدول مكرر  &apos;[3]&apos; في   استعلام  SQL :[4]. "/>
+  <STRING id="Error.2231" value="قاعدة البيانات :[2]. مفقود  &apos;)&apos; في SQL query: [3]."/>
+  <STRING id="Error.2232" value="قاعدة البيانات : [2]. علامة غير متوقعة &apos;[3]&apos; في SQL query: [4]."/>
+  <STRING id="Error.2233" value="قاعدة البيانات :[2]. لا يوجد عمود في العبارة المختارة في SQL query: [3]."/>
+  <STRING id="Error.2234" value="قاعدة البيانات [2]. لا توجد أعمدة مرتبة في العبارة في SQL query: [3]."/>
+  <STRING id="Error.2235" value="قاعدة البيانات [2]. العمود &apos;[3]&apos;غير موجود أو مبهم في SQL query: [4]."/>
+  <STRING id="Error.2236" value="قاعدة البيانات [2].معامل غير صالح &apos;[3]&apos; في SQL query: [4]."/>
+  <STRING id="Error.2237" value="قاعدة البيانات [2]. استعلام سلسلة الرموز مفقود أو غير صالح : [3]."/>
+  <STRING id="Error.2238" value="قاعدة البيانات : [2].لا يوجد في العبارة في SQL query: [4]."/>
+  <STRING id="Error.2239" value="قاعدة البيانات : [2].قيم غير كافية في إدراج عبارة SQL ."/>
+  <STRING id="Error.2240" value="قاعدة البيانات : [2].عمود التحديث غير موجود في عبارة تحديث في   SQL ."/>
+  <STRING id="Error.2241" value="قاعدة البيانات : [2].عمود الإدرج غير موجود في عبارة INSERT في   SQL ."/>
+  <STRING id="Error.2242" value="قاعدة البيانات : [2]. العمود &apos;[3]&apos; مكرر ."/>
+  <STRING id="Error.2243" value="قاعدة البيانات : [2]. لم يتم تحديد أي عمود أولي لإنشاء الجدول ."/>
+  <STRING id="Error.2244" value="قاعدة البيانات : [2]. محدد النوع غير صالح &apos;[3]&apos; في SQL query: [4]."/>
+  <STRING id="Error.2245" value="IStorage::Stat فشل لوجود الخطأ  [3]."/>
+  <STRING id="Error.2246" value="قاعدة البيانات : [2]. فشل تحويل البنية في المثبت"/>
+  <STRING id="Error.2247" value="قاعدة البيانات : [2] فشل تدفق التحويل قراءة/كتابة ."/>
+  <STRING id="Error.2248" value="قاعدة البيانات : [2] GenerateTransform/Merge: نوع العمود في الجدول الأساسي لا يطابق الجدول المرجع . الجدول : [3] Col #: [4]."/>
+  <STRING id="Error.2249" value="اعدة البيانات : [2] GenerateTransform/Merge: الأعمدة في الجدول الأساسي أكثر من الأعمدة في الجدول المرجع . الجدول : [3] ."/>
+  <STRING id="Error.2250" value="قاعدة البيانات : [2] التحويل : لا يمكن إضافة صف موجود . الجدول : [3]."/>
+  <STRING id="Error.2251" value="قاعدة البيانات : [2] التحويل : لا يمكن إزالة صف غير موجود. الجدول : [3]."/>
+  <STRING id="Error.2252" value="قاعدة البيانات : [2] التحويل : لا يمكن إضافة جدول موجود . الجدول : [3]."/>
+  <STRING id="Error.2253" value="قاعدة البيانات : [2] التحويل : لا يمكن إزالة جدول غير موجود . الجدول : [3]."/>
+  <STRING id="Error.2254" value="قاعدة البيانات : [2] التحويل : لا يمكن تحديث صف غير موجود . الجدول : [3]."/>
+  <STRING id="Error.2255" value="قاعدة البيانات : [2] التحويل : يوجد عمود بنفس الاسم . الجدول : [3]. Col: [4]."/>
+  <STRING id="Error.2256" value="قاعدة البيانات : [2]GenerateTransform/Merge: عدد المفاتيح الأولية في الجدول الأساسي لا تطابق الجدول المرجع . الجدول : [3]."/>
+  <STRING id="Error.2257" value="قاعدة البيانات : [2]. الغرض تحديث جدول للقراءة فقط الجدول : [3]."/>
+  <STRING id="Error.2258" value="قاعدة البيانات : [2]. خطأ في كتابة  المتثابتة : [3]."/>
+  <STRING id="Error.2259" value="قاعدة البيانات : [2] فشل تحديث الجدول/الجداول"/>
+  <STRING id="Error.2260" value="فشل تخزين CopyTo . خطأ نظام : [3]."/>
+  <STRING id="Error.2261" value="لا يمكن إزالة التدفق [2]. خطأ نظام : [3]."/>
+  <STRING id="Error.2262" value="لا يوجد تدفق: [2]. خطأ نظام : [3]."/>
+  <STRING id="Error.2263" value="لا يمكن فتح التدفق : [2]. خطأ نظام : [3]."/>
+  <STRING id="Error.2264" value="لا يمكن إزالة التدفق [2]. خطأ نظام [3]."/>
+  <STRING id="Error.2265" value="لا يمكن بدء التخزين . خطأ نظام : [3]."/>
+  <STRING id="Error.2266" value="لا يمكن استعادة التخزين . خطأ نظام : [3]."/>
+  <STRING id="Error.2267" value="لا يمكن إزالة التخزين [2]. خطأ نظام : [3]."/>
+  <STRING id="Error.2268" value="قاعدة البيانات : [2]. الدمج : يوجد تعارض في الدمج أبلغ عنه في الجداول [3]"/>
+  <STRING id="Error.2269" value="اعدة البيانات : [2]. الدمج : عدد الأعمدة يختلف في &apos;[3]&apos; الجدول في قاعدتي البيانات ."/>
+  <STRING id="Error.2270" value="قاعدة البيانات : [2]. اسم العمود في الجدول الأساسي لا يطابق الجدول المرجع . الجدول : [3] Col #: [4]."/>
+  <STRING id="Error.2271" value="SummaryInformation فشل الكتابة للتحويل"/>
+  <STRING id="Error.2272" value="Database: [2]. MergeDatabase لن تتم كتابة أي تغييرات لأن قاعدة البيانات مفتوحة للقراءة فقط."/>
+  <STRING id="Error.2273" value="Database: [2]. MergeDatabase: يوجد مرجع إلى قاعدةِ البيانات الأساسيةِ مرر كقاعدة بيانات المرجع"/>
+  <STRING id="Error.2274" value="Database: [2]. MergeDatabase: غير قادر لكتابة الأخطاء لجدول الأخطاء .ربما كان السبب وجود عمود لا يمكن إلغائه في جدول الأخطاء المعرف مسبقا"/>
+  <STRING id="Error.2275" value="قاعدة البيانات : [2].عملية التعديلات المحددة غير صالحة لوصلات الجدول ."/>
+  <STRING id="Error.2276" value="قاعدة البيانات :[2]. صفحة التشفير [3] غير مدعومة من النظام ."/>
+  <STRING id="Error.2277" value="قاعدة البيانات :[2]. فشل في حفظ الجدول [3]."/>
+  <STRING id="Error.2278" value="قاعدة البيانات : [2]. تخطت الحد لعدد التعابير البالغ 32 WHERE حيث عبارة SQL query: [3]."/>
+  <STRING id="Error.2279" value="قاعدة البيانات : [2] التحويل : توجد أعمدة كثيرة جدا في الجدول الأساسي [3]."/>
+  <STRING id="Error.2280" value="قاعدة البيانات : [2]. لا يمكن إنشاء العمود [3] للجدول [4]."/>
+  <STRING id="Error.2281" value="لا يمكن إعادة تسمية التدفق  [2]. خطأ نظام : [3]."/>
+  <STRING id="Error.2282" value="اسم التدفق غير صالح [2]."/>
+  <STRING id="Error.23" value="جاري التحضير لإزالة الإصدارات القديمة لهذا التطبيق..."/>
+  <STRING id="Error.2302" value="إعلان ترميم : [2] بايت رممت حتى الآن ."/>
+  <STRING id="Error.2303" value="خطأ في الحصول على معلومات وحدة التخزين .  GetLastError: [2]."/>
+  <STRING id="Error.2304" value="خطأ في الحصول على مساحة القرص الحرة . GetLastError: [2]. وحدة التخزين: [3]."/>
+  <STRING id="Error.2305" value="خطأ انتظار لخيط الترميم. GetLastError: [2]."/>
+  <STRING id="Error.2306" value="لا يمكن إنشاء خيط لتطبيق الترميم. GetLastError: [2]."/>
+  <STRING id="Error.2307" value="اسم مفتاح الملف المصدر قيمته غير محددة ."/>
+  <STRING id="Error.2308" value="اسم الملف الواجهة غير محدد ."/>
+  <STRING id="Error.2309" value="محاولة ترميم الملف [2] في حين الترميم ما يزال جاريا ."/>
+  <STRING id="Error.2310" value="محاولة الاستمرار في الترميم في حين لا يوجد ترميم جاري ."/>
+  <STRING id="Error.2315" value="فاصل المسار مفقود : [2]."/>
+  <STRING id="Error.2318" value="الملف غير موجود : [2]."/>
+  <STRING id="Error.2319" value="خطأ في ضبط خواص الملف : [3] GetLastError: [2]."/>
+  <STRING id="Error.2320" value="الملف لا يمكن الكتابة عليه : [2]."/>
+  <STRING id="Error.2321" value="خطأ إنشاء الملف : [2]."/>
+  <STRING id="Error.2322" value="ألغي بواسطة المستخدم ."/>
+  <STRING id="Error.2323" value="خواص الملف غير صالحة ."/>
+  <STRING id="Error.2324" value="لا يمكن فتح الملف : [3] GetLastError: [2]."/>
+  <STRING id="Error.2325" value="لا يمكن الحصول على وقت إنشاء ملف للملف : [3] GetLastError: [2]."/>
+  <STRING id="Error.2326" value="خطأ في FileToDosDateTime."/>
+  <STRING id="Error.2327" value="لا يمكن إزالة الدليل : [3] GetLastError: [2]."/>
+  <STRING id="Error.2328" value="خطأ في الحصول على معلومات إصدار الملف للملف : [2]."/>
+  <STRING id="Error.2329" value="خطأ إزالة الملف : [3]. GetLastError: [2]."/>
+  <STRING id="Error.2330" value="خطأ في الحصول على خواص الملف : [3]. GetLastError: [2]."/>
+  <STRING id="Error.2331" value="خطأ في تحميل المكتبة : [2] أو العثور على نقطة الإدخال [3]."/>
+  <STRING id="Error.2332" value="خطأ في الحصول على خواص الملف . GetLastError: [2]."/>
+  <STRING id="Error.2333" value="خطأ في ضبط خواص الملف . GetLastError: [2]."/>
+  <STRING id="Error.2334" value="خطأ في تحويل توقيت الملف إلى توقيت محلي للملف : [3]. GetLastError: [2]."/>
+  <STRING id="Error.2335" value="المسار : [2] ليس مسار رئيسيا من [3]."/>
+  <STRING id="Error.2336" value="خطأ في إنشاء ملف مؤقت في المسار : [3]. GetLastError: [2]."/>
+  <STRING id="Error.2337" value="لا يمكن إغلاق الملف : [3] GetLastError: [2]."/>
+  <STRING id="Error.2338" value="لا يمكن تحديث المصدر للملف : [3] GetLastError: [2]."/>
+  <STRING id="Error.2339" value="لا يمكن إنشاء توقيت الملف للملف : [3] GetLastError: [2]."/>
+  <STRING id="Error.2340" value="لا يمكن تحديث المصدر للملف : [3] ، مصدر مفقود ."/>
+  <STRING id="Error.2341" value="لا يمكن تحديث المصدر للملف : [3]، المصدر كبير جدا ."/>
+  <STRING id="Error.2342" value="لا يمكن تحديث المصدر للملف : [3] GetLastError: [2]."/>
+  <STRING id="Error.2343" value="المسار المحدد فارغ ."/>
+  <STRING id="Error.2344" value="لا يمكن العثور على الملف المطلوب IMAGEHLP.DLL للتحقق من file:[2]."/>
+  <STRING id="Error.2345" value="الملف : [2] لا يحتوي على checksum قيمة ."/>
+  <STRING id="Error.2347" value="تجاهل من المستخدم ."/>
+  <STRING id="Error.2348" value="خطأ في محاولة القراءة من غلاف البيانات ."/>
+  <STRING id="Error.2349" value="النسخ استمر بمعلومات مختلفة ."/>
+  <STRING id="Error.2350" value="خطأ الخادم"/>
+  <STRING id="Error.2351" value="الملف الأساسي &apos;[2]&apos; لم يتم العثور عليه في الغلاف &apos;[3]&apos;. لا يمكن الاستمرار في التثبيت ."/>
+  <STRING id="Error.2352" value="لا يمكن استهلال ملف الخادم . الملف المطلوب &apos;CABINET.DLL&apos; ربما كان مفقودا ."/>
+  <STRING id="Error.2353" value="ليست غلاف ."/>
+  <STRING id="Error.2354" value="لا يمكن التعامل مع الغلاف ."/>
+  <STRING id="Error.2355" value="غلاف تالف."/>
+  <STRING id="Error.2356" value="لا يمكن العثور على الغلاف في السلاسل : [2]."/>
+  <STRING id="Error.2357" value="لا يمكن ضبط الخواص ."/>
+  <STRING id="Error.2358" value="خطأ في تحديد ما إذا كان الملف مستخدما : [3]. GetLastError: [2]."/>
+  <STRING id="Error.2359" value="لا يمكن إنشاء الملف الواجهة ـ الملف ربما كان  قيد التشغيل ."/>
+  <STRING id="Error.2360" value="التأشير على التقدم ."/>
+  <STRING id="Error.2361" value="يحتاج للغلاف التالي ."/>
+  <STRING id="Error.2362" value="لم يتم العثور على المجلد : [2]."/>
+  <STRING id="Error.2363" value="لا يمكن عد المجلدات الفرعية للمجلد : [2]."/>
+  <STRING id="Error.2364" value="ثابت التعداد غير صالح في CreateCopier call."/>
+  <STRING id="Error.2365" value="لا يمكن BindImage exe الملف  [2]."/>
+  <STRING id="Error.2366" value="فشل المستخدم ."/>
+  <STRING id="Error.2367" value="تم الإلغاء بواسطة المستخدم ."/>
+  <STRING id="Error.2368" value="فشل في الحصول على مصادر معلومات الشبكة . خطأ [2]، مسار الشبكة [3].خطأ متواصل : موفر الشبكة [5]، رمز الخطأ [4]، وصف الخطأ [6]."/>
+  <STRING id="Error.2370" value="CRC غير صالح .قيمة  checksum للملف [2].{عنوانها الرئيسي يقول [3] ل  checksum  ، قيمته المحسوبة [4].}"/>
+  <STRING id="Error.2371" value="لا يمكن تطبيق الترميم في الملف [2]. GetLastError: [3]."/>
+  <STRING id="Error.2372" value="ملف الترميم [2] تالف أو لديه إمتداد غير صالح . محاولة ترميم الملف [3]. GetLastError: [4]."/>
+  <STRING id="Error.2373" value="الملف [2] ليس ملف ترميم صالح ."/>
+  <STRING id="Error.2374" value="الملف [2] ليس مجلد وجهة صالح لترميم الملف [3]."/>
+  <STRING id="Error.2375" value="خطأ ترميم غير معروف : [2]."/>
+  <STRING id="Error.2376" value="لم يتم العثور على الخزانة ."/>
+  <STRING id="Error.2379" value="خطأ في فتح الملف للقراءة : [3] GetLastError: [2]."/>
+  <STRING id="Error.2380" value="خطأ في فتح الملف للكتابة : [3]. GetLastError: [2]."/>
+  <STRING id="Error.2381" value="الدليل لا يوجد : [2]."/>
+  <STRING id="Error.2382" value="محرك الأقراص غير جاهز : [2]."/>
+  <STRING id="Error.2401" value="محاولة إجراء تسجيل  64-bit في نظام تشغيل 32-bit للمفتاح [2]."/>
+  <STRING id="Error.2402" value="نفدت الذاكرة"/>
+  <STRING id="Error.2501" value="لا يمكن إنشاء عداد مخطوطة عودة للخلف"/>
+  <STRING id="Error.2502" value="استدعاء InstallFinalize عندما لا يكون هناك تثبيت قيد التقدم ."/>
+  <STRING id="Error.2503" value="استدعاء RunScript عندما يكون غير المعلم قيد التقدم ."/>
+  <STRING id="Error.2601" value="قيمة غير صالحة للخاصية [2]: &apos;[3]&apos;"/>
+  <STRING id="Error.2602" value="نقطة إدخال الجدول &apos;[3]&apos; ليست لديها إدخال مربوط في جدول الوسائط ."/>
+  <STRING id="Error.2603" value="اسم جدول مكرر [2]."/>
+  <STRING id="Error.2604" value="[2] خاصية غير معرفة ."/>
+  <STRING id="Error.2605" value="لا يمكن العثور على الخادم [2] في [3] أو [4]."/>
+  <STRING id="Error.2606" value="قيمة الخاصية [2] مسار كامل غير صالح : &apos;[3]&apos;."/>
+  <STRING id="Error.2607" value="لم يتم العثور على جدول الوسائط أو فارغ (مطلوب لتثبيت الملفات )."/>
+  <STRING id="Error.2608" value="لم يم إنشاء الواصف الأمني للعنصر . خطأ: &apos;[2]&apos;."/>
+  <STRING id="Error.2609" value="محاولة تصدير إعدادات المنتج قبل الاستهلال ."/>
+  <STRING id="Error.2611" value="الملف [2] مشار إليه على أنه مضغوط، لكن نقطة إدخال الوسائط المربوطوطة به لم تحدد غلاف ."/>
+  <STRING id="Error.2612" value="لم يتم العثور على التدفق في &apos;[2]&apos; العمود . المفتاح الأساسي : &apos;[3]&apos;."/>
+  <STRING id="Error.2613" value="RemoveExistingProducts تسلسل الإجراء غير صحيح ."/>
+  <STRING id="Error.2614" value="لا يمكن فتح عنصر IStorage من حزمة التثبيت ."/>
+  <STRING id="Error.2615" value="تجاوز إلغاء تسجيل التركيبة Module [2] نظرا لفشل تحليل المصدر ."/>
+  <STRING id="Error.2616" value="الملف المرافق [2] الأصل مفقود ."/>
+  <STRING id="Error.2617" value="المكون المشترك [2] لم يتم العثور عليه في جدول المكون ."/>
+  <STRING id="Error.2618" value="مكون التطبيق المعزول [2] لم يتم العثور عليه في جدول المكون ."/>
+  <STRING id="Error.2619" value="المكونات المعزولة [2], [3] ليست جزءاً من الميزة نفسها ."/>
+  <STRING id="Error.2620" value="الملف الأساسي لمكون التطبيق المعزول [2] لم يتم العثور عليه في جدول الملفات ."/>
+  <STRING id="Error.2621" value="مصدر DLL أو مصدر معلومات ID للاختصار [2] تم ضبطه بصورة غير صحيحة ."/>
+  <STRING id="Error.2701" value="عمق الميزة تخطى عمق الشجرة المقبول من الدرجات  [2] ."/>
+  <STRING id="Error.2702" value="جدول سجل ميزة ([2]) يشير إلى أصل غير موجود في حقل الخواص ."/>
+  <STRING id="Error.2703" value="اسم مسار الخصائص للمصدر الأصل مُعرَّف : [2]"/>
+  <STRING id="Error.2704" value="دليل خصائص الجذر غير مُعرَّف : [2]"/>
+  <STRING id="Error.2705" value="جدول غير صالح : [2]; لا يمكن ربطه كشجرة ."/>
+  <STRING id="Error.2706" value="لم يتم إنشاء مسار المصدر . لا يوجد أي مسار للإدخال [2] في جدول الدليل ."/>
+  <STRING id="Error.2707" value="لم يتم إنشاء مسار الوجهة . لا يوجد أي مسار للإدخال [2] في جدول الدليل"/>
+  <STRING id="Error.2708" value="لم يتم العثور على أي إدخال في جدول الملفات ."/>
+  <STRING id="Error.2709" value="اسم المكون المحدد (&apos;[2]&apos;) لم يتم العثور عليه في جدول المكونات "/>
+  <STRING id="Error.2710" value="العبارة المطلوبة &apos;اختار&apos; غير صحيحة لهذا المكون ."/>
+  <STRING id="Error.2711" value="اسم الميزة المحدد (&apos;[2]&apos;) لم يتم العثور عليه في جدول الميزات"/>
+  <STRING id="Error.2712" value="رد غير صالح من الحوار غير القابل للإغلاق : [3], في الإجراء [2]."/>
+  <STRING id="Error.2713" value="قيمة محددة في عمود لا يمكن كتابة قيمة غير محددة عليه عليه (&apos;[2]&apos; in &apos;[3]&apos; أعمدة من  &apos;[4]&apos; الجدول."/>
+  <STRING id="Error.2714" value="قيمة غير صالحة لاسم المجلد الافتراضي : [2]."/>
+  <STRING id="Error.2715" value="مفتاح الملف المحدد (&apos;[2]&apos;) لم يتم العثور عليه في جدول الملفات ."/>
+  <STRING id="Error.2716" value="لا يمكن إنشاء اسم عشوائي للمكون الفرعي للمكون &apos;[2]&apos;."/>
+  <STRING id="Error.2717" value="حالة الإجراء سيئة أو خطأ استدعاء الإجراء المخصص &apos;[2]&apos;."/>
+  <STRING id="Error.2718" value="اسم الحزمة مفقود لتشفير المنتج &apos;[2]&apos;."/>
+  <STRING id="Error.2719" value="مسار كلا من UNC وحرف القرص لم يتم العثور عليه في المصدر &apos;[2]&apos;."/>
+  <STRING id="Error.2720" value="خطأ في فتح مفتاح قائمة المصدر . الخطأ : &apos;[2]&apos;"/>
+  <STRING id="Error.2721" value="الإجراء المخصص [2] لم يتم العثور عليه في تدفق مسار الجدول الثنائي ."/>
+  <STRING id="Error.2722" value="الإجراء المخصص [2] لم يتم العثور عليه في جدول الملفات ."/>
+  <STRING id="Error.2723" value="الإجراء المخصص  [2] قام بتحديد نوع غير مدعوم ."/>
+  <STRING id="Error.2724" value="تسمية وحدة التخزين &apos;[2]&apos; في الوسائط التي تق&apos;وم  بتشغيلها من الدوس لا تتطابق مع التسمية &apos;[3]&apos; الموجودة في جدول الوسائط. هذا مسموح به فقط إذا كان لديك إدخال واحد في جدول مواصفاتك ."/>
+  <STRING id="Error.2725" value="جداول قاعدة البيانات غير صالحة"/>
+  <STRING id="Error.2726" value="لم يتم العثور على الإجراء : [2]."/>
+  <STRING id="Error.2727" value="مدخل الدليل &apos;[2]&apos; ليس له وجود في جدول الدليل ."/>
+  <STRING id="Error.2728" value="خطأ تعريف الجدول : [2]"/>
+  <STRING id="Error.2729" value="لم يتم الاستهلال بمحرك التثبيت ."/>
+  <STRING id="Error.2730" value="قيمة غير صحيحة في قاعدة البيانات . الجدول : &apos;[2]&apos;; المفتاح الأساسي : &apos;[3]&apos;; العمود : &apos;[4]&apos;"/>
+  <STRING id="Error.2731" value="لم يتم استهلال مدير الاختيار."/>
+  <STRING id="Error.2732" value="لم يتم استهلال مدير الدليل ."/>
+  <STRING id="Error.2733" value="مفتاح غريب غير صحيح (&apos;[2]&apos;) في &apos;[3]&apos; العمود من &apos;[4]&apos; الجدول ."/>
+  <STRING id="Error.2734" value="هيئة حرف غير صحيح لإعادة التثبيت ."/>
+  <STRING id="Error.2735" value="الإجراء المخصص &apos;[2]&apos; تسبب في استثناء لا يمكن التعامل معه وتم إيقافه. ربما كان هذا نتيجة خطأ داخلي في الإجراء المخصص ، مثل الوصول بصفة غير شرعية ."/>
+  <STRING id="Error.2736" value="فشل توليد الملفات المؤقتة للإجراء المخصص :  [2]."/>
+  <STRING id="Error.2737" value="لا يمكن الوصول إلى الإجراء المخصص [2], الإدخال [3], المكتبة [4]"/>
+  <STRING id="Error.2738" value="لا يمكن الوصول إلى  وقت تشغيل VBScript للإجراء المخصص [2]."/>
+  <STRING id="Error.2739" value="لا يمكن الوصول إلى وقت تشغيل JScript للإجراء المخصص [2]."/>
+  <STRING id="Error.2740" value="الإجراء المخصص [2] خطأ مخطوطة [3], [4]: [5] السطر [6], العمود [7], [8]."/>
+  <STRING id="Error.2741" value="معلومات الضبط للمنتج [2] تالفة . معلومات غير صالحة : [2]."/>
+  <STRING id="Error.2742" value="فشل التوجه إلى الخادم : [2]."/>
+  <STRING id="Error.2743" value="لا يمكن تنفيذ الإجراء المخصص [2], الموقع : [3], الأمر : [4]."/>
+  <STRING id="Error.2744" value="فشل استدعاء EXE بواسطة الإجراء المخصص [2], الموقع : [3], الأمر : [4]."/>
+  <STRING id="Error.2745" value="التحويل [2] غير صالح للحزمة [3]. اللغة المتوقعة [4], اللغة الموجودة [5]."/>
+  <STRING id="Error.2746" value="التحويل [2] غير صالح للحزمة [3]. المنتج المتوقع [4], المنتج الموجود [5]."/>
+  <STRING id="Error.2747" value="التحويل [2] غير صالح للحزمة [3]. إصدار المنتج المتوقع  &lt; [4],إصدار المنتج الموجود [5]."/>
+  <STRING id="Error.2748" value="التحويل [2] غير صالح للحزمة [3]. إصدار المنتج المتوقع  &lt; = [4],إصدار المنتج الموجود [5]."/>
+  <STRING id="Error.2749" value="التحويل [2] غير صالح للحزمة [3]. إصدار المنتج المتوقع == [4], إصدار المنتج الموجود [5]."/>
+  <STRING id="Error.2751" value="التحويل [2] غير صالح للحزمة [3]. إصدار المنتج المتوقع &gt; [4], إصدار المنتج الموجود [5]."/>
+  <STRING id="Error.2752" value="لا يمكن فتح المحول [2] تم تخزينه كفرع تخزين من المنتج [4]."/>
+  <STRING id="Error.2753" value="الملف &apos;[2]&apos; لم يتم التأشير عليه للتثبيت ."/>
+  <STRING id="Error.2754" value="الملف &apos;[2]&apos; ملف ترميم غير صالح ."/>
+  <STRING id="Error.2755" value="أعاد الخادم خطأ غير متوقع [2] في محاولة تثبيت الحزمة [3]."/>
+  <STRING id="Error.2756" value="الخصائص &apos;[2]&apos; استخدمت كخصائص للدليل في جدول أو أكثر ، لكن لم يتم ربط أي قيم بها."/>
+  <STRING id="Error.2757" value="لا يمكن إنشاء معلومات مختصرة للتحويل [2]."/>
+  <STRING id="Error.2758" value="التحويل [2] لا يحتوي على إصدارة MSI"/>
+  <STRING id="Error.2759" value="التحويل [2] الإصدار [3] غير متوافق مع المحرك; الأدنى : [4], الأعلى :  [5]."/>
+  <STRING id="Error.2760" value="التحويل [2] غير صالح للحزمة [3]. شفرة التحديث المتوقعة [4], الموجودة [5]."/>
+  <STRING id="Error.2761" value="لا يمكن البدء في المعاملة . Global mutex ليست خاصية مستهلت ."/>
+  <STRING id="Error.2762" value="لا يمكن كتابة سجيل المخطوطة . لم تبدأ المعاملة ."/>
+  <STRING id="Error.2763" value="لا يمكن تشغيل المخطوطة . لم تبدأ المعاملة ."/>
+  <STRING id="Error.2765" value="اسم التجميع مفقود في جدول AssemblyName : المكون : [4]."/>
+  <STRING id="Error.2766" value="الملف [2] ملف تخزين MSI غير صالح ."/>
+  <STRING id="Error.2767" value="لا توجد بيانات أخرى { أثناء العد [2]}."/>
+  <STRING id="Error.2768" value="التحويل في حزمة الترميم غير صالح ."/>
+  <STRING id="Error.2769" value="الإجراء المخصص [2] لم يغلق [3] MSIHANDLEs."/>
+  <STRING id="Error.2770" value="مجلد التخزين المؤقت [2] لم يتم تحديده في جدول مجلد التخزين المؤقت الداخلي ."/>
+  <STRING id="Error.2771" value="تحديث الميزة [2] هناك مكون مفقود ."/>
+  <STRING id="Error.2772" value="ميزة تحديث جديدة [2] ينبغي أن تكون ميزة متفرغة ."/>
+  <STRING id="Error.2801" value="رسالة غير معروفة -- النوع [2]. . لم يتم اتخاذ أي إجراء ."/>
+  <STRING id="Error.2802" value="لم يتم العثور على أي ناشر للحدث [2]."/>
+  <STRING id="Error.2803" value="واجهة الحوار لم تعثر على سجل للحوار [2]."/>
+  <STRING id="Error.2804" value="عند تنشيط زر التحكم [3] في الحوار [2] CMsiDialog فشل في تقييم الحالة [3]."/>
+  <STRING id="Error.2806" value="الحوار [2] فشل في تقييم الحالة [3]."/>
+  <STRING id="Error.2807" value="لم يتم التعرف على الإجراء [2]."/>
+  <STRING id="Error.2808" value="الزر الافتراضي لم يتم تعريفه بصورة صحيحة في الحوار [2]."/>
+  <STRING id="Error.2809" value="في الحوار [2] مؤشرات الحوار التالي لا تكون دورة . هنالك مؤشر من [3] إلى [4], ولكن لا توجد مؤشرات أخرى ."/>
+  <STRING id="Error.2810" value="في الحوار [2] مؤشرات الحوار التالي لا تكون دورة . هنالك مؤشران من [3] إلى [4], ومن [5] إلى [4]."/>
+  <STRING id="Error.2811" value="في الحوار [2] زر التحكم [3] يجب أن يجذب الانتباه، لكنه لا يستطيع فعل ذلك ."/>
+  <STRING id="Error.2812" value="لم يتم التعرف على الحدث [2]."/>
+  <STRING id="Error.2813" value="حدث EndDialog تم استدعاؤه بالمتغير المستقل [2]، لكن الحوار لديه أصل "/>
+  <STRING id="Error.2814" value="في الحوار [2] زر التحكم [3] أسماء nonexistent زر التحكم [4] كزر تحكم تالي ."/>
+  <STRING id="Error.2815" value="جدول ControlCondition لديه صف بدون شرط للحوار [2]."/>
+  <STRING id="Error.2816" value="جدول EventMapping يشير إلى زر تحكم غير صالح [4] في الحوار [2] للحدث [3]."/>
+  <STRING id="Error.2817" value="الحدث [2] فشل في إعداد الخواص لزر التحكم [4] في الحوار [3]."/>
+  <STRING id="Error.2818" value="في جدول ControlEvent EndDialog لديه متغير مستقل غير معروف [2]."/>
+  <STRING id="Error.2819" value="زر التحكم [3] في الحوار [2] يحتاج إلى ربط خاصية به ."/>
+  <STRING id="Error.2820" value="محاولة استهلال برنامج موجه مستهل مسبقا ."/>
+  <STRING id="Error.2821" value="محاولة استهلال حوار مستهل مسبقا: [2]."/>
+  <STRING id="Error.2822" value="لا يمكن استدعاء طريقة أخرى في الحوار [2] حتى يكتمل إضافة كل أزرار التحكم ."/>
+  <STRING id="Error.2823" value="محاولة استهلال زر تحكم مستهل مسبقا : [3] في الحوار  [2]."/>
+  <STRING id="Error.2824" value="خاصية الحوار [3] تحتاج لتسجيل على الأقل [2] حقل/حقول ."/>
+  <STRING id="Error.2825" value="خاصية زر التحكم [3] تحتاج لتسجيل [2] حقل/ حقول على الأقل ."/>
+  <STRING id="Error.2826" value="زر التحكم [3] في الحوار [2] امتد أكثر من حدود الحوار [4] بـ [5] بكسل ."/>
+  <STRING id="Error.2827" value="الزر [4] في مجموعة أزرار الراديو [3] في الحوار [2]امتد أكثر من حدود المجموعة [5] بـ [6] بكسل ."/>
+  <STRING id="Error.2828" value="محاولة إزالة زر التحكم [3] من الحوار [2], لكن زر التحكم ليس جزءا من الحوار ."/>
+  <STRING id="Error.2829" value="محاولة استخدام حوار غير  مستهل ."/>
+  <STRING id="Error.2830" value="محاولة استخدام زر تحكم غير مستهل في الحوار [2]."/>
+  <STRING id="Error.2831" value="زر التحكم [3] في الحوار [2] لا يدعم [5] الخاصية [4]."/>
+  <STRING id="Error.2832" value="الحوار [2] لا يدعم الخاصية [3]."/>
+  <STRING id="Error.2833" value="زر التحكم [4] في الحوار [3] تجاهل الرسالة [2]."/>
+  <STRING id="Error.2834" value="المؤشرات التالية في الحوار [2] لا تشكل دورة منفردة ."/>
+  <STRING id="Error.2835" value="زر التحكم [2] لم يتم العثور عليه في الحوار [3]."/>
+  <STRING id="Error.2836" value="زر التحكم [3] في الحوار [2] لا يمكن أن يجذب الاهتمام ."/>
+  <STRING id="Error.2837" value="زر التحكم [3] في الحوار [2] يريد من منهج معالجة ويندوز أن يرجع [4]."/>
+  <STRING id="Error.2838" value="العنصر [2] في جدول الاختيار هو نفسه أصل ."/>
+  <STRING id="Error.2839" value="ضبط الخصائص  [2] فشل ."/>
+  <STRING id="Error.2840" value="خطأ اسم الحوار غير متطابق ."/>
+  <STRING id="Error.2841" value="لم يتم العثور على زر موافق في حوار الخطأ"/>
+  <STRING id="Error.2842" value="لم يتم العثور على حقل نص في حوار الخطأ"/>
+  <STRING id="Error.2843" value="خواص ErrorString ليست مدعومة للحوارات القياسية ."/>
+  <STRING id="Error.2844" value="لا يمكن تنفيذ حوار خطأ إذا لم يتم إعداد  Errorstring."/>
+  <STRING id="Error.2845" value="مجموع العرض للزر تجاوز حجم حوار الخطأ ."/>
+  <STRING id="Error.2846" value="SetFocus لم يعثر على زر التحكم المطلوب في حوار الخطأ ."/>
+  <STRING id="Error.2847" value="زر التحكم [3] في الحوار [2] تم فيه ضبط كل من تنسيق إعداد الأيقونة و  bitmap"/>
+  <STRING id="Error.2848" value="محاولة ضبط زر التحكم [3] كزر افتراضي في الحوار [2], لكن زر التحكم لا وجود له ."/>
+  <STRING id="Error.2849" value="زر التحكم [3] في الحوار [2] هو من النوع  الذي لا يمكن أن تكون قيمته عدد صحيح ."/>
+  <STRING id="Error.2850" value="لم يتم التعرف على نوع وحدة التخزين"/>
+  <STRING id="Error.2851" value="البيانات للأيقونة  [2] غير صالحة ."/>
+  <STRING id="Error.2852" value="على الأقل يجب إضافة زر تحكم واحد للحوار [2] قبل استخدامه ."/>
+  <STRING id="Error.2853" value="الحوار [2] هو حوار غير قابل للإغلاق . طريقة التنفيذ لا ينبغي أن تجرى عليه"/>
+  <STRING id="Error.2854" value="في الحوار [2] في زر التحكم [3] تم تعيينه ليكون أو زر تحكم منشط ، لكن لم يتم العثور على زر التحكم هذا ."/>
+  <STRING id="Error.2855" value="مجموعة أزرار الراديون [3] في الحوار [2] لديها أزرار أقل من 2"/>
+  <STRING id="Error.2856" value="إنشاء نسخة اخرى من الحوار [2]."/>
+  <STRING id="Error.2857" value="الدليل [2] تم ذكره في جدول الاختيارات ولكن لم يتم العثور عليه ."/>
+  <STRING id="Error.2858" value="البيانات بالنسبة bitmap [2] غير صالحة ."/>
+  <STRING id="Error.2859" value="اختبار رسالة خطأ ."/>
+  <STRING id="Error.2860" value="زر الإلغاء تم تعريفه بوضوح في الحوار [2]."/>
+  <STRING id="Error.2861" value="المؤشرات التالية لمجموعة أزرار الراديو في الحوار [2] رز التحكم [3] لا تكون دورة ."/>
+  <STRING id="Error.2862" value="خواص زر التحكم [3] في الحوار [2] لم يحدد حجم أيقونة صالح . سيتم ضبط الحجم إلى 16."/>
+  <STRING id="Error.2863" value="زر التحكم [3] في لحوار [2] يحتاج إلى الأيقونة [4] ذات الحجم [5]x[5], لكن هذا الحجم غير متوفر . سيتم تحميل أول حجم متوفر ."/>
+  <STRING id="Error.2864" value="زر التحكم [3] في الحوار [2] استقبل حدث التصفح ، لكن لا يوجد دليل معد مسبقا للاختيار الحالي . السبب المرجح  لم تتم كتابته بصورة صحيحة ."/>
+  <STRING id="Error.2865" value="زر التحكم [3] في لوحة الإعلانات [2] امتد أكثر من حدود الحوار في لوحة الإعلانات [4] بـ [5] بكسل ."/>
+  <STRING id="Error.2866" value="الحوار [2] غير مسموح له بإعادة حدث التحكم  [3]."/>
+  <STRING id="Error.2867" value="خصائص حوار الخطأ لم يتم ضبطها ."/>
+  <STRING id="Error.2868" value="خطأ الحوار [2] ليس لديه خطأ تنسيق ضبط الرقم الثنائي"/>
+  <STRING id="Error.2869" value="الحوار [2] لديه خطأ تتنسيق ضبط الرقم الثنائي, ولكنه ليس خطأ حوار ."/>
+  <STRING id="Error.2870" value="سلسلة المساعدة [4] لزر التحكم [3] في الحوار [2] لا يحتوي على فاصل الحرف ."/>
+  <STRING id="Error.2871" value="الجدول  [2] منتهي التاريخ ."/>
+  <STRING id="Error.2872" value="حجة CheckPath حدث التحكم في الحوار [2] غير صالحة"/>
+  <STRING id="Error.2873" value="في الحوار [2] زر التحكم [3] لديه سلسلة رموز غير صالحة حد طول السلسلة : [4]."/>
+  <STRING id="Error.2874" value="فشل تغيير خط النص إلى [2]."/>
+  <STRING id="Error.2875" value="فشل تغيير لون النص إلى [2]."/>
+  <STRING id="Error.2876" value="زر التحكم [3] في الحوار [2] اضطر لبتر سلسلة الرموز : [4]."/>
+  <STRING id="Error.2877" value="البيانات الثنائية [2] لم يتم العثور عليها"/>
+  <STRING id="Error.2878" value="في الحوار [2] زر التحكم [3] لديه قيمة محتملة : [4]. وهذه القيمة غير صالحة أو مكررة ."/>
+  <STRING id="Error.2879" value="زر التحكم  [3] في الحوار [2] لا يمكنه تحليل السلسلة المغطاة: [4]."/>
+  <STRING id="Error.2880" value="لا تجر أحداث التحكم المتبقية ."/>
+  <STRING id="Error.2881" value="CMsiHandler فشل التمهيد"/>
+  <STRING id="Error.2882" value="فشل تسجيل نافذة حوار الفئات."/>
+  <STRING id="Error.2883" value="فشل CreateNewDialog للحوار [2]."/>
+  <STRING id="Error.2884" value="فشل إنشاء نافذة للحوار [2]."/>
+  <STRING id="Error.2885" value="فشل إنشاء زر التحكم [3] في الحوار [2]."/>
+  <STRING id="Error.2886" value="فشل إنشاء الجدول [2]."/>
+  <STRING id="Error.2887" value="فشل إنشاء مؤشر الجدول [2]."/>
+  <STRING id="Error.2888" value="فشل تنفيذ رؤية [2]."/>
+  <STRING id="Error.2889" value="فشل إنشاء النافذة للمتحكم [3] في الحوار [2]."/>
+  <STRING id="Error.2890" value="البرنامج الموجه فشل في إنشاء الحوار الاستهلالي."/>
+  <STRING id="Error.2891" value="فشل في إتلاف نافذة الحوار  [2]."/>
+  <STRING id="Error.2892" value="هو العدد الصحيح الوحيد للمتحكم ،  [3] ليست قيمة صحيحة ."/>
+  <STRING id="Error.2893" value="المتحكم [3] في الحوار [2] يمكنه قبول قيم الخصائص التي يبلغ مداها [5] حروف . القيمة [4] تخطت هذا الحد، وتم إزالتها ."/>
+  <STRING id="Error.2894" value="فشل تحميل RICHED20.DLL failed. GetLastError() الرد: [2]."/>
+  <STRING id="Error.2895" value="فشل تحرير RICHED20.DLL . GetLastError() الرد: [2]."/>
+  <STRING id="Error.2896" value="فشل تنفيذ الفعل [2]"/>
+  <STRING id="Error.2897" value="فشل إنشاء أي [2] خط في هذا النظام"/>
+  <STRING id="Error.2898" value="لأجل [2] textstyle ، النظام أنشأ ال &apos;[3]&apos;خط ، في حزمة الحروف ."/>
+  <STRING id="Error.2899" value="فشل إنشاء [2] textstyle.GetLastError() الرد: [3]."/>
+  <STRING id="Error.2901" value="متثابت غير صالح للعملية [2]: المتثابت [3]."/>
+  <STRING id="Error.2902" value="العملية [2] خارج التسلسل ."/>
+  <STRING id="Error.2903" value="الملف [2] مفقود ."/>
+  <STRING id="Error.2904" value="لا يمكن BindImage الملف [2]."/>
+  <STRING id="Error.2905" value="لا يمكن قراءة السجلات من ملف المخطوطة [2]."/>
+  <STRING id="Error.2906" value="عنوان مفقود في ملف المخطوطة [2]."/>
+  <STRING id="Error.2907" value="لا يمكن إنشاء واصف أمان آمن . خطأ : [2]."/>
+  <STRING id="Error.2908" value="لا يمكن تسجيل المكون [2]."/>
+  <STRING id="Error.2909" value="لا يمكن إلغاء تسجيل المكون [2]."/>
+  <STRING id="Error.2910" value="لا يمكن تحديد هوية  المستخدمي&apos;ن  الأمنية"/>
+  <STRING id="Error.2911" value="لا يمكن إزالة المجلد [2]."/>
+  <STRING id="Error.2912" value="لا يمكن جدولة الملف [2] للإزالة بعد إعادة التشغيل"/>
+  <STRING id="Error.2919" value="لم يتم تحديد غلاف للملف المضغوط : [2]."/>
+  <STRING id="Error.2920" value="دليل المصدر لم يتم تحديده للملف [2]."/>
+  <STRING id="Error.2924" value="إصدار المخطوطة [2] غير مدعوم . إصدار المخطوطة : [3]، الإصدار الأدني : [4]، الإصدار الأعلى : [5]."/>
+  <STRING id="Error.2927" value="ShellFolder id [2] غير صالحة"/>
+  <STRING id="Error.2928" value="تخطى العدد النهائي من المصادر . تخطي المصدر &apos;[2]&apos;."/>
+  <STRING id="Error.2929" value="لا يمكن تحديد جذر النشر . خطأ : [2]."/>
+  <STRING id="Error.2932" value="لا يمكن إنشاء الملف [2] من بيانات المخطوطة . خطأ : [3]."/>
+  <STRING id="Error.2933" value="لا يمكن الاستهلال بمخطوطة العودة للمستوى السابق [2]."/>
+  <STRING id="Error.2934" value="لا يمكن تأمين المحول [2]. خطأ [3]."/>
+  <STRING id="Error.2935" value="لا يمكن فك تأمين المحول [2]. خطأ [3]."/>
+  <STRING id="Error.2936" value="لا يمكن العثور على المحول [2]."/>
+  <STRING id="Error.2937" value="مثبت الويندوز لا يمكنه تثبيت ملف نظام حماية كاتالوج من ذاكرة الكاتالوج الوسيطة : [2] ،  خطأ : [3] ."/>
+  <STRING id="Error.2938" value="مثبت الويندوز لا يمكنه استرداد ملف نظام حماية كاتالوج من ذاكرة الكاتالوج الوسيطة : [2] ،  خطأ : [3] ."/>
+  <STRING id="Error.2939" value="مثبت الويندوز لا يمكنه إزالة ملف نظام حماية كاتالوج من ذاكرة الكاتالوج الوسيطة : [2] ،  خطأ : [3] .  "/>
+  <STRING id="Error.2940" value="لم يتم مدير الدليل بمصدر القرار"/>
+  <STRING id="Error.2941" value="غير قادر على إكمال CRC للملف [2]."/>
+  <STRING id="Error.2942" value="فعل BindImage لم يتم تنفيذه في الملف [2] . "/>
+  <STRING id="Error.2943" value="هذا الإصدار من نظام الويندوز لايدعم نشر حزم  64-bit.المخطوطة [2] تعمل في حزم 64-bit فقط ."/>
+  <STRING id="Error.2944" value="GetProductAssignmentType فشل."/>
+  <STRING id="Error.2945" value="تثبيت ComPlus App [2] فشلت للخطأ  [3]."/>
+  <STRING id="Error.3001" value="الإصلاحات في هذه القائمة تحتوي على معلومات تسلسلات غير صحيحة : [2][3][4][5][6][7][8][9][10][11][12][13][14][15][16]."/>
+  <STRING id="Error.3002" value=""/>
+  <STRING id="Error.32" value="{[ProductName] }تم إكمال برنامج الإعداد بنجاح."/>
+  <STRING id="Error.33" value="{[ProductName] }فشل إعداد"/>
+  <STRING id="Error.4" value="معلومات [1]. "/>
+  <STRING id="Error.4000" value="رقم مسلسل غير صالح."/>
+  <STRING id="Error.4001" value="لا يمكن التأكد من الرقم المسلسل ."/>
+  <STRING id="Error.4010" value="يوجد إصدار أحدث من [ProductName] مثبت بالفعل على هذا الكمبيوتر."/>
+  <STRING id="Error.4020" value="حدث خطأ أثناء عملية تكوين IIS&#10;سوف تتم استعادة تكوين IIS الأصلي."/>
+  <STRING id="Error.4021" value="موقع الويب “[2]” موجود بالفعل على هذا الخادم&#10;&#10;هل تريد تخطي موقع الويب هذا ومتابعة التثبيت؟"/>
+  <STRING id="Error.4022" value="الدليل الظاهري &quot;[2]&quot; في موقع الويب &quot;[3]&quot; موجود بالفعل على هذا الخادم.&#10;&#10;هل تريد تخطي هذا الدليل الظاهري ومتابعة التثبيت؟"/>
+  <STRING id="Error.4023" value="هذا الإصدار من IIS غير مدعم أو IIS لم يتم تثبيته بالكامل!&#10;&#10;تحتاج إلى خدمات معلومات الإنترنت 5.0 أو أحدث."/>
+  <STRING id="Error.4024" value="تم بدء موقع ويب بنفس ارتباطات الخادم بالفعل.&#10;&#10;[2]"/>
+  <STRING id="Error.4025" value="مجمع التطبيق &quot;[2]&quot; موجود مسبقا على هذا الخادم.&#10;&#10;هل تريد تجاوز تهيئة هذا التطبيق والاستمرار في التثبيت ؟"/>
+  <STRING id="Error.4026" value="موقع الويب &quot;[2]&quot; موجود مسبقا على هذا الخادم .&#10;&#10;هل تريد  الكتابة فوق موقع الويب والاستمرار في التثبيت ؟ &#10;( هذه العملية لا يمكن التراجع عنها .)"/>
+  <STRING id="Error.4027" value="الدليل الافتراضي &quot;[2]&quot; في موقع الويب &quot;[3]&quot;موجود مسبقا على هذا الخادم .&#10;&#10;هل تريد الكتابة فوق الدليل الافتراضي والاستمرار في التثبيت ؟( هذه العملية لا يمكن التراجع عنها )"/>
+  <STRING id="Error.4028" value="مجمع التطبيق &quot;[2]&quot; موجود مسبقا على هذا الخادم.&#10;&#10;هل تريد الكتابة فوق مجمع التطبيق والاستمرار في التثبيت؟&#10;(هذه العملية لا يمكن التراجع عنها.)"/>
+  <STRING id="Error.4101" value="يتعذر إنشاء حساب المستخدم أو المجموعة &apos;[2]&apos; على الجهاز المحلي. رمز الخطأ: [3]. [4]"/>
+  <STRING id="Error.4102" value="يوجد حساب المستخدم أو المجموعة &apos;[2]&apos; بالفعل على الجهاز المحلي."/>
+  <STRING id="Error.4103" value="يتعذر إزالة حساب المستخدم أو المجموعة &apos;[2]&apos; على الجهاز المحلي. رمز الخطأ: [3]."/>
+  <STRING id="Error.4104" value="لا يوجد حساب المستخدم أو المجموعة &apos;[2]&apos; على الجهاز المحلي."/>
+  <STRING id="Error.4105" value="تمت مواجهة خطأ أثناء مشاركة &apos;[2]&apos; باسم: &apos;[3]&apos;. وصف الخطأ: [4]."/>
+  <STRING id="Error.4106" value="تمت مواجهة خطأ أثناء إنشاء المهمة المجدولة: &apos;[3]&apos;. وصف الخطأ: [3]."/>
+  <STRING id="Error.4107" value="تمت مواجهة خطأ أثناء إزالة المهمة المجدولة: &apos;[3]&apos;. وصف الخطأ: [3]."/>
+  <STRING id="Error.4110" value="تعذر تخصيص الذاكرة."/>
+  <STRING id="Error.4111" value="لم يتم العثور على الملف: [2]."/>
+  <STRING id="Error.4112" value="تعذرت قراءة الملف &apos;[2]&apos;."/>
+  <STRING id="Error.4113" value="حدث خطأ تحليل في الملف: &apos;[2]&apos; في السطر: [3]، العمود: [4]. رمز الخطأ: [5]."/>
+  <STRING id="Error.4114" value="ترميز ملف XML غير مدعم."/>
+  <STRING id="Error.4115" value="خطأ في فتح الملف: [2]."/>
+  <STRING id="Error.4116" value="تعذرت كتابة الملف &apos;[2]&apos;."/>
+  <STRING id="Error.4117" value="عنصر جذر غير متوقع: &quot;[2]&quot; في ملف XML: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="حدث خطأ أثناء عملية تكوين جدار حماية ويندوز.&#10;سوف تتم استعادة تكوين جدار الحماية الأصلي."/>
+  <STRING id="Error.4121" value="مسار صورة عملية جدار حماية غير صالح، أو لم يتم العثور على الملف: [2]."/>
+  <STRING id="Error.4122" value="منفذ/بروتوكول جدار حماية غير صالح: [2]."/>
+  <STRING id="Error.4123" value="مجال شبكة جدار حماية غير صالح: [2]."/>
+  <STRING id="Error.4124" value="حدث خطأ في تسجيل التطبيق مع جدار حماية ويندوز: [2]."/>
+  <STRING id="Error.4125" value="حدث خطأ في تسجيل المنفذ مع جدار حماية ويندوز: [2]."/>
+  <STRING id="Error.4130" value="حدث خطأ أثناء عملية تكوين مستكشف الألعاب."/>
+  <STRING id="Error.4131" value="تمنعك الرقابة الأبوية من اللعب: [2]."/>
+  <STRING id="Error.4140" value="حدث خطأ أثناء عملية تنفيذ البرنامج النصي لـ SQL."/>
+  <STRING id="Error.4141" value="خطأ ODBC: [2] ([3])."/>
+  <STRING id="Error.4142" value="اتصال ODBC: تم تجاوز المهلة."/>
+  <STRING id="Error.4143" value="خطأ في تحليل البرنامج النصي لـ SQL: بناء جملة غير صالح."/>
+  <STRING id="Error.4150" value="خطأ داخلي في CallStdFcn."/>
+  <STRING id="Error.4151" value="المعادلة &apos;[2]&apos; لم يتم العثور عليها في ملف DDl &apos;[3]&apos;."/>
+  <STRING id="Error.4152" value="هل تريد إزالة إعدادات [ProductName] والملفات المؤقتة ؟"/>
+  <STRING id="Error.4153" value="[2] البرنامج الإجباري المطلوب لم يتم تثبيته بصورة صحيحة ."/>
+  <STRING id="Error.4154" value="[2] البرنامج المطلوب لم يتم تثبيته بصورة صحيحة . استمرار تثبيت [ProductName]؟"/>
+  <STRING id="Error.4155" value="فشل في الحصول بصورة صحيحة على الملف [2] : خطأ CRC "/>
+  <STRING id="Error.4156" value="فشل الحصول بصورة صحيحة على الملف [2] : خطأ CRC استمرار تثبيت [ProductName]؟"/>
+  <STRING id="Error.5" value="صادف المثبت خطأ غير متوقع أثناء تثبيت هذه الحزمة. قد يشير هذا إلى وجود مشكلة في هذه الحزمة. رمز الخطأ هو [1]. {{الوسائط هي: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{القرص ممتلئ: }}"/>
+  <STRING id="Error.8" value="الإجراء [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <!-- UIText table -->
+  <STRING id="UIText.BrowseFolderLocation" value="الموقع"/>
+  <STRING id="UIText.BrowseFolderName" value="اسم المجلد : "/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="اختار مجلد"/>
+  <STRING id="UIText.bytes" value="بايت"/>
+  <STRING id="UIText.GB" value="جيجا بايت"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;Error loading resource:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.HttpPostMsg" value="جاري إرسال البيانات التي تم جمعها..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.KB" value="كيلو بايت"/>
+  <STRING id="UIText.MB" value="ميجا بايت"/>
+  <STRING id="UIText.MenuAbsent" value="ستكون الميزة بأكملها غير متوفرة"/>
+  <STRING id="UIText.MenuAdvertise" value="سيتم تثبيت الميزة عند الطلب"/>
+  <STRING id="UIText.MenuAllCD" value="سيتم تثبيت الميزة بأكملها بحيث يتم التشغيل من القرص المضغوط"/>
+  <STRING id="UIText.MenuAllLocal" value="سيتم تثبيت الميزة بأكملها على القرص الثابت المحلي"/>
+  <STRING id="UIText.MenuAllNetwork" value="سيتم تثبيت الميزة بأكملها بحيث يتم التشغيل من شبكة الاتصال"/>
+  <STRING id="UIText.MenuCD" value="سيتم التثبيت بحيث يتم التشغيل من القرص المضغوط"/>
+  <STRING id="UIText.MenuLocal" value="سيتم التثبيت على القرص الثابت المحلي"/>
+  <STRING id="UIText.MenuNetwork" value="سيتم التثبيت بحيث يتم التشغيل من شبكة الاتصال"/>
+  <STRING id="UIText.ODBCTestMsg" value="الرجاء الانتظار أثناء اختبار الاتصال..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="ثبت"/>
+  <STRING id="UIText.PrereqInstalled" value="مثبت"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="يجب أن يثبت"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] أو أقل}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] أو أعلى}"/>
+  <STRING id="UIText.PrereqSkipAction" value="تجاوز"/>
+  <STRING id="UIText.ScriptInProgress" value="جاري ‏‏تجميع المعلومات المطلوبة..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="ستبقى هذه الميزة غير مثبتة"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="سيتم تعيين هذه الميزة ليتم تثبيتها عند الطلب"/>
+  <STRING id="UIText.SelAbsentCD" value="سيتم تثبيت هذه الميزة بحيث يتم التشغيل من القرص المضغوط"/>
+  <STRING id="UIText.SelAbsentLocal" value="سيتم تثبيت هذه الميزة على القرص الثابت المحلي"/>
+  <STRING id="UIText.SelAbsentNetwork" value="سيتم تثبيت هذه الميزة بحيث يتم التشغيل من شبكة الاتصال"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="ستصبح هذه الميزة غير متوفرة"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="سيتم التثبيت عند الطلب"/>
+  <STRING id="UIText.SelAdvertiseCD" value="ستكون هذه الميزة متوفرة ليتم تشغيلها من القرص المضغوط"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="سيتم تثبيت هذه الميزة على محرك الأقراص الثابت المحلي"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="ستتوفر هذه الميزة بحيث يتم تشغيلها من الشبكة"/>
+  <STRING id="UIText.SelCDAbsent" value="سيتم إلغاء تثبيت هذه الميزة بشكل كامل، لن تكون قادراً على تشغيلها من القرص المضغوط"/>
+  <STRING id="UIText.SelCDAdvertise" value="سيتم تغيير هذه الميزة من حالة التشغيل من القرص المضغوط ليتم تعيينها بحيث يتم تثبيتها عند الحاجة"/>
+  <STRING id="UIText.SelCDCD" value="سيبقى تشغيل هذه الميزة من القرص المضغوط"/>
+  <STRING id="UIText.SelCDLocal" value="ستتغير هذه الميزة ليتم تثبيتها على القرص الثابت المحلي بدلاً من تشغيلها من القرص المضغوط"/>
+  <STRING id="UIText.SelChildCostNeg" value="إزالة هذه الميزة يحرر [1] على القرص الثابت."/>
+  <STRING id="UIText.SelChildCostPos" value="تتطلب هذه الميزة [1] على القرص الثابت."/>
+  <STRING id="UIText.SelCostPending" value="جاري حساب تكلفة التصنيف لهذه الميزة..."/>
+  <STRING id="UIText.SelLocalAbsent" value="سيتم إزالة هذه الميزة بشكل كامل"/>
+  <STRING id="UIText.SelLocalAdvertise" value="سيتم إزالة هذه الميزة من القرص الثابت المحلي ولكن سيتم تعيينها لإمكانية تثبيتها عند الحاجة"/>
+  <STRING id="UIText.SelLocalCD" value="سيتم إزالة هذه الميزة من القرص الثابت المحلي ولكن ستبقى متوفرة ليتم تشغيلها من القرص المضغوط"/>
+  <STRING id="UIText.SelLocalLocal" value="ستبقى هذه الميزة على القرص الثابت المحلي"/>
+  <STRING id="UIText.SelLocalNetwork" value="سيتم إزالة هذه الميزة من القرص الثابت المحلي، ولكن ستبقى متوفرة ليتم تشغيلها من الشبكة"/>
+  <STRING id="UIText.SelNetworkAbsent" value="سيتم إلغاء تثبيت هذه الميزة بشكل كامل، لن تكون قادراً على تشغيلها من الشبكة"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="سيتم تغيير هذه الميزة من حالة التشغيل من شبكة الاتصال ليتم تعيينها بحيث يتم تثبيتها عند الحاجة"/>
+  <STRING id="UIText.SelNetworkLocal" value="ستتغير هذه الميزة ليتم تثبيتها على القرص الثابت المحلي بدلاً من تشغيلها من شبكة الاتصال"/>
+  <STRING id="UIText.SelNetworkNetwork" value="سيبقى تشغيل هذه الميزة من شبكة الاتصال"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="إزالة هذه الميزة يحرر [1] على القرص الثابت. لدى هذه الميزة [2] من [3] من الميزات الفرعية المحددة. ستقوم الميزات الفرعية بتحرير [4] على القرص الثابت لديك."/>
+  <STRING id="UIText.SelParentCostNegPos" value="إزالة هذه الميزة يحرر [1] على القرص الثابت. لدى هذه الميزة [2] من [3] من الميزات الفرعية المحددة. تتطلب الميزات الفرعية وجود [4] على القرص الثابت لديك."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="تتطلب هذه الميزة [1] على القرص الثابت. لدى هذه الميزة [2] من [3] من الميزات الفرعية المحددة. ستقوم الميزات الفرعية بتحرير [4] على القرص الثابت لديك."/>
+  <STRING id="UIText.SelParentCostPosPos" value="تتطلب هذه الميزة [1] على القرص الثابت. لدى هذه الميزة [2] من [3] من الميزات الفرعية المحددة. تتطلب الميزات الفرعية وجود [4] على القرص الثابت لديك."/>
+  <STRING id="UIText.SQLBrowseMsg" value="استعراض خوادم SQL على الشبكة..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="الاتصال بخادم قاعدة البيانات..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.TimeRemaining" value="الوقت المتبقي: {[1] دقيقة/دقائق }{[2] ثانية/ثوان}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="متاح"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="المساحة غير كافية"/>
+  <STRING id="UIText.VolumeCostDifference" value="الفرق"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="أقسام القرص للتثبيت"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="أقسام القرص غير المستخدمة"/>
+  <STRING id="UIText.VolumeCostRequired" value="مطلوب"/>
+  <STRING id="UIText.VolumeCostSize" value="مساحة القرص"/>
+  <STRING id="UIText.VolumeCostVolume" value="وحدة التخزين"/>
+  <STRING id="UIText.Warning" value=""/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="إ&amp;غلاق التطبيقات تلقائيًا ومحاولة إعادة تشغيلها بعد اكتمال الإعداد."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="&amp;لا تغلق التطبيقات. (ستكون هناك حاجة لإعادة التمهيد.)"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="نعم، &amp;سجل لمعالجة هذه الأنواع من الملفات."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="لا، &amp;تخطي اقتران الملف."/>
+  <STRING id="RadioButton.Text.IAgree#1" value="أ&amp;قبل البنود الواردة في اتفاقية الترخيص"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="لا أ&amp;قبل البنود الواردة في اتفاقية الترخيص"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="فقط لي ( المستخدم الحالي )"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="أي شخص ( كل المستخدمين )"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Modify" value="تغيير"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Remove" value="إزالة"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Repair" value="إصلاح"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="لا، قم بال&amp;تثبيت جنباً إلى جنب مع الإصدارات القديمة."/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="نعم، قم بإ&amp;زالة الإصدارات القديمة."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="لا، قم بإزا&amp;لة إصدار [AI_Replaced_Versions_List] فقط."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="نعم، قم بإ&amp;زالة كل الإصدارات القديمة."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; ال&amp;سابق"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="ال&amp;سابق"/>
+  <STRING id="Property.ButtonText_Browse" value="استع&amp;راض..."/>
+  <STRING id="Property.ButtonText_Cancel" value="إلغاء"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;خروج"/>
+  <STRING id="Property.ButtonText_Finish" value="إن&amp;هاء"/>
+  <STRING id="Property.Text_Finish" value="إنهاء"/>
+  <STRING id="Property.ButtonText_Ignore" value="ت&amp;جاهل"/>
+  <STRING id="Property.ButtonText_Install" value="ت&amp;ثبيت"/>
+  <STRING id="Property.Text_Install" value="تثبيت"/>
+  <STRING id="Property.ButtonText_Next" value="ا&amp;لتالي &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="ا&amp;لتالي"/>
+  <STRING id="Property.Text_Next" value="التالي"/>
+  <STRING id="Property.ButtonText_No" value="&amp;لا"/>
+  <STRING id="Property.ButtonText_OK" value="موافق"/>
+  <STRING id="Property.ButtonText_Remove" value="إ&amp;زالة"/>
+  <STRING id="Property.ButtonText_Repair" value="إ&amp;صلاح"/>
+  <STRING id="Property.ButtonText_Reset" value="إع&amp;ادة تعيين"/>
+  <STRING id="Property.ButtonText_Resume" value="استئنا&amp;ف"/>
+  <STRING id="Property.ButtonText_Retry" value="إعاد&amp;ة المحاولة"/>
+  <STRING id="Property.ButtonText_Return" value="إ&amp;رجاع"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;نعم"/>
+  <STRING id="Property.Text_Yes" value="نعم"/>
+  <STRING id="Property.CtrlEvtchanges" value="تغيير"/>
+  <STRING id="Property.CtrlEvtChanging" value="تغيير"/>
+  <STRING id="Property.CtrlEvtremoves" value="إزالة"/>
+  <STRING id="Property.CtrlEvtRemoving" value="إزالة"/>
+  <STRING id="Property.CtrlEvtRepairing" value="إصلاح"/>
+  <STRING id="Property.CtrlEvtrepairs" value="إصلاح"/>
+  <STRING id="Property.InstallModeComplete" value="تام"/>
+  <STRING id="Property.InstallModeCustom" value="مخصص"/>
+  <STRING id="Property.InstallModeTypical" value="نموذجي"/>
+  <STRING id="Property.Progress1" value="تثبيت"/>
+  <STRING id="Property.Progress2" value="تثبيت"/>
+  <STRING id="Property.Setup" value="إعداد"/>
+  <STRING id="Property.Wizard" value="معالج إعداد/الإعداد"/>
+  <!-- Trialware Settings table-->
+  <STRING id="TrialwareSettings.alltrials#ContactReqLicenseCompId#Cmd" value="mailto:%LicReqContact%?subject=License Request Code: %CompId%&amp;body=Hi,%%0A%%0AI would like to request a %TrialName% license using the following request code: %CompId% %%0A%%0AThank you,%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=Trial Extension Request&amp;body=Hi,%%0A%%0AI would like to request a trial period extension code for %TrialName%.%%0A%%0AThank you,%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="شراء"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="هل ترغب في فتح صفحة شراء %TrialName%؟"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error1" value="انتهت صلاحية رخصة تسجيلك ."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error2" value=" ترخيصك لهذا الإصدار من  %TrialName% غير مشمول بخطة الصيانة ."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error3" value="ترخيص %TrialName% انتهت صلاحيته"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="%TrialName% تجريبي"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="استمر"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="أطلب تمديد الفترة التجريبية"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="لاختبار مدى صحة المفتاح وللاستمرار في الفترة التجريبية &quot;إنهاء&quot; انقر"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="من فضلك أدخل المفتاح الذي استلمته لتمديد الفترة التجريبية"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="مدد الفترة التجريبية"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="تم تجاوز تمديدات التجريب"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="%Quantity% %TrialMU% ليس مسموحا لك بتمديد الفترة التجريبية أكثر من"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="مفتاح تسجيل غير صالح"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="مفتاح التسجيل غير صالح."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#DlgCaption" value="%TrialName% تجريبي"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#FinishCaption" value="استمر"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#LinkCaption" value="طلب ترخيص (طلب مفتاح: %CompId%)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#Msg2Caption" value="إضغطْ زر &quot;استمرار&quot;لفحص المفتاح والاستمرار"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#MsgCaption" value="رجاء أدخل كل سطور مفتاح التسجيل الذي تسلمته"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#PageHeader" value="التسجيل"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% تجريبي"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="استمر"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="انقرزر &quot;إنهاء&quot; للتحقق من المفتاح والمتابعة."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="الرجاء إدخال كل سطور مفتاح التسجيل الذي استقبلته."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="التسجيل"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="%TrialName% مسجل"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="نشكرك على تسجيل %TrialName%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="تم التسجيل بنجاح"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="شراء"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="قم بزيارة % TrialName % صفحة شراءِ لطلب الرخصة"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="% TrialName % انتهت الفترة التجريبية"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="% Quantity % يوم انتهت. إذا أردت الاستمرار في استخدام  % TrialName % أيجب طلب تمديد للفترة التجريبية أو شراء ترخيص وتسجيل التطبيق ."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value=" %Quantity% مرات التشغيل قد انتهت إذا أردت الاستمرار في استخدام  % TrialName % يجب عليك طلب تمديد الفترة التجريبية أو شراء ترخيص  والتسجيل ."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="مرحبا بك في %TrialName% تجريبي"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="تسجيل"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="ادخل مفتاح التسجيل"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="تمديد الفترة التجريبية"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="تمديد %TrialName% فترة تجريبية"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="شراء"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="تفضل بزيارة صفحة %TrialName% لطلب ترخيص"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="انتهت فترة تجربة %TrialName% "/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="انتهت صلاحية %Quantity% يوماً/أيام الخاصة بفترة التجربة. إذا كنت ترغب في مواصلة استخدام %TrialName% يجب أن تشتري ترخيصًا وتسجل التطبيق."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="انتهت صلاحية %Quantity% مرات التشغيل الخاصة بفترة التجربة. إذا كنت ترغب في مواصلة استخدام %TrialName% يجب أن تشتري ترخيصًا وتسجل التطبيق."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="مرحباً بك في تجربة %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="تسجيل"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="أدخل مفتاح التسجيل"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="تجربة"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="منتهي الصلاحية"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="شراء"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="تفضل بزيارة صفحة %TrialName% لطلب ترخيص"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="%TrialName% تجريبي (%TrialLeft% يوما/أيام متبقية)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="%TrialName% تجريبي (%TrialLeft% مرة/مرات تشغيل متبقية)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="أنت تستخدم إصدارًا تجريبيًا من %TrialName% من [|Manufacturer]. لديك e %TrialLeft% يوماً/أيام متبقية."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="أنت تستخدم إصدارًا تجريبيًا من %TrialName% من [|Manufacturer]. لديك e %TrialLeft% مرة/مرات تشغيل متبقية."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="مرحباً بك في تجربة %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="تسجيل"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="أدخل مفتاح التسجيل"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="تجربة"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="مواصلة تجربة %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value=""/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="شكرا لتسجيل  %TrialName%"/>
+</DICTIONARY>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="installtypelogoicon" SourcePath="&lt;AI_THEMES&gt;common-res\images\InstallTypeLogo.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="InstallTypeLogoIcon" Value="installtypelogoicon" Type="1"/>
+    <ROW Property="AI_InstallPerUser" Value="1" Type="4"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="InstallTypeDlg" Control="TemplateDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="304" Attributes="1" Text="[Background]" Order="100"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Next" Type="ImageButton" X="246" Y="277" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="200" TextLocId="-" ExtDataLocId="-" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Next]"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Cancel" Type="ImageButton" X="306" Y="277" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="300" TextLocId="-" ExtDataLocId="-" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Back" Type="ImageButton" X="0" Y="2" Width="22" Height="22" Attributes="3" Text="[BackButton]" Order="400" TextLocId="-" ExtDataLocId="-" HelpLocId="Air.Control.Help#Back" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Back]"/>
+    <ROW Dialog_="InstallTypeDlg" Control="TitleIcon" Type="Icon" X="27" Y="5" Width="16" Height="16" Attributes="3145729" Text="[InstallTypeLogoIcon]" Order="500"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Title" Type="Text" X="46" Y="7" Width="237" Height="11" Attributes="196611" TextStyle="Title" Order="600" TextLocId="Air.Control.Text.WelcomeDlg#Title"/>
+    <ROW Dialog_="InstallTypeDlg" Control="SubTitle" Type="Text" X="25" Y="45" Width="304" Height="18" Attributes="196611" TextStyle="SubTitle" Order="700" TextLocId="Azure.Control.Text.InstallTypeDlg#Title"/>
+    <ROW Dialog_="InstallTypeDlg" Control="InstallTypeRadioButtonGroup" Type="RadioButtonGroup" X="35" Y="130" Width="319" Height="61" Attributes="3" Property="AI_InstallPerUser" Order="800"/>
+    <ROW Dialog_="InstallTypeDlg" Control="InstallTypeText" Type="Text" X="35" Y="130" Width="318" Height="11" Attributes="196611" Property="INSTALLTYPETEXT" Order="900" TextLocId="Control.Text.InstallTypeDlg#InstallTypeText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="InstallTypeDlg" Control_="Title" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="InstallTypeDlg" Control_="TitleIcon" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="InstallTypeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="InstallTypeDlg" Control_="Next" Event="DoAction" Argument="AI_AuthorSinglePackage" Condition="AI_INSTALL" Ordering="100"/>
+    <ROW Dialog_="InstallTypeDlg" Control_="TemplateDlgDialogInitializer" Event="[AI_InstallPerUser]" Argument="0" Condition="1 AND (ALLUSERS=&quot;1&quot;)" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="InstallTypeDlg" HCentering="50" VCentering="50" Width="370" Height="304" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.InstallTypeDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="AI_InstallPerUser" Order="1" Value="1" X="16" Y="21" Width="292" Height="11" TextLocId="RadioButton.Text.InstallTypeDlg#1"/>
+    <ROW Property="AI_InstallPerUser" Order="2" Value="0" X="16" Y="40" Width="292" Height="11" TextLocId="RadioButton.Text.InstallTypeDlg#2"/>
+  </COMPONENT>
+</FRAGMENT>

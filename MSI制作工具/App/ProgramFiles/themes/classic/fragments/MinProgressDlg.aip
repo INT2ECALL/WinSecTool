@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="MinProgressDlg" Control="Cancel" Type="PushButton" X="290" Y="50" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="100" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MinProgressDlg" Control="Back" Type="PushButton" X="166" Y="50" Width="56" Height="17" Attributes="0" Text="[ButtonText_Back]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MinProgressDlg" Control="Next" Type="PushButton" X="221" Y="50" Width="56" Height="17" Attributes="0" Text="[ButtonText_Next]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MinProgressDlg" Control="ActionText" Type="Text" X="70" Y="15" Width="275" Height="11" Attributes="3" Order="400"/>
+    <ROW Dialog_="MinProgressDlg" Control="StatusLabel" Type="Text" X="25" Y="15" Width="45" Height="11" Attributes="3" Text="Status:" Order="500" TextLocId="Control.Text.MinProgressDlg#StatusLabel"/>
+    <ROW Dialog_="MinProgressDlg" Control="ProgressBar" Type="ProgressBar" X="25" Y="30" Width="320" Height="11" Attributes="65537" Text="Progress done" Order="600" TextLocId="Control.Text.MinProgressDlg#ProgressBar"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="MinProgressDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="MinProgressDlg" HCentering="50" VCentering="50" Width="370" Height="70" Attributes="1" Title="[ProductName] [Setup]" Control_Default="Cancel" Control_Cancel="Cancel" TitleLocId="Dialog.MinProgressDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEventMappingComponent">
+    <ROW Dialog_="MinProgressDlg" Control_="ActionText" Event="ActionText" Attribute="Text"/>
+    <ROW Dialog_="MinProgressDlg" Control_="ProgressBar" Event="SetProgress" Attribute="Progress"/>
+  </COMPONENT>
+</FRAGMENT>

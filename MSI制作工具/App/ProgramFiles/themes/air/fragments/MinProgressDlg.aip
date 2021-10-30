@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="MinProgressDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="100" Attributes="1" Text="[MinBackground]" Order="100"/>
+    <ROW Dialog_="MinProgressDlg" Control="TitleIcon" Type="Icon" X="5" Y="5" Width="16" Height="16" Attributes="3145729" Text="[InstallLogoIcon]" Order="200"/>
+    <ROW Dialog_="MinProgressDlg" Control="Title" Type="Text" X="24" Y="7" Width="248" Height="15" Attributes="196611" TextStyle="Title" Order="300" TextLocId="Air.Control.Text.WelcomeDlg#Title"/>
+    <ROW Dialog_="MinProgressDlg" Control="Cancel" Type="ImageButton" X="289" Y="75" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="400" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]"/>
+    <ROW Dialog_="MinProgressDlg" Control="Back" Type="PushButton" X="25" Y="75" Width="48" Height="18" Attributes="0" Text="[ButtonText_Back]" Order="500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MinProgressDlg" Control="Next" Type="PushButton" X="229" Y="75" Width="56" Height="20" Attributes="0" Text="[ButtonText_Next]" Order="600" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MinProgressDlg" Control="ActionText" Type="Text" X="70" Y="40" Width="275" Height="11" Attributes="196611" Order="700"/>
+    <ROW Dialog_="MinProgressDlg" Control="StatusLabel" Type="Text" X="25" Y="40" Width="45" Height="11" Attributes="196611" Text="Status:" Order="800" TextLocId="Control.Text.MinProgressDlg#StatusLabel"/>
+    <ROW Dialog_="MinProgressDlg" Control="ProgressBar" Type="ProgressBar" X="25" Y="55" Width="320" Height="11" Attributes="65537" Text="Progress done" Order="900" TextLocId="Control.Text.MinProgressDlg#ProgressBar"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="MinProgressDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="MinProgressDlg" HCentering="50" VCentering="50" Width="370" Height="100" Attributes="1" Title="[ProductName] [Setup]" Control_Default="Cancel" Control_Cancel="Cancel" TitleLocId="Dialog.MinProgressDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEventMappingComponent">
+    <ROW Dialog_="MinProgressDlg" Control_="ActionText" Event="ActionText" Attribute="Text"/>
+    <ROW Dialog_="MinProgressDlg" Control_="ProgressBar" Event="SetProgress" Attribute="Progress"/>
+  </COMPONENT>
+</FRAGMENT>

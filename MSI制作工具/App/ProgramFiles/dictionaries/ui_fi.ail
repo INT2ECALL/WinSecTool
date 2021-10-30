@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="fi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+<!-- AI defaults -->
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32 bittiä"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Uusi kansio"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Kaksoiskappale %s / %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Uusi muuttuja"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Kuvaus"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Toiminto"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Toista"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Tuki"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Kuvaus kohteelle [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Uusi tiedosto"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Uusi avain"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Uusi osa"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Uusi arvo"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Oma tuote"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joiden Adobe Reader -versio on vanhempi kuin [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joissa ei ole käytössä [AI_REQUIRED_ACTIVESYNC_DISPLAY] tai uudempi"/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] -tuotetta ei voi asentaa järjestelmiin, joiden värisyvyys on alle [AI_REQUIRED_COLOR_QUALITY] bittiä."/>
+  <STRING id="AI.LaunchCondition.Description" value="Käynnistysehdon kuvaus"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joiden DirectX-versio on vanhempi kuin [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] -tuotetta ei voi asentaa järjestelmiin, joiden .NET Framework -versio on vanhempi kuin [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] -tuotetta ei voi asentaa järjestelmiin, joiden .NET Core -versio on vanhempi kuin [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] -tuotetta ei voi asentaa järjestelmiin, joiden Internet Explorerin versio vanhempi kuin [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] -tuotetta ei voi asentaa järjestelmiin, joiden Internet Information Services -ohjelmiston versio vanhempi kuin [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="Tuotteen [ProductName] asentaminen edellyttää aktiivista Internet-yhteyttä. Tarkista verkon ja välityspalvelimen asetukset."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joiden JDK-versio on vanhempi kuin [AI_REQUIRED_JDK_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joiden JRE-versio on vanhempi kuin [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] ei tue asennusta järjestelmään [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] ei tue asennusta järjestelmään [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] ei tue asennusta järjestelmään [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] ei tue asennusta järjestelmään [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] ei tue asennusta järjestelmään [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] ei tue asennusta järjestelmään [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joissa ei ole käytössä [AI_REQUIRED_OFFICE_APPNAME]."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joissa ei ole käytössä [AI_REQUIRED_OFFICE_APPNAME] 2003."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joissa ei ole käytössä [AI_REQUIRED_OFFICE_APPNAME] 2007."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="Tuotteen [ProductName] asennus edellyttää järjestelmänvalvojan käyttöoikeuksia."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] -tuotetta ei voi asentaa järjestelmiin, joiden fyysinen muisti on pienempi kuin [AI_REQUIRED_PHYSICAL_MEMORY] Mt."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] -tuotetta ei voi asentaa järjestelmiin, joiden näytön tarkkuus on pienempi kuin [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joissa ei ole käytössä [AI_REQUIRED_SQLCOMPACT_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joissa ei ole käytössä [AI_REQUIRED_SQLEXPRESS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] -tuotetta ei voi asentaa järjestelmiin, joita käytetään näennäislaitteissa."/>
+  <STRING id="AI.LaunchCondition.WI" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joissa Windows Installerin versio on vanhempi kuin [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="Tuotetta [ProductName] ei voi asentaa järjestelmiin, joiden XNA Framework -versio on vanhempi kuin [AI_REQUIRED_XNA_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="Tiedostosi.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Tämä asennustietokanta sisältää tuotteen &lt;product name&gt; asennukseen tarvittavat tiedot."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Oma yritys"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Oma yhdistämismoduuli"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Tämä tietokanta sisältää osan &lt;module name&gt; asennukseen tarvittavat tiedot."/>
+  <STRING id="AI.Property.DefaultProductName" value="Oma sovellus"/>
+  <STRING id="AI.Property.DefaultValue" value="Oma arvo"/>
+  <STRING id="AI.Property.FindExeTitle" value="Valitse asennuspaketti tuotteelle [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Tämä paketti sisältää yhdistämismoduulin, joka on luotu Advanced Installerin kokeiluversiolla. Voit käyttää sitä vain arviointitarkoituksiin."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Tämä paketti on luotu Advanced Installerin kokeiluversiolla. Voit käyttää sitä vain arviointitarkoituksiin."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Varoitus"/>
+  <STRING id="AI.Registry.DefaultKey" value="Uusi_avain"/>
+  <STRING id="AI.Registry.DefaultName" value="Uusi arvo"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="OmaTiedosto.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="OmaArvo"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="PalvelunNimi"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Oman palvelun kuvaus"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Oma palvelu"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Uusi jaettu kansio"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Pikakuvake kohteeseen YourCommand"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Pikakuvake kohteeseen %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Poista asennus"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Avaa"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Uusi tiedosto"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Asennustiedot"/>
+  <STRING id="Dialog.ExitDialog" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="Tuotteen [ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Kohde:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Siirry kohdekansioon"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Luo uusi kansio|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Kansion nimi:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Muuta nykyinen kohdekansio"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Yläkansioon|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Määritä tuotteen [ProductName] palvelinkopion sijainti verkossa"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Kirjoita verkkokohde tai etsi kohde selaamalla valitsemalla Selaa."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Sijainti verkossa"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD &amp;Key -tunnus:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Anna yrityksesi tiedot"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Kirjoita yrityksesi nimi alla olevaan ruutuun.  Sitä käytetään oletusarvoisena yrityksen nimenä, kun asennat tuotteen [ProductName] myöhemmin."/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Yrityksen tiedot"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard] luo palvelinkopion tuotteesta [ProductName] valittuun verkkokohteeseen.  Jatka valitsemalla [Text_Next] tai lopeta [Wizard] valitsemalla Peruuta."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Tervetuloa: tuotteen [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Kohde:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Siirry kohdekansioon"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Luo uusi kansio|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Kansion nimi:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Muuta nykyinen kohdekansio"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Yläkansioon|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Tietokuvake|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Haluatko varmasti peruuttaa tuotteen [ProductName] asennuksen?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Valitse ominaisuuksien asennustapa."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="Levytilan &amp;käyttö"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Valitun kohteen kuvaus"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Valitun kohteen koko"/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Valinnan polku&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Sijainti:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Muuta ominaisuuden asennustapa valitsemalla jokin alla olevista kuvakkeista."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Mukautettu asennus"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Valintapuu"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Valittujen toimintojen asennuksen vaatima levytila."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Valittuna olevissa asemissa ei ole riittävästi levytilaa valittujen ominaisuuksien asennusta varten.  Voit poistaa tiedostoja asemista, vähentää asennettavia kohteita tai valita toiset kohdeasemat."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Levytilavaatimukset"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Tietokuvake|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Tietoteksti"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Lopeta [Wizard] napsauttamalla Valmis."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Käynnistä [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Suoritetaan tuotteen [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Näytä readme-tiedosto"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] rekisteröi tuotteen [ProductName] käsittelemään seuraavia tiedostotyyppejä: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Kytke [ProductName] tiedostotyyppeihin."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Tiedostojen kytkennät"/>
+  <STRING id="Control.Text.FatalError#Description1" value="Tuotteen [ProductName] asennus keskeytyi virheen vuoksi.  Järjestelmää ei muokattu.  Voit asentaa ohjelman myöhemmin käynnistämällä asennusohjelman uudelleen."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Lopeta [Wizard] napsauttamalla Valmis."/>
+  <STRING id="Control.Text.FatalError#Title" value="Tuotteen [ProductName] [Wizard] keskeytyi"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Jotkin päivitettävistä tiedostoista ovat tällä hetkellä käytössä."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Seuraavat sovellukset käyttävät tiedostoja, jotka asennusohjelman on päivitettävä. Voit sulkea nämä sovellukset ja napsauttaa sen jälkeen Yritä uudelleen, mutta voit myös napsauttaa Ohita, jolloin asennusohjelma jatkaa asentamista ja korvaa tiedostot, kun järjestelmä käynnistetään uudelleen."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Käytössä olevat tiedostot"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Tämä on kansio, johon [ProductName] asennetaan."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Kansio:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Jos haluat asentaa tuotteen tähän kansioon, valitse &quot;[Text_Next]&quot;. Jos haluat vaihtaa asennuskansiota, kirjoita uusi kansio tai valitse &quot;Selaa&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Valitse asennuskansio"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_fi.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Lue seuraava käyttöoikeussopimus huolellisesti."/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Käyttöoikeussopimus"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Muokkaa asennusta|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Muokkaa"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Antaa käyttäjille mahdollisuuden muuttaa toimintojen asennustapaa."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Valitse suoritettava toiminto."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Poista asennus|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Poista"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Poistaa tuotteen [ProductName] tietokoneesta."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Korjaa asennus|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Ko&amp;rjaa"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Korjaa viimeisimmän asennusvaiheen virheet, kuten tiedostojen, pikakuvakkeiden ja rekisterikohteiden puuttumisen tai vioittumisen."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Muokkaa asennusta, korjaa sitä tai poista se"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] antaa sinulle mahdollisuuden muuttaa tuotteen [ProductName] toimintojen asennustapaa tai jopa poistaa tuotteen [ProductName] tietokoneesta.  Jatka valitsemalla [Text_Next] tai lopeta [Wizard] valitsemalla Peruuta."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Tervetuloa: tuotteen [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Valittujen toimintojen asennukseen vaaditaan enemmän levytilaa kuin mitä on käytettävissä."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Valittuna olevissa asemissa ei ole riittävästi levytilaa valittujen ominaisuuksien asennusta varten.  Voit poistaa tiedostoja asemista, vähentää asennettavia kohteita tai valita toiset kohdeasemat."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Levytila ei riitä"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Valittujen toimintojen asennukseen vaaditaan enemmän levytilaa kuin mitä on käytettävissä."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Valittuna olevissa asemissa ei ole riittävästi levytilaa valittujen ominaisuuksien asennusta varten.  Voit poistaa tiedostoja asemista, vähentää asennettavia kohteita tai valita toiset kohdeasemat."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Voit vaihtoehtoisesti poistaa palautusmahdollisuuden käytöstä.  Palautusmahdollisuus mahdollistaa tietokoneen tilan palauttamisen ennalleen, jos asennus epäonnistuu.  Mikäli varmasti haluat poistaa palautusmahdollisuuden käytöstä, valitse Kyllä."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Levytila ei riitä"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Odota. [Wizard] valmistelee asennusta."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Tervetuloa: tuotteen [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Toiminto on suoritettu"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Tila:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Odota. [Wizard] [Progress2] tuotteen [ProductName].  Tämä voi kestää useita minuutteja."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Lue seuraava teksti huolellisesti"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_fi.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="readme-tiedosto"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard] suorittaa loppuun tuotteen [ProductName] asennuksen.  Jatka valitsemalla Asenna tai lopeta [Wizard] valitsemalla Peruuta."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Jatkaminen: [ProductName] [Wizard]"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Täydellinen asennus|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="T&amp;äydellinen"/>
+  <STRING id="Property.Text_Complete" value="Täydellinen"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Kaikki ohjelman ominaisuudet asennetaan.  (Vaatii eniten levytilaa.)"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Mukautettu asennus|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="M&amp;ukautettu"/>
+  <STRING id="Property.Text_Custom" value="Mukautettu"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Antaa käyttäjille mahdollisuuden valita, mitkä ominaisuudet asennetaan ja minne ne asennetaan. Suositellaan kokeneille käyttäjille."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Valitse itsellesi sopivin asennuksen tyyppi."/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Valitse asennuksen tyyppi"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Normaali asennus|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Normaali"/>
+  <STRING id="Property.Text_Typical" value="Normaali"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Asentaa ohjelman yleisimmät ominaisuudet. Suositellaan useimmille käyttäjille."/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] voi etsiä tuotteen [ProductName] vanhempia versioita ja poistaa ne. Haluatko poistaa nämä versiot?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] on havainnut, että valitsemaasi asennuskohdetta käyttää myös tuotteen [ProductName] versio [AI_Replaced_Versions_List]. Tämän version asennus on poistettava. Haluatko poistaa myös muut mahdolliset vanhemmat versiot?"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Etsi tuotteen [ProductName] vanhemmat versiot ja päivitä ne."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Päivitä vanhemmat versiot"/>
+  <STRING id="Control.Text.UserExit#Description1" value="Tuotteen [ProductName] asennus keskeytettiin.  Järjestelmää ei muokattu.  Voit asentaa ohjelman myöhemmin käynnistämällä asennusohjelman uudelleen."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Lopeta [Wizard] napsauttamalla Valmis."/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName] [Wizard] keskeytettiin."/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Sarjanumero:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Anna asiakastietosi"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Käyttäjän nimi:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Yritys:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Asiakastiedot"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] on valmis aloittamaan asennuksen ([ProductName])"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Aloita asennus napsauttamalla Asenna.  Jos haluat tarkastella tai muuttaa asennusasetuksia, valitse Edellinen.  Lopeta ohjattu toiminto valitsemalla Peruuta."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Valmis asennukseen"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Olet valinnut ohjelman poistamisen tietokoneesta."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Poista [ProductName] tietokoneesta valitsemalla Poista.  Jos haluat tarkastella tai muuttaa asennusasetuksia, valitse Edellinen.  Lopeta ohjattu toiminto valitsemalla Peruuta."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Poista [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard] on valmis aloittamaan tuotteen [ProductName] korjauksen."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Korjaa tuotteen [ProductName] asennus valitsemalla Korjaa.  Jos haluat tarkastella tai muuttaa asennusasetuksia, valitse Edellinen.  Lopeta ohjattu toiminto valitsemalla Peruuta."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Korjaa [ProductName]"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Varoituskuvake|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Odota. Asennusohjelma laskee vaadittavan levytilan."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard] asentaa tuotteen [ProductName] tietokoneeseesi.  Jatka valitsemalla [Text_Next] tai lopeta [Wizard] valitsemalla Peruuta."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Tervetuloa: tuotteen [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] asentaa tuotteen [ProductName] korjauksen.  Jatka valitsemalla [Text_Next] tai lopeta ohjattu korjaus valitsemalla Peruuta."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Tervetuloa: tuotteen [ProductName] ohjattu korjaus"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Uuden valintaikkunan kuvaus..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Uusi valintaikkuna"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Uusi käynnistysvalintaikkuna"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Jotkin päivitettävistä tiedostoista ovat nyt käytössä."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Seuraavat sovellukset käyttävät nyt tiedostoja, jotka tämän asennusohjelman on päivitettävä."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Käytössä olevat tiedostot"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Luo sovelluksen pikakuvakkeet"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Työpöytä"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Pikakäynnistyksen työkalurivi"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Luo pikakuvakkeet [ProductName] -tuotteelle seuraaviin paikkoihin:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Käynnistysvalikon Ohjelmat-kansio"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Käynnistyskansio"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Määritä pikakuvakkeet"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Tietokanta:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Määritä SQL-yhteys..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC-resurssi:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Salasana:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Portti:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Palvelin:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL-tietokanta:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Käyttäjänimi:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="[ProductName] -tuotteen pikakuvakkeet tallennetaan tähän kansioon."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Voit tallentaa alikansioon liittämällä alikansion nimen, erottimena &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Käynnistä-valikon Pikakuvakkeet-kansio:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Voit tallentaa pikakuvakkeet tähän kansioon valitsemalla &quot;[Text_Next]&quot;. Voit tallentaa toiseen kansioon kirjoittamalla kansion nimen kenttään tai valitsemalla kansion yhdistelmäruudusta."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Valitse Käynnistä-valikon Pikakuvakkeet-kansio"/>
+   <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="Tee asennus loppuun|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="Palvelinasennus|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="Työasema-asennus|"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="V&amp;almis"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="Asentaa sekä työasema- että palvelinkokoonpanon."/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="&amp;Palvelin"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="Asentaa palvelinkokoonpanon."/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="Valitse parhaiten tarpeitasi vastaava asennustyyppi"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="Kehittynyt asennusohjelma"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="Valitse asennustyyppi"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="&amp;Työasema"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="Asentaa työasemakokoonpanon."/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="Valitse asennustyyppi."/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="Asenna [ProductName] kohteeseen:"/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="Kehittynyt asennusohjelma"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="Asennustyyppi"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="Uuden valintaikkunan kuvaus..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="Uusi valintaikkuna"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="Määritä Tomcat-palvelimen määritteet"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="Isäntänimi:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="HTTP-portin numero:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="HTTP SSL -portin numero:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="Kehittynyt asennusohjelma"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="Sammutusportin numero:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="Tomcat-palvelimen määritteet"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Ilmoitetaan sovellusta"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Varataan rekisteritilaa"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Vapaa tila: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="Etsitään asennettuja sovelluksia"/>
+  <STRING id="ActionText.Template.AppSearch" value="Ominaisuus: [1], allekirjoitus: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="Sidotaan suoritettavia tiedostoja"/>
+  <STRING id="ActionText.Template.BindImage" value="Tiedosto: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Etsitään hyväksyttäviä tuotteita"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Lasketaan tilavaatimuksia"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Lasketaan tilavaatimuksia"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Luodaan kansioita"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Kansio: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Luodaan pikakuvakkeita"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Pikakuvake: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Poistetaan palveluja"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Palvelu: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Luodaan kaksoistiedostoja"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Tiedosto: [1],  hakemisto: [9],  koko: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="Lasketaan tilavaatimuksia"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Etsitään yhteydessä olevia sovelluksia"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Löytyi sovellus: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Muodostetaan komentojonotoimintoja toiminnolle:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Kopioidaan verkkoasennustiedostoja"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Tiedosto: [1], hakemisto: [9], koko: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Kopioidaan uusia tiedostoja"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Tiedosto: [1],  hakemisto: [9],  koko: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Asennetaan ODBC-komponentteja"/>
+  <STRING id="ActionText.Description.InstallServices" value="Asennetaan uusia palveluja"/>
+  <STRING id="ActionText.Template.InstallServices" value="Palvelu: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Järjestelmäluettelon asennus"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Tiedosto: [1],  jäsenyydet: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Tarkistetaan asennusta"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Arvioidaan käynnistysehtoja"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Siirretään toimintojen tiloja yhteydessä olevista sovelluksista"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Sovellus: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Siirretään tiedostoja"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Tiedosto: [1],  hakemisto: [9],  koko: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Julkaistaan kokoonpanotietoja"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Sovellusyhteys:[1], kokoonpanon nimi:[2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Peruutetaan kokoonpanotietojen julkaisemista"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Sovellusyhteys:[1], kokoonpanon nimi:[2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Korjataan tiedostoja"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Tiedosto: [1],  hakemisto: [2],  koko: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Päivitetään osien rekisteröintiä"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Julkaistaan hyväksyttyjä osia"/>
+  <STRING id="ActionText.Template.PublishComponents" value="Osan tunnus: [1], tarkenne: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Julkaistaan tuotteen toimintoja"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Toiminto: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Julkaistaan tuotetietoja"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Rekisteröidään luokkapalvelimia"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Kurssin tunnus: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Rekisteröidään COM+-sovelluksia ja osia"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId: [1]{{, AppType: [2], käyttäjät: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Rekisteröidään laajennuspalvelimia"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Laajennus: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Rekisteröidään fontteja"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Fontti: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Rekisteröidään MIME-tietoja"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Sisällön tyyppi (MIME): [1], laajennus: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Rekisteröidään tuotetta"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Rekisteröidään ohjelmatunnuksia"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="Ohjelmatunnus: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Rekisteröidään lajikirjastoja"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Rekisteröidään käyttäjää"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Poistetaan kaksoistiedostoja"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Tiedosto: [1], hakemisto: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Päivitetään ympäristömerkkijonoja"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Nimi: [1], arvo: [2], toiminto [3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Poistetaan sovelluksia"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Sovellus: [1], komentorivi: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Poistetaan tiedostoja"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Tiedosto: [1], hakemisto: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Poistetaan kansioita"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Kansio: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Poistetaan tietoja INI-tiedostoista"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Tiedosto: [1],  osa: [2],  avain: [3], arvo: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Poistetaan ODBC-osia"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Poistetaan järjestelmärekisterin arvoja"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Avain: [1], nimi: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Poistetaan pikakuvakkeita"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Pikakuvake: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Etsitään hyväksyttäviä tuotteita"/>
+  <STRING id="ActionText.Description.Rollback" value="Peruutetaan toiminto:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Poistetaan varmuuskopiotiedostoja"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Tiedosto: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Rekisteröidään moduuleja"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Tiedosto: [1], kansio: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Poistetaan moduulien rekisteröintiä"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Tiedosto: [1], kansio: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Alustetaan ODBC-kansioita"/>
+  <STRING id="ActionText.Description.StartServices" value="Käynnistetään palveluja"/>
+  <STRING id="ActionText.Template.StartServices" value="Palvelu: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="Pysäytetään palveluja"/>
+  <STRING id="ActionText.Template.StopServices" value="Palvelu: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Poistetaan siirrettyjä tiedostoja"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Tiedosto: [1], hakemisto: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Peruutetaan hyväksyttyjen osien julkaisemista"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Osan tunnus: [1], tarkenne: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Peruutetaan tuotteen toimintojen julkaisua"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Toiminto: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Peruutetaan tuotetietojen julkaisua"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Poistetaan luokkapalvelimien rekisteröintiä"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Kurssin tunnus: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Poistetaan COM+-sovellusten ja -osien rekisteröintiä"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Poistetaan laajennuspalvelimien rekisteröintiä"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Laajennus: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Poistetaan fonttien rekisteröintiä"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Fontti: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Poistetaan MIME-tietojen rekisteröintiä"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Sisällön tyyppi (MIME): [1], laajennus: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Poistetaan ohjelman tunnusten rekisteröintiä"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="Ohjelmatunnus: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Poistetaan lajikirjastojen rekisteröintiä"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Päivitetään ympäristömerkkijonoja"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Nimi: [1], arvo: [2], toiminto [3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Kirjoitetaan INI-tiedostojen arvoja"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Tiedosto: [1],  osa: [2],  avain: [3], arvo: [4]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Kirjoitetaan järjestelmärekisterin arvoja"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Avain: [1], nimi: [2], arvo: [3]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Käyttäjätilin luominen paikalliseen tietokoneeseen meneillään"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Käyttäjäryhmän luominen paikalliseen tietokoneeseen meneillään"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Arkistosta purettujen tiedostojen poisto meneillään"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Tiedostojen purku arkistosta meneillään"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="IIS-sivustojen ja näennäiskansioiden luominen meneillään"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Toimintojen luominen Internet Information Services -ohjelmiston määrittämiseksi meneillään"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="IIS-sivustojen ja näennäiskansioiden poisto meneillään"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="IIS-kokoonpanon palautus meneillään"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Toimintojen luominen Internet Information Services -ohjelmiston määrittämiseksi meneillään"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Luodaan toimintoja, joilla luodaan käyttäjätilejä paikalliseen tietokoneeseen"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Luodaan toimintoja, joilla luodaan käyttäjäryhmiä paikalliseen tietokoneeseen"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Käyttäjätilin poisto paikallisesta tietokoneesta meneillään"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Käyttäjäryhmän poisto paikallisesta tietokoneesta meneillään"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Peruutetaan käyttäjätilien luominen paikalliseen tietokoneeseen"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Peruutetaan käyttäjäryhmien luominen paikalliseen tietokoneeseen"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="SQL-komentosarjojen asennus meneillään"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Luodaan toimintoja, joilla tietokannat määritetään SQL-komentosarjojen asennusta varten"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="SQL-komentosarjojen asennuksen poisto meneillään"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="SQL-komentosarjojen peruutus meneillään"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Luodaan toimintoja, joilla tietokannat määritetään SQL-komentosarjojen asennuksen poistoa varten"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Luodaan toimintoja, joilla käyttäjätilit poistetaan paikalliselta tietokoneelta"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Luodaan toimintoja, joilla käyttäjäryhmät poistetaan paikalliselta tietokoneelta"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Käyttäjätili: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Käyttäjätili: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Ohjelman &quot;[1]&quot; asennus meneillään"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Ohjelman &quot;[1]&quot; poisto meneillään"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Metakannan kokoonpanon palautus meneillään."/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Käyttäjätili: [1], Määritteet: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Käyttäjätili: [1], Määritteet: [2]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Käyttäjätili: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Käyttäjätili: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Käyttäjätili: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Käyttäjätili: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Yhteys: [1]  Komentosarja: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Yhteys: [1]  Komentosarja: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Yhteys: [1]  Komentosarja: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Käyttäjätili: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Käyttäjätili: [1]"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Määritetään Windowsin palomuurin kokoonpano"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Luodaan toimintoja, joilla määritetään Windowsin palomuurin kokoonpano"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Määritetään Windowsin palomuurin kokoonpano"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Peruutetaan Windowsin palomuurin kokoonpanon määritykset."/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Luodaan toimintoja, joilla määritetään Windowsin palomuurin kokoonpano"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Määritetään Peliselaimen kokoonpano"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Luodaan toimintoja, joilla määritetään Peliselaimen kokoonpano"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Määritetään Peliselaimen kokoonpano"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Peruutetaan peliselaimen kokoonpanon määritykset."/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Luodaan toimintoja, joilla määritetään Peliselaimen kokoonpano"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Luodaan toimintoja, joilla jaetaan kansioita paikallisessa tietokoneessa:"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Luodaan toimintoja, joilla ajoitetaan tehtäviä paikallisessa tietokoneessa:"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Poistetaan kansion jakaminen paikallisesta tietokoneesta"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Poistetaan ajoitettu tehtävä paikallisesta tietokoneesta"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Peruutetaan kansion jakaminen paikallisessa tietokoneessa"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Peruutetaan ajoitettu tehtävä paikallisessa tietokoneessa"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Ajoitetaan tehtävä paikallisessa tietokoneessa"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Jaetaan kansio paikallisessa tietokoneessa"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Suoritetaan ylläpidon SQL-komentosarjoja"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Luodaan toimintoja, joilla poistetaan kansion jakaminen paikallisesta tietokoneesta:"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Luodaan toimintoja, joilla poistetaan ajoitetut tehtävät paikallisesta tietokoneesta:"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Määritetään XML-tiedostojen kokoonpano"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Luodaan toimintoja, joilla määritetään XML-tiedostojen kokoonpano"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Määritetään XML-tiedostojen kokoonpano"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Palautetaan XML-tiedostojen kokoonpano."/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Luodaan toimintoja, joilla määritetään XML-tiedostojen kokoonpano"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Määritetään Windowsin palomuurin sääntöjen kokoonpano: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Määritetään Windowsin palomuurin sääntöjen kokoonpano:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Peruutetaan Windowsin palomuurin kokoonpanon määritykset."/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Määritetään pelin kokoonpano: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Poistetaan peli: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Peruutetaan peliselaimen kokoonpanon määritykset."/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Kansio: [1], Jakonimi: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Tehtävän nimi: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="Jakonimi: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Tehtävän nimi: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="Jakonimi: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Tehtävän nimi: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Tehtävän nimi: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Kansio: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Yhteys: [1]  Komentosarja: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="Jakonimi: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Määritetään XML-tiedoston kokoonpano: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Määritetään XML-tiedoston kokoonpano: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Palautetaan XML-tiedostojen kokoonpano."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="Suoritetaan tiedostojen poistotoimintoja."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="Suoritetaan tiedostojen poistotoimintoja."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="Luodaan toimintoja, joilla poistetaan tiedostoja."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="Suoritetaan rekisterin poistotoimintoja."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="Suoritetaan rekisterin poistotoimintoja."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="Luodaan toimintoja, joilla poistetaan rekisterimerkintöjä."/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="Rekisteröidään matkapuhelinsovelluksia Windows CE -käyttöjärjestelmän sovellusten hallintaohjelmaan"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="Käsitellään Windows CE -käyttöjärjestelmän sovellusten hallintaohjelman rekisteröintitietoja (vaihe 2)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="Käsitellään Windows CE -käyttöjärjestelmän sovellusten hallintaohjelman rekisteröintitietoja (vaihe 1)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="Käynnistetään Windows CE -käyttöjärjestelmän sovellusten hallintaohjelma asennettujen sovellusten määrittämistä varten"/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="Ladataan välttämätöntä ohjelmistoa"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="Puretaan välttämätöntä ohjelmistoa"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="Asennetaan välttämätöntä ohjelmistoa"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="Tarkistetaan välttämättömät kohteet"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="Poistetaan tiedostoa: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="Poistetaan tiedostoa: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="Poistetaan rekisterimerkintää: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="Poistetaan rekisterimerkintää: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="Ladataan kohdetta [1]{[2] valmiina}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="Puretaan kohdetta [1]{[2]valmiina}"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="Asennetaan kohdetta [1]{[2]valmiina}"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="Kohteen [1] asennus epäonnistui."/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Vakava virhe: }}"/>
+  <STRING id="Error.1" value="{{Virhe [1]. }}"/>
+  <STRING id="Error.2" value="Varoitus [1]. "/>
+  <STRING id="Error.4" value="Sanoma [1]. "/>
+  <STRING id="Error.5" value="Odottamaton virhe asennuksessa. Pakkauksessa saattaa olla virhe. Virhekoodi on [1]. {{Argumentit: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Levy on täynnä: }}"/>
+  <STRING id="Error.8" value="Toiminto [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Sanoman laji: [1], argumentti: [2]"/>
+  <STRING id="Error.12" value="=== Lokin kirjoittaminen aloitettiin: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Lokin kirjoittaminen lopetettiin: [Date]  [Time] ==="/>
+  <STRING id="Error.14" value="Toiminto alkoi [Time]: [1]."/>
+  <STRING id="Error.15" value="Toiminto loppui [Time]: [1]. Palautusarvo [2]."/>
+  <STRING id="Error.16" value="Jäljellä oleva aika: {[1] minuuttia }{[2] sekuntia}"/>
+  <STRING id="Error.17" value="Liian vähän muistia. Sulje toisia sovelluksia ja yritä sitten uudelleen."/>
+  <STRING id="Error.18" value="Installer ei vastaa."/>
+  <STRING id="Error.19" value="Asennus keskeytyi ennen valmistumista."/>
+  <STRING id="Error.20" value="Odota, kun Windows määrittää tuotteen [ProductName]"/>
+  <STRING id="Error.21" value="Kerätään tarvittavia tietoja..."/>
+  <STRING id="Error.22" value="Poistetaan sovelluksen vanhoja versioita..."/>
+  <STRING id="Error.23" value="Valmistellaan sovelluksen vanhojen versioiden poistamista..."/>
+  <STRING id="Error.32" value="Tuotteen {[ProductName] } asennus onnistui."/>
+  <STRING id="Error.33" value="Tuotteen {[ProductName] } asennus epäonnistui."/>
+  <STRING id="Error.1101" value="Virhe luettaessa tiedostoa [2]. {{ Järjestelmävirhe [3].}}  Varmista, että tiedosto on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1301" value="Tiedostoa &apos;[2]&apos; ei voi luoda.  Tämänniminen kansio on jo luotu.  Peruuta asennus ja yritä asentaa tuote toiseen sijaintiin."/>
+  <STRING id="Error.1302" value="Aseta asemaan levyke [2]"/>
+  <STRING id="Error.1303" value="Asennusohjelman käyttöoikeudet eivät riitä kansion [2] käyttämiseen.  Asennusta ei voi jatkaa.  Kirjaudu sisään järjestelmänvalvojana tai ota yhteyttä järjestelmänvalvojaan."/>
+  <STRING id="Error.1304" value="Virhe kirjoitettaessa tiedostoon [2].  Varmista, että sinulla on kirjoitusoikeus tähän kansioon."/>
+  <STRING id="Error.1305" value="Virhe luettaessa tiedostoa [2]. {{ Järjestelmävirhe [3].}} Varmista, että tiedosto on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1306" value="Toisella sovelluksella on yksinoikeus tiedoston &apos;[2]&apos; käyttämiseen.  Sulje muut sovellukset ja valitse Yritä uudelleen."/>
+  <STRING id="Error.1307" value="Levytila ei riitä tiedoston [2] asentamiseen.  Vapauta levytilaa ja valitse Yritä uudelleen tai lopeta valitsemalla Peruuta."/>
+  <STRING id="Error.1308" value="Lähdetiedostoa [2] ei löydy.  Varmista, että tiedosto on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1309" value="Virhe luettaessa tiedostoa [3]. {{ Järjestelmävirhe [2].}}  Varmista, että tiedosto on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1310" value="Virhe kirjoitettaessa tiedostoon [3]. {{ Järjestelmävirhe [2].}}  Varmista, että sinulla on kirjoitusoikeus tähän kansioon."/>
+  <STRING id="Error.1311" value="Lähdetiedostoa ei löydy{{(cabinet)}}: [2].  Varmista, että tiedosto on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1312" value="Hakemistoa &apos;[2]&apos; ei voi luoda.  Samanniminen tiedosto on jo olemassa.  Nimeä tiedosto uudelleen tai poista se ja valitse Yritä uudelleen tai lopeta valitsemalla Peruuta."/>
+  <STRING id="Error.1313" value="Asema [2] ei ole nyt käytettävissä.  Valitse toinen asema."/>
+  <STRING id="Error.1314" value="Polku &apos;[2]&apos; ei ole käytettävissä."/>
+  <STRING id="Error.1315" value="Määritettyyn kansioon ei voi kirjoittaa: [2]."/>
+  <STRING id="Error.1316" value="Yritettäessä lukea tiedostosta [2] tapahtui verkkovirhe."/>
+  <STRING id="Error.1317" value="Yritettäessä luoda kansiota [2] tapahtui virhe."/>
+  <STRING id="Error.1318" value="Yritettäessä luoda kansiota [2] tapahtui verkkovirhe."/>
+  <STRING id="Error.1319" value="Yritettäessä avata lähdetiedostoksi tarvittavaa cab-tiedostoa [2] tapahtui verkkovirhe"/>
+  <STRING id="Error.1320" value="Määritetty polku on liian pitkä: [2]"/>
+  <STRING id="Error.1321" value="Asennusohjelman käyttöoikeudet eivät riitä tiedoston [2] muuttamiseen."/>
+  <STRING id="Error.1322" value="Kansiopolku &apos;[2]&apos; ei kelpaa.  Se voi olla tyhjä tai ei täytä pituusrajoituksia."/>
+  <STRING id="Error.1323" value="Kansion polku &apos;[2]&apos; sisältää sanoja, jotka eivät ole kelvollisia kansioiden poluissa."/>
+  <STRING id="Error.1324" value="Kansion polku &apos;[2]&apos; sisältää merkin, joka ei kelpaa."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; ei ole kelvollinen lyhyt tiedostonimi."/>
+  <STRING id="Error.1326" value="Tiedoston suojaustietojen saamisessa tapahtui virhe: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Asema ei kelpaa: [2]"/>
+  <STRING id="Error.1328" value="Virhe kohdistettaessa korjausta tiedostoon [2].  Se on luultavasti päivitetty muilla keinoilla, ja sitä ei voi enää muokata tällä korjauksella.  Koskien lisätietoja ota yhteyttä korjauksen toimittajaan.  {{Järjestelmävirhe [3]}}"/>
+  <STRING id="Error.1329" value="Vaadittua tiedostoa ei voi asentaa, koska cab-tiedosto [2] ei ole digitaalisesti allekirjoitettu.  Cab-tiedosto saattaa olla viallinen."/>
+  <STRING id="Error.1330" value="Vaadittua tiedostoa ei voi asentaa, koska cab-tiedoston [2] digitaalinen allekirjoitus on virheellinen.  Cab-tiedosto saattaa olla viallinen.{{  WinVerifyTrust palautti virheen [3].}}"/>
+  <STRING id="Error.1331" value="Tiedoston [2] kopiointi ei onnistunut: CRC-virhe."/>
+  <STRING id="Error.1332" value="Tiedoston [2] siirtäminen ei onnistunut: CRC-virhe."/>
+  <STRING id="Error.1333" value="Tiedoston [2] korjaaminen ei onnistunut: CRC-virhe."/>
+  <STRING id="Error.1334" value="Tiedostoa &apos;[2]&apos; ei voi asentaa, koska sitä ei löytynyt cab-tiedostosta &apos;[3]&apos;. Lähdetiedosto ei ehkä ole käytettävissä verkko- tai lukuvirheen vuoksi tai pakkaus on viallinen."/>
+  <STRING id="Error.1335" value="Asennukseen tarvittava cab-tiedosto &apos;[2]&apos; on käyttökelvoton. Lähdetiedosto ei ehkä ole käytettävissä verkko- tai lukuvirheen vuoksi tai pakkaus on viallinen."/>
+  <STRING id="Error.1336" value="Virhe asennukseen tarvittavan tilapäistiedoston luomisessa.{{  Kansio: [3]. Järjestelmävirhe: [2]}}"/>
+  <STRING id="Error.1401" value="Avainta [2] ei voi luoda. {{ Järjestelmävirhe [3].}}  Varmista, että avaimeen on käyttöoikeus, tai ota yhteyttä tukihenkilöön. "/>
+  <STRING id="Error.1402" value="Avainta [2] ei voi avata.  {{ Järjestelmävirhe [3].}}  Varmista, että avaimeen on käyttöoikeus, tai ota yhteyttä tukihenkilöön. "/>
+  <STRING id="Error.1403" value="Arvoa [2] ei voi poistaa avaimesta [3]. {{ Järjestelmävirhe [4].}}  Varmista, että avaimeen on käyttöoikeus, tai ota yhteyttä tukihenkilöön. "/>
+  <STRING id="Error.1404" value="Avainta [2] ei voi poistaa. {{ Järjestelmävirhe [3].}}  Varmista, että avaimeen on käyttöoikeus, tai ota yhteyttä tukihenkilöön. "/>
+  <STRING id="Error.1405" value="Arvoa [2] ei voi lukea avaimesta [3]. {{ Järjestelmävirhe [4].}}  Varmista, että avaimeen on käyttöoikeus, tai ota yhteyttä tukihenkilöön. "/>
+  <STRING id="Error.1406" value="Arvoa [2] ei voi kirjoittaa avaimeen [3]. {{ Järjestelmävirhe [4].}}  Varmista, että avaimeen on käyttöoikeus, tai ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1407" value="Avaimen [2] arvojen nimien saaminen epäonnistui. {{ Järjestelmävirhe [3].}}  Varmista, että avaimeen on käyttöoikeus, tai ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1408" value="Avaimen [2] aliavainten nimien saaminen epäonnistui. {{ Järjestelmävirhe [3].}}  Varmista, että avaimeen on käyttöoikeus, tai ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1409" value="Avaimen [2] suojaustietoja ei voi lukea. {{ Järjestelmävirhe [3].}}  Varmista, että avaimeen on käyttöoikeus, tai ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1410" value="Käytettävissä olevan rekisteritilan lisääminen ei onnistunut. Tämän sovelluksen asentamiseen tarvitaan [2] kt vapaata rekisteritilaa."/>
+  <STRING id="Error.1500" value="Toinen asennus on käynnissä. Toinen asennus on suoritettava loppuun ennen tämän asennuksen jatkamista."/>
+  <STRING id="Error.1501" value="Virhe käytettäessä suojattuja tietoja. Varmista, että Windowsin asennusohjelma on määritetty oikein, ja yritä suorittaa asennus uudelleen."/>
+  <STRING id="Error.1502" value="Käyttäjä &apos;[2]&apos; on aiemmin aloittanut tuotteen &apos;[3]&apos; asennuksen.  Saman käyttäjän on suoritettava asennusohjelma uudelleen, jotta hän voisi käyttää kyseistä tuotetta.  Nykyinen asennus jatkuu."/>
+  <STRING id="Error.1503" value="Käyttäjä &apos;[2]&apos; on aiemmin aloittanut tuotteen &apos;[3]&apos; asennuksen.  Saman käyttäjän on suoritettava asennusohjelma uudelleen, jotta hän voisi käyttää kyseistä tuotetta."/>
+  <STRING id="Error.1601" value="Levytila ei riitä -- Levy: &apos;[2]&apos;; tilavaatimus: [3] kt; käytettävissä oleva tila: [4] kt.  Vapauta levytilaa ja yritä sitten uudelleen."/>
+  <STRING id="Error.1602" value="Haluatko varmasti peruuttaa?"/>
+  <STRING id="Error.1603" value="Tiedostoa [2][3] on{ seuraavan prosessin käytössä: Nimi: [4], tunnus: [5], ikkunan otsikko: &apos;[6]&apos;}. Sulje sovellus ja yritä sitten uudelleen."/>
+  <STRING id="Error.1604" value="Tuote &apos;[2]&apos; on jo asennettu, mikä estää tämän tuotteen asentamisen.  Tuotteet eivät ole yhteensopivia."/>
+  <STRING id="Error.1605" value="Asennuksen jatkamiseen ei ole tarpeeksi levytilaa asemassa &apos;[2]&apos; palautustoiminnon ollessa käytössä.  [3] kt vaaditaan, mutta vain [4] kt on käytettävissä. Valitse Ohita jatkaaksesi asennusta ilman palautustietojen tallentamista, Yritä uudelleen tarkistaaksesi vapaa levytila uudelleen tai keskeytä asennus valitsemalla Peruuta."/>
+  <STRING id="Error.1606" value="Verkkosijainnin [2] käyttäminen epäonnistui."/>
+  <STRING id="Error.1607" value="Seuraavat sovellukset on suljettava ennen asennuksen jatkamista:"/>
+  <STRING id="Error.1608" value="Tietokoneesta ei löydy aiemmin asennettuja yhteensopivia sovelluksia tämän tuotteen asennusta varten."/>
+  <STRING id="Error.1609" value="Virhe suojausasetusten käyttöönotossa. [2] ei ole kelvollinen käyttäjä tai ryhmä. Ongelma saattaa olla pakkauksessa tai yhteyden muodostamisessa toimialueen ohjauskoneeseen verkossa. Tarkista verkkoyhteys ja yritä uudelleen valitsemalla Yritä uudelleen. Voit keskeyttää asennuksen valitsemalla Peruuta.        {{Käyttäjän SID-tunnus ei löydy, järjestelmävirhe [3]}}"/>
+  <STRING id="Error.1701" value="Avain [2] ei kelpaa.  Varmista, että olet kirjoittanut oikean avaimen."/>
+  <STRING id="Error.1702" value="Asennusohjelman on käynnistettävä tietokone uudelleen, ennen kuin tuotteen [2] määrittämistä voidaan jatkaa.  Käynnistä tietokone uudelleen valitsemalla Kyllä tai käynnistä tietokone itse uudelleen myöhemmin valitsemalla Ei."/>
+  <STRING id="Error.1703" value="Sinun on käynnistettävä järjestelmä uudelleen, jotta sovelluksen [2] määrityksiin tehdyt muutokset tulisivat voimaan. Käynnistä tietokone uudelleen valitsemalla Kyllä tai käynnistä tietokone itse uudelleen myöhemmin valitsemalla Ei."/>
+  <STRING id="Error.1704" value="Sovelluksen [2] asennus on tällä hetkellä keskeytetty.  Asennuksen tekemät muutokset on kumottava ennen jatkamista.  Haluatko kumota muutokset?"/>
+  <STRING id="Error.1705" value="Tämän tuotteen aiempi asennus on käynnissä.  Asennuksen tekemät muutokset on kumottava ennen jatkamista.  Haluatko kumota muutokset?"/>
+  <STRING id="Error.1706" value="Tuotteen [2] asennuspakkausta ei löydy. Yritä asennusta uudelleen käyttäen asennuspakkauksen [3] oikeaa versiota."/>
+  <STRING id="Error.1707" value="Asennus onnistui."/>
+  <STRING id="Error.1708" value="Asennus epäonnistui."/>
+  <STRING id="Error.1709" value="Tuote: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Voit palauttaa tietokoneen aiempaan tilaan tai jatkaa asennusta myöhemmin. Haluatko palauttaa tietokoneen tilan?"/>
+  <STRING id="Error.1711" value="Virhe kirjoitettaessa asennustietoja levylle.  Varmista, että käytettävissä on riittävästi levytilaa, ja valitse Yritä uudelleen tai lopeta asennus valitsemalla Peruuta."/>
+  <STRING id="Error.1712" value="Vähintään yhtä tietokoneen edelliseen tilaan palauttamiseksi vaadittavaa tiedostoa ei löytynyt.  Palauttaminen ei ole mahdollista."/>
+  <STRING id="Error.1713" value="[2] ei voi asentaa jotakin tarvitsemistaan tuotteista. Ota yhteys tekniseen tukeen.  {{Järjestelmävirhe [3].}}"/>
+  <STRING id="Error.1714" value="Tuotteen [2] aiempaa versiota ei voi poistaa.  Ota yhteys tekniseen tukeen.  {{Järjestelmävirhe [3].}}"/>
+  <STRING id="Error.1715" value="Asennettu [2]"/>
+  <STRING id="Error.1716" value="Määritetty [2]"/>
+  <STRING id="Error.1717" value="Poistettu [2]"/>
+  <STRING id="Error.1718" value="Digitaalinen allekirjoitus -käytäntö hylkäsi tiedoston [2]."/>
+  <STRING id="Error.1719" value="Windows Installer -palvelun käyttäminen ei onnistu. Windowsin vikasietotila tai Windows Installerin viallinen asennus saattaa estää käyttämisen. Ota yhteys tukihenkilöön tarvittaessa."/>
+  <STRING id="Error.1720" value="Tässä Windows Installer -paketissa on ongelmia. Asennuksen suorittamiseksi vaadittavaa komentosarjaa ei voi suorittaa. Ota yhteyttä tukihenkilöön tai paketin toimittajaan.  {{Mukautettu toiminto [2] komentosarjavirhe [3], [4]: [5] rivi [6], sarake [7], [8] }}"/>
+  <STRING id="Error.1721" value="Tässä Windows Installer -paketissa on ongelmia. Asennuksen suorittamiseksi vaadittavaa ohjelmaa ei voi suorittaa. Ota yhteyttä tukihenkilöön tai paketin toimittajaan. {{Toiminto: [2], sijainti: [3], komento: [4] }}"/>
+  <STRING id="Error.1722" value="Tässä Windows Installer -paketissa on ongelmia. Asennukseen tarvittava ohjelma ei suorittanut toimintoa odotetusti. Ota yhteyttä tukihenkilöön tai paketin toimittajaan.  {{Toiminto [2], sijainti: [3], komento: [4] }}"/>
+  <STRING id="Error.1723" value="Tässä Windows Installer -paketissa on ongelmia. Asennukseen tarvittavaa DLL-tiedostoa ei voi suorittaa. Ota yhteyttä tukihenkilöön tai paketin toimittajaan.  {{Toiminto [2], määrite: [3], kirjasto: [4] }}"/>
+  <STRING id="Error.1724" value="Poistaminen onnistui."/>
+  <STRING id="Error.1725" value="Poistaminen epäonnistui."/>
+  <STRING id="Error.1726" value="Ilmoittaminen onnistui."/>
+  <STRING id="Error.1727" value="Ilmoittaminen epäonnistui."/>
+  <STRING id="Error.1728" value="Määrittäminen onnistui."/>
+  <STRING id="Error.1729" value="Määrittäminen epäonnistui."/>
+  <STRING id="Error.1730" value="Tämän sovelluksen poistaminen edellyttää järjestelmänvalvojan oikeuksia. Kirjaudu järjestelmään järjestelmänvalvojana tai ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1801" value="Polku [2] ei kelpaa.  Määritä kelvollinen polku."/>
+  <STRING id="Error.1802" value="Liian vähän muistia. Sulje toisia sovelluksia ja yritä sitten uudelleen."/>
+  <STRING id="Error.1803" value="Asemassa [2] ei ole levyä. Aseta levy asemaan ja valitse Yritä uudelleen tai palaa aiemmin valittuun levyyn valitsemalla Peruuta."/>
+  <STRING id="Error.1804" value="Asemassa [2] ei ole levyä. Aseta asemaan levy ja valitse Yritä uudelleen. Jos haluat palata selausvalintaikkunaan ja valita toisen aseman, valitse Peruuta."/>
+  <STRING id="Error.1805" value="Kansiota [2] ei ole olemassa.  Määritä kelvollinen kansion polku."/>
+  <STRING id="Error.1806" value="Nykyisellä käyttäjällä ei ole käyttöoikeutta kansion lukemiseen."/>
+  <STRING id="Error.1807" value="Kelvollisen kohdekansion määrittäminen asennusta varten ei onnistunut."/>
+  <STRING id="Error.1901" value="Yritettäessa lukea lähteenä käytettävästä asennustietokannasta tapahtui virhe: [2]."/>
+  <STRING id="Error.1902" value="Ajoitetaan uudelleenkäynnistystoiminto: Tiedosto [2] nimetään uudelleen nimelle [3]. Toiminnon suorittaminen loppuun edellyttää uudelleenkäynnistystä."/>
+  <STRING id="Error.1903" value="Ajoitetaan uudelleenkäynnistystoiminto: Tiedosto [2] poistetaan. Toiminnon suorittaminen loppuun edellyttää uudelleenkäynnistystä."/>
+  <STRING id="Error.1904" value="Moduulin [2] rekisteröiminen epäonnistui.  HRESULT [3].  Ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1905" value="Moduulin [2] rekisteröinnin poistaminen epäonnistui.  HRESULT [3].  Ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1906" value="Pakkauksen [2] lisääminen välimuistiin epäonnistui. Virhe: [3]. Ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1907" value="Fontin [2] rekisteröiminen epäonnistui.  Varmista, että sinulla on fonttien asennukseen tarvittavat oikeudet ja että järjestelmä tukee kyseistä fonttia."/>
+  <STRING id="Error.1908" value="Fontin [2] rekisteröinnin poistaminen epäonnistui. Varmista, että sinulla on fonttien rekisteröimisen poistamiseen tarvittavat oikeudet."/>
+  <STRING id="Error.1909" value="Pikakuvaketta [2] ei voi luoda. Varmista, että kohdekansio on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1910" value="Pikakuvaketta [2] ei voi poistaa. Varmista, että pikakuvaketiedosto on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1911" value="Tiedoston [2] lajikirjaston rekisteröiminen epäonnistui.  Ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1912" value="Tiedoston [2] lajikirjaston rekisteröinnin poistaminen epäonnistui.  Ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1913" value="Ini-tiedostoa [2][3] ei voi päivittää.  Varmista, että tiedosto on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1914" value="Tiedostoa [2] ei voi määrittää korvaamaan tiedostoa [3] uudelleenkäynnistyksen yhteydessä.  Varmista, että sinulla on kirjoitusoikeudet tiedostoon [3]."/>
+  <STRING id="Error.1915" value="Virhe poistettaessa ODBC-ohjaimen hallintaohjelmaa, ODBC-virhe [2]: [3]. Ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1916" value="Virhe asennettaessa ODBC-ohjaimen hallintaohjelmaa, ODBC-virhe [2]: [3]. Ota yhteyttä tukihenkilöön."/>
+  <STRING id="Error.1917" value="Virhe poistettaessa ODBC-ohjainta: [4], ODBC-virhe [2]: [3]. Varmista, että sinulla on riittävät oikeudet ODBC-ohjainten poistamiseen."/>
+  <STRING id="Error.1918" value="Virhe asennettaessa ODBC-ohjainta: [4][5], ODBC-virhe [2]: [3]. Varmista, että tiedosto [4][6] on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1919" value="Virhe määritettäessä ODBC-tietolähteen asetuksia: [4][5], ODBC-virhe [2]: [3]. Varmista, että tiedosto [4][6] on olemassa ja että käyttöoikeudet ovat riittävät."/>
+  <STRING id="Error.1920" value="Palvelu &apos;[2]&apos; ([3]) ei käynnisty.  Varmista, että sinulla on riittävät oikeudet järjestelmäpalveluiden käynnistämiseen."/>
+  <STRING id="Error.1921" value="Palvelua &apos;[2]&apos; ([3]) ei voi pysäyttää.   Varmista, että sinulla on riittävät oikeudet järjestelmäpalveluiden pysäyttämiseen."/>
+  <STRING id="Error.1922" value="Palvelua &apos;[2]&apos; ([3]) ei voi poistaa.  Varmista, että sinulla on riittävät oikeudet järjestelmäpalveluiden poistamiseen."/>
+  <STRING id="Error.1923" value="Palvelua &apos;[2]&apos; ([3]) ei voi asentaa.  Varmista, että sinulla on riittävät oikeudet järjestelmäpalveluiden asentamiseen."/>
+  <STRING id="Error.1924" value="Ympäristömuuttujaa &apos;[2]&apos; ei voi päivittää.  Varmista, että sinulla on riittävät oikeudet ympäristömuuttujien muokkaamiseen."/>
+  <STRING id="Error.1925" value="Käyttöoikeudet eivät riitä asennuksen suorittamiseen loppuun tietokoneen kaikkien käyttäjien osalta.  Kirjaudu tietokoneeseen järjestelmänvalvojana ja yritä asennusta uudelleen."/>
+  <STRING id="Error.1926" value="Tiedoston &apos;[3]&apos; suojausmäärityksiä ei voi asettaa. Virhe: [2].  Varmista, että sinulla on riittävät oikeudet tämän tiedoston käyttöoikeuksien muokkaamiseen."/>
+  <STRING id="Error.1927" value="Komponenttipalveluita (COM+ 1.0) ei ole asennettu tähän tietokoneeseen.  Tämän asennuksen suorittaminen edellyttää komponenttipalveluiden käyttöä.  Komponenttipalvelut ovat saatavilla Windows 2000 -käyttöjärjestelmään."/>
+  <STRING id="Error.1928" value="Virhe rekisteröitäessä COM+-sovellusta.  Saat lisätietoja tukihenkilöltä."/>
+  <STRING id="Error.1929" value="Virhe poistettaessa COM+-sovelluksen rekisteröintiä.  Saat lisätietoja tukihenkilöltä."/>
+  <STRING id="Error.1930" value="Palvelun &apos;[2]&apos; ([3]) kuvausta ei voi muuttaa."/>
+  <STRING id="Error.1931" value="Windows Installer -palvelu ei voi päivittää järjestelmätiedostoa [2], koska tiedosto on Windowsin suojaama.  Sinun on ehkä päivitettävä käyttöjärjestelmä, jotta tämä ohjelma toimisi oikein. {{Pakkauksen versio: [3], käyttöjärjestelmän suojaama versio: [4]}}"/>
+  <STRING id="Error.1932" value="Windows Installer -palvelu ei voi päivittää suojattua Windows-tiedostoa [2]. {{Pakkauksen versio: [3], käyttöjärjestelmän suojaama versio: [4], SFP-virhe: [5]}}"/>
+  <STRING id="Error.1933" value="Windows Installer -palvelu ei voinut päivittää vähintään yhtä suojattua Windows-tiedostoa. {{SFP-virhe: [2].  Suojatut tiedostot:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Tietokoneen käytäntö estää käyttäjäasennukset."/>
+  <STRING id="Error.1935" value="Virhe asennettaessa kokoonpanokomponenttia [2]. HRESULT: [3]. {{kokoonpanoliittymä: [4], toiminto: [5], kokoonpanon nimi: [6]}}"/>
+  <STRING id="Error.4000" value="Virheellinen sarjanumero."/>
+  <STRING id="Error.4010" value="Tietokoneeseen on asennettu tuotteen [ProductName] uudempi versio."/>
+  <STRING id="Error.4020" value="IIS-kokoonpanon määrittämisessä tapahtui virhe. Alkuperäinen IIS-kokoonpano palautetaan."/>
+  <STRING id="Error.4021" value="Web-sivusto [1] on jo olemassa tällä palvelimella."/>
+  <STRING id="Error.4022" value="Web-sivuston [2] näennäishakemisto [1] on jo olemassa tällä palvelimella."/>
+  <STRING id="Error.4023" value="Järjestelmä ei tue tätä IIS-ohjelman versiota tai IIS-ohjelmaa ei ole asennettu !&#10;&#10;Tarvitset Internet Information Services -ohjelmistosta version 5.0 tai uudemman."/>
+  <STRING id="Error.4024" value="Web-sivusto, jolla on samat palvelinsidonnat, on jo aloitettu.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Käyttäjätilin tai ryhmän &apos;[2]&apos; luominen paikalliselle koneelle ei onnistu. Virhekoodi: [3]. [4]"/>
+  <STRING id="Error.4102" value="Käyttäjätili tai ryhmä &apos;[2]&apos; on jo määritetty paikalliselle koneelle."/>
+  <STRING id="Error.4103" value="Käyttäjätilin tai ryhmän &apos;[2]&apos; poistaminen paikalliselta koneelta ei onnistu. Virhekoodi: [3]."/>
+  <STRING id="Error.4104" value="Käyttäjätiliä tai ryhmää &apos;[2]&apos; ei ole paikallisella koneella."/>
+  <STRING id="Error.4105" value="On ilmennyt virhe jaettaessa kohdetta &apos;[2]&apos; nimellä: &apos;[3]&apos;. Virheen kuvaus: [4]"/>
+  <STRING id="Error.4106" value="On ilmennyt virhe luotaessa ajoitettua tehtävää: &apos;[2]&apos;. Virheen kuvaus: [3]"/>
+  <STRING id="Error.4107" value="On ilmennyt virhe poistettaessa ajoitettua tehtävää: &apos;[2]&apos;. Virheen kuvaus: [3]"/>
+  <STRING id="Error.4110" value="Muistia ei voitu varata."/>
+  <STRING id="Error.4111" value="Tiedostoa ei löytynyt: [2]."/>
+  <STRING id="Error.4112" value="Tiedostoa &apos;[2]&apos; ei voitu lukea."/>
+  <STRING id="Error.4113" value="Jäsennysvirhe tiedostossa: &apos;[2]&apos; rivi: [3], sarake: [4]. Virhekoodi: [5]."/>
+  <STRING id="Error.4114" value="XML-tiedoston koodausta ei tueta."/>
+  <STRING id="Error.4115" value="Virhe avattaessa tiedostoa: [2]."/>
+  <STRING id="Error.4116" value="Tiedostoon &apos;[2]&apos; ei voitu kirjoittaa."/>
+  <STRING id="Error.4117" value="Odottamaton juurielementti: &quot;[2]&quot; XML-tiedostossa: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="On ilmennyt virhe Windowsin palomuurin kokoonpanojen määritysprosessin aikana.&#10;Alkuperäiset palomuurin asetukset on palautettu."/>
+  <STRING id="Error.4121" value="Virheellinen palomuuriprosessin näköistiedoston polku tai tiedostoa ei löytynyt: [2]."/>
+  <STRING id="Error.4122" value="Virheellinen palomuurin portti/protokolla: [2]."/>
+  <STRING id="Error.4123" value="Virheellinen palomuurin verkon laajuus: [2]."/>
+  <STRING id="Error.4124" value="On ilmennyt virhe rekisteröitäessä sovellusta Windowsin palomuuriin: [2]."/>
+  <STRING id="Error.4125" value="On ilmennyt virhe rekisteröitäessä porttia Windowsin palomuuriin: [2]."/>
+  <STRING id="Error.4130" value="On ilmennyt virhe Peliselaimen kokoonpanon määritysprosessin aikana."/>
+  <STRING id="Error.4131" value="Käytönvalvonta estää pelin pelaamisen: [2]."/>
+  <STRING id="Error.4140" value="On ilmennyt virhe SQL-komentosarjan suoritusprosessin aikana."/>
+  <STRING id="Error.4141" value="ODBC-virhe: [2] ([3])."/>
+  <STRING id="Error.4142" value="ODBC-yhteyden muodostaminen on keskeytynyt aikakatkaisuun."/>
+  <STRING id="Error.4143" value="SQL-komentosarjan jäsennysvirhe: virheellinen syntaksi."/>
+  <STRING id="Error.4001" value="Sarjanumeron vahvistus epäonnistui."/>
+  <STRING id="Error.4025" value="Tällä palvelimella on jo sovellussarja [2].&#10;&#10;Haluatko ohittaa tämän sovellussarjan määrityksen ja jatkaa asennusta?"/>
+  <STRING id="Error.4150" value="Sisäinen virhe kohteessa CallStdFcn."/>
+  <STRING id="Error.4151" value="Toimintoa &apos;[2]&apos; ei löytynyt DLL:n kohteesta &apos;[3]&apos;."/>
+  <STRING id="Error.4152" value="Haluatko poistaa tuotteen [ProductName] asetukset ja väliaikaiset tiedostot?"/>
+  <STRING id="Error.4153" value="Kohteen [2] pakollisen välttämättömän kohteen asennus epäonnistui."/>
+  <STRING id="Error.4154" value="Kohteen [2] välttämättömän kohteen asennus epäonnistui. Jatketaanko tuotteen [ProductName] asennusta?"/>
+  <STRING id="Error.4155" value="Kohteen [2] tiedoston haku epäonnistui: CRC-virhe."/>
+  <STRING id="Error.4156" value="Kohteen [2] tiedoston haku epäonnistui: CRC-virhe. Jatketaanko tuotteen [ProductName] asennusta?"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="tavua"/>
+  <STRING id="UIText.GB" value="Gt"/>
+  <STRING id="UIText.KB" value="kt"/>
+  <STRING id="UIText.MB" value="Mt"/>
+  <STRING id="UIText.MenuAbsent" value="Toiminnon mikään osa ei ole käytettävissä"/>
+  <STRING id="UIText.MenuAdvertise" value="Toiminto asennetaan tarvittaessa"/>
+  <STRING id="UIText.MenuAllCD" value="Toiminnon kaikki osat asennetaan suoritettaviksi CD-levyltä"/>
+  <STRING id="UIText.MenuAllLocal" value="Toiminnon kaikki osat asennetaan paikalliselle kiintolevylle"/>
+  <STRING id="UIText.MenuAllNetwork" value="Toiminnon kaikki osat asennetaan suoritettaviksi verkosta"/>
+  <STRING id="UIText.MenuCD" value="Asennetaan suoritettavaksi CD-levyltä"/>
+  <STRING id="UIText.MenuLocal" value="Asennetaan paikalliselle kiintolevylle"/>
+  <STRING id="UIText.MenuNetwork" value="Asennetaan suoritettavaksi verkosta"/>
+  <STRING id="UIText.ScriptInProgress" value="Kerätään tarvittavia tietoja..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Toimintoa ei asenneta"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Toiminto määritetään asennettavaksi tarvittaessa"/>
+  <STRING id="UIText.SelAbsentCD" value="Toiminto asennetaan suoritettavaksi CD-levyltä"/>
+  <STRING id="UIText.SelAbsentLocal" value="Toiminto asennetaan paikalliselle kiintolevylle"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Toiminto asennetaan suoritettavaksi verkosta"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Toiminto ei ole enää käytettävissä"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Asennetaan tarvittaessa"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Toiminto voidaan suorittaa CD-levyltä"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Toiminto asennetaan paikalliselle kiintolevylle"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Toiminto voidaan suorittaa verkosta"/>
+  <STRING id="UIText.SelCDAbsent" value="Toiminto poistetaan kokonaan, eikä sitä voi enää suorittaa CD-levyltä"/>
+  <STRING id="UIText.SelCDAdvertise" value="Toiminto muutetaan CD-levyltä suoritettavasta tarvittaessa asennettavaksi"/>
+  <STRING id="UIText.SelCDCD" value="Toiminto suoritetaan edelleen CD-levyltä"/>
+  <STRING id="UIText.SelCDLocal" value="Toiminto muutetaan CD-levyltä suoritettavasta paikalliselle kiintolevylle asennettavaksi"/>
+  <STRING id="UIText.SelChildCostNeg" value="Toiminto vapauttaa [1] tilaa kiintolevyltä."/>
+  <STRING id="UIText.SelChildCostPos" value="Toiminto edellyttää [1] tilaa kiintolevyltä."/>
+  <STRING id="UIText.SelCostPending" value="Kootaan toiminnon kustannuksia..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Toiminto poistetaan kokonaan"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Toiminto poistetaan paikalliselta kiintolevyltä, mutta se määritetään asennettavaksi tarvittaessa"/>
+  <STRING id="UIText.SelLocalCD" value="Toiminto poistetaan paikalliselta kiintolevyltä, mutta se voidaan edelleen suorittaa CD-levyltä"/>
+  <STRING id="UIText.SelLocalLocal" value="Toiminto säilyy paikallisella kiintolevyllä"/>
+  <STRING id="UIText.SelLocalNetwork" value="Toiminto poistetaan paikalliselta kiintolevyltä, mutta se voidaan edelleen suorittaa verkosta"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Toiminto poistetaan kokonaan, minkä jälkeen sitä ei voi enää suorittaa verkosta"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Toiminto muutetaan verkosta suoritettavasta tarvittaessa asennettavaksi"/>
+  <STRING id="UIText.SelNetworkLocal" value="Toiminto muutetaan verkosta suoritettavasta paikalliselle kiintolevylle asennettavaksi"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Toiminto suoritetaan edelleen verkosta"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Toiminto vapauttaa [1] tilaa kiintolevyltä. Toiminnon [2] / [3] aliominaisuutta on valittu. Toiminnon aliominaisuudet vapauttavat [4] tilaa kiintolevyltä."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Toiminto vapauttaa [1] tilaa kiintolevyltä. Toiminnon [2] / [3] aliominaisuutta on valittu. Ne vaativat [4] tilaa kiintolevyltä."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Toiminto edellyttää [1] tilaa kiintolevyltä. Toiminnon [2] / [3] aliominaisuutta on valittu. Toiminnon aliominaisuudet vapauttavat [4] tilaa kiintolevyltä."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Toiminto edellyttää [1] tilaa kiintolevyltä. Toiminnon [2] / [3] aliominaisuutta on valittu. Ne vaativat [4] tilaa kiintolevyltä."/>
+  <STRING id="UIText.TimeRemaining" value="Jäljellä oleva aika: {[1] minuuttia }{[2] sekuntia}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Käytettävissä"/>
+  <STRING id="UIText.VolumeCostDifference" value="Erotus"/>
+  <STRING id="UIText.VolumeCostRequired" value="Tarvitaan"/>
+  <STRING id="UIText.VolumeCostSize" value="Levyn koko"/>
+  <STRING id="UIText.VolumeCostVolume" value="Asema"/>
+  <STRING id="UIText.HttpPostMsg" value="Lähetetään kerättyjä tietoja..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.ODBCTestMsg" value="Odota yhteyden testaamista..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Selataan verkon SQL-palvelimia..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+   <STRING id="UIText.BrowseFolderLocation" value="Sijainti"/>
+  <STRING id="UIText.BrowseFolderName" value="Kansion nimi:"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="Valitse kansio"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;Virhe resurssin latauksen aikana:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="Asenna"/>
+  <STRING id="UIText.PrereqInstalled" value="Asennettu"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="Asennettava"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] tai vanhempi}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] tai uudempi}"/>
+  <STRING id="UIText.PrereqSkipAction" value="Ohita"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="Muodostetaan yhteyttä tietokantapalvelimeen..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="Tila ei riitä"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="Asennusasemat"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="Käyttämättömät asemat"/>
+  <STRING id="UIText.Warning" value="Varoitus"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.IAgree#1" value="Hyväksyn käyttöoikeussopimuksen ehdot"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="En hyväksy käyttöoikeussopimuksen ehtoja"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Kyllä, rekisteröidy käsittelemään kyseisiä tiedostotyyppejä."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Ei, ohita tiedostojen kytkentä."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Sulje automaattisesti &amp;kaikki sovellukset ja yritä käynnistää ne uudelleen, kun asennus on valmis."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="Älä &amp;sulje sovelluksia. (Edellyttää tietokoneen käynnistämistä uudelleen.)"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="Vain kyseinen käyttäjä ([LogonUser])"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="Jokainen (kaikki käyttäjät)"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Kyllä, poista vanhemmat versiot."/>
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Ei, asenna rinnakkain muiden versioiden kanssa."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Kyllä, poista kaikki vanhemmat versiot."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Ei, poista vain version [AI_Replaced_Versions_List] asennus."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Edellinen"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Edellinen"/>
+  <STRING id="Property.ButtonText_Browse" value="Se&amp;laa..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Peruuta"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Lopeta"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Valmis"/>
+  <STRING id="Property.Text_Finish" value="Valmis"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Ohita"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Asenna"/>
+  <STRING id="Property.Text_Install" value="Asenna"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Seuraava &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Seuraava"/>
+  <STRING id="Property.Text_Next" value="Seuraava"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Ei"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Poista"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Korjaa"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Palauta"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Jatka"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Yritä uudelleen"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Palaa"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Kyllä"/>
+  <STRING id="Property.Text_Yes" value="Kyllä"/>
+  <STRING id="Property.CtrlEvtchanges" value="muutokset"/>
+  <STRING id="Property.CtrlEvtChanging" value="Muutetaan"/>
+  <STRING id="Property.CtrlEvtremoves" value="poistaa"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Poistetaan"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Korjataan"/>
+  <STRING id="Property.CtrlEvtrepairs" value="korjaa"/>
+  <STRING id="Property.InstallModeComplete" value="Täydellinen"/>
+  <STRING id="Property.InstallModeCustom" value="Mukautettu"/>
+  <STRING id="Property.InstallModeTypical" value="Normaali"/>
+  <STRING id="Property.Progress1" value="Asennetaan"/>
+  <STRING id="Property.Progress2" value="asentaa"/>
+  <STRING id="Property.Setup" value="Asenna"/>
+  <STRING id="Property.Wizard" value="Ohjattu asennus"/>
+  <!-- Trialware Settings table -->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Osta"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Haluaisitko avata tuotteen %TrialName% ostosivun?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Virheellinen rekisteröintikoodi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="Rekisteröintikoodi on virheellinen."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% Kokeilujakso"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Vahvista avain ja jatka valitsemalla &quot;Valmis&quot;."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Anna kaikki saamasi rekisteröintiavaimen rivit."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Rekisteröinti"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Osta"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Hanki lisenssi tuotteen %TrialName% ostosivulta"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="%TrialName% Kokeilujakso on päättynyt"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="%Quantity% päivän kokeilujakso on päättynyt. Jos haluat edelleen käyttää tuotetta %TrialName%, osta lisenssi ja rekisteröi sovellus."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="%Quantity% käyttökerran kokeilujakso on päättynyt. Jos haluat edelleen käyttää tuotetta %TrialName%, osta lisenssi ja rekisteröi sovellus."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Tervetuloa käyttämään tuotteen %TrialName% kokeiluversiota"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Rekisteröidy"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Anna rekisteröintikoodi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Kokeile"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Vanhentunut"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Osta"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Hanki lisenssi tuotteen %TrialName% ostosivulta"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="Tuotteen %TrialName% kokeiluversio (%TrialLeft% päivää jäljellä)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="Tuotteen %TrialName% kokeiluversio (%TrialLeft% käyttökertaa jäljellä)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="Käytössäsi on tuotteen [|Manufacturer] %TrialName% kokeiluversio. Jäljellä on %TrialLeft% päivää."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="Käytössäsi on tuotteen [|Manufacturer] %TrialName% kokeiluversio. Jäljellä on %TrialLeft% käyttökertaa."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Tervetuloa käyttämään tuotteen %TrialName% kokeiluversiota"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Rekisteröidy"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Anna rekisteröintikoodi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Kokeile"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Jatka tuotteen %TrialName% kokeilujaksoa"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=Kokeilujakson jatkamispyyntö&amp;body=Hei%%0A%%0AHaluaisin koodin kokeilujakson jatkamista varten tuotteelle %TrialName%.%%0A%%0AKiitos.%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="Tuotteen %TrialName% kokeilujakso"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="Jatka"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="Pyydä kokeilujakson jatkamista"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="Vahvista koodi ja jatka kokeilujaksoa valitsemalla Jatka."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="Jatka kokeilujaksoa syöttämällä vastaanottamasi koodi."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="Jatka kokeilujaksoa"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="Kokeilujakson jatkamisaika ylitetty"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="Kokeilujakson pituus voi olla enintään %Quantity% %TrialMU%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="Jatka"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="%TrialName% rekisteröity"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="Kiitos siitä, että olet rekisteröinyt tuotteen %TrialName%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="Rekisteröinti onnistui"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="Osta"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="Hanki lisenssi tuotteen %TrialName% ostosivulta"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="Tuotteen %TrialName% kokeilujakso on päättynyt"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="%Quantity% päivän kokeilujakso on päättynyt. Jos haluat jatkaa tuotteen %TrialName% käyttöä, pyydä kokeilujakson jatkamista tai osta lisenssi ja rekisteröi sovellus."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="%Quantity% käyttökerran kokeilujakso on päättynyt. Jos haluat jatkaa tuotteen %TrialName% käyttöä, pyydä kokeilujakson jatkamista tai osta lisenssi ja rekisteröi sovellus."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="Tervetuloa käyttämään tuotteen %TrialName% kokeiluversiota"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="Rekisteröidy"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="Anna rekisteröintikoodi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="Jatka kokeilujaksoa"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="Jatka tuotteen %TrialName% kokeilujaksoa"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value="%TrialName% rekisteröity"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="Kiitos siitä, että olet rekisteröinyt tuotteen %TrialName%."/>
+</DICTIONARY>

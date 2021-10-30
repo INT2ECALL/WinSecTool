@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT type="Advanced Installer" RootPath=".">
+  <COMPONENT cid="caphyon.advinst.msicomp.AppXCfgComponent">
+    <ROW ID="Configuration" Order="1" ManifestFile="AppxManifest.xml" TargetOs="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericDirectoryComponent">
+    <ROW Id="1" Name="ROOT" Flags="1"/>
+    <ROW Id="2" Name="Assets" Parent="1" Flags="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericFileComponent">
+    <ROW Id="1" Name="StoreLogo.scale-100.png" Path="&lt;AI_RES&gt;appx\StoreLogo.png" ParentDir="2"/>
+    <ROW Id="2" Name="Square150x150Logo.scale-100.png" Path="&lt;AI_RES&gt;appx\Logo.png" ParentDir="2"/>
+    <ROW Id="3" Name="Square30x30Logo.scale-100.png" Path="&lt;AI_RES&gt;appx\SmallLogo.png" ParentDir="2"/>
+    <ROW Id="4" Name="SplashScreen.scale-100.png" Path="&lt;AI_RES&gt;appx\SplashScreen.png" ParentDir="2"/>
+    <ROW Id="5" Name="default.html" Path="&lt;AI_RES&gt;appx\default.html" ParentDir="1"/>
+    <ROW Id="6" Name="Square44x44Logo.scale-100.png" Path="&lt;AI_RES&gt;appx\SmallLogo10.png" ParentDir="2"/>
+    <ROW Id="7" Name="Square70x70Logo.scale-100.png" Path="&lt;AI_RES&gt;appx\MediumLogo81.png" ParentDir="2"/>
+    <ROW Id="8" Name="Square71x71Logo.scale-100.png" Path="&lt;AI_RES&gt;appx\MediumLogo10.png" ParentDir="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlAttributeComponent">
+    <ROW XmlAttribute="BackgroundColor" XmlElement="VisualElements" Name="BackgroundColor" Flags="0" Order="0" Value="#6393d4"/>
+    <ROW XmlAttribute="Description" XmlElement="VisualElements" Name="Description" Flags="0" Order="0" Value="Desc"/>
+    <ROW XmlAttribute="DisplayName" XmlElement="VisualElements" Name="DisplayName" Flags="0" Order="1" Value="Your Application"/>
+    <ROW XmlAttribute="ForegroundText" XmlElement="VisualElements" Name="ForegroundText" Flags="0" Order="0" Value="light"/>
+    <ROW XmlAttribute="Id" XmlElement="Application" Name="Id" Flags="0" Order="0" Value="Id"/>
+    <ROW XmlAttribute="StartPage" XmlElement="Application" Name="StartPage" Flags="0" Order="1" FileId="5"/>
+    <ROW XmlAttribute="Image" XmlElement="SplashScreen" Name="Image" Flags="0" Order="0" FileId="4"/>
+    <ROW XmlAttribute="Language" XmlElement="Resource" Name="Language" Flags="0" Order="0" Value="en-us"/>
+    <ROW XmlAttribute="Logo" XmlElement="VisualElements" Name="Logo" Flags="0" Order="0" FileId="2"/>
+    <ROW XmlAttribute="Name" XmlElement="Identity" Name="Name" Flags="0" Order="0" Value="A0DD9479-2E7B-4D5F-BD1B-7D91850D52F8"/>
+    <ROW XmlAttribute="Preference" XmlElement="Rotation" Name="Preference" Flags="0" Order="0" Value="portrait"/>
+    <ROW XmlAttribute="Preference_1" XmlElement="Rotation_1" Name="Preference" Flags="0" Order="0" Value="landscape"/>
+    <ROW XmlAttribute="ProcessorArchitecture" XmlElement="Identity" Name="ProcessorArchitecture" Flags="0" Order="0" Value="neutral"/>
+    <ROW XmlAttribute="Publisher" XmlElement="Identity" Name="Publisher" Flags="0" Order="0" Value="CN=Default ID"/>
+    <ROW XmlAttribute="SmallLogo" XmlElement="VisualElements" Name="SmallLogo" Flags="0" Order="0" FileId="3"/>
+    <ROW XmlAttribute="Version" XmlElement="Identity" Name="Version" Flags="0" Order="0" Value="1.0.0.0"/>
+    <ROW XmlAttribute="xmlns" XmlElement="Package" Name="xmlns" Flags="14" Order="0" Value="http://schemas.microsoft.com/appx/2010/manifest"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlElementComponent">
+    <ROW XmlElement="Application" ParentElement="Applications" Name="Application" Order="0" Flags="0" Type="4"/>
+    <ROW XmlElement="Applications" ParentElement="Package" Name="Applications" Order="4" Flags="0" Type="3"/>
+    <ROW XmlElement="DisplayName" ParentElement="Properties" Name="DisplayName" Order="0" Flags="0" Text="Your Application" Type="1"/>
+    <ROW XmlElement="Identity" ParentElement="Package" Name="Identity" Order="0" Flags="0" Type="1"/>
+    <ROW XmlElement="InitialRotationPreference" ParentElement="VisualElements" Name="InitialRotationPreference" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Logo" ParentElement="Properties" Name="Logo" Order="2" Flags="0" FileId="1" Type="0"/>
+    <ROW XmlElement="OSMaxVersionTested" ParentElement="Prerequisites" Name="OSMaxVersionTested" Order="1" Flags="0" Text="6.2.0" Type="0"/>
+    <ROW XmlElement="OSMinVersion" ParentElement="Prerequisites" Name="OSMinVersion" Order="0" Flags="0" Text="6.2.0" Type="0"/>
+    <ROW XmlElement="Package" Name="Package" Order="0" Flags="30" Type="6"/>
+    <ROW XmlElement="Prerequisites" ParentElement="Package" Name="Prerequisites" Order="2" Flags="0" Type="1"/>
+    <ROW XmlElement="Properties" ParentElement="Package" Name="Properties" Order="1" Flags="0" Type="1"/>
+    <ROW XmlElement="PublisherDisplayName" ParentElement="Properties" Name="PublisherDisplayName" Order="1" Flags="0" Text="Your Company" Type="1"/>
+    <ROW XmlElement="Resource" ParentElement="Resources" Name="Resource" Order="0" Flags="0" Type="1"/>
+    <ROW XmlElement="Resources" ParentElement="Package" Name="Resources" Order="3" Flags="0" Type="1"/>
+    <ROW XmlElement="Rotation" ParentElement="InitialRotationPreference" Name="Rotation" Order="0" Flags="0" Type="1"/>
+    <ROW XmlElement="Rotation_1" ParentElement="InitialRotationPreference" Name="Rotation" Order="1" Flags="0" Type="1"/>
+    <ROW XmlElement="SplashScreen" ParentElement="VisualElements" Name="SplashScreen" Order="0" Flags="0" Type="1"/>
+    <ROW XmlElement="VisualElements" ParentElement="Application" Name="VisualElements" Order="0" Flags="0" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlFileComponent">
+    <ROW XmlFile="AppxManifest.xml" FileName="AppxManifest.xml" RootElement="Package" Flags="89" Version="1.0" Encoding="utf-8" IndentUnits="2"/>
+  </COMPONENT>
+</DOCUMENT>

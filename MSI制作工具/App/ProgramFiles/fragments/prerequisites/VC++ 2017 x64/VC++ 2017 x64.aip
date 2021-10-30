@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D36C9FE0826D4D2B9C2DDCCE2C83E860" DisplayName="Visual C++ Redistributable for Visual Studio 2017 x64" VersionMin="14.10"
+      SetupFileUrl="http://download.microsoft.com/download/3/b/f/3bf6e759-c555-4595-8973-86b7b4312927/vc_redist.x64.exe"
+      Location="1" ExactSize="15254384" MD5="4b0e07f7731f5c4e72c4a1726e532ce1"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows Vista RTM x64, Windows Vista SP1 x64, Windows Server 2008 RTM x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="xf" TargetName="Visual C++ Redistributable for Visual Studio 2017"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D36C9FE0826D4D2B9C2DDCCE2C83E860Version" Prereq="D36C9FE0826D4D2B9C2DDCCE2C83E860" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeMinimum\Version" VerMin="14.10.25008"
+      Order="1" Property="PreReqSearch_D36C9FE0826D4D2B9C2DDCCE2C83E860"/>
+  </COMPONENT>
+</FRAGMENT>

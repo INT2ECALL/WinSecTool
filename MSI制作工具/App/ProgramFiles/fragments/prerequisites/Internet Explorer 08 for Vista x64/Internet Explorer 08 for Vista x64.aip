@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F44049588522BF4EE5664" DisplayName="Internet Explorer 8 for Windows Vista/Server 2008 x64" VersionMin="8.0"
+      SetupFileUrl="http://download.microsoft.com/download/D/C/F/DCF5DACB-313F-40C6-889C-AD1F8546099D/IE8-WindowsVista-x64-ENU.exe"
+      Location="1" ExactSize="25492336" MD5="079d1d6c413d0d095a2a6b8b927ea328"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xy" TargetName="Internet Explorer 8"/>
+    <ATTRIBUTE name="GroupName" value="Internet Explorer"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F44049588522BF4EE5664SystemFolderwininet.dll" Prereq="F44049588522BF4EE5664" SearchType="0"
+      SearchString="[SystemFolder]wininet.dll" VerMin="8.0.6001.18702"
+      Order="1" Property="PreReqSearch_F44049588522BF4EE5664"/>
+  </COMPONENT>
+</FRAGMENT>

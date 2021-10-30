@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="AADF76A73A834015B7EA4683057D198E" DisplayName="Access 2010 Runtime x64" VersionMin="14.0"
+      SetupFileUrl="http://download.microsoft.com/download/2/6/0/260AA63A-A275-4A92-950D-CE20B490D0B9/AccessRuntime_X64.exe"
+      Location="1" ExactSize="222692848" MD5="beb5ed579714ed50d69c7fa2b29e4f64"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xf" TargetName="Access 2010 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Office"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="AADF76A73A834015B7EA4683057D198EPath" Prereq="AADF76A73A834015B7EA4683057D198E" SearchType="7"
+      SearchString="HKLM\SOFTWARE\Microsoft\Office\14.0\Access\InstallRoot\Path"
+      Order="1" Property="PreReqSearch_AADF76A73A834015B7EA4683057D198E"/>
+  </COMPONENT>
+</FRAGMENT>

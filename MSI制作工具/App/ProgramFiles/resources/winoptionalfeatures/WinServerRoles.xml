@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServerRoles>
+  <Role DisplayName="Terminal Services" Name="Terminal-Services" TargetWinVer="Windows Server 2008">
+    <RoleService DisplayName="Terminal Server" Name="TS-Terminal-Server"/>
+    <RoleService DisplayName="TS Licensing" Name="TS-Licensing"/>
+    <RoleService DisplayName="TS Session Broker" Name="TS-Session-Broker"/>
+    <RoleService DisplayName="TS Gateway" Name="TS-Gateway"/>
+    <RoleService DisplayName="TS Web Access" Name="TS-Web-Access"/>
+  </Role>
+  <Role DisplayName="Active Directory Certificate Services" Name="AD-Certificate">
+    <RoleService DisplayName="Certification Authority" Name="ADCS-Cert-Authority"/>
+    <RoleService DisplayName="Certificate Enrollment Policy Web Service" Name="ADCS-Enroll-Web-Pol"/>
+    <RoleService DisplayName="Certificate Enrollment Web Service" Name="ADCS-Enroll-Web-Svc"/>
+    <RoleService DisplayName="Certification Authority Web Enrollment" Name="ADCS-Web-Enrollment"/>
+    <RoleService DisplayName="Network Device Enrollment Service" Name="ADCS-Device-Enrollment" TargetWinVer="Windows Server 2012 and later"/>
+    <RoleService DisplayName="Online Responder" Name="ADCS-Online-Cert" TargetWinVer="Windows Server 2012 and later"/>
+  </Role>
+  <Role DisplayName="Active Directory Domain Services" Name="AD-Domain-Services"/>
+  <Role DisplayName="Active Directory Federation Services" Name="ADFS-Federation" TargetWinVer="Windows Server 2012 and later"/>
+  <Role DisplayName="Active Directory Lightweight Directory Services" Name="ADLDS"/>
+  <Role DisplayName="Active Directory Rights Management Services" Name="ADRMS">
+    <RoleService DisplayName="Active Directory Rights Management Server" Name="ADRMS-Server"/>
+    <RoleService DisplayName="Identity Federation Support" Name="ADRMS-Identity"/>
+  </Role>
+  <Role DisplayName="Application Server" Name="Application-Server">
+    <RoleService DisplayName=".NET Framework" Name="AS-NET-Framework"/>
+    <RoleService DisplayName="COM+ Network Access" Name="AS-Ent-Services"/>
+    <RoleService DisplayName="Distributed Transactions" Name="AS-Dist-Transaction">
+      <RoleService DisplayName="WS-Atomic Transactions" Name="AS-WS-Atomic"/>
+      <RoleService DisplayName="Incoming Network Transactions" Name="AS-Incoming-Trans"/>
+      <RoleService DisplayName="Outgoing Network Transactions" Name="AS-Outgoing-Trans"/>
+    </RoleService>
+    <RoleService DisplayName="TCP Port Sharing" Name="AS-TCP-Port-Sharing"/>
+    <RoleService DisplayName="Web Server (IIS) Support" Name="AS-Web-Support"/>
+    <RoleService DisplayName="Windows Process Activation Service Support" Name="AS-WAS-Support">
+      <RoleService DisplayName="HTTP Activation" Name="AS-HTTP-Activation"/>
+      <RoleService DisplayName="Message Queuing Activation" Name="AS-MSMQ-Activation"/>
+      <RoleService DisplayName="Named Pipes Activation" Name="AS-Named-Pipes"/>
+      <RoleService DisplayName="TCP Activation" Name="AS-TCP-Activation"/>
+    </RoleService>
+  </Role>
+  <Role DisplayName="DHCP Server" Name="DHCP"/>
+  <Role DisplayName="DNS Server" Name="DNS"/>
+  <Role DisplayName="Fax Server" Name="Fax"/>
+  <Role DisplayName="File and iSCSI Services" Name="File-Services">
+    <RoleService DisplayName="File Server" Name="FS-FileServer"/>
+    <RoleService DisplayName="BranchCache for Network Files" Name="FS-BranchCache"/>
+    <RoleService DisplayName="Data Deduplication" Name="FS-Data-Deduplication" TargetWinVer="Windows Server 2012 and later"/>
+    <RoleService DisplayName="DFS Namespaces" Name="FS-DFS-Namespace" TargetWinVer="Windows Server 2008 and later"/>
+    <RoleService DisplayName="DFS Replication" Name="FS-DFS-Replication" TargetWinVer="Windows Server 2008 and later"/>
+    <RoleService DisplayName="File Server Resource Manager" Name="FS-Resource-Manager"/>
+    <RoleService DisplayName="File Server VSS Agent Service" Name="FS-VSS-Agent" TargetWinVer="Windows Server 2012 and later"/>
+    <RoleService DisplayName="iSCSI Target Server" Name="FS-iSCSITarget-Server" TargetWinVer="Windows Server 2012 and later"/>
+    <RoleService DisplayName="iSCSI Target Storage Provider (VDS and VSS hardware providers)" Name="iSCSITarget-VSS-VDS" TargetWinVer="Windows Server 2012 and later"/>
+    <RoleService DisplayName="Server for NFS" Name="FS-NFS-Service" TargetWinVer="Windows Server 2012 and later"/>
+    <RoleService DisplayName="Work Folders" Name="FS-SyncShareService" TargetWinVer="Windows Server 2012 and later"/>
+  </Role>
+  <Role DisplayName="Storage Services" Name="Storage-Services" TargetWinVer="Windows Server 2012 and later"/>
+  <Role DisplayName="Hyper-V" Name="Hyper-V"/>
+  <Role DisplayName="Network Policy and Access Services" Name="NPAS">
+    <RoleService DisplayName="Network Policy Server" Name="NPAS-Policy-Server"/>
+    <RoleService DisplayName="Health Registration Authority" Name="NPAS-Health"/>
+    <RoleService DisplayName="Host Credential Authorization Protocol" Name="NPAS-Host-Cred"/>
+  </Role>
+  <Role DisplayName="Print and Document Services" Name="Print-Services">
+    <RoleService DisplayName="Print Server" Name="Print-Server"/>
+    <RoleService DisplayName="Distributed Scan Server" Name="Print-Scan-Server"/>
+    <RoleService DisplayName="Internet Printing" Name="Print-Internet"/>
+    <RoleService DisplayName="LPD Service" Name="Print-LPD-Service"/>
+  </Role>
+  <Role DisplayName="Remote Access" Name="RemoteAccess" TargetWinVer="Windows Server 2012 and later">
+    <RoleService DisplayName="DirectAccess and VPN (RAS)" Name="DirectAccess-VPN"/>
+    <RoleService DisplayName="Routing" Name="Routing"/>
+    <RoleService DisplayName="Web Application Proxy" Name="Web-Application-Proxy"/>
+  </Role>
+  <Role DisplayName="Remote Desktop Services" Name="Remote-Desktop-Services">
+    <RoleService DisplayName="Remote Desktop Connection Broker" Name="RDS-Connection-Broker"/>
+    <RoleService DisplayName="Remote Desktop Gateway" Name="RDS-Gateway"/>
+    <RoleService DisplayName="Remote Desktop Licensing" Name="RDS-Licensing"/>
+    <RoleService DisplayName="Remote Desktop Session Host" Name="RDS-RD-Server"/>
+    <RoleService DisplayName="Remote Desktop Virtualization Host" Name="RDS-Virtualization"/>
+    <RoleService DisplayName="Remote Desktop Web Access" Name="RDS-Web-Access"/>
+  </Role>
+  <Role DisplayName="Volume Activation Services" Name="VolumeActivation" TargetWinVer="Windows Server 2012 and later"/>
+  <Role DisplayName="Web Server (IIS)" Name="Web-Server">
+    <RoleService DisplayName="Web Server" Name="Web-WebServer">
+      <RoleService DisplayName="Common HTTP Features" Name="Web-Common-Http">
+        <RoleService DisplayName="Default Document" Name="Web-Default-Doc"/>
+        <RoleService DisplayName="Directory Browsing" Name="Web-Dir-Browsing"/>
+        <RoleService DisplayName="HTTP Errors" Name="Web-Http-Errors"/>
+        <RoleService DisplayName="Static Content" Name="Web-Static-Content"/>
+        <RoleService DisplayName="HTTP Redirection" Name="Web-Http-Redirect"/>
+        <RoleService DisplayName="WebDAV Publishing" Name="Web-DAV-Publishing"/>
+      </RoleService>
+      <RoleService DisplayName="Health and Diagnostics" Name="Web-Health">
+        <RoleService DisplayName="HTTP Logging" Name="Web-Http-Logging"/>
+        <RoleService DisplayName="Custom Logging" Name="Web-Custom-Logging"/>
+        <RoleService DisplayName="Logging Tools" Name="Web-Log-Libraries"/>
+        <RoleService DisplayName="ODBC Logging" Name="Web-ODBC-Logging"/>
+        <RoleService DisplayName="Request Monitor" Name="Web-Request-Monitor"/>
+        <RoleService DisplayName="Tracing" Name="Web-Http-Tracing"/>
+      </RoleService>
+      <RoleService DisplayName="Performance" Name="Web-Performance">
+        <RoleService DisplayName="Static Content Compression" Name="Web-Stat-Compression"/>
+        <RoleService DisplayName="Dynamic Content Compression" Name="Web-Dyn-Compression"/>
+      </RoleService>
+      <RoleService DisplayName="Security" Name="Web-Security">
+        <RoleService DisplayName="Request Filtering" Name="Web-Filtering"/>
+        <RoleService DisplayName="Basic Authentication" Name="Web-Basic-Auth"/>
+        <RoleService DisplayName="Centralized SSL Certificate Support" Name="Web-CertProvider" TargetWinVer="Windows Server 2012 and later"/>
+        <RoleService DisplayName="Client Certificate Mapping Authentication" Name="Web-Client-Auth"/>
+        <RoleService DisplayName="Digest Authentication" Name="Web-Digest-Auth"/>
+        <RoleService DisplayName="IIS Client Certificate Mapping Authentication" Name="Web-Cert-Auth"/>
+        <RoleService DisplayName="IP and Domain Restrictions" Name="Web-IP-Security"/>
+        <RoleService DisplayName="URL Authorization" Name="Web-Url-Auth"/>
+        <RoleService DisplayName="Windows Authentication" Name="Web-Windows-Auth"/>
+      </RoleService>
+      <RoleService DisplayName="Application Development" Name="Web-App-Dev">
+        <RoleService DisplayName=".NET Extensibility 3.5" Name="Web-Net-Ext"/>
+        <RoleService DisplayName=".NET Extensibility 4.5" Name="Web-Net-Ext45" TargetWinVer="Windows Server 2012 and later"/>
+        <RoleService DisplayName="Application Initialization" Name="Web-AppInit" TargetWinVer="Windows Server 2012 and later"/>
+        <RoleService DisplayName="ASP" Name="Web-ASP"/>
+        <RoleService DisplayName="ASP.NET 3.5" Name="Web-Asp-Net"/>
+        <RoleService DisplayName="ASP.NET 4.5" Name="Web-Asp-Net45" TargetWinVer="Windows Server 2012 and later"/>
+        <RoleService DisplayName="CGI" Name="Web-CGI"/>
+        <RoleService DisplayName="ISAPI Extensions" Name="Web-ISAPI-Ext"/>
+        <RoleService DisplayName="ISAPI Filters" Name="Web-ISAPI-Filter"/>
+        <RoleService DisplayName="Server Side Includes" Name="Web-Includes"/>
+        <RoleService DisplayName="WebSocket Protocol" Name="Web-WebSockets" TargetWinVer="Windows Server 2012 and later"/>
+      </RoleService>
+    </RoleService>
+    <RoleService DisplayName="FTP Server" Name="Web-Ftp-Server">
+      <RoleService DisplayName="FTP Service" Name="Web-Ftp-Service"/>
+      <RoleService DisplayName="FTP Extensibility" Name="Web-Ftp-Ext"/>
+    </RoleService>
+    <RoleService DisplayName="IIS Hostable Web Core" Name="Web-WHC"/>
+    <RoleService DisplayName="Management Tools" Name="Web-Mgmt-Tools">
+      <RoleService DisplayName="IIS Management Console" Name="Web-Mgmt-Console"/>
+      <RoleService DisplayName="IIS 6 Management Compatibility" Name="Web-Mgmt-Compat">
+        <RoleService DisplayName="IIS 6 Metabase Compatibility" Name="Web-Metabase"/>
+        <RoleService DisplayName="IIS 6 Management Console" Name="Web-Lgcy-Mgmt-Console"/>
+        <RoleService DisplayName="IIS 6 Scripting Tools" Name="Web-Lgcy-Scripting"/>
+        <RoleService DisplayName="IIS 6 WMI Compatibility" Name="Web-WMI"/>
+      </RoleService>
+      <RoleService DisplayName="IIS Management Scripts and Tools" Name="Web-Scripting-Tools"/>
+      <RoleService DisplayName="Management Service" Name="Web-Mgmt-Service"/>
+    </RoleService>
+  </Role>
+  <Role DisplayName="Windows Deployment Services" Name="WDS">
+    <RoleService DisplayName="Deployment Server" Name="WDS-Deployment"/>
+    <RoleService DisplayName="Transport Server" Name="WDS-Transport"/>
+  </Role>
+  <Role DisplayName="Windows Server Essentials Experience" Name="ServerEssentialsRole" TargetWinVer="Windows Server 2012 and later"/>
+  <Role DisplayName="Windows Server Update Services" Name="UpdateServices" TargetWinVer="Windows Server 2012 and later">
+    <RoleService DisplayName="WID Database" Name="UpdateServices-WidDB"/>
+    <RoleService DisplayName="WSUS Services" Name="UpdateServices-Services"/>
+    <RoleService DisplayName="Database" Name="UpdateServices-DB"/>
+  </Role>
+  <Role Name="MultiPointServerRole" DisplayName="MultiPoint Services" TargetWinVer="Windows Server 2016 and later"/>
+  <Role Name="HostGuardianServiceRole" DisplayName="Host Guardian Service" TargetWinVer="Windows Server 2016 and later"/>
+</ServerRoles>

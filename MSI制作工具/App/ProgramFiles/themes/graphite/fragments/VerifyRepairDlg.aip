@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="VerifyRepairDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="525" Height="395" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Repair" Type="PushButton" X="368" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Repair]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Cancel" Type="PushButton" X="436" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Back" Type="PushButton" X="312" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Title" Type="Text" X="11" Y="9" Width="480" Height="15" Attributes="196611" TextStyle="Title" Order="500" TextLocId="Graphite.Control.Text.VerifyRepairDlg#Title"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="GlobalProgress" Type="Bitmap" X="14" Y="88" Width="14" Height="86" Attributes="1048577" Text="[Preparing]" Order="600"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="CollectingLabel" Type="Text" X="35" Y="90" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="700" TextLocId="Graphite.Control.Text.Dlg#CollectingLabel"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="PreparingLabel" Type="Text" X="35" Y="114" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="800" TextLocId="Graphite.Control.Text.Dlg#PreparingLabel"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="InstallingLabel" Type="Text" X="35" Y="138" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="900" TextLocId="Graphite.Control.Text.Dlg#InstallingLabel"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="FinalizingLabel" Type="Text" X="35" Y="162" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1000" TextLocId="Graphite.Control.Text.Dlg#FinalizingLabel"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Intro" Type="Text" X="175" Y="70" Width="316" Height="30" Attributes="196611" TextStyle="Intro" Order="1100" TextLocId="Graphite.Control.Text.VerifyRepairDlg#Intro"/>
+    <ROW Dialog_="VerifyRepairDlg" Control="Description" Type="Text" X="175" Y="118" Width="280" Height="37" Attributes="196611" TextStyle="Normal" Order="1200" TextLocId="Graphite.Control.Text.VerifyRepairDlg#Description"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="VerifyRepairDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EnableRollback" Argument="False" Condition="OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="600"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="Reinstall" Argument="All" Condition="OutOfDiskSpace &lt;&gt; 1" Ordering="200"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="ReinstallMode" Argument="ecmus" Condition="OutOfDiskSpace &lt;&gt; 1" Ordering="100"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="(OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;)" Ordering="700"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="400"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="VerifyRepairDlg" HCentering="50" VCentering="50" Width="525" Height="395" Attributes="35" Control_Default="Repair" Control_Cancel="Cancel" TitleLocId="Dialog.VerifyRepairDlg"/>
+  </COMPONENT>
+</FRAGMENT>

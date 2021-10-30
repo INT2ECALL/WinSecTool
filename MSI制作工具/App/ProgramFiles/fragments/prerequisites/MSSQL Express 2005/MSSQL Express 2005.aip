@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.3" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B7E27A_E19A_4814_A183_8D60D5CB2035" DisplayName="SQL Server Express 2005" VersionMin="9.00"
+      SetupFileUrl="http://download.microsoft.com/download/f/1/0/f10c4f60-630e-4153-bd53-c3010e4c513b/SQLEXPR.EXE"
+      Location="1" ExactSize="56105688" MD5="6797955b505d3871cabb630db28623a9"
+      WinNTVersions="Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/qn ADDLOCAL=SQL_Data_Files INSTANCENAME=SQLEXPRESS"
+      Operator="1" Options="f" TargetName="SQL Server Express 2005"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B7E27A_E19A_4814_A183_8D60D5CB2035CurrentVersion" Prereq="B7E27A_E19A_4814_A183_8D60D5CB2035" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\90\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="9.00"
+      Order="1" Property="PreReqSearch_B7E27A_E19A_4814_A183_8D60D5CB2035"/>
+  </COMPONENT>
+</FRAGMENT>

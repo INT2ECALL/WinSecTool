@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="EC39D_0B8D_4C2E_A373_7F11E2281A4C" DisplayName="Java SE Runtime Environment 6u45 x86" VersionMin="1.6"
+      SetupFileUrl="http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html#jre-6u45-oth-JPR"
+      Location="2" ExactSize="0"
+      Operator="0" Options="y"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="EC39D_0B8D_4C2E_A373_7F11E2281A4CCurrentVersion" Prereq="EC39D_0B8D_4C2E_A373_7F11E2281A4C" SearchType="2"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Runtime Environment\CurrentVersion" VerMin="1.6"
+      Order="1" Property="PreReqSearch_EC39D_0B8D_4C2E_A373_7F11E2281A4C"/>
+    <ROW SearchKey="EC39D_0B8D_4C2E_A373_7F11E2281A4CJavaRuntimeEnvironment" Prereq="EC39D_0B8D_4C2E_A373_7F11E2281A4C" SearchType="1"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Runtime Environment" VerMin="1.6.0_45"
+      Order="2" Property="PreReqSearch_1_EC39D_0B8D_4C2E_A373_7F11E2281A4C"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="FB7092656950417CA932676792875A31" DisplayName="PowerShell 3.0 for Windows Server 2008 x64" VersionMin="3.0"
+      SetupFileUrl="http://download.microsoft.com/download/E/7/6/E76850B8-DA6E-4FF5-8CCE-A24FC513FD16/Windows6.0-KB2506146-x64.msu"
+      Location="1" ExactSize="15058915" MD5="8240036522df409fa5535ca568adf01f"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xy" TargetName="PowerShell 3.0"/>
+    <ATTRIBUTE name="GroupName" value="Windows Management Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="FB7092656950417CA932676792875A31PowerShellVersion" Prereq="FB7092656950417CA932676792875A31" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine\PowerShellVersion" VerMin="3.0"
+      Order="1" Property="PreReqSearch_FB7092656950417CA932676792875A31"/>
+  </COMPONENT>
+</FRAGMENT>

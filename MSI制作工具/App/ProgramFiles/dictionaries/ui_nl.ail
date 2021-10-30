@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="nl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.AI_GenericProperty.Description" value="Beschrijving van uw applicatie"/>
+  <STRING id="AI.AI_GenericProperty.Name" value="Uw applicatie"/>
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Nieuwe map"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Duplicaat %s van %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Nieuwe variabele"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Beschrijving"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Functie"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Speel"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Ondersteuning"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Uw beschrijving van [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Nieuw bestand"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Nieuwe ID"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Nieuw onderdeel"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Nieuwe naam"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="fout.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="uitvoer.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Uw Product"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] kan niet worden geïnstalleerd op systemen met een versie van Acrobat Reader lager dan [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName] kan niet worden geïnstalleerd op systemen zonder [AI_REQUIRED_ACTIVESYNC_DISPLAY] of hoger."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] kan niet worden geïnstalleerd op systemen met een kleurkwaliteit minder dan [AI_REQUIRED_COLOR_QUALITY] bits."/>
+  <STRING id="AI.LaunchCondition.Description" value="Open Conditie Beschrijving"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] kan niet worden geïnstalleerd op systemen met een versie van DirectX lager dan [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] kan niet worden geïnstalleerd op systemen met een versie van .NET Framework lager dan [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] kan niet worden geïnstalleerd op systemen met een versie van .NET Core lager dan [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] kan niet worden geïnstalleerd op systemen met een versie van Internet Explorer lager dan [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] kan niet worden geïnstalleerd op systemen met een versie van Internet Information Services lager dan [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="Installatie van [ProductName] vereist een actieve Internetverbinding. Controleer uw netwerkconfiguratie en proxy instellingen."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] kan niet worden geïnstalleerd op systemen met JDK versie lager dan [AI_REQUIRED_JDK_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] kan niet worden geïnstalleerd op systemen met een versie van JRE lager dan [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] kan niet worden geïnstalleerd op [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] kan niet worden geïnstalleerd op [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] kan niet worden geïnstalleerd op [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] kan niet worden geïnstalleerd op [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] kan niet worden geïnstalleerd op [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] kan niet worden geïnstalleerd op [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] kan niet worden geïnstalleerd op de volgende Windows versie(s): [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] kan niet worden geïnstalleerd op de volgende Windows versie(s): [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] kan niet worden geïnstalleerd op de volgende Windows versie(s): [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="[ProductName] kan niet worden geïnstalleerd op systemen zonder [AI_REQUIRED_OFFICE_APPNAME]."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] kan niet worden geïnstalleerd op systemen zonder [AI_REQUIRED_OFFICE_APPNAME] 2003."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName] kan niet worden geïnstalleerd op systemen zonder [AI_REQUIRED_OFFICE_APPNAME] 2007."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] vereist administratieve rechten om te installeren."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] kan niet worden geïnstalleerd op systemen met minder fysiek geheugen dan [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] kan niet worden geïnstalleerd op systemen met een schermresolutie kleiner dan [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName] kan niet worden geïnstalleerd op systemen zonder [AI_REQUIRED_SQLCOMPACT_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName] kan niet worden geïnstalleerd op systemen zonder [AI_REQUIRED_SQLEXPRESS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] kan niet worden geïnstalleerd op systemen draaiend op virtuele machines."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] kan niet worden geïnstalleerd op systemen met Windows Installer versie ouder dan [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName] kan niet worden geïnstalleerd op systemen met XNA Framework versie lager dan [AI_REQUIRED_XNA_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="UwBestand.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Deze database bevat de logica en de data benodigd om [|ProductName] te installeren."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Uw bedrijfsnaam"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Uw Samenvoeg Module"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Deze database bevat de logica en data noodzakelijk voor het installeren van &lt;module name&gt; component."/>
+  <STRING id="AI.Property.DefaultProductName" value="Naam van de applicatie"/>
+  <STRING id="AI.Property.DefaultValue" value="Uw naam"/>
+  <STRING id="AI.Property.FindExeTitle" value="Selecteer het installatiepakket voor [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Dit pakket bevat een Samenvoeg Module gecreëerd met een probeerversie van Advanced Installer. U mag het alleen voor evaluatie doeleinden gebruiken."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Deze installatie werd met een testversie van Advanced Installer gemaakt. U mag deze applicatie alleen voor evaluatie gebruiken."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Waarschuwing"/>
+  <STRING id="AI.Registry.DefaultKey" value="Nieuwe ID"/>
+  <STRING id="AI.Registry.DefaultName" value="Nieuwe naam"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="UwBestand.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="UwNaam"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="NaamVanDeDienst"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Beschrijving van de dienst"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Uw dienst"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Nieuwe Share"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Snelkoppeling naar uw applicatie"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Snelkoppeling naar %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Deïnstalleer"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Openen"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Nieuw bestand"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Installer informatie"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Maak een nieuwe map|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Een nivo hoger|"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Maak een nieuwe map aan|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Een nivo hoger|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Informatie icoon|"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Informatie icoon|"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Installatie aanpassen|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Installatie verwijderen|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Installatie repareren|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Voltooi installatie|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Gebruikerspecifieke installatie|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Standaard Installatie|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="EXE Icoon|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Kijk in:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Blader naar de doelmap"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Padnaam:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Verander huidige doelmap"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Geef a.u.b. het netwerkpad voor de server image van [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Netwerkpad ingeven of klik op Bladeren om deze te selecteren."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Netwerk locatie"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD &amp;Sleutel"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Geef a.u.b. uw bedrijfsnaam"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Geef a.u.b. de naam van uw organisatie in. Deze naam wordt standaard gebruikt bij de volgende installaties van [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Bedrijfsinformatie"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="De [Wizard] maakt een server image aan van [ProductName], in de aangegeven netwerklocatie. Klik op [Text_Next] om door te gaan of op Stoppen om de [Wizard] te beëindigen."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Welkom bij de installatie van [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Kijk in:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Blader naar de doelmap"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Padnaam:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Verander de huidige doelmap"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Weet u zeker dat u de installatie van [ProductName] wilt afbreken?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Selecteer het installatietype."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="Schijf&amp;gebruik"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Omschrijving gekozen item in meerdere regels."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Grootte van het geselecteerde item."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Gekozen path&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Locatie:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Klik op de onderstaande iconen in de boomstructuur om de manier van het installeren te wijzigen"/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Gebruikersspecifieke setup"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Keuzemogelijkheden"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="De benodigde schijfruimte voor het installeren van de selecties."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="De gekozen schijven hebben niet genoeg vrije ruimte voor de aangegeven selecties. Maak ruimte vrij, verminder het aantal selecties of kies een andere schijf."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Benodigde vrije schijfruimte"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Informatie tekst"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="[ProductName] staat nu op uw computer. Klik op 'Voltooien' om dit scherm te sluiten."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="[ProductName] starten"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Installatie voltooid"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Het leesmij bestand openen"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Koppel [ProductName] met bestandstypen."/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] registeert [ProductName] voor de volgende bestandstypen: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Bestandskoppeling"/>
+  <STRING id="Control.Text.FatalError#Description1" value="De installatie van [ProductName] werd afgebroken. Uw systeem is niet gewijzigd. Om dit programma later te installeren, start de installatie (setup) opnieuw."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Klik op voltooien om de [Wizard] te beëindigen."/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] afgebroken"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Sommige bestanden die aangepast moeten worden, zijn in gebruik."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="De volgende applicaties hebben bestanden in gebruik die aangepast moeten worden. Sluit deze a.u.b. en klik op Opnieuw om door te gaan, of Stoppen om de installatie te beëindigen."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Bestanden die in gebruik zijn"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Dit is de map waarin [ProductName] wordt geïnstalleerd."/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Map:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Kies hieronder de map waarin u het programma wilt installeren. Klik daarna op '[Text_Next]'."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Locatie van het programma"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_nl.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Lees de voorwaarden zorgvuldig door"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Eindgebruiker licentieovereenkomst"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Aanpassen"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Installatie wijzigingen door de gebruiker toestaan."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Kiest u a.u.b. de door u gewenste optie."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Verwijderen"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Verwijderd [ProductName] van uw computer."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Re&amp;pareren"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Repareert fouten in de installatie, hersteld foutieve of ontbrekende bestanden, snelkoppelingen en register vermeldingen."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Verander, herstel of verwijder de installatie"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="De [Wizard] maakt het u mogelijk de manier waarop [ProductName] wordt geïnstalleerd aan te passen of zelfs te verwijderen. Klik op [Text_Next] om door te gaan of op Stoppen om de [Wizard] te beëindigen."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Welkom bij de installatie van [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Benodigde ruimte is meer dan de vrije schijfruimte."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="De gekozen schijven hebben niet genoeg vrije ruimte voor de aangegeven selecties. Maak ruimte vrij, verminder het aantal selecties of kies een andere schijf."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Geen vrije schijfruimte meer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Benodigde schijfruimte is meer dan de beschikbare ruimte."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="De gekozen schijven hebben niet genoeg vrije ruimte voor de aangegeven selecties. Maak ruimte vrij, verminder het aantal selecties of kies een andere schijf."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Als alternatief kunt u ook de automatische herstelfunctie deactiveren. Hierdoor heeft de installatie minder ruimte nodig, meer heeft u het risico dat als de installatie afbreekt er bestanden op uw computer achterblijven. Klik op Ja als u dit risico wilt nemen."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Geen vrije ruimte meer aanwezig"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="De [Wizard] installeert de Patch voor [ProductName] op uw computer. Klik [Text_Next] om verder te gaan of Afbreken om de Patch [Wizard] te beëindigen."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Welkom bij de [ProductName] Patch [Wizard]"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Een moment a.u.b. terwijl de [Wizard] zich voorbereidt om u met de installatie te helpen."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Welkom bij de installatie van [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Voltooid"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Status:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Even geduld alstublieft. [ProductName] wordt nu geïnstalleerd. Dit kan enkele minuten duren."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Leest u de volgende tekst a.u.b. zorgvuldig"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_nl.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Leesmij"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="De [Wizard] voltooid de installatie van [ProductName] op uw computer. Klik op Installeren op door te gaan of op Stoppen om de [Wizard] te beëindigen."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Doorgaan met [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="V&amp;olledig"/>
+  <STRING id="Property.Text_Complete" value="Volledig"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Alle mogelijke opties worden geïnstalleerd (gebruikt de meeste schijfruimte)."/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="Geb&amp;ruikersspecifiek"/>
+  <STRING id="Property.Text_Custom" value="Gebruikersspecifiek"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Geeft de mogelijkheid om specifiek aan te geven welke opties geïnstalleerd moeten worden en waar. Aanbevolen voor ervaren gebruikers."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Kies het gewenste installatietype"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Installatietype"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Standaard"/>
+  <STRING id="Property.Text_Typical" value="Standaard"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Installeert de standaard functies. Aanbevolen voor de meeste gebruikers."/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Nieuwe Dialoog Beschrijving..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Nieuwe Dialoog"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Nieuwe &apos;Spawn&apos;(Wacht) Dialoog"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Zoek naar en upgrade oudere versies van [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] kan naar oudere versies van [ProductName] zoeken en ze verwijderen. Wilt u die versies verwijderen?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] heeft gedetecteerd dat u een installatie locatie heeft gekozen die ook door de [AI_Replaced_Versions_List] versie van [ProductName] wordt gebruikt. Deze versie moet worden gedeïnstalleerd. Wilt u ook elke andere oudere versie verwijderen?"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Upgrade Oudere Versies"/>
+  <STRING id="Control.Text.UserExit#Description1" value="[ProductName] Installatie werd afgebroken. Uw systeem is niet gewijzigd. Om het programma later te installeren, start dan de installatie (setup) opnieuw."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Klik op voltooien om de [Wizard] te beëindigen."/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName] [Wizard] werd afgebroken"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Serie nummer:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Geef a.u.b. uw klant gegevens in"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Gebruikersnaam:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Organisatie:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Klant informatie"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="De [Wizard] is gereed om de [ProductName] Installatie te beginnen"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Klik op 'Installeren' om de installatie te starten."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Klaar voor installatie"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="U heeft gekozen de applicatie van uw computer te verwijderen."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Klik op Verwijderen om [ProductName] van uw computer te verwijderen. Klik op Vorige als u instellingen wilt wijzigen. Klik op Stoppen om de [Wizard] te beëindigen."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Verwijderd [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="De [Wizard] is gereed om [ProductName] te repareren."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Klik op Repareren om [ProductName] te repareren. Klik op Vorige als u een instelling wilt verwijderen. Klik Afbreken om [Wizard] te beëindigen."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Repareert [ProductName]"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Even geduld a.u.b. terwijl gecontroleerd wordt op voldoende vrije schijfruimte."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="U gaat nu [ProductName] op uw computer installeren. Klik op '[Text_Next]' om door te gaan of op 'Afbreken' om de installatie te annuleren."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Welkom bij [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Sommige bij te werken bestanden zijn in gebruik."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="De volgende applicaties gebruiken bestanden die bijgewerkt moeten worden door deze setup."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Bestanden in Gebruik"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Maak applicatie snelkoppelingen"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Bureaublad"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Snelmenu"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Maak snelkoppelingen voor [ProductName] op de volgende locaties:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Startmenu Programma&apos;s map"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Map Opstarten"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Configureer snelkoppelingen"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Database:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Configureer SQL Verbinding..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC Bron:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Wachtwoord:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Poort:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Server:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL Database"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Gebruikersnaam:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Dit is de map waarin [ProductName] snelkoppelingen worden geïnstalleerd"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Voeg de submap naam gescheiden met &quot;\&quot; toe om een submap te installeren."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Startmenu Snelkoppelingen Map"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Klik &quot;[Text_Next]&quot; om snelkoppelingen in deze map te installeren. Selecteer een map uit de combo box of type hieronder een naam om in een andere map te installeren."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Selecteer de Startmenu Snelkoppelingen Map"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="Voleindig installatie|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="Server Installatie|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="Client Installatie|"/>
+    <STRING id="Control.Text.ClientServerDlg#Logo" value="Geavanceerde installatie"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="Kies type installatie"/>
+  <STRING id="Control.Text.FatalError#LogCheckBox" value="Toon log"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Description" value="Selecteer de extensies die u wilt koppelen met [ProductName]"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Logo" value="Geavanceerde installatie"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Text" value="Selecteer de bestandstypes die u automatisch wilt openen met [ProductName]"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Title" value="Selecteer bestandassociaties"/>
+  <STRING id="Control.Text.LogonInformationDlg#Description" value="Specificeer user account informatie"/>
+  <STRING id="Control.Text.LogonInformationDlg#Logo" value="Geavanceerde installatie"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameLabel" value="&amp;Gebruikernaam:"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordLabel" value="&amp;Paswoord:"/>
+  <STRING id="Control.Text.LogonInformationDlg#Title" value="Logon Informatie"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#DescriptionNoClose" value="De [Wizard] zal u toelaten de manier waarop [ProductName] functies worden geïnstalleerd op uw computer te wijzigen of zelfs om [ProductName] te verwijderen van uw computer. Klik op [Text_Next] om door te gaan of sluit het venster om de [Wizard] af te sluiten"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#DescriptionNoClose" value="De [Wizard] zal de patch voor [ProductName] op uw computer installeren. Klik op [Text_Next] om door te gaan of sluit het venster om de patch te verlaten [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#DescriptionNoClose" value="De [Wizard] zal de installatie van [ProductName] op uw computer afronden. Klik op Installeren om verder te gaan of sluit het venster om de [Wizard] af te sluiten."/>
+  <STRING id="Control.Text.SharePointLogDlg#Logo" value="Geavanceerde installatie"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="Geavanceerde installatie"/>
+  <STRING id="Control.Text.VerifyReadyDlg#TextNoClose" value="Klik op Installeren om de installatie te beginnen. Als u uw installatie instellingen wilt controleren of wijzigen, klikt u op Terug. Sluit het venster om de wizard af te sluiten."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#TextNoClose" value="Klik op Verwijderen om [ProductName] te verwijderen van uw computer. Als u uw installatie instellingen wilt controleren of wijzigen, klikt u op Terug. Sluit het venster om de wizard af te sluiten."/>
+  <STRING id="Control.Text.VerifyRepairDlg#TextNoClose" value="Klik op Herstellen om de installatie van [ProductName] te herstellen. Als u uw installatie instellingen wilt controleren of wijzigen, klikt u op Terug. Sluit het venster om de wizard af te sluiten"/>
+  <!-- Modern theme strings -->
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#AddRemoveButton" value="Wijzig welke onderdelen geïnstalleerd worden of verwijder specifieke onderdelen.|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RemoveButton" value="Verwijderd [ProductName] van uw computer.|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RepairButton" value="Herstelt fouten in de meest recente installatie - herstelt ontbrekende of beschadigde bestanden, snelkoppelingen en registervermeldingen |."/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CompleteInstallButton" value="Alle programmaonderdelen worden geïnstalleerd. (Vereist de meeste schijfruimte) |"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CustomInstallButton" value="Hiermee kunnen gebruikers kiezen welke programma onderdelen worden geïnstalleerd en waar ze zullen worden geïnstalleerd. Aanbevolen voor gevorderde gebruikers.|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#TypicalInstallButton" value="Installeert de meest voorkomende programma onderdelen. Aanbevolen voor de meeste gebruikers. |"/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#BottomNote" value="Klik &quot;[Text_Next]&quot; om verder te gaan."/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#Browse" value="Bladeren..."/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#FeatureDescriptionLabel" value="Beschrijving onderdeel"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#InstallPathLabel" value="&amp;Product installatie pad:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#SelectionTreeLabel" value="Selecteer een onderdeel om te installeren:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#VolumeCostListLabel" value="Schijfruimte vereisen:"/>
+  <STRING id="Modern.Control.Text.Dlg#Setup" value="Set-up"/>
+  <STRING id="Modern.Control.Text.FatalError#Description" value="[ProductName] set-up werd vroegtijdig onderbroken. Uw systeem is niet gewijzigd. Voor het installeren van dit programma op een later tijdstip, voer de installatie opnieuw uit a.u.b."/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#AgreementLabel" value="Zorg ervoor dat u zorgvuldig alle rechten en beperkingen beschreven in de licentievoorwaarden leest en begrijpt. U moet akkoord gaan met de licentievoorwaarden voordat u de software kan installeren."/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#ButtonLabel" value="Druk op de toets Page Down om meer tekst te zien."/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#BottomNote" value="Klik &quot;[Text_Next]&quot; om verder te gaan."/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#Description" value="De [Wizard] zal u toelaten om de manier waarop [ProductName] functies worden geïnstalleerd op uw computer te wijzigen of zelfs om [ProductName] te verwijderen van uw computer."/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Description" value="De [Wizard] zal de patch voor [ProductName] op uw computer installeren. Klik op &quot;[Text_Next]&quot; om verder te gaan of &quot;Annuleren&quot; om de patch [Wizard] te verlaten."/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Title" value="Welkom bij de [ProductName] Patch [Wizard]"/>
+  <STRING id="Modern.Control.Text.PrepareDlg#Description" value="Gelieve te wachten terwijl de [Wizard] zich voorbereid om u te begeleiden door de installatie."/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Description" value="Selecteer welke voorwaarden zullen worden geïnstalleerd."/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Title" value="Voorwaarden"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Description" value="Lees de onderstaande tekst zorgvuldig a.u.b."/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Title" value="Lees me bestand"/>
+  <STRING id="Modern.Control.Text.ResumeDlg#BottomNote" value="Klik op &quot;Installeer&quot; om verder te gaan of &quot;Annuleren&quot; om de [Wizard] af te sluiten."/>
+  <STRING id="Modern.Control.Text.ResumeDlg#Description" value="De [Wizard] zal de installatie van [ProductName] op uw computer afronden."/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#BrowseButton" value="Bladeren..."/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#PathLabel" value="&amp;Product installatie pad:"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#Title" value="Selecteer onderdelen om te installeren:"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#VolumeCostListLabel" value="Schijfruimte vereisten:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Description" value="Maak snelkoppelingen naar toepassingen."/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#ShortcutsLabel" value="Maak snelkoppelingen voor [ProductName] op de volgende locaties:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Title" value="Configureer snelkoppelingen"/>
+  <STRING id="Modern.Control.Text.UserExit#BottomNote" value="klik op de &quot;Voltooien&quot; knop om de [Wizard] te sluiten."/>
+  <STRING id="Modern.Control.Text.UserExit#Description" value="[ProductName] set-up werd onderbroken. Uw systeem is niet gewijzigd. Voor het installeren van dit programma op een later tijdstip, voer de installatie opnieuw uit a.u.b."/>
+  <STRING id="Modern.Control.Text.UserRegistrationDlg#Description" value="Voer uw klantgegevens in a.u.b."/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#BottomNote" value="Klik op &quot;Installeren&quot; om de installatie te beginnen. Als u uw installatie instellingen wilt bekijken of wijzigen, klikt u op &quot;Terug&quot;. Klik op &quot;Annuleren&quot; om de wizard af te sluiten."/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Description" value="De [Wizard] is klaar om [ProductName] installatie te beginnen."/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Title" value="Klaar om te installeren"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#BottomNote" value="Klik op &quot;Remove&quot; om [ProductName] te verwijderen van uw computer. Als u uw installatie instellingen wilt bekijken of wijzigen, klikt u op &quot;Terug&quot;. Klik op &quot;Annuleren&quot; om de wizard af te sluiten."/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Description" value="U hebt gekozen om het programma te verwijderen van uw computer"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Title" value="Verwijder [ProductName]"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#BottomNote" value="Klik op &quot;Herstellen&quot; om de [ProductName] installatie te herstellen. Als u uw installatie instellingen wilt bekijken of wijzigen, klikt u op &quot;Terug&quot;. Klik op &quot;Annuleren&quot; om de wizard af te sluiten."/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Description" value="De [Wizard] is klaar om het herstellen van [ProductName] te beginnen."/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Title" value="Herstellen [ProductName]"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#BottomNote" value="Klik &quot;[Text_Next]&quot; om verder te gaan."/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Description" value="De [Wizard] zal [ProductName] installeren op uw computer."/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Title" value="Welkom bij de [ProductName] [Wizard]"/>
+  <!-- Graphite theme strings -->
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Description" value="Selecteer de programma functies die u wilt installeren a.u.b."/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#SpaceRequiredLabel" value="Vereiste ruimte voor geselecteerde componenten :"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Title" value="Aangepaste set-up"/>
+  <STRING id="Graphite.Control.Text.Dlg#CollectingLabel" value="Verzamelen van informatie"/>
+  <STRING id="Graphite.Control.Text.Dlg#FinalizingLabel" value="Finaliseren installatie"/>
+  <STRING id="Graphite.Control.Text.Dlg#InstallingLabel" value="Installeren"/>
+  <STRING id="Graphite.Control.Text.Dlg#PreparingLabel" value="Voorbereiden installatie"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Intro" value="[ProductName] is met succes geïnstalleerd."/>
+  <STRING id="Graphite.Control.Text.ExitDialog#IntroUninstall" value="[ProductName] is met succes verwijderd."/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Title" value="[ProductName] set-up compleet"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description1" value="[ProductName] set-up is voortijdig be�indigd vanwege een fout. Uw systeem is niet gewijzigd. Voor het installeren van dit programma op een later tijdstip, voer de installatie opnieuw uit a.u.b."/>
+  <STRING id="Graphite.Control.Text.FatalError#Description2" value="Klik op &quot;Einde&quot; knop om de [Wizard] te verlaten."/>
+  <STRING id="Graphite.Control.Text.FatalError#Title" value="[ProductName] Set-up was onderbroken"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#AvailableSpaceLabel" value="Beschikbare schijfruimte:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Description" value="Om te installeren in deze folder, klik op &quot;[Text_Next]&quot;. Om te installeren in een andere folder, voer hem hieronder in of klik op &quot;Blader&quot;."/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Intro" value="Dit is de folder waar [ProductName] zal worden geïnstalleerd."/>
+  <STRING id="Graphite.Control.Text.FolderDlg#RemainingSpaceLabel" value="Resterende schijfruimte:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#SpaceRequiredLabel" value="Vereiste ruimte:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Title" value="Installatie folder"/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Description" value="Lees de volgende licentie-overeenkomst zorgvuldig door."/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Title" value="Eindgebruiker licentie-overeenkomst"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#ChangeText" value="Wijzig de staat van de huidige installatie - programma functies toevoegen of verwijderen."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Description" value="Kies de onderhoud bewerking die u wilt uitvoeren en klik op &quot;[Text_Next]&quot;."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Intro" value="Welkom bij de [ProductName] Onderhoud Wizard."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RemoveText" value="Verwijderd [ProductName] van uw computer."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RepairText" value="Herstelt fouten in de meest recente installatie - herstelt ontbrekende of beschadigde bestanden, snelkoppelingen en registervermeldingen."/>
+  <STRING id="Graphite.Control.Text.MaintenanceWelcomeDlg#Description" value="De [Wizard] zal u toelaten om de manier waarop [ProductName] functies worden geïnstalleerd op uw computer te wijzigen of zelfs om [ProductName] te verwijderen van uw computer. Klik op &quot;[Text_Next]&quot; om verder te gaan of &quot;Annuleren&quot; om de [Wizard] af te sluiten."/>
+  <STRING id="Graphite.Control.Text.MsiRMFilesInUse#Description" value="Sommige bestanden die moeten worden bijgewerkt, zijn momenteel in gebruik"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Intro" value="Welkom bij de Wizard voor de [ProductName] Patch set-up."/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Title" value="Welkom bij de [ProductName] Patch set-up"/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Description" value="Gelieve te wachten terwijl de [Wizard] zich voorbereidt om u te begeleiden door de installatie."/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Title" value="Voorbereiden van uw [ProductName] set-up"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Description" value="Selecteer welke vereisten geïnstalleerd zullen worden."/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Title" value="Vereisten"/>
+  <STRING id="Graphite.Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Description" value="Lees de onderstaande tekst zorgvuldig."/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Title" value="LeesMij informatie"/>
+  <STRING id="Graphite.Control.Text.ResumeDlg#Title" value="Hervatten [ProductName] set-up"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Description" value="Kies het setup type dat het beste past bij uw behoeften."/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Title" value="Set-up type"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description1" value="[ProductName] set-up werd onderbroken. Uw systeem is niet gewijzigd. Voor het installeren van dit programma op een later tijdstip, voer de installatie opnieuw uit a.u.b."/>
+  <STRING id="Graphite.Control.Text.UserExit#Description2" value="Klik op de &quot;Voltooien&quot; om de [Wizard] af te sluiten."/>
+  <STRING id="Graphite.Control.Text.UserExit#Title" value="[ProductName] set-up werd onderbroken"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Description" value="Klik &quot;Installeren&quot; om de installatie te beginnen. Als u een van uw installatie instellingen wilt bekijken of wijzigen, klikt u op &quot;terug&quot;. Klik op &quot;Annuleren&quot; om de wizard af te sluiten."/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Intro" value="De [Wizard] is klaar om de [ProductName] installatie te beginnen."/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Title" value="Klaar om te installeren"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Description" value="Klik &quot;Verwijder&quot; om [ProductName] van uw computer te verwijderen. Als u een van uw installatie instellingen wilt bekijken of wijzigen, klikt u op &quot;terug&quot;. Klik op &quot;Annuleren&quot; om de wizard af te sluiten."/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Intro" value="De [Wizard] is klaar om de [ProductName] te verwijderen."/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Title" value="Klaar om te verwijderen"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Description" value="Klik &quot;Herstel&quot; om de installatie van [ProductName] te herstellen. Als u een van uw installatie instellingen wilt bekijken of wijzigen, klikt u op &quot;terug&quot;. Klik op &quot;Annuleren&quot; om de wizard af te sluiten."/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Intro" value="De [Wizard] is klaar om [ProductName] te herstellen."/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Title" value="Klaar om te herstellen"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Description" value="De [Wizard] zal [ProductName] op uw computer installeren. Klik op &quot;[Text_Next]&quot; om verder te gaan."/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Intro" value="Welkom bij de Wizard voor [ProductName] set-up."/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Title" value="Welkom bij [ProductName] set-up"/>
+  <STRING id="Graphite.MaintenanceTypeDlg#Title" value="Welkom bij [ProductName] onderhoud"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Complete" value="Compleet"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Custom" value="Aangepast"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Typical" value="Typisch"/>
+  <!-- Air theme strings -->
+  <STRING id="Air.Control.Help#Back" value="Terug|"/>
+  <STRING id="Air.Control.Help.ExitDialog#LaunchProdCheckBox" value="Start de applicatie|"/>
+  <STRING id="Air.Control.Help.ExitDialog#ViewReadmeCheckBox" value="View lees mij bestand"/>
+  <STRING id="Air.Control.Text.ExitDialog#LaunchProdCheckBox" value="Start de applicatie|"/>
+  <STRING id="Air.Control.Text.ExitDialog#SubTitle" value="Dank u"/>
+  <STRING id="Air.Control.Text.FolderDlg#SubTitle" value="Selecteer installatie folder"/>
+  <STRING id="Air.Control.Text.LicenseAgreementDlg#SubTitle" value="Licentie overeenkomst"/>
+  <STRING id="Air.Control.Text.PrepareDlg#Description" value="Wacht even a.u.b. initialiseren set-up."/>
+  <STRING id="Air.Control.Text.UserExit#SubTitle" value="Set-up geannuleerd"/>
+  <STRING id="Air.Control.Text.WelcomeDlg#Title" value="[ProductName] [Wizard]"/>
+  <!-- Azure theme strings -->
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ClientCommand" value="Client"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#CompleteCommand" value="Compleet"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ServerCommand" value="Server"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#ModifyCommand" value="Onderdelen Toevoegen of Verwijderen"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RemoveCommand" value="Verwijder"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RepairCommand" value="Repareer"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CompleteCommand" value="C&amp;ompleet"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CustomCommand" value="&amp;Aangepast"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#TypicalCommand" value="&amp;Typisch"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ClientCommand" value="Installeert de client configuratie.|"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#CompleteCommand" value="Installeert client en server configuraties.|"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ServerCommand" value="Installeert de server configuratie.|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#ModifyCommand" value="Wijzig welke onderdelen geïnstalleerd worden.|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RemoveCommand" value="Verwijderd [ProductName] van uw computer.|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RepairCommand" value="Herstelt fouten in de meest recente installatie.|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CompleteCommand" value="Start installatie van alle onderdelen.|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CustomCommand" value="Selecteer welke onderdelen geïnstalleerd worden.|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#TypicalCommand" value="Start installatie van standaard onderdelen.|"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceLabel" value="Plaats beschikbaar op schijf: "/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#Text" value="Selecteer welke componenten van [ProductName] geïnstalleerd zullen worden"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel" value="Totale ruimte vereist op drive: "/>
+  <STRING id="Azure.Control.Text.DiskCostDlg#Title" value="Disk ruimte vereist voor geselecteerde onderdelen"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionConfigured" value="[ProductName] werd succesvol geconfigureerd."/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionInstalled" value="[ProductName] is met succes geïnstalleerd."/>
+  <STRING id="Azure.Control.Text.ExitDialog#Finish" value="&amp;Sluit"/>
+  <STRING id="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" value="Draai [ProductName]"/>
+  <STRING id="Azure.Control.Text.ExitDialog#ViewReadmeCheckBox" value="Bekijk lees mij bestand"/>
+  <STRING id="Azure.Control.Text.ExtRegDlg#Title" value="Associeer [ProductName] met bestandstypes"/>
+  <STRING id="Azure.Control.Text.FilesInUse#Title" value="Sommige bestanden die moeten worden bijgewerkt, zijn momenteel in gebruik "/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceLabel" value="Ruimte beschikbaar op drive: "/>
+  <STRING id="Azure.Control.Text.FolderDlg#ContinueButton" value="&amp;Vervolg"/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceLabel" value="Overblijvende vrije ruimte op drive: "/>
+  <STRING id="Azure.Control.Text.FolderDlg#Title" value="Kies een bestandslocatie"/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceLabel" value="Totaal benodigde ruimte op drive:"/>
+  <STRING id="Azure.Control.Text.InstallTypeDlg#Title" value="[ProductName] installatie type"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Description" value="Om verder te gaan moet u de voorwaarden van deze overeenkomst lezen en ermee akkoord gaan. Als u de Licentievoorwaarden van de [Manufacturer] niet wenst te accepteren, sluit dit venster om de installatie te annuleren"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#EulaAgreeCheckBox" value="Ik &amp;accepteer de voorwaarden van deze overeenkomst."/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Title" value="Lees de [Manufacturer] Licentievoorwaarden"/>
+  <STRING id="Azure.Control.Text.LogonInformationDlg#Title" value="User account informatie"/>
+  <STRING id="Azure.Control.Text.MaintenanceTypeDlg#Title" value="Wijzig uw installatie van [ProductName]"/>
+  <STRING id="Azure.Control.Text.MsiRMFilesInUse#Title" value="Sommige bestanden die moeten worden bijgewerkt, zijn momenteel in gebruik"/>
+  <STRING id="Azure.Control.Text.OutOfDiskDlg#Title" value="De benodigde schijfruimte voor de installatie is groter dan de beschikbare schijfruimte"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#OkButton" value="OK"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#Title" value="De benodigde schijfruimte voor de installatie is groter dan de beschikbare schijfruimte"/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Description" value="Gelieve te wachten terwijl de [Wizard] zich voorbereidt om u te begeleiden door de installatie."/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Title" value="Voorbereiden [ProductName] [Wizard]"/>
+  <STRING id="Azure.Control.Text.PrerequisitesDlg#Title" value="Selecteer de pre-vereisten om te installeren"/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Description" value="[Progress1] [ProductName]..."/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Title" value="Voortgang installatie"/>
+  <STRING id="Azure.Control.Text.ReadmeDlg#Title" value="Lees de volgende tekst aandachtig a.u.b."/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Customize" value="Selecteer welke onderdelen geïnstalleerd zijn.|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Description" value="Kies de gewenste soort van [ProductName] installatie hieronder."/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#InstallNow" value="Start installatie van standaard onderdelen.|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Title" value="Kies de installatie die u wenst"/>
+  <STRING id="Azure.Control.Text.ShortcutsDlg#Title" value="Maak snelkoppelingen"/>
+  <STRING id="Azure.Control.Text.StartMenuShortcutsDlg#Title" value="Selecteer de Startmenu snelkoppelingen folder"/>
+  <STRING id="Azure.Control.Text.UpgradeDlg#Title" value="Zoek en upgrade oudere versies van [ProductName]"/>
+  <STRING id="Azure.Control.Text.UserRegistrationDlg#Title" value="Geef uw klantinformatie a.u.b."/>
+  <STRING id="Azure.Control.Text.VerifyReadyDlg#Title" value="Begin installatie van [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRemoveDlg#Title" value="Begin verwijderen van [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRepairDlg#Title" value="Begin herstel van [ProductName]"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#ContinueButton" value="&amp;Vervolg"/>
+  <STRING id="Property.Text_Continue" value="Vervolg"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Description" value="Om verder te gaan moet u de voorwaarden van deze overeenkomst accepteren. Als u de Licentievoorwaarden van de [Manufacturer] niet wenst te accepteren, sluit dit venster om de installatie te annuleren"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#EulaAgreeCheckBox" value="Ik &amp;accepteer de voorwaarden van deze overeenkomst."/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Title" value="Welkom bij de [ProductName] [Wizard]"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Aankondigen van de applicatie"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Toewijzen register ruimte"/>
+  <STRING id="ActionText.Description.AppSearch" value="Zoeken naar reeds geïnstalleerde applicaties"/>
+  <STRING id="ActionText.Description.BindImage" value="Koppelen uitvoerbare programma&apos;s"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Zoeken naar kwalificerende producten"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Berekenen benodigde schijfruimte"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Berekenen benodigde schijfruimte"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Aanmaken mappen"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Aanmaken snelkoppelingen"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Verwijderen services"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Aanmaken tijdelijke bestanden"/>
+  <STRING id="ActionText.Description.FileCost" value="Berekenen benodigde schijfruimte"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Zoeken naar gerelateerde applicaties"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Aanmaken script voor de actie:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="kopiëren netwerk installatie bestanden"/>
+  <STRING id="ActionText.Description.InstallFiles" value="kopiëren nieuwe bestanden"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Installeren OBDC componenten"/>
+  <STRING id="ActionText.Description.InstallServices" value="Installeren nieuwe service"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Installeren systeemcatalogus"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Valideren van de installatie"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Testen start condities"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Overnemen functiestatussen uit gerelateerde applicaties"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Verplaatsen bestanden"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Publiseren verzamelinformatie"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Verwijderen verzamelinformatie"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Patchen bestanden"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Vernieuwen register onderdelen"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Publiseren gekwalificeerde componenten"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Publicren product functies"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Publiceren product informatie"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Registreren class servers"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Registreren COM+ applicaties und componenten"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Registreren Server uitbreiding"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Refistreren fonts"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Registreren MIME Type"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Registreren product"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Registreren product Identificaties"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Registreren Systeem bibliotheken"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Registreren gebruiker"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Verwijderen tijdelijke bestanden"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Vernieuwen omgevings variabelen"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Verwijderen applicaties"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Verwijderen bestanden"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Verwijderen mappen"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Verwijderen INI bestand toevoegingen"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Verwijderen odbc componenten"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Verwijderen systeem register waarden"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Verwijderen snelkoppelingen"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Zoeken naar gekwalificeerde producten"/>
+  <STRING id="ActionText.Description.Rollback" value="Tijdelijke actie:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Verwijderen backup bestanden"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Registreren module"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Verwijderen module registraties"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Initialisatie van odbc padnamen en mappen"/>
+  <STRING id="ActionText.Description.StartServices" value="Starten service!"/>
+  <STRING id="ActionText.Description.StopServices" value="Stoppen Service"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Verwijderen verplaatste bestanden"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Verwijderen gekwalificeerde componenten"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Verwijderen product functie"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Verwijderen productinformatie"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Verwijderen register Class server"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Verwijderen COM+ applicaties en componenten"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Verwijderen register server uitbreidingen"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Verwijderen fonts"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Verwijderen MIMO info"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Verwijderen programma identificeerders"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Verwijderen bibliotheekverwijzingen"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Omgevingsvariabelen worden aangepast"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Schrijving INI bestand waarden"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Schrijven register waarden"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Vrije ruimte: [1]"/>
+  <STRING id="ActionText.Template.AppSearch" value="Eigenschappen: [1], Handtekening: [2]"/>
+  <STRING id="ActionText.Template.BindImage" value="Bestand: [1]"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Map: [1]"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Snelkoppeling: [1]"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Service: [1]"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Bestand: [1], Map: [9], Grootte: [6]"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Gevonden applicaties: [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Bestand: [1], Map: [9], Grootte: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Bestand: [1], Map: [9], Grootte: [6]"/>
+  <STRING id="ActionText.Template.InstallServices" value="Service: [2]"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Bestand: [1], Afhankelijkheden: [2]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Applicaties: [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Bestand: [1], Map: [9], Grootte: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Applicatie Context:[1], Verzamelnaam:[2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Applicatie context:[1], Verzamelnaam:[2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Bestand: [1], Map: [2], Grootte: [3]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="Component ID: [1], Kwalificatie: [2]"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Functie: [1]"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Class Id: [1]"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId: [1]{{, AppType: [2], Gebruiker: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Uitbreiding: [1]"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Font: [1]"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="MIME Inhoud type: [1], Uitbreiding: [2]"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="Programma Id: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="BibliotheekID: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Bestand: [1], Map: [9]"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Naam: [1], Waarde [2], Aktie [3]"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Applicatie: [1], Commando regel: [2]"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Bestand: [1], Map: [9]"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Map: [1]"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Bestand: [1], Sektie: [2], Sleutel: [3], Waarde: [4]"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Sleutel: [1], Naam: [2]"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Snelkoppeling: [1]"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Bestand: [1]"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Bestand: [1], Map: [2]"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Bestand: [1], Map: [2]"/>
+  <STRING id="ActionText.Template.StartServices" value="Service: [1]"/>
+  <STRING id="ActionText.Template.StopServices" value="Service: [1]"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Bestand: [1], Map: [9]"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Component ID: [1], Kwalificatie: [2]"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Functie: [1]"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Class Id: [1]"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Uitbreiding: [1]"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Font: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="MIMI content type: [1], Uitbreiding: [2]"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Naam: [1], Waarde: [2], Actie [3]"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Bestand: [1], Sectie: [2], Sleutel: [3], Waarde: [4]"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Sleutel: [1], Naam: [2], Waarde: [3]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Maakt gebruikersaccount aan op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Maakt gebruikersaccount aan op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Verwijdert bestanden uit het archief"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Haalt bestanden uit het archief"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Maakt IIS Websites en Virtuele Mappen aan"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Bezig met het configureren van Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Verwijdert ISS Websites en Virtuele Mappen"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Herstelt IIS configuratie"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Bezig met het configureren van Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Bezig om gebruikersaccounts aan te maken op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Bezig om mappen te delen op de lokale computer:"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Bezig om gebruikersgroepen aan te maken op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Bezig taken te plannen op de lokale computer:"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Verwijdert gebruikersaccount van de lokale computer"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Verwijdert gebruikersgroepen van de lokale computer"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Verwijdert mapdeling van de lokale computer"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Verwijdert geplande taken van de lokale computer"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Herstelt het aanmaken van gebruikersaccounts op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Herstelt het aanmaken van gebruikersgroepen op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Herstelt mapdeling op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Herstelt geplande taken op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Plan taak op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Deel map op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Installeert SQL scripts"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Bezig met het configureren van databases voor SQL script installatie"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="De?nstalleert SQL scripts"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Herstelt SQL scripts"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Bezig met het configureren van databases voor het deinstalleren van SQL scripts"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Bezig met het verwijderen van gebruikersaccounts op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Bezig met het verwijderen van gebruikersgroepen van de lokale computer"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Bezig met het verwijderen van mapdeling van de lokale computer:"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Bezig met het verwijderen van geplande taken op de lokale computer:"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Voert XML bestand configuraties uit"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Bezig met configureren van XML bestanden"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Voert XML bestand configuraties uit"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Herstelt XML bestand configuraties"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Bezig met configureren van XML bestanden"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Account: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Account: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Installeert &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Verwijdert &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Herstelt metabase configuratie"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Account: [1], Attributen: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Map: [1], ShareNaam: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Account: [1], Attributen: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Taak Naam: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Account: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Account: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="ShareNaam: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Taak Naam: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Account: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Account: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="ShareNaam: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Taak Naam: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Taak Naam: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Map: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Verbinding: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Verbinding: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Verbinding: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Account: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Account: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="ShareNaam: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Configureert XML bestand: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Configureert XML bestand: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Herstelt XML bestand configuraties"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="Uitvoeren van bestand verwijderoperaties."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="Uitvoeren van bestand verwijderoperaties."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="Genereren van bestand verwijderacties."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="Uitvoeren van register verwijderoperaties."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="Uitvoeren van register verwijderoperaties."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="Genereren van register verwijderacties."/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="Registeren mobiele applicaties met Windows CE Application Manager"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="Verwerking Windows CE Appliatie Manager registratie data (fase 2)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="Verwerking Windows CE Appliatie Manager registratie data (fase 1)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="Opstarten van Windows CE Application Manager voor configuratie van geinstalleerde applicaties"/>
+  <STRING id="ActionText.Description.AI_CommitAccounts" value="Stel het aanmaken van gebruikersaccounts beschikbaar op de lokale computer"/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="Downloaden van vereiste software"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="Uitpakken van vereiste software"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Uitvoeren van Windows Firewall configuraties"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Genereren van acties voor Windows Firewall configuratie"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Uitvoeren van Windows Firewall configuaties"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Terugzetten van Windows Firewall configuraties"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Genereren van acties voor Windows Firewall configuratie"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Uitvoeren van Games Explorer configuraties"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Genereren van acties voor Games Explorer configuratie"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Uitvoeren van Games Explorer configuraties"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Terugzetten van Games Explorer configuraties"/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Genereren van acties voor Games Explorer configuratie"/>
+  <STRING id="ActionText.Description.AI_InstallLibraries" value="Installatie Windows Bibliotheken"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="Installatie vereiste software"/>
+  <STRING id="ActionText.Description.AI_RollbackLibraries" value="Terugzetten van Windows Bibliotheken installaties"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Uitvoeren van onderhoud SQL scripts"/>
+  <STRING id="ActionText.Description.AI_UninstallLibraries" value="Deinstalleren Windows Bibliotheken"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="Verifiëren van vereisten"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="Verwijderen bestand: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="Verwijderen bestand: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="Verwijderen register sleutel: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="Verwijderen register sleutel: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="Downloaden van [1]{[2] completed}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="Uitpakken van [1]{[2] completed}"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Configureren Windows Firewall regel: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Configureren Windows Firewall regel: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Terugzetten Windows Firewall configuraties."/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Configuren van spel: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Removing game: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Terugzetten Spel Verkenner configuraties"/>
+  <STRING id="ActionText.Template.AI_InstallLibraries" value="Installatie [1]"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="Installatie [1]{[2] completed}"/>
+  <STRING id="ActionText.Template.AI_RollbackLibraries" value="Terugzetten van [1]"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Verbinding: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallLibraries" value="Deïnstallatie [1]"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="[1] was niet correct geinstalleerd"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Permanent" value="Voorbereiden bestanden om te verwijderen"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Undoable" value="Voorbereiden bestanden om te verwijderen"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesRollback" value="Herstellen verwijderde bestanden"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred_Permanent" value="Voorbereiden bestand: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred_Undoable" value="Voorbereiden bestand: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesImmediate" value="Voorbereiden bestand: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesRollback" value="Herstellen bestand: [1]"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Cruciaal probleem: }}"/>
+  <STRING id="Error.1" value="{{Probleem [1]. }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Mededeling: [1], Parameter: [2]"/>
+  <STRING id="Error.1101" value="Fout bij het lezen van: [2]. {{ System error [3].}} Kontroleer of het bestand bestaat en u hier toegang toe heeft."/>
+  <STRING id="Error.12" value="=== Logging gestart: [Date] [Time] ==="/>
+  <STRING id="Error.13" value="=== Logging beendigd: [Date] [Time] ==="/>
+  <STRING id="Error.1301" value="Bestand kan niet aangemaakt worden &apos;[2]&apos;. Een map met deze naam bestaat reeds. Breek de installatie af, en probeer het op een andere locatie."/>
+  <STRING id="Error.1302" value="Breng de diskette aan: [2]"/>
+  <STRING id="Error.1303" value="Voor de aangegeven map zijn er niet genoeg rechten: [2]. Die Installatie werd afgebroken. Log in als systeembeheerder of neem contact met hem/haar op."/>
+  <STRING id="Error.1304" value="Fout tijdens het schrijven van bestand: [2]. Controle of u wel genoeg rechten heeft."/>
+  <STRING id="Error.1305" value="Fout bij het lezen van [2]. {{ System error [3].}} Controleer of het bestand bestaat en uw rechten hierop."/>
+  <STRING id="Error.1306" value="Een andere applicaite heeft dit bestand in gebruik &apos;[2]&apos;. Sluit svp deze applicatie en klik op volgend."/>
+  <STRING id="Error.1307" value="Er is niet genoeg vrije schijfruimte aanwezig voor dit bestand: [2]. Maak ruimte vrij en klik op Opnieuw of op Afbreken om stoppen."/>
+  <STRING id="Error.1308" value="Bronbestand niet gevonden: [2]. Controleer of deze bestaat en uw rechten hierop."/>
+  <STRING id="Error.1309" value="Fout bij het lezen van bestand: [3]. {{ System error [2].}} Controleer of deze bestaat en uw rechten hierop."/>
+  <STRING id="Error.1310" value="Fout bij het schrijven van: [3]. {{ System error [2].}} Controleer of deze bestaat en uw rechten hierop."/>
+  <STRING id="Error.1311" value="Bronbestand niet gevonden{{(cabinet)}}: [2]. Controleer of deze bestaat en uw rechten hierop."/>
+  <STRING id="Error.1312" value="Map kan niet aangemaakt worden &apos;[2]&apos;. Deze bestaat reeds. Hernoem of verwijder deze en klik op Opnieuw of klik op Abreken om te stoppen."/>
+  <STRING id="Error.1313" value="Volume [2] is niet beschikbaar. Kies a.u.b. een andere."/>
+  <STRING id="Error.1314" value="Het aangegeven pad is &apos;[2]&apos; ist niet beschikbaar."/>
+  <STRING id="Error.1315" value="Het is niet mogelijk om in: [2] te schrijven."/>
+  <STRING id="Error.1316" value="Een Netwerkfout is opgetreden tijdens het lezen van: [2]"/>
+  <STRING id="Error.1317" value="Een fout is opgetreden tijdens het aanmaken van map: [2]"/>
+  <STRING id="Error.1318" value="Een netwerkfout is opgetreden tijdens het aanmaken van: [2]"/>
+  <STRING id="Error.1319" value="Een netwerkfout is opgetreden tijdens het openen van: [2]"/>
+  <STRING id="Error.1320" value="Het aangegeven padnaam is te lang: [2]"/>
+  <STRING id="Error.1321" value="Er zijn niet genoeg rechten om het bestand: [2] aan te passen."/>
+  <STRING id="Error.1322" value="Een deel van het pad &apos;[2]&apos; is niet aanwezig. Deze is leeg of is langer dan door het systeem is toegestaan."/>
+  <STRING id="Error.1323" value="Het pad &apos;[2]&apos; bevat ongeldige tekens."/>
+  <STRING id="Error.1324" value="De foldernaam &apos;[2]&apos; bevat ongeldige tekens."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; is geen geldige naam."/>
+  <STRING id="Error.1326" value="Fout verkrijgen bestands beveiliging: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Ongeldige schijf: [2]"/>
+  <STRING id="Error.1328" value="Fout bij het vernieuwen van [2]. Deze werd waarschijnlijk op een andere manier bijgewerkt en kan nu niet bijgewerkt worden. Voor meer informatie, wendt u zich tot uw software leverancier m.b.t. de patch. {{System Fehler: [3]}}"/>
+  <STRING id="Error.1329" value="Een noodzakelijk bestand kon niet geïnstalleerd worden omdat het cabinet [2] niet digitaal ondertekend is. Dit kan er op duiden dat deze beschadigd is."/>
+  <STRING id="Error.1330" value="Een noodzakelijk bestand kon niet geïnstalleerd worden omdat het cabinet [2] niet digitaal ondertekend is. {{ Error [3] werd gegeven doorWinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="kopiëren van bestand [2] is niet mogelijk: CRC fout."/>
+  <STRING id="Error.1332" value="Verplaatsen bestand [2] is niet mogelijk: CRC fout."/>
+  <STRING id="Error.1333" value="Vernieuwen bestand [2] is niet mogelijk: CRC fout."/>
+  <STRING id="Error.1334" value="Bestand &apos;[2]&apos; bevindt zich niet in het cabinet &apos;[3]&apos;. Dit kan duiden op een netwerkfout, een probleem met de CD-ROM, of een probleem met deze installatie bestanden."/>
+  <STRING id="Error.1335" value="Het cabinet &apos;[2]&apos; voor deze installatie is beschadigd en kan niet gebruikt worden. Dit kan duiden op een netwerkfout, een probleem met de CD-ROM, of een probleem met deze installatie bestanden."/>
+  <STRING id="Error.1336" value="Tijdelijke bestanden konden niet aangemaakt worden.{{ Map: [3]. System error: [2]}}"/>
+  <STRING id="Error.14" value="Actie gestart [Time]: [1]."/>
+  <STRING id="Error.1401" value="Sleutel kan niet aangemaakt worden: [2]. {{ System error [3].}} Controleer of u genoeg rechten heeft, of vraag uw systeembeheerder."/>
+  <STRING id="Error.1402" value="Sleutel kan niet geopend worden: [2]. {{ System Fehler [3].}} Controleer of u genoeg rechten heeft, of vraag uw systeembeheerder."/>
+  <STRING id="Error.1403" value="Kon [2] niet van sleutel [3] verwijderen. {{ System Fehler [4].}} Controleer of u genoeg rechten heeft, of vraag uw systeembeheerder. "/>
+  <STRING id="Error.1404" value="Kon sleutel [2] niet verwijderen. {{ System Fehler [3].}} Vergewissern Sie sich, das Sie Zugriff auf diesen Schlüssel haben oder benachrichtigen Sie Ihren System Administrator. "/>
+  <STRING id="Error.1405" value="Kon [2] niet van sleutel [3] lezen. {{ System Fehler [4].}} Controleer of u genoeg rechten heeft, of vraag uw systeembeheerder. "/>
+  <STRING id="Error.1406" value="Kon [2] niet naar sleutel[3] schrijven. {{ System Fehler [4].}} Controleer of u genoeg rechten heeft, of vraag uw systeembeheerder."/>
+  <STRING id="Error.1407" value="Kon de namen van sleuteln [2] niet lesen. {{ System Fehler [3].}} Controleer of u genoeg rechten heeft, of vraag uw systeembeheerder."/>
+  <STRING id="Error.1408" value="Kon de subnamen van sleutel [2] niet verwijderen. {{ System Fehler [3].}} Controleer of u genoeg rechten heeft, of vraag uw systeembeheerder."/>
+  <STRING id="Error.1409" value="Kon veiligheidsinformatie van sleutel [2] niet lezen. {{ System Fehler [3].}} Controleer of u genoeg rechten heeft, of vraag uw systeembeheerder."/>
+  <STRING id="Error.1410" value="Kon de beschikbare vrije ruimte van het register niet vergroten. [2] KB vrije registerruimte is noodzakelijk voor het installeren van deze applicatie."/>
+  <STRING id="Error.15" value="Actie gestopt [Time]: [1]. Return value [2]."/>
+  <STRING id="Error.1500" value="Een andere installatie is actief. Voltooi deze andere installatie alvorens met deze verder te gaan"/>
+  <STRING id="Error.1501" value="Fout bij de toegang tot beveiligde informatie. Controleer of de Windows Installer goed geconfigureerd is en probeer opnieuw."/>
+  <STRING id="Error.1502" value="De gebruiker &apos;[2]&apos; heeft al een installatie van &apos;[3]&apos;. Hij moet deze herinstaller voordat hij deze gebruiken kan. Uw huidige installatie wordt voortgezet."/>
+  <STRING id="Error.1503" value="De gebruiker &apos;[2]&apos; heeft al een installatie van &apos;[3]&apos;. Hij moet deze herinstaller voordat hij deze gebruiken kan."/>
+  <STRING id="Error.16" value="Resterende tijd: {[1] Minute(n) }{[2] Seconde(n)}"/>
+  <STRING id="Error.1601" value="Geen vrije ruimte meer -- Schijf: &apos;[2]&apos;; benodigde vrije ruimte: [3] KB; Aanwezige vrije ruimte: [4] KB. Maak ruimte vrij en probeer opnieuw."/>
+  <STRING id="Error.1602" value="Wilt u de installatie werkelijk afbreken?"/>
+  <STRING id="Error.1603" value="Het bestand [2][3] is in gebruik { door het volgende process: Naam: [4], Id: [5], Schermnaam: &apos;[6]&apos;}. Sluit deze applicatie en probeer opnieuw."/>
+  <STRING id="Error.1604" value="De applicatie &apos;[2]&apos; is reeds geïnstalleerd. Deze twee applicaties mogen niet tegelijkertijd aanwezig zijn."/>
+  <STRING id="Error.1605" value="Op de schijf &apos;[2]&apos; is is niet genoeg ruimte om met de installatie door te gaan. [3] KB zijn noodzakelijk en er zijn maar [4] KB beschikbaar. Klik op Doorgaan (met het risico dat bestanden op uw systeem achterblijven wanneer de installatie afbreekt) of breek de installatie af."/>
+  <STRING id="Error.1606" value="Geen toegang tot de netwerwerklocatie [2]."/>
+  <STRING id="Error.1607" value="De volgende applicaties moeten afgesloten worden alvorens door te gaan met de installatie:"/>
+  <STRING id="Error.1608" value="Er werden geen vorige versies van dit programma aangetroffen om dit product te installeren."/>
+  <STRING id="Error.1609" value="Een probleem is opgetreden bij de beveiliging. [2] is geen geldige gebruikersgroep. Dit kan een probleem zijn met de installatiebestanden, of een probleem met de toegang tot de domein controller in het netwerk. Controleer uw netwerk en klik op Opnieuw of klik op Afbreken om de installatie te stoppen. {{Unable to locate the user&apos;s SID, System error [3]}}"/>
+  <STRING id="Error.17" value="Intern geheugen is vol. Sluit andere programma&apos;s af om door te kunnen gaan."/>
+  <STRING id="Error.1701" value="De sleutel [2] is niet geldig. Controleer of u de juiste sleutel heeft ingevoerd."/>
+  <STRING id="Error.1702" value="Uw systeem moet opnieuw gestart worden, voordat het wijzigen van configuratie [2] kan doorgaan. Klik op Ja om uw pc nu opnieuw te starten, of op Nee om dit later handmatig te doen."/>
+  <STRING id="Error.1703" value="Uw systeem moet opnieuw gestart worden voordat de wijzigingen in [2] van kracht zijn. Klik op Ja om uw pc nu opnieuw te starten, of op Nee om dit later handmatig te doen."/>
+  <STRING id="Error.1704" value="De installatie van [2] werd uitgesteld. U moet de veranderingen aan deze installatie terugdraaien om door te kunnen gaan. Wilt u deze veranderingen terugdraaien?"/>
+  <STRING id="Error.1705" value="Een vorige installatie van dit product is nog actief. U moet deze veranderingen eerst ongedaan maken. Wilt u deze veranderingen terugdraaien?"/>
+  <STRING id="Error.1706" value="Een installatiepakket van [2] kon niet gevonden worden. Probeer de installatie opnieuw met een kopie van de installatiebestanden van&apos;[3]&apos;."/>
+  <STRING id="Error.1707" value="De installatie is volledig voltooid."/>
+  <STRING id="Error.1708" value="De installatie was NIET succesvol."/>
+  <STRING id="Error.1709" value="Product: [2] -- [3]"/>
+  <STRING id="Error.1710" value="U kunt uw systeem weer terugzetten tot zijn vorige status of de installatie later afronden. Wilt u uw systeem weer terugzetten?"/>
+  <STRING id="Error.1711" value="Tijdens het schrijven van informatie is een probleem opgetreden. Controleer of er genoeg vrije ruimte aanwezig is en klik op Opnieuw of op Afbreken om  de installatie te stoppen."/>
+  <STRING id="Error.1712" value="Een of meerdere bestanden, benodigd om uw systeem terug te zetten naar zijn vorige status zijn niet aangetroffen. Het terugzetten is niet meer mogelijk."/>
+  <STRING id="Error.1713" value="[2] Kan niet een van zijn benodigde producten installeren. Waarschuw uw systeembeheerder. {{System error: [3].}}"/>
+  <STRING id="Error.1714" value="Een oudere versie van [2] kan niet verwijderd worden. Waarschuw Uw systeembeheerder. {{System error [3].}}"/>
+  <STRING id="Error.1715" value="Geïnstalleerd [2]"/>
+  <STRING id="Error.1716" value="Geconfigureerd [2]"/>
+  <STRING id="Error.1717" value="Verwijderd [2]"/>
+  <STRING id="Error.1718" value="Bestand [2] werd geweigerd i.v.m. de digitale handtekening."/>
+  <STRING id="Error.1719" value="De windows installer kon niet gebruikt worden. Dit kan gebeuren als u in de veiligheidsmodus draait of doordat de windows installer niet juist geïnstalleerd is. Vraag uw systeembeheerder om assistentie."/>
+  <STRING id="Error.1720" value="Er is een probleem met het Windows Installer pakket. Een script benodigd om de installatie af te ronden, kon niet gestart worden. Waarschuw Uw systeembeheerder. {{Gebruikeractie [2] Script fout [3], [4]: [5] Line [6], regel [7], [8] }}"/>
+  <STRING id="Error.1721" value="Er is een probleem met het windows Installer pakket. Een programma benodigd om de installatie af te ronden, kon niet gestart worden. Waarschuw uw systeembeheerder of uw software leverancier. {{Actie: [2], Pad: [3], commando: [4] }}"/>
+  <STRING id="Error.1722" value="Er is een probleem met het windows Installer pakket. Een module van de setup kon niet korrekt beëindigd worden. waarschuw uw systeembeheerder. {{Aktie [2], Pad: [3], commando: [4] }}"/>
+  <STRING id="Error.1723" value="Er is een probleem met het windows Installer pakket. Een DLL kon niet gestart worden. Waarschuw uw systembeheerder. {{Aktie [2], regel: [3], Bibliotheek: [4] }}"/>
+  <STRING id="Error.1724" value="Deinstallatie werd succesvol beëindigd."/>
+  <STRING id="Error.1725" value="Deinstallatie was NIET succesvol."/>
+  <STRING id="Error.1726" value="Registratie werd succesvol beëindigd."/>
+  <STRING id="Error.1727" value="Registratie was NIET succesvol."/>
+  <STRING id="Error.1728" value="Configuratie werd succesvol beëindigd."/>
+  <STRING id="Error.1729" value="Configuratie was NIET succesvol."/>
+  <STRING id="Error.1730" value="Uw moet de beheerder zijn om deze applicatie te verwijderen. Uw moet als beheerder aanmelden of contact op nemen met uw systeembeheerder."/>
+  <STRING id="Error.18" value="De installatie reageert niet meer."/>
+  <STRING id="Error.1801" value="Het pad [2] is niet geldig. Geef a.u.b. een geldig pad aan."/>
+  <STRING id="Error.1802" value="Intern geheugen is vol. Sluit a.u.b. andere applicaties af alvorens door te gaan."/>
+  <STRING id="Error.1803" value="Er is geen diskette aanwezig in [2]. Plaats a.u.b. een diskette en klik op Opnieuw om door te gaan, of op Afbreken om naar de oorspronkelijke bron terug te gaan."/>
+  <STRING id="Error.1804" value="Er is geen diskette aanwezig in [2]. Plaats a.u.b. een diskette en klik op Opnieuw om door te gaan, of op Afbreken om naar de oorspronkelijke bron terug te gaan."/>
+  <STRING id="Error.1805" value="De map [2] bestaat niet. Geef a.u.b. een bestaande map aan."/>
+  <STRING id="Error.1806" value="Uw heeft niet genoeg rechten om deze map de lezen."/>
+  <STRING id="Error.1807" value="Een geldige doelmap kon niet voor deze installatie gevonden worden."/>
+  <STRING id="Error.19" value="De installatie is voortijdig gestopt."/>
+  <STRING id="Error.1901" value="Fout bij het lezen van de installatie database: [2]."/>
+  <STRING id="Error.1902" value="Voorbereiden herstart: Hernoemen van bestand [2] naar [3]. Herstart is noodzakelijk om de operatie te voltooien."/>
+  <STRING id="Error.1903" value="voorbereiden herstart: Verwijderen bestand [2]. Herstart is noodzakelijk om de operatie te voltooien."/>
+  <STRING id="Error.1904" value="Module [2] kon niet geregistreerd worden. HRESULT [3]. Waarschuw uw systeembeheerder."/>
+  <STRING id="Error.1905" value="Module [2] kon niet verwijderd worden. HRESULT [3]. Waarschuw uw systeembeheerder."/>
+  <STRING id="Error.1906" value="Pakket kon niet ingelezen worden [2]. Fout: [3]. Waarschuw uw systeembeheerder."/>
+  <STRING id="Error.1907" value="Font kon niet geregistreerd worden [2]. Controleer uw rechten voor het installeren van fonts en dat uw systeem dit font ondersteund."/>
+  <STRING id="Error.1908" value="Font kon niet verwijderd worden [2]. Controleer uw rechten voor het verwijderen van fonts."/>
+  <STRING id="Error.1909" value="Snelkoppeling kon niet gemaakt worden [2]. Controleer of de doelfolder bestaat en uw rechten hierop."/>
+  <STRING id="Error.1910" value="Snelkoppeling kon niet verwijderd worden [2]. controleer of de snelkoppeling bestaat en uw rechten hierop."/>
+  <STRING id="Error.1911" value="Type bibliotheek voor bestand [2] kon niet geregistreerd worden. Waarschuw uw systeembeheerder."/>
+  <STRING id="Error.1912" value="Type bibliotheek voor bestand [2] kon niet verwijderd worden. Waarschuw uw systeembeheerder."/>
+  <STRING id="Error.1913" value="INI bestand [2][3] kon niet bijgewerkt worden. Controleer of deze bestaat en uw rechten hierop."/>
+  <STRING id="Error.1914" value="Kon niet plannen dat bestand [2] door [3] vervangen wordt bij een herstart. controleer uw schrijfrechten op bestand [3]."/>
+  <STRING id="Error.1915" value="ODBC driver kon niet verwijderd worden, ODBC fout [2]: [3]. Waarschuw uw systeembeheerder."/>
+  <STRING id="Error.1916" value="ODBC driver kon niet geïnstalleerd worden, ODBC fout [2]: [3]. Waarschuw uw systeembeheerder."/>
+  <STRING id="Error.1917" value="Fout bij het verwijderen van ODBC driver: [4], ODBC fout [2]: [3]. Controleer uw rechten op het verwijderen van odbc-drivers."/>
+  <STRING id="Error.1918" value="Fout bij het installeren van ODBC driver: [4][5], ODBC fout [2]: [3]. Controleer bestand [4][6] en uw rechten hierop."/>
+  <STRING id="Error.1919" value="Fout bij het configureren van ODBC databron: [4][5], ODBC fout [2]: [3]. Controleer bestand [4][6] en uw rechten hierop."/>
+  <STRING id="Error.1920" value="Service &apos;[2]&apos; ([3]) werd niet gestart. Controleer of u genoeg rechten heeft om systeemservices te starten."/>
+  <STRING id="Error.1921" value="Service &apos;[2]&apos; ([3]) kon niet gestopt worden. Controleer of u genoeg rechten heeft om systeemservices te stoppen."/>
+  <STRING id="Error.1922" value="Service &apos;[2]&apos; ([3]) kon niet verwijderd worden. Controleer of u genoeg rechten heeft om systeemservices te verwijderen."/>
+  <STRING id="Error.1923" value="Service &apos;[2]&apos; ([3]) kon niet geïnstalleerd worden. Controleer of u genoeg rechten heeft om systeemservices te installeren."/>
+  <STRING id="Error.1924" value="Kon omgevingsvariabele niet bijwerken &apos;[2]&apos;. Controleer of uw genoeg rechten heeft om omgevingsvariabelen te veranderen."/>
+  <STRING id="Error.1925" value="U heeft niet genoeg rechten om deze software voor alle gebruikers te installeren. Meldt u aan als beheerder en herhaal de installatie."/>
+  <STRING id="Error.1926" value="Kon beveiliging voor bestand &apos;[3]&apos; niet bepalen. Fout: [2]. Controleer of u genoeg rechten heeft om bestandsrechten de veranderen."/>
+  <STRING id="Error.1927" value="Component services (COM+ 1.0) is niet op uw computer geïnstalleerd. Deze installatie benodigd Component Services voor een juiste afronding. Component services zijn beschikbaar vanaf Windows 2000."/>
+  <STRING id="Error.1928" value="Fout bij het registreren van COM+ applicaties. Waarschuw uw systeembeheerder."/>
+  <STRING id="Error.1929" value="Fout bij het verwijderen van COM+ Anwendungen. Waarschuw uw systeembeheerder."/>
+  <STRING id="Error.1930" value="De omschrijving van service &apos;[2]&apos; ([3]) kon niet gewijzigd worden."/>
+  <STRING id="Error.1931" value="De Windows Installatie Service kon het systeembestand [2] niet vernieuwen omdat deze in gebruik is. Uw operating system moet geupdate worden, zodat deze korrekt werkt. {{Package version: [3], OS protected version: [4]}}"/>
+  <STRING id="Error.1932" value="De Windows Installatie service kon het windows bestand [2] niet bijwerken. {{Package Version: [3], OS Protected version: [4], SFP error: [5]}}"/>
+  <STRING id="Error.1933" value="De Windows Installatie service kon een of meerdere windows bestanden niet bijwerken. {{SFP error: [2]. Lijst van de beveiligde bestanden:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Gebruikers intallatie zijn op dit systeem niet toegestaan."/>
+  <STRING id="Error.1935" value="Een fout tijdens de installatie van Assembly componenten is opgetreden [2]. HRESULT: [3]. {{Assembly Interface: [4], Funktion: [5], Assembly Name: [6]}}"/>
+  <STRING id="Error.2" value="Waarschuwing [1]. "/>
+  <STRING id="Error.20" value="Een moment a.u.b. terwijl Windows [ProductName] configureert"/>
+  <STRING id="Error.21" value="Ophalen benodigde informatie..."/>
+  <STRING id="Error.22" value="Verwijderen oudere versie(s) van dit applicatie..."/>
+  <STRING id="Error.23" value="Voorbereiden verwijderen oudere versie(s)..."/>
+  <STRING id="Error.32" value="{[ProductName] }Installatie succesvol voltooid."/>
+  <STRING id="Error.33" value="{[ProductName] }Installatie is niet gelukt."/>
+  <STRING id="Error.4" value="Informatie [1]. "/>
+  <STRING id="Error.4000" value="Serienummer is ongeldig."/>
+  <STRING id="Error.4010" value="Een recentere versie van [ProductName] is al op deze computer geïnstalleerd."/>
+  <STRING id="Error.4020" value="Er is een fout ontstaan tijdens het IIS configuratie proces. Uw originele IIS configuratie zal worden hersteld."/>
+  <STRING id="Error.4021" value="Web Site [1] bestaat al op deze server."/>
+  <STRING id="Error.4022" value="Virtuele Map [1] op Web Site [2] bestaat al op deze server."/>
+  <STRING id="Error.5" value="Tijdens de installatie is een onbekende fout opgetreden. Dit kan wijzen op een probleem met de installatie bestanden. De foutmelding is [1]. {{De argumenten zijn: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{De schijf is vol: }}"/>
+  <STRING id="Error.8" value="Actie [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.4023" value="Deze versie van ISS wordt niet ondersteund of ISS is niet geheel geïnstalleerd !&#10;&#10; U heeft Internet Information Services 5.0 of hoger nodig."/>
+  <STRING id="Error.4024" value="Er is al een Website met dezelfde Server Bindings gestart.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Kan geen gebruikersaccount of groep aanmaken &apos;[2]&apos; op de lokale machine. Foutcode: [3]. [4]"/>
+  <STRING id="Error.4102" value="Gebruikersaccount of groep &apos;[2]&apos; bestaat al op de lokale machine."/>
+  <STRING id="Error.4103" value="Kan gebruikersaccount of groep &apos;[2]&apos; niet verwijderen op de lokale machine. Foutcode: [3]."/>
+  <STRING id="Error.4104" value="Gebruikersaccount of groep &apos;[2]&apos; bestaat niet op de lokale machine."/>
+  <STRING id="Error.4105" value="Er is een fout opgetreden bij het delen van &apos;[2]&apos; onder naam: &apos;[3]&apos;."/>
+  <STRING id="Error.4106" value="Er is een fout opgetreden bij het aanmaken van een geplande taak: &apos;[2]&apos;. Foutbeschrijving: [3]"/>
+  <STRING id="Error.4107" value="Er is een fout opgetreden bij het verwijderen van de geplande taak: &apos;[2]&apos;. Foutbeschrijving: [3]"/>
+  <STRING id="Error.4152" value="Wilt u de [ProductName] instellingen en tijdelijke bestanden verwijderen?"/>
+  <STRING id="Error.2322" value="Gebruiker annuleerde."/>
+  <STRING id="Error.2343" value="Gespecificeerd pad is leeg."/>
+  <STRING id="Error.2345" value="[2]: Bestand bevat geen geldige checksum waarde"/>
+  <STRING id="Error.2362" value="Folder niet gevonden: [2]."/>
+  <STRING id="Error.2373" value="Bestand [2] is geen geldig patch bestand."/>
+  <STRING id="Error.2381" value="Directory bestaat niet: [2]."/>
+  <STRING id="Error.2382" value="Schijf niet gereed: [2]."/>
+  <STRING id="Error.2402" value="Onvoldoende geheugen."/>
+  <STRING id="Error.2903" value="Het bestand [2] ontbreekt."/>
+  <STRING id="Error.4111" value="Bestand niet gevonden: [2]."/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bytes"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Geen enkele functie is beschikbaar"/>
+  <STRING id="UIText.MenuAdvertise" value="Alle functies worden geïnstalleerd"/>
+  <STRING id="UIText.MenuAllCD" value="Alle functies worden vanaf de CD gestart"/>
+  <STRING id="UIText.MenuAllLocal" value="Alle functies worden op de harde schijf geïnstalleerd en gestart"/>
+  <STRING id="UIText.MenuAllNetwork" value="Alle functies worden vanuit het netwerk gestart"/>
+  <STRING id="UIText.MenuCD" value="Wordt geïnstalleerd om vanaf de cd te starten"/>
+  <STRING id="UIText.MenuLocal" value="Wordt geïnstalleerd om vanaf de harde schijf te starten"/>
+  <STRING id="UIText.MenuNetwork" value="Wordt geïnstalleerd om vanf het netwerk te starten"/>
+  <STRING id="UIText.ScriptInProgress" value="Ophalen benodigde informatie..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Deze functie werd niet geïnstalleerd"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Deze functie wordt geïnstalleerd bij een eerste gebruik"/>
+  <STRING id="UIText.SelAbsentCD" value="Deze functie wordt geïnstalleerd om vanaf CD te starten"/>
+  <STRING id="UIText.SelAbsentLocal" value="Deze functie wordt op uw harde schijf geïnstalleerd"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Deze functie wordt vanaf het netwerk gestart"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Deze functie wordt uitgeschakeld"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Wordt geïnstalleerd bij eerst gebruik"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Deze functie is vanaf de CD beschikbaar"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Deze functie wordt op de harde schijf geïnstalleerd en gestart"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Diese Paket wird im Netzwerk installiert"/>
+  <STRING id="UIText.SelCDAbsent" value="Deze functie wordt volledig verwijderd en is ook vanaf de CD niet te starten"/>
+  <STRING id="UIText.SelCDAdvertise" value="Deze functie wordt omgezet om vanaf de CD te starten bij eerst gebruik."/>
+  <STRING id="UIText.SelCDCD" value="Deze functie wordt vanaf de CD gestart"/>
+  <STRING id="UIText.SelCDLocal" value="Deze functie wordt omgezet van CD naar installatie op de harde schijf"/>
+  <STRING id="UIText.SelChildCostNeg" value="Deze functie maakt [1] op uw harde schijf vrij."/>
+  <STRING id="UIText.SelChildCostPos" value="Deze functie heeft [1] nodig op uw harde schijf."/>
+  <STRING id="UIText.SelCostPending" value="Berekenen benodigdheden voor deze functie..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Deze functie wordt volledig verwijderd"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Deze functie wordt verwijderd, maar weer geïnstalleerd bij eerst gebruik"/>
+  <STRING id="UIText.SelLocalCD" value="Deze functie wordt verwijderd, maar blijft beschikbaar vanaf CD"/>
+  <STRING id="UIText.SelLocalLocal" value="Deze functie blijft op uw harde schijf"/>
+  <STRING id="UIText.SelLocalNetwork" value="Deze functie wordt omgezet om vanuit het netwerk te starten"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Deze functie wordt volledig verwijderd en is dan niet meer vanaf het netwerk beschikbaar"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Deze functie wordt van het netwerk verwijderd, om geïnstalleerd te worden bij eerst gebruik."/>
+  <STRING id="UIText.SelNetworkLocal" value="Deze functie wordt omgezet om vanaf de harde schijf te starten i.p.v. het netwerk"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Deze functie is en blijft te starten vanaf het netwerk"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Deze functie maakt [1] vrij op uw harde schijf. Er werden [2] van de [3] subfuncties geselecteerd. De subfuncties maken [4] vrij van uw harde schijf."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Deze functie maakt [1] vrij op uw harde schijf. Er werden [2] van de [3] subfuncties geselecteerd. De subfuncties hebben [4] nodig van uw harde schijf."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Deze functie benodigt [1] van uw harde schijf. Er werden [2] van de [3] subfuncties geselecteerd. De subfuncties maken [4] vrij op uw harde schijf."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Deze functie benodigt [1] van uw harde schijf. Er werden [2] van de [3] subfuncties geselecteerd. De subfuncties hebben [4] van uw harde schijf nodig."/>
+  <STRING id="UIText.TimeRemaining" value="Resterende tijd: {[1] minuten }{[2] seconde(n)}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Beschikbaar"/>
+  <STRING id="UIText.VolumeCostDifference" value="Verschil"/>
+  <STRING id="UIText.VolumeCostRequired" value="Benodigd"/>
+  <STRING id="UIText.VolumeCostSize" value="Schijfgrootte"/>
+  <STRING id="UIText.VolumeCostVolume" value="Volume"/>
+  <STRING id="UIText.BrowseFolderLocation" value="Locatie"/>
+  <STRING id="UIText.BrowseFolderName" value="Foldernaam:"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="Selecteer folder"/>
+  <STRING id="UIText.InstallMessage" value="Installeren bestanden."/>
+  <STRING id="UIText.ODBCTestMsg" value="Even wachten, testen van de verbinding..."/>
+  <STRING id="UIText.PrereqInstallAction" value="Installeer"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="Moet installeren"/>
+  <STRING id="UIText.PrereqSkipAction" value="Overslaan"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="Onvoldoende ruimte"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="Installatie schijven"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="Ongebruikte schijven"/>
+  <STRING id="UIText.Warning" value="Waarschuwing"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Ja, registreer om met die bestandstypen te kunnen werken."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Nee, sla bestandskoppelingen over."/>
+  <STRING id="RadioButton.Text.IAgree#1" value="Ik &amp;accepteer de voorwaarden"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="Ik &amp;accepteer de voorwaarden NIET"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="&amp;Sluit de applicaties automatisch en probeer ze opnieuw te starten nadat setup gereed is."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="Sluit &amp;de applicaties niet. (De computer moet opnieuw gestart worden.)"/>
+  <STRING id="RadioButton.Text.IAgree#1" value="Ik &amp; accepteer de voorwaarden in de licentie-overeenkomst"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Modify" value="Wijzig"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Remove" value="Verwijder"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Repair" value="Herstel"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Nee, installatie naast andere versies."/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Ja, verwijder oudere versies."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Nee, deïnstalleer alleen versie [AI_Replaced_Versions_List]."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Ja, verwijder alle oudere versies."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Vorige"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Vorige"/>
+  <STRING id="Property.ButtonText_Browse" value="Bl&amp;aderen..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Afbreken"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Stoppen"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Voltooien"/>
+  <STRING id="Property.Text_Finish" value="Voltooien"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Negeren"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Installeren"/>
+  <STRING id="Property.Text_Install" value="Installeren"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Volgende &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Volgende"/>
+  <STRING id="Property.Text_Next" value="Volgende"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Nee"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Verwijderen"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Repareren"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Reset"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Doorgaan"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Herhalen"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Bevestigen"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Ja"/>
+  <STRING id="Property.Text_Yes" value="Ja"/>
+  <STRING id="Property.CtrlEvtchanges" value="veranderingen"/>
+  <STRING id="Property.CtrlEvtChanging" value="Wijzigen"/>
+  <STRING id="Property.CtrlEvtremoves" value="verwijderen"/>
+  <STRING id="Property.CtrlEvtRemoving" value="verwijderen"/>
+  <STRING id="Property.CtrlEvtRepairing" value="repareren"/>
+  <STRING id="Property.CtrlEvtrepairs" value="gerepareerd"/>
+  <STRING id="Property.InstallModeComplete" value="Volledig"/>
+  <STRING id="Property.InstallModeCustom" value="Gebruikersspecifiek"/>
+  <STRING id="Property.InstallModeTypical" value="Typisch"/>
+  <STRING id="Property.Progress1" value="Installeren"/>
+  <STRING id="Property.Progress2" value="installeert"/>
+  <STRING id="Property.Setup" value="Setup"/>
+  <STRING id="Property.Wizard" value="Setup Wizard"/>
+  <!-- Trialware table -->
+  <STRING id="TrialwareSettings.alltrials#Strings#Error1" value="Uw registratie licentie is verlopen."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="Volgende"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Ongeldige registratie sleutel"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#FinishCaption" value="Volgende"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#PageHeader" value="Registratie"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="Volgende"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Registratie"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="Registratie succesvol"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="Koop"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="Registreer"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="Geef registratie sleutel"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Koop"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Registreer"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Geef registratie sleutel"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Probeer"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Verlopen"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Koop"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Registreer"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Geef registratie sleutel"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Probeer"/>
+</DICTIONARY>

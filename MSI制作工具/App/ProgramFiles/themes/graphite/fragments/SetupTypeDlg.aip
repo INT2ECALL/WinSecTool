@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="SetupTypeOption" Value="Typical" ValueLocId="-" Type="4"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="SetupTypeDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="525" Height="395" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Next" Type="PushButton" X="368" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Cancel" Type="PushButton" X="436" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Title" Type="Text" X="11" Y="9" Width="200" Height="15" Attributes="196611" TextStyle="Title" Order="400" TextLocId="Graphite.Control.Text.SetupTypeDlg#Title"/>
+    <ROW Dialog_="SetupTypeDlg" Control="GlobalProgress" Type="Bitmap" X="14" Y="88" Width="14" Height="86" Attributes="1048577" Text="[Preparing]" Order="500"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CollectingLabel" Type="Text" X="35" Y="90" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="600" TextLocId="Graphite.Control.Text.Dlg#CollectingLabel"/>
+    <ROW Dialog_="SetupTypeDlg" Control="PreparingLabel" Type="Text" X="35" Y="114" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="700" TextLocId="Graphite.Control.Text.Dlg#PreparingLabel"/>
+    <ROW Dialog_="SetupTypeDlg" Control="InstallingLabel" Type="Text" X="35" Y="138" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="800" TextLocId="Graphite.Control.Text.Dlg#InstallingLabel"/>
+    <ROW Dialog_="SetupTypeDlg" Control="FinalizingLabel" Type="Text" X="35" Y="162" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="900" TextLocId="Graphite.Control.Text.Dlg#FinalizingLabel"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Description" Type="Text" X="175" Y="87" Width="280" Height="15" Attributes="196611" TextStyle="Normal" Order="1000" TextLocId="Graphite.Control.Text.SetupTypeDlg#Description"/>
+    <ROW Dialog_="SetupTypeDlg" Control="SetupTypeGroup" Type="RadioButtonGroup" X="210" Y="123" Width="290" Height="186" Attributes="3" Property="SetupTypeOption" TextStyle="Normal" Order="1100"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CompleteText" Type="Text" X="225" Y="154" Width="230" Height="20" Attributes="196611" TextStyle="Normal" Order="1200" TextLocId="Control.Text.SetupTypeDlg#CompleteText"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalText" Type="Text" X="225" Y="216" Width="230" Height="20" Attributes="196611" TextStyle="Normal" Order="1300" TextLocId="Control.Text.SetupTypeDlg#TypicalText"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomText" Type="Text" X="225" Y="276" Width="230" Height="30" Attributes="196611" TextStyle="Normal" Order="1400" TextLocId="Control.Text.SetupTypeDlg#CustomText"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CompleteIcon" Type="Icon" X="174" Y="140" Width="36" Height="36" Attributes="7340033" Text="[CompleteEx]" Order="1500"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalIcon" Type="Icon" X="174" Y="200" Width="36" Height="36" Attributes="7340033" Text="[TypicalEx]" Order="1600"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomIcon" Type="Icon" X="174" Y="261" Width="36" Height="36" Attributes="7340033" Text="[CustomEx]" Order="1700"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Back" Type="PushButton" X="312" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="1800" TextLocId="-" Options="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="SetupTypeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Next" Event="SetInstallLevel" Argument="3" Condition="AI_INSTALL AND (SetupTypeOption = &quot;Typical&quot;)" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Next" Event="SetInstallLevel" Argument="1000" Condition="AI_INSTALL AND (SetupTypeOption = &quot;Complete&quot;)" Ordering="200"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="[InstallMode]" Argument="Typical" Condition="AI_INSTALL" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="SetInstallLevel" Argument="3" Condition="AI_INSTALL" Ordering="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="SetupTypeDlg" HCentering="50" VCentering="50" Width="525" Height="395" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.SetupTypeDlg"/>
+    <ATTRIBUTE name="ExitPoints" value="SetupTypeDlg#Next#CustomizeDlg#SetupTypeOption = &quot;Custom&quot;!CustomizeDlg#Next##SetupTypeOption = &quot;Custom&quot;#SetupTypeDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="SetupTypeOption" Order="1" Value="Complete" X="14" Y="15" Width="75" Height="11" Text="Complete" TextStyle="Normal" TextLocId="Graphite.RadioButton.Text.SetupTypeOption#Complete"/>
+    <ROW Property="SetupTypeOption" Order="2" Value="Typical" X="14" Y="78" Width="75" Height="11" Text="Typical" TextStyle="Normal" TextLocId="Graphite.RadioButton.Text.SetupTypeOption#Typical"/>
+    <ROW Property="SetupTypeOption" Order="3" Value="Custom" X="14" Y="138" Width="75" Height="11" Text="Custom" TextStyle="Normal" TextLocId="Graphite.RadioButton.Text.SetupTypeOption#Custom"/>
+  </COMPONENT>
+</FRAGMENT>

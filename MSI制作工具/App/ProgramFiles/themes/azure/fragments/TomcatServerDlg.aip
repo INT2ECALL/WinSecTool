@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="tomcatlogoicon" SourcePath="&lt;AI_THEMES&gt;common-res\images\TomcatLogo.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="TomcatLogoIcon" Value="tomcatlogoicon" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="TomcatServerDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="TomcatServerDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="TomcatServerDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="TomcatServerDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="TomcatServerDlg" Control="Title" Type="Text" X="55" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Azure.Control.Text.TomcatServerDlg#Title"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HostNameLabel" Type="Text" X="55" Y="110" Width="255" Height="11" Attributes="196611" Order="600" TextLocId="Control.Text.TomcatServerDlg#HostNameLabel"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HostNameEdit" Type="Edit" X="55" Y="123" Width="360" Height="18" Attributes="3" Property="AI_TOMCAT_HOSTNAME" Text="{260}" Order="700" TextLocId="Control.Text.TomcatServerDlg#HostNameEdit"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HttpPortLabel" Type="Text" X="55" Y="151" Width="255" Height="11" Attributes="196611" Order="800" TextLocId="Control.Text.TomcatServerDlg#HttpPortLabel"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HttpPortEdit" Type="Edit" X="55" Y="164" Width="360" Height="18" Attributes="3" Property="AI_TOMCAT_HTTP_PORT" Text="{260}" Order="900" TextLocId="Control.Text.TomcatServerDlg#HttpPortEdit"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HttpSslPortLabel" Type="Text" X="55" Y="192" Width="255" Height="11" Attributes="196611" Order="1000" TextLocId="Control.Text.TomcatServerDlg#HttpSslPortLabel"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HttpSslPortEdit" Type="Edit" X="55" Y="205" Width="360" Height="18" Attributes="3" Property="AI_TOMCAT_HTTPSSL_PORT" Text="{260}" Order="1100" TextLocId="Control.Text.TomcatServerDlg#HttpSslPortEdit"/>
+    <ROW Dialog_="TomcatServerDlg" Control="ShutdownPortLabel" Type="Text" X="55" Y="233" Width="255" Height="11" Attributes="196611" Order="1200" TextLocId="Control.Text.TomcatServerDlg#ShutdownPortLabel"/>
+    <ROW Dialog_="TomcatServerDlg" Control="ShutdownPortEdit" Type="Edit" X="55" Y="246" Width="360" Height="18" Attributes="3" Property="AI_TOMCAT_SHUTDOWN_PORT" Text="{260}" Order="1300" TextLocId="Control.Text.TomcatServerDlg#ShutdownPortEdit"/>
+    <ROW Dialog_="TomcatServerDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[TomcatLogoIcon]" Order="1400"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="TomcatServerDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="TomcatServerDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.TomcatServerDlg"/>
+  </COMPONENT>
+</FRAGMENT>

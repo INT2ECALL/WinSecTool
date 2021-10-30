@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Nova carpeta"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Duplicat %s de %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Nova variable"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Descripció"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Característica"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Inicia"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Suport"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="La vostra descripció per [|ProductName]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Nou fitxer"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Nova clau"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Nova secció"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Nou valor"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="El vostre producte"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] no es pot instal·lar en sistemes amb una versió de Adobe Reader inferior a [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] no es pot instal·la en sistemes amb una qualitat de color inferior a [AI_REQUIRED_COLOR_QUALITY] bits."/>
+  <STRING id="AI.LaunchCondition.Description" value="Llença la descripció de la condició"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] no es pot instal·lar en sistemes amb una versió de DirectX inferior a [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] no es pot instal·lar en sistemes amb una versió de .NET Framework inferior a [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] no es pot instal·lar en sistemes amb una versió de .NET Core inferior a [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] no es pot instal·lar en sistemes amb una versió de Internet Explorer inferior a [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] no es pot instal·lar en sistemes amb una versió de Internet Information Services inferior a [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] necessita una connexió a Internet activa per instal·lar-se. Comprovi la seva configuració de xarxa i els paràmetres del seu proxy."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] no es pot instal·lar en sistemes amb una versió de JRE inferior a [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] no pot ésser instal·lat a [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] no pot ésser instal·lat a [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] no pot ésser instal·lat a [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] no pot ésser instal·lat a [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] no pot ésser instal·lat a [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] no pot ésser instal·lat a [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] necessita privilegis d&apos;administrador per instal·lar-se."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] no es pot instal·lar en sistemes amb menys memòria física de [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] no es pot instal·lar en sistemes amb resolucions de pantalla inferiors a [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] no es pot instal·lar en sistemes que s&apos;executin en màquines virtuales."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] no es pot instal·lar en sistemes amb una versió de Windows Installer inferior a [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="ElVostreFitxer.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="La base de dades del instal·lador conté la lògica i les dades necessàries per instal·lar [|ProductName]."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="La seva companyia"/>
+  <STRING id="AI.Property.DefaultModuleName" value="El seu mòdul"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="La base de dades conté la lògica i les dades necessàries per instal·lar &lt;module name&gt; component."/>
+  <STRING id="AI.Property.DefaultProductName" value="La seva aplicació"/>
+  <STRING id="AI.Property.DefaultValue" value="El seu valor"/>
+  <STRING id="AI.Property.FindExeTitle" value="Selecciona el paquet d&apos;instal·lació per [|ProductName]."/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Aquest paquet conté un mòdul per fusionar que ha estat creat amb una versió d&apos;avaluació de l&apos;Advanced Installer. Vosté només pot fer servir-lo per finalitats d&apos;avaluació."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Aquest paquet s&apos;ha creat amb una versió d&apos;avaluació de l&apos;Advanced Installer. Vosté només pot fer servir-lo per finalitats d&apos;avaluació."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Advertència"/>
+  <STRING id="AI.Registry.DefaultKey" value="Nova_Clau"/>
+  <STRING id="AI.Registry.DefaultName" value="Nou valor"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="ElSeuFitxer.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="ElSeuValor"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="NomDeServei"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Descripció del seu servei"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="El seu servei"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Nova compartició"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Drecera a la seva comanda"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Drecera a %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Desinstal·lar"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Obre"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Nou fitxer"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.BrowseDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.CancelDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.ErrorDlg" value="Informació de l&apos;instal·lador"/>
+  <STRING id="Dialog.ExitDialog" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.FatalError" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.FilesInUse" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.FolderDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.PrepareDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.ProgressDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.ResumeDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.TemplateDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.UserExit" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[Setup] de [ProductName]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[Setup] de [ProductName]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Crear una nova carpeta|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Puja un nivell"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Crear Una Nova Carpeta|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Pujar un nivell|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Icona d&apos;informació|"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Icona d&apos;informació|"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Modifica la instal·lació|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Elimina la Instal·lació|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Repara la instal·lació|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Completa la Instal·lació|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Instal·lació Personalitzada|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Instal·lació Típica|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Icona d&apos;Admiració|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Cerca a:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Examina fins a la carpeta de destí"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Nom de la carpeta:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Canvia l&apos;actual carpeta de destí"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Especifiqui una ubicació de xarxa per la imatge de servidor del producte [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="AdvancedInstaller"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Introdueixi una nova ubicació de xarxa o faci click en Examinar per buscar-ne una."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Ubicació de xarxa"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="Clau de &amp;CD:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Introdueixi les dades de la seva companyia."/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Introdueixi el nom de la seva organització en el recuadre inferior. Serà utilitzat com a nom de companyia per defecte per les instal·lacions posteriors de [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Informació de la companyia:"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="El [Wizard] creará una imatge de servidor de [ProductName] en la ubicació de xarxa especificada. Seleccioni següent per continuar o cancel·lar per sortir del [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Benvingut al [Wizard] de [ProductName]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Cerca a:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Examini fins a la carpeta de destí"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Nom de la carpeta:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Canvii la carpeta de destí actual"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Està segur que vol cancel·lar la instal·lació de [ProductName]?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Seleccioni la manera en que vol que s&apos;instal·lin les característiques."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="&amp;Util·lització del disc"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Descripció multilínia de l&apos;article actualment seleccionat."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="La mida de l&apos;article actualment seleccionat."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;La trajectòrica de la selecció&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Ubicació:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Faci click en les icones de l&apos;arbre de sota per canviar la manera en que les característiques s&apos;instalaran."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Instalació personalitzada"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Arbre de seleccions"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="L&apos;espai de disc necessari per la instal·lació de les característiques seleccionades."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Els volumns seleccionats (si n&apos;hi ha) no tenen suficient espai de disc disponible per les característiques actualment seleccionades. Pot eliminar alguns fitxers seleccionats o instal3lar menys característiques en el(s) dispositiu(s) local(s), o seleccioni un altre dispositiu."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Requeriments d&apos;espai de disc"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Text d&apos;informació"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Faci click al botó de finalitzar per sortir del [Wizard]"/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Executa [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Finalitzant el [Wizard] de [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Llegeixi el Readme"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Associi [ProductName] amb tipus de fitxers"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="El [Wizard] registrarà [ProductName] per gestionar els següents tipus de fitxers: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Associació de fitxers"/>
+  <STRING id="Control.Text.FatalError#Description1" value="La instal·lació de [ProductName] ha finalitzat prematurament per un error. El seu sistema no s&apos;ha modificat. Per instal·lar aquest programa posteriorment, executi l&apos;instal·lador un altre cop."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Faci click al botó de finalitzar per sortid de [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="El [Wizard] de [ProductName] ha finalitzat prematurament"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Alguns fitxers que s&apos;han d&apos;actualitzar estan actualment en us."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Les següents aplicacions fan servir fitxers que ha d&apos;actualitzar aquest setup. Pot tancar l&apos;aplicació i fer click sobre el botó de reintentar o fer click sobre el botó d&apos;ignorar perque l&apos;instal·lador continui i es substitueixin aquests fitxers quan el sistema es reinicii."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Fitxers en ús"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Aquesta es la carpeta a on [ProductName] s&apos;instal·larà."/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Carpeta:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Per instal·lar en aquesta carpeta faci click en &quot;Següjent&quot;. Per instal·lar-ho en una altra carpeta introduceixi a sota o faci click en &quot;Examinar&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Seleccioni la carpeta d&apos;instal·lació"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_ca.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Llegeixi la següent llicencia atentament"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Acord de llicència per l&apos;usuari final"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Modificar"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Permet a l&apos;usuari canviar la manera com s&apos;instal·len les característiques."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Seleccioni l&apos;acció que vol realitzar."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced installer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Eliminar"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Elimina [ProductName] del seu ordinador."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Re&amp;parar"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Repara errors en l&apos;estat de la instal·lació mes recent - arregla fitxers perduts o corruptes, dreceres i entrades del registre."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Modifica, repara o elimina la instal·lació"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="El [Wizard] li permetrà canviar la manera com s&apos;instal·len les característiques de [ProductName] en el seu ordinado o com eliminar [ProductName] del seu ordinador. Faci click en següent per continuar o en cancel·lar per sortir del [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Benvingut al [Wizard] de [ProductName]"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Alguns fitxers que s&apos;han d&apos;actualitzar s&apos;estan utilitzant actualment."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Les següents aplicacions estan fent servir fitxers que aquest setup ha d&apos;actualitzar."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Fitxers en ús"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="L&apos;espai de disc necessitat per la instal·lació supera l&apos;espai disponible."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Els volums marcats no tenen suficient espai de disc disponible per les característiques actualment sel·leccionades. Pot eliminar alguns fitxers dels volums marcats o triar instal·lar menys característiques als dispositius o sel·leccionar altres dispositius."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="S&apos;ha acabat l&apos;espai de disc"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="L&apos;espai de disc necessari per la instal·lació excedeix el disponible."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Els volums marcats no tenen suficient espai de disc disponible per les característiques actualment sel·leccionades. Pot eliminar alguns fitxers dels volums marcats o triar instal·lar menys característiques als dispositius o sel·leccionar altres dispositius."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Com a alternativa, pot triar desactivar la funcionalitat de l&apos;instal·lador de tirar endarrera. Això permet a l&apos;instal·lador restaurar l&apos;estat original del seu ordinador si la instal·lació es interrompuda. Faci click en si si vol arriscar-se a desactivar la opció de tirar endarrera."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="S&apos;ha acabat l&apos;espai de disc"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="El [Wizard] instal·larà el Patch per [ProductName] en el seu ordinador. Faci click en el botó de següent o en el de cancel·la per sortir del Patch [Wizard]."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Benvingut al [ProductName] Patch [Wizard]"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Esperi mentre el [Wizard] es prepara per guiar-lo a través de la instal·lació."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Benvingut al [Wizard] de [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Procés finalitzat"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Estat."/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Esperi fins que el [Wizard] [Progress2] [ProductName]. Pot durar diversos minuts."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Llegeixi el següent text atentament"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_ca.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Fitxer Read me"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="El [Wizard] completarà la instal·lació de [ProductName] en el seu ordinado. Faci click en Instal·lar per continuar o en Cancel·lar per sortir del [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="S&apos;està reprenent el [Wizard] de [ProductName]"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="C&amp;omplet"/>
+  <STRING id="Property.Text_Complete" value="Complet"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="S&apos;instal·laran totes les característiques del programa. (Necessita més espai de disc) "/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="P&amp;ersonalitzada"/>
+  <STRING id="Property.Text_Custom" value="Personalitzada"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Permet que els usuaris trïin les característiques de programa que s&apos;instal·laran i on serán instal·lades. Recomenat a usuaris avançats."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Trïi el tipus d&apos;instal·lació que més convingui"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Trïi el tipus d&apos;instal·lació"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Típic"/>
+  <STRING id="Property.Text_Typical" value="Típic"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Instal·la les característiques més habituals del programa. Recomenat a la majoria d&apos;usuaris."/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Crear dreceres a l&apos;aplicació"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Escriptori"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Barra de llançament ràpid"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Crear dreceres per [ProductName] a les següents ubicacions:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Carpeta Programes del menú d&apos;Inici"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Carpeta d&apos;inici"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Configuri les dreceres"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Base de dades:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Configuri la connexió SQL..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="Recurs ODBC:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Contrassenya:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Port:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Servidor:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="Base de dades SQL"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Nom d&apos;usuari"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Aquesta és la carpeta on s&apos;instal·laran les dreceres de [ProductName]"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Per instal·lar en un subdirectori, afegeixi el nom del subdirectori, separat per &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="Carpeta de dreceres del menú &amp;Inici"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Per instal·lar les dreceres en aquesta carpeta, premi &quot;[Text_Next]&quot;. Per instal·lar en una carpeta diferent, introdueixi-la a sota o sel·leccioni&apos;n una del desplegable."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Sel·leccioni la carpeta de dreceres del menú Inici"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Nova descripció de diàleg..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Nou diàleg"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Nou Spawn(esperi) diàleg"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Cerca i actualitza versions anteriors de [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] pot cercar les versions anteriors de [ProductName] i eliminar-les. Desitja eliminar aquestes versions?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] ha detectat que la ubicació de la instal·lació escollida ja está en ús per la versió [AI_Replaced_Versions_List] de [ProductName]. Aquesta versió ha de ser desinstal·lada. ¿Desitja també eliminar qualsevol altra versió anterior?"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Actualitza versions anteriors"/>
+  <STRING id="Control.Text.UserExit#Description1" value="La instal·lació de [ProductName] ha estat interrompuda. El seu sistema no ha estat modificat. Per instal·lar aquest programa més tard, executi de nou la instal·lació."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Fagi clic al botó de Finalitzar per sortir del [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="El [Wizard] de [ProductName] ha estat interromput"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Número de sèrie:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Introduexi les dades del client"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Nom d&apos;usuari:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Organització:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Dades del client"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="El [Wizard] está llest per iniciar la insal·lació [ProductName]"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Fagi clic en Instal·lar per iniciar la instal·lació. Si vol revisar o modificar els ajustaments de la seva instal·lació, faig clic en Enrera. Faig clic en Cancelar per sortir de l&apos;assistent."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="A punt per instal·lar"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Ha escollit eliminar el programa del seu ordinador."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advance Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Fagi clic en Eliminar per eliminar [ProductName] del seu ordinador. Si vol revisar o modificar els ajustaments de la seva instal·lació, faig clic en Enrera. Faig clic en Cancelar per sortir de l&apos;assistent."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Eliminar [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="El [Wizard]está llest per a iniciar la reparació de [ProductName]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Fagi clic en Reparar per reparar la instal·lació de [ProductName]. Si vol revisar o modificar els ajustaments de la seva instal·lació, faig clic en Enrera. Faig clic en Cancelar per sortir de l&apos;assistent."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Reparar [ProductName]"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Esperi fins que l&apos;instalador acabi de determinar els els seus requisits d&apos;espai de disc."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="El [Wizard] instalará [ProductName] al seu ordinador. Fagi clic en [Text_Next] per continuar o en Cancelar per sortir del [Wizard]-"/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Benvingut al [Wizard] de [ProductName]"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="S&apos;està mostrant l&apos;aplicació"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="S&apos;està creant un compte d&apos;usuari a l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="S&apos;està creant un grup d&apos;usuaris a l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="S&apos;està esborrant els fitxers extrets de l&apos;arxiu"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="S&apos;estan extraient fitxers de l&apos;arxiu"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="S&apos;estan creant llocs web IIS i directoris virtuals"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="S&apos;estan generant accions per configurar l&apos;Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="S&apos;estan esborrant els llocs web IIS i els directoris virtuals"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Desfent la configuració del IIS"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="S&apos;estan generant les accions per configurar l&apos;Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="S&apos;estan generant les accions per crear comptes d&apos;usuari en l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="S&apos;estan generant les accions per compartir carpetes en l&apos;ordinador local:"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="S&apos;estan generant les accions per crear grups d&apos;usuaris en l&apos;ordinandor local"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="S&apos;estan generant accions per planificar les tasques en l&apos;ordinador local:"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="S&apos;estan esborrant els comptes d&apos;usuari de l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="S&apos;estan esborrant els grups d&apos;usuaris de l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="S&apos;estan esborrant les carpetes compartides de l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="S&apos;estan esborrant les tasques planificades de l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="S&apos;esta desfent la creació de comptes d&apos;usuari en l&apos;ordinandor local"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="S&apos;està desfent la creació de grups d&apos;usuaris en l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="S&apos;està desfent la compartició de carpetes en l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="S&apos;està desfent les tasques planificades en l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Tasca planificada a l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Carpeta compartida en l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="S&apos;estan executant els scripts SQL d&apos;instal·lació"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="S&apos;estan generant les accions per configurar les bases de dades per l&apos;execució dels scripts SQL d&apos;instal·lació"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="S&apos;estan executant els scripts SQL de desinstal·lació"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="S&apos;estan executant els scripts SQL per desfer"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="S&apos;estan generant les accions per configurar les bases de dades per l&apos;execució dels scripts SQL de desinstal·lació"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="S&apos;estan generant les accions per esborrar els comptes d&apos;usuari de l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="S&apos;estan generant les accions per esborrar els grups d&apos;usuari de l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="S&apos;estan generant les accions per esborrar les carpetes compartides de l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="S&apos;estan generant les accions per esborrar les tasques planificades de l&apos;ordinador local"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="S&apos;està assignant l&apos;espai del registre"/>
+  <STRING id="ActionText.Description.AppSearch" value="S&apos;està buscant aplicacions instal·lades"/>
+  <STRING id="ActionText.Description.BindImage" value="S&apos;està lligant els executables"/>
+  <STRING id="ActionText.Description.CCPSearch" value="S&apos;està buscant productes necessaris"/>
+  <STRING id="ActionText.Description.CostFinalize" value="S&apos;està calculant els requeriments d&apos;espai"/>
+  <STRING id="ActionText.Description.CostInitialize" value="S&apos;està calculant els requeriments d&apos;espai"/>
+  <STRING id="ActionText.Description.CreateFolders" value="S&apos;estan creant carpetes"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="S&apos;estan creant dreceres"/>
+  <STRING id="ActionText.Description.DeleteServices" value="S&apos;estan eliminant serveis"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="S&apos;estan creant fitxers duplicats"/>
+  <STRING id="ActionText.Description.FileCost" value="S&apos;està calculant els requeriments d&apos;espai"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="S&apos;esta buscant aplicacions relacionades"/>
+  <STRING id="ActionText.Description.GenerateScript" value="S&apos;estan generant operacions d&apos;script per l&apos;acció"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="S&apos;estan copiant fitxers d&apos;instal·lació de la xarxa"/>
+  <STRING id="ActionText.Description.InstallFiles" value="S&apos;estan copian fitxers nous"/>
+  <STRING id="ActionText.Description.InstallODBC" value="S&apos;està instal·lant components ODBC"/>
+  <STRING id="ActionText.Description.InstallServices" value="S&apos;estan instal·lan serveis nous"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="S&apos;està instal·lant el catàleg del sistema"/>
+  <STRING id="ActionText.Description.InstallValidate" value="S&apos;està validant la instal·lació"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="L&apos;estan avaluant les condicions d&apos;execució"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="S&apos;estan migrant els estats de les característiques des d&apos;aplicacions relacionades"/>
+  <STRING id="ActionText.Description.MoveFiles" value="S&apos;estan movent fitxers"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="S&apos;està publicant informació de l&apos;assemblat"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="S&apos;està eliminant la publicació de la informació de l&apos;assemblat"/>
+  <STRING id="ActionText.Description.PatchFiles" value="S&apos;estan apedaçant fitxers"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="S&apos;està actualitzant el registre de components"/>
+  <STRING id="ActionText.Description.PublishComponents" value="S&apos;està publicant els components acceptats"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="S&apos;estan publicant les característiques del producte"/>
+  <STRING id="ActionText.Description.PublishProduct" value="S&apos;està publicant la informació del producte"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="S&apos;estan registrant servidors de classes"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="S&apos;estan registrant aplicacions i components COM+"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="S&apos;estan registrant servidors d&apos;extensions"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="S&apos;estan registrant tipus de lletres"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="S&apos;està registrant informació MIME"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="S&apos;està registrant el producte"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="S&apos;estan registrant identificadors de programa"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="S&apos;estan registrant biblioteques de tipus"/>
+  <STRING id="ActionText.Description.RegisterUser" value="S&apos;està registrant l&apos;usuari"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="S&apos;estan esborrant fitxers duplicats"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="S&apos;estan actualitzant les cadenes d&apos;entorn"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="S&apos;estan eliminant les aplicacions"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="S&apos;estan eliminant fitxers"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="S&apos;estan eliminant carpetes"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="S&apos;estan eliminant entrades de fitxers INI"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="S&apos;estan eliminant components ODBC"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="S&apos;estan eliminant valors del registre del sistema"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="S&apos;estan eliminant dreceres"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="S&apos;estan buscant productes necessaris"/>
+  <STRING id="ActionText.Description.Rollback" value="Acció de restauració:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="S&apos;estan eliminant les copies de seguretat"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="S&apos;estan registrant mòduls"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="S&apos;estan desregistrant mòduls"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="S&apos;estan inicialitzant directoris ODBC"/>
+  <STRING id="ActionText.Description.StartServices" value="S&apos;estan iniciant serveis"/>
+  <STRING id="ActionText.Description.StopServices" value="S&apos;estan parant serveis"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="S&apos;estan eliminant els fitxers moguts"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="S&apos;estan desplublicant components acceptats"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="S&apos;estan despublicant les característiques del producte"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="S&apos;està despublicant la informació del producte"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Desregistra els servidors de classes"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="S&apos;estàn desregistrant els components i les aplicacions COM+"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="S&apos;estan desregistrant els servidors d&apos;extensions"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="S&apos;estan desregistrant els tipus de lletra"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="S&apos;està desregistrant la informació MIME"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="S&apos;estan desregistrant els identificadors de programa"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="S&apos;estan desregistrant les biblioteques de tipus"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="S&apos;estan actualitzant les cadenes d&apos;entorn"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="S&apos;estan escribint valors dels fitxers INI"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="S&apos;estan escribint valors del registre del sistema"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Compte: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Compte: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="S&apos;està instal·lant &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="S&apos;està esborrant &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="S&apos;està restaurant la configuració de la metabase."/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Compte: [1], Atributs: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Carpeta: [1], NomCompartit: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Compte: [1], Atributs: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Nom de la tasca: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Compte: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Compte: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="NomCompartit: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Nom de la tasca: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Compte: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Compte: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="NomCompartit: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Nom de la tasca: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Nom de la tasca: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Carpeta: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Connexió: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Connexió: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Connexió: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Compte: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Compte: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="NomCompartit: [1]"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Espai lliure: [1]"/>
+  <STRING id="ActionText.Template.AppSearch" value="Propietat: [1], Signatura: [2]"/>
+  <STRING id="ActionText.Template.BindImage" value="Fitxer: [1]"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Carpeta: [1]"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Drecera: [1]"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Servei: [1]"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Fitxer: [1],  Carpeta: [9],  Mida: [6]"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="S&apos;ha trobat l&apos;aplicació: [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Fitxer: [1],  Carpeta: [9],  Mida: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Fitxer: [1],  Carpeta: [9],  Mida: [6]"/>
+  <STRING id="ActionText.Template.InstallServices" value="Servei: [2]"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Fitxer: [1],  Dependències: [2]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Aplicació: [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Fitxer: [1],  Carpeta: [9],  Mida: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Context de l&apos;aplicació:[1], Nom de l&apos;assemblatge:[2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Context de l&apos;aplicació:[1], Nom de l&apos;assemblatge:[2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Fitxer: [1],  Carpeta: [2],  Mida: [3]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="ID del component: [1], Qualificador: [2]"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Característica: [1]"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Id de la classe: [1]"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="IdApl: [1]{{, Tipus d&apos;apl: [2], Usuaris: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Extensió: [1]"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Tipus de lletra: [1]"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Tipus de contingut MIME: [1], extensió: [2]"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="IdProg: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="IdLlib: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Fitxer: [1], directori: [9]"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Nom: [1], valor: [2], acció: [3]"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Aplicació: [1], Línia de comandes: [2]"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Fitxer: [1], directori: [9]"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Carpeta: [1]"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Fitxer: [1], secció: [2], clau: [3], valor: [4]"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Clau: [1], nom: [2]"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Drecera: [1]"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Fitxer: [1]"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Fitxer: [1], carpeta: [2]"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Fitxer: [1], carpeta: [2]"/>
+  <STRING id="ActionText.Template.StartServices" value="Servei: [1]"/>
+  <STRING id="ActionText.Template.StopServices" value="Servei: [1]"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Fitxer: [1], directori: [9]"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Id. del component: [1], qualificador: [2]"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Característica: [1]"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Id. de la classe: [1]"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="IdApl: [1]{{, Tipus d&apos;apl.: [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Extensió: [1]"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Tipus de lletra: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Tipus de contingut MIME: [1], extensió: [2]"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="IdProg: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="Id. de la biblioteca: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Nom: [1], valor: [2], acció [3]"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Fitxer: [1], secció: [2], clau: [3], valor: [4]"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Clau: [1], nom: [2], valor: [3]"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="S&apos;estan executant les configuracions del Firewall de Windows"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="S&apos;estan generant les accions per configurar el Firewall de Windows"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="S&apos;estan executant les configuracions del Firewall de Windows"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="S&apos;estan desfent les configuracions del Firewall de Windows"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="S&apos;estan generant les accions per configurar el Firewall de Windows"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="S&apos;estan executant les configuracions per l&apos;explorador de jocs"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="S&apos;estan generant les accions per configurar l&apos;explorador de jocs"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="S&apos;estan executant les configuracions per l&apos;explorador de jocs"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="S&apos;estan desfent les configuracions de l&apos;explorador de jocs"/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="S&apos;estan generant les accions per configurar l&apos;explorador de jocs"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="S&apos;estan executant els scripts SQL de manteniment"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="S&apos;estan executant les configuracions de l&apos;arxiu XML"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="S&apos;estan generant accions per configurar els arxius XML"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="S&apos;estan executant les configuracions de l&apos;arxiu XML"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="S&apos;estan desfent les configuracions de l&apos;arxiu XML"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="S&apos;estan generant accions per configurar els arxius XML"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="S&apos;està configurant la regla pel Firewall de Windows: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="S&apos;està configurant la regla pel Firewall de Windows: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="S&apos;estan desfent les configuracions pel Firewall de Windows"/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="S&apos;està configurant el joc: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="S&apos;està eliminat el joc: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="S&apos;estan desfent les configuracions de l&apos;explorador de jocs."/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Connexió: [1] Script: [2]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="S&apos;està configurant l&apos;arxiu XML:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="S&apos;està configurant l&apos;arxiu XML:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="S&apos;estan desfent les configuracions de l&apos;arxiu XML."/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Error fatal: }}"/>
+  <STRING id="Error.1" value="{{Error [1]. }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Tipus de missatge: [1], argument: [2]"/>
+  <STRING id="Error.1101" value="Error llegint l&apos;arxiu: [2]. {{ Error del sistema [3].}} Verifiqui que l&apos;arxiu existeix i que hi té accés."/>
+  <STRING id="Error.12" value="=== Registre iniciat: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Registre aturat: [Date]  [Time] ==="/>
+  <STRING id="Error.1301" value="No es pot crear l&apos;arxiu &apos;[2]&apos;. Ja existeix un directori amb aquest nom. Cancel·li la instal·lació i provi d&apos;instal·lar en una altra ubicació."/>
+  <STRING id="Error.1302" value="Introdueixi el disc: [2]"/>
+  <STRING id="Error.1303" value="L&apos;instal·lador no disposa de prous privilegis per accedir a aquest directori: [2]. La instal·lació no pot continuar. Inicïi sessió com a administrador o posi&apos;s en contacte amb l&apos;administrador del seu sistema."/>
+  <STRING id="Error.1304" value="Error escrivint a l&apos;arxiu: [2]. Verifiqui que disposa d&apos;accés a aquest directori."/>
+  <STRING id="Error.1305" value="Error llegint l&apos;arxiu [2]. {{ Error del sistema [3].}} Verifiqui que l&apos;arxiu existeix i que hi té accés."/>
+  <STRING id="Error.1306" value="Una altra aplicació té accés exclusiu a l&apos;arxiu &apos;[2]&apos;. Tanqui totes les altres aplicacions i fagi clic en Reintentar."/>
+  <STRING id="Error.1307" value="No hi ha prou espai de disc per instal·lar l&apos;arxiu: [2]. Alliberi espai al disc i fagi clic en Reintentar, o bé cancel·li per sortir."/>
+  <STRING id="Error.1308" value="No s&apos;ha pogut trobar l&apos;arxiu d&apos;origen: [2]. Verifiqui que l&apos;arxiu existeix i que hi té accés."/>
+  <STRING id="Error.1309" value="Error llegint l&apos;arxiu: [3]. {{ Error del sistema [2].}}  Verifiqui que l&apos;arxiu existeix i que hi té accés."/>
+  <STRING id="Error.1310" value="Error escrivint a l&apos;arxiu: [3]. {{ Error del sistema [2].}} Verifiqui que disposa d&apos;accés a aquest directori."/>
+  <STRING id="Error.1311" value="No s&apos;ha trobat l&apos;arxiu d&apos;origen{{(.CAB)}}: [2]. Verifiqui que l&apos;arxiu existeix i que hi té accés."/>
+  <STRING id="Error.1312" value="No es pot crear el directori &apos;[2]&apos;.  Ja existeix un arxiu amb aquest nom. Canvïi el nom de l&apos;arxiu o esborri&apos;l y fagi clic en Reintentar, o bé cancel·li per sortir."/>
+  <STRING id="Error.1313" value="El volum [2] no está actualment disponible. Sel·leccioni un altre volum."/>
+  <STRING id="Error.1314" value="El camí d&apos;accés especificat &apos;[2]&apos; no està disponible"/>
+  <STRING id="Error.1315" value="No es pot escriure a la carpeta especificada: [2]."/>
+  <STRING id="Error.1316" value="S&apos;ha produït un error de xarxa quan s&apos;intentava llegir l&apos;arxiu: [2]"/>
+  <STRING id="Error.1317" value="S&apos;ha produït un error quan s&apos;intentava crear el directori: [2]"/>
+  <STRING id="Error.1318" value="S&apos;ha produït un error de xarxa quan s&apos;intentava crear el directori: [2]"/>
+  <STRING id="Error.1319" value="S&apos;ha produït un error de xarxa quan s&apos;intentava obrir l&apos;arxiu .CAB d&apos;origen: [2]"/>
+  <STRING id="Error.1320" value="El camí d&apos;accés especificat és massa larg: [2]"/>
+  <STRING id="Error.1321" value="L&apos;instal·lador no té prous privilegis per a modificar l&apos;arxiu [2]."/>
+  <STRING id="Error.1322" value="Una part del camí d&apos;accés a la carpeta &apos;[2]&apos; és invàlida perquè està buida o excedeix la longitud permesa pel sistema."/>
+  <STRING id="Error.1323" value="El camí d&apos;accés a la carpeta &apos;[2]&apos; conté paraules invàlides per a camins d&apos;accés a carpetes."/>
+  <STRING id="Error.1324" value="El camí d&apos;accés a la carpeta &apos;[2]&apos; conté un caràcter invàlid."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; no és un nom curt d&apos;arxiu vàlid."/>
+  <STRING id="Error.1326" value="Error a l&apos;obtenir la seguretat de l&apos;arxiu: [3]. GetLastError: [2]."/>
+  <STRING id="Error.1327" value="Unitat invàlida: [2]"/>
+  <STRING id="Error.1328" value="Error aplicant la revisió a l&apos;arxiu [2]. Probablement l&apos;arxiu ja ha estat actualitzat per altres mitjans i, per tant, no pot ser modificat per aquesta revisió. Per a obtenir més informació consulti amb el proveïdor de la revisió.  {{Error de sistema [3]}} "/>
+  <STRING id="Error.1329" value="No es pot instal·lar un arxiu necessari perquè l&apos;arxiu .CAB [2] no està signat digitalment. Això pot indicar que l&apos;arxiu .CAB és corrupte."/>
+  <STRING id="Error.1330" value="No es pot instal·lar un arxiu necessari perquè el .CAB té una signatura digital invàlida. Això pot indicar que l&apos;arxiu .CAB és corrupte.{{ Error [3] retornat per WinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="No es pot copiar l&apos;arxiu [2] correctament: error de CRC."/>
+  <STRING id="Error.1332" value="No es pot moure l&apos;arxiu [2] correctament: error de CRC."/>
+  <STRING id="Error.1333" value="No es pot revisar l&apos;arxiu [2] correctament: error de CRC."/>
+  <STRING id="Error.1334" value="No es pot instal·lar l&apos;arxiu &quot;[2]&quot; perquè no ha estat possible trobar l&apos;arxiu dins el .CAB &quot;[3]&quot;. Això pot indicar un error de xarxa, un error llegint des del CD-ROM, o un problema amb aquest paquet."/>
+  <STRING id="Error.1335" value="L&apos;arxiu .CAB &quot;[2]&quot; que cal per a aquesta instal·lació és corrupte o no es pot utilitzar. Això pot indicar un error de xarxa, un error llegint des del CD-ROM, o un problema amb aquest paquet."/>
+  <STRING id="Error.1336" value="Error creant un arxiu temporal que és necessari per a completar aquesta instal·lació.{{  Carpeta: [3]. Codi d&apos;error del sistema: [2]}}"/>
+  <STRING id="Error.14" value="L&apos;acció es va iniciar a les [Time]: [1]."/>
+  <STRING id="Error.1401" value="No es pot crear la clau [2]. {{ Error de sistema [3].}} Verifiqui que té prous drets d&apos;accés a aquesta clau, o posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1402" value="No es pot obrir la clau [2]. {{ Error de sistema [3].}} Verifiqui que té prous drets d&apos;accés a aquesta clau, o posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1403" value="No es pot eliminar el valor [2] de la clau [3]. {{ Error de sistema [4].}} Verifiqui que té prous drets d&apos;accés a aquesta clau, o posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1404" value="No es pot eliminar la clau [2]. {{Error de sistema [3].}} Verifiqui que té prous drets d&apos;accés a aquesta clau, o posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1405" value="No es pot llegir el valor [2] de la clau [3]. {{ Error de sistema [4].}} Verifiqui que té prous drets d&apos;accés a aquesta clau, o posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1406" value="NO es pot escriure el valor [2] de la clau [3]. {{ Error de sistema [4].}} Verifiqui que té prous drets d&apos;accés a aquesta clau, o posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1407" value="No es poden obtenir els noms dels valors per a la clau [2]. {{ Error de sistema [3]. }} Verifiqui que té prous drets d&apos;accés a aquesta clau, o posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1408" value="No es poden obtenir els noms de les subclaus per a la clau [2]. {{ Error de sistema [3].}} Verifiqui que té prous drets d&apos;accés a aquesta clau, o posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1409" value="No es pot llegir la informació de seguretat per a la clau [2]. {{ Error de sistema [3].}} Verifiqui que té prous drets d&apos;accés a aquesta clau, o posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1410" value="No es augmentar l&apos;espai disponible al registre.  Són necessairs [2] KB d&apos;espai lliure al registre per a instal·lar aquesta aplicació."/>
+  <STRING id="Error.15" value="L&apos;acció ha finalitzat a les [Time]: [1]. Valor retornat: [2]."/>
+  <STRING id="Error.1500" value="Hi ha una altra instal·lació en curs. Cal que finalitzi aquella instal·lació abans de continuar amb aquesta."/>
+  <STRING id="Error.1501" value="Error accedint a dades protegides. Asseguri&apos;s que Windows Installer està configurat correctament y torni a executar la instal·lació."/>
+  <STRING id="Error.1502" value="L&apos;usuari &apos;[2]&apos; ha iniciat prèviament una instal·lació del producte &apos;[3]&apos;. Aquest usuari haurà d&apos;executar la instal·lació un altre cop abans d&apos;usar el producte. La instal·lació actual continuarà."/>
+  <STRING id="Error.1503" value="L&apos;usuari &apos;[2]&apos; ja ha iniciat prèviament una instal·lació del producto &apos;[3]&apos;. Aquest usuari haurà de tornar a executar la instal·lació abans de tornar de poder utilitzar-lo. "/>
+  <STRING id="Error.16" value="Temps restant: {[1] minuts }{[2] segons}"/>
+  <STRING id="Error.1601" value="Espai de disc insuficient -- Volum: &apos;[2]&apos;; espai necessari: [3] KB; espai disponible: [4] KB. Alliberi espai al disc i torni-ho a intentar."/>
+  <STRING id="Error.1602" value="Segur que desitja cancelar la operació?"/>
+  <STRING id="Error.1603" value="L&apos;arxiu [2][3] està en ús{ pel procés següent: Nom: [4], Id. [5], Títol de finestra: &apos;[6]&apos;}.  Close that application and retry."/>
+  <STRING id="Error.1604" value="El producte &apos;[2]&apos; ja està instal·lat, fet que impedeix que d&apos;instal·li aquest producte perquè ambdós productes són incompatibles."/>
+  <STRING id="Error.1605" value="No hi ha prou espai lliure de disc al volum &quot;[2]&quot; per a continuar la instal·lació amb la recuperació habilitada. Calen [3] KB, però només [4] KB estan disponibles. Fagi clic en Ignorar per a continuar la instal·lació sense guardar la informació de recuperaciño, faig clic en Reintentar per a verificar un altre cop si hi ha espai de disc disponible o fagi clic en Cancelar per a sortir de la instal·lació."/>
+  <STRING id="Error.1606" value="No es pot obtenir accés a la ubicació de xarxa [2]."/>
+  <STRING id="Error.1607" value="Cal tancar les següents aplicacions abans de continuar amb la instal·lació:"/>
+  <STRING id="Error.1608" value="No s&apos;ha trobat cap producte compatible instal·lat en el seu equip per a instal·lar aquest producte."/>
+  <STRING id="Error.1609" value="Error aplicant la configuració de seguretat. [2] no és un usuari o grup vàlid. Això podria ser un problema amb el paquet o un problema al connectar amb el controlador de domini de la xarxa. Verifiqui la seva connexió de xarxa i fagi clic en Reintentar, o en Cancelar per a finalitzar la instal·lació. {{No s&apos;ha pogut trobar l&apos;SID d&apos;usuario, error de sistema [3]}}"/>
+  <STRING id="Error.17" value="Memòria insuficient. Tanqui altres aplicacions abans de tornar a intentar-ho."/>
+  <STRING id="Error.1701" value="La clau [2] no és vàlida. Verifiqui que ha escrit la clau correcta."/>
+  <STRING id="Error.1702" value="L&apos;instal·lador ha de reiniciar el sistema abans de continuar amb la configuració de [2]. Fagi clic en Si per a reiniciar l&apos;equip ara o en No si té previst arrencar de nou manualment més tard."/>
+  <STRING id="Error.1703" value="Cal reiniciar el sistema per tal que els canvis de configuració realitzats a [2] tinguin efecte. Fagi clic en Si per a reiniciar l&apos;equip ara o en No si té previst arrencar de nou manualment més tard."/>
+  <STRING id="Error.1704" value="Actualment hi ha una instal·lació de [2] suspesa. Cal desfer els canvis realitzats per aquesta instal·lació per a poder continuar. Desitja desfer aquests canvis?"/>
+  <STRING id="Error.1705" value="Hi ha una instal·lació anterior en curs d&apos;aquest producte. Cal desfer els canvis realitzats per aquesta instal·lació per a poder continuar. Desitja desfer aquests canvis?"/>
+  <STRING id="Error.1706" value="No s&apos;ha trobat un paquet de la instal·lació del producte [2]. Torni a intentar la instal·lació utilitzant una còpia vàlida del paquet d&apos;instal·lació &apos;[3]&apos;."/>
+  <STRING id="Error.1707" value="La instal·lació ha finalitzat correctament."/>
+  <STRING id="Error.1708" value="Error en la instal·lació."/>
+  <STRING id="Error.1709" value="Producte: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Pot restaurar l&apos;equip al seu estat anterior o continuar amb la instal·lació més tard. Desitja restaurar l&apos;equip?"/>
+  <STRING id="Error.1711" value="S&apos;ha produït un error mentre s&apos;escrivia la informació d&apos;instal·lació al disc. Verifiqui que hi ha prou espai disponible al disc i fagi clic en Reintentar, o bé Cancelar per a finalitzar la instal·lació."/>
+  <STRING id="Error.1712" value="Un o més arxius necessaris per a restaurar el seu equip a l&apos;estat previ no s&apos;han pogut trobar. La restauració no es podrà realitzar."/>
+  <STRING id="Error.1713" value="[2] no pot instal·lar els productes necessaris. Posi&apos;s en contacte amb el seu grup de suport tècnic.   {{Error de sistema [3].}}"/>
+  <STRING id="Error.1714" value="No es pot eliminar la versió anterior de [2]. Posi&apos;s en contacte amb el seu grup de suport tècnic.   {{Error de sistema [3].}}"/>
+  <STRING id="Error.1715" value="Instal·lat [2]"/>
+  <STRING id="Error.1716" value="Configurat [2]"/>
+  <STRING id="Error.1717" value="Eliminat [2]"/>
+  <STRING id="Error.1718" value="L&apos;arxiu [2] ha estat rebutjat per la directiva de signatura digital."/>
+  <STRING id="Error.1719" value="No es pot tenir accés al servei Windows Installer. Això pot passar si esteu executant Windows en Mode a prova d&apos;errors, o si Windows Installer no està correctament instal·lat. Posi&apos;s en contacte amb el personal de suport tècnic per a rebre assistència."/>
+  <STRING id="Error.1720" value="S&apos;ha trobat un problema amb aquest paquet de Windows Installer. Hi ha una seqüència d&apos;ordres que cal per aquesta instal·lació que no es pot executar.  Posi&apos;s en contacte amb el personal de suport tècnic o amb el proveïdor del paquet.  {{Acció personalitzada [2] error de seqüència d&apos;ordres [3], [4]: [5] Línia [6], Columna [7], [8] }}"/>
+  <STRING id="Error.1721" value="S&apos;ha trobat un problema amb aquest paquet de Windows Installer. Hi ha un programa que és necessari per aquesta instal·lació que no es pot executar. Posi&apos;s en contacte amb el personal de suport tècnic o amb el proveïdor del paquet.  {{Action [2], entry: [3], library: [4] }}"/>
+  <STRING id="Error.1722" value="S&apos;ha trobat un problema amb aquest paquet de Windows Installer. Hi ha un programa que s&apos;executa com a part de la instal·lació que no ha finalitzat com s&apos;esperava. Posi&apos;s en contacte amb el personal de suport tècnic o amb el proveïdor del paquet.  {{Action [2], entry: [3], library: [4] }}"/>
+  <STRING id="Error.1723" value="S&apos;ha trobat un problema amb aquest paquet de Windows Installer. Hi ha una DLL que és necessària per a completar la instal·lació. Posi&apos;s en contacte amb el personal de suport tècnic o amb el proveïdor del paquet.  {{Action [2], entry: [3], library: [4] }}"/>
+  <STRING id="Error.1724" value="La eliminació s&apos;ha completat satisfactòriament."/>
+  <STRING id="Error.1725" value="Error en la eliminació."/>
+  <STRING id="Error.1726" value="L&apos;anunci s&apos;ha completat satisfactòriament."/>
+  <STRING id="Error.1727" value="Error en l&apos;anunci."/>
+  <STRING id="Error.1728" value="La configuració s&apos;ha completat satisfactòriament."/>
+  <STRING id="Error.1729" value="Error en la configuració."/>
+  <STRING id="Error.1730" value="Cal ésser un Administrador per a eliminar aquesta aplicació. Per a eliminar-la, pot iniciar sessió com a Administrador, o pot posar-se en contacte amb el grup de suport tècnic per a obtenir assistència."/>
+  <STRING id="Error.18" value="L&apos;instal·lador no respon."/>
+  <STRING id="Error.1801" value="El camí d&apos;accés [2] no és vàlid. Especifiqui un camí d&apos;accés vàlid."/>
+  <STRING id="Error.1802" value="Memòria insuficient. Tanqui les altres aplicacions abans de tornar a intentar-ho."/>
+  <STRING id="Error.1803" value="No hi ha cap disc a la unidad [2]. Insereixi&apos;n un i fagi clic en Reintentar, o bé fagi clic en Cancelar per a tornar al volum prèviament seleccionat."/>
+  <STRING id="Error.1804" value="No hi ha cap disc a la unidad [2]. Insereixi&apos;n un i fagi clic en Reintentar, o bé fagi clic en Cancelar per a tornar al cuadre de diàleg de recerca i seleccionar un volum diferent."/>
+  <STRING id="Error.1805" value="La carpeta [2] no existeix. Escrigui un camí d&apos;accés cap a una carpeta existent."/>
+  <STRING id="Error.1806" value="No disposa de prous privilegis per a llegir aquesta carpeta."/>
+  <STRING id="Error.1807" value="No es pot determinar una carpeta de destí vàlida per a la instal·lació."/>
+  <STRING id="Error.19" value="L&apos;instal·lador s&apos;ha aturat abans d&apos;hora."/>
+  <STRING id="Error.1901" value="Error a l&apos;intentar llegir la base de dades de la instal·lació d&apos;origen: [2]."/>
+  <STRING id="Error.1902" value="Programant la operació de reinici: canviant el nom l&apos;arxiu de [2] a [3]. Per a completar la operació cal reiniciar l&apos;equip."/>
+  <STRING id="Error.1903" value="Programant la operació de reinici: eliminant l&apos;arxiu [2]. Per a completar la operació cal reiniciar l&apos;equip."/>
+  <STRING id="Error.1904" value="Error al registrar el mòdul [2]. HRESULT [3].  Posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1905" value="Error a l&apos;eliminar el mòdul [2] del registre. HRESULT [3]. Posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1906" value="Error a l&apos;emmagatzemar el paquet [2] en la memòria caché. Error [3]. Posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1907" value="No es pot enregistrar la font [2]. Verifiqui que disposa de prous permisos per a instal·lar fonts i que el sistema admet aquesta font."/>
+  <STRING id="Error.1908" value="No es pot eliminar la font [2] del registre. Verifiqui que disposa de prous permisos per a eliminar fonts."/>
+  <STRING id="Error.1909" value="No es pot crear l&apos;accés directe [2]. Verifiqui que la carpeta de destí existeix i que hi té accés."/>
+  <STRING id="Error.1910" value="No es pot crear l&apos;accés directe [2]. Verifiqui que l&apos;arxiu de l&apos;accés directe existeix i que hi té accés."/>
+  <STRING id="Error.1911" value="No es pot registrar la llibreria de tipus per a l&apos;arxiu [2]. Posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1912" value="No es pot eliminar del registre la llibreria de tipus per a l&apos;arxiu [2]. Posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1913" value="No es pot actualitzar l&apos;arxiu .ini [2][3]. Verifiqui que l&apos;arxiu existeix y que hi té accés."/>
+  <STRING id="Error.1914" value="No es pot programar que l&apos;arxiu [2] substitueixo al [3] quan es reinicïi el sistema. Verifiqui que disposa de permisos d&apos;escriptura per a l&apos;arxiu [3]."/>
+  <STRING id="Error.1915" value="Error a l&apos;eliminar l&apos;administrador de controladors ODBC; error ODBC [2]: [3]. Posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1916" value="Error a l&apos;instal·lar l&apos;administrador de controladors ODBC; error ODBC [2]: [3]. Posi&apos;s en contacte amb el personal de suport tècnic."/>
+  <STRING id="Error.1917" value="Error a l&apos;eliminar el controlar ODBC [4]. Error ODBC [2]: [3]. Verifiqui que disposa de prous privilegis per a eliminar controladors ODBC."/>
+  <STRING id="Error.1918" value="Error a l&apos;instal·lar el controlador ODBC [4][5]; Error ODBC [2]: [3]. Verifiqui que l&apos;arxiu [4][6] existeix i que hi té accés."/>
+  <STRING id="Error.1919" value="Error al configurar l&apos;origen de dades ODBC [4][5]; Error ODBC [2]: [3]. Verifiqui que l&apos;arxiu [4][6] existeix i que hi té accés."/>
+  <STRING id="Error.1920" value="Error a l&apos;iniciar el servei &apos;[2]&apos; ([3]). Verifiqui que disposa de prous privilegis per a iniciar serveis de sistema."/>
+  <STRING id="Error.1921" value="No es pot aturar el servei &apos;[2]&apos; ([3]). Verifiqui que disposa de prous privilegis per a aturar serveis de sistema."/>
+  <STRING id="Error.1922" value="No es pot eliminar el servei &apos;[2]&apos; ([3]). Verifiqui que té prous privilegis per a eliminar serveis de sistema."/>
+  <STRING id="Error.1923" value="No es pot instal·lar el servei &apos;[2]&apos; ([3]). Verifiqui que disposa de prous privilegis per a instal·lar serveis de sistema."/>
+  <STRING id="Error.1924" value="No es pot actualitzar la variable d&apos;entorn  &apos;[2]&apos;. Verifiqui que disposa de prous privilegis per a modificar varialbes d&apos;entorn."/>
+  <STRING id="Error.1925" value="No té prous privilegis per a completar aquesta instal·lació per a tots els usuaris de l&apos;equip. Inicïi la sessió com a administrador i torni a realitzar la instal·lació."/>
+  <STRING id="Error.1926" value="No és possible establir la seguretat per l&apos;arxiu &apos;[3]&apos;. Error: [2]. Verifiqui que disposa de prous privilegis per a modificar els permisos de seguretat d&apos;aquest arxiu."/>
+  <STRING id="Error.1927" value="Component Services (COM+ 1.0) no estan instal·lats en aquest sistema.  Per tal de realitzar aquesta instal·lació, cal que Components Services estiguin instal·lats. Components Services estan disponibles en Windows 2000."/>
+  <STRING id="Error.1928" value="Error al registrar l&apos;aplicació COM+. Posi&apos;s en contacte amb el personal de suport per obtenir més informació."/>
+  <STRING id="Error.1929" value="Error a l&apos;eliminar l&apos;aplicació COM+ del registre. Posi&apos;s en contacte amb el personal de suport per obtenir més informació."/>
+  <STRING id="Error.1930" value="No es pot canviar la descripció del servei &apos;[2]&apos; ([3])."/>
+  <STRING id="Error.1931" value="El servei de Windows Installer no pot actualitzar l&apos;arxiu de sistema [2] perquè està protegit per Windows. És possible que calgui actualitzar el seu sistema operatiu per tal que auquest programa funcioni correctament. {{Versió del paquet: [3], Versió protegida del SO: [4]}}"/>
+  <STRING id="Error.1932" value="El servei de Windows Installer no pot actualitzar l&apos;arxiu protegit de Windows [2]. {{Versió del paquet: [3], Versió protegida del SO: [4], Error SFP: [5]}}"/>
+  <STRING id="Error.1933" value="El servei de Windows Installer no pot actualitzar un o més arxius protegits de Windows. {{SFP Error: [2].  Llista d&apos;arxius protegits:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Les instal·lacions de l&apos;usuario estan deshabilitades per una directiva de l&apos;equip."/>
+  <STRING id="Error.1935" value="Error durant la instal·lació de l&apos;ensamblat [2]. HRESULT: [3]. {{interfície de l&apos;ensamblat: [4], funció: [5], nombre de l&apos;ensamblat: [6]}}"/>
+  <STRING id="Error.2" value="Avís [1]."/>
+  <STRING id="Error.20" value="Esperi mentre Windows configura [ProductName]"/>
+  <STRING id="Error.21" value="Recollint la informació necessària..."/>
+  <STRING id="Error.22" value="Eliminant les versions anteriors d&apos;aquesta aplicació..."/>
+  <STRING id="Error.23" value="Preparant la eliminació de les versions anteriors d&apos;aquesta aplicació..."/>
+  <STRING id="Error.32" value="La instal·lació de {[ProductName] } ha finalitzat correctament."/>
+  <STRING id="Error.33" value="Ha fallat la isntal·lació de {[ProductName]}."/>
+  <STRING id="Error.4" value="Informació [1]."/>
+  <STRING id="Error.4000" value="Número de sèrie invàlid."/>
+  <STRING id="Error.4010" value="Una versió més recent de [ProductName] ja està instal·lada en aquest ordinador."/>
+  <STRING id="Error.4020" value="Ha ocorregut un error durant el procés de configuració de l&apos;IIS.&#10;La seva configuració original de l&apos;IIS serà restaurada."/>
+  <STRING id="Error.4021" value="El lloc web &quot;[2]&quot; ja existeix en aquest servidor.&#10;&#10;Desitja ometre aquest lloc web i continuar la instal·lació?"/>
+  <STRING id="Error.4022" value="El directori virtual &quot;[2]&quot; al lloc web &quot;[3]&quot; ja existeix en aquest servidor.&#10;&#10;Desitja ometre aquest directori virtual i continuar la instal·lació?"/>
+  <STRING id="Error.4023" value="Aquesta versió de l&apos;IIS no està suportada o bé l&apos;IIS no està completament instal·lat !&#10;&#10;Es necessita Internet Information Services 5.0 o superior."/>
+  <STRING id="Error.4024" value="Un lloc web amb les mateixes vinculacions al servidor ja ha estat iniciat.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Impossible crear el compte d&apos;usuari o el grup &apos;[2]&apos; en la màquina local. Codi d&apos;error: [3]. [4]"/>
+  <STRING id="Error.4102" value="El compte d&apos;usuari o el grup &apos;[2]&apos; ja existeix en la màquina local."/>
+  <STRING id="Error.4103" value="Impossible eliminar el compte d&apos;usuari o el grup &apos;[2]&apos; en la màquina local. Codi d&apos;error: [3]."/>
+  <STRING id="Error.4104" value="El compte d&apos;usuari o el grup &apos;[2]&apos; no existeix en la màquina local."/>
+  <STRING id="Error.4105" value="Ha ocorregut un error al compartir &apos;[2]&apos; sota el nom: &apos;[3]&apos;. Descripció de l&apos;error: [4]"/>
+  <STRING id="Error.4106" value="Ha ocorregut un error durant la creació d&apos;una tasca programada: &apos;[2]&apos;. Descripció de l&apos;error: [3]"/>
+  <STRING id="Error.4107" value="Ha ocorregut un error durant la eliminació d&apos;una tasca programada: &apos;[2]&apos;. Descripció de l&apos;error: [3]"/>
+  <STRING id="Error.5" value="L&apos;instal·lador ha trobat un error inesperat a l&apos;instal·lar el paquet. Això pot indicar un problema amb aquest paquet. El codi d&apos;error és [1]. {{Els arguments són: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Disc ple: }}"/>
+  <STRING id="Error.8" value="Acció [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.4110" value="No es pot assignar memòria"/>
+  <STRING id="Error.4111" value="No es pot trobar l&apos;axiu: [2]."/>
+  <STRING id="Error.4112" value="No es pot llegir l&apos;arxiu &apos;[2]&apos;"/>
+  <STRING id="Error.4113" value="Error d&apos;anàlisis a l&apos;arxiu: &apos;[2]&apos; a la línia [3]. Codi d&apos;error: [5]."/>
+  <STRING id="Error.4114" value="Codificació de l&apos;arxiu XML no admesa."/>
+  <STRING id="Error.4115" value="Error obrint l&apos;arxiu: [2]."/>
+  <STRING id="Error.4116" value="No es pot escriure a l&apos;arxiu &apos;[2]&apos;"/>
+  <STRING id="Error.4117" value="Element arrel inesperat: &quot;[2]&quot; a l&apos;arxiu XML: &apos;[3]&apos;"/>
+  <STRING id="Error.4120" value="Ha succeït un error durant el procés de configuració del Firewall de Windows.&#10; Es restaurarà la vostra configuració original del Firewall."/>
+  <STRING id="Error.4121" value="Camí de la imatge del procés del Firewall invàlid, o arxiu no trobar: [2]."/>
+  <STRING id="Error.4122" value="Invàlid port/protocol Firewall: [2]."/>
+  <STRING id="Error.4123" value="L&apos;abast de la xarxa del Firewall és invàlid: [2]."/>
+  <STRING id="Error.4124" value="Ha succeït un error registrant l&apos;aplicació amb el Firewall de Windows: [2]."/>
+  <STRING id="Error.4125" value="Ha succeït un error registrant el port amb el Firewall de Windows: [2]."/>
+  <STRING id="Error.4130" value="Ha succeït un error durant el procés de configuració de l&apos;explorador de jocs."/>
+  <STRING id="Error.4131" value="El control parental et prevé de jugar al joc: [2]."/>
+  <STRING id="Error.4140" value="Ha succeït un error durant el procés d&apos;execució de l&apos;script SQL."/>
+  <STRING id="Error.4141" value="Error ODBC: [2] ([3])."/>
+  <STRING id="Error.4142" value="Connexió ODBC: temps d&apos;espera excedit."/>
+  <STRING id="Error.4143" value="Error analitzant l&apos;script SQL: sintaxis no vàlida"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bytes"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="La característica sencera no serà disponible"/>
+  <STRING id="UIText.MenuAdvertise" value="La característica s&apos;instal·larà quan sigui necessari"/>
+  <STRING id="UIText.MenuAllCD" value="La característica sencera s&apos;instal·larà per a ésser executada des del CD"/>
+  <STRING id="UIText.MenuAllLocal" value="La característica sencera s&apos;instal·larà per a ésser executada des del disc dur local"/>
+  <STRING id="UIText.MenuAllNetwork" value="La característica sencera s&apos;instal·larà per a ésser executada des de la xarxa"/>
+  <STRING id="UIText.MenuCD" value="Serà instal·lada per executar-se des de CD"/>
+  <STRING id="UIText.MenuLocal" value="Serà instal·lada al seu disc dur"/>
+  <STRING id="UIText.MenuNetwork" value="Serà instal·lada per executar-se des de la xarxa"/>
+  <STRING id="UIText.ScriptInProgress" value="Recollint informació necessària..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Aquesta característica romandrà desinstal·lada"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="S&apos;establirà que aquesta característica s&apos;instal·li només quan sigui necessari"/>
+  <STRING id="UIText.SelAbsentCD" value="Aquesta característica serà instal·lada per a ésser executada des de CD"/>
+  <STRING id="UIText.SelAbsentLocal" value="Aquesta característica serà instal·lada al disc dur local"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Aquesta característica será instal·lada per a ésser executada des de la xarxa"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Aquesta característica no estarà disponible"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="S&apos;instal·larà quan sigui necessari"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Aquesta característica estarà disponible per ésser executada des del CD"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Aquesta característica serà instal·lada al seu disc dur local"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Aquesta característica estarà disponible per ésser executada des de la xarxa"/>
+  <STRING id="UIText.SelCDAbsent" value="Aquesta característica serà desinstal·lada completamente, no podrà ésser executada des del CD"/>
+  <STRING id="UIText.SelCDAdvertise" value="Aquesta característica passarà de l&apos;estat d&apos;ésser executada des del CD al d&apos;ésser instal·lada que sigui necessari"/>
+  <STRING id="UIText.SelCDCD" value="Aquesta característica romandrà per funcionar des del CD"/>
+  <STRING id="UIText.SelCDLocal" value="Aquesta característica passarà de l&apos;estat d&apos;ésser executada des del CD al d&apos;ésser instal·lada al seu disc dur local"/>
+  <STRING id="UIText.SelChildCostNeg" value="Aquesta característica allibera [1] del seu disc dur."/>
+  <STRING id="UIText.SelChildCostPos" value="Aquesta característica necessita [1] del seu disc dur."/>
+  <STRING id="UIText.SelCostPending" value="Recopilant el cost per aquesta característica..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Aquesta característica serà eliminada completament"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Aquesta característica serà eliminada del seu disc dur local, però s&apos;establirà que s&apos;instal·li quan sigui necesari"/>
+  <STRING id="UIText.SelLocalCD" value="Aquesta característica serà eliminada del seu disc dur local, però romandrà disponible per ésser executada des del CD"/>
+  <STRING id="UIText.SelLocalLocal" value="Aquesta característica romandrà al seu disc dur local"/>
+  <STRING id="UIText.SelLocalNetwork" value="Aquesta característica serà eliminada del seu disc dur local, però romandrà disponible per ésser executada des de la xarxa"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Aquesta característica serà desinstal·lada completamente, no podrà ésser executada des de la xarxa"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Aquesta característica passarà de l&apos;estat d&apos;ésser executada des de la xarxa al d&apos;ésser instal·lada que sigui necessari"/>
+  <STRING id="UIText.SelNetworkLocal" value="Aquesta característica passarà de l&apos;estat d&apos;ésser executada des de la xarxa al d&apos;ésser instal·lada al disc dur local"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Aquesta característica romandrà per funcionar des de la xarxa"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Aquesta característica allibera [1] del seu disc dur. Té [2] de [3] característiques secundàries seleccionades. Les característiques secundàries alliberen [4] del seu disc dur."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Aquesta característica allibera [1] del seu disc dur. Té [2] de [3] característiques secundàries seleccionades. Les característiques secundàries necessiten [4] del seu disc dur."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Aquesta característica necessita [1] del seu disc dur. Té [2] de [3] característiques secundàries selecccionades. Les característiques secundàries alliberen [4] del seu disc dur."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Aquesta característica necessita [1] del seu disc dur. Té [2] de [3] característiques secundàries seleccionades. Les característiques secundàries requereixen [4] del seu disc dur."/>
+  <STRING id="UIText.TimeRemaining" value="Temps restant: {[1] minuts }{[2] segons}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Disponible"/>
+  <STRING id="UIText.VolumeCostDifference" value="Diferència"/>
+  <STRING id="UIText.VolumeCostRequired" value="Necessari"/>
+  <STRING id="UIText.VolumeCostSize" value="Tamany de disc"/>
+  <STRING id="UIText.VolumeCostVolume" value="Volum"/>
+  <STRING id="UIText.ODBCTestMsg" value="Espera mentre es prova la connexió..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Cercant Servidors SQL a la xarxa..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.HttpPostMsg" value="Enviant dades recollides..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Automàticamente &amp;tancar les aplicacions i intentar arrencar-les de nou al finalitzar la instal·lació."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="&amp;No tancar les aplicacions. (Serà necessari arrencar de nou.)"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp; Si, emmagatzemar el vincle amb aquests tipus d&apos;arxius"/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;No, ometre associació d&apos;arxius"/>
+  <STRING id="RadioButton.Text.IAgree#1" value="&amp;Accepto els termes de l&apos;Acord de Llicència"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="&amp;No accepto els termes de l&apos;Acord de Llicència"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;No, instal·lar juntament amb altres versions"/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Si, eliminar les versions més antigues."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;No, desinstal·lar només la versió [AI_Replaced_Versions_List]."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Si, eliminar totes les versions més antigues."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Enrera"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Enrera"/>
+  <STRING id="Property.ButtonText_Browse" value="E&amp;xplorar..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Cancel·lar"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Sortir"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Finalitzar"/>
+  <STRING id="Property.Text_Finish" value="Finalitzar"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Ignorar"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Instal·lar"/>
+  <STRING id="Property.Text_Install" value="Instal·lar"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Següent &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Següent"/>
+  <STRING id="Property.Text_Next" value="Següent"/>
+  <STRING id="Property.ButtonText_No" value="&amp;NO"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Eliminar"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Reparar"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Reiniciar"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Reprendre"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Reintentar"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Tornar"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Si"/>
+  <STRING id="Property.Text_Yes" value="Si"/>
+  <STRING id="Property.CtrlEvtchanges" value="canvïi"/>
+  <STRING id="Property.CtrlEvtChanging" value="Canviant"/>
+  <STRING id="Property.CtrlEvtremoves" value="elimini"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Eliminant"/>
+  <STRING id="Property.CtrlEvtRepairing" value="reparant"/>
+  <STRING id="Property.CtrlEvtrepairs" value="repari"/>
+  <STRING id="Property.InstallModeComplete" value="Complet"/>
+  <STRING id="Property.InstallModeCustom" value="Personalitzat"/>
+  <STRING id="Property.InstallModeTypical" value="Típic"/>
+  <STRING id="Property.Progress1" value="Instal·lant"/>
+  <STRING id="Property.Progress2" value="instal·li"/>
+  <STRING id="Property.Setup" value="Instal·lació"/>
+  <STRING id="Property.Wizard" value="Auxiliar d&apos;instal·lació"/>
+  <!-- Trialware Settings table-->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Comprar"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Us agradaria obrir la pàgina de compra de %TrialName%?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Clau de registre no vàlida"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="La clau de registre no és vàlida"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="Avaluació de %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Premi el botó &quot;Finish&quot; per validar la clau i continuar."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Introdueixi totes les línies que ha rebut de la clau de registre."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Registre"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Comprar"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Visiti la pàgina de compra de %TrialName% per adquirir una llicència"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="Avaluació de %TrialName% vençuda"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="Els seus %Quantity% dies d&apos;avaluació han vençut. Si vol continuar utilitzant %TrialName% ha de comprar una llicència i registrar l&apos;aplicació."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="Les seves %Quantity% execucions d&apos;avaluació han vençut. Si vol continuar utilitzant %TrialName% ha de comprar una llicència i registrar l&apos;aplicació."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Benvingut a l&apos;avaluació de %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Registrar-se"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Introdueixi la clau de registre"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Provi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Vençut"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Comprar"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Visiti la pàgina de compra de %TrialName% per adquirir una llicència"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="Avaluació de %TrialName% (queden %TrialLeft% dies)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="Avaluació de %TrialName% queden %TrialLeft% execucions)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="S&apos;està utilitzant la versió d&apos;avaluació de %TrialName% de [|Manufacturer]. Li queden %TrialLeft% dies."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="S&apos;està utilitzant la versió d&apos;avaluació de %TrialName% de [|Manufacturer]. Li queden %TrialLeft% execucions."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Benvingut a l&apos;avaluació de %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Registrar-se"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Introdueixi la clau de registre"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Provi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Continuar amb l&apos;avaluació de %TrialName%"/>
+</DICTIONARY>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B330539FFF704E3FAB1F238B245A4C90" DisplayName="Internet Explorer 7 for Windows XP/Server 2003 x64" VersionMin="7.0"
+      SetupFileUrl="http://download.microsoft.com/download/1/1/4/114d5b07-4dbc-42f3-96fa-2097e207d0af/IE7-WindowsServer2003-x64-enu.exe"
+      Location="1" ExactSize="29662072" MD5="af5465b7e20fe89266a5b81ba1857be1"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xy" TargetName="Internet Explorer 7"/>
+    <ATTRIBUTE name="GroupName" value="Internet Explorer"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B330539FFF704E3FAB1F238B245A4C90SystemFolderwininet.dll" Prereq="B330539FFF704E3FAB1F238B245A4C90" SearchType="0"
+      SearchString="[SystemFolder]wininet.dll" VerMin="7.0.5730.13"
+      Order="1" Property="PreReqSearch_B330539FFF704E3FAB1F238B245A4C90"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Dialog</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="varstyle.css" media="screen" />
+
+  <script type="text/javascript" src="jquery-1.3.2.js"></script>
+
+  <script type="text/javascript" src="common.js"></script>
+
+  <script type="text/javascript">
+    //hook the window load event ("event" argument will be automatically populated by standard browsers)
+    //background: url(background.jpg) no-repeat;
+    $(document).ready(function() {
+
+      /* START XXX */
+
+      InitPage();
+      UpdateBackGroundInd("DialogBitmap", 'main');
+      UpdateBackGroundInd("AppLogoIcon", 'logoBig');
+
+      ResolveTag("p");
+      ResolveTag("span");
+
+      var a = ['ViewReadme', 'RunApp', 'leftBtnA', 'leftBtnSpan', 'rightBtnA', 'rightBtnSpan', 'cancelBtnA', 'cancelBtnSpan'];
+      UpdateBackGroundIndVec("BannerBitmap", a);
+      ShowFooter();
+
+      element = document.getElementById("ViewReadme");
+      if (external.MsiEvaluateCondition("((NOT AI_INSTALL) AND (NOT AI_PATCH)) OR ((CTRLS <> 1) AND (CTRLS <> 3))") == false)
+        element.style.visibility = "visible";
+      else
+        element.style.visibility = "hidden";
+
+      if (external.MsiEvaluateCondition("((NOT AI_INSTALL) AND (NOT AI_PATCH)) OR ((CTRLS <> 2) AND (CTRLS <> 3))") == false) {
+        element = document.getElementById("RunApp");
+        element.style.visibility = "visible";
+      }
+      else {
+
+        textEl = document.getElementById("rightBtnSpan");
+        textEl.origHtml = "[ExitDlgClose]";
+        ResolveElement(textEl);
+
+        imgEl = document.getElementById("RunAppImg");
+        imgEl.src = "cancel.png";
+
+        element = document.getElementById("RunApp");
+        element.style.visibility = "visible";
+      }
+
+      /* END XXX */
+    });
+  </script>
+
+  <!--[if IE 6]>
+	<script src="pngfix/DD_belatedPNG_0.0.8a.js"></script>
+	<script>
+	  if(screen.deviceXDPI == 96) DD_belatedPNG.fix('img,#logoBig,#logo');
+	</script>
+	<![endif]-->
+</head>
+<body>
+  <!-- Background will be changed at load with the one specified in Binary... this default value is used for openning the HTML in other browser aka debugging -->
+  <div id="main" style="background: url(../background.jpg) no-repeat;">
+    <div id="header">
+
+      <script type="text/javascript">
+			AdvinstTextMark();
+      </script>
+
+    </div>
+    <div id="content">
+      <div id="logoBig" style="background: url(../applogo.png) no-repeat;">
+      </div>
+      <p class="description center-inline" id="desc" formatted="twice" keepamp="true" style="visibility: hidden">
+        [ExitDlgSubTitle]</p>
+    </div>
+    <div id="footer" style="visibility: hidden">
+      <div class="button-group">
+        <div class="buttonwrapper">
+          <a id="ViewReadme" style="visibility: hidden" href="#" onclick="external.MsiPublishEvents('ViewReadmeCheckBox');">
+            <b>
+              <img src="check.png" width="16" height="16" />
+            </b><span id="leftBtnSpan" formatted="twice">[ExitDlgViewReadme]</span> </a>
+        </div>
+        <div style="visibility: hidden" class="buttonwrapper buttonwrapper-right">
+          <a id="RunApp" onclick="external.MsiPublishEvents('LaunchProdCheckBox');" href="#">
+            <b>
+              <img id="RunAppImg" src="next.png" width="16" height="16" />
+            </b><span id="rightBtnSpan" formatted="twice" keepamp="true">
+	      [ExitDlgViewRun]</span></a>
+        </div>
+        <!--div class="buttonwrapper cancel">
+                <a href="#" onclick="external.MsiPublishEvents('Finish');">
+                    <b>
+                        <img src="cancel.png" width="16" height="16"/>
+                    </b>
+                    <span>Close</span>
+                </a>
+            </div-->
+      </div>
+    </div>
+  </div>
+</body>
+</html>

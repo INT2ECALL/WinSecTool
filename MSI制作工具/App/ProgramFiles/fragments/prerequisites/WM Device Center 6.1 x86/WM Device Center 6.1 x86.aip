@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="FB43752_578B_4EF0_91F8_9FD4E8B33423" DisplayName="Windows Mobile Device Center 6.1 x86" VersionMin="6.1"
+      SetupFileUrl="http://download.microsoft.com/download/7/3/5/735ec6ea-7607-4e56-a5f0-f7672443727e/drvupdate-x86.exe"
+      Location="1" ExactSize="12644232" MD5="5aadb2fa66c318fab8525f574575fbe1"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/q"
+      Operator="1" Options="f" TargetName="Windows Mobile Device Center 6.1"/>
+    <ATTRIBUTE name="GroupName" value="Windows Drivers"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="FB43752_578B_4EF0_91F8_9FD4E8B33423SystemFolderrapi.dll" Prereq="FB43752_578B_4EF0_91F8_9FD4E8B33423" SearchType="0"
+      SearchString="[SystemFolder]rapi.dll" VerMin="6.1.6965"
+      Order="1" Property="PreReqSearch_FB43752_578B_4EF0_91F8_9FD4E8B33423"/>
+  </COMPONENT>
+</FRAGMENT>

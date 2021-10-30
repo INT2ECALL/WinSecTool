@@ -1,0 +1,293 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Dialog</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="varstyle.css" media="screen" />
+
+  <script type="text/javascript" src="jquery-1.3.2.js"></script>
+
+  <script type="text/javascript" src="common.js"></script>
+
+  <script type="text/javascript">
+    //hook the window load event ("event" argument will be automatically populated by standard browsers)
+    $(document).ready(function() {
+
+      /* START XXX */
+
+      // ResolveInput(document.getElementById('edit1'));
+      ResolveTagValue('input');
+
+      InitPage();
+      UpdateBackGroundInd("DialogBitmap", 'main');
+      UpdateBackGroundInd("SqlServerLogoIcon", 'logo');
+
+      ResolveTag("a");
+      ResolveTag("p");
+      ResolveTag("h1"); 
+      ResolveTag("span");
+
+      ResolveTag("label");
+      ResolveTagValue('input');
+
+      var a = ['leftBtnA', 'leftBtnSpan', 'rightBtnA', 'rightBtnSpan', 'cancelBtnA', 'cancelBtnSpan'];
+      UpdateBackGroundIndVec("BannerBitmap", a);
+      ShowFooter();
+      
+      InitializeTrustedConnection();
+      PopulateServersCombo();
+      PopulateDatabasesCombo();
+      
+      /* END XXX */
+
+    });
+            
+    function LoadPage() {
+    }
+
+    function SavePage() {
+      external.MsiSetProperty('SERVER_PROP', document.getElementById('SERVER_PROP').value);
+      external.MsiSetProperty('DATABASE_PROP', document.getElementById('DATABASE_PROP').value);
+      external.MsiSetProperty('USERNAME_PROP', document.getElementById('USERNAME_PROP').value);
+      external.MsiSetProperty('PASSWORD_PROP', document.getElementById('PASSWORD_PROP').value);
+      external.MsiSetProperty('SQL_TRUSTED_CONNECTION', document.getElementById("SQL_TRUSTED_CONNECTION").checked ? '1' : '{}');
+    }
+    
+    function GetError(e) {
+      var key, character;
+
+      key = window.event.keyCode;
+      digList = "0123456789";
+      if (key == null)
+        return true;
+      
+      character = String.fromCharCode(key);
+      if (digList.indexOf(character) != -1)
+        return true;
+
+      return false;
+    }
+        
+    function InitializeTrustedConnection()
+    {
+      // check / uncheck trusted connection
+      var trustedConnection = (external.MsiGetProperty('SQL_TRUSTED_CONNECTION') == '1');
+      document.getElementById("SQL_TRUSTED_CONNECTION").checked = trustedConnection;
+      
+      Disable('USERNAME_PROP', trustedConnection);
+      Disable('PASSWORD_PROP', trustedConnection);
+    }
+
+    function PopulateServersCombo() {  
+      var serversBrowseFlatResult = external.MsiGetProperty('SqlServerBrowseOutput');
+      var servers = serversBrowseFlatResult.split(",");
+            
+      // Add data to combo box
+      $("#SERVERS").empty();
+      var comboSelect = document.getElementById('SERVERS');
+      
+      for (var i = servers.length - 1; i >= 0; i--)
+      {         
+        var option = document.createElement('option');
+        option.text = servers[i];
+        option.value = option.text.split(";")[0];
+        option.selected = (i == 0);
+               
+        comboSelect.add(option, 0);
+      }      
+    }
+    
+    function MsiPropertyChanged(aProperty)
+    {
+      if(aProperty == 'RefreshDatabaseList' && (external.MsiGetProperty(aProperty) == '1'))
+      {      
+        // refresh database edit combo
+        PopulateDatabasesCombo();
+        ResolveElValue(document.getElementById('DATABASE_PROP'));
+                
+        // reset refresh property
+        external.MsiSetProperty(aProperty, '{}');
+      } 
+      else if(aProperty == 'SqlConnectionResult')
+      {
+        ResolveTag("span");
+      }
+    }
+
+    function TestConnection()
+    {
+      SavePage();
+      external.MsiPublishEvents('TestConnectionLink');
+    }
+    
+    function BrowseDatabases()
+    {
+      SavePage();
+      external.MsiPublishEvents('BrowseDatabases');
+    }
+    
+    function PopulateDatabasesCombo() { 
+      var databasesBrowseFlatResult = external.MsiGetProperty('SqlServerDatabases');
+      var databases = databasesBrowseFlatResult.split(",");
+            
+      // Add data to combo box
+      $("#DATABASES").empty();
+      var comboSelect = document.getElementById('DATABASES');
+            
+      for (var i = databases.length - 1; i >= 0; i--)
+      {         
+        var option = document.createElement('option');
+        option.text = option.value = databases[i];
+        option.selected = (i == 0);
+               
+        comboSelect.add(option, 0);
+      }
+    }
+
+    function Disable(controlID, isDisable) {
+        var objControl = document.getElementById(controlID);
+
+        if (objControl != null) {
+            objControl.disabled = isDisable;
+
+            if(isDisable)
+              objControl.value = '';
+        }
+    }
+
+    $(document).ready(function(){
+        $(".comboBox").change(function(){         
+            $(".editableBox").val($(".comboBox option:selected").html());
+        });
+    });
+    
+  </script>
+
+  <!--[if IE 6]>
+    <script src="pngfix/DD_belatedPNG_0.0.8a.js"></script>
+    <script>
+      if(screen.deviceXDPI == 96) DD_belatedPNG.fix('img,#logoBig,#logo');
+    </script>
+    <![endif]-->
+</head>
+<body>
+  <!-- Background will be changed at load with the one specified in Binary... this default value is used for openning the HTML in other browser aka debugging -->
+  <div id="main" style="background-image: url(../background.jpg);">
+    <div id="header">
+      <div id="logo" style="background-image: url(../LogonInfoLogo.png);">
+      </div>
+      <h1 formatted="twice" style="visibility: hidden">
+        [SqlServerDlgTitle]</h1>
+      <div class="clear">
+      </div>
+
+      <script type="text/javascript">
+            AdvinstTextMark();
+      </script>
+
+    </div>
+    <div id="content">
+      <p class="description" id="desc" formatted="twice" style="visibility: hidden">
+        [SqlServerDlgSubTitle]</p>
+      <div class="central" style="top: 50px">
+        <table>
+          <tr>
+            <td style="width: 100%;">
+              <label class="description" formatted="true" style="visibility: hidden;" for="SERVER_PROP">
+                [SqlServerDlgServerLabel]</label>
+            </td>
+            <td>
+              <div class="editComboBox">
+                <select id="SERVERS" class="comboBox" onchange="document.getElementById('SERVER_PROP').value=this.options[this.selectedIndex].value;">
+                </select>
+                <input class="myEdit editBox" placeholder="add/select a value" formatted="true" id="SERVER_PROP" value="[SERVER_PROP]" style="visibility:hidden; width:319px;height:22px;border:none;padding:0px;margin:0px" onfocus="this.select()" type="text">
+              </div>
+            </td>
+          </tr>
+        </table>
+        <table style="margin-top:20px;">
+          <tr>
+            <td style="width: 100%;" colspan="2">
+              <input type="checkbox" id="SQL_TRUSTED_CONNECTION" value="1" style="margin:0px; padding:0px;" onclick="Disable('USERNAME_PROP', this.checked); Disable('PASSWORD_PROP', this.checked);" checked />
+              <label class="description" formatted="true" style="visibility: hidden;" for="SQL_TRUSTED_CONNECTION">
+                [SqlServerDlgTrustedConnectionLabel]
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 100%;">
+              <label class="description" formatted="true" style="visibility: hidden;" for="USERNAME_PROP">
+                [SqlServerDlgUsernameLabel]</label>
+            </td>
+            <td>
+              <input class="myEdit" formatted="true" id="USERNAME_PROP" style="visibility: hidden; width:335px;"
+                type="text" value="[USERNAME_PROP]" disabled />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 100%;">
+              <label class="description" formatted="true" style="visibility: hidden;" for="PASSWORD_PROP">
+                [SqlServerDlgPasswordLabel]</label>
+            </td>
+            <td>
+              <input class="myEdit" formatted="true" id="PASSWORD_PROP" style="visibility: hidden; width:335px;"
+                type="password" value="[PASSWORD_PROP]" disabled />
+            </td>
+          </tr>
+        </table>
+        <table style="margin-top:20px;">
+          <tr>
+            <td style="width: 100%;">
+              <label class="description" formatted="true" style="visibility: hidden;" for="DATABASE_PROP">
+                [SqlServerDlgDatabaseLabel]</label>
+            </td>
+            <td>
+              <div class="editComboBox" style="width:311px;">
+                <select id="DATABASES" class="comboBox" style="width:311px;" onchange="document.getElementById('DATABASE_PROP').value=this.options[this.selectedIndex].value;">
+                </select>
+                <input class="myEdit editBox" placeholder="add/select a value" formatted="true" id="DATABASE_PROP" value="[DATABASE_PROP]" style="visibility:hidden; width:291px;height:22px;border:none;padding:0px;margin:0px" onfocus="this.select()" type="text">
+              </div>
+            </td>
+            <td>
+              <input type="button" value="..." style="height:24px; width:24px; margin-top:-1px;" onclick="BrowseDatabases()"/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <a href="#" onclick="TestConnection()" formatted="true" style="visibility: hidden;">[SqlServerDlgTestConnectionLabel]</a>
+              <span class="description" formatted="true" style="visibility: hidden;margin-left:10px;">[SqlConnectionResult]</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!--<div id="placeholder" style="visibility: hidden; border: 1px solid #9c9c9c;height: 25px;margin:80px 0 0 0;"></div>-->
+      <!-- XXX comment guard end -->
+    </div>
+    <div id="footer" style="visibility: hidden">
+      <div class="button-group">
+        <div class="buttonwrapper">
+          <a id="leftBtnA" onclick="external.MsiPublishEvents('Back');" href="#"><b>
+            <img src="back.png" width="16" height="16" />
+          </b><span id="leftBtnSpan" formatted="noarrow">[ButtonText_Back]</span> </a>
+        </div>
+        <div class="buttonwrapper buttonwrapper-right">
+          <a id="rightBtnA" onclick="external.MsiPublishEvents('Next');" href="#"><b>
+            <img src="next.png" width="16" height="16" />
+          </b><span id="rightBtnSpan" formatted="noarrow">[ButtonText_Next]</span> </a>
+        </div>
+        <!--
+            <div class="buttonwrapper cancel">
+                <a id="cancelBtnA" href="#" onclick="external.MsiPublishEvents('Cancel');">
+                    <b>
+                        <img src="cancel.png" width="16" height="16"/>
+                    </b>
+                    <span id="cancelBtnSpan" formatted="noarrow">[ButtonText_Cancel]</span>
+                </a>
+            </div>
+            -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>

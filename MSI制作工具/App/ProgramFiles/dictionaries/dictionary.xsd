@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- lang type -->
+  <xs:simpleType name="LanguageType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="neutral"/>
+      <xs:enumeration value="af"/>
+      <xs:enumeration value="sq"/>
+      <xs:enumeration value="ar"/>
+      <xs:enumeration value="ar_IQ"/>
+      <xs:enumeration value="ar_EG"/>
+      <xs:enumeration value="ar_LY"/>
+      <xs:enumeration value="ar_DZ"/>
+      <xs:enumeration value="ar_MA"/>
+      <xs:enumeration value="ar_TN"/>
+      <xs:enumeration value="ar_OM"/>
+      <xs:enumeration value="ar_YE"/>
+      <xs:enumeration value="ar_SY"/>
+      <xs:enumeration value="ar_JO"/>
+      <xs:enumeration value="ar_LB"/>
+      <xs:enumeration value="ar_KW"/>
+      <xs:enumeration value="ar_AE"/>
+      <xs:enumeration value="ar_BH"/>
+      <xs:enumeration value="ar_QA"/>
+      <xs:enumeration value="az"/>
+      <xs:enumeration value="az_AZ_Cyrillic"/>
+      <xs:enumeration value="eu"/>
+      <xs:enumeration value="be"/>
+      <xs:enumeration value="bs"/>
+      <xs:enumeration value="bg"/>
+      <xs:enumeration value="ca"/>
+      <xs:enumeration value="zh_TW"/>
+      <xs:enumeration value="zh"/>
+      <xs:enumeration value="zh_HK"/>
+      <xs:enumeration value="zh_SG"/>
+      <xs:enumeration value="zh_MO"/>
+      <xs:enumeration value="hr"/>
+      <xs:enumeration value="hr_BA"/>
+      <xs:enumeration value="cs"/>
+      <xs:enumeration value="da"/>
+      <xs:enumeration value="nl"/>
+      <xs:enumeration value="nl_BE"/>
+      <xs:enumeration value="en"/>
+      <xs:enumeration value="en_GB"/>
+      <xs:enumeration value="en_AU"/>
+      <xs:enumeration value="en_CA"/>
+      <xs:enumeration value="en_NZ"/>
+      <xs:enumeration value="en_IE"/>
+      <xs:enumeration value="en_ZA"/>
+      <xs:enumeration value="en_JM"/>
+      <xs:enumeration value="en_CB"/>
+      <xs:enumeration value="en_BZ"/>
+      <xs:enumeration value="en_TT"/>
+      <xs:enumeration value="en_ZW"/>
+      <xs:enumeration value="en_PH"/>
+      <xs:enumeration value="et"/>
+      <xs:enumeration value="fo"/>
+      <xs:enumeration value="fa"/>
+      <xs:enumeration value="fi"/>
+      <xs:enumeration value="fr"/>
+      <xs:enumeration value="fr_BE"/>
+      <xs:enumeration value="fr_CA"/>
+      <xs:enumeration value="fr_CH"/>
+      <xs:enumeration value="fr_LU"/>
+      <xs:enumeration value="fr_MC"/>
+      <xs:enumeration value="gl"/>
+      <xs:enumeration value="de"/>
+      <xs:enumeration value="de_CH"/>
+      <xs:enumeration value="de_AT"/>
+      <xs:enumeration value="de_LU"/>
+      <xs:enumeration value="de_LI"/>
+      <xs:enumeration value="el"/>
+      <xs:enumeration value="he"/>
+      <xs:enumeration value="hu"/>
+      <xs:enumeration value="is"/>
+      <xs:enumeration value="id"/>
+      <xs:enumeration value="xh"/>
+      <xs:enumeration value="zu"/>
+      <xs:enumeration value="it"/>
+      <xs:enumeration value="it_CH"/>
+      <xs:enumeration value="ja"/>
+      <xs:enumeration value="ko"/>
+      <xs:enumeration value="ky"/>
+      <xs:enumeration value="lv"/>
+      <xs:enumeration value="lt"/>
+      <xs:enumeration value="mk"/>
+      <xs:enumeration value="ms_MY"/>
+      <xs:enumeration value="ms_BN"/>
+      <xs:enumeration value="mn"/>
+      <xs:enumeration value="nb"/>
+      <xs:enumeration value="nn"/>
+      <xs:enumeration value="pl"/>
+      <xs:enumeration value="pt_BR"/>
+      <xs:enumeration value="pt"/>
+      <xs:enumeration value="qu_BO"/>
+      <xs:enumeration value="qu_EC"/>
+      <xs:enumeration value="qu_PE"/>
+      <xs:enumeration value="ro"/>
+      <xs:enumeration value="ru"/>
+      <xs:enumeration value="se_NO_Northern"/>
+      <xs:enumeration value="se_SE_Northern"/>
+      <xs:enumeration value="se_FI_Northern"/>
+      <xs:enumeration value="se_NO_Lule"/>
+      <xs:enumeration value="se_SE_Lule"/>
+      <xs:enumeration value="se_NO_Southern"/>
+      <xs:enumeration value="se_SE_Southern"/>
+      <xs:enumeration value="se_FI_Skolt"/>
+      <xs:enumeration value="se_FI_Inari"/>
+      <xs:enumeration value="sr_SP_Cyrillic"/>
+      <xs:enumeration value="sr_BA_Cyrillic"/>
+      <xs:enumeration value="sr_SP_Latin"/>
+      <xs:enumeration value="sr_BA_Latin"/>
+      <xs:enumeration value="ns"/>
+      <xs:enumeration value="tn"/>
+      <xs:enumeration value="sk"/>
+      <xs:enumeration value="sl"/>
+      <xs:enumeration value="es_MX"/>
+      <xs:enumeration value="es"/>
+      <xs:enumeration value="es_GT"/>
+      <xs:enumeration value="es_CR"/>
+      <xs:enumeration value="es_PA"/>
+      <xs:enumeration value="es_DO"/>
+      <xs:enumeration value="es_VE"/>
+      <xs:enumeration value="es_CO"/>
+      <xs:enumeration value="es_PE"/>
+      <xs:enumeration value="es_AR"/>
+      <xs:enumeration value="es_EC"/>
+      <xs:enumeration value="es_CL"/>
+      <xs:enumeration value="es_UY"/>
+      <xs:enumeration value="es_PY"/>
+      <xs:enumeration value="es_BO"/>
+      <xs:enumeration value="es_SV"/>
+      <xs:enumeration value="es_HN"/>
+      <xs:enumeration value="es_NI"/>
+      <xs:enumeration value="es_PR"/>
+      <xs:enumeration value="sw"/>
+      <xs:enumeration value="sv"/>
+      <xs:enumeration value="sv_FI"/>
+      <xs:enumeration value="tt"/>
+      <xs:enumeration value="th"/>
+      <xs:enumeration value="tr"/>
+      <xs:enumeration value="uk"/>
+      <xs:enumeration value="ur"/>
+      <xs:enumeration value="ur_IN"/>
+      <xs:enumeration value="uz"/>
+      <xs:enumeration value="uz_UZ_Cyrillic"/>
+      <xs:enumeration value="vi"/>
+      <xs:enumeration value="cy"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- stringMultiType type -->
+  <xs:complexType name="stringMultiType">
+    <xs:attribute name="lang" type="LanguageType"/>
+    <xs:attribute name="value" type="xs:string"/>
+  </xs:complexType>
+  <!-- stringSingleType type -->
+  <xs:complexType name="stringSingleType">
+    <xs:attribute name="id" type="xs:string"/>
+    <xs:attribute name="value" type="xs:string"/>
+  </xs:complexType>
+  <!-- entryType type -->
+  <xs:complexType name="entryType">
+    <xs:sequence>
+      <xs:element name="STRING" type="stringMultiType" minOccurs="0"
+        maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string"/>
+  </xs:complexType>
+  <!-- dictionaryType -->
+  <xs:complexType name="dictionaryType">
+    <xs:sequence>
+      <xs:element name="ENTRY" type="entryType" minOccurs="0"
+        maxOccurs="unbounded"/>
+      <xs:element name="STRING" type="stringSingleType" minOccurs="0"
+        maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="type">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="singlelanguage|multilanguage"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="lang" type="LanguageType"/>
+    <xs:attribute name="ignore" type="xs:string"/>
+  </xs:complexType>
+  <!-- main element -->
+  <xs:element name="DICTIONARY" type="dictionaryType"/>
+</xs:schema>

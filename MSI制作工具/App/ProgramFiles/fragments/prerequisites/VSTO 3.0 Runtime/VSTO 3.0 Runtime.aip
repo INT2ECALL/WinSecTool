@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="A2A0_44B8_BA6B_24BAE1501A54" DisplayName="Visual Studio Tools for Office 3.0 Runtime" VersionMin="9.0"
+      SetupFileUrl="http://download.microsoft.com/download/c/9/3/c93c2e15-4f0d-4482-99a1-37d096a399a2/vstor30.exe"
+      Location="1" ExactSize="1988096" MD5="234e1b5cc23959f6fd4b018cf5ca0337"
+      NoUiComLine="/q"
+      Operator="1" Options="f" TargetName="VSTO 3.0 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="A2A0_44B8_BA6B_24BAE1501A54Install" Prereq="A2A0_44B8_BA6B_24BAE1501A54" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\VSTO Runtime Setup\v9.0.21022\Install" RefContent="M1"
+      Order="1" Property="PreReqSearch_A2A0_44B8_BA6B_24BAE1501A54"/>
+  </COMPONENT>
+</FRAGMENT>

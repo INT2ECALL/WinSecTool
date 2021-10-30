@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B7CAABC514E66A476112521C5C3B8" DisplayName=".NET Framework 3.5 SP1 Client Profile"
+      SetupFileUrl="http://download.microsoft.com/download/c/d/c/cdc0f321-4f72-4a08-9bac-082f3692ecd9/DotNetFx35Client.exe"
+      Location="1" ExactSize="267963920" MD5="038000f318a5b3e84e4fa592f22f4de0"
+      WinNTVersions="Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="xy" TargetName=".NET Framework 3.5 SP1"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B7CAABC514E66A476112521C5C3B8SP" Prereq="B7CAABC514E66A476112521C5C3B8" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\DotNetClient\v3.5\SP" RefContent="M1"
+      Order="1" Property="PreReqSearch_B7CAABC514E66A476112521C5C3B8"/>
+    <ROW SearchKey="B7CAABC514E66A476112521C5C3B8SP_1" Prereq="B7CAABC514E66A476112521C5C3B8" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5\SP" RefContent="M1"
+      Order="2" Property="PreReqSearch_1_B7CAABC514E66A476112521C5C3B8"/>
+    <ROW SearchKey="B7CAABC514E66A476112521C5C3B8Version" Prereq="B7CAABC514E66A476112521C5C3B8" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5\Version" VerMin="3.5.30729"
+      Order="3" Property="PreReqSearch_2_B7CAABC514E66A476112521C5C3B8"/>
+  </COMPONENT>
+</FRAGMENT>

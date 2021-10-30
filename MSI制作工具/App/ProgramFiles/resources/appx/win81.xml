@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <ai:info Id="PACKAGE" Required="yes" Content="no"/>
+
+  <ai:attributes>
+    <xmlns>
+      <ai:info Required="yes" Default="yes"/>
+
+      <ai:value>http://schemas.microsoft.com/appx/2010/manifest</ai:value>
+    </xmlns>
+    
+    <xmlns:m2>
+      <ai:info Required="yes" Default="yes"/>
+      
+      <ai:value>http://schemas.microsoft.com/appx/2013/manifest</ai:value>
+    </xmlns:m2>
+  </ai:attributes>
+
+  <Identity>
+    <ai:info Id="IDENTITY" Required="yes" Content="no"/>
+
+    <ai:attributes>
+      <Name>
+        <ai:info Required="yes" MinLength="3" MaxLength="50" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([-.A-Za-z0-9]+)"/>
+      </Name>
+
+      <ProcessorArchitecture>
+        <ai:info Required="no" Default="yes"/>
+
+        <ai:value>neutral</ai:value>
+        <ai:value>x86</ai:value>
+        <ai:value>x64</ai:value>
+        <ai:value>arm</ai:value>
+        <ai:value>arm64</ai:value>
+      </ProcessorArchitecture>
+
+      <Publisher>
+        <ai:info Required="yes" MinLength="1" MaxLength="8192" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND((CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|Description|PostalCode|POBox|Phone|X21Address|dnQualifier|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)(, ((CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|Description|PostalCode|POBox|Phone|X21Address|dnQualifier|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)))*)"/>
+      </Publisher>
+
+      <ResourceId>
+        <ai:info Required="no" MinLength="1" MaxLength="30" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([-.A-Za-z0-9]+)"/>
+      </ResourceId>
+
+      <Version>
+        <ai:info Required="yes" MinLength="1" MaxLength="32767" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND((0|[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])(\.(0|[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])){3})"/>
+      </Version>
+    </ai:attributes>
+  </Identity>
+
+  <Properties>
+    <ai:info Id="PROPERTIES" Required="yes" Content="no"/>
+
+    <Framework>
+      <ai:info Id="FRAMEWORK" Required="no" Content="yes"/>
+    </Framework>
+
+    <Description>
+      <ai:info Id="DESCRIPTION" Required="no" Content="yes" MinLength="1" MaxLength="2048" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^\x01-\x1f]+)"/>
+    </Description>
+
+    <DisplayName>
+      <ai:info Id="PROPERTIES_DISPLAY_NAME" Required="yes" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+    </DisplayName>
+
+    <Logo>
+      <ai:info Id="PROPERTIES_LOGO" Required="yes" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+    </Logo>
+
+    <PublisherDisplayName>
+      <ai:info Id="PUBLISHER_DISPLAY_NAME" Required="yes" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+    </PublisherDisplayName>
+
+    <ResourcePackage>
+      <ai:info Id="RESOURCE_PACKAGE" Required="no" Content="yes"/>
+    </ResourcePackage>
+  </Properties>
+
+  <Resources>
+    <ai:info Id="RESOURCES" Required="yes" Content="no"/>
+
+    <Resource>
+      <ai:info Id="RESOURCE" Required="yes" Content="no"/>
+
+      <ai:attributes>
+        <Language>
+          <ai:info Required="yes"/>
+        </Language>
+
+        <m2:DXFeatureLevel>
+          <ai:info Required="no"/>
+
+          <ai:value>dx9</ai:value>
+          <ai:value>dx10</ai:value>
+          <ai:value>dx11</ai:value>
+        </m2:DXFeatureLevel>
+
+        <m2:Scale>
+          <ai:info Required="no"/>
+
+          <ai:value>100</ai:value>
+          <ai:value>120</ai:value>
+          <ai:value>140</ai:value>
+          <ai:value>150</ai:value>
+          <ai:value>160</ai:value>
+          <ai:value>180</ai:value>
+          <ai:value>225</ai:value>
+        </m2:Scale>
+      </ai:attributes>
+    </Resource>
+  </Resources>
+
+  <Prerequisites>
+    <ai:info Id="PREREQUISITES" Required="yes" Content="no"/>
+
+    <OSMinVersion>
+      6.3.0
+      <ai:info Id="OS_MIN_VERSION" Required="yes" Content="yes" MinLength="1" MaxLength="32767" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND((0|[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])(\.(0|[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])){1,2})"/>
+    </OSMinVersion>
+
+    <OSMaxVersionTested>
+      6.3.0
+      <ai:info Id="OS_MAX_VERSION_TESTED" Required="yes" Content="yes" MinLength="1" MaxLength="32767" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND((0|[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])(\.(0|[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])){1,2})"/>
+    </OSMaxVersionTested>
+  </Prerequisites>
+
+  <Dependencies>
+    <ai:info Id="DEPENDENCIES" Required="no" Content="no"/>
+
+    <PackageDependency>
+      <ai:info Id="PACKAGE_DEPENDENCY" Required="no" Content="no"/>
+
+      <ai:attributes>
+        <MinVersion>
+          <ai:info Required="no" MinLength="1" MaxLength="32767" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND((0|[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])(\.(0|[1-9][0-9]{0,3}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])){3})"/>
+        </MinVersion>
+
+        <Name>
+          <ai:info Required="yes" MinLength="3" MaxLength="50" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([-.A-Za-z0-9]+)"/>
+        </Name>
+
+        <Publisher>
+          <ai:info Required="no" MinLength="1" MaxLength="8192" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND((CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)(, ((CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)))*)"/>
+        </Publisher>
+      </ai:attributes>
+    </PackageDependency>
+  </Dependencies>
+
+  <Capabilities>
+    <ai:info Id="CAPABILITIES" Required="no" Content="no"/>
+
+    <Capability>
+      <ai:info Id="CAPABILITY_NETWORK" Required="no" Content="no"/>
+
+      <ai:attributes>
+        <Name>
+          <ai:info Required="yes"/>
+
+          <ai:value>internetClient</ai:value>
+          <ai:value>internetClientServer</ai:value>
+          <ai:value>privateNetworkClientServer</ai:value>
+        </Name>
+      </ai:attributes>
+    </Capability>
+
+    <Capability>
+      <ai:info Id="CAPABILITY_MEDIA" Required="no" Content="no"/>
+
+      <ai:attributes>
+        <Name>
+          <ai:info Required="yes"/>
+
+          <ai:value>documentsLibrary</ai:value>
+          <ai:value>picturesLibrary</ai:value>
+          <ai:value>videosLibrary</ai:value>
+          <ai:value>musicLibrary</ai:value>
+          <ai:value>enterpriseAuthentication</ai:value>
+          <ai:value>sharedUserCertificates</ai:value>
+          <ai:value>removableStorage</ai:value>
+        </Name>
+      </ai:attributes>
+    </Capability>
+
+    <DeviceCapability>
+      <ai:info Id="DEVICE_CAPABILITY" Required="no" Content="no"/>
+
+      <ai:attributes>
+        <Name>
+          <ai:info Required="yes" MinLength="1" MaxLength="50" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND(([-.A-Za-z0-9]+)|([0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}))"/>
+
+          <ai:value>location</ai:value>
+          <ai:value>microphone</ai:value>
+          <ai:value>proximity</ai:value>
+          <ai:value>webcam</ai:value>
+        </Name>
+      </ai:attributes>
+    </DeviceCapability>
+  </Capabilities>
+
+  <Extensions>
+    <ai:info Id="EXTENSIONS" Required="no" Content="no"/>
+
+    <Extension>
+      <ai:info Id="EXTENSION" Required="no" Content="no"/>
+
+      <ai:attributes>
+        <Category>
+          <ai:info Required="yes"/>
+
+          <ai:value>windows.activatableClass.inProcessServer</ai:value>
+          <ai:value>windows.activatableClass.outOfProcessServer</ai:value>
+          <ai:value>windows.activatableClass.proxyStub</ai:value>
+          <ai:value>windows.certificates</ai:value>
+        </Category>
+      </ai:attributes>
+
+      <Certificates>
+        <ai:info Id="CERTIFICATES" Required="no" Content="no"/>
+
+        <Certificate>
+          <ai:info Id="CERTIFICATE" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <Content>
+              <ai:info Required="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))"/>
+            </Content>
+
+            <StoreName>
+              <ai:info Required="yes" MinLength="1" MaxLength="50" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)"/>
+            </StoreName>
+          </ai:attributes>
+        </Certificate>
+
+        <SelectionCriteria>
+          <ai:info Id="SELECTION_CRITERIA" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <AutoSelect>
+              <ai:info Required="no"/>
+            </AutoSelect>
+
+            <HardwareOnly>
+              <ai:info Required="no"/>
+            </HardwareOnly>
+          </ai:attributes>
+        </SelectionCriteria>
+
+        <TrustFlags>
+          <ai:info Id="TRUST_FLAGS" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <ExclusiveTrust>
+              <ai:info Required="yes"/>
+            </ExclusiveTrust>
+          </ai:attributes>
+        </TrustFlags>
+      </Certificates>
+
+      <InProcessServer>
+        <ai:info Id="IN_PROCESS_SERVER" Required="no" Content="no"/>
+
+        <ActivatableClass>
+          <ai:info Id="IN_PROCESS_ACTIVATABLE_CLASS" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <ActivatableClassId>
+              <ai:info Required="yes" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(([^.]+)(\.[^.]+)*)"/>
+            </ActivatableClassId>
+
+            <ThreadingModel>
+              <ai:info Required="yes"/>
+
+              <ai:value>both</ai:value>
+              <ai:value>STA</ai:value>
+              <ai:value>MTA</ai:value>
+            </ThreadingModel>
+          </ai:attributes>
+
+          <ActivatableClassAttribute>
+            <ai:info Id="IN_PROCESS_ACTIVATABLE_CLASS_ATTRIBUTE" Required="no" Content="no"/>
+
+            <ai:attributes>
+              <Name>
+                <ai:info Required="yes" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND(([A-Za-z][A-Za-z0-9]*)(\.[A-Za-z][A-Za-z0-9]*)*)"/>
+              </Name>
+
+              <Type>
+                <ai:info Required="yes"/>
+
+                <ai:value>string</ai:value>
+                <ai:value>integer</ai:value>
+              </Type>
+
+              <Value>
+                <ai:info Required="yes" MinLength="1" MaxLength="255"/>
+              </Value>
+            </ai:attributes>
+          </ActivatableClassAttribute>
+        </ActivatableClass>
+
+        <Path>
+          <ai:info Id="IN_PROCESS_PATH" Required="no" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))"/>
+        </Path>
+      </InProcessServer>
+
+      <OutOfProcessServer>
+        <ai:info Id="OUT_OF_PROCESS_SERVER" Required="no" Content="no"/>
+
+        <ai:attributes>
+          <ServerName>
+            <ai:info Required="yes" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND(([A-Za-z][A-Za-z0-9]*)(\.[A-Za-z][A-Za-z0-9]*)*)"/>
+          </ServerName>
+        </ai:attributes>
+
+        <ActivatableClass>
+          <ai:info Id="OUT_OF_PROCESS_ACTIVATABLE_CLASS" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <ActivatableClassId>
+              <ai:info Required="yes" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(([^.]+)(\.[^.]+)*)"/>
+            </ActivatableClassId>
+          </ai:attributes>
+
+          <ActivatableClassAttribute>
+            <ai:info Id="OUT_OF_PROCESS_ACTIVATABLE_CLASS_ATTRIBUTE" Required="no" Content="no"/>
+
+            <ai:attributes>
+              <Name>
+                <ai:info Required="yes" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND(([A-Za-z][A-Za-z0-9]*)(\.[A-Za-z][A-Za-z0-9]*)*)"/>
+              </Name>
+
+              <Type>
+                <ai:info Required="yes"/>
+
+                <ai:value>string</ai:value>
+                <ai:value>integer</ai:value>
+              </Type>
+
+              <Value>
+                <ai:info Required="yes" MinLength="1" MaxLength="255"/>
+              </Value>
+            </ai:attributes>
+          </ActivatableClassAttribute>
+        </ActivatableClass>
+
+        <Arguments>
+          <ai:info Id="ARGUMENTS" Required="no" Content="yes" MinLength="1" MaxLength="32767" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+        </Arguments>
+
+        <Instancing>
+          <ai:info Id="INSTANCING" Required="no" Content="yes" Pattern="singleInstance|multipleInstances"/>
+        </Instancing>
+
+        <Path>
+          <ai:info Id="OUT_OF_PROCESS_SERVER_PATH" Required="no" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.(exe))"/>
+        </Path>
+      </OutOfProcessServer>
+
+      <ProxyStub>
+        <ai:info Id="PROXY_STUB" Required="no" Content="no"/>
+
+        <ai:attributes>
+          <ClassId>
+            <ai:info Required="yes" MinLength="1" MaxLength="32767" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})"/>
+          </ClassId>
+        </ai:attributes>
+
+        <Interface>
+          <ai:info Id="INTERFACE" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <InterfaceId>
+              <ai:info Required="yes" MinLength="1" MaxLength="32767" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})"/>
+            </InterfaceId>
+
+            <Name>
+              <ai:info Required="yes" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([_.A-Za-z0-9`&lt;&gt;]+)"/>
+            </Name>
+          </ai:attributes>
+        </Interface>
+
+        <Path>
+          <ai:info Id="PROXY_PATH" Required="no" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))"/>
+        </Path>
+      </ProxyStub>
+    </Extension>
+  </Extensions>
+
+  <Applications>
+    <ai:info Id="APPLICATIONS" Required="yes" Content="no"/>
+
+    <Application>
+      <ai:info Id="APPLICATION" Required="yes" Content="no"/>
+
+      <ai:attributes>
+        <EntryPoint>
+          <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+        </EntryPoint>
+
+        <Executable>
+          <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.(exe))"/>
+        </Executable>
+
+        <Id>
+          <ai:info Required="yes" MinLength="1" MaxLength="64" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND(([A-Za-z][A-Za-z0-9]*)(\.[A-Za-z][A-Za-z0-9]*)*)"/>
+        </Id>
+
+        <StartPage>
+          <ai:info Required="no" MinLength="1" MaxLength="2084" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND(([Hh][Tt][Tt][Pp]://.+)|([Hh][Tt][Tt][Pp][Ss]://.+)|([Mm][Ss]-[Aa][Pp][Pp][Xx]-[Ww][Ee][Bb]://.+))"/>
+        </StartPage>
+      </ai:attributes>
+
+      <m2:VisualElements>
+        <ai:info Id="VISUAL_ELEMENTS" Required="yes" Content="no"/>
+
+        <ai:attributes>
+          <BackgroundColor>
+            <ai:info Required="yes" Pattern="(#[\da-fA-F]{6})|(aliceBlue|antiqueWhite|aqua|aquamarine|azure|beige|bisque|black|blanchedAlmond|blue|blueViolet|brown|burlyWood)|(cadetBlue|chartreuse|chocolate|coral|cornflowerBlue|cornsilk|crimson|cyan|darkBlue|darkCyan|darkGoldenrod|darkGray)|(darkGreen|darkKhaki|darkMagenta|darkOliveGreen|darkOrange|darkOrchid|darkRed|darkSalmon|darkSeaGreen|darkSlateBlue)|(darkSlateGray|darkTurquoise|darkViolet|deepPink|deepSkyBlue|dimGray|dodgerBlue|firebrick|floralWhite|forestGreen)|(fuchsia|gainsboro|ghostWhite|gold|goldenrod|gray|green|greenYellow|honeydew|hotPink|indianRed|indigo|ivory)|(khaki|lavender|lavenderBlush|lawnGreen|lemonChiffon|lightBlue|lightCoral|lightCyan|lightGoldenrodYellow|lightGreen)|(lightGray|lightPink|lightSalmon|lightSeaGreen|lightSkyBlue|lightSlateGray|lightSteelBlue|lightYellow|lime|limeGreen)|(linen|magenta|maroon|mediumAquamarine|mediumBlue|mediumOrchid|mediumPurple|mediumSeaGreen|mediumSlateBlue|mediumSpringGreen)|(mediumTurquoise|mediumVioletRed|midnightBlue|mintCream|mistyRose|moccasin|navajoWhite|navy|oldLace|olive|oliveDrab)|(orange|orangeRed|orchid|paleGoldenrod|paleGreen|paleTurquoise|paleVioletRed|papayaWhip|peachPuff|peru|pink|plum)|(powderBlue|purple|red|rosyBrown|royalBlue|saddleBrown|salmon|sandyBrown|seaGreen|seaShell|sienna|silver|skyBlue)|(slateBlue|slateGray|snow|springGreen|steelBlue|tan|teal|thistle|tomato|transparent|turquoise|violet|wheat|white)|(whiteSmoke|yellow|yellowGreen)"/>
+          </BackgroundColor>
+
+          <Description>
+            <ai:info Required="yes" MinLength="1" MaxLength="2048" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^\x01-\x1f]+)"/>
+          </Description>
+
+          <DisplayName>
+            <ai:info Required="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+          </DisplayName>
+
+          <ForegroundText>
+            <ai:info Required="yes" Default="yes"/>
+
+            <ai:value>light</ai:value>
+            <ai:value>dark</ai:value>
+          </ForegroundText>
+
+          <Square150x150Logo>
+            <ai:info Required="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+          </Square150x150Logo>
+
+          <Square30x30Logo>
+            <ai:info Required="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+          </Square30x30Logo>
+
+          <ToastCapable>
+            <ai:info Required="no"/>
+          </ToastCapable>
+        </ai:attributes>
+
+        <m2:ApplicationView>
+          <ai:info Id="APPLICATION_VIEW" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <MinWidth>
+              <ai:info Required="yes" Default="yes"/>
+        
+              <ai:value>default</ai:value>
+              <ai:value>width320</ai:value>
+              <ai:value>width500</ai:value>
+            </MinWidth>
+          </ai:attributes>
+        </m2:ApplicationView>
+
+        <m2:DefaultTile>
+          <ai:info Id="DEFAULT_TILE" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <DefaultSize>
+              <ai:info Required="no"/>
+
+              <ai:value>square150x150Logo</ai:value>
+              <ai:value>wide310x150Logo</ai:value>
+            </DefaultSize>
+
+            <ShortName>
+              <ai:info Required="no" MinLength="1" MaxLength="40" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+            </ShortName>
+
+            <Square310x310Logo>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+            </Square310x310Logo>
+
+            <Square70x70Logo>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+            </Square70x70Logo>
+
+            <Wide310x150Logo>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+            </Wide310x150Logo>
+          </ai:attributes>
+
+          <m2:ShowNameOnTiles>
+            <ai:info Id="SHOW_NAME_ON_TILES" Required="no" Content="no"/>
+
+            <m2:ShowOn>
+              <ai:info Id="SHOW_ON" Required="no" Content="no"/>
+
+              <ai:attributes>
+                <Tile>
+                  <ai:info Required="yes"/>
+
+                  <ai:value>square150x150Logo</ai:value>
+                  <ai:value>wide310x150Logo</ai:value>
+                  <ai:value>square310x310Logo</ai:value>
+                </Tile>
+              </ai:attributes>
+            </m2:ShowOn>
+          </m2:ShowNameOnTiles>
+
+          <m2:TileUpdate>
+            <ai:info Id="TILE_UPDATE" Required="no" Content="no"/>
+
+            <ai:attributes>
+              <Recurrence>
+                <ai:info Required="yes"/>
+
+                <ai:value>halfHour</ai:value>
+                <ai:value>hour</ai:value>
+                <ai:value>sixHours</ai:value>
+                <ai:value>twelveHours</ai:value>
+                <ai:value>daily</ai:value>
+              </Recurrence>
+
+              <UriTemplate>
+                <ai:info Required="yes" MinLength="1" MaxLength="2084" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND(([Hh][Tt][Tt][Pp]://.+)|([Hh][Tt][Tt][Pp][Ss]://.+))"/>
+              </UriTemplate>
+            </ai:attributes>
+          </m2:TileUpdate>
+        </m2:DefaultTile>
+
+        <m2:InitialRotationPreference>
+          <ai:info Id="INITIAL_ROTATION_PREFERENCE" Required="no" Content="no"/>
+
+          <m2:Rotation>
+            <ai:info Id="ROTATION" Required="no" Content="no"/>
+
+            <ai:attributes>
+              <Preference>
+                <ai:info Required="yes"/>
+
+                <ai:value>portrait</ai:value>
+                <ai:value>landscape</ai:value>
+                <ai:value>portraitFlipped</ai:value>
+                <ai:value>landscapeFlipped</ai:value>
+              </Preference>
+            </ai:attributes>
+          </m2:Rotation>
+        </m2:InitialRotationPreference>
+
+        <m2:LockScreen>
+          <ai:info Id="LOCK_SCREEN" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <BadgeLogo>
+              <ai:info Required="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+            </BadgeLogo>
+
+            <Notification>
+              <ai:info Required="yes"/>
+
+              <ai:value>badge</ai:value>
+              <ai:value>badgeAndTileText</ai:value>
+            </Notification>
+          </ai:attributes>
+        </m2:LockScreen>
+
+        <m2:SplashScreen>
+          <ai:info Id="SPLASH_SCREEN" Required="yes" Content="no"/>
+
+          <ai:attributes>
+            <BackgroundColor>
+              <ai:info Required="no" Pattern="(#[\da-fA-F]{6})|(aliceBlue|antiqueWhite|aqua|aquamarine|azure|beige|bisque|black|blanchedAlmond|blue|blueViolet|brown|burlyWood)|(cadetBlue|chartreuse|chocolate|coral|cornflowerBlue|cornsilk|crimson|cyan|darkBlue|darkCyan|darkGoldenrod|darkGray)|(darkGreen|darkKhaki|darkMagenta|darkOliveGreen|darkOrange|darkOrchid|darkRed|darkSalmon|darkSeaGreen|darkSlateBlue)|(darkSlateGray|darkTurquoise|darkViolet|deepPink|deepSkyBlue|dimGray|dodgerBlue|firebrick|floralWhite|forestGreen)|(fuchsia|gainsboro|ghostWhite|gold|goldenrod|gray|green|greenYellow|honeydew|hotPink|indianRed|indigo|ivory)|(khaki|lavender|lavenderBlush|lawnGreen|lemonChiffon|lightBlue|lightCoral|lightCyan|lightGoldenrodYellow|lightGreen)|(lightGray|lightPink|lightSalmon|lightSeaGreen|lightSkyBlue|lightSlateGray|lightSteelBlue|lightYellow|lime|limeGreen)|(linen|magenta|maroon|mediumAquamarine|mediumBlue|mediumOrchid|mediumPurple|mediumSeaGreen|mediumSlateBlue|mediumSpringGreen)|(mediumTurquoise|mediumVioletRed|midnightBlue|mintCream|mistyRose|moccasin|navajoWhite|navy|oldLace|olive|oliveDrab)|(orange|orangeRed|orchid|paleGoldenrod|paleGreen|paleTurquoise|paleVioletRed|papayaWhip|peachPuff|peru|pink|plum)|(powderBlue|purple|red|rosyBrown|royalBlue|saddleBrown|salmon|sandyBrown|seaGreen|seaShell|sienna|silver|skyBlue)|(slateBlue|slateGray|snow|springGreen|steelBlue|tan|teal|thistle|tomato|transparent|turquoise|violet|wheat|white)|(whiteSmoke|yellow|yellowGreen)"/>
+            </BackgroundColor>
+
+            <Image>
+              <ai:info Required="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+            </Image>
+          </ai:attributes>
+        </m2:SplashScreen>
+      </m2:VisualElements>
+
+      <ApplicationContentUriRules>
+        <ai:info Id="APP_CONTENT_URI_RULES" Required="no" Content="no"/>
+
+        <Rule>
+          <ai:info Id="RULE" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <Match>
+              <ai:info Required="yes" MinLength="1" MaxLength="2084" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND(([Hh][Tt][Tt][Pp]://.+)|([Hh][Tt][Tt][Pp][Ss]://.+)|([Mm][Ss]-[Aa][Pp][Pp][Xx]-[Ww][Ee][Bb]://.+))"/>
+            </Match>
+
+            <Type>
+              <ai:info Required="yes"/>
+
+              <ai:value>include</ai:value>
+              <ai:value>exclude</ai:value>
+            </Type>
+          </ai:attributes>
+        </Rule>
+      </ApplicationContentUriRules>
+
+      <Extensions>
+        <ai:info Id="APP_EXTENSIONS" Required="no" Content="no"/>
+
+        <Extension>
+          <ai:info Id="APP_EXTENSION" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <Category>
+              <ai:info Required="yes"/>
+
+              <ai:value>windows.backgroundTasks</ai:value>
+              <ai:value>windows.contactPicker</ai:value>
+            </Category>
+
+            <EntryPoint>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+            </EntryPoint>
+
+            <Executable>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.(exe))"/>
+            </Executable>
+
+            <RuntimeType>
+              <ai:info Required="no" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(([^.]+)(\.[^.]+)*)"/>
+            </RuntimeType>
+
+            <StartPage>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))"/>
+            </StartPage>
+          </ai:attributes>
+
+          <BackgroundTasks>
+            <ai:info Id="BACKGROUND_TASKS" Required="no" Content="no"/>
+
+            <ai:attributes>
+              <ServerName>
+                <ai:info Required="no" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND(([A-Za-z][A-Za-z0-9]*)(\.[A-Za-z][A-Za-z0-9]*)*)"/>
+              </ServerName>
+            </ai:attributes>
+
+            <Task>
+              <ai:info Id="TASK" Required="no" Content="no"/>
+
+              <ai:attributes>
+                <Type>
+                  <ai:info Required="yes"/>
+
+                  <ai:value>audio</ai:value>
+                  <ai:value>controlChannel</ai:value>
+                  <ai:value>systemEvent</ai:value>
+                  <ai:value>timer</ai:value>
+                  <ai:value>pushNotification</ai:value>
+                </Type>
+              </ai:attributes>
+            </Task>
+
+            <m2:Task>
+              <ai:info Id="TASK_EXT" Required="no" Content="no"/>
+
+              <ai:attributes>
+                <Type>
+                  <ai:info Required="yes"/>
+
+                  <ai:value>location</ai:value>
+                  <ai:value>deviceUse</ai:value>
+                  <ai:value>deviceServicing</ai:value>
+                </Type>
+              </ai:attributes>
+            </m2:Task>
+          </BackgroundTasks>
+        </Extension>
+
+        <Extension>
+          <ai:info Id="APP_EXTENSION_COMMON" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <Category>
+              <ai:info Required="yes"/>
+
+              <ai:value>windows.fileTypeAssociation</ai:value>
+              <ai:value>windows.protocol</ai:value>
+              <ai:value>windows.autoPlayContent</ai:value>
+              <ai:value>windows.autoPlayDevice</ai:value>
+              <ai:value>windows.shareTarget</ai:value>
+              <ai:value>windows.search</ai:value>
+              <ai:value>windows.fileOpenPicker</ai:value>
+              <ai:value>windows.fileSavePicker</ai:value>
+              <ai:value>windows.cachedFileUpdater</ai:value>
+              <ai:value>windows.cameraSettings</ai:value>
+              <ai:value>windows.accountPictureProvider</ai:value>
+              <ai:value>windows.printTaskSettings</ai:value>
+            </Category>
+
+            <EntryPoint>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+            </EntryPoint>
+
+            <Executable>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.(exe))"/>
+            </Executable>
+
+            <RuntimeType>
+              <ai:info Required="no" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(([^.]+)(\.[^.]+)*)"/>
+            </RuntimeType>
+
+            <StartPage>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))"/>
+            </StartPage>
+          </ai:attributes>
+
+          <AutoPlayContent>
+            <ai:info Id="AUTOPLAY_CONTENT" Required="no" Content="no"/>
+
+            <LaunchAction>
+              <ai:info Id="CONTENT_LAUNCH_ACTION" Required="no" Content="no"/>
+
+              <ai:attributes>
+                <ActionDisplayName>
+                  <ai:info Required="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+                </ActionDisplayName>
+
+                <ContentEvent>
+                  <ai:info Required="yes" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^\\].*)"/>
+                </ContentEvent>
+
+                <Verb>
+                  <ai:info Required="yes" MinLength="1" MaxLength="64" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([-. A-Za-z0-9]+)"/>
+                </Verb>
+              </ai:attributes>
+            </LaunchAction>
+          </AutoPlayContent>
+
+          <AutoPlayDevice>
+            <ai:info Id="AUTOPLAY_DEVICE" Required="no" Content="no"/>
+
+            <LaunchAction>
+              <ai:info Id="DEVICE_LAUNCH_ACTION" Required="no" Content="no"/>
+
+              <ai:attributes>
+                <ActionDisplayName>
+                  <ai:info Required="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+                </ActionDisplayName>
+
+                <DeviceEvent>
+                  <ai:info Required="yes" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^\\].*)"/>
+                </DeviceEvent>
+
+                <Verb>
+                  <ai:info Required="yes" MinLength="1" MaxLength="64" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([-. A-Za-z0-9]+)"/>
+                </Verb>
+              </ai:attributes>
+            </LaunchAction>
+          </AutoPlayDevice>
+
+          <FileOpenPicker>
+            <ai:info Id="FILE_OPEN_PICKER" Required="no" Content="no"/>
+
+            <SupportedFileTypes>
+              <ai:info Id="OPEN_SUPPORTED_FILE_TYPES" Required="no" Content="no"/>
+
+              <FileType>
+                <ai:info Id="OPEN_FILE_TYPE" Required="no" Content="yes" MinLength="1" MaxLength="64" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(\.[^.\\]+)"/>
+              </FileType>
+
+              <SupportsAnyFileType>
+                <ai:info Id="OPEN_SUPPORTS_ANY_FILE_TYPE" Required="no" Content="no"/>
+              </SupportsAnyFileType>
+            </SupportedFileTypes>
+          </FileOpenPicker>
+
+          <FileSavePicker>
+            <ai:info Id="FILE_SAVE_PICKER" Required="no" Content="no"/>
+
+            <SupportedFileTypes>
+              <ai:info Id="SAVE_SUPPORTED_FILE_TYPES" Required="no" Content="no"/>
+
+              <FileType>
+                <ai:info Id="SAVE_FILE_TYPE" Required="no" Content="yes" MinLength="1" MaxLength="64" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(\.[^.\\]+)"/>
+              </FileType>
+
+              <SupportsAnyFileType>
+                <ai:info Id="SAVE_SUPPORTS_ANY_FILE_TYPE" Required="no" Content="no"/>
+              </SupportsAnyFileType>
+            </SupportedFileTypes>
+          </FileSavePicker>
+
+          <FileTypeAssociation>
+            <ai:info Id="FILE_TYPE_ASSOCIATION" Required="no" Content="no"/>
+
+            <ai:attributes>
+              <Name>
+                <ai:info Required="yes" MinLength="1" MaxLength="100" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([-_.a-z0-9]+)"/>
+              </Name>
+
+              <m2:DesiredView>
+                <ai:info Required="no"/>
+
+                <ai:value>default</ai:value>
+                <ai:value>useLess</ai:value>
+                <ai:value>useHalf</ai:value>
+                <ai:value>useMore</ai:value>
+                <ai:value>useMinimum</ai:value>
+              </m2:DesiredView>
+            </ai:attributes>
+
+            <DisplayName>
+              <ai:info Id="FILE_DISPLAY_NAME" Required="no" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+            </DisplayName>
+
+            <EditFlags>
+              <ai:info Id="EDIT_FLAGS" Required="no" Content="no"/>
+
+              <ai:attributes>
+                <AlwaysUnsafe>
+                  <ai:info Required="no"/>
+                </AlwaysUnsafe>
+
+                <OpenIsSafe>
+                  <ai:info Required="no"/>
+                </OpenIsSafe>
+              </ai:attributes>
+            </EditFlags>
+
+            <InfoTip>
+              <ai:info Id="INFO_TIP" Required="no" Content="yes" MinLength="1" MaxLength="1024" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+            </InfoTip>
+
+            <Logo>
+              <ai:info Id="FILE_LOGO" Required="no" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+            </Logo>
+
+            <SupportedFileTypes>
+              <ai:info Id="ASSOCIATION_SUPPORTED_FILE_TYPES" Required="no" Content="no"/>
+
+              <FileType>
+                <ai:info Id="ASSOCIATION_FILE_TYPE" Required="no" Content="yes" MinLength="1" MaxLength="64" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(\.[^.\\]+)"/>
+
+                <ai:attributes>
+                  <ContentType>
+                    <ai:info Required="no" MinLength="1" MaxLength="32767" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([!#$%&amp;'*+-.^_`|~0-9a-z/]*)AI_REGEX_AND([^/]{1,127}/[^/]{1,127})"/>
+                  </ContentType>
+                </ai:attributes>
+              </FileType>
+            </SupportedFileTypes>
+          </FileTypeAssociation>
+
+          <Protocol>
+            <ai:info Id="PROTOCOL" Required="no" Content="no"/>
+
+            <ai:attributes>
+              <Name>
+                <ai:info Required="yes" MinLength="2" MaxLength="39" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([a-z][-a-z0-9\.\+]*)"/>
+              </Name>
+
+             <m2:DesiredView>
+               <ai:info Required="no"/>
+
+                <ai:value>default</ai:value>
+                <ai:value>useLess</ai:value>
+                <ai:value>useHalf</ai:value>
+                <ai:value>useMore</ai:value>
+                <ai:value>useMinimum</ai:value>
+              </m2:DesiredView>
+            </ai:attributes>
+
+            <DisplayName>
+              <ai:info Id="PROTOCOL_DISPLAY_NAME" Required="no" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+            </DisplayName>
+
+            <Logo>
+              <ai:info Id="PROTOCOL_LOGO" Required="no" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.((jpg)|(png)|(jpeg)))"/>
+            </Logo>
+          </Protocol>
+
+          <ShareTarget>
+            <ai:info Id="SHARE_TARGET" Required="no" Content="no"/>
+
+            <ai:attributes>
+              <m2:Description>
+                <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^\x01-\x1f]+)"/>
+              </m2:Description>
+            </ai:attributes>
+
+            <DataFormat>
+              <ai:info Id="DATA_FORMAT" Required="no" Content="yes" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+            </DataFormat>
+
+            <SupportedFileTypes>
+              <ai:info Id="SUPPORTED_FILE_TYPES" Required="no" Content="no"/>
+
+              <FileType>
+                <ai:info Id="FILE_TYPE" Required="no" Content="yes" MinLength="1" MaxLength="64" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(\.[^.\\]+)"/>
+              </FileType>
+
+              <SupportsAnyFileType>
+                <ai:info Id="SUPPORTS_ANY_FILE_TYPE" Required="no" Content="no"/>
+              </SupportsAnyFileType>
+            </SupportedFileTypes>
+          </ShareTarget>
+        </Extension>
+
+        <m2:Extension>
+          <ai:info Id="APP_EXTENSION_COMMON_EXT" Required="no" Content="no"/>
+
+          <ai:attributes>
+            <Category>
+              <ai:info Required="yes"/>
+
+              <ai:value>windows.lockScreenCall</ai:value>
+              <ai:value>windows.appointmentsProvider</ai:value>
+              <ai:value>windows.alarm</ai:value>
+              <ai:value>windows.contact</ai:value>
+            </Category>
+
+            <EntryPoint>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+            </EntryPoint>
+
+            <Executable>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.(exe))"/>
+            </Executable>
+
+            <RuntimeType>
+              <ai:info Required="no" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(([^.]+)(\.[^.]+)*)"/>
+            </RuntimeType>
+
+            <StartPage>
+              <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))"/>
+            </StartPage>
+          </ai:attributes>
+
+          <m2:AppointmentsProvider>
+            <ai:info Id="APPOINTMENTS_PROVIDER" Required="no" Content="no"/>
+
+            <m2:AppointmentsProviderLaunchActions>
+              <ai:info Id="APPOINTMENTS_PROVIDER_LAUNCH_ACTIONS" Required="no" Content="no"/>
+
+              <ai:attributes>
+                <DesiredView>
+                  <ai:info Required="no"/>
+
+                  <ai:value>default</ai:value>
+                  <ai:value>useLess</ai:value>
+                  <ai:value>useHalf</ai:value>
+                  <ai:value>useMore</ai:value>
+                  <ai:value>useMinimum</ai:value>
+                </DesiredView>
+              </ai:attributes>
+
+              <m2:LaunchAction>
+                <ai:info Id="APPOINTMENT_PROVIDER_LAUNCH_ACTION" Required="no" Content="no"/>
+
+                <ai:attributes>
+                  <DesiredView>
+                    <ai:info Required="no"/>
+
+                    <ai:value>default</ai:value>
+                    <ai:value>useLess</ai:value>
+                    <ai:value>useHalf</ai:value>
+                    <ai:value>useMore</ai:value>
+                    <ai:value>useMinimum</ai:value>
+                  </DesiredView>
+
+                  <EntryPoint>
+                    <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))"/>
+                  </EntryPoint>
+
+                  <Executable>
+                    <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))AI_REGEX_AND(.+\.(exe))"/>
+                  </Executable>
+
+                  <RuntimeType>
+                    <ai:info Required="no" MinLength="1" MaxLength="255" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND(([^.]+)(\.[^.]+)*)"/>
+                  </RuntimeType>
+
+                  <StartPage>
+                    <ai:info Required="no" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([^&lt;&gt;&quot;:%\|\?\*\x01-\x1f]+)AI_REGEX_AND((([^/\\]*[^./\\]+)(\\[^/\\]*[^./\\]+)*)|(([^/\\]*[^./\\]+)(/[^/\\]*[^./\\]+)*))"/>
+                  </StartPage>
+
+                  <Verb>
+                    <ai:info Required="yes"/>
+
+                    <ai:value>addAppointment</ai:value>
+                    <ai:value>removeAppointment</ai:value>
+                    <ai:value>replaceAppointment</ai:value>
+                    <ai:value>showTimeFrame</ai:value>
+                  </Verb>
+                </ai:attributes>
+              </m2:LaunchAction>
+            </m2:AppointmentsProviderLaunchActions>
+          </m2:AppointmentsProvider>
+
+          <m2:Contact>
+            <ai:info Id="CONTACT" Required="no" Content="no"/>
+
+            <m2:ContactLaunchActions>
+              <ai:info Id="CONTACT_LAUNCH_ACTIONS" Required="no" Content="no"/>
+
+              <ai:attributes>
+                <DesiredView>
+                  <ai:info Required="no"/>
+
+                  <ai:value>default</ai:value>
+                  <ai:value>useLess</ai:value>
+                  <ai:value>useHalf</ai:value>
+                  <ai:value>useMore</ai:value>
+                  <ai:value>useMinimum</ai:value>
+                </DesiredView>
+              </ai:attributes>
+
+              <m2:LaunchAction>
+                <ai:info Id="CONTACT_LAUNCH_ACTION" Required="no" Content="no"/>
+
+                <ai:attributes>
+                  <DesiredView>
+                    <ai:info Required="no"/>
+
+                    <ai:value>default</ai:value>
+                    <ai:value>useLess</ai:value>
+                    <ai:value>useHalf</ai:value>
+                    <ai:value>useMore</ai:value>
+                    <ai:value>useMinimum</ai:value>
+                  </DesiredView>
+
+                  <Verb>
+                    <ai:info Required="yes"/>
+
+                    <ai:value>call</ai:value>
+                    <ai:value>map</ai:value>
+                    <ai:value>message</ai:value>
+                    <ai:value>post</ai:value>
+                    <ai:value>videoCall</ai:value>
+                  </Verb>
+                </ai:attributes>
+
+                <m2:ServiceId>
+                  <ai:info Id="SERVICE_ID" Required="no" Content="yes" MinLength="1" MaxLength="256" Pattern="([^\s]+|([^\s].*[^\s]))AI_REGEX_AND([-.a-z0-9]+)"/>
+                </m2:ServiceId>
+              </m2:LaunchAction>
+            </m2:ContactLaunchActions>
+          </m2:Contact>
+        </m2:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+</Package>

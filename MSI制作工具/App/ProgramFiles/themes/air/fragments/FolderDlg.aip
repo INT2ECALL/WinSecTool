@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="folderlogoicon" SourcePath="&lt;AI_RES_COLOR&gt;FolderLogo.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="FolderLogoIcon" Value="folderlogoicon" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="FolderDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="304" Attributes="1" Text="[Background]" Order="100"/>
+    <ROW Dialog_="FolderDlg" Control="Next" Type="ImageButton" X="246" Y="277" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="200" TextLocId="-" ExtDataLocId="-" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Next]"/>
+    <ROW Dialog_="FolderDlg" Control="Cancel" Type="ImageButton" X="306" Y="277" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="300" TextLocId="-" ExtDataLocId="-" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]"/>
+    <ROW Dialog_="FolderDlg" Control="FolderLabel" Type="Text" X="35" Y="114" Width="315" Height="12" Attributes="65539" Order="400" TextLocId="Control.Text.FolderDlg#FolderLabel" HelpLocId="Control.Help.FolderDlg#FolderLabel"/>
+    <ROW Dialog_="FolderDlg" Control="FolderEdit" Type="PathEdit" X="35" Y="126" Width="248" Height="18" Attributes="7" Property="APPDIR" Order="500" HelpLocId="Control.Help.FolderDlg#FolderEdit"/>
+    <ROW Dialog_="FolderDlg" Control="Browse" Type="ImageButton" X="290" Y="125" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="600" Help="|" TextLocId="-" ExtDataLocId="-" HelpLocId="Control.Help.FolderDlg#Browse" ExtType="ImageButton" ExtData="[ButtonText_Browse]"/>
+    <ROW Dialog_="FolderDlg" Control="Back" Type="ImageButton" X="0" Y="2" Width="22" Height="22" Attributes="3" Text="[BackButton]" Order="700" TextLocId="-" ExtDataLocId="-" HelpLocId="Air.Control.Help#Back" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Back]"/>
+    <ROW Dialog_="FolderDlg" Control="TitleIcon" Type="Icon" X="27" Y="5" Width="16" Height="16" Attributes="3145729" Text="[FolderLogoIcon]" Order="800"/>
+    <ROW Dialog_="FolderDlg" Control="Title" Type="Text" X="46" Y="7" Width="304" Height="15" Attributes="196611" TextStyle="Title" Order="900" TextLocId="Air.Control.Text.WelcomeDlg#Title"/>
+    <ROW Dialog_="FolderDlg" Control="SubTitle" Type="Text" X="25" Y="45" Width="315" Height="15" Attributes="196611" TextStyle="SubTitle" Order="1000" TextLocId="Air.Control.Text.FolderDlg#SubTitle"/>
+    <ROW Dialog_="FolderDlg" Control="TotalSpaceText" Type="Text" X="220" Y="194" Width="120" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceRequired" Order="1100" TextLocId="Azure.Control.Text.FolderDlg#TotalSpaceText"/>
+    <ROW Dialog_="FolderDlg" Control="AvailableSpaceText" Type="Text" X="220" Y="205" Width="120" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceAvailable" Order="1200" TextLocId="Azure.Control.Text.FolderDlg#AvailableSpaceText"/>
+    <ROW Dialog_="FolderDlg" Control="RemainingSpaceText" Type="Text" X="220" Y="216" Width="120" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceRemaining" Order="1300" TextLocId="Azure.Control.Text.FolderDlg#RemainingSpaceText"/>
+    <ROW Dialog_="FolderDlg" Control="TotalSpaceLabel" Type="Text" X="35" Y="193" Width="160" Height="11" Attributes="196611" Property="TOTAL_SPACE_LABEL_PROP" Order="1400" TextLocId="Azure.Control.Text.FolderDlg#TotalSpaceLabel"/>
+    <ROW Dialog_="FolderDlg" Control="AvailableSpaceLabel" Type="Text" X="35" Y="204" Width="160" Height="11" Attributes="196611" Property="AVAILABLE_SPACE_LABEL_PROP" Order="1500" TextLocId="Azure.Control.Text.FolderDlg#AvailableSpaceLabel"/>
+    <ROW Dialog_="FolderDlg" Control="RemainingSpaceLabel" Type="Text" X="35" Y="215" Width="160" Height="11" Attributes="196611" Property="REMAINING_SPACE_LABEL_PROP" Order="1600" TextLocId="Azure.Control.Text.FolderDlg#RemainingSpaceLabel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="FolderDlg" Control_="Title" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="FolderDlg" Control_="TitleIcon" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="FolderDlg" Control_="Browse" Event="[_BrowseProperty]" Argument="APPDIR" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FolderDlg" Control_="Browse" Event="SpawnDialog" Argument="BrowseDlg" Condition="1" Ordering="200"/>
+    <ROW Dialog_="FolderDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="SetTargetPath" Argument="APPDIR" Condition="1" Ordering="200"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="FolderDlg" HCentering="50" VCentering="50" Width="370" Height="304" Attributes="39" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.FolderDlg"/>
+  </COMPONENT>
+</FRAGMENT>

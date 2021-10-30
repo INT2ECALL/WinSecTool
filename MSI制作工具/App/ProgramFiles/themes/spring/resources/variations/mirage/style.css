@@ -1,0 +1,15 @@
+
+#advinst-text, #advinst-text-shadow
+{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font: bold 11px 'Segoe UI', 'Trebuchet MS', Arial;
+  color: #a69dc6;
+}
+
+#advinst-text-shadow
+{
+  top: 11px;
+  color: white;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="9.3" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="TemplateSpawnDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="330" Height="120" Attributes="1" Text="[Background]" Order="100"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control="Yes" Type="ImageButton" X="136" Y="71" Width="78" Height="28" Attributes="3" Text="[metrobuttonimage]" TextStyle="[MetroButtonText]" ExtDataLocId="[ButtonText_Yes]" Order="200" TextLocId="-"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control="Text" Type="Text" X="68" Y="26" Width="230" Height="50" Attributes="196611" TextStyle="[SubTitleStyle]" Order="300" TextLocId="Control.Text.TemplateSpawnDlg#Text"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control="No" Type="ImageButton" X="224" Y="71" Width="78" Height="28" Attributes="3" Text="[metrobuttonimage]" TextStyle="[MetroButtonText]" ExtDataLocId="[ButtonText_No]" Order="400" TextLocId="-"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control="Bitmap_1" Type="Bitmap" X="17" Y="15" Width="38" Height="52" Attributes="1" Text="[InfoIcon]" Order="500"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control="AdvInst" Type="Text" X="5" Y="388" Width="74" Height="11" Attributes="196611" Text="Advanced Installer" TextStyle="[BrandingStyle]" Order="600"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="TemplateSpawnDlg" Control_="Yes" Event="EndDialog" Argument="Return" Condition="1" Ordering="100"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control_="No" Event="EndDialog" Argument="Return" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="TemplateSpawnDlg" HCentering="50" VCentering="50" Width="330" Height="120" Attributes="3" Control_Default="Yes" Control_Cancel="No" TitleLocId="Dialog.TemplateSpawnDlg"/>
+  </COMPONENT>
+</FRAGMENT>

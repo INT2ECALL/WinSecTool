@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B5E999CB_DED3_4C69_950A_BAB50E520522" DisplayName="Java SE Development Kit 6u45 x86" VersionMin="1.6"
+      SetupFileUrl="http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html#jdk-6u45-oth-JPR"
+      Location="2" ExactSize="0"
+      Operator="0" Options="y"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B5E999CB_DED3_4C69_950A_BAB50E520522CurrentVersion" Prereq="B5E999CB_DED3_4C69_950A_BAB50E520522" SearchType="2"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Development Kit\CurrentVersion" VerMin="1.6"
+      Order="1" Property="PreReqSearch_B5E999CB_DED3_4C69_950A_BAB50E520522"/>
+    <ROW SearchKey="B5E999CB_DED3_4C69_950A_BAB50E520522JavaDevelopmentKit" Prereq="B5E999CB_DED3_4C69_950A_BAB50E520522" SearchType="1"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Development Kit" VerMin="1.6.0_45"
+      Order="2" Property="PreReqSearch_1_B5E999CB_DED3_4C69_950A_BAB50E520522"/>
+  </COMPONENT>
+</FRAGMENT>

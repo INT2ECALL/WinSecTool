@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.3" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="DC14E4FBFE482AA7DD7DF1244B7B9D" DisplayName="SQL Server Express 2008 SP3 x86" VersionMin="10.0.5500.0"
+      SetupFileUrl="http://download.microsoft.com/download/0/F/D/0FD88169-F86F-46E1-8B3B-56C44F6E9505/SQLEXPR_x86_ENU.exe"
+      Location="1" ExactSize="107108704" MD5="5560dc070189b9ad01b1f6b17871b1b3"
+      WinNTVersions="Windows 10 x86"
+      WinNT64Versions="Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /ACTION=Install /FEATURES=SQLEngine /INSTANCENAME=SQLEXPRESS /SQLSVCACCOUNT=&quot;NT AUTHORITY\NETWORK SERVICE&quot; /SQLSYSADMINACCOUNTS=&quot;%USERDOMAIN%\%USERNAME%&quot;"
+      Operator="1" Options="f" TargetName="SQL Server Express 2008 SP3"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="DC14E4FBFE482AA7DD7DF1244B7B9DCurrentVersion" Prereq="DC14E4FBFE482AA7DD7DF1244B7B9D" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\100\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="10.0.5500.0"
+      Order="1" Property="PreReqSearch_DC14E4FBFE482AA7DD7DF1244B7B9D"/>
+    <ROW SearchKey="DC14E4FBFE482AA7DD7DF1244B7B9DCurrentVersion_1" Prereq="DC14E4FBFE482AA7DD7DF1244B7B9D" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\110\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="11.0"
+      Order="2" Property="PreReqSearch_1_DC14E4FBFE482AA7DD7DF1244B7B9D"/>
+    <ROW SearchKey="DC14E4FBFE482AA7DD7DF1244B7B9DCurrentVersion_2" Prereq="DC14E4FBFE482AA7DD7DF1244B7B9D" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\120\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="12.0"
+      Order="3" Property="PreReqSearch_2_DC14E4FBFE482AA7DD7DF1244B7B9D"/>
+    <ROW SearchKey="DC14E4FBFE482AA7DD7DF1244B7B9DCurrentVersion_3" Prereq="DC14E4FBFE482AA7DD7DF1244B7B9D" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\130\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="13.0"
+      Order="4" Property="PreReqSearch_3_DC14E4FBFE482AA7DD7DF1244B7B9D"/>
+  </COMPONENT>
+</FRAGMENT>

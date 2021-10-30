@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="SQLConnectionDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="525" Height="395" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="Next" Type="PushButton" X="368" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="Cancel" Type="PushButton" X="436" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="Back" Type="PushButton" X="312" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="OdbcResourceEdit" Type="Edit" X="247" Y="117" Width="253" Height="18" Attributes="3" Property="ODBC_RES_PROP" Order="500" TextLocId="Control.Text.SQLConnectionDlg#OdbcResourceEdit"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="ServerEdit" Type="Edit" X="247" Y="145" Width="253" Height="18" Attributes="3" Property="SERVER_PROP" Order="600" TextLocId="Control.Text.SQLConnectionDlg#ServerEdit"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="PortEdit" Type="Edit" X="247" Y="173" Width="253" Height="18" Attributes="19" Property="PORT_PROP" Order="700" TextLocId="Control.Text.SQLConnectionDlg#PortEdit"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="DatabaseEdit" Type="Edit" X="247" Y="200" Width="253" Height="18" Attributes="3" Property="DATABASE_PROP" Order="800" TextLocId="Control.Text.SQLConnectionDlg#DatabaseEdit"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="UsernameEdit" Type="Edit" X="247" Y="228" Width="253" Height="18" Attributes="3" Property="USERNAME_PROP" Order="900" TextLocId="Control.Text.SQLConnectionDlg#UsernameEdit"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="PasswordEdit" Type="Edit" X="247" Y="256" Width="253" Height="18" Attributes="2097155" Property="PASSWORD_PROP" Order="1000" TextLocId="Control.Text.SQLConnectionDlg#PasswordEdit"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="OdbcResourceLabel" Type="Text" X="175" Y="120" Width="61" Height="11" Attributes="196611" TextStyle="Normal" Order="1100" TextLocId="Control.Text.SQLConnectionDlg#OdbcResourceLabel"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="ServerLabel" Type="Text" X="175" Y="149" Width="29" Height="11" Attributes="196611" TextStyle="Normal" Order="1200" TextLocId="Control.Text.SQLConnectionDlg#ServerLabel"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="PortLabel" Type="Text" X="175" Y="177" Width="23" Height="11" Attributes="196611" TextStyle="Normal" Order="1300" TextLocId="Control.Text.SQLConnectionDlg#PortLabel"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="DatabaseLabel" Type="Text" X="175" Y="204" Width="40" Height="11" Attributes="196611" TextStyle="Normal" Order="1400" TextLocId="Control.Text.SQLConnectionDlg#DatabaseLabel"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="UsernameLabel" Type="Text" X="175" Y="232" Width="39" Height="11" Attributes="196611" TextStyle="Normal" Order="1500" TextLocId="Control.Text.SQLConnectionDlg#UsernameLabel"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="PasswordLabel" Type="Text" X="175" Y="260" Width="40" Height="11" Attributes="196611" TextStyle="Normal" Order="1600" TextLocId="Control.Text.SQLConnectionDlg#PasswordLabel"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="Title" Type="Text" X="11" Y="9" Width="200" Height="15" Attributes="196611" TextStyle="Title" Order="1700" TextLocId="Graphite.Control.Text.SQLConnectionDlg#Title"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="GlobalProgress" Type="Bitmap" X="14" Y="88" Width="14" Height="86" Attributes="1048577" Text="[Collecting]" Order="1800"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="CollectingLabel" Type="Text" X="35" Y="90" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1900" TextLocId="Graphite.Control.Text.Dlg#CollectingLabel"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="PreparingLabel" Type="Text" X="35" Y="114" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="2000" TextLocId="Graphite.Control.Text.Dlg#PreparingLabel"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="InstallingLabel" Type="Text" X="35" Y="138" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="2100" TextLocId="Graphite.Control.Text.Dlg#InstallingLabel"/>
+    <ROW Dialog_="SQLConnectionDlg" Control="FinalizingLabel" Type="Text" X="35" Y="162" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="2200" TextLocId="Graphite.Control.Text.Dlg#FinalizingLabel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="SQLConnectionDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="SQLConnectionDlg" HCentering="50" VCentering="50" Width="525" Height="395" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.SQLConnectionDlg"/>
+  </COMPONENT>
+</FRAGMENT>

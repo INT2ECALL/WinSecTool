@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="InstallDlgTitle" Value="" ValueLocId="Control.Text.InstallDlg#Title"/>
+    <ROW Property="InstallDlgSubTitle" Value="" ValueLocId="Control.Text.FolderDlg#TextNoNext"/>
+    <ROW Property="InstallDlgSpaceReq" Value="Total space required on drive: [PrimaryVolumeSpaceRequired]" ValueLocId="Spring.Control.Text.CustomizeDlg#SpaceReq"/>
+    <ROW Property="InstallDlgSpaceAvail" Value="Space available on drive: [PrimaryVolumeSpaceAvailable]" ValueLocId="Spring.Control.Text.CustomizeDlg#SpaceAvail"/>
+    <ROW Property="InstallDlgSpaceRem" Value="Total space required on drive: [PrimaryVolumeSpaceRequired]" ValueLocId="Spring.Control.Text.FolderDlg#SpaceRem"/>
+    <ROW Property="InstallDlgBrowse" Value="Browse..." ValueLocId="Modern.Control.Text.CustomizeDlg#Browse"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="InstallDlg" Control="InstallDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1"/>
+    <ROW Dialog_="InstallDlg" Control="HtmlHost" Type="HtmlHost" X="0" Y="0" Width="450" Height="360" Attributes="3" Text="file:///[&amp;instal.html.742DA8B7]" Order="100" TextLocId="-" ExtType="HtmlHost" ExtAttributes="2"/>
+    <ROW Dialog_="InstallDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048576" Text="[DialogBitmap]" Order="200"/>
+    <ROW Dialog_="InstallDlg" Control="Next" Type="PushButton" X="350" Y="328" Width="56" Height="17" Attributes="2" Text="[ButtonText_Next]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="InstallDlg" Control="Back" Type="PushButton" X="45" Y="328" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="InstallDlg" Control="FolderEdit" Type="PathEdit" X="45" Y="141" Width="284" Height="18" Attributes="7" Property="APPDIR" Order="500" Help="|" HelpLocId="Control.Help.FolderDlg#FolderEdit"/>
+    <ROW Dialog_="InstallDlg" Control="Browse" Type="PushButton" X="340" Y="141" Width="70" Height="18" Attributes="3" Text="[ButtonText_Browse]" Order="600" Help="|" TextLocId="-" HelpLocId="Control.Help.FolderDlg#Browse"/>
+    <ROW Dialog_="InstallDlg" Control="Title" Type="Text" X="45" Y="17" Width="380" Height="23" Attributes="196610" TextStyle="TitleFont" Order="700" TextLocId="Control.Text.InstallDlg#Title"/>
+    <ROW Dialog_="InstallDlg" Control="Text" Type="Text" X="45" Y="55" Width="360" Height="50" Attributes="65538" Order="800" TextLocId="Control.Text.FolderDlg#TextNoNext"/>
+    <ROW Dialog_="InstallDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="900" TextLocId="-" Options="1"/>
+    <ROW Dialog_="InstallDlg" Control="CheckBox" Type="CheckBox" X="45" Y="300" Width="340" Height="12" Attributes="3" Property="IAgreeInstall" TextLocId="Metro.Control.Text.WelcomeDlg.AgreeToLicense" Order="1000"/>
+    <ROW Dialog_="InstallDlg" Control="Hyperlink" Type="Hyperlink" X="45" Y="278" Width="395" Height="23" Attributes="65539" Property="HYPERLINK_1_PROP" TextLocId="Metro.Control.Text.WelcomeDlg#YouMustAgreeCtrl" Order="1100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[IAgreeInstall]" Argument="Yes" Condition="AI_INSTALL AND ( IAgree = &quot;Yes&quot; )" Ordering="100"/>
+    <ROW Dialog_="InstallDlg" Control_="InstallDlgDialogInitializer" Event="[IAgreeInstall]" Argument="{}" Condition="AI_INSTALL AND ( IAgree &lt;&gt; &quot;Yes&quot; )" Ordering="200"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="SetTargetPath" Argument="APPDIR" Condition="1" Ordering="100"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Event="[ReadLicense]" Argument="{}" Condition="AI_INSTALL" Ordering="200"/>
+    <ROW Dialog_="InstallDlg" Control_="Browse" Event="[_BrowseProperty]" Argument="APPDIR" Condition="1" Ordering="100"/>
+    <ROW Dialog_="InstallDlg" Control_="Browse" Event="SpawnDialog" Argument="BrowseDlg" Condition="1" Ordering="200"/>
+    <ROW Dialog_="InstallDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="InstallDlg" Control_="CheckBox" Event="[IAgree]" Argument="Yes" Condition="AI_INSTALL AND ( IAgreeInstall = &quot;Yes&quot; )" Ordering="100"/>
+    <ROW Dialog_="InstallDlg" Control_="CheckBox" Event="[IAgree]" Argument="No" Condition="AI_INSTALL AND ( IAgreeInstall &lt;&gt; &quot;Yes&quot; )" Ordering="200"/>
+    <ROW Dialog_="InstallDlg" Control_="Hyperlink" Event="[ReadLicense]" Argument="1" Condition="AI_INSTALL" Ordering="100"/>
+    <ROW Dialog_="InstallDlg" Control_="Hyperlink" Event="SetTargetPath" Argument="APPDIR" Condition="AI_INSTALL" Ordering="200"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="InstallDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="39" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.FolderDlg"/>
+    <ATTRIBUTE name="ExitPoints" value="InstallDlg#Hyperlink#LicenseAgreementDlg#ReadLicense!LicenseAgreementDlg#Next##ReadLicense#InstallDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="InstallDlg" Control_="Bitmap" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="InstallDlg" Control_="HtmlHost" Action="Hide" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="InstallDlg" Control_="Title" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="InstallDlg" Control_="Text" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="InstallDlg" Control_="Next" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="InstallDlg" Control_="Back" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.TempFileComponent">
+    <ROW FileId="instal.html.742DA8B7" Name="idlg~1.htm|install.html" Directory_="TempFolder\[|ProductCode]\Spring.742DA8B7" Property="Ai_INSTALL.HTML.742DA8B7" Options="0" Data="&lt;AI_THEMES&gt;spring\resources\html\install.html" NoTableRefCount="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCheckBoxComponent">
+    <ROW Property="IAgreeInstall" Value="Yes"/>
+  </COMPONENT>
+</FRAGMENT>

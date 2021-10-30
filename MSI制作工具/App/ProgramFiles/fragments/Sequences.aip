@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT type="ReadOnly" RootPath=".">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_CORRECT_INSTALL" Type="51" Source="AI_INSTALL" Target="{}"/>
+    <ROW Action="AI_SET_ADMIN" Type="51" Source="AI_ADMIN" Target="1"/>
+    <ROW Action="AI_SET_INSTALL" Type="51" Source="AI_INSTALL" Target="1"/>
+    <ROW Action="AI_SET_MAINT" Type="51" Source="AI_MAINT" Target="1"/>
+    <ROW Action="AI_SET_PATCH" Type="51" Source="AI_PATCH" Target="1"/>
+    <ROW Action="AI_SET_RESUME" Type="51" Source="AI_RESUME" Target="1"/>
+    <ROW Action="AI_DETECT_MODERNWIN" Type="1" Source="&lt;AI_CUSTACTS&gt;aicustact.dll" Target="DetectModernWindows"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AllocateRegistrySpace" Condition="NOT Installed" Sequence="1550" SeqType="0"/>
+    <ROW Action="AppSearch" Condition="" Sequence="100" SeqType="0"/>
+    <ROW Action="Begin" Condition="" Sequence="50" SeqType="1"/>
+    <ROW Action="BindImage" Condition="" Sequence="4300" SeqType="0"/>
+    <ROW Action="Commit" Condition="" Sequence="5968" SeqType="1"/>
+    <ROW Action="CostFinalize" Condition="" Sequence="1000" SeqType="0"/>
+    <ROW Action="CostInitialize" Condition="" Sequence="800" SeqType="0"/>
+    <ROW Action="CreateFolders" Condition="" Sequence="3700" SeqType="0"/>
+    <ROW Action="CreateShortcuts" Condition="" Sequence="4500" SeqType="0"/>
+    <ROW Action="DeleteServices" Condition="VersionNT" Sequence="2000" SeqType="0"/>
+    <ROW Action="DuplicateFiles" Condition="" Sequence="4210" SeqType="0"/>
+    <ROW Action="FileCost" Condition="" Sequence="900" SeqType="0"/>
+    <ROW Action="FindRelatedProducts" Condition="" Sequence="200" SeqType="0"/>
+    <ROW Action="Install" Condition="" Sequence="5934" SeqType="1"/>
+    <ROW Action="InstallExecute" Condition="" Sequence="6500" SeqType="0"/>
+    <ROW Action="InstallFiles" Condition="" Sequence="4000" SeqType="0"/>
+    <ROW Action="InstallFinalize" Condition="" Sequence="6600" SeqType="0"/>
+    <ROW Action="InstallIIS" Condition="" Sequence="6510" SeqType="1"/>
+    <ROW Action="InstallInitialize" Condition="" Sequence="1500" SeqType="0"/>
+    <ROW Action="InstallODBC" Condition="AI_USE_STD_ODBC_MGR" Sequence="5400" SeqType="0"/>
+    <ROW Action="InstallServices" Condition="VersionNT" Sequence="5800" SeqType="0"/>
+    <ROW Action="InstallValidate" Condition="" Sequence="1400" SeqType="0"/>
+    <ROW Action="IsolateComponents" Condition="RedirectedDllSupport" Sequence="950" SeqType="0"/>
+    <ROW Action="LaunchConditions" Condition="NOT Installed" Sequence="400" SeqType="0"/>
+    <ROW Action="MigrateFeatureStates" Sequence="1100" SeqType="0"/>
+    <ROW Action="MoveFiles" Condition="" Sequence="3800" SeqType="0"/>
+    <ROW Action="MsiPublishAssemblies" Condition="" Sequence="6250" SeqType="0"/>
+    <ROW Action="MsiUnpublishAssemblies" Condition="Installed" Sequence="1625" SeqType="0"/>
+    <ROW Action="PatchFiles" Condition="PATCH" Sequence="4090" SeqType="0"/>
+    <ROW Action="ProcessComponents" Condition="" Sequence="1600" SeqType="0"/>
+    <ROW Action="PublishComponents" Condition="" Sequence="6200" SeqType="0"/>
+    <ROW Action="PublishFeatures" Condition="" Sequence="6300" SeqType="0"/>
+    <ROW Action="PublishProduct" Condition="" Sequence="6400" SeqType="0"/>
+    <ROW Action="RegisterClassInfo" Condition="" Sequence="4600" SeqType="0"/>
+    <ROW Action="RegisterComPlus" Condition="" Sequence="5700" SeqType="0"/>
+    <ROW Action="RegisterExtensionInfo" Condition="AI_EXTREG &lt;&gt; &quot;No&quot;" Sequence="4700" SeqType="0"/>
+    <ROW Action="RegisterFonts" Condition="" Sequence="5300" SeqType="0"/>
+    <ROW Action="RegisterMIMEInfo" Condition="" Sequence="4900" SeqType="0"/>
+    <ROW Action="RegisterProduct" Condition="" Sequence="6100" SeqType="0"/>
+    <ROW Action="RegisterProgIdInfo" Condition="" Sequence="4800" SeqType="0"/>
+    <ROW Action="RegisterTypeLibraries" Condition="" Sequence="5500" SeqType="0"/>
+    <ROW Action="RegisterUser" Condition="" Sequence="6000" SeqType="0"/>
+    <ROW Action="RemoveDuplicateFiles" Condition="Installed" Sequence="3400" SeqType="0"/>
+    <ROW Action="RemoveEnvironmentStrings" Condition="" Sequence="3300" SeqType="0"/>
+    <ROW Action="RemoveExistingProducts" Condition="AI_UPGRADE&lt;&gt;&quot;No&quot;" Sequence="1450" SeqType="0"/>
+    <ROW Action="RemoveFiles" Condition="" Sequence="3500" SeqType="0"/>
+    <ROW Action="RemoveFolders" Condition="Installed" Sequence="3600" SeqType="0"/>
+    <ROW Action="RemoveIniValues" Condition="" Sequence="3100" SeqType="0"/>
+    <ROW Action="RemoveODBC" Condition="AI_USE_STD_ODBC_MGR AND Installed" Sequence="2400" SeqType="0"/>
+    <ROW Action="RemoveRegistryValues" Condition="" Sequence="2600" SeqType="0"/>
+    <ROW Action="RemoveShortcuts" Condition="Installed" Sequence="3200" SeqType="0"/>
+    <ROW Action="Rollback" Condition="" Sequence="5900" SeqType="1"/>
+    <ROW Action="SelfRegModules" Condition="" Sequence="5600" SeqType="0"/>
+    <ROW Action="SelfUnregModules" Condition="Installed" Sequence="2200" SeqType="0"/>
+    <ROW Action="SET_APPDIR" Condition="APPDIR=&quot;&quot;" Sequence="750" SeqType="2"/>
+    <ROW Action="AI_DETECT_MODERNWIN" Condition="(VersionNT &gt;= 603)" Sequence="52" SeqType="2"/>
+    <ROW Action="SET_SHORTCUTDIR" Condition="SHORTCUTDIR=&quot;&quot;" Sequence="775" SeqType="2"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Condition="" Sequence="785" SeqType="2"/>
+    <ROW Action="SetODBCFolders" Condition="AI_USE_STD_ODBC_MGR" Sequence="1200" SeqType="0"/>
+    <ROW Action="MsiConfigureServices" Condition="VersionNT" Sequence="5825" SeqType="0"/>
+    <ROW Action="StartServices" Condition="VersionNT" Sequence="5850" SeqType="0"/>
+    <ROW Action="StopServices" Condition="VersionNT" Sequence="1900" SeqType="0"/>
+    <ROW Action="Uninstall" Condition="" Sequence="1650" SeqType="1"/>
+    <ROW Action="UnpublishComponents" Condition="Installed" Sequence="1700" SeqType="0"/>
+    <ROW Action="UnpublishFeatures" Condition="" Sequence="1800" SeqType="0"/>
+    <ROW Action="UnregisterClassInfo" Condition="Installed" Sequence="2700" SeqType="0"/>
+    <ROW Action="UnregisterComPlus" Condition="Installed" Sequence="2100" SeqType="0"/>
+    <ROW Action="UnregisterExtensionInfo" Condition="Installed AND (AI_EXTREG &lt;&gt; &quot;No&quot;)" Sequence="2800" SeqType="0"/>
+    <ROW Action="UnregisterFonts" Condition="Installed" Sequence="2500" SeqType="0"/>
+    <ROW Action="UnregisterMIMEInfo" Condition="Installed" Sequence="3000" SeqType="0"/>
+    <ROW Action="UnregisterProgIdInfo" Condition="Installed" Sequence="2900" SeqType="0"/>
+    <ROW Action="UnregisterTypeLibraries" Condition="Installed" Sequence="2300" SeqType="0"/>
+    <ROW Action="ValidateProductID" Condition="" Sequence="700" SeqType="0"/>
+    <ROW Action="WriteEnvironmentStrings" Condition="" Sequence="5200" SeqType="0"/>
+    <ROW Action="WriteIniValues" Condition="" Sequence="5100" SeqType="0"/>
+    <ROW Action="WriteRegistryValues" Condition="" Sequence="5000" SeqType="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AppSearch" Sequence="100" SeqType="0"/>
+    <ROW Action="Begin" Sequence="50" SeqType="1"/>
+    <ROW Action="AI_DETECT_MODERNWIN" Condition="(VersionNT &gt;= 603)" Sequence="7" SeqType="2"/>
+    <ROW Action="CostFinalize" Sequence="1000" SeqType="0"/>
+    <ROW Action="CostInitialize" Sequence="800" SeqType="0"/>
+    <ROW Action="ExecuteAction" Sequence="1300" SeqType="0"/>
+    <ROW Action="FileCost" Sequence="900" SeqType="0"/>
+    <ROW Action="FindRelatedProducts" Sequence="200" SeqType="0"/>
+    <ROW Action="LaunchConditions" Condition="NOT Installed" Sequence="400" SeqType="0"/>
+    <ROW Action="MigrateFeatureStates" Sequence="1100" SeqType="0"/>
+    <ROW Action="SET_APPDIR" Condition="APPDIR=&quot;&quot;" Sequence="750" SeqType="2"/>
+    <ROW Action="SET_SHORTCUTDIR" Condition="SHORTCUTDIR=&quot;&quot;" Sequence="775" SeqType="2"/>
+    <ROW Action="AI_CORRECT_INSTALL" Condition="AI_RESUME" Sequence="5" SeqType="2"/>
+    <ROW Action="AI_SET_INSTALL" Condition="NOT Installed" Sequence="1" SeqType="2"/>
+    <ROW Action="AI_SET_MAINT" Condition="Installed AND (NOT RESUME) AND (NOT Preselected) AND (NOT PATCH)" Sequence="2" SeqType="2"/>
+    <ROW Action="AI_SET_PATCH" Condition="PATCH" Sequence="4" SeqType="2"/>
+    <ROW Action="AI_SET_RESUME" Condition="RESUME OR Preselected" Sequence="3" SeqType="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="Begin" Sequence="25" SeqType="1"/>
+    <ROW Action="AppSearch" Sequence="145" Condition="AI_BOOTSTRAPPER AND (NOT Installed) AND AI_BOOTSTRAPPER_CHECK_LC" SeqType="0"/>
+    <ROW Action="LaunchConditions" Sequence="155" Condition="AI_BOOTSTRAPPER AND (NOT Installed) AND AI_BOOTSTRAPPER_CHECK_LC" SeqType="0"/>
+    <ROW Action="SearchPrereq" Sequence="175" Condition="AI_BOOTSTRAPPER" SeqType="0"/>
+    <ROW Action="FinishPrereqSearch" Sequence="200" Condition="AI_BOOTSTRAPPER" SeqType="0"/>
+    <ROW Action="ProcessPrereq" Sequence="325" Condition="AI_BOOTSTRAPPER AND AI_MISSING_PREREQS" SeqType="0"/>
+    <ROW Action="FinishPrereqInstall" Sequence="350" Condition="AI_BOOTSTRAPPER AND AI_MISSING_PREREQS" SeqType="0"/>
+    <ROW Action="ProcessInstances" Sequence="375" Condition="AI_BOOTSTRAPPER" SeqType="0"/>
+    <ROW Action="FinishProcessInstances" Sequence="475" Condition="AI_BOOTSTRAPPER AND AI_EXIST_INSTANCES AND AI_INSTANCE_SELECTED" SeqType="0"/>
+    <ROW Action="PrepareSelectLang" Sequence="50" Condition="AI_BOOTSTRAPPER" SeqType="0"/>    
+    <ROW Action="SelectLang" Sequence="100" Condition="AI_BOOTSTRAPPER AND (NOT AI_SKIPBOOTSTRAPPERLANG)" SeqType="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAdminUISequenceComponent">
+    <ROW Action="AdminWelcomeDlg" Condition="" Sequence="1230"/>
+    <ROW Action="AI_SET_ADMIN" Condition="1" Sequence="1"/>
+    <ROW Action="CostFinalize" Condition="" Sequence="1000"/>
+    <ROW Action="CostInitialize" Condition="" Sequence="800"/>
+    <ROW Action="ExecuteAction" Condition="" Sequence="1300"/>
+    <ROW Action="ExitDialog" Condition="" Sequence="-1"/>
+    <ROW Action="FatalError" Condition="" Sequence="-3"/>
+    <ROW Action="FileCost" Condition="" Sequence="900"/>
+    <ROW Action="PrepareDlg" Condition="" Sequence="140"/>
+    <ROW Action="ProgressDlg" Condition="" Sequence="1280"/>
+    <ROW Action="UserExit" Condition="" Sequence="-2"/>
+  </COMPONENT>
+</FRAGMENT>

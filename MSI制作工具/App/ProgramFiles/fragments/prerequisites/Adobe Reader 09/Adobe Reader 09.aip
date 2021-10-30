@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="ABA35_7270_46F8_8F6D_37F12D7D9D71" DisplayName="Adobe Reader 9" VersionMin="9.5"
+      SetupFileUrl="http://ardownload.adobe.com/pub/adobe/reader/win/9.x/9.5.0/en_US/AdbeRdr950_en_US.exe"
+      Location="1" ExactSize="33560984" MD5="ebd8758eb2b721cf8d07dfbeaa9bef7c"
+      NoUiComLine="/sAll"
+      Operator="1" Options="f" TargetName="Adobe Reader"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="ABA35_7270_46F8_8F6D_37F12D7D9D71UpgradeCode" Prereq="ABA35_7270_46F8_8F6D_37F12D7D9D71" SearchType="4"
+      SearchString="{A6EADE66-0000-0000-484E-7E8A45000000}" VerMin="9.5.0"
+      Order="1" Property="PreReqSearch_ABA35_7270_46F8_8F6D_37F12D7D9D71"/>
+  </COMPONENT>
+</FRAGMENT>

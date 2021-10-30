@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" RootPath=".">
+  <COMPONENT cid="caphyon.advinst.msicomp.WinCECfgComponent">
+    <ROW ID="Default" Name="Default" Order="1" PlatformList="DevTypeNone" Options="14"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.WinCEStringComponent">
+    <ROW ID="1" Value="%InstallDir%"/>
+    <ATTRIBUTE name="ProductName" value="Your Application"/>
+    <ATTRIBUTE name="CompanyName" value="Your Company"/>
+    <ATTRIBUTE name="InstallDir" value="%CE1%\%Provider%\%AppName%"/>
+  </COMPONENT>
+</DOCUMENT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="ExtRegDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="568" Height="379" Attributes="1048577" Text="[ThreeColorsBackground]" Order="100"/>
+    <ROW Dialog_="ExtRegDlg" Control="Next" Type="PushButton" X="435" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ExtRegDlg" Control="Cancel" Type="PushButton" X="497" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ExtRegDlg" Control="Buttons" Type="RadioButtonGroup" X="11" Y="323" Width="240" Height="40" Attributes="3" Property="AI_EXTREG" Order="400"/>
+    <ROW Dialog_="ExtRegDlg" Control="Back" Type="PushButton" X="379" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ExtRegDlg" Control="ExtList" Type="Text" X="11" Y="282" Width="240" Height="30" Attributes="196611" Order="600" TextLocId="Control.Text.ExtRegDlg#ExtList"/>
+    <ROW Dialog_="ExtRegDlg" Control="Title" Type="Text" X="8" Y="70" Width="248" Height="15" Attributes="196611" TextStyle="BoldTitle" Order="700" TextLocId="Control.Text.ExtRegDlg#Title"/>
+    <ROW Dialog_="ExtRegDlg" Control="Description" Type="Text" X="8" Y="87" Width="248" Height="50" Attributes="196611" Order="800" TextLocId="Control.Text.ExtRegDlg#Description"/>
+    <ROW Dialog_="ExtRegDlg" Control="BottomLine" Type="Line" X="0" Y="379" Width="568" Height="1" Attributes="1" Order="900"/>
+    <ROW Dialog_="ExtRegDlg" Control="LogoIcon" Type="Icon" X="18" Y="11" Width="36" Height="36" Attributes="7340033" Text="[LogoIcon]" Order="1000"/>
+    <ROW Dialog_="ExtRegDlg" Control="AppName" Type="Text" X="62" Y="24" Width="143" Height="23" Attributes="196611" TextStyle="AppName" Order="1100" TextLocId="Modern.Control.Text.Dlg#AppName"/>
+    <ROW Dialog_="ExtRegDlg" Control="Manufacturer" Type="Text" X="61" Y="16" Width="300" Height="12" Attributes="196611" TextStyle="Manufacturer" Order="1200" TextLocId="Modern.Control.Text.Dlg#Manufacturer"/>
+    <ROW Dialog_="ExtRegDlg" Control="Setup" Type="Text" X="195" Y="24" Width="158" Height="23" Attributes="196611" TextStyle="[AI_SetupFont]" Order="1300" TextLocId="Modern.Control.Text.Dlg#Setup"/>
+    <ROW Dialog_="ExtRegDlg" Control="CompanyLogo" Type="Bitmap" X="285" Y="104" Width="265" Height="229" Attributes="1048577" Text="[CompanyLogo]" Order="1400"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="ExtRegDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="ExtRegDlg" HCentering="50" VCentering="50" Width="568" Height="412" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.ExtRegDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="AI_EXTREG" Order="1" Value="Yes" X="8" Y="8" Width="230" Height="15" TextStyle="DlgFont8" TextLocId="RadioButton.Text.ExtReg#1"/>
+    <ROW Property="AI_EXTREG" Order="2" Value="No" X="8" Y="24" Width="230" Height="15" TextStyle="DlgFont8" TextLocId="RadioButton.Text.ExtReg#2"/>
+  </COMPONENT>
+</FRAGMENT>

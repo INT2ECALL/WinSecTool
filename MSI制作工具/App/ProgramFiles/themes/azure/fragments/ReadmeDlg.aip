@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="readmelogoicon" SourcePath="&lt;AI_RES_COLOR&gt;ReadmeLogo.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ReadmeLogoIcon" Value="readmelogoicon" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="ReadmeDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="ReadmeDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ReadmeDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ReadmeDlg" Control="ReadmeText" Type="ScrollableText" X="55" Y="100" Width="360" Height="200" Attributes="7" Order="400" TextLocId="Control.Text.ReadmeDlg#ReadmeText"/>
+    <ROW Dialog_="ReadmeDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ReadmeDlg" Control="Title" Type="Text" X="55" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="600" TextLocId="Azure.Control.Text.ReadmeDlg#Title"/>
+    <ROW Dialog_="ReadmeDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[ReadmeLogoIcon]" Order="700"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="ReadmeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="ReadmeDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.ReadmeDlg"/>
+  </COMPONENT>
+</FRAGMENT>

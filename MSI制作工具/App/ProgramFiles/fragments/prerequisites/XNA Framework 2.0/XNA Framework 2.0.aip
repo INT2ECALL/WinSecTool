@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F7559_4EBD_46B3_80C8_7BBBD288F9BD" DisplayName="XNA Framework 2.0" VersionMin="2.0"
+      SetupFileUrl="http://download.microsoft.com/download/b/8/a/b8a1f45a-63e6-4d1f-9c03-55a83d30ee3b/xnafx20_redist.msi"
+      Location="1" ExactSize="2207232" MD5="15eb68899a2396f043d2404987a0c0f7"
+      NoUiComLine="/quiet"
+      Operator="1" Options="f" TargetName="XNA Framework 2.0"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Games"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F7559_4EBD_46B3_80C8_7BBBD288F9BDv2.0" Prereq="F7559_4EBD_46B3_80C8_7BBBD288F9BD" SearchType="5"
+      SearchString="HKLM\SOFTWARE\Microsoft\XNA\Framework\v2.0"
+      Order="1" Property="PreReqSearch_F7559_4EBD_46B3_80C8_7BBBD288F9BD"/>
+  </COMPONENT>
+</FRAGMENT>

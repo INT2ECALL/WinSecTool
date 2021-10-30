@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="A1B4674CE33424C9F4B02E6FE0F7AD1" DisplayName="Access 2010 Runtime x64 (update to SP2)" VersionMin="14.0"
+      SetupFileUrl="http://download.microsoft.com/download/9/5/8/958881D9-568C-4333-A5AA-582D7B7F9B19/accessrtsp2010-kb2687444-fullfile-x64-en-us.exe"
+      Location="1" ExactSize="118332328" MD5="a1e1e7e17f8742edd07743d31f36a91f"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xf" TargetName="Access 2010 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Office"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="A1B4674CE33424C9F4B02E6FE0F7AD1MSACCESS.EXE" Prereq="A1B4674CE33424C9F4B02E6FE0F7AD1" SearchType="0"
+      SearchString="[ProgramFiles64Folder]Microsoft Office\Office14\MSACCESS.EXE" VerMin="14.0.7015.1000"
+      Order="1" Property="PreReqSearch_A1B4674CE33424C9F4B02E6FE0F7AD1"/>
+  </COMPONENT>
+</FRAGMENT>

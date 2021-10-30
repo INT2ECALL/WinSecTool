@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F0D1FB2BA7834CE6B6DACDC1F9FAD627" DisplayName="ASP.NET MVC 3 Runtime" VersionMin="3"
+      SetupFileUrl="http://download.microsoft.com/download/F/3/1/F31EF055-3C46-4E35-AB7B-3261A303A3B6/AspNetMVC3ToolsUpdateSetup.exe"
+      Location="1" ExactSize="22667104" MD5="7a0ea56e616d7d1e4c87d80b0ca6d1e2"
+      WinNTVersions="Windows Vista RTM x86"
+      WinNT64Versions="Windows Vista RTM x64"
+      NoUiComLine="/q"
+      Operator="0" Options="f" TargetName="ASP.NET MVC 3 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F0D1FB2BA7834CE6B6DACDC1F9FAD627InstallPath" Prereq="F0D1FB2BA7834CE6B6DACDC1F9FAD627" SearchType="7"
+      SearchString="HKLM\SOFTWARE\Microsoft\ASP.NET MVC 3\Runtime\InstallPath"
+      Order="1" Property="PreReqSearch_F0D1FB2BA7834CE6B6DACDC1F9FAD627"/>
+    <ROW SearchKey="F0D1FB2BA7834CE6B6DACDC1F9FAD627System.Web.Mvc.dll" Prereq="F0D1FB2BA7834CE6B6DACDC1F9FAD627" SearchType="0"
+      SearchString="[ProgramFilesFolder]Microsoft ASP.NET\ASP.NET MVC 3\Assemblies\System.Web.Mvc.dll" VerMin="3.0.20105.0"
+      Order="2" Property="PreReqSearch_1_F0D1FB2BA7834CE6B6DACDC1F9FAD627"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,1948 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.AI_GenericProperty.Description" value="您的应用程序的说明。"/>
+  <STRING id="AI.AI_GenericProperty.Name" value="您的应用程序"/>
+  <STRING id="AI.Directory.Default32BitName" value="32 位"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="新建文件夹"/>
+  <STRING id="AI.DuplicateFile.DestName" value="副本 %s - %s"/>
+  <STRING id="AI.Environment.DefaultName" value="新建变量"/>
+  <STRING id="AI.Feature.DefaultDescription" value="描述"/>
+  <STRING id="AI.Feature.DefaultTitle" value="组件"/>
+  <STRING id="AI.FileDownload.DefaultFileName" value="FileDownload.ext"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="播放"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="支持"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="您的 [|CurrentGame] 描述"/>
+  <STRING id="AI.IniFile.DefaultFileName" value="新建文件"/>
+  <STRING id="AI.IniFile.DefaultKey" value="新建项"/>
+  <STRING id="AI.IniFile.DefaultSection" value="新建节"/>
+  <STRING id="AI.IniFile.DefaultValue" value="新建值"/>
+  <STRING id="AI.Java.DefaultProductName" value="您的产品"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.JRELoadError" value="无法加载 Java 运行时环境。"/>
+  <STRING id="AI.Java.JavaDirectoryNotFound" value="无法枚举 Java 目录内容。"/>
+  <STRING id="AI.Java.MainClassNameRequired" value="需要主类名。"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] 无法安装在 Adobe Reader 版本低于 [AI_REQUIRED_ADOBEREADER_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName] 无法安装在没有 [AI_REQUIRED_ACTIVESYNC_DISPLAY] 或更高版本的系统上。"/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] 无法安装在颜色质量低于 [AI_REQUIRED_COLOR_QUALITY] 位的系统上。"/>
+  <STRING id="AI.LaunchCondition.Description" value="启动条件描述"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] 无法安装在 DirectX 版本低于 [AI_REQUIRED_DIRECTX_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] 无法安装在 .NET Framework 版本低于 [AI_REQUIRED_DOTNET_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] 无法安装在 .NET Core 版本低于 [AI_REQUIRED_DOTNET_CORE_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] 无法安装在 Internet Explorer 版本低于 [AI_REQUIRED_IE_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] 无法安装在 Internet Information Services 版本低于 [AI_REQUIRED_IIS_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] 安装需要一个活动的 Internet 连接。请检查您的网络配置和代理设置。"/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] 无法安装在 JRE 版本低于 [AI_REQUIRED_JDK_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] 无法安装在 JRE 版本低于 [AI_REQUIRED_JRE_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] 无法安装在 [WindowsType9XDisplay]。"/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] 无法安装在 [WindowsTypeNTDisplay]。"/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] 无法安装在 [WindowsTypeNT40Display]。"/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] 无法安装在 [WindowsTypeNT50Display]。"/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] 无法安装在 [WindowsTypeNT5XDisplay]。"/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] 无法安装在 [WindowsTypeNT64Display]。"/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] 无法安装在以下 Windows 版本上: [WindowsType9XDisplay]。"/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] 无法安装在以下 Windows 版本上: [WindowsTypeNTDisplay]。"/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] 无法安装在以下 Windows 版本上: [WindowsTypeNT64Display]。"/>
+  <STRING id="AI.LaunchCondition.Office" value="[ProductName] 无法安装在没有 [AI_REQUIRED_OFFICE_APPNAME] 2003 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] 无法安装在没有 [AI_REQUIRED_OFFICE_APPNAME] 2003 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Office2003PIA" value="[ProductName] 无法安装在没有 [AI_REQUIRED_OFFICE2003_PIA_APPNAME] 2003 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName] 无法安装在没有 [AI_REQUIRED_OFFICE_APPNAME] 2007 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Office2007PIA" value="[ProductName] 无法安装在没有 [AI_REQUIRED_OFFICE2007_PIA_APPNAME] 2007 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Office2007SharedPIA" value="[ProductName] 安装需要Office 2007程序。"/>
+  <STRING id="AI.LaunchCondition.Office2010" value="[ProductName] 无法安装在没有 [AI_REQUIRED_OFFICE_APPNAME] 2010 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Office2010PIA" value="[ProductName] 无法安装在没有 [AI_REQUIRED_OFFICE2010_PIA_APPNAME] 2010 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Office2010SharedPIA" value="[ProductName] 无法安装在没有 Office 2010 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Office2013" value="[ProductName] 无法安装在没有 [AI_REQUIRED_OFFICE_APPNAME] 2013 的系统上。"/>
+  <STRING id="AI.LaunchCondition.Office2016" value="[ProductName] 无法安装在没有 [AI_REQUIRED_OFFICE_APPNAME] 2016 的系统上。"/>
+  <STRING id="AI.LaunchCondition.PowerShell" value="[ProductName] 无法安装在系统上, 没有 [AI_REQUIRED_POWERSHELL_DISPLAY]。"/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] 安装需要管理员权限。"/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] 无法安装在物理内存小于 [AI_REQUIRED_PHYSICAL_MEMORY] MB 的系统上。"/>
+  <STRING id="AI.LaunchCondition.RequireBootstrapper" value="此包只能从引导程序运行。"/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] 无法安装在屏幕分辨率低于 [AI_REQUIRED_SCREEN_RESOLUTION_X]×[AI_REQUIRED_SCREEN_RESOLUTION_Y] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName] 无法安装在没有 [AI_REQUIRED_SQLCOMPACT_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName] 无法安装在没有 [AI_REQUIRED_SQLEXPRESS_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.SharePoint" value="[ProductName] 无法安装在系统上, 没有 [AI_REQUIRED_SHAREPOINT_DISPLAY]。"/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] 无法安装在虚拟机中运行的系统上。"/>
+  <STRING id="AI.LaunchCondition.SharePointDeployment" value="对于SharePoint解决方案已经被停止 [ProductName] 您不能安装。"/>
+  <STRING id="AI.LaunchCondition.SharePointPermissions" value="当前用户 [ProductName] 您没有所需要的安装SharePoint解决方案的权限。"/>
+  <STRING id="AI.LaunchCondition.SharePointServices" value="[ProductName] 若要安装，您必须SharePoint管理和SharePoint定时服务已启动。"/>
+  <STRING id="AI.LaunchCondition.VSTO" value="[ProductName] 无法安装在没有 [AI_REQUIRED_VSTO_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] 无法安装在 Windows Installer 版本低于 [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY] 的系统上。"/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName] 无法安装在 XNA Framework 版本低于 [AI_REQUIRED_XNA_DISPLAY] 的系统上。"/>
+  <STRING id="AI.Library.DefaultFileName" value="新建库"/>
+  <STRING id="AI.MoveFile.DestName" value="您的文件.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="此安装数据库包含了安装 [|ProductName] 所需的逻辑和数据。"/>
+  <STRING id="AI.Property.DefaultManufacturer" value="您的公司"/>
+  <STRING id="AI.Property.DefaultModuleName" value="您的合并模块"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="此数据库包含了安装 &lt;模块名称&gt; 组件所需的逻辑和数据。"/>
+  <STRING id="AI.Property.DefaultProductName" value="您的应用程序"/>
+  <STRING id="AI.Property.DefaultValue" value="您的值"/>
+  <STRING id="AI.Property.FindExeTitle" value="选择 [|ProductName] 安装包"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="此程序包包含一个用 Advanced Installer 试用版创建的合并模块。您只能以评估目的使用它。"/>
+  <STRING id="AI.Property.TrialMessageBody" value="此程序包是由试用版的 Advanced Installer 所创建。您只能使用它用于评估目的。"/>
+  <STRING id="AI.Property.TrialMessageTitle" value="警告"/>
+  <STRING id="AI.Registry.DefaultKey" value="新建项"/>
+  <STRING id="AI.Registry.DefaultName" value="新建值"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="您的文件.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="您的值"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="服务名称"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="您的服务描述"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="您的服务"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="新建共享"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="快捷方式到您的命令"/>
+  <STRING id="AI.Shortcut.DefaultName" value="快捷方式到 %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="卸载"/>
+  <STRING id="AI.Verb.DefaultCommand" value="打开(&amp;O)"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="新建文件"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="安装程序信息"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LogonInformationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MinProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SharePointLogDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLServerConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseIISWebsitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ConfigureDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderPage" value="安装文件夹&amp;"/>
+  <STRING id="Dialog.CustomizePage" value="组件&amp;"/>
+  <STRING id="Dialog.LanguageDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomePrereqDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressPrereqDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PreparePrereqDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BasicUIDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MultipleInstancesDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Dialog.CustomizePage" value="组件(&amp;T)"/>
+  <STRING id="Dialog.FolderPage" value="安装文件夹(&amp;F)"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="创建一个新的文件夹。|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="提升一个级别|"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="创建一个新的文件夹。|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="提升一个级别。|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="更改安装。|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="删除安装。|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="修复安装。|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="标准安装|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="图标扩大|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="搜索范围(&amp;L):"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="浏览目标文件夹。"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="创建新文件夹|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="文件夹名称(&amp;F):"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="更改当前目标文件夹"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="向上一级|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="请为 [ProductName] 产品的服务器映像指定网络位置。"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="输入一个新的网络位置或按 &quot;浏览&quot; 浏览一个(&amp;E)。"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="网络位置"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD 密匙(&amp;K):"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="请输入您的公司信息"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="请在下面的框中输入您的组织名称。它将作为随后的 [ProductName] 安装的默认公司名称使用(&amp;P):"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="公司信息"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard]将在指定的网络位置创建 [ProductName] 的服务器映像。点击 &quot;[Text_Next]&quot; 继续，或者点击 &quot;取消&quot; 退出[Wizard]。"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#DescriptionNoClose" value="[Wizard]将在指定的网络位置创建 [ProductName] 的服务器映像。点击 &quot;[Text_Next]&quot; 继续，或者点击 &quot;取消&quot; 退出[Wizard]。"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="欢迎使用 [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="搜索范围(&amp;L):"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="浏览目标文件夹。"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="创建新文件夹|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="文件夹名称(&amp;F):"/>
+  <STRING id="Control.Text.BrowseIISWebsitesDlg#Description" value="选择要更新的网站"/>
+  <STRING id="Control.Text.BrowseIISWebsitesDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="更改当前目标文件夹"/>
+  <STRING id="Control.Text.BrowseIISWebsitesDlg#WebsitesList" value="网站列表"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="向上一级|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="信息图标|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="您确定要取消 [ProductName] 安装吗？"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="选择您想要被安装的组件。"/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="磁盘使用(&amp;U)"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="当前选择项目的多行描述。"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="当前选择项目的大小。"/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;选择的路径&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="安装位置:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="点击目录树下的图标更改将要安装的组件。"/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="自定义安装"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="选定的目录树"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="安装所选组件所需的磁盘空间。"/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="突出显示的卷 (如果有) 没有足够的磁盘空间来安装当前选择的组件。您可以从突出显示的卷上删除一些文件，或者选择在本地磁盘上安装较少的组件，或者选择不同的目标磁盘。"/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="必需磁盘空间"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="信息图标|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="信息文本"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="点击 &quot;完成(&amp;F)&quot; 按钮退出[Wizard]。"/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="启动 [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="[ProductName] [Wizard]已完成"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="查看自述文件"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard]将注册 [ProductName] 以处理以下文件类型: [AI_ExtensionList_Text]。"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="用 [ProductName] 关联文件类型。"/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="文件关联"/>
+  <STRING id="Control.Text.FatalError#Description1" value="因为发生了错误，[ProductName] 的安装过早地结束。您的系统没有被修改。要稍后安装此程序，请再运行安装程序。"/>
+  <STRING id="Control.Text.FatalError#Description2" value="点击 &quot;完成(&amp;F)&quot; 按钮退出[Wizard]。"/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard]过早地结束"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="一些需要更新的文件正在使用中。"/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="下列应用程序正在使用需要被此安装更新的文件。您可以关闭应用程序，然后点击 &quot;重试&quot;，也可以点击 &quot;忽略&quot;，以便安装程序继续安装。当系统重启时，会替换这些文件。"/>
+  <STRING id="Control.Text.FilesInUse#Title" value="文件正在使用中"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="您想将 [ProductName] 安装在什么地方？"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="目标文件夹(&amp;F):"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="安装程序将被安装到下列文件夹中，点击 &quot;[Text_Next]&quot;继续，要选择不同的位置，请在下面输入或点击 &quot;浏览(&amp;O)...&quot; 按钮更改现有的文件夹。"/>
+  <STRING id="Control.Text.FolderDlg#Title" value="选择目标位置"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="请仔细阅读下列许可协议"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="最终用户许可协议"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="修改安装|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="修改(&amp;M)"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="允许用户更改已安装的组件。"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="选择您想执行的操作。"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="删除安装|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="删除(&amp;D)"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="从您的计算机删除 [ProductName]。"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="修复安装|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="修复(&amp;P)"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="修复最近的安装状态中的错误 - 修正丢失或损坏的文件、快捷方式和注册表项。"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="修改、修复或删除安装"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard]将允许更改在您的计算机上安装的 [ProductName] 组件，或甚至从您的计算机中删除 [ProductName]。点击 &quot;[Text_Next]&quot; 继续，或点击 &quot;取消&quot; 退出[Wizard]。"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="欢迎使用 [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="安装所需的磁盘空间超出了可用磁盘空间。"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="突出显示的卷没有足够的磁盘空间来安装当前选择的组件。您可以从突出显示的卷上删除一些文件，或者选择在本地磁盘上安装较少的组件，或者选择不同的目标磁盘。"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="磁盘空间用完"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="安装所需的磁盘空间超出了可用磁盘空间。"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="突出显示的卷没有足够的磁盘空间来安装当前选择的组件。您可以从突出显示的卷上删除一些文件，或者选择在本地磁盘上安装较少的组件，或者选择不同的目标磁盘。"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="另外，您可以选择禁用安装程序的回滚功能。此组件允许安装程序在安装被无论任何原因中断后恢复到计算机的原始状态。如果您想冒禁用回滚功能的风险，请点击 &quot;是&quot;。"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="磁盘空间用完"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="请稍候，[Wizard]正准备指导您完成安装。"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="[ProductName] 修补[Wizard]欢迎来到"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="[Wizard]准备期间,请稍等..."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="欢迎使用 [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="安装进度"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="状态:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="请稍候，正在[Progress2] [ProductName]，可能需要几分钟。"/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="请仔细阅读以下文本。"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="自述文件"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard]将在您的计算机上完成 [ProductName] 的安装。点击 &quot;安装&quot; 继续，或点击 &quot;取消&quot; 退出[Wizard]。"/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="正在恢复 [ProductName] [Wizard]"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="完全安装|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="完全(&amp;O)"/>
+  <STRING id="Property.Text_Complete" value="完全"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="所有的程序组件将被安装(要求较多的磁盘空间)。"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="自定义安装|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="自定义(&amp;U)"/>
+  <STRING id="Property.Text_Custom" value="自定义"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="允许用户选择将要安装的程序组件及其安装位置。推荐高级用户使用。"/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="请选择最适合您需要的安装类型。"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="选择安装类型"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="简洁安装|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="简洁(&amp;T)"/>
+  <STRING id="Property.Text_Typical" value="简洁"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="安装最常用的程序组件。推荐大多数用户使用。"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard]可以搜索 [ProductName] 的旧版本并删除它，您想要删除这些版本吗？"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard]检测到您选择的安装位置已被用于 [ProductName] 的 [AI_Replaced_Versions_List] 版本。该版本必须被卸载。您也想要删除任何其它更旧的版本吗？"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="新建(等待)对话框"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="搜索和升级 [ProductName] 的旧版本。"/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="升级旧版本"/>
+  <STRING id="Control.Text.UserExit#Description1" value="[ProductName] 的安装被中断。您的系统没有被修改。要稍后安装此程序，请再运行安装程序。"/>
+  <STRING id="Control.Text.UserExit#Description2" value="点击 &quot;完成(&amp;F)&quot; 按钮退出[Wizard]。"/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName] [Wizard]已被中断"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="序列号:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="请输入您的用户信息"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="用户名(&amp;U):"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="组织(&amp;O):"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="用户信息"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="安装程序现在准备开始安装 [ProductName] 到您的计算机中。"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="点击 &quot;安装&quot; 开始安装。如果您想复查或更改您的安装设置，点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="准备安装"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="您已选择从您的计算机删除程序。"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="点击 &quot;删除&quot; 来从您的计算机删除 [ProductName]。 如果您想复查或更改您的安装设置，点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="删除 [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard]准备开始修复 [ProductName]。"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="点击 &quot;修复&quot; 修复 [ProductName] 安装。如果您想复查或更改您的安装设置，请点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="修复 [ProductName]"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="感叹号图标|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="安装程序正在确定需要的磁盘空间，请稍等..."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard]将在您的计算机上安装 [ProductName]。点击 &quot;[Text_Next]&quot; 继续，或点击 &quot;取消&quot; 退出[Wizard]。"/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="欢迎使用 [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard]将在您的计算机上安装 [ProductName] 的修补程序。点击 &quot;[Text_Next]&quot; 继续，或点击 &quot;取消&quot; 退出修补程序[Wizard]。"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="欢迎光临 [ProductName] 修补程序[Wizard]"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="配置快捷方式"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="创建应用程序快捷方式"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="在下列位置创建 [ProductName] 的快捷方式:"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="桌面"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="开始菜单程序文件夹"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="快速启动工具栏"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="启动文件夹"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="开始菜单快捷方式文件夹(&amp;S):"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="要在该文件夹安装快捷方式，点击 &quot;[Text_Next]&quot;。要安装到一个不同的文件夹，在下面输入或从列表框中选择一个。"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="这是将被安装 [ProductName] 快捷方式的文件夹。"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="选择开始菜单快捷方式文件夹"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="要安装到一个子文件夹，附加由 &quot;\&quot; 分隔的子文件夹名称。"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="数据库:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC 资源:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="密码:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="端口:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="服务器:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="用户名:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="配置 SQL 连接..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL 数据库"/>
+  <STRING id="Control.Text.SQLServerConnectionDlg#TestSqlConnectionLabel" value="测试Sql连接"/>
+  <STRING id="Control.Text.SQLServerConnectionDlg#TestSqlConnection" value="&lt;a href=&quot;&quot;&gt;测试Sql连接&lt;/a&gt;"/>
+  <STRING id="Control.Text.SQLServerConnectionDlg#ConnectionResult" value="[SqlConnectionResult]"/>
+  <STRING id="Control.ExtData.SQLServerConnectionDlg#TrustedConnectionCheckBox" value="可信连接(Windows集成验证)"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="新建对话框描述..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="新建对话框"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="新建对话框描述..."/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="新建生成 (等待) 对话框"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="一些需要更新的文件正在使用中。"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="下列应用程序正在使用需要被此安装更新的文件。"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="文件正在使用中"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="完全安装|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="服务器安装|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="客户端安装|"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="完全(&amp;A)"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="安装客户端和服务器配置。"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="服务器(&amp;S)"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="安装服务器配置。"/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="选择最适合您需要的安装类型。"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="选择安装类型"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="客户端(&amp;C)"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="安装客户端配置。"/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="选择安装类型。"/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="安装 [ProductName]:"/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="安装类型"/>
+  <STRING id="Control.Text.LogonInformationDlg#Description" value="指定用户帐户信息"/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainLabel" value="域(&amp;D):"/>
+  <STRING id="Control.Text.LogonInformationDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameLabel" value="用户名(&amp;U):"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordLabel" value="密码(&amp;P):"/>
+  <STRING id="Control.Text.LogonInformationDlg#Title" value="登录信息"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="新建对话框的说明..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="新建对话框"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="请配置 Tomcat 服务器属性"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="主机名称:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="HTTP 端口号:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="HTTP SSL 端口号:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="关闭端口号:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="Tomcat 服务器属性"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Description" value="选择将安装的运行环境。"/>
+  <STRING id="Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}名称,需求,找到,操作"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Title" value="运行环境"/>
+  <!-- Azure Theme strings -->
+  <STRING id="Control.Text.ConfigureDlg#Title" value="[ProductName] 设置如何安装"/>
+  <STRING id="Control.Text.OptionalFeatsDlg#Title" value="选择组件"/>
+  <STRING id="Control.Text.SelectAll" value="全选(&amp;S)"/>
+  <STRING id="Control.Text.LanguageDlg#Title" value="欢迎来到 [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.LanguageDlg#LangText" value="选择安装语言:"/>
+  <STRING id="Control.Text.WelcomePrereqDlg#Title" value="欢迎来到运行环境 [Wizard]"/>
+  <STRING id="Control.Text.WelcomePrereqDlg#SubTitle" value="欢迎来到运行环境 [Wizard]"/>
+  <STRING id="Control.Text.WelcomePrereqDlg#Description" value="[ProductName]所需的一些运行环境缺失，此向导将帮助您获取和安装这些行环境。 点击 &quot;[Text_Next]&quot; 继续或 &quot;[ButtonText_Cancel]&quot; 退出 [Wizard]。"/>
+  <STRING id="Control.Text.ProgressPrereqDlg#Title" value="[Progress1] 运行环境 [ProductName]"/>
+  <STRING id="Control.Text.ProgressPrereqDlg#Text" value="请稍等 [Wizard] [Progress2] [ProductName]的运行环境，这可能会需要几分钟。"/>
+  <STRING id="Control.Text.ProgressPrereqDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.MultipleInstancesDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.ProgressPrereqDlg#ProgressBar" value="进程结束"/>
+  <STRING id="Control.Text.ProgressPrereqDlg#StatusLabel" value="状态:"/>
+  <STRING id="Control.Text.PreparePrereqDlg#Description" value="请稍等 [Wizard] 准备指导您完成安装。"/>
+  <STRING id="Control.Text.PreparePrereqDlg#Title" value="欢迎来到运行环境 [Wizard]"/>
+  <STRING id="Control.Text.BasicUIDlg#ProgressBar" value="ProgressBar"/>
+  <STRING id="Control.Text.CustomizeDlg#FeatsShortDescription" value="您想安装哪些程序的组件？"/>
+  <STRING id="Control.Text.FatalError#LogCheckBox" value="查看日志"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Description" value="[ProductName] 请选择您要与关联的扩展"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Text" value="[ProductName] 选择文件类型自动打开:"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Title" value="选择文件关联"/>
+  <STRING id="Control.Text.FolderDlg#TextNoNext" value="[ProductName] 将被安装在您的计算机上。若要安装到另一个位置，请在下面输入或点击 &quot;浏览(&amp;O)...&quot; 按钮。"/>
+  <STRING id="Control.Text.InstallDlg#DescWithSize" value="至少需要 [PrimaryVolumeSpaceRequired] 的可用磁盘空间:"/>
+  <STRING id="Control.Text.InstallDlg#Title" value="该文件的位置和许可条款"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#DescriptionNoClose" value="[Wizard] 将允许您更改计算机上安装的 [ProductName] 组件的方式，甚至从计算机中删除 [ProductName]， 点击&quot;[Text_Next]&quot; 继续或关闭[Wizard]窗口。"/>
+  <STRING id="Control.Text.MinProgressDlg#ProgressBar" value="完成"/>
+  <STRING id="Control.Text.MinProgressDlg#StatusLabel" value="状态:"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#DescriptionNoClose" value="[Wizard]准备安装 [ProductName] 要安装补丁。点击&quot;[Text_Next]&quot; 继续或关闭[Wizard]窗口。"/>
+  <STRING id="Control.Text.ResumeDlg#DescriptionNoClose" value="[Wizard]准备安装 [ProductName] ，点击&quot;[Text_Next]&quot; 继续或关闭[Wizard]窗口。"/>
+  <STRING id="Control.Text.SharePointLogDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Control.Text.SharePointLogDlg#SharePointLog" value="{0}"/>
+  <STRING id="Control.Text.SharePointLogDlg#Title" value="SharePoint 配置日志"/>
+  <STRING id="Control.Text.TemplateChildDlg#Text" value="新建子对话框"/>
+  <STRING id="Control.Text.VerifyReadyDlg#TextNoClose" value="点击 &quot;安装&quot; 开始安装。如果您想复查或更改安装设置，点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#TextNoClose" value="[ProductName] 若要从计算机中删除，请点击&quot;删除&quot;。如果您想复查或更改安装设置，点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Control.Text.VerifyRepairDlg#TextNoClose" value="[ProductName] 若要修复安装，点击&quot;修复&quot;。如果您想复查或更改安装设置，点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Control.Text.WelcomeDlg#DescriptionNoClose" value="[Wizard]准备安装 [ProductName] ，点击&quot;[Text_Next]&quot; 继续或关闭[Wizard]窗口。"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ClientCommand" value="客户端"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#CompleteCommand" value="完全"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ServerCommand" value="服务器"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#ModifyCommand" value="添加或删除组件"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RemoveCommand" value="删除"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RepairCommand" value="修复"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CompleteCommand" value="完全(&amp;O)"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CustomCommand" value="自定义(&amp;U)"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#TypicalCommand" value="简洁(&amp;T)"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ClientCommand" value="安装客户端配置。|"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#CompleteCommand" value="安装客户端和服务器配置。|"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ServerCommand" value="安装服务器配置。|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#ModifyCommand" value="更改要安装的组件。|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RemoveCommand" value="从您的计算机中删除 [ProductName]。|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RepairCommand" value="修复最近安装状态中的错误。|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CompleteCommand" value="安装所有组件。|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CustomCommand" value="更改要安装的组件。|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#TypicalCommand" value="安装默认组件。|"/>
+  <STRING id="Azure.Control.Text.AdminInstallPointDlg#Title" value="选择 [ProductName] 产品的服务器映像的网络位置。"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceLabel" value="可用磁盘空间: "/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#ItemDescription" value="当前选定项目的多行描述。"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#Text" value="您想安装哪些程序的组件？"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel" value="所需磁盘空间: "/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.DiskCostDlg#Title" value="选定组件所需的磁盘空间"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionConfigured" value="[ProductName] 已配置成功。"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionInstalled" value="[ProductName] 已安装成功。"/>
+  <STRING id="Azure.Control.Text.ExitDialog#Finish" value="关闭(&amp;C)"/>
+  <STRING id="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" value="启动 [ProductName]"/>
+  <STRING id="Azure.Control.Text.ExitDialog#ViewReadmeCheckBox" value="显示说明文件"/>
+  <STRING id="Azure.Control.Text.ExtRegDlg#Title" value="用 [ProductName] 关联文件类型。"/>
+  <STRING id="Azure.Control.Text.FilesInUse#Title" value="一些需要被更新的文件正在使用中。"/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceLabel" value="可用磁盘空间: "/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#ContinueButton" value="继续(&amp;C)"/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceLabel" value="剩余可用磁盘空间:"/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceText" value="[PrimaryVolumeSpaceRemaining]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#Title" value="选择文件位置"/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceLabel" value="所需磁盘空间:"/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.InstallTypeDlg#Title" value="[ProductName] 安装类型"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Description" value="若要继续，您必须阅读并接受本协议中的条款。如果您不希望接受 [Manufacturer] 许可条款，请关闭此窗口以取消安装。"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#EulaAgreeCheckBox" value="我接受此协议中的条款(&amp;A)。"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Title" value="阅读 [Manufacturer] 许可条款"/>
+  <STRING id="Azure.Control.Text.LogonInformationDlg#Title" value="用户帐户信息"/>
+  <STRING id="Azure.Control.Text.MaintenanceTypeDlg#Title" value="更改 [ProductName] 的安装"/>
+  <STRING id="Azure.Control.Text.MsiRMFilesInUse#Title" value="一些需要被更新的文件正在使用中。"/>
+  <STRING id="Azure.Control.Text.OutOfDiskDlg#Title" value="安装所需的磁盘空间超出了可用磁盘空间。"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#OkButton" value="确定"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#Title" value="安装所需的磁盘空间超出了可用磁盘空间。"/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Description" value="请稍侯，[Wizard]正准备指导您完成安装。"/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Title" value="正在准备 [ProductName] [Wizard]"/>
+  <STRING id="Azure.Control.Text.PrerequisitesDlg#Title" value="选择要安装的运行环境"/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Description" value="[Progress1] [ProductName]..."/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Title" value="安装进度"/>
+  <STRING id="Azure.Control.Text.ReadmeDlg#Title" value="请仔细阅读下列内容。"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Customize" value="更改要安装的组件。|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Description" value="请选择下列 [ProductName] 安装的首选类型:"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#InstallNow" value="安装默认组件。|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Title" value="选择您想要的安装"/>
+  <STRING id="Azure.Control.Text.ShortcutsDlg#Title" value="创建应用程序快捷方式"/>
+  <STRING id="Azure.Control.Text.SQLConnectionDlg#Title" value="配置 SQL 连接"/>
+  <STRING id="Azure.Control.Text.StartMenuShortcutsDlg#Title" value="选择开始菜单快捷方式文件夹"/>
+  <STRING id="Azure.Control.Text.TomcatServerDlg#Title" value="配置 Tomcat 服务器属性"/>
+  <STRING id="Azure.Control.Text.ProgressPrereqDlg#Description" value="[Progress1] 运行环境 [ProductName]..."/>
+  <STRING id="Azure.Control.Text.PreparePrereqDlg#Description" value="请稍等 [Wizard] 准备指导您完成安装。"/>
+  <STRING id="Azure.Control.Text.PreparePrereqDlg#Title" value="正在准备运行环境 [Wizard]"/>
+  <STRING id="Azure.Control.Text.UpgradeDlg#Title" value="搜索和升级 [ProductName] 旧版本。"/>
+  <STRING id="Azure.Control.Text.UserRegistrationDlg#Title" value="请输入您的用户信息"/>
+  <STRING id="Azure.Control.Text.VerifyReadyDlg#Title" value="开始安装 [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRemoveDlg#Title" value="开始删除 [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRepairDlg#Title" value="开始修复 [ProductName]"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#ContinueButton" value="继续(&amp;C)"/>
+  <STRING id="Property.Text_Continue" value="继续"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Description" value="若要继续，您必须阅读并接受本协议中的条款。如果您不希望接受 [Manufacturer] 许可条款，请关闭此窗口以取消安装。"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#EulaAgreeCheckBox" value="我接受此协议中的条款(&amp;A)。"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Title" value="欢迎使用 [ProductName] [Wizard]"/>
+  <!-- Graphite Theme strings -->
+  <STRING id="Graphite.Control.Text.AdminInstallPointDlg#Title" value="[ProductName] 服务器映像的网络位置"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Description" value="您想安装哪些程序的组件？"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#SpaceRequiredLabel" value="所选组件所需空间 :"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Title" value="自定义安装"/>
+  <STRING id="Graphite.Control.Text.Dlg#CollectingLabel" value="正在收集信息..."/>
+  <STRING id="Graphite.Control.Text.Dlg#FinalizingLabel" value="正在完成安装..."/>
+  <STRING id="Graphite.Control.Text.Dlg#InstallingLabel" value="正在安装..."/>
+  <STRING id="Graphite.Control.Text.Dlg#PreparingLabel" value="正在准备安装..."/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Intro" value="[ProductName] 已成功安装。"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Title" value="[ProductName] 安装完成"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description1" value="因为发生了错误，[ProductName] 安装过早地结束。您的系统没有被修改。要稍后安装此程序，请再次运行安装程序。"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description2" value="点击 &quot;完成(&amp;F)&quot; 按钮退出[Wizard]。"/>
+  <STRING id="Graphite.Control.Text.FatalError#Title" value="[ProductName] 安装被中断"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#AvailableSpaceLabel" value="可用磁盘空间:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Description" value="要安装到此文件夹，请点击 &quot;[Text_Next]&quot;，要安装到不同文件夹，请在下面输入或点击 &quot;浏览(&amp;O)...&quot; 按钮。"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Intro" value="这是将被安装 [ProductName] 的文件夹。"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#RemainingSpaceLabel" value="剩余磁盘空间:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#SpaceRequiredLabel" value="所需空间:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Title" value="安装文件夹"/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Description" value="请仔细阅读下列许可协议。"/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Title" value="最终用户许可协议"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#ChangeText" value="更改当前的安装状态 - 添加或删除程序组件。"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Description" value="请选择您想要执行的维护操作并点击 &quot;[Text_Next]&quot;。"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Intro" value="欢迎使用 [ProductName] 维护向导。"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RemoveText" value="从您的计算机中删除 [ProductName]。"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RepairText" value="修复最近安装状态中的错误 - 修正丢失或损坏的文件、快捷方式和注册表项。"/>
+  <STRING id="Graphite.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard]将允许更改在您的计算机上安装的 [ProductName] 组件，或甚至从您的计算机中删除 [ProductName]。点击 &quot;[Text_Next]&quot; 继续，或点击 &quot;取消&quot; 退出[Wizard]。"/>
+  <STRING id="Graphite.Control.Text.MsiRMFilesInUse#Description" value="一些需要被更新的文件正在使用中。"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Intro" value="欢迎使用 [ProductName] 修补程序安装向导。"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Title" value="欢迎使用 [ProductName] 修补程序安装程序"/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Description" value="请稍侯，[Wizard]正准备指导您完成安装。"/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Title" value="正在准备 [ProductName] 安装程序"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Description" value="选择将安装的运行环境。"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Logo" value="zdfans.com出品"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}名称,需要,已找到,操作"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Title" value="运行环境"/>
+  <STRING id="Graphite.Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Description" value="请仔细阅读下列内容。"/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Title" value="说明信息"/>
+  <STRING id="Graphite.Control.Text.ResumeDlg#Title" value="正在恢复 [ProductName] 安装程序"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Description" value="请选择最适合您需要的安装类型。"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Title" value="安装类型"/>
+  <STRING id="Graphite.Control.Text.SQLConnectionDlg#Title" value="配置 SQL 数据库"/>
+  <STRING id="Graphite.Control.Text.TomcatServerDlg#Title" value="配置 Tomcat 服务器属性"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description1" value="[ProductName] 安装被中断。您的系统没有被修改。要稍后安装此程序，请再次运行安装程序。"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description2" value="点击 &quot;完成(&amp;F)&quot; 按钮退出[Wizard]。"/>
+  <STRING id="Graphite.Control.Text.UserExit#Title" value="[ProductName] 安装被中断"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Description" value="点击 &quot;安装&quot; 开始安装。如果您想复查或更改安装设置，点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Intro" value="[Wizard]准备开始安装 [ProductName]。"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Title" value="准备安装"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Description" value="点击 &quot;删除&quot; 从您的计算机中删除 [ProductName]。 如果您想复查或更改安装设置，点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Intro" value="[Wizard]准备开始卸载 [ProductName]。"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Title" value="准备删除"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Description" value="点击 &quot;修复&quot; 修复 [ProductName] 安装。如果您想复查或更改您的安装设置，请点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Intro" value="[Wizard]准备开始修复 [ProductName]。"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Title" value="准备修复"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Description" value="[Wizard]将在您的计算机上安装 [ProductName]。请点击 &quot;[Text_Next]&quot; 继续。"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Intro" value="欢迎使用 [ProductName] 安装向导。"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Title" value="欢迎使用 [ProductName] 安装程序"/>
+  <STRING id="Graphite.MaintenanceTypeDlg#Title" value="欢迎使用光临 [ProductName] 维护程序"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Complete" value="完全"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Custom" value="自定义"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Typical" value="简洁"/>
+  <!-- Modern Theme strings -->
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#AddRemoveButton" value="更改已安装的组件或删除指定组件。|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RemoveButton" value="从您的计算机中删除 [ProductName]。|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RepairButton" value="修复最近安装状态中的错误 - 修正丢失或损坏的文件、快捷方式和注册表项。|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CompleteInstallButton" value="所有的程序组件将被安装(要求较多的磁盘空间)。|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CustomInstallButton" value="允许用户选择将要安装的程序组件及其安装位置。推荐高级用户使用。|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#TypicalInstallButton" value="安装最常用的程序组件。推荐大多数用户使用。|"/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#BottomNote" value="点击 &quot;[Text_Next] &quot; 继续。"/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#Description" value="[Wizard]将在指定的网络位置创建 [ProductName] 服务器映像。"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#Browse" value="浏览(&amp;O)..."/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#FeatureDescriptionLabel" value="组件描述:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#InstallPathLabel" value="产品安装路径(&amp;P):"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#SelectionTreeLabel" value="选择要安装的组件:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#VolumeCostListLabel" value="磁盘空间需求:"/>
+  <STRING id="Modern.Control.ExtData.MaintenanceTypeDlg#AddRemoveButton" value="&amp;添加或删除组件"/>
+  <STRING id="Modern.Control.ExtData.MaintenanceTypeDlg#RepairButton" value="修复/重新安装(&amp;P)"/>
+  <STRING id="Modern.Control.Text.Dlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.Dlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.Dlg#Setup" value="安装"/>
+  <STRING id="Modern.Control.Text.FatalError#Description" value="因为发生了错误，[ProductName] 安装过早地结束。您的系统没有被修改。要稍后安装此程序，请再次运行安装程序。"/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#AgreementLabel" value="请务必仔细阅读并理解许可条款所述的所有权利和限制。您必须接受许可条款，然后才能安装该软件。"/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#ButtonLabel" value="按 Page Down 键查看更多内容。"/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#PrintButton" value="打印"/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#BottomNote" value="点击 &quot;[Text_Next] &quot; 继续。"/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard]将允许您更改在您的计算机上已安装的 [ProductName] 组件或甚至从您的计算机中删除 [ProductName]。"/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Description" value="[Wizard]将在您的计算机上安装 [ProductName] 修补程序。点击 &quot;[Text_Next]&quot; 继续，或点击 &quot;取消&quot; 退出修补程序[Wizard]。"/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Title" value="欢迎使用 [ProductName] 修补程序[Wizard]"/>
+  <STRING id="Modern.Control.Text.PrepareDlg#Description" value="请稍侯，[Wizard]正准备指导您完成安装。"/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Description" value="选择将安装的运行环境。"/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Title" value="运行环境"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Description" value="请仔细阅读下列内容。"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Title" value="说明文件"/>
+  <STRING id="Modern.Control.Text.ResumeDlg#BottomNote" value="点击 &quot;安装&quot; 继续或 &quot;取消&quot; 退出 [Wizard]。"/>
+  <STRING id="Modern.Control.Text.ResumeDlg#Description" value="[Wizard]将在您的计算机上完成 [ProductName] 安装。"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#BrowseButton" value="浏览(&amp;O)..."/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#PathLabel" value="产品安装路径(&amp;P):"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#Title" value="选择要安装的组件:"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#VolumeCostListLabel" value="磁盘空间需求:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Description" value="创建应用程序快捷方式。"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#ShortcutsLabel" value="在下列位置创建 [ProductName] 快捷方式:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Title" value="配置快捷方式"/>
+  <STRING id="Modern.Control.Text.SQLConnectionDlg#Description" value="配置 SQL 连接。"/>
+  <STRING id="Modern.Control.Text.TomcatServerDlg#Description" value="请配置 Tomcat 服务器属性。"/>
+  <STRING id="Modern.Control.Text.UserExit#BottomNote" value="点击 &quot;完成(&amp;F)&quot; 按钮退出[Wizard]。"/>
+  <STRING id="Modern.Control.Text.LanguageDlg#Setup" value="安装"/>
+  <STRING id="Modern.Control.Text.MultipleInstancesDlg#Setup" value="安装"/>
+  <STRING id="Modern.Control.Text.PreparePrereqDlg#Setup" value="安装"/>
+  <STRING id="Modern.Control.Text.WelcomePrereqDlg#Setup" value="安装"/>
+  <STRING id="Modern.Control.Text.ProgressPrereqDlg#Setup" value="安装"/>
+  <STRING id="Modern.Control.Text.UserExit#Description" value="[ProductName] 安装被中断。您的系统没有被修改。要稍后安装此程序，请再次运行安装程序。"/>
+  <STRING id="Modern.Control.Text.UserRegistrationDlg#Description" value="请输入您的用户信息。"/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#BottomNote" value="点击 &quot;安装&quot; 开始安装。如果您想复查或更改安装设置，点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Description" value="[Wizard]准备开始安装 [ProductName]。"/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Title" value="准备安装"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#BottomNote" value="点击 &quot;删除&quot; 从您的计算机中删除 [ProductName]。 如果您想复查或更改安装设置，点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Description" value="您已选择从您的计算机中删除程序。"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Title" value="删除 [ProductName]"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#BottomNote" value="点击 &quot;修复&quot; 修复 [ProductName] 安装。如果您想复查或更改您的安装设置，请点击 &quot;上一步(&amp;B)&quot;。点击 &quot;取消&quot; 退出向导。"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Description" value="[Wizard]准备开始修复 [ProductName]。"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Title" value="修复 [ProductName]"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#BottomNote" value="点击 &quot;[Text_Next] &quot; 继续。"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Description" value="[Wizard]将在您的计算机上安装 [ProductName]。"/>
+  <STRING id="UIText.InstallMessage" value="安装文件。"/>
+  <STRING id="UIText.NumberValidationTipTitle" value="不可接受的字符"/>
+  <STRING id="UIText.NumberValidationTipMsg" value="您只能在此处输入数字。"/>
+  <STRING id="UIText.UninstallMsg" value="您确定要卸载 [ProductName]？"/>
+  <STRING id="UIText.InstallingPackage" value="安装 [1]"/>
+  <STRING id="UIText.UnInstallingPackage" value="删除 [1]"/>
+  <STRING id="UIText.ConfigurePackage" value="配置 [1]"/>
+  <STRING id="UIText.SharePointLogActivatingFeature" value="功能 [1] 必须启用。"/>
+  <STRING id="UIText.SharePointLogAddingSln" value="必须添加解决方案: [1]。"/>
+  <STRING id="UIText.SharePointLogDeletingSln" value="要删除的解决方案: [1]。"/>
+  <STRING id="UIText.SharePointLogDeployingSln" value="解决方案 [1] 该网址 [2] 我们配置到。"/>
+  <STRING id="UIText.SharePointLogFinish" value="它已经完成的SharePoint解决方案的分布"/>
+  <STRING id="UIText.SharePointLogInstall" value="在初始安装模式下运行。"/>
+  <STRING id="UIText.SharePointLogMaintenance" value="以维护模式运行。"/>
+  <STRING id="UIText.SharePointLogMissingStsadm" value="SharePoint或MSI设置是不恰当的。请确保安装程序是相同的封装类型的SharePoint（32位或64位）。"/>
+  <STRING id="UIText.SharePointLogNoUrl" value="注意: 解决方案可能没有正确分发。找不到有效的URL AI_WSP_URL，解决方案是不是在全球的本地。"/>
+  <STRING id="UIText.SharePointLogRetractingSln" value="删除解决方案: [1]。"/>
+  <STRING id="UIText.SharePointLogRetractingSlnAdmin" value="解决方案 [1] 用于管理虚拟服务器 [2] 它从保存。"/>
+  <STRING id="UIText.SharePointLogStart" value="已经开始的SharePoint解决方案的分布"/>
+  <STRING id="UIText.SharePointLogUninstall" value="运行卸载模式。"/>
+  <STRING id="UIText.SharePointLogUninstallFinish" value="结束SharePoint解决方案的分布情况"/>
+  <STRING id="UIText.SharePointLogUninstallStart" value="删除SharePoint解决方案"/>
+  <STRING id="UIText.SharePointLogWspNoFile" value="CAB文件无法找到: [1]。跳过。"/>
+  <STRING id="UIText.SharePointLogWspNoName" value="跳过无名CAB。全部选项字符串: [1]。"/>
+  <STRING id="UIText.SharePointLogWspNoOptions" value="跳过不完整的CAB。全部选项字符串: [1]。"/>
+  <STRING id="Air.Control.Help#Back" value="返回|"/>
+  <STRING id="Air.Control.Help.ExitDialog#LaunchProdCheckBox" value="启动应用程序|"/>
+  <STRING id="Air.Control.Help.ExitDialog#ViewReadmeCheckBox" value="README 显示|"/>
+  <STRING id="Air.Control.Text.ExitDialog#LaunchProdCheckBox" value="启动应用程序"/>
+  <STRING id="Air.Control.Text.WelcomePrereqDlg#SubTitle" value="欢迎来到运行环境 [Wizard]"/>
+  <STRING id="Air.Control.Text.ProgressPrereqDlg#Title" value="[ProductName] [Wizard]"/>
+  <STRING id="Air.Control.Text.ProgressPrereqDlg#SubTitle" value="[Progress1] 运行环境 [ProductName]..."/> 
+  <STRING id="Air.Control.Text.ExitDialog#SubTitle" value="感谢您的使用！"/>
+  <STRING id="Air.Control.Text.FolderDlg#SubTitle" value="选择目标位置"/>
+  <STRING id="Air.Control.Text.LicenseAgreementDlg#SubTitle" value="许可条件"/>
+  <STRING id="Air.Control.Text.PrepareDlg#Description" value="请稍等安装程序初始化完成。"/>
+  <STRING id="Air.Control.Text.UserExit#SubTitle" value="安装已取消"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Title" value="欢迎使用 [ProductName] [Wizard]"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#IntroUninstall" value="[ProductName] 已经正确卸载。"/>
+  <STRING id="Metro.Control.ExtData#Cancel" value="[ButtonText_Cancel]"/>
+  <STRING id="Metro.Control.ExtData#Modify" value="修改(&amp;M)"/>
+  <STRING id="Metro.Control.ExtData#No" value="[ButtonText_No]"/>
+  <STRING id="Metro.Control.ExtData#OK" value="&amp;[ButtonText_OK]"/>
+  <STRING id="Metro.Control.ExtData#Yes" value="[ButtonText_Yes]"/>
+  <STRING id="Metro.Control.ExtData.Back" value="返回"/>
+  <STRING id="Metro.Control.ExtData.ExitDialog#Finish" value="[ButtonText_Finish]"/>
+  <STRING id="Metro.Control.ExtData.VerifyReadyDlg#InstallButton" value="安装"/>
+  <STRING id="Metro.Control.ExtData.VerifyRemoveDlg#Remove" value="删除(&amp;D)"/>
+  <STRING id="Metro.Control.ExtData.VerifyRepairDlg#Repair" value="修复(&amp;P)"/>
+  <STRING id="Metro.Control.ExtData.WelcomeDlg.BrowseTxt" value="..."/>
+  <STRING id="Metro.Control.Text.AdminWelcomeDlg#Description" value="[Wizard]指定的网络位置 [ProductName] 创建服务器映像。&quot;[Text_Next]&quot; 点击或继续、&quot;取消&quot; 点击退出[Wizard]。"/>
+  <STRING id="Metro.Control.Text.ExitDialog#Readme" value="README"/>
+  <STRING id="Metro.Control.Text.ExitDialog#Run" value="运行"/>
+  <STRING id="Metro.Control.Text.LicenseAgreementDlg#AgreeInstall" value="同意安装(&amp;A)"/>
+  <STRING id="Metro.Control.Text.Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Metro.Control.Text.OutOfDiskDlg#Text" value="突出显示的卷的可用空间不足。您可以选择不同的目标磁盘或文件删除，请降低您要安装的组件。"/>
+  <STRING id="Metro.Control.Text.ProductName" value="[ProductName]"/>
+  <STRING id="Metro.Control.Text.ResumeDlg#Description" value="[Wizard]计算机的 [ProductName] 要完成安装。&quot;安装&quot; 通过点击请继续。"/>
+  <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_2" value="安装位置:"/>
+  <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_4" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_5" value="磁盘空间要求:"/>
+  <STRING id="Metro.Control.Text.VerifyRemoveDlg#Text" value="点击&quot;删除&quot; [ProductName] 从计算机中删除。 要更改安装设置请点击 &quot;上一步(&amp;B)&quot; 。"/>
+  <STRING id="Metro.Control.Text.VerifyRepairDlg#Text" value="点击&quot;修复&quot; [ProductName] 修复安装。 要更改安装设置请点击 &quot;上一步(&amp;B)&quot; 。"/>
+  <STRING id="Metro.Control.Text.WelcomeDlg#YouMustAgreeCtrl" value="您必须同意&lt;a href=&quot;&quot;&gt;许可条款和条件&lt;/a&gt;然后才能安装[ProductName]。"/>
+  <STRING id="Metro.Control.Text.WelcomeDlg.AgreeToLicense" value="我同意许可条款和条件。"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CompleteLabel" value="完成"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CompleteText" value="客户端和服务器"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CustomLabel" value="服务器"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CustomText" value="仅设置安装服务器"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#TypicalLabel" value="客户端"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#TypicalText" value="仅设置安装客户端"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#Desc" value="您想安装哪些程序的组件？"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#SpaceAvail" value="磁盘上的可用空间: [PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#SpaceReq" value="需要磁盘可用空间: [PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#Title" value="安装选项"/>
+  <STRING id="Spring.Control.Text.ExitDialog#Close" value="关闭"/>
+  <STRING id="Spring.Control.Text.ExitDialog#Description" value="[ProductName] 已成功[Finish1]。"/>
+  <STRING id="Spring.Control.Text.ExitDialog#EventConfigured" value="配置"/>
+  <STRING id="Spring.Control.Text.ExitDialog#EventInstalled" value="安装"/>
+  <STRING id="Spring.Control.Text.ExitDialog#EventRemoved" value="删除"/>
+  <STRING id="Spring.Control.Text.FolderDlg#SpaceRem" value="磁盘上剩余的可用空间: [PrimaryVolumeSpaceRemaining]"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#ModifyDesc" value="添加或删除组件"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#ModifyLabel" value="修改"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RemoveDesc" value="[ProductName] 删除"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RemoveLabel" value="卸载"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RepairDesc" value="文件不存在或修复破损文件"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RepairLabel" value="修复"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#Title" value="[ProductName] 安装的修改"/>
+  <STRING id="Spring.Control.Text.OutOfDiskDlg#Title" value="可用磁盘空间不足。"/>
+  <STRING id="Spring.Control.Text.OutOfRbDiskDlg#Title" value="您确定要禁用回滚？"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#CustomLabel" value="自定义"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#CustomText" value="选择要安装的组件"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#TypicalLabel" value="简洁安装"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#TypicalText" value="安装一般的组件"/>
+  <STRING id="ActionText.Description.Advertise" value="正在公布应用程序..."/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="正在配置注册表空间..."/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="剩余空间: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="正在搜索已安装的应用程序..."/>
+  <STRING id="ActionText.Template.AppSearch" value="属性: [1]，签名: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="正在绑定可执行文件..."/>
+  <STRING id="ActionText.Template.BindImage" value="文件: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="正在搜索合格产品..."/>
+  <STRING id="ActionText.Description.CostFinalize" value="正在计算所需的空间..."/>
+  <STRING id="ActionText.Description.CostInitialize" value="正在计算所需的空间..."/>
+  <STRING id="ActionText.Description.CreateFolders" value="正在创建文件夹..."/>
+  <STRING id="ActionText.Template.CreateFolders" value="文件夹: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="正在创建快捷方式..."/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="快捷方式: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="正在删除服务..."/>
+  <STRING id="ActionText.Template.DeleteServices" value="服务: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="正在创建重复文件..."/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="文件: [1],  目录: [9],  大小: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="正在计算所需的空间..."/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="正在搜索相关的应用程序..."/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="找到应用程序: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="正在生成脚本操作，用于:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="正在复制网络安装文件..."/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="文件: [1]，目录: [9]，大小: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="正在复制新文件..."/>
+  <STRING id="ActionText.Template.InstallFiles" value="文件: [1]，目录: [9]，大小: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="正在安装ODBC组件..."/>
+  <STRING id="ActionText.Description.InstallServices" value="正在安装新服务..."/>
+  <STRING id="ActionText.Template.InstallServices" value="服务: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="正在安装系统分类资料夹..."/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="文件: [1]，依赖: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="正在验证安装..."/>
+  <STRING id="ActionText.Description.LaunchConditions" value="正在评估启动条件..."/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="正在从相关应用程序迁移功能..."/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="应用程序: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="正在移动文件..."/>
+  <STRING id="ActionText.Template.MoveFiles" value="文件: [1]，目录: [9]，大小: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="正在发布程序集信息..."/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="应用程序上下文: [1]，程序集名称: [2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="正在撤销发布程序集信息..."/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="应用程序上下文: [1]，程序集名称: [2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="正在修补文件..."/>
+  <STRING id="ActionText.Template.PatchFiles" value="文件: [1]，目录: [2]，大小: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="正在更新组件注册表..."/>
+  <STRING id="ActionText.Description.PublishComponents" value="正在发布合格的组件..."/>
+  <STRING id="ActionText.Template.PublishComponents" value="组件 ID: [1]，资格认证者: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="正在发布产品组件..."/>
+  <STRING id="ActionText.Template.PublishFeatures" value="组件: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="正在发布产品信息..."/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="正在注册类别服务器..."/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="类别 ID: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="正在注册 COM+ 应用程序和组件"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="应用 ID: [1]{{, 应用类型: [2], 用户: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="正在注册扩展服务器"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="扩展: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="正在注册字体..."/>
+  <STRING id="ActionText.Template.RegisterFonts" value="字体: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="正在注册 MIME 信息..."/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="MIME 内容类型: [1]，扩展: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="正在注册产品..."/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="正在注册程序标识符..."/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="程序 ID: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="正在注册类型库..."/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="库 ID: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="正在注册用户..."/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="正在删除重复的文件..."/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="文件: [1], 目录: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="正在更新环境字符串..."/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="名称: [1]，值: [2]，操作 [3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="正在删除应用程序..."/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="应用程序: [1]，命令行: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="正在删除文件..."/>
+  <STRING id="ActionText.Template.RemoveFiles" value="文件: [1]，目录: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="正在删除文件夹..."/>
+  <STRING id="ActionText.Template.RemoveFolders" value="文件夹: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="正在删除 INI 文件项..."/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="文件: [1]，节: [2]，项: [3]，值: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="正在删除 ODBC 组件..."/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="正在删除系统注册表值..."/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="键值: [1]，名称: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="正在删除快捷方式..."/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="快捷方式: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="正在搜索合格的产品..."/>
+  <STRING id="ActionText.Description.Rollback" value="正在回滚操作:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="正在删除备份文件..."/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="文件: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="正在注册模块..."/>
+  <STRING id="ActionText.Template.SelfRegModules" value="文件: [1]，文件夹: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="正在撤销模块的注册..."/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="文件: [1]，文件夹: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="正在初始化 ODBC 目录..."/>
+  <STRING id="ActionText.Description.StartServices" value="正在启动服务..."/>
+  <STRING id="ActionText.Template.StartServices" value="服务: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="正在停止服务..."/>
+  <STRING id="ActionText.Template.StopServices" value="服务: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="正在删除移动过的文件..."/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="文件: [1]，目录: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="正在取消合格组件的发布..."/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="组件 ID: [1]，资格认证者: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="正在取消产品组件的发布..."/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="组件: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="正在取消产品信息的发布..."/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="正在撤销类别服务器的注册..."/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="类别 ID: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="正在撤销 COM+ 应用程序和组件的注册..."/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="应用 ID: [1]{{，应用类型: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="正在撤销扩展服务器的注册..."/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="扩展: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="正在撤销字体的注册..."/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="正在取消注册类型库..."/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="更新环境字符串"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="正在INI文件写入值..."/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="写在系统注册表中的值"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="字体: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="正在撤销 MIME 信息的注册..."/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="MIME 内容类型: [1]，扩展: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="正在撤销程序标识符的注册..."/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="程序 ID: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="正在撤销类型库的注册"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="库 ID: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="正在更新环境字符串..."/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="发现应用程序: [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="文件: [1]、 目录: [9]、 大小: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="文件: [1]、  目录: [9]、  大小: [6]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="名称: [1]，值: [2]，操作 [3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="正在写入 INI 文件值"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="文件: [1]，节: [2]，项: [3]，值: [4]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="应用: [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="文件: [1]、  目录: [9]、  大小: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="应用坏境:[1], 总名称:[2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="应用坏境:[1], 总名称[2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="文件: [1]、  目录: [2]、  大小: [3]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="组件ID: [1]、修改: [2]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="正在写入系统注册表值..."/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="键值: [1]，名称: [2]，值: [3]"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="正在生成创建本地计算机上的用户帐户操作"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="帐户: [1]，属性: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="正在创建本地计算机上的用户帐户"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="帐户: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="正在删除本地计算机上的用户帐户"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="帐户: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="正在回滚本地计算机上的用户帐户创建..."/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="帐户: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="正在生成删除本地计算机上的用户帐户操作"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="帐户: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="正在生成创建本地计算机上的用户组操作..."/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="帐户: [1]，属性: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="正在创建本地计算机上的用户组..."/>
+  <STRING id="ActionText.Template.RemoveFiles" value="文件: [1]、 目录: [9]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="帐户: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="正在删除本地计算机上的用户组..."/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="帐户: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="正在回滚本地计算机上的用户组创建"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="帐户: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="正在生成删除本地计算机上的用户组操作"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="帐户: [1]"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="正在从档案中提取文件"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="正在删除从档案中提取的文件"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="正在生成安装 SQL 脚本执行的配置数据库操作"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="正在生成卸载 SQL 脚本执行的配置数据库操作"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="正在执行安装 SQL 脚本"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="连接: [1]  脚本: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="正在执行维护 SQL 脚本"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="连接: [1]  脚本: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="正在执行卸载 SQL 脚本..."/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="连接: [1]  脚本: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="正在执行回滚 SQL 脚本..."/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="连接: [1]  脚本: [2]"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="正在配置 Internet 信息服务..."/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId : [1]{{, AppType : [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="延期: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="MIME内容类型: [1]、延期: [2]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="正在安装 &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="库ID: [1]"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="正在配置 Internet 信息服务"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="文件: [1]、部分: [2]、注册表: [3]、値: [4]"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="正在删除 &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="在本地计算机创建了一个用户帐号"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="您创建一个用户组到本地计算机"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="正在从存档删除文件部署"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="正在从存档中提取文件"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="创建了一个IIS网站和虚拟目录"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="已经创建了一个动作配置Internet信息服务"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="有一个虚拟目录删除IIS网站"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="正在回滚 IIS 配置..."/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="正在恢复 metabase 配置..."/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="正在生成配置 XML 文件操作..."/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="正在生成配置 XML 文件操作..."/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="已经以在本地计算机上创建用户组创建一个动作"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="已经以安排本地计算机上的任务创建一个动作:"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="从本地计算机删除用户帐户"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="从本地计算机删除用户组"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="文件夹共享已删除从本地计算机"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="从本地计算机删除计划任务"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="这是本地计算机上创建用户帐户，您必须回滚"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="已在本地计算机上创建的用户组，您必须回滚"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="已经有回滚本地计算机上创建共享文件夹"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="在本地计算机上计划的任务，您必须回滚"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="计划在本地计算机上的任务"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="已经创建了本地计算机上的共享文件夹"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="正在运行安装SQL脚本..."/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="已经创建了一个数据库的配置操作运行安装SQL脚本"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="正在运行清除SQL脚本..."/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="正在运行回滚SQL脚本..."/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="已经创建了一个数据库的配置操作运行清除SQL脚本"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="在本地计算机上创建用户帐户的操作删除"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="您在本地计算机上创建一个用户组的操作删除"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="我们已经创建了文件夹共享的操作删除在本地计算机上"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="我们创建删除已计划在本地计算机上的任务行动"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="正在执行 XML 文件配置..."/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="正在配置 XML 文件: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="正在执行 XML 文件配置..."/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="XML文件的结构，必须回滚"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="我们已经创建了一个动作配置XML文件"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="正在配置 XML 文件: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="正在回滚 XML 文件配置..."/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="正在回滚 XML 文件配置"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="正在生成配置 Windows 防火墙操作"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="正在生成配置 Windows 防火墙操作"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="正在执行 Windows 防火墙配置"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="正在配置 Windows 防火墙规则: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="正在执行 Windows 防火墙配置"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="正在配置 Windows 防火墙规则: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="正在回滚 Windows 防火墙配置..."/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="帐户: [1],属性: [2]"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="正在回滚 Windows 防火墙配置..."/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="帐户: [1],属性: [2]"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="正在生成配置游戏资源管理器操作..."/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="正在执行游戏资源管理器配置"/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="正在配置游戏: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="正在执行游戏资源管理器配置"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="正在删除游戏 &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="正在回滚游戏资源管理器配置。"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="正在回滚游戏资源管理器配置。"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="正在生成本地计算机上共享文件夹的操作:"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="文件夹: [1]，共享名: [2]"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="正在共享本地计算机上的文件夹..."/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="任务名: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="文件夹: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="正在删除本地计算机上的文件夹共享"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="共享名: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="正在回滚本地计算机上的文件夹共享..."/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="连接: [1]脚本: [2]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="共享名: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="正在生成从本地计算机删除共享文件夹的操作:"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="共享名: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="正在生成在本地计算机上的任务计划操作:"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="任务名: [1]"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="正在计划本地计算机上的任务..."/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="在配置XML文件: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="任务名: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="正在删除本地计算机上的任务计划..."/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Windows防火墙的设置"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="您必须创建一个Windows防火墙设置行动"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Windows防火墙的设置"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Windows防火墙的设置已被回滚"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="您必须创建一个Windows防火墙设置行动"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="游戏资源管理器的设定"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="已经创建了一个游戏资源管理器设置动作"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="游戏资源管理器的设定"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="游戏资源管理器的设置已被回滚"/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="已经创建了一个游戏资源管理器设置动作"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="您必须改变SQL脚本"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="您必须设置Windows防火墙规则: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="您必须设置Windows防火墙规则:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Windows防火墙的设置已回滚"/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="您可以设置游戏: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="任务名: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="正在回滚本地计算机上的任务计划..."/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="任务名: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="正在生成从本地计算机删除任务计划的操作:"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="正在执行文件删除操作。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="正在执行文件删除操作。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="正在生成删除文件操作。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Permanent" value="正在生成删除文件操作。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Undoable" value="正在生成删除文件操作。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="正在执行注册表项删除操作。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="正在执行注册表项删除操作。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="正在生成删除注册表项操作。"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="正在用 Windows CE 应用程序管理器注册移动应用程序"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="正在处理 Windows CE 应用程序管理器注册数据 (第二阶段)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="正在处理 Windows CE 应用程序管理器注册数据 (第一阶段)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="正在启动 Windows CE 应用程序管理器来配置已安装的应用程序"/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="正在下载运行环境软件..."/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="正在提取运行环境软件..."/>
+  <STRING id="ActionText.Description.AI_InstallLibraries" value="正在安装 Windows 运行库..."/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="正在安装运行环境软件..."/>
+  <STRING id="ActionText.Description.AI_RollbackLibraries" value="正在回滚 Windows 运行库的安装..."/>
+  <STRING id="ActionText.Description.AI_UninstallLibraries" value="正在卸载 Windows 运行库..."/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="正在验证运行环境..."/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="正在删除文件: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="正在删除文件: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="正在删除注册表项: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="正在删除注册表项: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="正在下载 [1]{已完成 [2]}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="正在提取 [1]{已完成 [2]}"/>
+  <STRING id="ActionText.Template.AI_InstallLibraries" value="正在安装 [1]"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="正在安装 [1]{已完成 [2]}"/>
+  <STRING id="ActionText.Template.AI_RollbackLibraries" value="正在回滚 [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallLibraries" value="正在删除 [1]"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="[1] 没有安装成功。"/>
+  <STRING id="ActionText.Description.AI_AiBackupDeferred" value="正在运行备份操作..."/>
+  <STRING id="ActionText.Description.AI_AiBackupImmediate" value="准备备份操作"/>
+  <STRING id="ActionText.Description.AI_AiBackupRollback" value="回滚备份"/>
+  <STRING id="ActionText.Description.AI_AiMoveFilesDeferred" value="延迟移动文件"/>
+  <STRING id="ActionText.Description.AI_AiMoveFilesImmediate" value="立即移动文件"/>
+  <STRING id="ActionText.Description.AI_AiMoveFilesRollback" value="移动文件回滚"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Permanent" value="准备延迟删除文件"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Undoable" value="准备删除文件"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesRollback" value="恢复删除文件"/>
+  <STRING id="ActionText.Description.AI_AiRestoreDeferred" value="正在运行的还原操作..."/>
+  <STRING id="ActionText.Description.AI_AiRestoreImmediate" value="准备恢复操作"/>
+  <STRING id="ActionText.Description.AI_AiRestoreRollback" value="回滚恢复操作"/>
+  <STRING id="ActionText.Description.AI_CommitAccounts" value="要确认本地计算机的用户添加操作"/>
+  <STRING id="ActionText.Description.AI_DeploySharePointSln" value="SharePoint解决方案"/>
+  <STRING id="ActionText.Description.AI_RemoveSharePointSln" value="SharePoint解决方案中删除"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterCommit" value="要确认您要更改文本文件"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterConfig" value="您必须更新文本文件"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterInstall" value="生成文本文件的更新动作"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterRollback" value="文本更新回滚"/>
+  <STRING id="ActionText.Description.AI_XmlCommit" value="您必须接受的XML文件中的设置"/>
+  <STRING id="ActionText.Description.AI_XmlLocator" value="您正在运行XML定位器..."/>
+  <STRING id="ActionText.Template.AI_AiBackupDeferred" value="路径: [1]"/>
+  <STRING id="ActionText.Template.AI_AiBackupImmediate" value="路径: [1]"/>
+  <STRING id="ActionText.Template.AI_AiMoveFilesDeferred" value="文件: [1],  目录: [2],  大小: [3]"/>
+  <STRING id="ActionText.Template.AI_AiMoveFilesImmediate" value="文件: [1],  目录: [2],  大小: [3]"/>
+  <STRING id="ActionText.Template.AI_AiMoveFilesRollback" value="文件: [1],  目录: [2],  大小: [3]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred_Permanent" value="准备文件: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallLibraries" value="正在卸载 [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesImmediate" value="准备文件: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesRollback" value="恢复文件: [1]"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="[1] 没有被正确安装。"/>
+  <STRING id="ActionText.Template.AI_AiRestoreImmediate" value="路径: [1]"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesRollback" value="恢复删除的文件"/>
+  <STRING id="ActionText.Template.AI_DeploySharePointSln" value="SharePoint 解决方案配置中: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_RemoveSharePointSln" value="SharePoint 解决方案删除中: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_TxtUpdaterCommit" value="要确认您要更改的文本文件。"/>
+  <STRING id="ActionText.Template.AI_TxtUpdaterConfig" value="在更新文本文件: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_TxtUpdaterRollback" value="要回滚更改文本文件。"/>
+  <STRING id="ActionText.Template.AI_XmlCommit" value="您必须接受的XML文件中的设置。"/>
+  <STRING id="ActionText.Template.AI_XmlLocator" value="XML 文件: &quot;[1]&quot; 在执行程序的定位器"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{致命错误: }}"/>
+  <STRING id="Error.1" value="{{错误 [1]。}}"/>
+  <STRING id="Error.2" value="警告 [1]。 "/>
+  <STRING id="Error.4" value="信息 [1]。 "/>
+  <STRING id="Error.5" value="安装程序在安装此安装包时遇到了意外错误。这可能表示此安装包有错。错误码是 [1]。{{参数是: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{磁盘已满: }}"/>
+  <STRING id="Error.8" value="操作 [Time]: [1]。 [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="消息类型: [1]，参数: [2]"/>
+  <STRING id="Error.12" value="=== 记录开始: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== 记录停止: [Date]  [Time] ==="/>
+  <STRING id="Error.14" value="操作开始 [Time]: [1]。"/>
+  <STRING id="Error.15" value="操作结束 [Time]: [1]。返回值 [2]。"/>
+  <STRING id="Error.16" value="剩余时间: {[1] 分 }{[2] 秒}"/>
+  <STRING id="Error.17" value="内存不足。请先关闭其它应用程序，然后再试。"/>
+  <STRING id="Error.18" value="安装程序不再响应。"/>
+  <STRING id="Error.19" value="安装程序已提前结束。"/>
+  <STRING id="Error.20" value="Windows 正在配置 [ProductName]，请稍候。"/>
+  <STRING id="Error.21" value="正在收集所需的信息..."/>
+  <STRING id="Error.22" value="正在删除该应用程序的旧版本..."/>
+  <STRING id="Error.23" value="准备删除该应用程序的旧版本..."/>
+  <STRING id="Error.32" value="{[ProductName] }安装已成功完成。"/>
+  <STRING id="Error.33" value="{[ProductName] }安装失败。"/>
+  <STRING id="Error.1001" value="错误 [1]。 [2]"/>
+  <STRING id="Error.1101" value="读取文件 [2] 时出错。{{ 系统错误 [3]。}}  请确认该文件的确存在并且您可以对其进行访问。"/>
+  <STRING id="Error.1301" value="无法创建文件 '[2]'。与其同名的目录已经存在。请取消安装并且试着安装到其它位置。"/>
+  <STRING id="Error.1302" value="请插入磁盘: [2]"/>
+  <STRING id="Error.1303" value="安装程序没有访问目录 [2] 的权限，安装无法继续进行。请以管理员身份登录，或与您的系统管理员联系。"/>
+  <STRING id="Error.1304" value="写入文件 [2] 时出错。请确认您是否有访问该目录的权限。"/>
+  <STRING id="Error.1305" value="读取文件 [2] 时出错。{{系统错误 [3]。}} 请确认文件存在，并且您可以访问该文件。"/>
+  <STRING id="Error.1306" value="另一应用程序已经以独占模式访问了文件 '[2]'。请关闭所有其他的应用程序，然后再单击 &quot;重试&quot; 按钮。"/>
+  <STRING id="Error.1307" value="磁盘空间不足，无法安装文件 [2]。请释放磁盘空间并单击 &quot;重试&quot; 按钮，或者单击 &quot;取消&quot; 按钮退出。"/>
+  <STRING id="Error.1308" value="没有找到源文件: [2]。请确认文件存在，并且您可以访问该文件。"/>
+  <STRING id="Error.1309" value="读取文件 [3] 时出错。{{系统错误 [2]。}}请确认文件是否存在，并且您可以访问该文件。"/>
+  <STRING id="Error.1310" value="写入文件 [3] 时出错。{{系统错误 [2]。}}请确认您是否有访问该目录的权限。"/>
+  <STRING id="Error.1311" value="没有找到源文件{{(包)}}: [2]。请确认文件是否存在，并且您可以访问该文件。"/>
+  <STRING id="Error.1312" value="无法创建目录 &apos;[2]&apos;。已经存在一个同名文件，请重命名或删除该文件，然后单击 &quot;重试&quot;，或者单击 &quot;取消&quot; 按钮退出操作。"/>
+  <STRING id="Error.1313" value="目前无法使用磁盘卷 [2]，请另选其它卷。"/>
+  <STRING id="Error.1314" value="指定的路径 &apos;[2]&apos; 不可用。"/>
+  <STRING id="Error.1315" value="无法写入到指定的文件夹: [2]。"/>
+  <STRING id="Error.1316" value="试图读取文件 [2] 时发生网络错误。"/>
+  <STRING id="Error.1317" value="试图创建目录 [2] 时发生错误。"/>
+  <STRING id="Error.1318" value="试图创建目录 [2] 时发生网络错误。"/>
+  <STRING id="Error.1319" value="试图打开源文件包 [2] 时发生网络错误。"/>
+  <STRING id="Error.1320" value="指定的路径过长: [2]"/>
+  <STRING id="Error.1321" value="安装程序没有修改文件 [2] 的权限。"/>
+  <STRING id="Error.1322" value="文件夹路径 &apos;[2]&apos; 的一部分无效。可能为空，也可能是超出了系统允许的长度。"/>
+  <STRING id="Error.1323" value="文件夹路径 &apos;[2]&apos; 中含有无效单词。"/>
+  <STRING id="Error.1324" value="文件夹路径 &apos;[2]&apos; 中含有无效字符。"/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; 不是有效的短文件名。"/>
+  <STRING id="Error.1326" value="试图获取文件安全设置时出错: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="无效驱动器: [2]"/>
+  <STRING id="Error.1328" value="对文件 [2] 应用修补程序错误。可能已被其它手段更新，并且不能被此修补程序修改。要获取更多信息请联系您的修补程序厂商。{{系统错误: [3]}}"/>
+  <STRING id="Error.1329" value="不能安装需要的文件，因为 CAB 文件 [2] 没有被数字签署。可能表明 CAB 文件损坏。"/>
+  <STRING id="Error.1330" value="不能安装需要的文件，因为 CAB 文件 [2] 没有正确的数字签名。可能表明 CAB 文件损坏。{{  WinVerifyTrust 返回了错误 [3]。}}"/>
+  <STRING id="Error.1331" value="无法正确复制文件 [2]: CRC 错误。"/>
+  <STRING id="Error.1332" value="无法正确移动文件 [2]: CRC 错误。"/>
+  <STRING id="Error.1333" value="无法正确修补文件 [2]: CRC 错误。"/>
+  <STRING id="Error.1334" value="文件 &apos;[2]&apos; 不能被安装，未能在 Cab 文件 &apos;[3]&apos; 中找到文件。这可能表示网络错误，读取 CD-ROM 错误，或者此程序包有问题。"/>
+  <STRING id="Error.1335" value="此安装操作需要的 CAB 文件 &apos;[2]&apos; 受损并且不能使用。这可能表示网络错误，读取 CD-ROM 错误，或者此程序包有问题。"/>
+  <STRING id="Error.1336" value="在创建完成此安装需要的临时文件时出错。{{ 文件夹: [3]。 系统错误码: [2]}}"/>
+  <STRING id="Error.1401" value="无法创建项: [2]。{{ 系统错误 [3]。}}请检查您是否有足够权限访问此项，或者请与您的技术支持人员联系。 "/>
+  <STRING id="Error.1402" value="无法打开项: [2]。{{ 系统错误 [3]。}}请检查您是否有足够权限访问此项，或者请与您的技术支持人员联系。 "/>
+  <STRING id="Error.1403" value="无法从项 [3] 删除值 [2]。{{ 系统错误 [4]。}}请检查您是否有足够权限访问此项，或者请与您的技术支持人员联系。 "/>
+  <STRING id="Error.1404" value="无法删除项 [2]。{{ 系统错误 [3]。}}请检查您是否有足够权限访问此项，或者请与您的技术支持人员联系。 "/>
+  <STRING id="Error.1405" value="无法从项 [3] 读取值 [2]。{{ 系统错误 [4]。}}请检查您是否有足够权限访问此项，或者请与您的技术支持人员联系。 "/>
+  <STRING id="Error.1406" value="无法将值 [2] 写入项 [3]。{{ 系统错误 [4]。}} 请检查您是否有足够的权限访问该项，或者请与您的技术支持人员联系。"/>
+  <STRING id="Error.1407" value="无法获取项 [2] 的值名称。{{ 系统错误 [3]。}} 请检查您是否有足够的权限访问该项，或者请与您的技术支持人员联系。"/>
+  <STRING id="Error.1408" value="无法获取项 [2] 的子项名称。{{ 系统错误 [3]。}} 请检查您是否有足够的权限访问该项，或者请与您的技术支持人员联系。"/>
+  <STRING id="Error.1409" value="无法读取项 [2] 安全信息。{{ 系统错误 [3]。}} 请检查您是否有足够的权限访问该项，或者请与您的技术支持人员联系。"/>
+  <STRING id="Error.1410" value="无法增加可用的注册表空间。安装该应用程序需要 [2] KB 的空闲注册表空间。"/>
+  <STRING id="Error.1500" value="另一安装过程正在进行当中。您必须先完成那个安装过程，然后才能继续本次安装过程。"/>
+  <STRING id="Error.1501" value="访问受保护的数据时出错。请确认 Windows 安装程序设置是否正确，然后重新安装。"/>
+  <STRING id="Error.1502" value="用户 &apos;[2]&apos; 曾经开始安装过产品 &apos;[3]&apos;。此用户必须再次进行安装才能使用该产品。现在将继续您当前的安装。"/>
+  <STRING id="Error.1503" value="用户 &apos;[2]&apos; 曾经开始安装过产品 &apos;[3]&apos;。此用户必须再次进行安装才能使用该产品。"/>
+  <STRING id="Error.1601" value="磁盘空间不足 -- 磁盘卷: &apos;[2]&apos;；所需空间: [3] KB; 可用空间: [4] KB。请在释放一些磁盘空间后再试。"/>
+  <STRING id="Error.1602" value="您确实要取消吗？"/>
+  <STRING id="Error.1603" value="文件 [2][3] 处于使用中 {由以下进程使用: 名称: [4]，Id: [5]，窗口标题: &apos;[6]&apos;}。请关闭该应用程序，然后再试一次。"/>
+  <STRING id="Error.1604" value="产品 &apos;[2]&apos; 已经安装，现在无法安装本产品。这两种产品不兼容。"/>
+  <STRING id="Error.1605" value="卷 &apos;[2]&apos; 上没有足够的磁盘空间来继续启动恢复安装。需要 [3] KB，但是只有 [4] KB 可用空间。单击 &quot;忽略&quot; 在没有保存恢复安装信息的情况下继续安装，单击 &quot;重试&quot; 再次检查可用空间，或者单击 &quot;取消&quot; 退出安装操作。"/>
+  <STRING id="Error.1606" value="未能访问网络位置 [2]。"/>
+  <STRING id="Error.1607" value="在继续安装之前，请关闭以下应用程序:"/>
+  <STRING id="Error.1608" value="无法在计算机上找到安装本产品所需的以前安装的兼容产品。"/>
+  <STRING id="Error.1609" value="当使用安全设置时，出现一个错误。[2] 不是一个有效的用户或组。这可能是程序包的一个问题，或网络上的一个域控制器连接的问题。检查您的网络连接并单击 &quot;重试&quot; 按钮，或单击 &quot;取消&quot; 按钮结束安装。{{不能定位用户的 SID, 系统错误 [3]}}"/>
+  <STRING id="Error.1701" value="序列号 [2] 无效。请确认您输入的序列号是否正确。"/>
+  <STRING id="Error.1702" value="安装程序必须先重新启动您的系统，然后才能继续设置 [2]。单击 &quot;是&quot; 立即重新启动；单击 &quot;否&quot; 在以后以手动方式重新启动。"/>
+  <STRING id="Error.1703" value="您必须重新启动系统才能使对 [2] 做出的配置修改生效。单击 &quot;是&quot; 立即重新启动，单击 &quot;否&quot; 在以后以手动方式重新启动。"/>
+  <STRING id="Error.1704" value="[2] 的一次安装过程正处于暂停状态，您必须先撤销该安装过程做出的更改，然后才能继续操作。是否撤销那些修改？"/>
+  <STRING id="Error.1705" value="本产品的前一次安装正在进行，您必须先撤销该过程做出的更改，然后才能继续。是否撤销那些更改？"/>
+  <STRING id="Error.1706" value="找不到产品 [2] 的程序包。请使用程序包 &apos;[3]&apos; 的合法副本，尝试重新安装。"/>
+  <STRING id="Error.1707" value="安装成功完成。"/>
+  <STRING id="Error.1708" value="安装失败。"/>
+  <STRING id="Error.1709" value="产品: [2] -- [3]"/>
+  <STRING id="Error.1710" value="您可以将计算机还原至其原始状态，也可在以后继续安装。是否要进行还原？"/>
+  <STRING id="Error.1711" value="将安装信息写入磁盘时发生错误。请进行检查以确保有足够的磁盘空间可供使用，然后单击 &quot;重试&quot;，或者单击 &quot;取消&quot; 以结束安装。"/>
+  <STRING id="Error.1712" value="无法找到将您的计算机恢复至原始状态所需的一个或多个文件。不能进行恢复操作。"/>
+  <STRING id="Error.1713" value="[2] 无法安装所需的产品之一。请联络技术支持小组。{{系统错误: [3]。}}"/>
+  <STRING id="Error.1714" value="无法删除 [2] 的旧版本。请联络您的技术支持小组。{{系统错误 [3]。}}"/>
+  <STRING id="Error.1715" value="已安装 [2]"/>
+  <STRING id="Error.1716" value="已配置 [2]"/>
+  <STRING id="Error.1717" value="已删除 [2]"/>
+  <STRING id="Error.1718" value="文件 [2] 被数字签名策略拒绝。"/>
+  <STRING id="Error.1719" value="Windows Installer 服务无法访问。这只在如果您在安全模式中运行 Windows，或者是如果 Windows Installer 未正确安装才发生。请联系您的支持人员获取援助。"/>
+  <STRING id="Error.1720" value="此 Windows Installer 程序包有问题。完成此安装所需的一个脚本不能运行。请和您的支持人员或程序包发行商联系。{{自定义操作 [2] 的脚本错误 [3]，[4]: [5] 行 [6]，列 [7]，[8]}}"/>
+  <STRING id="Error.1721" value="此 Windows Installer 程序包有问题。完成此安装所需的一个程序不能运行。请和您的支持人员或程序包发行商联系。{{操作: [2]，位置: [3]，命令: [4] }}"/>
+  <STRING id="Error.1722" value="此 Windows Installer 程序包有问题。作为安装的一部分的程序没有按预期完成。请和您的支持人员或程序包发行商联系。{{操作: [2]，位置: [3]，命令: [4]}}"/>
+  <STRING id="Error.1723" value="此 Windows Installer 程序包有问题。完成此安装所需的一个 DLL 不能运行。请和您的支持人员或程序包发行商联系。{{操作 [2]，入口: [3]，库: [4]}}"/>
+  <STRING id="Error.1724" value="成功地完成了删除。"/>
+  <STRING id="Error.1725" value="删除失败。"/>
+  <STRING id="Error.1726" value="公布成功完成。"/>
+  <STRING id="Error.1727" value="公布失败。"/>
+  <STRING id="Error.1728" value="配置成功完成。"/>
+  <STRING id="Error.1729" value="配置失败。"/>
+  <STRING id="Error.1730" value="您必须是计算机管理员才能删除此应用程序。要删除此应用程序，您可以以计算机管理员身份登录，或者联系技术支持组获取援助。"/>
+  <STRING id="Error.1801" value="路径 [2] 无效。请指定一个有效路径。"/>
+  <STRING id="Error.1802" value="内存不足。请先关闭其它应用程序后再试。"/>
+  <STRING id="Error.1803" value="硬盘 [2] 中没有磁盘，请先插入磁盘，然后单击 &quot;重试&quot;，或者单击 &quot;取消&quot;，返回前面选择的卷。"/>
+  <STRING id="Error.1804" value="硬盘 [2] 中没有磁盘，请先插入磁盘，然后单击 &quot;重试&quot;，或者单击 &quot;取消&quot;，返回浏览对话框并选择其他卷。"/>
+  <STRING id="Error.1805" value="文件夹 [2] 不存在。请输入某个现有文件夹的路径。"/>
+  <STRING id="Error.1806" value="您读取该文件夹的权限不够。"/>
+  <STRING id="Error.1807" value="无法确定安装所需的有效目标文件夹。"/>
+  <STRING id="Error.1901" value="试图读取安装源数据库 [2] 时出错。"/>
+  <STRING id="Error.1902" value="正在安排重新启动操作: 将文件 [2] 重命名为 [3]。只有重新启动后操作才能完成。"/>
+  <STRING id="Error.1903" value="正在安排重新启动操作: 删除文件 [2]。只有重新启动后操作才能完成。"/>
+  <STRING id="Error.1904" value="无法注册模块 [2]。HRESULT [3]。请与您的技术支持人员联系。"/>
+  <STRING id="Error.1905" value="无法撤销模块 [2] 的注册。HRESULT [3]。请与您的技术支持人员联系。"/>
+  <STRING id="Error.1906" value="无法缓存程序包 [2]。错误: [3]。请与您的技术支持人员联系。"/>
+  <STRING id="Error.1907" value="无法注册字体 [2]。请检查您是否有足够的权限安装字体，以及系统是否能够支持此字体。"/>
+  <STRING id="Error.1908" value="无法撤销对字体 [2] 的注册。请检查您是否有足够的权限删除字体。"/>
+  <STRING id="Error.1909" value="无法创建快捷方式 [2]。请检查目标文件夹是否存在，以及您是否可以访问该文件夹。"/>
+  <STRING id="Error.1910" value="无法删除快捷方式 [2]。请确认该快捷方式文件存在，并且您可以访问该文件。"/>
+  <STRING id="Error.1911" value="无法将文件 [2] 注册到类型库中。请与您的技术支持人员联系。"/>
+  <STRING id="Error.1912" value="无法撤销文件 [2] 在类型库中的注册。请与您的技术支持人员联系。"/>
+  <STRING id="Error.1913" value="无法更新 INI 文件 [2][3]。请确认该文件存在，并且您可以访问此文件。"/>
+  <STRING id="Error.1914" value="无法计划在重新启动时用文件 [2] 替换文件 [3]。请确认您拥有对文件 [3] 的写权限。"/>
+  <STRING id="Error.1915" value="删除 ODBC 驱动程序管理程序时发生错误，ODBC 错误 [2]: [3]。请与您的技术支持人员联系。"/>
+  <STRING id="Error.1916" value="安装 ODBC 驱动程序管理程序时发生错误，ODBC 错误 [2]: [3]。请与您的技术支持人员联系。"/>
+  <STRING id="Error.1917" value="删除 ODBC 驱动程序 [4] 时发生错误，ODBC 错误 [2]: [3]。请确认您有足够的权限删除 ODBC 驱动程序。"/>
+  <STRING id="Error.1918" value="安装 ODBC 驱动程序 [4][5] 时发生错误，ODBC 错误 [2]: [3]。请确认文件 [4][6] 存在，并且您可以访问此文件。"/>
+  <STRING id="Error.1919" value="配置 ODBC 数据源 [4][5] 时发生错误，ODBC 错误 [2]: [3]。请确认文件 [4][6] 存在，并且您可以访问此文件。"/>
+  <STRING id="Error.1920" value="启动服务 &apos;[2]&apos; ([3]) 失败。请确认您是否有足够的权限来启动系统服务。"/>
+  <STRING id="Error.1921" value="无法终止服务 &apos;[2]&apos; ([3])。请确认您有足够的权限终止系统服务。"/>
+  <STRING id="Error.1922" value="无法删除服务 &apos;[2]&apos; ([3])。请确认您有足够的权限删除系统服务。"/>
+  <STRING id="Error.1923" value="无法安装服务 &apos;[2]&apos; ([3])。请确认您有足够的权限安装系统服务。"/>
+  <STRING id="Error.1924" value="无法更新环境变量 &apos;[2]&apos;。请确认您有足够的权限修改环境变量。"/>
+  <STRING id="Error.1925" value="您没有足够的权限为该计算机所有用户完成此安装。请以管理员的身份登录，然后重新尝试进行此安装。"/>
+  <STRING id="Error.1926" value="无法设置文件 &apos;[3]&apos; 的安全权限。错误: [2]。请确认您有足够的权限修改此文件的安全权限。"/>
+  <STRING id="Error.1927" value="组件服务 (COM+ 1.0) 没有安装在这台计算机上。该安装需要组件服务才能成功完成。Windows 2000 上有组件服务。"/>
+  <STRING id="Error.1928" value="注册 COM+ 应用程序出错。请联络技术支持人员以便获得详细信息。"/>
+  <STRING id="Error.1929" value="注销 COM+ 应用程序出错。请联络技术支持人员以便获得详细信息。"/>
+  <STRING id="Error.1930" value="服务 &apos;[2]&apos; ([3]) 的描述无法更改。"/>
+  <STRING id="Error.1931" value="Windows Installer 服务无法更新系统文件 [2]，原因是文件受 Windows 的保护。要使该程序运行正常，您需要更新您的操作系统。{{程序包版本: [3]，操作系统保护的版本: [4]}}"/>
+  <STRING id="Error.1932" value="Windows Installer 服务无法更新受保护的 Windows 文件 [2]。{{程序版本: [3]，操作系统保护的版本: [4]，SFP 错误: [5]}}"/>
+  <STRING id="Error.1933" value="Windows Installer 服务不能更新一个或多个受保护的 Windows 文件。 {{SFP 错误: [2]。受保护的文件列表:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="机器上的策略禁止用户安装。"/>
+  <STRING id="Error.1935" value="程序集组件 [2] 安装期间发生错误。HRESULT: [3]。{{程序集界面: [4], 函数: [5], 程序集名: [6]}}"/>
+  <STRING id="Error.1936" value="程序集“[6]”安装期间发生错误。此程序集的命名未经加强，或其签名未达到最小密钥长度。HRESULT: [3]。{{程序集界面: [4]，函数: [5]，组件: [2]}}"/>
+  <STRING id="Error.1937" value="程序集“[6]”安装期间发生错误。签名或目录无法验证，或者无效。HRESULT: [3]。{{程序集界面: [4]，函数: [5]，组件: [2]}}"/>
+  <STRING id="Error.1938" value="程序集“[6]”安装期间发生错误。无法找到该程序集的一个或多个模块。HRESULT: [3]。{{程序集界面: [4]，函数: [5]，组件: [2]}}"/>
+  <STRING id="Error.1939" value="无法配置服务“[2]”([3])。这可能是由于安装包或您的权限存在问题。请验证您是否有足够的权限配置系统服务。"/>
+  <STRING id="Error.1940" value="无法配置服务“[2]”([3])。仅在 Windows Vista/Server 2008 及更高版本上支持配置服务。"/>
+  <STRING id="Error.1941" value="在此安装包中同时找到 LockPermissions 表和 MsiLockPermissionsEx 表。应该只出现其中一个表。安装包有问题。"/>
+  <STRING id="Error.1942" value="安装对象 [4] (在表 [5] 中) 时，多个条件 (“[2]”和“[3]”) 解析为 true。这可能是安装包有问题。"/>
+  <STRING id="Error.1943" value="无法将对象 [3] (在表 [4] 中) 的 SDDL 字符串“[2]”解析为有效的安全描述符。"/>
+  <STRING id="Error.1944" value="无法设置服务“[3]”的安全性。错误: [2]。请验证您是否有足够的权限修改此服务的安全权限。"/>
+  <STRING id="Error.1945" value="您没有足够的权限完成此产品的重新发布。重新发布需要由调用 MsiAdvertiseScript API 的本地系统帐户启动 (如通过组策略软件部署启动)。"/>
+  <STRING id="Error.1946" value="无法设置快捷方式“[3]”的属性“[2]”。{{ HRESULT [4]。}}"/>
+  <STRING id="Error.2101" value="操作系统不支持快捷方式。"/>
+  <STRING id="Error.2102" value="无效的 .INI 操作: [2]"/>
+  <STRING id="Error.2103" value="无法解析外壳文件夹 [2] 的路径。"/>
+  <STRING id="Error.2104" value="写入 .INI 文件: [3]: 系统错误: [2]。"/>
+  <STRING id="Error.2105" value="快捷方式创建 [3] 失败。系统错误: [2]。"/>
+  <STRING id="Error.2106" value="快捷方式删除 [3] 失败。系统错误: [2]。"/>
+  <STRING id="Error.2107" value="注册类型库 [2] 时发生错误 [3]。"/>
+  <STRING id="Error.2108" value="撤销类型库 [2] 的注册时发生错误 [3]。"/>
+  <STRING id="Error.2109" value=".INI 操作缺少节。"/>
+  <STRING id="Error.2110" value=".INI 操作缺少项。"/>
+  <STRING id="Error.2111" value="检测正在运行的应用程序失败，无法获取性能数据。注册操作返回了 [2]。"/>
+  <STRING id="Error.2112" value="检测正在运行的应用程序失败，无法获取性能索引。注册操作返回了 [2]。"/>
+  <STRING id="Error.2113" value="检测正在运行的应用程序失败。"/>
+  <STRING id="Error.2200" value="数据库: [2]。数据库对象创建失败，模式 = [3]。"/>
+  <STRING id="Error.2201" value="数据库: [2]。初始化失败，内存不足。"/>
+  <STRING id="Error.2202" value="数据库: [2]。数据访问失败，内存不足。"/>
+  <STRING id="Error.2203" value="数据库: [2]。无法打开数据库文件。系统错误 [3]。"/>
+  <STRING id="Error.2204" value="数据库: [2]。表已经存在: [3]。"/>
+  <STRING id="Error.2205" value="数据库: [2]。表不存在: [3]。"/>
+  <STRING id="Error.2206" value="数据库: [2]。无法删除表: [3]。"/>
+  <STRING id="Error.2207" value="数据库: [2]。与意向不符。"/>
+  <STRING id="Error.2208" value="数据库: [2]。参数不足，无法执行。"/>
+  <STRING id="Error.2209" value="数据库: [2]。游标处于无效状态。"/>
+  <STRING id="Error.2210" value="数据库: [2]。列 [3] 中的更新数据类型无效。"/>
+  <STRING id="Error.2211" value="数据库: [2]。无法创建数据库表 [3]。"/>
+  <STRING id="Error.2212" value="数据库: [2]。数据库处于不可写状态。"/>
+  <STRING id="Error.2213" value="数据库: [2]。保存数据库表时出错。"/>
+  <STRING id="Error.2214" value="数据库: [2]。写入导出文件时出错: [3]。"/>
+  <STRING id="Error.2215" value="数据库: [2]。无法打开导入文件: [3]。"/>
+  <STRING id="Error.2216" value="数据库: [2]。导入文件格式错误: [3]，行 [4]。"/>
+  <STRING id="Error.2217" value="数据库: [2]。CreateOutputDatabase 的状态错误 [3]。"/>
+  <STRING id="Error.2218" value="数据库: [2]。未提供表名。"/>
+  <STRING id="Error.2219" value="数据库: [2]。安装程序数据库格式无效。"/>
+  <STRING id="Error.2220" value="数据库: [2]。行/字段数据无效。"/>
+  <STRING id="Error.2221" value="数据库: [2]。导入文件 [3] 中存在代码页冲突。"/>
+  <STRING id="Error.2222" value="数据库: [2]。转换或合并代码页 [3] 与数据库代码页 [4] 不同。"/>
+  <STRING id="Error.2223" value="数据库: [2]。数据库相同。未生成转换。"/>
+  <STRING id="Error.2224" value="数据库: [2]。生成转换: 数据库已损坏。表: [3]。"/>
+  <STRING id="Error.2225" value="数据库: [2]。转换: 无法转换临时表。表: [3]。"/>
+  <STRING id="Error.2226" value="数据库: [2]。转换失败。"/>
+  <STRING id="Error.2227" value="数据库: [2]。SQL 查询 [4] 中的标识符“[3]”无效。"/>
+  <STRING id="Error.2228" value="数据库: [2]。SQL 查询 [4] 中存在未知表“[3]”。"/>
+  <STRING id="Error.2229" value="数据库: [2]。无法加载 SQL 查询 [4] 中的表“[3]”。"/>
+  <STRING id="Error.2230" value="数据库: [2]。SQL 查询 [4] 中存在重复表“[3]”。"/>
+  <STRING id="Error.2231" value="数据库: [2]。SQL 查询 [3] 中缺少“)”。"/>
+  <STRING id="Error.2232" value="数据库: [2]。SQL 查询 [4] 中存在意外标记“[3]”。"/>
+  <STRING id="Error.2233" value="数据库: [2]。SQL 查询 [3] 的 SELECT 子句中未包含任何列。"/>
+  <STRING id="Error.2234" value="数据库: [2]。SQL 查询 [3] 的 ORDER BY 子句中未包含任何列。"/>
+  <STRING id="Error.2235" value="数据库: [2]。SQL 查询 [4] 中不存在列“[3]”或该列不明确。"/>
+  <STRING id="Error.2236" value="数据库: [2]。SQL 查询 [4] 中的运算符“[3]”无效。"/>
+  <STRING id="Error.2237" value="数据库: [2]。查询字符串 [3] 无效或缺失。"/>
+  <STRING id="Error.2238" value="数据库: [2]。SQL 查询 [3] 中缺少 FROM 子句。"/>
+  <STRING id="Error.2239" value="数据库: [2]。INSERT SQL 语句中的值不足。"/>
+  <STRING id="Error.2240" value="数据库: [2]。UPDATE SQL 语句中缺少更新列。"/>
+  <STRING id="Error.2241" value="数据库: [2]。INSERT SQL 语句中缺少插入列。"/>
+  <STRING id="Error.2242" value="数据库: [2]。列“[3]”重复。"/>
+  <STRING id="Error.2243" value="数据库: [2]。没有为表创建定义主列。"/>
+  <STRING id="Error.2244" value="数据库: [2]。SQL 查询 [4] 中的类型说明符“[3]”无效。"/>
+  <STRING id="Error.2245" value="IStorage::Stat 失败，错误为 [3]。"/>
+  <STRING id="Error.2246" value="数据库: [2]。安装程序转换格式无效。"/>
+  <STRING id="Error.2247" value="数据库: [2] 转换流读/写失败。"/>
+  <STRING id="Error.2248" value="数据库: [2] 生成转换/合并: 基表中的列类型与引用表不符。表: [3] 列号: [4]。"/>
+  <STRING id="Error.2249" value="数据库: [2] 生成转换: 基表中的列多于引用表中的列。表: [3]。"/>
+  <STRING id="Error.2250" value="数据库: [2] 转换: 不能添加现有的行。表: [3]。"/>
+  <STRING id="Error.2251" value="数据库: [2] 转换: 不能删除不存在的行。表: [3]。"/>
+  <STRING id="Error.2252" value="数据库: [2] 转换: 不能添加现有的表。表: [3]。"/>
+  <STRING id="Error.2253" value="数据库: [2] 转换: 不能删除不存在的表。表: [3]。"/>
+  <STRING id="Error.2254" value="数据库: [2] 转换: 不能更新不存在的行。表: [3]。"/>
+  <STRING id="Error.2255" value="数据库: [2] 转换: 已存在同名的列。表: [3] 列: [4]。"/>
+  <STRING id="Error.2256" value="数据库: [2] 生成转换/合并: 基表中的主键数与引用表不符。表: [3]。"/>
+  <STRING id="Error.2257" value="数据库: [2]。试图修改只读表: [3]。"/>
+  <STRING id="Error.2258" value="数据库: [2]。参数类型不匹配: [3]。"/>
+  <STRING id="Error.2259" value="数据库: [2] 表更新失败"/>
+  <STRING id="Error.2260" value="存储 CopyTo 失败。系统错误: [3]。"/>
+  <STRING id="Error.2261" value="无法删除流 [2]。系统错误: [3]。"/>
+  <STRING id="Error.2262" value="流不存在: [2]。系统错误: [3]。"/>
+  <STRING id="Error.2263" value="无法打开流 [2]。系统错误: [3]。"/>
+  <STRING id="Error.2264" value="无法删除流 [2]。系统错误: [3]。"/>
+  <STRING id="Error.2265" value="无法提交存储。系统错误: [3]。"/>
+  <STRING id="Error.2266" value="无法回滚存储。系统错误: [3]。"/>
+  <STRING id="Error.2267" value="无法删除存储 [2]。系统错误: [3]。"/>
+  <STRING id="Error.2268" value="数据库: [2]。合并: [3] 个表中报告了合并冲突。"/>
+  <STRING id="Error.2269" value="数据库: [2]。合并: 两个数据库的“[3]”表中的列数不相同。"/>
+  <STRING id="Error.2270" value="数据库: [2]。生成转换/合并: 基表中的列名称与引用表不符。表: [3] 列号: [4]。"/>
+  <STRING id="Error.2271" value="针对转换的 SummaryInformation 写入失败。"/>
+  <STRING id="Error.2272" value="数据库: [2]。MergeDatabase 不会写入任何更改，因为该数据库是以只读方式打开的。"/>
+  <STRING id="Error.2273" value="数据库: [2]。MergeDatabase: 对基数据库的引用被作为引用数据库传递。"/>
+  <STRING id="Error.2274" value="数据库: [2]。MergeDatabase: 无法将错误写入错误表。原因可能是预定义的错误表中的不可空列。"/>
+  <STRING id="Error.2275" value="数据库: [2]。指定的修改 [3] 操作对表联接无效。"/>
+  <STRING id="Error.2276" value="数据库: [2]。系统不支持代码页 [3]。"/>
+  <STRING id="Error.2277" value="数据库: [2]。无法保存表 [3]。"/>
+  <STRING id="Error.2278" value="数据库: [2]。SQL 查询 [3] 的 WHERE 子句中的表达式数超过 32 个的限制。"/>
+  <STRING id="Error.2279" value="数据库: [2] 转换: 基表 [3] 中的列太多。"/>
+  <STRING id="Error.2280" value="数据库: [2]。无法为表 [4] 创建列 [3]。"/>
+  <STRING id="Error.2281" value="无法重命名流 [2]。系统错误: [3]。"/>
+  <STRING id="Error.2282" value="流名称无效 [2]。"/>
+  <STRING id="Error.2302" value="修补程序通知: 目前为止已修补 [2] 个字节。"/>
+  <STRING id="Error.2303" value="获取卷信息时出错。GetLastError: [2]。"/>
+  <STRING id="Error.2304" value="获取磁盘可用空间时出错。GetLastError: [2]。卷: [3]。"/>
+  <STRING id="Error.2305" value="等待修补程序线程时出错。GetLastError: [2]。"/>
+  <STRING id="Error.2306" value="无法为修补应用程序创建线程。GetLastError: [2]。"/>
+  <STRING id="Error.2307" value="源文件的项名称为空。"/>
+  <STRING id="Error.2308" value="目标文件名为空。"/>
+  <STRING id="Error.2309" value="当修补程序在进行中时试图修补文件 [2]。"/>
+  <STRING id="Error.2310" value="当没有修补程序在进行中时试图继续修补。"/>
+  <STRING id="Error.2315" value="缺少路径分隔符: [2]。"/>
+  <STRING id="Error.2318" value="文件不存在: [2]。"/>
+  <STRING id="Error.2319" value="设置文件属性时出错: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2320" value="文件不可写: [2]。"/>
+  <STRING id="Error.2321" value="创建文件时出错: [2]。"/>
+  <STRING id="Error.2322" value="用户已取消"/>
+  <STRING id="Error.2323" value="文件属性无效。"/>
+  <STRING id="Error.2324" value="无法打开文件: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2325" value="无法获取文件 [3] 的文件时间 GetLastError: [2]。"/>
+  <STRING id="Error.2326" value="FileToDosDateTime 中存在错误。"/>
+  <STRING id="Error.2327" value="无法删除目录: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2328" value="获取文件 [2] 的版本信息时出错。"/>
+  <STRING id="Error.2329" value="删除文件时出错: [3]。GetLastError: [2]。"/>
+  <STRING id="Error.2330" value="获取文件属性时出错: [3]。GetLastError: [2]"/>
+  <STRING id="Error.2331" value="加载库 [2] 或查找入口点 [3] 时出错。"/>
+  <STRING id="Error.2332" value="获取文件属性时出错。GetLastError: [2]。"/>
+  <STRING id="Error.2333" value="设置文件属性时出错。GetLastError: [2]。"/>
+  <STRING id="Error.2334" value="将文件 [3] 的文件时间转换成本地时间时出错。GetLastError: [2]。"/>
+  <STRING id="Error.2335" value="路径: [2] 不是 [3] 的父项。"/>
+  <STRING id="Error.2336" value="在路径 [3] 上创建临时文件时出错。GetLastError: [2]。"/>
+  <STRING id="Error.2337" value="无法关闭文件: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2338" value="无法更新文件 [3] 的资源 GetLastError: [2]。"/>
+  <STRING id="Error.2339" value="无法设置文件 [3] 的文件时间 GetLastError: [2]。"/>
+  <STRING id="Error.2340" value="无法更新文件 [3] 的资源，缺少资源。"/>
+  <STRING id="Error.2341" value="无法更新文件 [3] 的资源，资源太大。"/>
+  <STRING id="Error.2342" value="无法更新文件 [3] 的资源 GetLastError: [2]。"/>
+  <STRING id="Error.2343" value="指定的路径为空。"/>
+  <STRING id="Error.2344" value="未找到所需的文件 IMAGEHLP.DLL 来验证文件: [2]。"/>
+  <STRING id="Error.2345" value="[2]: 文件不包含有效的校验和值。"/>
+  <STRING id="Error.2347" value="用户忽略。"/>
+  <STRING id="Error.2348" value="尝试从 CAB 流读取时出错。"/>
+  <STRING id="Error.2349" value="继续复制，但信息不同。"/>
+  <STRING id="Error.2350" value="FDI 服务器错误"/>
+  <STRING id="Error.2351" value="在 CAB 文件“[3]”中找不到文件键“[2]”。安装无法继续。"/>
+  <STRING id="Error.2352" value="无法初始化 CAB 文件服务器。可能缺少所需的文件“CABINET.DLL”。"/>
+  <STRING id="Error.2353" value="不是 CAB 文件。"/>
+  <STRING id="Error.2354" value="无法处理 CAB 文件。"/>
+  <STRING id="Error.2355" value="CAB 文件已损坏。"/>
+  <STRING id="Error.2356" value="在流中找不到 CAB 文件: [2]。"/>
+  <STRING id="Error.2357" value="无法设置属性。"/>
+  <STRING id="Error.2358" value="确定文件是否正在使用时出错: [3]。GetLastError: [2]。"/>
+  <STRING id="Error.2359" value="无法创建目标文件 - 文件可能正在使用中。"/>
+  <STRING id="Error.2360" value="进度停滞。"/>
+  <STRING id="Error.2361" value="需要下一个 CAB 文件。"/>
+  <STRING id="Error.2362" value="未找到文件夹: [2]。"/>
+  <STRING id="Error.2363" value="无法枚举文件夹 [2] 的子文件夹。"/>
+  <STRING id="Error.2364" value="CreateCopier 调用中存在错误的枚举常量。"/>
+  <STRING id="Error.2365" value="无法对 exe 文件 [2] 执行 BindImage 操作。"/>
+  <STRING id="Error.2366" value="用户失败。"/>
+  <STRING id="Error.2367" value="用户中止。"/>
+  <STRING id="Error.2368" value="无法获得网络资源信息。错误 [2]，网络路径 [3]。扩展错误: 网络提供程序 [5]，错误代码 [4]，错误描述 [6]。"/>
+  <STRING id="Error.2370" value="[2] 文件的 CRC 校验和值无效。{文件的标头说明校验和值为 [3]，而其计算值为 [4]。}"/>
+  <STRING id="Error.2371" value="无法将修补程序应用于文件 [2]。GetLastError: [3]。"/>
+  <STRING id="Error.2372" value="修补程序文件 [2] 已损坏或格式无效。正在尝试修补文件 [3]。GetLastError: [4]。"/>
+  <STRING id="Error.2373" value="文件“[2]”不是有效的修补程序文件。"/>
+  <STRING id="Error.2374" value="文件 [2] 不是修补程序文件 [3] 的有效目标文件。"/>
+  <STRING id="Error.2375" value="未知修补错误: [2]。"/>
+  <STRING id="Error.2376" value="未找到 CAB 文件。"/>
+  <STRING id="Error.2379" value="打开文件进行读取时出错: [3]。GetLastError: [2]。"/>
+  <STRING id="Error.2380" value="打开文件进行写入时出错: [3]。GetLastError: [2]。"/>
+  <STRING id="Error.2381" value="目录不存在: [2]。"/>
+  <STRING id="Error.2382" value="硬盘未就绪: [2]。"/>
+  <STRING id="Error.2401" value="试图在 32 位操作系统上对项 [2] 进行 64 位注册表操作。"/>
+  <STRING id="Error.2402" value="内存不足。"/>
+  <STRING id="Error.2501" value="无法创建回滚脚本枚举器。"/>
+  <STRING id="Error.2502" value="未安装时调用了 InstallFinalize。"/>
+  <STRING id="Error.2503" value="未标记为正在进行时调用了 RunScript。"/>
+  <STRING id="Error.2601" value="属性 [2] 的值无效:“[3]”"/>
+  <STRING id="Error.2602" value="[2] 表项“[3]”在 Media 表中没有关联项。"/>
+  <STRING id="Error.2603" value="表名称 [2] 重复。"/>
+  <STRING id="Error.2604" value="[2] 属性未定义。"/>
+  <STRING id="Error.2605" value="在 [3] 或 [4] 中找不到服务器 [2]。"/>
+  <STRING id="Error.2606" value="属性 [2] 的值不是有效的完整路径:“[3]”。"/>
+  <STRING id="Error.2607" value="未找到 Media 表或该表为空(安装文件必需的)。"/>
+  <STRING id="Error.2608" value="无法为对象创建安全描述符。错误:“[2]”。"/>
+  <STRING id="Error.2609" value="试图在初始化之前迁移产品设置。"/>
+  <STRING id="Error.2611" value="文件 [2] 被标记为已压缩，但是关联媒体项未指定 CAB 文件。"/>
+  <STRING id="Error.2612" value="在“[2]”列中未找到流。主键:“[3]”。"/>
+  <STRING id="Error.2613" value="RemoveExistingProducts 操作顺序不正确。"/>
+  <STRING id="Error.2614" value="无法从安装包访问 IStorage 对象。"/>
+  <STRING id="Error.2615" value="由于源解析失败，跳过了对模块 [2] 撤消注册。"/>
+  <STRING id="Error.2616" value="缺少辅助文件 [2] 的父项。"/>
+  <STRING id="Error.2617" value="在 Component 表中未找到共享组件 [2]。"/>
+  <STRING id="Error.2618" value="在 Component 表中未找到孤立的应用程序组件 [2]。"/>
+  <STRING id="Error.2619" value="孤立的组件 [2] 和 [3] 不属于同一功能。"/>
+  <STRING id="Error.2620" value="孤立的应用程序组件 [2] 的注册表项文件不在“文件”表中。"/>
+  <STRING id="Error.2621" value="快捷方式 [2] 的资源 DLL 或资源 ID 信息设置不正确。 "/>
+  <STRING id="Error.2701" value="功能的深度超过了可接受的 [2] 级树深度。"/>
+  <STRING id="Error.2702" value="Feature 表中的记录 ([2]) 引用了属性字段中不存在的父级。"/>
+  <STRING id="Error.2703" value="未定义根源路径的属性名称: [2]"/>
+  <STRING id="Error.2704" value="未定义根目录属性: [2]"/>
+  <STRING id="Error.2705" value="无效的表: [2]；无法作为树进行链接。"/>
+  <STRING id="Error.2706" value="未创建源路径。Directory 表中不存在项 [2] 的路径。"/>
+  <STRING id="Error.2707" value="未创建目标路径。Directory 表中不存在项 [2] 的路径"/>
+  <STRING id="Error.2708" value="在 File 表中找不到项。"/>
+  <STRING id="Error.2709" value="在 Component 表中未找到指定的组件名称(“[2]”)。"/>
+  <STRING id="Error.2710" value="请求的“选择”状态对此组件是非法的。"/>
+  <STRING id="Error.2711" value="在 Feature 表中未找到指定的功能名称(“[2]”)。"/>
+  <STRING id="Error.2712" value="在操作 [2] 中，从无模式对话框返回无效: [3]。"/>
+  <STRING id="Error.2713" value="不可为空的列中存在空值(表“[4]”中列“[3]”内的“[2]”)。"/>
+  <STRING id="Error.2714" value="默认文件夹名称的值无效: [2]。"/>
+  <STRING id="Error.2715" value="在 File 表中未找到指定的文件项(“[2]”)。"/>
+  <STRING id="Error.2716" value="无法为组件“[2]”创建随机子组件名。"/>
+  <STRING id="Error.2717" value="操作条件不正确或调用自定义操作“[2]”时出错。"/>
+  <STRING id="Error.2718" value="缺少产品代码“[2]”的包名。"/>
+  <STRING id="Error.2719" value="在源“[2]”中既找不到 UNC 路径，也找不到硬盘号路径。"/>
+  <STRING id="Error.2720" value="打开源列表项时出错。错误:“[2]”"/>
+  <STRING id="Error.2721" value="在 Binary 表流中未找到自定义操作 [2]。"/>
+  <STRING id="Error.2722" value="在 File 表中未找到自定义操作 [2]。"/>
+  <STRING id="Error.2723" value="自定义操作 [2] 指定了不支持的类型。"/>
+  <STRING id="Error.2724" value="您正在运行的媒体上的卷标签“[2]”与 Media 表中所给的标签“[3]”不符。仅当您的 Media 表中只有一个项时才允许这样。"/>
+  <STRING id="Error.2725" value="数据库表无效"/>
+  <STRING id="Error.2726" value="未找到操作: [2]。"/>
+  <STRING id="Error.2727" value="Directory 表中不存在目录项“[2]”。"/>
+  <STRING id="Error.2728" value="表定义错误: [2]"/>
+  <STRING id="Error.2729" value="安装引擎未初始化。"/>
+  <STRING id="Error.2730" value="数据库中的值错误。表:“[2]”；主键:“[3]”；列:“[4]”"/>
+  <STRING id="Error.2731" value="未初始化选择管理器。"/>
+  <STRING id="Error.2732" value="未初始化目录管理器。"/>
+  <STRING id="Error.2733" value="表“[4]”中列“[3]”的外键(“[2]”)不正确。"/>
+  <STRING id="Error.2734" value="重新安装模式字符无效。"/>
+  <STRING id="Error.2735" value="自定义操作“[2]”导致了无法处理的异常，已经停止。这可能是自定义操作的内部错误(例如访问冲突)导致的。"/>
+  <STRING id="Error.2736" value="无法生成自定义操作临时文件: [2]。"/>
+  <STRING id="Error.2737" value="无法访问自定义操作 [2]，项 [3]，库 [4]"/>
+  <STRING id="Error.2738" value="无法访问自定义操作 [2] 的 VBScript 运行时。"/>
+  <STRING id="Error.2739" value="无法访问自定义操作 [2] 的 JScript 运行时。"/>
+  <STRING id="Error.2740" value="自定义操作 [2] 脚本错误 [3]，[4]: [5] 行 [6]，列 [7]，[8]。"/>
+  <STRING id="Error.2741" value="产品 [2] 的配置信息已损坏。无效信息: [2]。"/>
+  <STRING id="Error.2742" value="无法封送到服务器: [2]。"/>
+  <STRING id="Error.2743" value="无法执行自定义操作 [2]，位置: [3]，命令: [4]。"/>
+  <STRING id="Error.2744" value="自定义操作 [2] 调用 EXE 失败，位置: [3]，命令: [4]。"/>
+  <STRING id="Error.2745" value="包 [3] 的转换 [2] 无效。期望的语言是 [4]，找到的语言是 [5]。"/>
+  <STRING id="Error.2746" value="包 [3] 的转换 [2] 无效。期望的产品是 [4]，找到的产品是 [5]。"/>
+  <STRING id="Error.2747" value="包 [3] 的转换 [2] 无效。期望的产品版本 &lt; [4]，找到的产品版本是 [5]。"/>
+  <STRING id="Error.2748" value="包 [3] 的转换 [2] 无效。期望的产品版本 &lt;= [4]，找到的产品版本是 [5]。"/>
+  <STRING id="Error.2749" value="包 [3] 的转换 [2] 无效。期望的产品版本 == [4]，找到的产品版本是 [5]。"/>
+  <STRING id="Error.2751" value="包 [3] 的转换 [2] 无效。期望的产品版本 &gt; [4]，找到的产品版本是 [5]。"/>
+  <STRING id="Error.2752" value="无法打开存储为包 [4] 的子存储的转换 [2]。"/>
+  <STRING id="Error.2753" value="文件“[2]”未标记为进行安装。"/>
+  <STRING id="Error.2754" value="文件“[2]”不是有效的修补程序文件。"/>
+  <STRING id="Error.2755" value="试图安装包 [3] 时服务器返回意外错误 [2]。"/>
+  <STRING id="Error.2756" value="属性“[2]”在一个或多个表中作为目录属性使用，但从未为其赋值。"/>
+  <STRING id="Error.2757" value="无法为转换 [2] 创建摘要信息。"/>
+  <STRING id="Error.2758" value="转换 [2] 不包含 MSI 版本。"/>
+  <STRING id="Error.2759" value="转换 [2] 版本 [3] 与引擎不兼容；最低: [4]，最高: [5]。"/>
+  <STRING id="Error.2760" value="包 [3] 的转换 [2] 无效。期望的升级代码是 [4]，找到的是 [5]。"/>
+  <STRING id="Error.2761" value="无法开始事务。未正确初始化全局互斥体。"/>
+  <STRING id="Error.2762" value="无法写脚本记录。事务未启动。"/>
+  <STRING id="Error.2763" value="无法运行脚本。事务未启动。"/>
+  <STRING id="Error.2765" value="AssemblyName 表中缺少程序集名称: 组件: [4]。"/>
+  <STRING id="Error.2766" value="文件 [2] 是无效的 MSI 存储文件。"/>
+  <STRING id="Error.2767" value="{枚举 [2] 时}没有其他数据。"/>
+  <STRING id="Error.2768" value="修补包中的转换无效。"/>
+  <STRING id="Error.2769" value="自定义操作 [2] 未关闭 [3] MSIHANDLE。"/>
+  <STRING id="Error.2770" value="内部缓存文件夹表中未定义缓存文件夹 [2]。"/>
+  <STRING id="Error.2771" value="功能 [2] 的升级缺少组件。"/>
+  <STRING id="Error.2772" value="新升级功能 [2] 必须是叶功能。"/>
+  <STRING id="Error.2801" value="未知消息 -- 类型 [2]。未执行任何操作。"/>
+  <STRING id="Error.2802" value="未找到事件 [2] 的发布服务器。"/>
+  <STRING id="Error.2803" value="对话框视图未找到对话框 [2] 的记录。"/>
+  <STRING id="Error.2804" value="激活对话框 [2] 上的控件 [3] 时 CMsiDialog 无法计算条件 [3]。"/>
+  <STRING id="Error.2806" value="对话框 [2] 无法计算条件 [3]。"/>
+  <STRING id="Error.2807" value="无法识别操作 [2]。"/>
+  <STRING id="Error.2808" value="对话框 [2] 上未正确定义默认按钮。"/>
+  <STRING id="Error.2809" value="对话框 [2] 上的下一个控件指针未形成循环。存在从 [3] 指向 [4] 的指针，但没有其他指针。"/>
+  <STRING id="Error.2810" value="对话框 [2] 上的下一个控件指针未形成循环。存在从 [3] 和 [5] 指向 [4] 的指针。"/>
+  <STRING id="Error.2811" value="对话框 [2] 上的控件 [3] 必须获得焦点，但它无法获得。"/>
+  <STRING id="Error.2812" value="无法识别事件 [2]。"/>
+  <STRING id="Error.2813" value="使用参数 [2] 调用了 EndDialog 事件，但该对话框具有父项"/>
+  <STRING id="Error.2814" value="对话框 [2] 上的控件 [3] 将不存在的控件 [4] 命名为下一控件。"/>
+  <STRING id="Error.2815" value="ControlCondition 表中有一行未包含用于对话框 [2] 的条件。"/>
+  <STRING id="Error.2816" value="EventMapping 表为事件 [3] 引用了对话框 [2] 上的无效控件 [4]。"/>
+  <STRING id="Error.2817" value="事件 [2] 未能设置对话框 [3] 上的控件 [4] 的属性。"/>
+  <STRING id="Error.2818" value="ControlEvent 表中的 EndDialog 有一个未被识别的参数 [2]。"/>
+  <STRING id="Error.2819" value="对话框 [2] 上的控件 [3] 需要与属性关联。"/>
+  <STRING id="Error.2820" value="试图初始化已初始化的处理程序。"/>
+  <STRING id="Error.2821" value="试图初始化已初始化的对话框: [2]。"/>
+  <STRING id="Error.2822" value="在添加所有控件后，才能在对话框 [2] 上调用其他方法。"/>
+  <STRING id="Error.2823" value="试图初始化对话框 [2] 上已初始化的控件: [3]。"/>
+  <STRING id="Error.2824" value="对话框属性 [3] 需要至少有 [2] 个字段的记录。"/>
+  <STRING id="Error.2825" value="控件属性 [3] 需要至少有 [2] 个字段的记录。"/>
+  <STRING id="Error.2826" value="对话框 [2] 上的控件 [3] 超出对话框 [4] 的边界 [5] 个像素。"/>
+  <STRING id="Error.2827" value="对话框 [2] 上的单选按钮组 [3] 的按钮 [4] 超出组 [5] 的边界 [6] 个像素。"/>
+  <STRING id="Error.2828" value="试图从对话框 [2] 删除控件 [3]，但该控件不属于对话框。"/>
+  <STRING id="Error.2829" value="试图使用未初始化的对话框。"/>
+  <STRING id="Error.2830" value="试图使用对话框 [2] 上未初始化的控件。"/>
+  <STRING id="Error.2831" value="对话框 [2] 上的控件 [3] 不支持 [5] 属性 [4]。"/>
+  <STRING id="Error.2832" value="对话框 [2] 不支持属性 [3]。"/>
+  <STRING id="Error.2833" value="对话框 [3] 上的控件 [4] 忽略了消息 [2]。"/>
+  <STRING id="Error.2834" value="对话框 [2] 上的后续指针未形成单个循环。"/>
+  <STRING id="Error.2835" value="在对话框 [3] 上未找到控件 [2]。"/>
+  <STRING id="Error.2836" value="对话框 [2] 上的控件 [3] 无法获得焦点。"/>
+  <STRING id="Error.2837" value="对话框 [2] 上的控件 [3] 需要 winproc 返回 [4]。"/>
+  <STRING id="Error.2838" value="选择表中的项目 [2] 将自身作为父项。"/>
+  <STRING id="Error.2839" value="设置属性 [2] 失败。"/>
+  <STRING id="Error.2840" value="错误对话框名称不匹配。"/>
+  <STRING id="Error.2841" value="在错误对话框上未找到“确定”按钮。"/>
+  <STRING id="Error.2842" value="在错误对话框上未找到任何文本字段。"/>
+  <STRING id="Error.2843" value="标准对话框不支持 ErrorString 属性。"/>
+  <STRING id="Error.2844" value="如果未设置 Errorstring，则无法执行错误对话框。"/>
+  <STRING id="Error.2845" value="按钮的总宽度超过了错误对话框的大小。"/>
+  <STRING id="Error.2846" value="SetFocus 在错误对话框上未找到所需的控件。"/>
+  <STRING id="Error.2847" value="对话框 [2] 上的控件 [3] 既设置了图标又设置了位图样式。"/>
+  <STRING id="Error.2848" value="试图在对话框 [2] 上将控件 [3] 设为默认按钮，但该控件不存在。"/>
+  <STRING id="Error.2849" value="对话框 [2] 上控件 [3] 的类型不能为整数值。。"/>
+  <STRING id="Error.2850" value="无法识别的卷类型。"/>
+  <STRING id="Error.2851" value="图标 [2] 的数据无效。"/>
+  <STRING id="Error.2852" value="在使用对话框 [2] 之前，必须至少向其中添加一个控件。"/>
+  <STRING id="Error.2853" value="对话框 [2] 为无模式对话框。不应对其调用 execute 方法。"/>
+  <STRING id="Error.2854" value="在对话框 [2] 上指定了控件 [3] 作为第一个活动控件，但该控件不存在。"/>
+  <STRING id="Error.2855" value="对话框 [2] 上的单选按钮组 [3] 的按钮数少于 2。"/>
+  <STRING id="Error.2856" value="正在创建对话框 [2] 的第二个副本。"/>
+  <STRING id="Error.2857" value="未找到选择表中提及的目录 [2]。"/>
+  <STRING id="Error.2858" value="位图 [2] 的数据无效。"/>
+  <STRING id="Error.2859" value="测试错误消息。"/>
+  <STRING id="Error.2860" value="对话框 [2] 上未正确定义“取消”按钮。"/>
+  <STRING id="Error.2861" value="对话框 [2] 控件 [3] 上的单选按钮的后续指针未形成循环。"/>
+  <STRING id="Error.2862" value="对话框 [2] 上的控件 [3] 的属性未定义有效的图标大小。正在将大小设置为 16。"/>
+  <STRING id="Error.2863" value="对话框 [2] 上的控件 [3] 需要图标 [4] 的大小为 [5]x[5]，但该大小不可用。正在加载第一个可用大小。"/>
+  <STRING id="Error.2864" value="对话框 [2] 上的控件 [3] 收到浏览事件，但没有用于当前选择的可配置目录。可能的原因: 浏览按钮编写不正确。"/>
+  <STRING id="Error.2865" value="布告栏 [2] 上的控件 [3] 超出布告栏 [4] 的边界 [5] 个像素。"/>
+  <STRING id="Error.2866" value="不允许对话框 [2] 返回参数 [3]。"/>
+  <STRING id="Error.2867" value="未设置错误对话框属性。"/>
+  <STRING id="Error.2868" value="错误对话框 [2] 未设置错误样式位。"/>
+  <STRING id="Error.2869" value="对话框 [2] 设置了错误样式位，但它不是错误对话框。"/>
+  <STRING id="Error.2870" value="对话框 [2] 上的控件 [3] 的帮助字符串 [4] 未包含分隔符。"/>
+  <STRING id="Error.2871" value="[2] 表过期: [3]。"/>
+  <STRING id="Error.2872" value="对话框 [2] 上的 CheckPath 控件事件的参数无效。"/>
+  <STRING id="Error.2873" value="对话框 [2] 上的控件 [3] 有无效的字符串长度限制: [4]。"/>
+  <STRING id="Error.2874" value="将文本字体更改为 [2] 失败。"/>
+  <STRING id="Error.2875" value="将文本颜色更改为 [2] 失败。"/>
+  <STRING id="Error.2876" value="对话框 [2] 上的控件 [3] 必须截断字符串: [4]。"/>
+  <STRING id="Error.2877" value="找不到二进制数据 [2]"/>
+  <STRING id="Error.2878" value="对话框 [2] 上的控件 [3] 有一个可能值: [4]。该值无效或重复。"/>
+  <STRING id="Error.2879" value="对话框 [2] 上的控件 [3] 无法解析掩码字符串: [4]。"/>
+  <STRING id="Error.2880" value="不执行其余的控件事件。"/>
+  <STRING id="Error.2881" value="CMsiHandler 初始化失败。"/>
+  <STRING id="Error.2882" value="对话框窗口类注册失败。"/>
+  <STRING id="Error.2883" value="对话框 [2] 的 CreateNewDialog 失败。"/>
+  <STRING id="Error.2884" value="无法为对话框 [2] 创建窗口。"/>
+  <STRING id="Error.2885" value="无法在对话框 [2] 上创建控件 [3]。"/>
+  <STRING id="Error.2886" value="创建 [2] 表失败。"/>
+  <STRING id="Error.2887" value="创建光标到 [2] 表失败。"/>
+  <STRING id="Error.2888" value="执行 [2] 视图失败。"/>
+  <STRING id="Error.2889" value="为对话框 [2] 上的控件 [3] 创建窗口失败。"/>
+  <STRING id="Error.2890" value="处理程序无法创建初始化的对话框。"/>
+  <STRING id="Error.2891" value="未能销毁对话框 [2] 的窗口。"/>
+  <STRING id="Error.2892" value="[2] 为只允许整数的控件，而 [3] 不是有效的整数值。"/>
+  <STRING id="Error.2893" value="对话框 [2] 上的控件 [3] 可以接受最多 [5] 个字符的属性值。值 [4] 超过这一限制，已被截断。"/>
+  <STRING id="Error.2894" value="加载 RICHED20.DLL 失败。返回了 GetLastError(): [2]。"/>
+  <STRING id="Error.2895" value="释放 RICHED20.DLL 失败。返回了 GetLastError(): [2]。"/>
+  <STRING id="Error.2896" value="执行操作 [2] 失败。"/>
+  <STRING id="Error.2897" value="无法在此系统上创建任何 [2] 字体。"/>
+  <STRING id="Error.2898" value="系统为 [2] 文本样式创建了 [4] 字符集中的“[3]”字体。"/>
+  <STRING id="Error.2899" value="无法创建 [2] 文本样式。返回了 GetLastError(): [3]。"/>
+  <STRING id="Error.2901" value="操作 [2] 的参数无效: 参数 [3]。"/>
+  <STRING id="Error.2902" value="调用操作 [2] 的顺序不正确。"/>  
+  <STRING id="Error.2903" value="缺少文件 [2]。"/>
+  <STRING id="Error.2904" value="无法对文件 [2] 执行 BindImage。"/>
+  <STRING id="Error.2905" value="无法从脚本文件 [2] 中读取记录。"/>
+  <STRING id="Error.2906" value="脚本文件 [2] 中缺少标头。"/>
+  <STRING id="Error.2907" value="无法创建安全的安全描述符。错误: [2]。"/>
+  <STRING id="Error.2908" value="无法注册组件 [2]。"/>
+  <STRING id="Error.2909" value="无法注销组件 [2]。"/>
+  <STRING id="Error.2910" value="无法确定用户的安全 ID。"/>
+  <STRING id="Error.2911" value="无法删除文件夹 [2]。"/>
+  <STRING id="Error.2912" value="无法安排文件 [2] 在重新启动时删除。"/>
+  <STRING id="Error.2919" value="没有为压缩文件指定 CAB 文件: [2]。"/>
+  <STRING id="Error.2920" value="没有为文件 [2] 指定源目录。"/>
+  <STRING id="Error.2924" value="脚本 [2] 版本不受支持。脚本版本: [3]，最低版本: [4]，最高版本: [5]。"/>
+  <STRING id="Error.2927" value="ShellFolder ID [2] 无效。"/>
+  <STRING id="Error.2928" value="超过最大源数。正在跳过源“[2]”。"/>
+  <STRING id="Error.2929" value="无法确定发布根。错误: [2]。"/>
+  <STRING id="Error.2932" value="无法从脚本数据创建文件 [2]。错误: [3]。"/>
+  <STRING id="Error.2933" value="无法初始化回滚脚本 [2]。"/>
+  <STRING id="Error.2934" value="无法保护转换 [2]。错误 [3]。"/>
+  <STRING id="Error.2935" value="无法取消对转换 [2] 的保护。错误 [3]。"/>
+  <STRING id="Error.2936" value="找不到转换 [2]。"/>
+  <STRING id="Error.2937" value="Windows Installer 无法安装系统文件保护目录。目录: [2]，错误: [3]。"/>
+  <STRING id="Error.2938" value="Windows Installer 无法从缓存中检索系统文件保护目录。目录: [2]，错误: [3]。"/>
+  <STRING id="Error.2939" value="Windows Installer 无法从缓存中删除系统文件保护目录。目录: [2]，错误: [3]。"/>
+  <STRING id="Error.2940" value="未对源解析提供目录管理器。"/>
+  <STRING id="Error.2941" value="无法计算文件 [2] 的 CRC。"/>
+  <STRING id="Error.2942" value="尚未对 [2] 文件执行 BindImage 操作。"/>
+  <STRING id="Error.2943" value="此版本 Windows 不支持部署 64 位软件包。脚本 [2] 用于 64 位软件包。"/>
+  <STRING id="Error.2944" value="GetProductAssignmentType 失败。"/>
+  <STRING id="Error.2945" value="ComPlus App [2] 安装失败，错误为 [3]。"/>
+  <STRING id="Error.3001" value="在此列表中的修补程序包含不正确的序列信息: [2][3][4][5][6][7][8][9][10][11][12][13][14][15][16]。"/>
+  <STRING id="Error.3002" value="修补程序 [2] 包含无效的顺序信息。"/>
+  <STRING id="Error.4000" value="无效的序列号。"/>
+  <STRING id="Error.4001" value="无法验证序列号。"/>
+  <STRING id="Error.4010" value="[ProductName] 的一个更新版本已经安装在这台计算机上。"/>
+  <STRING id="Error.4020" value="配置 IIS 期间发生错误。&#xA;您原来的 IIS 配置将被恢复。"/>
+  <STRING id="Error.4021" value="网站 &quot;[2]&quot; 已经存在于该服务器上。&#xA;&#xA;您想要跳过此网站并继续安装吗？"/>
+  <STRING id="Error.4022" value="网站 &quot;[3]&quot; 上的虚拟目录 &quot;[2]&quot; 已经存在于该服务器上。&#xA;&#xA;您想要跳过此虚拟目录并继续安装吗？"/>
+  <STRING id="Error.4023" value="该版本的 IIS 不被支持或 IIS 没有完全安装！&#xA;&#xA;您需要 Internet 信息服务 5.0 或以上。"/>
+  <STRING id="Error.4024" value="用相同服务器绑定的一个网站已经被启动。&#xA;&#xA;[2]"/>
+  <STRING id="Error.4025" value="应用程序池 &quot;[2]&quot; 已经存在于该服务器上。&#xA;&#xA;您想要跳过配置此应用程序池并继续安装吗？"/>
+  <STRING id="Error.4026" value="网站 &quot;[2]&quot; 已经存在于该服务器上。&#xA;&#xA;您想要覆盖此网站并继续安装吗？&#xA;(该操作无法撤消)"/>
+  <STRING id="Error.4027" value="网站 &quot;[3]&quot; 上的虚拟目录 &quot;[2]&quot; 已经存在于该服务器上。&#xA;&#xA;您想要覆盖此虚拟目录并继续安装吗？&#xA;(该操作无法撤消)"/>
+  <STRING id="Error.4028" value="应用程序池 &quot;[2]&quot; 已经存在于该服务器上。&#xA;&#xA;您想要覆盖此应用程序池并继续安装吗？&#xA;(该操作无法撤消)"/>
+  <STRING id="Error.4029" value="具有 ID [\[] [2] [\]] 的网站 - &quot;[3]&quot; 已经存在于该服务器上。&#xA;&#xA;您想要覆盖此网站并继续安装吗？"/>
+  <STRING id="Error.4030" value="具有 ID [\[] [2] [\]] 的网站 - &quot;[3]&quot; 已经存在于该服务器上。&#xA;&#xA;您想要覆盖此网站并继续安装吗？&#xA;(该操作无法撤消)"/>
+  <STRING id="Error.4031" value="处理网站 &quot;[2]&quot; 的数字证书时发生错误。"/>
+  <STRING id="Error.4032" value="在IIS Web部署配置过程中发生错误。"/>
+  <STRING id="Error.4033" value="程序包的IIS Web部署配置过程中发生错误 &quot;[2]&quot;.&#10;&#10;是否要跳过此程序包并继续安装？"/>
+  <STRING id="Error.4101" value="无法创建本地机器上的用户帐户或组 &quot;[2]&quot;。错误代码: [3]。 [4]"/>
+  <STRING id="Error.4102" value="用户帐户或组 &quot;[2]&quot; 已经在本地机器上存在。"/>
+  <STRING id="Error.4103" value="不能删除本地机器上的用户帐户或组 &quot;[2]&quot;。错误代码: [3]。"/>
+  <STRING id="Error.4104" value="用户帐户或组 &quot;[2]&quot; 在本地机器上不存在。"/>
+  <STRING id="Error.4105" value="当在名称 &quot;[3]&quot; 下共享 &quot;[2]&quot; 时遇到错误。错误描述: [4]"/>
+  <STRING id="Error.4106" value="当创建一项任务计划 &quot;[2]&quot; 时遇到错误。错误描述: [3]"/>
+  <STRING id="Error.4107" value="当删除一项任务计划 &quot;[2]&quot; 时遇到错误。错误描述: [3]"/>
+  <STRING id="Error.4110" value="无法分配内存。"/>
+  <STRING id="Error.4111" value="没有找到文件: [2]。"/>
+  <STRING id="Error.4112" value="文件 &quot;[2]&quot; 无法读取。"/>
+  <STRING id="Error.4113" value="文件 &quot;[2]&quot; 解析错误: 位于行: [3]，列: [4]。错误代码: [5]。"/>
+  <STRING id="Error.4114" value="未被支持的 XML 文件编码。"/>
+  <STRING id="Error.4115" value="打开文件错误: [2]。"/>
+  <STRING id="Error.4116" value="文件 &quot;[2]&quot; 无法写入。"/>
+  <STRING id="Error.4117" value="异常的根元素: &quot;[2]&quot; 在 XML 文件: &quot;[3]&quot;。"/>
+  <STRING id="Error.4120" value="在配置 Windows 防火墙进程期间发生错误。&#10;将恢复您原来的防火墙配置。"/>
+  <STRING id="Error.4121" value="无效的防火墙进程映像路径，或没有找到文件: [2]。"/>
+  <STRING id="Error.4122" value="无效的防火墙端口/协议: [2]。"/>
+  <STRING id="Error.4123" value="无效的防火墙网络作用域: [2]。"/>
+  <STRING id="Error.4124" value="在 Windows 防火墙中注册应用程序时发生错误: [2]。"/>
+  <STRING id="Error.4125" value="在 Windows 防火墙中注册端口时发生错误: [2]。"/>
+  <STRING id="Error.4130" value="在游戏资源管理器配置进程期间发生错误"/>
+  <STRING id="Error.4131" value="父母控制阻止您玩游戏: [2]。"/>
+  <STRING id="Error.4140" value="在 SQL 脚本执行过程中出现一个错误。"/>
+  <STRING id="Error.4141" value="ODBC 错误: [2] ([3])。"/>
+  <STRING id="Error.4142" value="ODBC 连接: 超时。"/>
+  <STRING id="Error.4143" value="SQL 脚本解析错误: 无效的语法。"/>
+  <STRING id="Error.4150" value="在 CallStdFcn 中的内部错误。"/>
+  <STRING id="Error.4151" value="功能 &quot;[2]&quot; 在 DLL &quot;[3]&quot; 中没有找到。"/>
+  <STRING id="Error.4152" value="要删除 [ProductName] 设置和临时文件吗？"/>
+  <STRING id="Error.4153" value="[2] 必需的运行环境没有被正确安装。"/>
+  <STRING id="Error.4154" value="[2] 必需的运行环境没有被正确安装。继续安装 [ProductName] 吗？"/>
+  <STRING id="Error.4155" value="无法正确获取文件 [2]: CRC 错误。"/>
+  <STRING id="Error.4156" value="无法正确获取文件 [2]: CRC 错误。要继续安装 [ProductName] 吗？"/>
+  <STRING id="Error.4157" value="无法加载 [2]。错误: [3]。"/>
+  <STRING id="Error.4158" value="无法创建文件 [2]，因为指定了无效的文件名。"/>
+  <STRING id="Error.4159" value="无法在文件 [4] 上执行搜索 &quot;[2]&quot; 并替换 &quot;[3]&quot;。文件内容未被修改。"/>
+  <STRING id="Error.4160" value="指定的安装路径已经存在。请选择不同的路径。"/>
+  <STRING id="Error.4161" value="指定的安装路径已经存在。您想覆盖它吗？"/>
+  <STRING id="Error.4162" value="无法使用指定的安装路径, 因为它包含 &quot;[1]&quot; 元素。 请选择不同的路径。"/>
+  <STRING id="Error.4163" value="无法使用指定的安装路径, 因为它不包含 &quot;[1]&quot; 元素。请选择不同的路径。"/>
+  <STRING id="Error.4164" value="要使用不同的序列号进行安装, 请重新启动安装程序。"/>
+  <STRING id="Error.4165" value="部署SharePoint解决方案时发生错误。安装现在将被取消。"/>
+  <STRING id="Error.4166" value="由于以下错误, 无法发布包: [2]"/>
+  <STRING id="Error.4167" value="由于以下错误, 无法删除包: [2]"/>
+  <STRING id="Error.4168" value="此处理器类型不支持此安装程序包。联系您的产品供应商。"/>
+  <STRING id="Error.4178" value="Windows无法连接到Internet来下载必要的文件。确保您已连接到Internet,并点击 &quot;重试&quot; 再试一次。"/>
+  <STRING id="Error.4179" value="以下所需的Windows功能在您的系统上不可用: [2]。"/>
+  <STRING id="Error.4180" value="在Windows功能配置过程中出现错误。&#10;您的原始配置将被恢复。"/>
+  <STRING id="Error.4181" value="不可接受的字符"/>
+  <STRING id="Error.4182" value="您只能在这里输入一个数字。"/>
+  <STRING id="Error.4183" value="您只能在这里输入分隔符。"/>
+  <STRING id="Error.4184" value="未能安装 [2] 控制面板小程序。"/>
+  <STRING id="Error.4185" value="SQL Server 报告服务部署 [2] 失败。 原因: [3]。"/>
+  <STRING id="Error.4186" value="SQL Server 报告服务部署 [2] 失败, 因为未找到部署工具。"/>
+  <STRING id="Error.4187" value="下载文件时发生错误 [2]。"/>
+  <STRING id="Error.4188" value="提取存档时发生错误 [2]。"/>
+  <STRING id="Error.4189" value="EXE和MSI文件签名不匹配。"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="字节"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="所有组件将不可用"/>
+  <STRING id="UIText.MenuAdvertise" value="此组件将在需要时安装"/>
+  <STRING id="UIText.MenuAllCD" value="整个组件将被安装为从光盘上运行"/>
+  <STRING id="UIText.MenuAllLocal" value="整个组件将被安装在本地硬盘上"/>
+  <STRING id="UIText.MenuAllNetwork" value="整个组件将被安装为从网络上运行"/>
+  <STRING id="UIText.MenuCD" value="将被安装为从光盘上运行"/>
+  <STRING id="UIText.MenuLocal" value="将被安装到本地硬盘"/>
+  <STRING id="UIText.MenuNetwork" value="将被安装为从网络上运行"/>
+  <STRING id="UIText.ScriptInProgress" value="正在收集所需的信息..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="此项组件将不被安装"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="此项组件将被设置为在需要时安装"/>
+  <STRING id="UIText.SelAbsentCD" value="此项组件将被安装为从光盘上运行"/>
+  <STRING id="UIText.SelAbsentLocal" value="此项组件将被安装在本地硬盘上"/>
+  <STRING id="UIText.SelAbsentNetwork" value="此项组件将被安装为从网络上运行"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="此项组件将不可用"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="将在需要时安装"/>
+  <STRING id="UIText.SelAdvertiseCD" value="此项组件将可以从光盘上运行"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="此项组件将被安装在本地硬盘上"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="此项组件将可以从网络上运行"/>
+  <STRING id="UIText.SelCDAbsent" value="此项组件将被完全卸载，您将无法从光盘上运行它"/>
+  <STRING id="UIText.SelCDAdvertise" value="此项组件将由从光盘上运行改为在需要时安装"/>
+  <STRING id="UIText.SelCDCD" value="此项组件将保留为从光盘上运行"/>
+  <STRING id="UIText.SelCDLocal" value="此项组件将由从光盘上运行改为安装在本地硬盘上"/>
+  <STRING id="UIText.SelChildCostNeg" value="此项组件在硬盘上释放 [1] 磁盘空间。"/>
+  <STRING id="UIText.SelChildCostPos" value="此项组件要求硬盘上有 [1] 磁盘空间。"/>
+  <STRING id="UIText.SelCostPending" value="正在计算此项组件的开销..."/>
+  <STRING id="UIText.SelLocalAbsent" value="此项组件将被完全删除"/>
+  <STRING id="UIText.SelLocalAdvertise" value="此项组件将被从本地硬盘上删除，但会被设置为在需要时安装"/>
+  <STRING id="UIText.SelLocalCD" value="此项组件将被从本地硬盘上移除，但仍可从光盘上运行"/>
+  <STRING id="UIText.SelLocalLocal" value="此项组件将保留在本地硬盘上"/>
+  <STRING id="UIText.SelLocalNetwork" value="此项组件将被从本地硬盘上删除，但仍可从网络上运行"/>
+  <STRING id="UIText.SelNetworkAbsent" value="此项组件将被完全卸载，您将无法从网络上运行它"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="此项组件将由从网络上运行改为在需要时安装"/>
+  <STRING id="UIText.SelNetworkLocal" value="此项组件将由从网络上运行改为安装到本地硬盘上"/>
+  <STRING id="UIText.SelNetworkNetwork" value="此项组件将保留为从网络上运行"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="此项组件在硬盘上释放 [1] 磁盘空间。已选择 [3] 项子组件中的 [2] 项。这些子组件在硬盘上释放 [4] 磁盘空间。"/>
+  <STRING id="UIText.SelParentCostNegPos" value="此项组件在硬盘上释放 [1] 磁盘空间。已选择 [3] 项子组件中的 [2] 项。这些子组件要求硬盘上有 [4] 磁盘空间。"/>
+  <STRING id="UIText.SelParentCostPosNeg" value="此项组件要求硬盘上有 [1] 磁盘空间。已选择 [3] 项子组件中的 [2] 项。这些子组件在硬盘上释放 [4] 磁盘空间。"/>
+  <STRING id="UIText.SelParentCostPosPos" value="此项组件要求硬盘上有 [1] 磁盘空间。已选择 [3] 项子组件中的 [2] 项。这些子组件要求硬盘上有 [4] 磁盘空间。"/>
+  <STRING id="UIText.TimeRemaining" value="剩余时间: {[1] 分}{[2] 秒}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="可用"/>
+  <STRING id="UIText.VolumeCostDifference" value="剩余"/>
+  <STRING id="UIText.VolumeCostRequired" value="需要"/>
+  <STRING id="UIText.VolumeCostSize" value="磁盘大小"/>
+  <STRING id="UIText.VolumeCostVolume" value="卷"/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.HttpPostMsg" value="发送数据..."/>
+  <STRING id="UIText.ODBCTestMsg" value="当测试连接时，请稍等..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.SQLBrowseMsg" value="正在浏览网络上的 SQL 服务器..."/>
+  <STRING id="UIText.SQLFetchTitle" value="ODBC"/>
+  <STRING id="UIText.SQLFetchMsg" value="查询数据库..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.BrowseFolderLocation" value="位置"/>
+  <STRING id="UIText.BrowseFolderName" value="文件夹名称:"/>
+  <STRING id="UIText.Warning" value="警告"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="选择文件夹"/>
+  <STRING id="UIText.OpenSiteWaitPrereq" value="安装程序正在等待您查找，下载并在计算机上安装以下运行环境。 准备好继续安装时，按确定。"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;加载资源错误:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="安装"/>
+  <STRING id="UIText.PrereqInstalled" value="已安装"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="必须安装"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] 或更低}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] 或更高}"/>
+  <STRING id="UIText.PrereqSkipAction" value="跳过"/>
+  <STRING id="UIText.SearchPrereq" value="搜索已安装的应用程序"/>
+  <STRING id="UIText.DownloadingPrereq" value="正在下载 [1]"/>
+  <STRING id="UIText.InstallingPrereq" value="正在安装 [1]"/>
+  <STRING id="UIText.OpenSitePrereq" value="打开网站 [1]"/>
+  <STRING id="UIText.ExtractPrereq" value="正在提取 [1]"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="您必须连接到数据库..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="空间不足"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="安装磁盘"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="未使用的磁盘"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="是，您要注册更改文件关联(&amp;Y)"/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="否，不执行文件关联(&amp;N)"/>
+  <STRING id="RadioButton.Text.IAgree#1" value="我接受许可协议中的条款(&amp;A)"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="我不接受许可协议中的条款(&amp;D)"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="是，关联这些文件类型(&amp;R)。"/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="否，跳过这些文件关联(&amp;S)。"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="自动关闭程序并在安装完成后提示重新启动(&amp;C)。"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="不关闭应用程序 (将需要重新启动)(&amp;N)。"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="当前用户 ([LogonUser])"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="所有用户"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Modify" value="修改"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Remove" value="删除"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Repair" value="修复"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="是，删除旧版本(&amp;Y)。"/>
+  <STRING id="Property.AI_Upgrade_Question_No" value="否，和其它版本同时安装(&amp;I)。"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="是，删除所有旧版本(&amp;R)。"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="否，仅卸载 [AI_Replaced_Versions_List] 版本(&amp;U)。"/>
+  <STRING id="Property.ButtonText_Back" value="&lt; 上一步(&amp;B)"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="上一步(&amp;B)"/>
+  <STRING id="Property.ButtonText_Browse" value="浏览(&amp;O)..."/>
+  <STRING id="Property.ButtonText_Cancel" value="取消"/>
+  <STRING id="Property.ButtonText_Exit" value="退出(&amp;E)"/>
+  <STRING id="Property.ButtonText_Finish" value="完成(&amp;F)"/>
+  <STRING id="Property.Text_Finish" value="完成"/>
+  <STRING id="Property.ButtonText_Ignore" value="忽略(&amp;I)"/>
+  <STRING id="Property.ButtonText_Install" value="安装(&amp;I)"/>
+  <STRING id="Property.Text_Install" value="安装(I)"/>
+  <STRING id="Property.ButtonText_Next" value="下一步(&amp;N)&gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="下一步(&amp;N)"/>
+  <STRING id="Property.Text_Next" value="下一步(N)"/>
+  <STRING id="Property.ButtonText_No" value="否(&amp;N)"/>
+  <STRING id="Property.ButtonText_OK" value="确定"/>
+  <STRING id="Property.ButtonText_Remove" value="删除(&amp;D)"/>
+  <STRING id="Property.ButtonText_Repair" value="修复(&amp;P)"/>
+  <STRING id="Property.ButtonText_Reset" value="重置(&amp;R)"/>
+  <STRING id="Property.ButtonText_Resume" value="恢复(&amp;R)"/>
+  <STRING id="Property.ButtonText_Retry" value="重试(&amp;R)"/>
+  <STRING id="Property.ButtonText_Return" value="返回(&amp;R)"/>
+  <STRING id="Property.ButtonText_Yes" value="是(&amp;Y)"/>
+  <STRING id="Property.Text_Yes" value="是"/>
+  <STRING id="Property.ButtonText_Accept" value="接受(&amp;A)"/>
+  <STRING id="Property.ButtonText_Decline" value="拒绝(&amp;D)"/>
+  <STRING id="Property.CtrlEvtchanges" value="更改"/>
+  <STRING id="Property.CtrlEvtChanging" value="正在更改"/>
+  <STRING id="Property.CtrlEvtremoves" value="删除"/>
+  <STRING id="Property.CtrlEvtRemoving" value="正在删除"/>
+  <STRING id="Property.CtrlEvtRepairing" value="正在修复"/>
+  <STRING id="Property.CtrlEvtrepairs" value="修复"/>
+  <STRING id="Property.InstallModeComplete" value="完全"/>
+  <STRING id="Property.InstallModeCustom" value="自定义"/>
+  <STRING id="Property.InstallModeTypical" value="简洁"/>
+  <STRING id="Property.Progress1" value="正在安装"/>
+  <STRING id="Property.Progress2" value="安装"/>
+  <STRING id="Property.Setup" value="安装"/>
+  <STRING id="Property.Wizard" value="安装向导"/>
+  <!-- Trialware Settings table -->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="购买"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="您想要打开 %TrialName% 购买页吗？"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="无效的注册密钥"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="注册密钥无效"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value="%TrialName% 已注册"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="感谢您注册 %TrialName%。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% 试用版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="点击 &quot;完成(&amp;F)&quot; 按钮，以验证密钥并继续。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="请输入您收到的注册密钥的所有行。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="注册"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="购买"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="访问 %TrialName% 购买页以获取一个许可证"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="%TrialName% 试用版已到期"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="您的 %Quantity% 天试用期已到期。如果您想要继续使用 %TrialName%，必须购买一个许可证并注册应用程序。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="您的 %Quantity% 次试用期已到期。如果您想要继续使用 %TrialName%，必须购买一个许可证并注册应用程序。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="欢迎使用 %TrialName% 试用版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="注册"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="输入注册密钥"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="试用"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="到期"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="购买"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="访问 %TrialName% 购买页需要一个许可证"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="%TrialName% 试用版 (剩余 %TrialLeft% 天)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="%TrialName% 试用版 (剩余 %TrialLeft% 次)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="您正在使用 [|Manufacturer] 的 %TrialName% 试用版。您还剩余 %TrialLeft% 天。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="您正在使用 [|Manufacturer] 的 %TrialName% 试用版。您还剩余 %TrialLeft% 次。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="欢迎使用 %TrialName% 试用版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="注册"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="输入注册密钥"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="试用"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="继续试用 %TrialName% "/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="%TrialName% 已注册"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=试用试用期延期申请&amp;body=%TrialName% 我想在试用期延长。%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="注册成功"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="感谢您注册 %TrialName%。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="%TrialName% 试用版已到期"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="欢迎使用 %TrialName% 试用版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="您的 %Quantity% 天试用期已到期。如果您想要继续使用 %TrialName%，必须申请延长试用期或购买一个许可证并注册应用程序。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="您的 %Quantity% 次试用期已到期。如果您想要继续使用 %TrialName%，必须申请延长试用期或购买一个许可证并注册应用程序。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="延长的试用版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="注册"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="购买"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="延长的 %TrialName% 试用期"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="输入注册密钥"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="访问 %TrialName% 购买页以获取一个许可证"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="%TrialName% 试用版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#Msg2Caption" value="点击 &quot;继续&quot; 验证密钥并继续安装。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#MsgCaption" value="请输入所有的注册码的行。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="延长的试用版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="请输入您收到的延长试用期代码。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="点击 &quot;完成(&amp;F)&quot; 按钮，以验证代码并继续试用。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="申请试用期延长"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="您不被允许延长试用期到超过 %Quantity% %TrialMU%。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="超过了试用延长"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=试用延长申请&amp;body=您好！%%0A%%0AI 想申请 %TrialName% 试用期延长代码。%%0A%%0A谢谢您！%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#ContactReqLicenseCompId#Cmd" value="mailto:%LicReqContact%?subject=许可证申请代码: %CompId%&amp;body=您好！%%0A%%0AI 想使用下列申请代码: %CompId% 申请 %TrialName% 许可证。%%0A%%0A谢谢您！%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error1" value="您的注册许可证已过期。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error2" value="此版本的 %TrialName% 不接受您的许可证维护计划。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error3" value="%TrialName% 许可证已过期。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="继续"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="%Quantity% 试用期已经结束。%TrialName% 在继续使用，无论您注册试用期的延伸，您购买一个许可证后，请注册产品。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="%Quantity% 试用期已经结束。 %TrialName% 在继续使用，无论您注册试用期的延伸，您购买一个许可证后，请注册产品。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#DlgCaption" value="%TrialName% 试用版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#FinishCaption" value="继续"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#LinkCaption" value="申请许可证 (申请代码: %CompId%)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#Msg2Caption" value="请按 &quot;继续&quot; 按钮来验证密钥并继续。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#MsgCaption" value="请输入您收到的注册密钥的所有行。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#PageHeader" value="注册"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="继续"/>
+</DICTIONARY>

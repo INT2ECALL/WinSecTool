@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F7FB4AD7F09F46EF88CE1FACFB376EB1" DisplayName=".NET Framework 4.5.1"
+      SetupFileUrl="http://download.microsoft.com/download/1/6/7/167F0D79-9317-48AE-AEDB-17120579F8E2/NDP451-KB2858728-x86-x64-AllOS-ENU.exe"
+      Location="1" ExactSize="70087104" MD5="607d3c9b399e3d303a1b14eb4326bd1e"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="xy" TargetName=".NET Framework 4.5.1"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F7FB4AD7F09F46EF88CE1FACFB376EB1Release" Prereq="F7FB4AD7F09F46EF88CE1FACFB376EB1" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Release" RefContent="G378757"
+      Order="1" Property="PreReqSearch_F7FB4AD7F09F46EF88CE1FACFB376EB1"/>
+  </COMPONENT>
+</FRAGMENT>

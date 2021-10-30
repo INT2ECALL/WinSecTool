@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="9.3" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="TemplateChildDlg" Control="Icon" Type="Icon" X="15" Y="30" Width="36" Height="36" Attributes="7340033" Text="[InfoIcon]" Order="100"/>
+    <ROW Dialog_="TemplateChildDlg" Control="Text" Type="Text" X="60" Y="30" Width="230" Height="50" Attributes="196611" TextStyle="BlueText" Order="200" TextLocId="Control.Text.TemplateChildDlg#Text"/>
+    <ROW Dialog_="TemplateChildDlg" Control="DefBut" Type="PushButton" X="0" Y="0" Width="0" Height="0" Attributes="2" Order="300" TextLocId="-"/>
+    <ROW Dialog_="TemplateChildDlg" Control="AdvInst" Type="Text" X="5" Y="388" Width="74" Height="11" Attributes="196611" Text="Advanced Installer" TextStyle="[BrandingStyle]" Order="400"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="TemplateChildDlg" Control_="DefBut" Event="[AiStopPageChange]" Argument="{}" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="TemplateChildDlg" HCentering="50" VCentering="50" Width="330" Height="150" Attributes="3" Control_Default="DefBut" Control_Cancel="DefBut"/>
+  </COMPONENT>
+</FRAGMENT>

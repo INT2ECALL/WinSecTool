@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="SetupTypeDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Next" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="0" Text="[ButtonText_Next]" Order="200" TextLocId="-"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomText" Type="Text" X="110" Y="188" Width="230" Height="30" Attributes="65538" Order="400" TextLocId="Control.Text.SetupTypeDlg#CustomText"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CompleteText" Type="Text" X="110" Y="249" Width="230" Height="20" Attributes="65538" Order="500" TextLocId="Control.Text.SetupTypeDlg#CompleteText"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalText" Type="Text" X="110" Y="130" Width="230" Height="20" Attributes="65538" Order="600" TextLocId="Control.Text.SetupTypeDlg#TypicalText"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="700" TextLocId="Azure.Control.Text.SetupTypeDlg#Title"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Description" Type="Text" X="55" Y="80" Width="380" Height="15" Attributes="196610" Order="800" TextLocId="Azure.Control.Text.SetupTypeDlg#Description"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalLabel" Type="Text" X="110" Y="117" Width="100" Height="11" Attributes="65538" TextStyle="[DlgTitleFont]" Order="900" TextLocId="Control.Text.SetupTypeDlg#TypicalLabel"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalButton" Type="PushButton" X="55" Y="117" Width="38" Height="38" Attributes="5767170" Property="AI_TypicalBtn" Text="[InstallerIcon]" Order="1000" HelpLocId="Control.Help.SetupTypeDlg#TypicalButton"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomLabel" Type="Text" X="110" Y="175" Width="100" Height="11" Attributes="65538" TextStyle="[DlgTitleFont]" Order="1100" TextLocId="Control.Text.SetupTypeDlg#CustomLabel"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomButton" Type="PushButton" X="55" Y="176" Width="38" Height="38" Attributes="5767170" Property="AI_CustomBtn" Text="[CustomSetupIcon]" Order="1200" Help="Custom Installation|" HelpLocId="Control.Help.SetupTypeDlg#CustomButton"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CompleteLabel" Type="Text" X="110" Y="236" Width="100" Height="11" Attributes="65538" TextStyle="[DlgTitleFont]" Order="1300" TextLocId="Control.Text.SetupTypeDlg#CompleteLabel"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CompleteButton" Type="PushButton" X="55" Y="236" Width="38" Height="38" Attributes="5767170" Property="AI_CompleteBtn" Text="[CompleteSetupIcon]" Order="1400" HelpLocId="Control.Help.SetupTypeDlg#CompleteButton"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Back" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="1500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalCommand" Type="CommandLinkButton" X="55" Y="117" Width="280" Height="48" Attributes="6815747" Property="AI_TypicalBtn" Text="[InstallerIcon]" Order="1600" HelpLocId="Azure.Control.Help.SetupTypeDlg#TypicalCommand" ExtType="CommandLinkButton" ExtDataLocId="Azure.Control.ExtData.SetupTypeDlg#TypicalCommand"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomCommand" Type="CommandLinkButton" X="55" Y="176" Width="280" Height="48" Attributes="6815747" Property="AI_CustomBtn" Text="[CustomSetupIcon]" Order="1700" HelpLocId="Azure.Control.Help.SetupTypeDlg#CustomCommand" ExtType="CommandLinkButton" ExtDataLocId="Azure.Control.ExtData.SetupTypeDlg#CustomCommand"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CompleteCommand" Type="CommandLinkButton" X="55" Y="236" Width="280" Height="48" Attributes="6815747" Property="AI_CompleteBtn" Text="[CompleteSetupIcon]" Order="1800" HelpLocId="Azure.Control.Help.SetupTypeDlg#CompleteCommand" ExtType="CommandLinkButton" ExtDataLocId="Azure.Control.ExtData.SetupTypeDlg#CompleteCommand"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteCommand" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomCommand" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalCommand" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalText" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalLabel" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteText" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteLabel" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteButton" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomText" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomLabel" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomButton" Action="Show" Condition="NOT AIEXTERNALUI"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="SetupTypeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteButton" Event="[InstallMode]" Argument="[InstallModeComplete]" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteButton" Event="SetInstallLevel" Argument="1000" Condition="1" Ordering="200"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomButton" Event="[InstallMode]" Argument="[InstallModeCustom]" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Event="[InstallMode]" Argument="[InstallModeTypical]" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Event="SetInstallLevel" Argument="3" Condition="1" Ordering="200"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteCommand" Event="[AiEventsControl]" Argument="CompleteButton" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalCommand" Event="[AiEventsControl]" Argument="TypicalButton" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomCommand" Event="[AiEventsControl]" Argument="CustomButton" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="[InstallMode]" Argument="Typical" Condition="AI_INSTALL" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="SetInstallLevel" Argument="3" Condition="AI_INSTALL" Ordering="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="SetupTypeDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="TypicalButton" Control_Cancel="Cancel" TitleLocId="Dialog.SetupTypeDlg"/>
+    <ATTRIBUTE name="ExitPoints" value="SetupTypeDlg#CompleteButton##InstallMode = InstallModeComplete!CustomizeDlg#Next##InstallMode = InstallModeCustom#SetupTypeDlg!SetupTypeDlg#CustomButton#CustomizeDlg#InstallMode = InstallModeCustom"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="kk" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Жаңа қалта"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Көшірме %s - %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Жаңа айнымалы"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Сипаттама"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Мүмкіндік"/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Жаңа файл"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Жаңа кілт"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Жаңа бөлім"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Жаңа мән"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Сіздің өнім"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="Adobe Reader [AI_REQUIRED_ADOBEREADER_DISPLAY] нұсқасынан төмен жүйеге [ProductName] орнатылмайды"/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="Экран түсінің тереңдігі [AI_REQUIRED_COLOR_QUALITY] биттен аз болса, [ProductName] орнатылмайды."/>
+  <STRING id="AI.LaunchCondition.Description" value="Қосу шартының түсіндірмесі"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="DirectX [AI_REQUIRED_DIRECTX_DISPLAY] нұсқасынан төмен жүйеге [ProductName] орнатылмайды."/>
+  <STRING id="AI.LaunchCondition.DotNET" value=".NET Framework [AI_REQUIRED_DOTNET_DISPLAY] нұсқасынан төмен жүйеге [ProductName] орнатылмайды."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value=".NET Core [AI_REQUIRED_DOTNET_CORE_DISPLAY] нұсқасынан төмен жүйеге [ProductName] орнатылмайды."/>
+  <STRING id="AI.LaunchCondition.IE" value="Internet Explorer [AI_REQUIRED_IE_DISPLAY] нұсқасынан төмен жүйеге [ProductName] орнатылмайды."/>
+  <STRING id="AI.LaunchCondition.IIS" value="Internet Information Services [AI_REQUIRED_IIS_DISPLAY] нұсқасынан төмен жүйеге [ProductName] орнатылмайды."/>
+  <STRING id="AI.LaunchCondition.Jre" value="JRE [AI_REQUIRED_JRE_DISPLAY] нұсқасынан төмен жүйеге [ProductName] орнатылмайды."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] cannot be installed on [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] cannot be installed on [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] cannot be installed on [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] cannot be installed on [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] cannot be installed on [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] жадысы [AI_REQUIRED_PHYSICAL_MEMORY] Мб кем компьютерге қойылмайды."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="Экран өлшемі [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y] мөлшерінен төмен жүйеге [ProductName] қойылмайды."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] виртуалды жүйеге қойылмайды."/>
+  <STRING id="AI.LaunchCondition.WI" value="Windows Installer [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY] нұсқасынан төмен жерге [ProductName] қойылмайды."/>
+  <STRING id="AI.MoveFile.DestName" value="YourFile.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Бұл мәлімет қоры [|ProductName] орнатуға қажет мәліметтен тұрады."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Сіздің мекеме"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Сіздің ішкі модуль"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Бұл мәлімет қоры &lt;module name&gt; компонентін орнатуға қажет мәліметтен тұрады."/>
+  <STRING id="AI.Property.DefaultProductName" value="Бағдарламаңыз"/>
+  <STRING id="AI.Property.DefaultValue" value="Мән"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Бұл буманың бір ішкі модулі Advanced Installer тегін нұсқасымен жасалған. Мұны тек бағдарлама мүмкіндігімен танысу мақсатында пайдалану керек."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Бұл бума Advanced Installer тегін нұсқасымен жасалған. Мұны тек бағдарлама мүмкіндігімен танысу мақсатында пайдалану керек."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Ескерту"/>
+  <STRING id="AI.Registry.DefaultKey" value="Жаңа_кілт"/>
+  <STRING id="AI.Registry.DefaultName" value="Жаңа мән"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="Сіздің.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="СіздіңМән"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="ҚызметАты"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Қызметіңіздің анықтамасы"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Қызметіңіз"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Бұйрығыңыздың лақабы"/>
+  <STRING id="AI.Shortcut.DefaultName" value="%s лақабы"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Жою"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Ашу"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Installer туралы"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutFolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Жаңа қалта ашу|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Бір деңгей жоғары шығу|"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Жаңа қалта ашу|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Бір деңгей жоғары шығу|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Ақпарат белгі|"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Ақпарат белгі|"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Орнатылғанды өзгерту|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Орнатылғанды жою|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Орнатылғанды жөндеу|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Толық орнату|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Таңдап орнату|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Жалпы орнату|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Леп белгі|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Қарау:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Қойылатын жер шолу"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Қалта:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Қойылатын жерді өзгерту"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="[ProductName] бағдарламаға желімен баратын жолды беріңіз"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="Желімен барар жолды теріңіз немесе Шолу... дегенді басыңыз."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Желідегі орын"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD &amp;Кілт:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Мекемеңіз туралы жазыңыз"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="Мекемеңіздің атын жазыңыз. Бұл жерге жазған мекеме аты [ProductName] келесі орнатқанда да қолданылатын болады:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Мекеме туралы"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard] көрсетілген желідегі орынға [ProductName] сервер бейнесін жасайды. Жалғастыру үшін &quot;[Text_Next]&quot; деңіз немесе &quot;Тоқтат&quot; дегенді басып шығып кетіңіз."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="[ProductName] орнатқышқа қош келдіңіз"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Қара:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Бағдарлама қоятын жерді көрсетіңіз"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Қалта:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Қоятын жерді өзгерту"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Шынымен [ProductName] қоюды доғарасыз ба?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Бағдарлама құрамын қалай қою керегін таңдаңыз."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="&amp;Диск қолданысы"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Таңдалып тұрған нәрсенің көпжолды анықтамасы"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Таңдалған нәрсенің өлшемі."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Таңдаулының жолы&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Орны:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Бөлшек қасиетін өзгерту үшін оның белгісін басыңыз."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Таңдап қою"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Таңдау тармағы"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Таңдалған бөліктерді орналастыруға кететін орын мөлшері."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Көрсетілген дисктің ешқайсысында таңдалған бөліктерді орналасыруға орын жетпейді. Орнатылатын бөліктерді өзгертіңіз, дискте орын босатыңыз немесе басқа диск таңдаңыз."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Дисктегі орын қажеттігі"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Ақпарат жол"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Орнатқыштан шығып кету үшін &quot;Бітір&quot; дегенді басыңыз."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="[ProductName] қосу"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="[ProductName] [Wizard] жұмысын бітіру"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Бағдарлама туралы файл оқу"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Файл түрі мен [ProductName] байланысы."/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] [ProductName] бағдарламасын мына файл түрімен байланыстырады: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Файлмен байланыс"/>
+  <STRING id="Control.Text.FatalError#Description1" value="[ProductName] орнатып жатқанда қате кетті. Жүйе құрамы өзгерген жоқ. Бағдарламаны орнату үшін, кейінірек қайта көріңіз."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Орнатқыштан шығып кету үшін &quot;Бітір&quot; дегенді басыңыз."/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] жұмысы үзіліп кетті"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Жаңартылуы керек кейбір файл қолданылып жатыр."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Мына бағдарлама жаңарту керек файлды қолданып тұр. Орнатуды жалғастыру үшін бағдарламаны тоқтатыңыз да &quot;Қайтала&quot; деңіз немесе &quot;Өткіз&quot; дегенді басыңыз. Жүйе өшіп, қайта қосқан кезде файл жаңарады."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Файл бос емес"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="[ProductName] орнатылатын жер."/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Қалта:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Мына жерге қою үшін &quot;[Text_Next]&quot; деңіз. Басқа жерге қоям десеңіз, оны жазыңыз немесе &quot;Шолу&quot; арқылы көрсетіңіз."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Қоятын жерді таңдау"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_kk.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Мына лицензия келісімін мұқият оқып шығыңыз."/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Қолданушыға лицензия"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="Өзгеріс"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="[ProductName] орнатылған бөліктерін өзгерту."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Жасағыңыз келетін әрекетті таңдаңыз."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="Өшіру"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="[ProductName] бағдарламаны компьютерден кетіру."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Жөндеу"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Жоқ немесе бүлінген файл, лақап, [ProductName] бағдарламасының реестдегі жазбасын жөндеу."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Бағдарламаны өзгерту, жөндеу немесе кетіру"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[ProductName] бөліктерін орнату жолын өзгерте аласыз немесе [ProductName] бағдарламасын компьютеріңізден өшіріп тастай аласыз. Жалғастыру үшін &quot;[Text_Next]&quot; деңіз немесе &quot;Тоқтат&quot; деп шығып кетіңіз."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="[ProductName] [Wizard] Қош келдіңіз"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Жаңартылуы керек кейбір файл қолданылып жатыр."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Мына бағдарлама қазір жаңартылуы керек файлды қолданып тұр."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Файл бос емес"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Орнатуға керекті орын дискте бар бос орын мөлшерінен асып кетеді."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Көрсетілген дискте қойылатын бағдарламаға орын жетпейді. Керек емес файлдарды өшіріңіз, орнатылатын бөліктерді басқаша таңдаңыз немесе басқа дискке орнатыңыз."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Орын жоқ"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Орнатуға керекті орын дискте бар бос орын мөлшерінен асып кетеді."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Көрсетілген дискте қойылатын бағдарламаға орын жетпейді. Керек емес файлдарды өшіріңіз, орнатылатын бөліктерді басқаша таңдаңыз немесе басқа дискке орнатыңыз."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Бұған қоса, орнатуды қайтару мүмкіндігін өшіріп тастауыңызға болады. Қайтару дегеніміз - орнату бітпей жатып тоқтаған кезде компьютерді орнатуға дейінгі қалпына келтіру. Қайтару мүмкіндігін алып тастаға сенімді болсаңыз, &quot;Ия&quot; дегенді басыңыз."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Орын жоқ"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[ProductName] бағдарламасын жаңарту жүргізіледі. Жалғастыру үшін [Text_Next] деңіз немесе Тоқтат деп шығып кетіңіз."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="[ProductName] бағдарламасын жаңартуға қош келдіңіз"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="[Wizard] дайындалып болғанша күте тұрыңыз."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="[ProductName] орнатуға қош келдіңіз"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Орындалғаны"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Күй:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Тоқтай тұрыңыз, [Wizard] [ProductName] [Progress2]. Бұл сәл уақыт алуы мүмкін."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[ProductName] [Progress1]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Мынаны мұқият оқыуңызды өтінеміз"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_kk.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Маңызды мәлімет"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[ProductName] орнатуға бәрі дайын. Орнату үшін &quot;Орнат&quot; дегенді басыңыз немесе &quot;Тоқтат&quot; деп шығып кетіңіз."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="[ProductName] орнатуды жаңарту"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="Түгел"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Бағдарламаның барлық бөлігі түгел орнайды. Дисктен барынша көп орын алады."/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="Таңдап"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Бөліктерді таңдап, тек керегін қалай қою керек екенін беруіңізге болады. Тәжірибелі қолданушыға арналған."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Керекті орнату түрін таңдаңыз"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Орнату түрін таңдау"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="Жалпы"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Бағдарламаға жалпы қажет бөліктерін ғана орнату. Көпшілік қолданушыға арналған."/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Бағдарлама лақабын жасау"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Үстел"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Тез орындайтын құрал жолағы"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Мына жерге [ProductName] лақабын жасау керек:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Бастау мәзірінің Бағдарламалары"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Лақап келтіру"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Мәлімет қоры:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="SQL байланысын келтіру..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC көзі:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Құпия:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Порт:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Сервер:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL мәлімет қоры"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Қолданушы:"/>
+  <STRING id="Control.Text.StartMenuShortcutFolderDlg#Description" value="Бұл қалтаға [ProductName] лақабы қойылады."/>
+  <STRING id="Control.Text.StartMenuShortcutFolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutFolderDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutFolderDlg#ShDirLabel" value="Бастау мәзірінің лақап қалтасы"/>
+  <STRING id="Control.Text.StartMenuShortcutFolderDlg#ShDirText" value="Бұл қалтаға лақап қою үшін &quot;[Text_Next]&quot; дегенді басыңыз. Басқа жерге қояр болсаңыз, оны жазыңыз немесе тізімнен таңдаңыз"/>
+  <STRING id="Control.Text.StartMenuShortcutFolderDlg#Title" value="Бастау мәзірінің лақап қалтасын таңдаңыз"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Жаңа терезе анықтамасы..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Жаңа терезе"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Жаңа күту терезесі"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="[ProductName] ескі нұсқасын тауып жаңарту."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[ProductName] бағдарламасының ескі нұсқасын тауып жоюға болады. Ескі нұсқа жойылсын ба?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="Бұл қалтаны [ProductName] [AI_Replaced_Versions_List] нұсқасы пайдаланып жатқаны анықталды. Бұл нұсқаны өшіріп тастау керек. Бұдан да басқа ескі нұсқалар жойылсын ба?"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Ескі нұсқаны жаңарту"/>
+  <STRING id="Control.Text.UserExit#Description1" value="[ProductName] орнату үзілді. Жүйе бұрынғы қалпынан өзгерген жоқ. Бағдарламаны қойғыңыз келсе, орнатқышты кейінірек тағы қосыңыз."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Орнатқыштан шығып кету үшін &quot;Бітір&quot; дегенді басыңыз."/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName] [Wizard] жұмысы үзілді"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Серия нөмір:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Тұтынушыңыз туралы мәлімет жазыңыз"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Тұтынушы:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Мекеме:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Тұтынушы туралы"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] [ProductName] қоюды бастауға дайын"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Орнтауды бастау үшін &quot;Орнат&quot; дегенді басыңыз. Егер орнату шарттарын өзгертпек болсаңыз, онда &quot;Кері&quot; дегенді басыңыз немесе &quot;Тоқтат&quot; дегенді басып шығып кетіңіз."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Орнатуға дайын"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Бағдарламаны компьютерден алып тастауды таңдадыңыз."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="[ProductName] бағдарламасын өшіріп тастау үшін &quot;Өшір&quot; дегенді басыңыз. Егер орнату шарттарын өзгерткіңіз келсе, &quot;Кері&quot; қайтыңыз немесе &quot;Тоқтат&quot; деп шығып кетіңіз."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="[ProductName] жою"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[ProductName] бағдарламасын жөніне келтіруге дайын."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="[ProductName] бағдарламасын жөніне келтіру үшін &quot;Жөнде&quot; дегенді басыңыз. Егер орнату шарттарын өзгерткіңіз келсе, &quot;Кері&quot; қайтыңыз немесе &quot;Тоқтат&quot; деп шығып кетіңіз."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="[ProductName] жөндеу"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Орнатқыш қажетті бос орын мөлшерін анықтағанша күтіңіз."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard] компьютерге [ProductName] қояды. Жалғастыру үшін [Text_Next] басыңыз немесе Тоқтат деп шығып кетіңіз."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="[ProductName] [Wizard]қа қош келдіңіз"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Бағдарлама жарнамасы"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Компьютер қолданушы жазбасын жасау"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Компьютер қолданушы тобын жасау"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Архивтен шыққан файлды өшіру"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Архивтен файл шығару"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="IIS веб сайты мен виртуал каталогын жасау"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Internet Information Services қалыпқа келтіру үшін әрекет жасау"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="IIS веб сайты мен виртуал каталогын өшіру"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="IIS қалыпқа келтіруді қайтару"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Internet Information Services қалыпқа келтіру үшін әрекет жасау"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Компьютер қолданушы жазбасын жасау үшін әрекет жасау"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Компьютер қолданушы тобын жасау үшін әрекет жасау"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Компьютер қолданушы жазбасын өшіру"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Компьютер қолданушы тобын өшіру"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Компьютер қолданушы жазбасын жасауды қайтару"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Компьютер қолданушы тобын жасауды қайтару"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="SQL скриптін орнату"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="SQL скрипт орындағышын орнату үшін мәлімет қорын қалыпқа келтіруге әрекет жасау"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="SQL скриптін жою"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="SQL скрипті қайтару"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="SQL скрипт орындағышын өшіру үшін мәлімет қорын қалыпқа келтіруге әрекет жасау"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Локал компьютерден қолданушыны алып тастауға әрекет жасау"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Локал компьютерден қолданушы тобын алып тастауға әрекет жасау"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Тіркеуден орын алу"/>
+  <STRING id="ActionText.Description.AppSearch" value="Орнатылған бағдарламаны іздеу"/>
+  <STRING id="ActionText.Description.BindImage" value="Орындағыштарды байлау"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Сәйкес өнім іздеу"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Қажет бос орын табу"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Қажет бос орын табу"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Қалта жасау"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Лақап жасау"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Қызмет өшіру"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Файл дубликатын жасау"/>
+  <STRING id="ActionText.Description.FileCost" value="Қажет бос орын табу"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Қатысты бағдарлама табу"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Мына әрекет үшін скрипт жасау:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Желі орнатқыш файлдарды көшіру"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Жаңа файлдарды көшіру"/>
+  <STRING id="ActionText.Description.InstallODBC" value="ODBC бөлшектерін қою"/>
+  <STRING id="ActionText.Description.InstallServices" value="Жаңа қызмет қою"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Жүйе каталогын қою"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Орнатуды тексеру"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Іске қосу шартын тексеру"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Байланысқан бағдарлама бөліктерінің күйін ауыстыру"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Файл жылжыту"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Жинақ туралы ақпарат"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Жинақ туралы ақпаратты шығармау"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Файл жаңарту"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Бөлшек тіркеуін жаңарту"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Сапалы бөлшектерді жариялау"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Өнім қасиетін жариялау"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Өнім туралы жариялау"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Класс серверін тіркеу"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="COM+ бағдарламасы мен бөлшектерін тіркеу"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Кеңейту серверін тіркеу"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Шрифт тіркеу"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="MIME мәліметін тіркеу"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Өнім тіркеу"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Бағдарлама белгілерін тіркеу"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Түр кітапханасын тіркеу"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Қолданушы тіркеу"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Файл дубликатын өшіру"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Орта айнымалысын жаңарту"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Бағдарлама жою"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Файл жою"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Қалта жою"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="INI файл жолдары өшірілуде"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="ODBC құрамын өшіру"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Жүйе реестрінің мәнін өшіру"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Лақап өшіру"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Сапалы өнім іздеу"/>
+  <STRING id="ActionText.Description.Rollback" value="Әрекет қайтару:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Резерв файл жою"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Модуль тіркеу"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Модуль тіркеуді тоқтату"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="ODBC каталогын ашу"/>
+  <STRING id="ActionText.Description.StartServices" value="Қызмет қосу"/>
+  <STRING id="ActionText.Description.StopServices" value="Қызмет тоқтату"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Жылжыған файлды жою"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Сәйкес бөлшектерді жариялауды тоқтату"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Өнім бөлшектерін жариялауды тоқтату"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Өнім туралы мәлімдеуді тоқату"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Класс серверін тіркеуді тоқтату"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="COM+ бағдарламасы мен бөлшектерін тіркеуді тоқтату"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Кеңейту серверін тіркеуді тоқтату"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Шрифт тіркеуді тоқтату"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="MIME мәліметін тіркеуді тоқтату"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Бағдарлама белгілерін тіркеуді тоқтату"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Түр кітапханасын тіркеуді тоқтату"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Орта айнымалыларын жаңарту"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="INI файлына мән жазу"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Жүйе реестріне мән жазу"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Қолданушы: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Қолданушы: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="&quot;[1]&quot; қойылып жатыр"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="&quot;[1]&quot; өшіріліп жатыр"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Метақор құрылысын қайта келтіру"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Қолданушы: [1], Атрибут: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Қолданушы: [1], Атрибут: [2]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Қолданушы: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Қолданушы: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Қолданушы: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Қолданушы: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Байланыс: [1]  Скрипт: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Байланыс: [1]  Скрипт: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Байланыс: [1]  Скрипт: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Қолданушы: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Қолданушы: [1]"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Бос орын: [1]"/>
+  <STRING id="ActionText.Template.AppSearch" value="Қасиет: [1], таңба: [2]"/>
+  <STRING id="ActionText.Template.BindImage" value="Файл: [1]"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Қалта: [1]"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Лақап: [1]"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Қызмет: [1]"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Файл: [1], каталог: [9],  өлшем: [6]"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Табылған бағдарлама: [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Файл: [1], каталог: [9], өлшем: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Файл: [1], каталог: [9], өлшем: [6]"/>
+  <STRING id="ActionText.Template.InstallServices" value="Қызмет: [2]"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Файл: [1],  тәуелділік: [2]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Бағдарлама: [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Файл: [1], каталог: [9],  өлшем: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Бағдарлама контексі:[1], жинақ аты:[2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Бағдарлама контексті:[1], жинақ аты:[2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Файл: [1], каталог: [2],  өлшем: [3]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="Бөлшек нөмірі: [1], сапасы: [2]"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Құрам: [1]"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Сынып коды: [1]"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="Бағдарлама реті: [1]{{, бағдарлама түрі: [2], қолданушы: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Кеңейту: [1]"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Шрифт: [1]"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="MIME мазмұнын түрі: [1], кеңейту: [2]"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Файл: [1], қалта: [9]"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Ат: [1], мән: [2], әрекет [3]"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Бағдарлама: [1], бұйрық: [2]"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Файл: [1], қалта: [9]"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Қалта: [1]"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Файл: [1], бөлім: [2], кілт: [3], мән: [4]"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Кілт: [1], ат: [2]"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Лақап: [1]"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Файл: [1]"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Файл: [1], қалта: [2]"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Файл: [1], қалта: [2]"/>
+  <STRING id="ActionText.Template.StartServices" value="Қызмет: [1]"/>
+  <STRING id="ActionText.Template.StopServices" value="Қызмет: [1]"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Файл: [1], каталог: [9]"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Құрам реті: [1], сапасы: [2]"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Қасиет: [1]"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Сынып реті: [1]"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Кеңейту: [1]"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Шрифт: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="MIME мазмұнын түрі: [1], кеңейту: [2]"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Ат: [1], мән: [2], әрекет [3]"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Файл: [1], бөлім: [2],  кілт: [3], мән: [4]"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Кілт: [1], ат: [2], мән: [3]"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Жөнделмейтін қате: }}"/>
+  <STRING id="Error.1" value="{{Қате [1]. }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Қате түрі: [1], аргумент: [2]"/>
+  <STRING id="Error.1101" value="Файлды оқуда қате: [2]. {{ Жүйенің қатесі [3].}}  Файл бар ма, тексеріңіз."/>
+  <STRING id="Error.12" value="=== Жазуды бастаған кез: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Жазуды тоқтатқан кез: [Date]  [Time] ==="/>
+  <STRING id="Error.1301" value="&quot;[2]&quot; файлын жасау мүмкін емес. Бұл атпен аталған қалта бар екен. Орнатуды тоқтатып басқа жерге орнатып көріңіз."/>
+  <STRING id="Error.1302" value="Диск салыңыз: [2]"/>
+  <STRING id="Error.1303" value="Орнатқыш бағдарламаның көрсетілген қалтаға жазу құқы жоқ: [2].  Орнатуды жалғастыру мүмкін емес. Жүйеге администратор болып кіріп немесе жүйе администраторына айтып орнатуды қайта бастаңыз."/>
+  <STRING id="Error.1304" value="Файлға жазарда қате кетті: [2].  Осы қалтаға жазу құқыңыз барын анықтап алыңыз."/>
+  <STRING id="Error.1305" value="Файлдан оқығанда қате кетті: [2]. {{ Жүйеде қате [3].}}  Файл бар ма, тексеріңіз."/>
+  <STRING id="Error.1306" value="Басқа бағдарлама &quot;[2]&quot; файлды монополды түрде қолданып жатыр. Басқа бағдарламаның бәрін жауып &quot;Қайтала&quot; дегенді басыңыз."/>
+  <STRING id="Error.1307" value="Файл: [2] қоятын орын жоқ. Дисктен орын босатып, &quot;Қайтала&quot; деңіз немесе &quot;Тоқтат&quot; деп шығып кетіңіз."/>
+  <STRING id="Error.1308" value="Файл: [2] табылмады. Файл бар ма, тексеріңіз."/>
+  <STRING id="Error.1309" value="Файл: [3] оқығанда қате кетті. {{ Жүйеде қате [2].}}  Файл бар ма, тексеріңіз."/>
+  <STRING id="Error.1310" value="Файл: [3] жазғанда қате кетті . {{ Жүйеде қате [2].}}  Бұл қалтаға рұқсатыңыз бар ма, тексеріңіз."/>
+  <STRING id="Error.1311" value="Файл табылмады {{(cabinet)}}: [2].  Файл бар ма, тексеріңіз."/>
+  <STRING id="Error.1312" value="Қалта &apos;[2]&apos; жасалынбады. Аты сондай файл бар екен. Сол файлды жойыңыз немесе атын өзгертіңіз, сосын &quot;Қайтала&quot; деңіз немесе &quot;Тоқтат&quot; деп шығып кетіңіз."/>
+  <STRING id="Error.1313" value="Диск [2] ашылмайды. Басқа диск таңдаңыз."/>
+  <STRING id="Error.1314" value="Көрсетілген жол &apos;[2]&apos; ашылмады."/>
+  <STRING id="Error.1315" value="Көрсетілген қалта: [2] ішіне жазу мүмкін емес."/>
+  <STRING id="Error.1316" value="Файл: [2] оқыр кезде желіде қате кетті"/>
+  <STRING id="Error.1317" value="Қалта: [2] жасар кезде қате кетті"/>
+  <STRING id="Error.1318" value="Қалта: [2] жасар кезде желіде қате кетті"/>
+  <STRING id="Error.1319" value="Cabinet: [2] файлды ашып жатқан кезде желіде қате кетті"/>
+  <STRING id="Error.1320" value="Тым ұзын жол көрсетілген: [2]"/>
+  <STRING id="Error.1321" value="Мына файлды: [2] өзгертуге орнатқыш бағдарламаның құқы жоқ."/>
+  <STRING id="Error.1322" value="&quot;[2]&quot; қалтасына баратын жолдың бір бөлігінің ұзындығы қате. Ол не бос, не жүйеде мүмкін болатын ұзындықтан асып кеткен."/>
+  <STRING id="Error.1323" value="&apos;[2]&apos; қалтасына баратын жолда қолдануға болмайтын сөз жазылған."/>
+  <STRING id="Error.1324" value="&apos;[2]&apos; қалтасына баратын жолда қолдануға болмайтын таңба жазылған."/>
+  <STRING id="Error.1325" value="Файлды &apos;[2]&apos; деп қысқа атауға болмайды."/>
+  <STRING id="Error.1326" value="Файл қауіпсіздігі мәліметін аларда қате: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Болмайтын диск: [2]"/>
+  <STRING id="Error.1328" value="[2] файлын жаңартқанда қате кетті. Ол басқа жолмен жаңарған болуы мүмкін, сондықтан бұл жаңартуды қолдануға болмайды. Бұл туралы бағдарлама иесінен сұраңыз.  {{Жүйеде қате: [3]}}"/>
+  <STRING id="Error.1329" value="[2] cabinet файлға цифрлы қол қойылмағандықтан, қажет файл қойылмады. Cabinet бүлінген болуы мүмкін."/>
+  <STRING id="Error.1330" value="[2] cabinet файлға цифрлы қол дұрыс қойылмағандықтан, қажет файл қойлмады. Cabinet бүлінген болуы мүмкін. {{  WinVerifyTrust [3] деген қате берді.}}"/>
+  <STRING id="Error.1331" value="Файл [2] дұрыс көшірілмеді: CRC қате."/>
+  <STRING id="Error.1332" value="Файл [2] дұрыс жылжымады: CRC қате."/>
+  <STRING id="Error.1333" value="Файл [2] дұрыс жаңармады: CRC қате."/>
+  <STRING id="Error.1334" value="Cabinet &apos;[3]&apos; ішінен &apos;[2]&apos; файл табылмаған соң орнатылмады. Бұл желідегі, CD-ROM оқуда немесе буманың өзіндегі қатеден болуы мүмкін."/>
+  <STRING id="Error.1335" value="Cabinet &apos;[2]&apos; файл бүлінген, қолдануға жарамсыз. Бұл желідегі, немесе CD-ROM оқуда, немесе буманың өзіндегі қатеден болуы мүмкін."/>
+  <STRING id="Error.1336" value="Орнатуды бітіру үшін уақытша файл жасар кезде қате кетті.{{  Қалта: [3]. Жүйедегі қате: [2]}}"/>
+  <STRING id="Error.14" value="Әрекет басы [Time]: [1]."/>
+  <STRING id="Error.1401" value="[2] кілт жасалынбады. {{ Жүйеде қате [3].}}  Бұл кілтке рұқсатыңыз бар ма, тексеріңіз немесе техникалық қызмет көрсетушімен хабарласыңыз."/>
+  <STRING id="Error.1402" value="[2] кілт ашылмады. {{ Жүйеде қате [3].}}  Бұл кілтке рұқсатыңыз бар ма, тексеріңіз немесе техникалық қызмет көрсетушімен хабарласыңыз."/>
+  <STRING id="Error.1403" value="[2] кілт мәні өшірілмеді. {{ Жүйеде қате [3].}}  Бұл кілтке рұқсатыңыз бар ма, тексеріңіз немесе техникалық қызмет көрсетушімен хабарласыңыз."/>
+  <STRING id="Error.1404" value="[2] кілт өшірілмеді. {{ Жүйеде қате [3].}}  Бұл кілтке рұқсатыңыз бар ма, тексеріңіз немесе техникалық қызмет көрсетушімен хабарласыңыз."/>
+  <STRING id="Error.1405" value="[2] кілт мәні [3] оқылмады. {{ Жүйеде қате [4].}}  Бұл кілтке рұқсатыңыз бар ма, тексеріңіз немесе техникалық қызмет көрсетушімен хабарласыңыз."/>
+  <STRING id="Error.1406" value="[2] кілт мәні [3] жазылмады. {{ Жүйеде қате [4].}}  Бұл кілтке рұқсатыңыз бар ма, тексеріңіз немесе техникалық қызмет көрсетушімен хабарласыңыз."/>
+  <STRING id="Error.1407" value="[2] кілт мән аттары алынбады. {{ Жүйеде қате [3].}}  Бұл кілтке рұқсатыңыз бар ма, тексеріңіз немесе техникалық қызмет көрсетушімен хабарласыңыз."/>
+  <STRING id="Error.1408" value="[2] кілт ішінен бөлік аттары алынбады. {{ Жүйеде қате [3].}}  Бұл кілтке рұқсатыңыз бар ма, тексеріңіз немесе техникалық қызмет көрсетушімен хабарласыңыз."/>
+  <STRING id="Error.1409" value="[2] кілтінің қауіпсіздік мәліметі оқылмады. {{ Жүйеде қате [3].}}  Бұл кілтке рұқсатыңыз бар ма, тексеріңіз немесе техникалық қызмет көрсетушімен хабарласыңыз."/>
+  <STRING id="Error.1410" value="Бар тіркеу орнын үлкейте алмаймын. Бұл бағдарламаны қою үшін [2] KB тіркеу орны қажет болады. "/>
+  <STRING id="Error.15" value="Әрекет бітті [Time]: [1]. Қайтқан мән [2]."/>
+  <STRING id="Error.1500" value="Басқа орнату жүріп жатыр. Сол орнату біткесін қайта бастаңыз."/>
+  <STRING id="Error.1501" value="Құпия мәліметті аларда қате кетті. Windows Installer дұрыс тұрған-тұрмағанын тексеріңіз."/>
+  <STRING id="Error.1502" value="Қолданушы &apos;[2]&apos; бұрын &apos;[3]&apos; өнімін орнатуды бастаған. Бұл қолданушы қайта орнатуы керек, сонда ол өнімді қолдана алады. Сіздің орнату жалғасады."/>
+  <STRING id="Error.1503" value="Қолданушы &apos;[2]&apos; бұрын &apos;[3]&apos; өнімін орнатуды бастаған. Бұл қолданушы қайта орнатуы керек, сонда ол өнімді қолдана алады."/>
+  <STRING id="Error.16" value="Қалған уақыт: {[1] минут }{[2] секунд}"/>
+  <STRING id="Error.1601" value="Орын қалмады -- Диск: &apos;[2]&apos;; керегі: [3] KB; бары: [4] KB.  Орын босатып, қайта көріңіз."/>
+  <STRING id="Error.1602" value="Шынымен тоқтатасыз ба?"/>
+  <STRING id="Error.1603" value="[2][3] файлын { мына процесс: аты: [4], нөмірі: [5], тақырыбы: &apos;[6]&apos;} қолдануда.  Бұл бағдарламаны жауып, қайта бастаңыз."/>
+  <STRING id="Error.1604" value="&apos;[2]&apos; өнімі орнатылып қойғандықтан бұл өнім қойылмай жатыр. Бұл екі өнім қатар қойылмайды."/>
+  <STRING id="Error.1605" value="Қайтару мүмкіндігі бар орнату үшін &apos;[2]&apos; дискте орын жоқ. [3] KB орын керек, бірақ [4] KB орын бар. Өткіз дегенді басып, қайтару мүмкіндігін ескермей кетіңіз, бос орынды тексетіп Қайтала дегенді таңдап көріңіз немесе Тоқтат деп шығып кеттіңіз."/>
+  <STRING id="Error.1606" value="Желіде [2] орны көрінбейді."/>
+  <STRING id="Error.1607" value="Орнатуды жалғастыру үшін келесі бағдарлама тоқтатылуы керек:"/>
+  <STRING id="Error.1608" value="Бұл өнімді орнату үшін бұрын орнатылған сәйкес өнім табылмады."/>
+  <STRING id="Error.1609" value="Қауіпсіздік шарттарын қояр кезде қате кетті. [2] қате қолданушы немесе қате топ. Қате бумада болуы мүмкін, немесе желінің домен контроллеріне қосылуда болуы мүмкін. Желіге дұрыс қосылып тұрғанын тексеріңіз де Қайтала деңіз немесе Тоқтат деңіз. {{Мына қолданушының SID табылмады, жүйеде қате [3]}}"/>
+  <STRING id="Error.17" value="Жады жетпейді. Басқа бағдарламаларды жауып қайталаңыз."/>
+  <STRING id="Error.1701" value="[2] кілт қате. Дұрыстығын тексеріңіз."/>
+  <STRING id="Error.1702" value="[2] келтіруін жасау үшін орнатқыш жүйені өшіріп-қосуы керек. Ия деп қазір өшіріп-қосыңыз немесе Жоқ деп кейінірек өшіріп-қосыңыз."/>
+  <STRING id="Error.1703" value="[2] өзгертулер жүйеге әсер етуі үшін жүйені өшіріп-қосу керек. Ия деп қазір өшіріп-қосыңыз немесе Жоқ деп кейінірек өшіріп-қосыңыз."/>
+  <STRING id="Error.1704" value="[2] орнату тоқтап тұр. Орнатқыш жасаған өзгерісті кері қайтару керек. Өзгерісті кері қайтарасыз ба?"/>
+  <STRING id="Error.1705" value="Осы өнімді орнату бұдан бұрын басталып, жүріп жатыр. Осы орнатқыш жасаған өзгерісті кері қайтару керек. Өзгерісті кері қайтарасыз ба?"/>
+  <STRING id="Error.1706" value="[2] өнімін орнататын бума табылмады. Дұрыс &apos;[3]&apos; бума пайдаланып орнатуды қайта бастаңыз."/>
+  <STRING id="Error.1707" value="Орнату дұрыс бітті."/>
+  <STRING id="Error.1708" value="Орнату қате бітті."/>
+  <STRING id="Error.1709" value="Өнім: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Компьютеріңізді бұрынғы қалпына келтіруге немесе орнатуды кейін жалғауға болады. Қалпына келтіресіз бе?"/>
+  <STRING id="Error.1711" value="Дискке орнату мәліметін жазарда қате кетті. Дискте қажет орын бар екенін тексеріңіз де Қайтала деңіз немесе Тоқтат деп шығып кетіңіз."/>
+  <STRING id="Error.1712" value="Компьютерді бұрынғы қалпына келтіру үшін бір-екі файл жетпейді. Қалпына келтіру мүмкін емес."/>
+  <STRING id="Error.1713" value="[2] қажет бір өнімін орната алмады. Техникалық персоналдан көмек сұраңыз.  {{Жүйеде қате: [3].}}"/>
+  <STRING id="Error.1714" value="[2] ескі нұсқасы өшпейді. Техникалық персоналдан көмек сұраңыз. {{Жүйеде қате: [3].}}"/>
+  <STRING id="Error.1715" value="[2] орнатылды"/>
+  <STRING id="Error.1716" value="[2] келтірілді"/>
+  <STRING id="Error.1717" value="[2] жойылған"/>
+  <STRING id="Error.1718" value="[2] файлына цифрлы таңбалау саясаты рұқсат бермеді."/>
+  <STRING id="Error.1719" value="Windows Installer қызметі көрінбейді. Windows жүйесі қауіпсіз күйде тұрғаннан болуы мүмкін немесе Windows Installer дұрыс орнатылмаған. Техникалық персоналдан көмек сұраңыз."/>
+  <STRING id="Error.1720" value="Windows Installer бумасында қате бар. Бұл орнатуды бітіретін скрипт орындалмады. Техникалық персоналдан көмек сұраңыз немесе өнім шығарушымен хабарласыңыз. {{Жұмыс: [2] скрипт қатесі [3], [4]: [5] Жол: [6], Баған: [7], [8] }}"/>
+  <STRING id="Error.1721" value="Windows Installer бумасында қате бар. Бұл орнатуды бітіретін бағдарлама орындалмады. Техникалық персоналдан көмек сұраңыз немесе өнім шығарушымен хабарласыңыз. {{Жұмыс: [2], жол: [3], бұйрық: [4] }}"/>
+  <STRING id="Error.1722" value="Windows Installer дистрибутивінде қате бар. Бұл орнатудың бір бағдарламасы дұрыс бітпеді. Техникалық персоналдан көмек сұраңыз немесе өнім шығарушымен хабарласыңыз. {{Жұмыс: [2], жол: [3], бұйрық: [4] }}"/>
+  <STRING id="Error.1723" value="Windows Installer бумасында қате бар. Бұл орнатуды бітіруге қажет DLL дұрыс істемеді. Техникалық персоналдан көмек сұраңыз немесе өнім шығарушымен хабарласыңыз. {{Жұмыс: [2], жол: [3], кітапхана: [4] }}"/>
+  <STRING id="Error.1724" value="Жою дұрыс бітті."/>
+  <STRING id="Error.1725" value="Жою бітпей қалды."/>
+  <STRING id="Error.1726" value="Жариялау дұрыс өтті."/>
+  <STRING id="Error.1727" value="Жариялау дұрыс өтпеді."/>
+  <STRING id="Error.1728" value="Келтіру дұрыс бітті."/>
+  <STRING id="Error.1729" value="Келтіруде қате кетті."/>
+  <STRING id="Error.1730" value="Бағдарламаны жою үшін Администратор болуыңыз керек. Администратор болып жүйеге қайта кіріңіз немесе техникалық персоналдан көмек сұраңыз."/>
+  <STRING id="Error.18" value="Орнатқыш жауап бермейді."/>
+  <STRING id="Error.1801" value="[2] жол қате. Дұрыс жол көрсетіңіз."/>
+  <STRING id="Error.1802" value="Жады жетпейді. Басқа бағдарламаларды жауып қайталаңыз."/>
+  <STRING id="Error.1803" value="[2] диск салғыш бос. Диск салып, Қайтала деңіз немесе Тоқтат деп бұрын таңдалған дискке қайтыңыз."/>
+  <STRING id="Error.1804" value="[2] диск салғыш бос. Диск салып, Қайтала деңіз немесе Тоқтат деп басқа диск таңдаңыз."/>
+  <STRING id="Error.1805" value="[2] қалта жоқ. Бар қалтаға баратын жол көрсетіңіз."/>
+  <STRING id="Error.1806" value="Бұл қалтаны оқуға рұқсатыңыз жоқ."/>
+  <STRING id="Error.1807" value="Орнататын жер дұрыс анықталмады."/>
+  <STRING id="Error.19" value="Орнату бітпей тоқтап қалды."/>
+  <STRING id="Error.1901" value="[2] мәлімет қорынан оқығанда қате кетті."/>
+  <STRING id="Error.1902" value="Өшіріп-қосуды жоспарлау: [2] файл аты [3] етіп өзгертіледі. Компьютерді өшіріп-қосу керек."/>
+  <STRING id="Error.1903" value="Өшіріп-қосуды жоспарлау: [2] файл жойылады. Компьютерді өшіріп-қосу керек."/>
+  <STRING id="Error.1904" value="[2] модуль тіркелмей қалды. HRESULT [3]. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1905" value="[2] модуль тіркеуден кетпей қалды. HRESULT [3]. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1906" value="[2] бумасы кэшке түспеді. Қате: [3]. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1907" value="[2] шрифт тіркелмеді. Шрифт орнатуға құқыңыз бар-жоғын және жүйе осы шрифті қолдайтынын тексеріңіз."/>
+  <STRING id="Error.1908" value="[2] шрифт тіркеуден кетпеді. Шрифт жоюға құқыңыз бар-жоғын тексеріңіз."/>
+  <STRING id="Error.1909" value="[2] лақап жасалмады. Жасайтын жер дұрыс көрсетілгенін және бар екенін тексеріңіз."/>
+  <STRING id="Error.1910" value="[2] лақап жойылмады. Лақап файлы бар екенін және дұрыс тұрғанын көрсетңіз."/>
+  <STRING id="Error.1911" value="[2] түр кітапханасы тіркелмеді. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1912" value="[2] түр кітапханасы тіркеуден алынбады. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1913" value="[2][3] ini файл жаңармады. Файлдың бар екенін және дұрыс тұрғанын тексеріңіз."/>
+  <STRING id="Error.1914" value="Компьютер өшіп-қосылғанда [3] файл атын [2] етіп өшіруге жоспарланбады. [3] файл жазуға рұқсатыңыз барын тексеріңіз."/>
+  <STRING id="Error.1915" value="ODBC драйвер бастығын өшіру мүмкін емес. ODBC қате [2]: [3]. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1916" value="ODBC драйвер бастығын қою мүмкін емес. ODBC қате [2]: [3]. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1917" value="ODBC драйверін өшіру мүмкін емес. ODBC қате [2]: [3]. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1918" value="ODBC драйверін қою мүмкін емес. ODBC қате [2]: [3]. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1919" value="ODBC мәлімет көзін келтіруде қате кетті. ODBC қате [2]: [3]. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1920" value="&apos;[2]&apos; ([3]) қызмет қосылмады. Жүйе қызметін қосуға құқыңыз бар екенін тексеріңіз."/>
+  <STRING id="Error.1921" value="&apos;[2]&apos; ([3]) қызмет тоқтамады. Жүйе қызметін тоқтатуға құқыңыз бар екенін тексеріңіз."/>
+  <STRING id="Error.1922" value="&apos;[2]&apos; ([3]) қызмет жойлмады. Жүйе қызметін жоюға құқыңыз бар екенін тексеріңіз."/>
+  <STRING id="Error.1923" value="&apos;[2]&apos; ([3]) қызмет қойылмады. Жүйе қызметін қоюға құқыңыз бар екенін тексеріңіз."/>
+  <STRING id="Error.1924" value="&apos;[2]&apos; ([3]) жүйе айнымалысы жаңармады. Жүйе айнымалысын өзгерту құқыңыз бар екенін тексеріңіз."/>
+  <STRING id="Error.1925" value="Жүйенің барлық қолданушыларына арнап орнатуға құқығыңыз жоқ. Жүйеге администратор болып кіріп қайта орнатыңыз."/>
+  <STRING id="Error.1926" value="&apos;[3]&apos; файлына қауіпсіздік қойлмады. Қате: [2]. Бұл файлға қауіпсіздік қолдануға құқыңыз бар екенін тексеріңіз."/>
+  <STRING id="Error.1927" value="(COM+ 1.0) компонент қызметі қойылмаған. Орнатуға осы компонент қызметі керек. Бұл қызмет Windows 2000 құрамына кіреді."/>
+  <STRING id="Error.1928" value="COM+ бағдарламасы тіркелмеді. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1929" value="COM+ бағдарламасы тіркеуден алынбады. Техникалық персоналға хабарлаңыз."/>
+  <STRING id="Error.1930" value="&apos;[2]&apos; ([3]) қызметінің сипаттамасы өзгермейді."/>
+  <STRING id="Error.1931" value="Windows [2] файлын қорғап тұрғандықтан, Windows Installer оны жаңарта алмады. Бұл дұрыс істеуі үшін операциялық жүйені жаңартуыңыз керек. {{Бума нұсқасы: [3], ОЖ қорғалған нұсқасы: [4]}}"/>
+  <STRING id="Error.1932" value="Windows қорғауындағы [2] файлды Windows Installer жаңарта алмады. {{Бума нұсқасы: [3], ОЖ қорғалған нұсқасы: [4], SFP Error: [5]}}"/>
+  <STRING id="Error.1933" value="Windows қорғап тұрған бір-екі файлды Windows Installer жаңарта алмады. {{SFP қате: [2].  Қорғаудағы файл:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Машина саясаты қолданушының орнатуына тиым салды."/>
+  <STRING id="Error.1935" value="[2] бөліктің құрамын қою кезінде қате кетті. HRESULT: [3]. {{құрам интерфейсі: [4], функция: [5], құрам аты: [6]}}"/>
+  <STRING id="Error.2" value="Ескерту [1]."/>
+  <STRING id="Error.20" value="Windows [ProductName] дұрыстағанша күтіңіз"/>
+  <STRING id="Error.21" value="Қажет мәлімет жинау..."/>
+  <STRING id="Error.22" value="Ескі нұсқаларды жою..."/>
+  <STRING id="Error.23" value="Ескі нұсқаларды жоюға дайындау..."/>
+  <STRING id="Error.32" value="{[ProductName] }орнату дұрыс бітті."/>
+  <STRING id="Error.33" value="{[ProductName] }орнатылмады."/>
+  <STRING id="Error.4" value="Мәлімет [1]. "/>
+  <STRING id="Error.4000" value="Серия нөмір қате"/>
+  <STRING id="Error.4010" value="Компьютерде [ProductName] жаңарақ нұсқасы орнатылып тұр."/>
+  <STRING id="Error.4020" value="IIS жөндеуде қате кетті. IIS бұрынғы қалпына қайта келтіріледі."/>
+  <STRING id="Error.4021" value="&quot;[2]&quot; веб-сайт бұл серверде бар.&#10;&#10;Бұл веб-сайтты тастап, орнатуды жалғастырасыз ба?"/>
+  <STRING id="Error.4022" value="Бұл сервердегі &quot;[3]&quot; веб-сайтта &quot;[2]&quot; виртуал каталог бар.&#10;&#10;Бұл виртуал каталогты тастап, орнатуды жалғастырасыз ба?"/>
+  <STRING id="Error.4023" value="IIS бұл нұсқасына қолдау жоқ немесе IIS орнатылмаған !&#10;&#10;Сізге Internet Information Services 5.0 немесе одан жоғары нұсқасы керек."/>
+  <STRING id="Error.4024" value="Тура осы сервермен байланысқан веб-сайт жұмыс істеп тұр.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Бұл машинада &apos;[2]&apos; деген қолданушы не топ жасай алмадым. Қате: [3]. [4]"/>
+  <STRING id="Error.4102" value="Бұл машинада &apos;[2]&apos; деген қолданушы не топ бар."/>
+  <STRING id="Error.4103" value="Бұл машинадан &apos;[2]&apos; деген қолданушы не топты кетіре алмаймын. Қате: [3]."/>
+  <STRING id="Error.4104" value="Бұл машинада &apos;[2]&apos; деген қолданушы не топ жоқ."/>
+  <STRING id="Error.5" value="Орнату кезінде күтпеген қате кездесті. Бұл буманың бүлінгенінен болуы мүмкін. Қате коды [1]. {{Аргументтер: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Диск толған: }}"/>
+  <STRING id="Error.8" value="Іс [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="байт"/>
+  <STRING id="UIText.GB" value="Гб"/>
+  <STRING id="UIText.KB" value="Кб"/>
+  <STRING id="UIText.MB" value="Мб"/>
+  <STRING id="UIText.MenuAbsent" value="Түгел мүмкіндігі орнамайды"/>
+  <STRING id="UIText.MenuAdvertise" value="Керек кезінде орнатылады"/>
+  <STRING id="UIText.MenuAllCD" value="Бар мүмкіндігі компакт-дисктен орындалады"/>
+  <STRING id="UIText.MenuAllLocal" value="Түгел қатты дискке орнатылады"/>
+  <STRING id="UIText.MenuAllNetwork" value="Бар мүмкіндігі желіден орындалады"/>
+  <STRING id="UIText.MenuCD" value="Компакт-дисктен орындалады"/>
+  <STRING id="UIText.MenuLocal" value="Қатты дискке орнасын"/>
+  <STRING id="UIText.MenuNetwork" value="Желіден орындалсын"/>
+  <STRING id="UIText.ScriptInProgress" value="Мәдімет жинау..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Мүмкіндік орнатылмайды"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Бұл мүмкіндік тек керек кезде орнайды"/>
+  <STRING id="UIText.SelAbsentCD" value="Бұл мүмкіндік компакт-дисктен орындалады"/>
+  <STRING id="UIText.SelAbsentLocal" value="Бұл мүмкіндік қатты дискке орнайды"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Бұл мүмкіндік желіден орындалады"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Бұл мүмкіндік жоқ болады"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Керек кезінде орнайды"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Компакт-дисктен орындалады"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Қатты дискке орнайды"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Желіден орындалады"/>
+  <STRING id="UIText.SelCDAbsent" value="Бұл мүмкіндік түгел жойылады. Компакт-дисктен орындау мүмкін болмайды."/>
+  <STRING id="UIText.SelCDAdvertise" value="Компакт-дисктен орындалудың орнына керек кезінде орнауға өзгереді"/>
+  <STRING id="UIText.SelCDCD" value="Компакт-дисктен орындалатын болып қала береді"/>
+  <STRING id="UIText.SelCDLocal" value="Компакт-дисктен орындалудың орнына қатты дискке орнауға өзгереді"/>
+  <STRING id="UIText.SelChildCostNeg" value="Қатты дисктен [1] босатады"/>
+  <STRING id="UIText.SelChildCostPos" value="Бұл мүмкіндік үшін дисктен [1] орын керек"/>
+  <STRING id="UIText.SelCostPending" value="Бұл мүмкіндікке керек жерді есептеу..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Бұл мүмкіндік толық жойылады"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Бұл мүмкіндік қатты дисктен жойылады, бірақ керек кезінде орнатып алуға болады"/>
+  <STRING id="UIText.SelLocalCD" value="Бұл мүмкіндік қатты дисктен жойылады, бірақ компакт-дисктен орындалатын болады"/>
+  <STRING id="UIText.SelLocalLocal" value="Бұл мүмкіндік бұрынғыдай қатты дискте қала бермек"/>
+  <STRING id="UIText.SelLocalNetwork" value="Бұл мүмкіндік қатты дисктен жойылады, бірақ желіден орындалатын болып тұрады"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Бұл мүмкіндік толық жойылады, оны желі арқылы орындау мүмкін болмай қалады"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Бұл мүмкіндік желі арқылы орындалмайтын болады, ол енді керек кезінде орнатылады"/>
+  <STRING id="UIText.SelNetworkLocal" value="Бұл мүмкіндік желі арқылы орындалмайды, ол қатты дискте тұратын болып өзгереді"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Бұл мүмкіндік желі арқылы орындалатын болып қалады"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Бөлшек қатты дискте [1] босатады. [3] бөліктің [2] таңдалды. Бұл жерде қатты дискте [4] орын босайды."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Бөлшек қатты дискте [1] босатады. [3] бөліктің [2] таңдалды. Мұны орнатуға қатты дискте [4] орын керек."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Бөлшекті орнату үшін қатты дисктен [1] керек. [3] бөліктің [2] таңдалды. Бұл жерде қатты дискте [4] орын босайды."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Бөлікті орнату үшін қатты дисктен [1] керек. [3] бөліктің [2] таңдалды. Мұны орнату үшін қатты дискте [4] орын керек."/>
+  <STRING id="UIText.TimeRemaining" value="Қалған уақыт: {[1] мин }{[2] сек}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Бары"/>
+  <STRING id="UIText.VolumeCostDifference" value="Айырма"/>
+  <STRING id="UIText.VolumeCostRequired" value="Қажет"/>
+  <STRING id="UIText.VolumeCostSize" value="Диск өлшемі"/>
+  <STRING id="UIText.VolumeCostVolume" value="Диск"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Бағдарламаларды түрде &amp;жауып тастап, орнату біткен соң оларды қайта қос."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="Бағдарламаларды жа&amp;ппа. (Жүйені өшіріп-қосу керек болады.)"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Ия, осы файл түрімен байланыстыр."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Жоқ, еш файл түрімен байланыстырма."/>
+  <STRING id="RadioButton.Text.IAgree#1" value="Лицензия келісімін қ&amp;абылдаймын"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="Лицензия келісімін қабыл&amp;дамаймын"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Жоқ, басқа нұсқалардың қасына орнат."/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Иә, ескірек нұсқаны жой."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Жоқ, тек [AI_Replaced_Versions_List] нұсқасын жой."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Иә, ескі нұсқаның бәрін жой."/>
+  <STRING id="Property.ButtonText_Back" value="&amp;&lt; Кері"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Кері"/>
+  <STRING id="Property.ButtonText_Browse" value="&amp;Шолу..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Тоқтат"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Шығу"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Бітір"/>
+  <STRING id="Property.Text_Finish" value="Бітір"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Өткіз"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Орнат"/>
+  <STRING id="Property.Text_Install" value="Орнат"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Алға &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Алға"/>
+  <STRING id="Property.Text_Next" value="Алға"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Жоқ"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Жой"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Жөнде"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Қайта қой"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Жалғастыр"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Қайтала"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Қайтар"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Ия"/>
+  <STRING id="Property.Text_Yes" value="Ия"/>
+  <STRING id="Property.CtrlEvtchanges" value="өзгеруде"/>
+  <STRING id="Property.CtrlEvtChanging" value="Өзгеріс"/>
+  <STRING id="Property.CtrlEvtremoves" value="жоюда"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Жою"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Жөндеу"/>
+  <STRING id="Property.CtrlEvtrepairs" value="жөндеуде"/>
+  <STRING id="Property.InstallModeComplete" value="Түгел"/>
+  <STRING id="Property.InstallModeCustom" value="Таңдау"/>
+  <STRING id="Property.InstallModeTypical" value="Жалпы"/>
+  <STRING id="Property.Progress1" value="Орнату"/>
+  <STRING id="Property.Progress2" value="қойылуда"/>
+  <STRING id="Property.Setup" value="Орнату"/>
+  <STRING id="Property.Wizard" value="Орнатқыш"/>
+</DICTIONARY>

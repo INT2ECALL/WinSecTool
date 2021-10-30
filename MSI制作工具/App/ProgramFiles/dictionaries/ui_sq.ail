@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="sq" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Dosje e re"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Kopje %s e %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Variabël e re"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Përshkrim"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Karakteristikë"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Riprodho"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Ndihmë"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Përshkrimi juaj i [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Skedar i ri"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Çelës i ri"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Seksion i ri"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Vlerë e re"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="gabim.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="prodhim.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Produkti juaj"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] nuk mund të instalohet në sisteme me version të Adobe Reader më të vogël sesa [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] nuk mund të instalohet në sisteme me cilësi ngjyrash më të ulët sesa [AI_REQUIRED_COLOR_QUALITY] bit."/>
+  <STRING id="AI.LaunchCondition.Description" value="Kushtet e hapjes së programit"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] nuk mund të instalohet në sisteme me version të DirectX më të vogël sesa [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] nuk mund të instalohet në sisteme me version të .NET Framework-ut më të vogël sesa [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] nuk mund të instalohet në sisteme me version të .NET Core-ut më të vogël sesa [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] nuk mund të instalohet në sisteme me version të Internet Explorer-it më të vogël sesa [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] nuk mund të instlohet në sisteme me version të Internet Information Services më të vogël sesa [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="Për të instaluar [ProductName]-in, nevojitet një lidhje interneti aktive. Ju lutem kontrolloni parametrat e rrjetit dhe të proxy-it."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] nuk mund të instalohet në sisteme me version të JRE më të vogël sesa [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] nuk mund të instalohet tek [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] nuk mund të instalohet tek [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] nuk mund të instalohet tek [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] nuk mund të instalohet tek [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] nuk mund të instalohet tek [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] nuk mund të instalohet tek [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="Në mënyrë që të instalohet, [ProductName] kërkon privilegje administrimi."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] nuk mund të instalohet në sisteme me më pak se [AI_REQUIRED_PHYSICAL_MEMORY] MB memorje fizike."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] nuk munt të instalohet në sisteme me rezolucion të ekranit më ulët sesa [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] nuk mund të instalohet në sisteme që ekzekutohen në kompjutera virtualë."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] nuk mund të instalohet në sisteme me version të Windows Installer-it më të vogël sesa [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="SkedariJuaj.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Ky skedar instalimi përmban arsyetimin dhe të dhënat e nevojshme për të instaluar [ProductName]. "/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Firma (Kompania) juaj"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Merge Module-i juaj"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Ky skedar instalimi përmban arsyetimin dhe të dhënat e nevojshme për të instaluar komponentin &lt;module name&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="Programi juaj"/>
+  <STRING id="AI.Property.DefaultValue" value="Vlera juaj"/>
+  <STRING id="AI.Property.FindExeTitle" value="Zgjidhni paketën e instalimit për [ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Kjo paketë përmban një Merge Module që është krijuar me një version prove të Advanced Installer-it. Ju mund ta përdorni vetëm për qëllime vlerësimi."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Kjo paketë është krijuar me një version prove të Advanced Installer-it. Ju mund ta përdorni vetëm për qëllime vlerësimi."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Kujdes"/>
+  <STRING id="AI.Registry.DefaultKey" value="Çelës_i_Ri"/>
+  <STRING id="AI.Registry.DefaultName" value="Vlerë e re"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="SkedariJuaj.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="VleraJuaj"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="EmriShërbimit"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Përshkrimi i Shërbimit Tuaj"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Shërbimi Juaj"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Ndarje e Re"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Shkurtore e KomandaJuaj"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Shkurtore e %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Çinstalo"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Hap"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Skedar i ri"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.BrowseDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.CancelDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.ErrorDlg" value="Të dhënat e Programit të Instalimit"/>
+  <STRING id="Dialog.ExitDialog" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.FatalError" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.FilesInUse" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.FolderDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.PrepareDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.ProgressDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.ResumeDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.TemplateDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.UserExit" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[Setup] të [ProductName]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[Setup] të [ProductName]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Krijon një dosje të re|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Një nivel më lartë|"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Krijon një dosje të re|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Një nivel më lartë|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Ikona e informacionit|"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Ikona e informacionit|"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Ndrysho instalimin|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Hiq instalimin|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Riparo instalimin|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Instalim i plotë|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Instalim i përshtatur|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Instalim tipik|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Ikona e kujdesit|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Kërko tek:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Shfleto dosjen e destinacionit"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Emri i dosjes:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Ndrysho dosjen aktuale të destinacionit"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Ju lutem, specifikoni pozicionin në rrjet të imazhit të serverit të produktit [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Specifikoni një pozicion të ri në rrjet ose klikoni mbi Shfleto për të selektuar një ekzistent"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Instalim në rrjet"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="&amp;Çelësi i CD-së"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Ju lutem shkruani të dhënat e firmës (kompanisë) suaj"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Ju lutem, shkruani emrin e firmës (kompanisë) tuaj në kutinë e mëposhtëme. Do të përdoret si emri i parazgjedhur i firmës (kompanisë) për instalimet e mëpasshme të [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Detajet e firmës (kompanisë)"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard] do të krijojë në një pozicion të specifikuar në rrjet një imazh serveri të [ProductName]. Klikoni mbi butonin [Text_Next] për të vazhduar ose mbi Anulo per të dalë nga [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Mirësevini tek [Wizard] të [ProductName]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Kërko tek:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Shfleto dosjen e destinacionit"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Emri i dosjes:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Ndrysho dosjen aktuale të destinacionit"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="A jeni i sigurt që dëshironi të anuloni instalimin e [ProductName]?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Selektoni mënyrën se si do të instalohen karakteristikat."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="&amp;Përdorimi i diskut"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Përshkrimi shumë-rreshtor i elementit të selektuar aktualisht."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Madhësia e elementit të selektuar aktualisht."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Pozicioni i selektimit&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Pozicioni:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Për të ndryshuar mënyrën se si do të instalohen karakteristikat, klikoni mbi pemën e mëposhtëme."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Instalim i përshtatur"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Pema e selektimeve"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Hapësira e duhur për të instaluar karakteristikat e selektuara."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Vëllimet e nënvizuar (nëqoftëse ka ndonjë), nuk kanë vend bosh të mjaftueshëm për të instaluar karakteristikat e selektuara. Mund të hiqni ndonjë skedar nga vëllimet e selektuara, të instaloni më pak karakteristika në këto disqe ose të instaloni tek një njësi tjetër."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Hapësira e duhur mbi disk"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Teksti informativ"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Klikoni mbi butonin Përfundo për të dalë nga [Wizard]."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Ekzekuto [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="[Wizard] të [ProductName] po përfundon"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Shikoni skedarin Më Lexo"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Lidh [ProductName] me këta tipa skedarësh."/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] do të regjistrojë [ProductName] me këta tipa skedarësh: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Lidhjet e skedarëve"/>
+  <STRING id="Control.Text.FatalError#Description1" value="Instalimi i [ProductName] u ndërpre në mënyrë të parakohshme. Sistemi juaj nuk u ndryshua. Për ta instaluar programin më vonë, ju lutem ekzekutoni përsëri programin e instalimit."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Klikoni mbi butonin Përfundo për të dalë nga [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="[Wizard] të [ProductName] u ndërpre në mënyrë të parakohshme."/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Disa skedarë që duhet të azhurnoheshin janë duke u përdorur."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Programet e mëposhtëme po përdorin disa skedarë që ky program instalimi duhet të azhurnojë. Mund t&apos;i mbyllni këto programe dhe të klikoni mbi butonin Provo Sërish ose klikoni mbi Injoro në mënyrë që instaluesi të vazhdojë procesin e instalimit duke zëvëndësuar këto skedarë kur sistemi juaj të ristartohet."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Skedarë që po përdoren"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Kjo është dosja ku do të instalohet [ProductName]."/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Dosja"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Nëqoftëse dëshironi të instaloni tek kjo dosje, klikoni mbi &quot;[Text_Next]&quot;. Përkundrazi, nëqoftëse doni të instaloni tek një dosje tjetër, shkruajeni këtu poshtë ose klikoni mbi &quot;Shfleto&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Selektoni dosjen e instalimit"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_sq.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Ju lutem, lexoni me kujdes përmbajtjen e kontratës së liçensës së mëposhtme."/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Kontrata e Liçensës e përdoruesit përfundimtar"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Ndrysho"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Lejo përdoruesit të ndryshojnë mënyrën se si instalohen karakteristikat."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Selektoni veprimin që dëshironi të kryeni."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Hiq"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Heq nga ky kompjuter [ProductName]."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Ri&amp;paro"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Riparon gabimet gjendjes së instalimit më të fundit - riparon skedarët, shkurtoret dhe vlerat e regjistrit që mungojnë ose që janë të dëmtuar."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Ndryshoni, Riparoni ose Hiqni instalimin."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] do t&apos;ju lejojë të ndryshoni mënyrën se si karakteristikat e [ProductName] janë të instaluara, ose të hiqni [ProductName] nga ky kompjuter. Klikoni mbi butonin [Text_Next] për të vazhduar ose mbi Anulo për të dalë nga [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Mirësevini tek [Wizard] të [ProductName]"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Disa skedarë që duhet të azhurnoheshin janë duke u përdorur."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Programet e mëposhtme po përdorin disa skedarë që duhet të azhurnohen nga ky program instalimi."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Skedarë që po përdoren"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Hapësira e nevojshme për instalim tek ky disk tejkalon hapësirën e disponueshme."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Vëllimet e nënvizuar nuk kanë vend bosh të mjaftueshëm për të instaluar karakteristikat e selektuara. Mund të hiqni disa skedarë nga vëllimet e nënvizuara, të zgjidhni të instaloni më pak karakteristika ose t&apos;i instaloni në një pozicion tjetër."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Hapësira e disponueshme në disk u tejkalua"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Hapësira e nevojshme për instalim tek ky disk tejkalon hapësirën e disponueshme."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Vëllimet e nënvizuar nuk kanë vend bosh të mjaftueshëm për të instaluar karakteristikat e selektuara. Mund të hiqni disa skedarë nga vëllimet e nënvizuara, të zgjidhni të instaloni më pak karakteristika ose t&apos;i instaloni në një pozicion tjetër."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Përndryshe, ju mund të zgjidhni të mos aktivizoni funksionin e restaurimit të instalimit. Ky funksion mundëson restaurimin e kompjuterit tuaj në gjendjen e mëparshme në rast ndërprerje të instalimit. Klikoni mbi butonin Po nëqoftëse dëshironi të merrni përgjegjësinë e çaktivizimit të restaurimit."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Hapësira e disponueshme në disk u tejkalua"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] do të instalojë në këtë kompjuter Paketën e Ndryshimeve të [ProductName]. Klikoni mbi butonin [Text_Next] për vazhduar ose mbi Anulo për të dalë nga [Wizard] të Paketës së Ndryshimeve."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Mirësevini tek [Wizard] të Paketës së Ndryshimeve të [ProductName]"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Ju lutem prisni derisa [Wizard] të përgatitet të ju udhëheqë gjatë instalimit."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Mirësevini tek [Wizard] të [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Përparimi i kryer"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Gjendja:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Ju lutem prisni derisa [Wizard] të [Progress2] [ProductName]. Mund të duhen disa minuta."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Ju lutem lexoni me kujdes teksin e mëposhtëm"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_sq.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Skedari Më Lexo"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard] do të përfundojë instalimin e [ProductName] në këtë kompjuter. Klikoni mbi butonin Instalo për të vazhduar ose mbi Anulo për të dalë nga [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="[Wizard] të [ProductName] po vazhdon"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="I pl&amp;otë"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Do të instalohen të gjitha karakteristikat e programit. (Nevojitet një sasi më e madhe e hapësirës në disk)"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="I përshtat&amp;ur"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Lejon përdoruesit të zgjedhin cila karakteritika të programit do të instalohen dhe ku do të instalohen. Rekomandohet për përdorues të përparuar."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Zgjidhni mënyrën e instalimit që i përshtatet më shumë nevojave tuaja"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Zgjidhni mënyrën e instalimit"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Tipik"/>
+  <STRING id="Property.Text_Typical" value="Tipik"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Instalon karakteristikat më të zakonshme të programit. Rekomandohet për shumicën e përdoruesve."/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Krijo shkurtoret e programit"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Tryeza (desktop)"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Shiriti i Veglave të Shpejta"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Krijo shkurtore të [ProductName] në këto pozicione:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Dosja e programeve të Menusë Nis"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Dosja e Ekzekutimit automatik"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Konfiguro Shkurtoret"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Baza e të dhënave:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Konfigurimi i lidhjes SQL..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="Burimi ODBC:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Kodi:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Porta:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Serveri:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="Baza e të dhënave SQL"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Emri i përdoruesit (username):"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Kjo është dosja ku do të instalohet shkurtorete e [ProductName]."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Për të instaluar shkurtoret në një nën-dosje, shtoni emrin e nën-dosjes të ndare nga një &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="Dosja e &amp;Shkurtoreve të Menusë Nis:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Për të instaluar shkurtoret në këtë dosje, klikoni mbi &quot;[Text_Next]&quot;. Për të instaluar në një dosje tjetër, shkruajeni emrin mëposhtë ose zgjidheni një nga lista."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Zgjidhni dosjen e Shkurtoreve të Menurë Nis"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Përshkrimi i dritares së re Dialog"/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Dritare e re Dialog"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Dritare e re Pritje (Spawn - Wait)"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Kërko dhe azhurno versionet e vjetra të [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] mund të kërkojë dhe të heqë versionet e vjetra të [ProductName]. A dëshironi t&apos;i hiqni këto versione?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] ka zbuluar se pozicioni i instalimit që keni zgjedhur përdoret edhe nga versioni [AI_Replaced_Versions_List] i [ProductName]. Ky version duhet të hiqet nga kompjuteri. Dëshironi të hiqni edhe versionet e tjera të vjetra?"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Azhurno versionet e vjetra"/>
+  <STRING id="Control.Text.UserExit#Description1" value="Instalimi i [ProductName] u ndërpre. Sistemi juaj nuk u ndryshua. Për të instaluar këtë program më vonë, ju lutem ekzekutoni përsëri programin e instalimit."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Klikoni mbi butonin Përfundo për të dalë nga [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="[Wizard] të [ProductName] u ndërpre"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Numri Serial:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Ju lutem plotësoni të dhënat tuaja të përdoruesit"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="Emri i Përdor&amp;uesit:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="Firma (K&amp;ompania):"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Të Dhënat e Përdoruesit"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] është gati për të filluar instalimin [ProductName]"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Klikoni mbi butonin Instalo për të filluar instalimin. Nëqoftëse dëshironi të rishikoni apo të ndryshoni ndonjë nga parametrat e instalimit, klikoni mbi butonin Mbrapa. Klikoni mbi Anulo për të dalë nga kjo procedurë."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Gati për të instaluar"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Ju zgjodhët të hiqni programin nga ky kompjuter."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Klikoni mbi Hiq për të hequr [ProductName] nga ky kompjuter. Nëqoftëse dëshironi të rishikoni apo të ndryshoni ndonjë nga parametrat e instalimit, klikoni mbi butonin Mbrapa. Klikoni mbi Anulo për të dalë nga procedura."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Hiq [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard] është gati për të filluar riparimin e [ProductName]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Klikoni mbi butonin Riparo për të riparuar instalimin e [ProductName]. Nëqoftëse dëshironi të rishikoni apo të ndryshoni ndonjë nga parametrat e instalimit, klikoni mbi butonin Mbrapa. Klikoni mbi Anulo për të dalë nga procedura."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Riparo [ProductName]"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Ju lutem prisni derisa programi i instalimit të përcaktojë nevojat për hapësirë në disk."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard] do të instalojë [ProductName] në këtë kompjuter. Klikoni mbi butonin [Text_Next] për të vazhduar ose mbi Anulo për të dalë nga [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Mirësevini tek [Wizard] të [ProductName]"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Po publikoj programin"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Po krijoj llogarinë e përdoruesit në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Po krijoj grupin e përdoruesve në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Po shuaj skedarët e nxjerrë nga arkivi"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Po ekstraktoj skedarët nga arkivi"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Po krijoj faqet e internetit të IIS dhe Dosjet Virtuale"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Po përgatis veprimet për të konfiguruar Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Po heq faqet e internetit të IIS dhe Dosjet Virtuale"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Po restauroj konfiguracionin e IIS"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Po përgatis veprimet për të konfiguruar Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Po përgatis veprimet për të krijuar llogaritë e përdoruesve në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Po përgatis veprimet për të ndarë dosjet në kompjuterin local:"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Po përgatis veprimet për të krijuar grupet e përdoruesve në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Po përgatis veprimet për të planifikuar detyrat në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Po heq nga ky kompjuter llogarinë e përdoruesit"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Po heq nga ky kompjuter grupin e përdoruesve"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Po heq nga ky kompjuter ndarjen e dosjes"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Po heq nga ky kompjuter detyrën e planifikuar"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Po restauroj krijimin e llogarive të përdoruesve në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Po restauroj krijimin e grupeve të përdoruesve në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Po restauroj ndarjen e dosjes në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Po restauroj planifikimin e detyrave në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Planifikoni një detyrë në këtë kompjuter"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Ndani një dosje të këtij kompjuteri"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Po ekzekutoj script-et e instalimit të SQL"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Po përgatis veprimet për të konfiguruar bazat e të dhënave për ekzekutimin e script-eve të instalimit të SQL"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Po ekzekutoj script-et e çinstalimit të SQL"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Po ekzekutoj script-et për restaurimin e SQL"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Po përgatis veprimet për të konfiguruar bazat e të dhënave për të ekzekutuar script-et e çinstalimit të SQL"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Po përgatis veprimet për të hequr nga ky kompjuter llogaritë e përdoruesve"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Po përgatis veprimet për të hequr nga ky kompjuter grupet e përdoruesve"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Po përgatis veprimet për të hequr nga ky kompjuter ndarjet e dosjeve"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Po përgatis veprimet për të hequr nga ky kompjuter detyrat e planifikuara:"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Po caktoj hapësirën e regjistrit"/>
+  <STRING id="ActionText.Description.AppSearch" value="Po kërkoj programet e instaluara"/>
+  <STRING id="ActionText.Description.BindImage" value="Po lidh ekzekutuesit"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Po kërkoj produktet kualifikues"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Po llogaris hapësirën që nevojitet"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Po llogaris hapësirën që nevojitet"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Po krijoj dosjet"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Po krijoj shkurtoret"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Po shuaj shërbimet"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Po krijoj kopjet e skedarëve"/>
+  <STRING id="ActionText.Description.FileCost" value="Po llogaris hapësirën që nevojitet"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Po kërkoj programet e ndërlidhura"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Po përgatis script-et e veprimeve"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Po kopjoj skedarët e instalimit të rrjetit"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Po kopjoj skedarët e rinj"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Po instaloj komponentet e ODBC"/>
+  <STRING id="ActionText.Description.InstallServices" value="Po instaloj shërbimet e rinj"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Po instaloj katalogun e sistemit"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Po vërtetoj instalimin"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Po vlerësoj kushtet e hapjes së programit"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Po transferoj gjendjen e karakteristikave të programeve të ndërlidhura"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Po zhvendos skedarët"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Po publikoj informacionet assembly"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Po anuloj publikimin e informacioneve assembly"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Po modifikoj skedarët"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Po azhurnoj regjistrimin e komponenteve"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Po publikoj Komponentet e Aftësuar"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Po publikoj Karakteristikat e Produktit"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Po publikoj informacionet mbi produktin"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Po regjistroj Class server-at"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Po regjistroj Programet dhe Komponentët COM+"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Po regjistroj shtesat e serverëve"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Po regjistroj stilet e shkronjave"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Po regjistroj informacionet MIME"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Po regjistroj produktin"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Po regjistroj identifikuesit e programit"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Po regjistroj bashkësinë e tipave"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Po regjistroj përdoruesin"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Po heq skedarët e dublikuar"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Po azhurnoj vargjet e ambientit"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Po heq programet"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Po heq skedarët"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Po heq dosjet"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Po heq elementët e skedarëve INI"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Po heq komponentët ODBC"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Po heq vlerat e regjistrit të sistemit"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Po heq shkurtoret"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Po kërkoj produktet e aftësuar"/>
+  <STRING id="ActionText.Description.Rollback" value="Po restauroj veprimet:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Po heq skedarët rezervë"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Po regjistroj modulët"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Po çregjistroj modulët"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Po inicializoj dosjet ODBC"/>
+  <STRING id="ActionText.Description.StartServices" value="Po nis shërbimet"/>
+  <STRING id="ActionText.Description.StopServices" value="Po ndaloj shërbimet"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Po heq skedarët e spostuar"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Po anuloj publikimin e Komponentëve të Aftësuar"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Po anuloj publikimin e Karakteristikave të Produktit"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Po anuloj publikimin e informacioneve të produktit"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Po çregjistroj Class server-at"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Po çregjistroj Programet dhe Komponentët COM+"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Po çregjistroj shtesat e serverëve"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Po çregjistroj stilet e shkronjave"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Po çregjistroj informacionet MIME"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Po çregjistroj identifikuesit e programit"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Po çregjistroj bashkësinë e tipave"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Po azhurnoj vargjet e ambientit"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Po shkruaj vlerat e skedarëve INI"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Po shkruaj vlerat e regjistrit të sistemit"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Llogaria: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Llogaria: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Po instaloj &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Po heq &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Po restauroj configuracionin Metabase"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Llogaria: [1], Atributet: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Dosja: [1], Emri i ndarjes: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Llogaria: [1], Atributet: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Emri i detyrës: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Llogaria: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Llogaria: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="Emri i ndarjes: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Emri i detyrës: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="LLogaria: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="LLogaria: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="Emri i ndarjes: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Emri i detyrës: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Emri i detyrës: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Dosja: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Lidhja: [1] Script-i: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Lidhja: [1] Script-i: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Lidhja: [1] Script-i: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Llogaria: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Llogaria: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="Emri i ndarjes: [1]"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Hapësira e lirë: [1]"/>
+  <STRING id="ActionText.Template.AppSearch" value="Vetia: [1], Firma: [2]"/>
+  <STRING id="ActionText.Template.BindImage" value="Skedari: [1]"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Dosja: [1]"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Shkrutorja: [1]"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Shërbimi: [1]"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Skedari: [1], Dosja: [9], Madhësia: [6]"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Programi i gjetur: [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Skedari: [1], Dosja: [9], Madhësia: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Skedari: [1], Dosja: [9], Madhësia: [6]"/>
+  <STRING id="ActionText.Template.InstallServices" value="Shërbimi: [2]"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Skedari: [1], Varësitë: [2]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Programi: [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Skedari: [1], Dosja: [9], Madhësia: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Konteksti i programit: [1], Emri i assembly: [2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Konteksti i programit: [1], Emri i assembly: [2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Skedari: [1], Dosja: [2], Madhësia: [3]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="ID-ja e komponentit: [1], Kualifikatori: [2]"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Karakteristika: [1]"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="ID-ja e Class-ës: [1]"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId: [1]{{, AppType: [2], Përdoruesit: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Shtesa: [1]"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Stili i shkronjave: [1]"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Tipi i përmbajtjes MIME: [1], Shtesa: [2]"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Skedari: [1], Dosja: [9]"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Emri: [1], Vlera: [2], Veprimi: [3]"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Programi: [1], Linja e komandave: [2]"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Skedari: [1], Dosja: [9]"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Dosja: [1]"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Skedari: [1], Seksioni: [2], Çelësi: [3], Vlera: [4]"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Çelësi: [1], Emri: [2]"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Shkurtorja: [1]"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Skedari: [1]"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Skedari: [1], Dosja: [2]"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Skedari: [1], Dosja: [2]"/>
+  <STRING id="ActionText.Template.StartServices" value="Shërbimi: [1]"/>
+  <STRING id="ActionText.Template.StopServices" value="Shërbimi: [1]"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Skedari: [1], Dosja: [9]"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="ID-ja e komponentit: [1], Kualifikatori: [2]"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Karakteristika: [1]"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="ID-ja Class"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Shtesa: [1]"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Stili i shkronjave: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Tipi i përmbajtjes MIME: [1], Shtesa: [2]"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Emri: [1], Vlera: [2], Veprimi: [3]"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Skedari: [1], Seksioni: [2], Çelësi: [3], Vlera: [4]"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Çelësi: [1], Emri: [2], Vlera: [3]"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Po përshtas Windows Firewall-in."/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Po gjeneroj aksionet për të përshtatur Windows Firewall-in"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Po përshtas Windows Firewall-in"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Po anuloj përshtatjet e Windows Firewall-it"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Po gjeneroj aksionet për të pështatur Windows Firewall-in"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Po përshtas Eksploruesin e Lojrave"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Po gjeneroj aksionet për të përshtatur Eksploruesin e Lojrave"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Po përshtas Eksploruesin e Lojrave"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Po anuloj përshtatjet e Eksploruesit të Lojrave."/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Po gjeneroj aksionet për të përshtatur Eksploruesin e Lojrave"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Po ekzekutoj script-et e mirëmbajtjes së SQL-it"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Po përshtash skedarët XML"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Po gjeneroj aksionet për të përshtatur skedarët XML"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Po përshtas skedarët XML"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Po anuloj përshtatjet e skedarëve XML."/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Po gjeneroj aksionet për të përshtatur skedarët XML"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Po përshtas rregullën e Windows Firewall-it: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Po përshtas rregullën e Windows Firewall-it: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Po anuloj përshatjet e Windows Firewall-it."/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Po përshtas lojën: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Po heq lojën: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Po anuloj përshtatjet e Eksploruesit të Lojrave."/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Lidhja: [1]  Script-i: [2]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Po përshtas skedarin XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Po përshtas skedarin XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Po anuloj përshtatjet e skedarit XML"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Gabim fatal: }}"/>
+  <STRING id="Error.1" value="{{Gabim [1]. }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Tipi i mesazhit: [1], Argumenti: [2]"/>
+  <STRING id="Error.1101" value="Gabim gjatë leximit nga skedari: [2]. {{ Gabim i sistemit [3].}} Verifikoni që skedari ekziston dhe që keni të drejtat për të hyrë në të."/>
+  <STRING id="Error.12" value="=== Fillimi i Ditarit: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Mbarimi i Ditarit: [Date]  [Time] ==="/>
+  <STRING id="Error.1301" value="Krijimi i skedarit &apos;[2]&apos; nuk ish i mundur. Ekziston një dosje tjetër me të njëjtin emër. Anuloni instalimin dhe provojeni tek një pozicion tjetër."/>
+  <STRING id="Error.1302" value="Ju lutem fusni diskun: [2]"/>
+  <STRING id="Error.1303" value="Programi i instalimit nuk ka të drejtat e duhura për të hyrë në këtë dosje: [2]. Instalimi nuk mund të vazhdojë. Lidhuni si administrator i këtij kompjuteri ose kontantoni administratorin e sistemit tuaj."/>
+  <STRING id="Error.1304" value="Gabim gjatë shkruajtjes tek skedari: [2]. Verifikoni që ju të keni të drejtat për të hyrë në atë dosje."/>
+  <STRING id="Error.1305" value="Gabim gjatë leximit të skedarit [2]. {{ Gabim sistemi [3].}} Verifikoni që skedari të ekzistojë dhe që ju të keni të drejtat për të hyrë në të."/>
+  <STRING id="Error.1306" value="Një program tjetër ka të drejta hyrje eksluzive tek skedari &apos;[2]&apos;. Ju lutem mbyllni të gjitha programet e tjera dhe atëherë klikoni mbi butonin Provo Sërish."/>
+  <STRING id="Error.1307" value="Disku nuk ka vend bosh të mjaftueshëm për të instaluar skedarin: [2]. Lironi pak hapësirë në disk dhe klikoni mbi butonin Provo Sërish ose klikoni mbi Anulo për të dalë."/>
+  <STRING id="Error.1308" value="Ky skedar burimor nuk u gjet: [2]. Verifikoni që skedari të ekzistojë dhe që ju të keni të drejtat për të hyrë në të."/>
+  <STRING id="Error.1309" value="Gabim gjatë leximit të skedarit: [3]. {{ Gabim sistemi [2].}}  Verifikoni që skedari të ekzistojë dhe që ju mund të hyni në të."/>
+  <STRING id="Error.1310" value="Gabim gjatë shkruajtjes tek skedari: [3]. {{ Gabim sistemi [2].}}  Verifikoni që ju mund të hyni në atë dosje."/>
+  <STRING id="Error.1311" value="Ky skedar burimor nuk u gjet{{(cabinet)}}: [2].  Verifikoni që skedari të ekzistojë dhe që ju mund të hyni në të."/>
+  <STRING id="Error.1312" value="Nuk qe i mundur krijimi i dosjes &apos;[2]&apos;. Ekziston një skedar me të njëjtin emër. Ju lutem ndryshojini emrin ose hiqni skedarin dhe klikoni mbi butonin Provo Sërish, përndryshe klikoni mbi Anulo për të dalë."/>
+  <STRING id="Error.1313" value="Vëllimi [2] nuk është i disponueshëm. Ju lutem selektoni një tjetër."/>
+  <STRING id="Error.1314" value="Pozicioni i specifikuar &apos;[2]&apos; nuk është i disponueshëm."/>
+  <STRING id="Error.1315" value="Nuk mund të shkruaj në këtë dosje: [2]."/>
+  <STRING id="Error.1316" value="Pati një gabim rrjeti gjatë leximit nga skedari: [2]"/>
+  <STRING id="Error.1317" value="Pati një gabim gjatë krijimit të dosjes: [2]"/>
+  <STRING id="Error.1318" value="Pati një gabim rrjeti gjatë krijimit të dosjes: [2]"/>
+  <STRING id="Error.1319" value="Pati një gabim rrjeti gjatë hapjes së skedarit burimor cabinet: [2]"/>
+  <STRING id="Error.1320" value="Pozicioni i specifikuar është shumë i gjatë: [2]"/>
+  <STRING id="Error.1321" value="Programi i instalimit nuk ka të drejtat e duhura për të modifikuar këtë skedar: [2]."/>
+  <STRING id="Error.1322" value="Një pjesë e pozicionit të dosjes &apos;[2]&apos; është e pavlefshme. Ajo është bosh ose tejkalon gjatësinë e lejuar nga sistemi."/>
+  <STRING id="Error.1323" value="Pozicioni i dosjes &apos;[2]&apos; përmban fjalë të pavlefshme për pozicionet e dosjeve."/>
+  <STRING id="Error.1324" value="Pozicioni i dosjes &apos;[2]&apos; përmban një shkronjë apo shenjë të pavlefshme."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; është një emër i shkurtër skedari i pavlefshëm."/>
+  <STRING id="Error.1326" value="Gabim gjatë sigurimit të skedarit: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Njësi e pavlefshme: [2]"/>
+  <STRING id="Error.1328" value="Gabim gjatë ndryshimit të skedarit [2]. Ka mundësi që të jetë ndryshuar nga proçedura të tjera, dhe nuk mund të ndryshohet më nga kjo paketë. Për më shumë informacione kontaktoni furnizuesin tuaj të Paketës së Ndryshimeve.  {{Gabim Sistemi: [3]}}"/>
+  <STRING id="Error.1329" value="Një skedar i domosdoshëm nuk mund të instalohet sepse skedari cabinet [2] nuk është i firmosur në mënyrë dixhitale. Ka mundësi që skedari cabinet të jetë i dëmtuar."/>
+  <STRING id="Error.1330" value="Një skedar i domosdoshëm nuk mund të instalohet sepse skedari cabinet [2] ka një firmë dixhitale të pavlefshme. Ka mundësi që skedari cabinet të jetë i dëmtuar.{{  WinVerifyTrust u përgjigj Gabim [3] .}}"/>
+  <STRING id="Error.1331" value="Dështoi kopjimi i skedarit [2]: gabim CRC."/>
+  <STRING id="Error.1332" value="Dështoi spostimi i skedarit [2]: gabim CRC."/>
+  <STRING id="Error.1333" value="Dështoi ndryshimi i skedarit [2]: gabim CRC."/>
+  <STRING id="Error.1334" value="Skedari &apos;[2]&apos; nuk mund të instalohet ngaqë skedari nuk u gjet brënda skedarit cabinet &apos;[3]&apos;. Ka mundësi të ketë ndodhur një defekt i lidhjes me rrjetin, një gabim gjatë leximit nga një CD-ROM apo një problem me këtë paketë."/>
+  <STRING id="Error.1335" value="Skedari cabinet &apos;[2]&apos;, i domosdoshëm për këtë instalim, është i dëmtuar ose nuk mund të përdoret. Ka mundësi të ketë ndodhur një defekt i lidhjes me rrjetin, një gabim gjatë leximit nga një CD-ROM apo një problem me këtë paketë."/>
+  <STRING id="Error.1336" value="Pati një gabim gjatë krijimit të një skedari të përkohshëm, që nevojitet për të përfunduar këtë instalim.{{  Dosja: [3]. Kodi i gabimit të sistemit: [2]}}"/>
+  <STRING id="Error.14" value="Fillimi i veprimeve [Time]: [1]."/>
+  <STRING id="Error.1401" value="Çelësi: [2] nuk u krijua dot.{{ Gabim sistemi [3].}}  Kontrolloni që të keni autorizimet e duhura për të përdorur këtë çelës ose kontaktoni personelin e ndihmës teknike."/>
+  <STRING id="Error.1402" value="Çelësi: [2] nuk u hap dot.  {{ Gabim sistemi [3].}}  Kontrolloni që të keni autorizimet e duhura për të përdorur këtë çelës ose kontaktoni personelin e ndihmës teknike."/>
+  <STRING id="Error.1403" value="Vlera [2] nga çelësi [3] nuk u hoq dot. {{ Gabim sistemi [4].}}  Kontrolloni që të keni autorizimet e duhura për të përdorur këtë çelës ose kontaktoni personelin e ndihmës teknike."/>
+  <STRING id="Error.1404" value="Çelësi [2] nuk u hoq dot. {{ Gabim sistemi [3].}}  Kontrolloni që të keni autorizimet e duhura për të përdorur këtë çelës ose kontaktoni personelin e ndihmës teknike."/>
+  <STRING id="Error.1405" value="Vlera [2] nga çelësi [3] nuk u lexua dot. {{ Gabim sistemi [4].}}  Kontrolloni që të keni autorizimet e duhura për të përdorur këtë çelës ose kontaktoni personelin e ndihmës teknike."/>
+  <STRING id="Error.1406" value="Vlera [2] tek çelësi [3] nuk u shkruajt dot. {{ Gabim sistemi [4].}}  Kontrolloni që të keni autorizimet e duhura për të përdorur këtë çelës ose kontaktoni personelin e ndihmës teknike."/>
+  <STRING id="Error.1407" value="Emrat e vlerave të çelësit [2] nuk u lexuan dot. {{ Gabim sistemi [3].}}  Kontrolloni që të keni autorizimet e duhura për të përdorur këtë çelës ose kontaktoni personelin e ndihmës teknike."/>
+  <STRING id="Error.1408" value="Emrat e nën-çelësave të çelësit [2] nuk u lexuan dot. {{ Gabim sistemi [3].}}  Kontrolloni që të keni autorizimet e duhura për të përdorur këtë çelës ose kontaktoni personelin e ndihmës teknike."/>
+  <STRING id="Error.1409" value="Informacionet e sigurisë së çelësit [2] nuk u lexuan dot. {{ Gabim sistemi [3].}}  Kontrolloni që të keni autorizimet e duhura për të përdorur këtë çelës ose kontaktoni personelin e ndihmës teknike."/>
+  <STRING id="Error.1410" value="Hapësira në dispozicion të regjistrit nuk u rrit dot. Për të instaluar këtë program, nevojiten [2] KB hapësirë të regjistrit."/>
+  <STRING id="Error.15" value="Përfundimi i veprimeve [Time]: [1]. Vlera e kthyer [2]."/>
+  <STRING id="Error.1500" value="Është në ekzekutim një instalim tjetër. Duhet të përfundoni atë instalim para se të vazhdoni me këtë."/>
+  <STRING id="Error.1501" value="Pati një gabim gjatë hapjes së të dhënave të sigurisë. Ju lutem kontrolloni që Windows Installer të jetë konfiguruar mirë dhe provoni sërish këtë instalim."/>
+  <STRING id="Error.1502" value="Përdoruesi &apos;[2]&apos; më parë ka filluar një instalim tjetër të produktit &apos;[3]&apos;. Ky përdorues duhet të fillojë përsëri atë instalim para se të mund ta përdori produktin. Ky instalim tani do të vazhdojë."/>
+  <STRING id="Error.1503" value="Përdoruesi &apos;[2]&apos; më parë ka filluar një instalim tjetër të produktit &apos;[3]&apos;. Ky përdorues duhet të fillojë përsëri atë instalim para se të mund ta përdori produktin."/>
+  <STRING id="Error.16" value="Koha e mbetur: {[1] minuta }{[2] sekonda}"/>
+  <STRING id="Error.1601" value="U tejkalua hapësira e disponueshme në disk -- Vëllimi: &apos;[2]&apos;; hapësira e kërkuar: [3] KB; hapësira e disponueshme: [4] KB. Lironi pak vënd në disk dhe provoni sërish."/>
+  <STRING id="Error.1602" value="Jeni i sigurt që doni të anuloni?"/>
+  <STRING id="Error.1603" value="Skedari [2][3] po mbahet në përdorim{ nga procesi i mëposhtëm: Emri: [4], Id: [5], Emri i dritares: &apos;[6]&apos;}. Mbyllni atë program dhe provoni sërish."/>
+  <STRING id="Error.1604" value="Produkti &apos;[2]&apos; i instaluar mëparë dhe po parandalon instalimin e këtij produkti. Këta dy produkte janë të papërputhshëm."/>
+  <STRING id="Error.1605" value="Vëllimi &apos;[2]&apos; nuk ka vend bosh të mjaftueshëm për të vazhduar instalimin me karakteristikën e restaurimit të aktivizuar. Nevojiten [3] KB por janë të disponueshme vetëm [4] KB. Klikoni mbi butonin Shpërfill për të vazhduar instalimin pa ruajtur informacionet e restaurimit, mbi Provo Sërish për të kontrolluar përsëri hapësirën e disponueshme ose mbi butonin Anulo për të dalë nga instalimi."/>
+  <STRING id="Error.1606" value="Pozicionit në rrjet [2] nuk u hap dot."/>
+  <STRING id="Error.1607" value="Programet e mëposhtëme duhet të mbyllen para se të vazhdojë instalimi:"/>
+  <STRING id="Error.1608" value="Nuk u gjet asnjë produkt, i instaluar mëparë, i duhur për të instaluar këtë produkt."/>
+  <STRING id="Error.1609" value="Pati një gabim gjatë aplikimit të parametrave të sigurisë. [2] nuk është përdorues apo grup përdoruesish i vlefshëm. Shkaku mund të jetë kjo paketë ose një problem me lidhjen me një Domain Controller në rrjet. Kontrolloni lidhjen tuaj të rrjetit dhe klikoni mbi butonin Provo Sërish, ose mbi Anulo për të dalë nga instalimi.       {{SID-i i përdoruesit nuk u gjet, gabim sistemi [3]}}"/>
+  <STRING id="Error.17" value="U tejkalua kapaciteti i disponueshëm i memorjes. Mbyllni programet e tjera para se të provoni përsëri."/>
+  <STRING id="Error.1701" value="Çelësi [2] nuk është i vlefshëm. Kontrolloni që keni shkruajtur çelësin e duhur."/>
+  <STRING id="Error.1702" value="Programi i instalimit duhet të rinisë sistemin tuaj para se të vazhdojë instalimin e [2]. Klikoni mbi butonin Po për të rinisur sistemin tani ose mbi Jo nëqoftëse dëshironi ta rinisni ju më vonë."/>
+  <STRING id="Error.1703" value="Që ndryshimet e bëra parametrave të [2]-it të kenë efekt, duhet të rinisni sistemin tuaj. Klikoni mbi butonin Po për të rinisur sistemin tani ose mbi Jo nëqoftëse dëshironi ta rinisni ju më vonë."/>
+  <STRING id="Error.1704" value="Një instalim tjetër i [2]-it është pezull. Që të vazhdoni, duhet të zhbëni ndryshimet e bëra nga ai instalim. Dëshironi t&apos;i zhbëni ato ndryshime?"/>
+  <STRING id="Error.1705" value="Një instalim i mëparshëm i këtij produkti është në ekzekutim. Që të vazhdoni, duhet të zhbëni ndryshimet e bëra nga ai instalim. Dëshironi t&apos;i zhbëni ato ndryshime?"/>
+  <STRING id="Error.1706" value="Nuk u gjet dot një paketë instalimi e produktit [2]. Provoni përsëri instalimin duke përdorur një kopje të vlefshme të paketës së instalimint &apos;[3]&apos;."/>
+  <STRING id="Error.1707" value="Instalimi i përfundua me sukses."/>
+  <STRING id="Error.1708" value="Instalimi dështoi."/>
+  <STRING id="Error.1709" value="Produkti: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Mund të restauroni gjendjen e mëparshme të kompjuterit tuaj ose të vazhdoni më vonë instalimin. Dëshironi të restauroni gjendjen?"/>
+  <STRING id="Error.1711" value="Pati një gabim gjatë shkruajtjes së informacioneve të instalimit në disk. Kontrolloni që disku të ketë vend bosh të mjaftueshëm dhe klikoni mbi butonin Provo Sërish, ose mbi Anulo për të dalë nga instalimi."/>
+  <STRING id="Error.1712" value="Nuk u gjetën dot një ose më shumë skedarë të nevojshëm për të restauruar gjendjen e mëparshme të komjuterit tuaj. Restaurimi nuk do të jetë i mundur."/>
+  <STRING id="Error.1713" value="[2]-i nuk instalon dot një nga produktet e nevojshëm. Kontaktoni grupin tuaj të ndihmës teknike.  {{Gabim sistemi: [3].}}"/>
+  <STRING id="Error.1714" value="Versioni më i vjetër i [2]-it nuk mund të hiqet. Kontaktoni grupin tuaj të ndihmës teknike.  {{Gabim sistemi [3].}}"/>
+  <STRING id="Error.1715" value="I instaluar [2]"/>
+  <STRING id="Error.1716" value="I konfiguruar [2]"/>
+  <STRING id="Error.1717" value="I hequr [2]"/>
+  <STRING id="Error.1718" value="Skedari [2] u refuzua nga rregullorja e firmave dixhitale."/>
+  <STRING id="Error.1719" value="Shërbimi Windows Installer nuk u hap dot. Shkaku mund të jetë ekzekutimi i Windows-it në Mënyrë Provizore ose instalimi jokorrek i Windows Installer-it. Kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1720" value="Ka një problem me këtë paketë të Windows Installer-it. Një script i domosdoshëm për përfundimin e këtij instalimi nuk u ekzekutua dot. Kontaktoni personelin tuaj të ndihmës teknike ose furnizuesin e paketës.  {{Veprimi i përshtatur [2] gabimi i script-it [3], [4]: [5] Rreshti [6], Kollona [7], [8] }}"/>
+  <STRING id="Error.1721" value="Ka një problem me këtë paketë të Windows Intaller-it. Një program i domosdoshëm për përfundimin e këtij instalimi nuk u ekzekutua dot. Kontaktoni personelin tuaj të ndihmës teknike ose furnizuesin e paketës. {{Veprimi: [2], pozicioni: [3], komanda: [4] }}"/>
+  <STRING id="Error.1722" value="Ka një problem me këtë paketë të Windows Installer-it. Ekzekutimi i një programi si pjesë e instalimit nuk përfundoi siç pritej. Kontaktoni personelin tuaj të ndihmës teknike ose furnizuesin e paketës. {{Veprimi [2], pozicioni: [3], komanda: [4] }}"/>
+  <STRING id="Error.1723" value="Ka një problem me këtë paketë të Windows Installer-it. Një DLL e domosdoshme për përfundimin e këtij instalimi nuk u ekzekutua dot. Kontaktoni personelin tuaj të ndihmës teknike ose furnizuesin e paketës.  {{Veprimi [2], elementi: [3], libreria: [4] }}"/>
+  <STRING id="Error.1724" value="Heqja u përfundua me sukses."/>
+  <STRING id="Error.1725" value="Heqja dështoi."/>
+  <STRING id="Error.1726" value="Publikimi u përfundua me sukses."/>
+  <STRING id="Error.1727" value="Publikimi dështoi."/>
+  <STRING id="Error.1728" value="Konfigurimi u  përfundua me sukses."/>
+  <STRING id="Error.1729" value="Konfigurimi dështoi."/>
+  <STRING id="Error.1730" value="Për të hequr këtë program duhet të jeni Administrator."/>
+  <STRING id="Error.18" value="Programi i instalimit nuk përgjigjet më."/>
+  <STRING id="Error.1801" value="Pozicioni [2] nuk është i vlefshëm. Ju lutem specifikoni një pozicion të vlefshëm."/>
+  <STRING id="Error.1802" value="U tejkalua kapaciteti i disponueshëm i memorjes. Mbyllni programet e tjera para se të provoni përsëri."/>
+  <STRING id="Error.1803" value="Në njësinë [2] nuk ka asnje disk. Ju lutem fusni një disk dhe klikoni mbi butonin Provo Sërish ose mbi Anulo për tu kthyer tek vëllimi i selektuar mëparë."/>
+  <STRING id="Error.1804" value="Në njësinë [2] nuk ka asnjë disk. Ju lutem fusni një disk dhe klikoni mbi butonin Provo Sërish ose mbi Anulo për tu kthyer tek dritarja e shfletimit që të zgjidhni një vëllim tjetër."/>
+  <STRING id="Error.1805" value="Dosja [2] nuk ekziston. Ju lutem shkruani një pozicion ekzistues."/>
+  <STRING id="Error.1806" value="Ju keni të drejta të pamjaftueshme për të lexuar nga kjo dosje."/>
+  <STRING id="Error.1807" value="Nuk u përcaktua dot një dosje destinacioni e vlefshme për instalim."/>
+  <STRING id="Error.19" value="Programi i instalimit u bllokua në mënyrë të parakohshme."/>
+  <STRING id="Error.1901" value="Pati një gabim gjatë leximit nga baza e të dhënave burimore: [2]."/>
+  <STRING id="Error.1902" value="Po planifikoj rinisjen e sistemit: Po riemëroj skedarin [2] në [3]. Për të përfunduar operacionin duhet të rinisni sistemin."/>
+  <STRING id="Error.1903" value="Po planifikoj rinisjen e sistemit: Po eliminoj skedarin [2]. Për të përdunfuar operacionin duhet të rinisni sistemin."/>
+  <STRING id="Error.1904" value="Regjistrimi i modulit [2] dështoi.  HRESULT [3].  Kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1905" value="Çregjistrimi i modulit [2] dështoi.  HRESULT [3].  Kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1906" value="Memorizimi i përkohshëm (cache) i paketës [2] dështoi. Gabim: [3]. Kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1907" value="Nuk u regjistrua dot stili i shkronjave [2]. Kontrolloni që të keni të drejta të mjaftueshme për të instaluar stilet e shkronjave dhe që ky stil shkronjash të jetë i përputhshëm me sistemin tuaj."/>
+  <STRING id="Error.1908" value="Nuk u çregjistrua dot stili i shkronjave [2]. Kontrolloni që të keni të drejta të mjaftueshme për të hequr stilet e shkronjave."/>
+  <STRING id="Error.1909" value="Nuk u krijua dot shkurtorja [2]. Kontrolloni që dosja e destinacionit të ekzistojë dhe që ju mund ta hapni."/>
+  <STRING id="Error.1910" value="Nuk u hoq dot shkurtorja [2]. Kontrolloni që shkurtoja të ekzistojë dhe që ju mund ta hapni."/>
+  <STRING id="Error.1911" value="Nuk u regjistrua dot libraria e tipave për skedarin [2]. Kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1912" value="Nuk u çregjistrua dot libraria e tipave për skedarin [2]. Kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1913" value="Nuk u azhurnua dot skedari ini [2][3]. Kontrolloni që skedari të ekzistojë dhe që ju mund ta hapni."/>
+  <STRING id="Error.1914" value="Nuk u planifikua dot zëvëndësimi i skedarit [3] nga skedari [2] gjatë rinisjes së sistemit. Kontrolloni që të keni të drejtat për të shkruajtur tek skedari [3]."/>
+  <STRING id="Error.1915" value="Pati një problem gjatë heqjes së manaxherit të driver-ave ODBC. Gabim ODBC [2]: [3]. Kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1916" value="Pati një problem gjatë instalimit të manaxherit të driver-ave ODBC. Gabim ODBC [2]: [3]. Kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1917" value="Pati një problem gjatë heqjes së driver-it ODBC: [4]. Gabim ODBC [2]: [3]. Kontrolloni që të keni të drejta të mjaftueshme për të hequr driver-at ODBC."/>
+  <STRING id="Error.1918" value="Pati një problem gjatë instalimit të driver-it ODBC: [4][5]. Gabim ODBC [2]: [3]. Kontrolloni që skedari [4][6] të ekzistojë dhe që ju mund ta hapni."/>
+  <STRING id="Error.1919" value="Pati një problem gjatë konfigurimit të burimit të të dhënave ODBC: [4][5]. Gabim ODBC [2]: [3]. Kontrolloni që skedari [4][6] të ekzistojë dhe që ju mund ta hapni."/>
+  <STRING id="Error.1920" value="Nisja e shërbimit &apos;[2]&apos; ([3]) dështoi.  Kontrolloni që të keni të drejta të mjaftueshme për të nisur shërbimet e sistemit."/>
+  <STRING id="Error.1921" value="Shërbimi &apos;[2]&apos; ([3]) nuk ndalua dot.  Kontrolloni që të keni të drejta të mjaftueshme për të ndaluar shërbimet e sistemit."/>
+  <STRING id="Error.1922" value="Shërbimi &apos;[2]&apos; ([3]) nuk eliminua dot.  Kontrolloni që të keni të drejta të mjaftueshme për të eliminuar shërbimet e sistemit."/>
+  <STRING id="Error.1923" value="Shërbimi &apos;[2]&apos; ([3]) nuk instalua dot.  Kontrolloni që të keni të drejta të mjaftueshme për të instaluar shërbimet e sistemit."/>
+  <STRING id="Error.1924" value="Variabla e ambientit &apos;[2]&apos; nuk u azhornua dot.  Kontrolloni që të keni të drejta të mjaftueshme për të ndryshuar variablat e ambientit."/>
+  <STRING id="Error.1925" value="Ju nuk keni privilegje të mjaftueshme për të përfunduar këtë instalim për të gjithë përdoruesit e kompjuterit. Lidhuni si administrator dhe provojeni përsëri këtë instalim."/>
+  <STRING id="Error.1926" value="Parametrat e sigurisë së skedarit &apos;[3]&apos; nuk u konfiguruan dot. Gabim: [2].  Kontrolloni që të keni të drejta të mjaftueshme për të ndryshuar lejet e sigurisë së këtij skedari."/>
+  <STRING id="Error.1927" value="Component Services (COM+ 1.0) nuk janë të instaluar në këtë kompjuter.  Për të përfunduar me sukses këtë instalim duhen Component Services. Component Services janë të disponueshme në Windows 2000."/>
+  <STRING id="Error.1928" value="Pati një problem gjatë regjistrimit të COM+ Application. Për më shumë informacione, kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1929" value="Pati një problem gjatë çregjistrimit të COM+ Application. Për më shumë informacione, kontaktoni personelin tuaj të ndihmës teknike."/>
+  <STRING id="Error.1930" value="Përshkrimi i shërbimit &apos;[2]&apos; ([3]) nuk u ndryshua dot."/>
+  <STRING id="Error.1931" value="Shërbimi Windows Installer nuk mund të azhurnojë skedarin e sistemit [2] sepse ky skedar është i mbrojtur nga Windows-i. Në mënyrë që ky program të funksionojë korrektësisht, duhet të azhurnoni sistemin tuaj operativ . {{Versioni i paketës: [3], Versioni i SO të Mbrojtur: [4]}}"/>
+  <STRING id="Error.1932" value="Shërbimi Windows Installer nuk mund të azhurnojë skedarin e mbrojtur nga Windows-i [2]. {{Versioni i paketës: [3], Versioni i SO të Mbrojtur: [4], Gabim SFP: [5]}}"/>
+  <STRING id="Error.1933" value="Shërbimi Windows Installer nuk mund të azhurnojë një ose më shumë skedarë të mbrojtur nga Windows-i. {{Gabim SFP: [2].  Lista e skedarëve të mbrojtur:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Instalimet e përdoruesve në këtë kompjuter janë çaktivizuar me anë të Rregullores (policy)."/>
+  <STRING id="Error.1935" value="Pati një gabim gjatë instalimit të komponentit assembly [2]. HRESULT: [3]. {{ndërfaqja assembly: [4], funksioni: [5], emri assembly: [6]}}"/>
+  <STRING id="Error.2" value="Kujdes [1]."/>
+  <STRING id="Error.20" value="Ju lutem prisni ndërsa Windows-i të konfigurojë [ProductName]"/>
+  <STRING id="Error.21" value="Po mbledh informacionet e nevojshme..."/>
+  <STRING id="Error.22" value="Po heq versionet e vjetra të këtij programi..."/>
+  <STRING id="Error.23" value="Po përgatis heqjen e versioneve të vjetra të këtij programi..."/>
+  <STRING id="Error.32" value="{[ProductName] }Instalimi përfundoi me sukses. "/>
+  <STRING id="Error.33" value="{[ProductName] }Instalimi dështoi."/>
+  <STRING id="Error.4" value="Informacion [1]."/>
+  <STRING id="Error.4000" value="Numër Serial i pavlefshëm."/>
+  <STRING id="Error.4010" value="Një version më i ri i [ProductName]-it është tashmë i instaluar në këtë kompjuter."/>
+  <STRING id="Error.4020" value="Pati një gabim gjatë procesit të konfigurimit të IIS.&#10;Do të restaurohet konfigurimi i mëparshëm i IIS."/>
+  <STRING id="Error.4021" value="Faqja e Internetit &quot;[2]&quot; tashmë ekziston në këtë server..&#10;&#10;Dëshironi ta injoroni këtë faqe interneti dhe të vazhdoni instalimin?"/>
+  <STRING id="Error.4022" value="Dosja virtuale &quot;[2]&quot; e faqes së internetit &quot;[3]&quot; tashmë ekziston në këtë server.&#10;&#10;Dëshironi ta injoroni këtë dosje virtuale dhe të vazhdoni instalimin?"/>
+  <STRING id="Error.4023" value="Ky version i IIS nuk është i përputhshëm ose IIS nuk është instaluar plotësisht !&#10;&#10;Ju duhet Internet Information Services 5.0 ose një version më i ri."/>
+  <STRING id="Error.4024" value="Një faqe interneti me të njëjtat lidhje me Serverin tashmë është e nisur.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Llogaria e përdoruesit apo grupi i përdoruesve &apos;[2]&apos;, nuk mund të krijohej në këtë kompjuter. Kodi i gabimit: [3]. [4]"/>
+  <STRING id="Error.4102" value="Llogaria e përdoruesit apo i grupi i përdoruesve &apos;[2]&apos; tashmë ekziston në këtë kompjuter."/>
+  <STRING id="Error.4103" value="Llogaria e përdoruesit apo grupi i përdoruesve &apos;[2]&apos; nuk mund të hiqej nga ky kompjuter. Kodi i gabimit: [3]."/>
+  <STRING id="Error.4104" value="Llogaria e përdoruesit apo i grupi i përdoruesve &apos;[2]&apos; nuk ekziston në këtë kompjuter."/>
+  <STRING id="Error.4105" value="Pati një problem gjatë ndarjes së &apos;[2]&apos;, me emrin &apos;[3]&apos;. Përshkrimi i gabimit: [4]"/>
+  <STRING id="Error.4106" value="Pati një problem gjatë krijimit të detyrës së planifikuar: &apos;[2]&apos;. Përshkrimi i gabimit: [3]"/>
+  <STRING id="Error.4107" value="Pati një problem gjatë heqjes së detyrës së planifikuar:  &apos;[2]&apos;. Përshkrimi i gabimit: [3]"/>
+  <STRING id="Error.5" value="Programi i instalimit hasi një gabim të papritur gjatë instalimit të kësaj pakete. Ka mundësi që kjo paketë të ketë një problem. Kodi i gabimit është [1]. {{Argumentat janë: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Disku është plot: }}"/>
+  <STRING id="Error.8" value="Veprimi [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.4110" value="Nuk munda të ndaj memorjen."/>
+  <STRING id="Error.4111" value="Skedari nuk u gjet: [2]."/>
+  <STRING id="Error.4112" value="Skedari &apos;[2]&apos; nuk mund të lexohej."/>
+  <STRING id="Error.4113" value="Pati një problem gjatë analizës së skedarit: &apos;[2]&apos; rreshti: [3], kollona: [4]. Kodi i gabimit: [5]."/>
+  <STRING id="Error.4114" value="Shrifrimi i skedarit XML është i papërputhshëm."/>
+  <STRING id="Error.4115" value="Pati një gabim gjatë hapjes së skedarit: [2]."/>
+  <STRING id="Error.4116" value="Skedari &apos;[2]&apos; num mund të shkruhej."/>
+  <STRING id="Error.4117" value="Element root i papritur: &quot;[2]&quot; tek skedari XML: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="Pati një problem gjatë përshtatjes së Windows Firewall-it.&#10;Do të rivendosen parametrat origjinale të Firewall-it."/>
+  <STRING id="Error.4121" value="Pozicioni i figurës së procesit të Firewall-it është i pavlefshëm, ose skedari nuk u gjet: [2]."/>
+  <STRING id="Error.4122" value="Portë/protokoll i Firewall-it i pavlefshëm: [2]."/>
+  <STRING id="Error.4123" value="Shtrirje e rrjetit të Firewall-it e pavlefshme: [2]."/>
+  <STRING id="Error.4124" value="Pati një problem gjatë regjistrimit të programit me Windows Firewall-in: [2]."/>
+  <STRING id="Error.4125" value="Pati një problem gjatë regjistrimit të portës me Windows Firewall-in: [2]."/>
+  <STRING id="Error.4130" value="Pati një problem gjatë përshtatjes së Eksplorerit të Lojrave."/>
+  <STRING id="Error.4131" value="Kontrolli Prindëror parandalon ekzekutimin e lojës: [2]."/>
+  <STRING id="Error.4140" value="Pati një problem gjatë ekzekutimit të script-eve përshtatëse të SQL-it."/>
+  <STRING id="Error.4141" value="Gabim ODBC-je: [2] ([3])."/>
+  <STRING id="Error.4142" value="Lidhja ODBC: tentativa zgjati shumë."/>
+  <STRING id="Error.4143" value="Gabim gjatë analizës së script-it SQL: sintaksë e pavlefshme."/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="byte"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Karakteristika nuk do të jetë e disponueshme"/>
+  <STRING id="UIText.MenuAdvertise" value="Karakteristika do të instalohet kur të nevojitet"/>
+  <STRING id="UIText.MenuAllCD" value="Karakteristika do të instalohet për t&apos;u ekzekutuar nga CD-ja"/>
+  <STRING id="UIText.MenuAllLocal" value="Karakteristika do të instalohet tek hard-disku lokal."/>
+  <STRING id="UIText.MenuAllNetwork" value="Karakteristika do të instalohet për t&apos;u ekzekutuar nga rrjeti"/>
+  <STRING id="UIText.MenuCD" value="Do të instalohet për t&apos;u ekzekutuar nga CD-ja"/>
+  <STRING id="UIText.MenuLocal" value="Do të instalohet tek hard-disku lokal"/>
+  <STRING id="UIText.MenuNetwork" value="Do të instalohet për t&apos;u ekzekutuar nga rrjeti"/>
+  <STRING id="UIText.ScriptInProgress" value="Po mbledh informacionet e nevojshme..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Kjo karakteristikë nuk do të instalohet"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Kjo karakteristikë do të planifikohet të instalohet kur të nevojitet"/>
+  <STRING id="UIText.SelAbsentCD" value="Kjo karakteristikë do të instalohet për t&apos;u ekzekutuar nga CD-ja"/>
+  <STRING id="UIText.SelAbsentLocal" value="Kjo karakteristikë do të instalohet tek hard-disku lokal"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Kjo karakteristikë do të instalohet për t&apos;u ekzekutuar nga rrjeti"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Kjo karakteristikë do të jetë e disponueshme"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Do të instalohet kur të nevojitet"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Kjo karakteristikë do të jetë e disponueshme për t&apos;u ekzekutuar nga CD-ja"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Kjo karakteristike do të instalohet tek hard-disku lokal"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Kjo karakteristikë do të jetë e disponueshme për t&apos;u ekzekutuar nga rrjeti"/>
+  <STRING id="UIText.SelCDAbsent" value="Kjo karakteristikë do të çinstalohet plotësisht; nuk do të jetë i mundur as ekzekutimi nga CD-ja"/>
+  <STRING id="UIText.SelCDAdvertise" value="Kjo karakteristikë do të ndryshojë nga Ekzekuto nga CD-ja në Instalo kur të nevojitet"/>
+  <STRING id="UIText.SelCDCD" value="Kjo karakteristikë do të mbetet si Ekzekuto nga CD-ja"/>
+  <STRING id="UIText.SelCDLocal" value="Kjo karakteristikë do të ndryshojë nga Ekzekuto nga CD-ja në Instalo tek hard-disku lokal"/>
+  <STRING id="UIText.SelChildCostNeg" value="Kjo karakteristikë liron [1] tek hard-disku juaj."/>
+  <STRING id="UIText.SelChildCostPos" value="Kjo karakteristikë kërkon [1] tek hard-disku juaj."/>
+  <STRING id="UIText.SelCostPending" value="Po llogaris hapësirën e kërkuar nga kjo karakteristikë..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Kjo karakteristikë do të hiqet plotësisht"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Kjo karakteristikë do të hiqet nga hard-disku lokal, por do të instalohet përsëri kur të nevojitet"/>
+  <STRING id="UIText.SelLocalCD" value="Kjo karakteristikë do të hiqet nga hard-disku lokal, por do të mbetet e disponueshme për t&apos;u ekzekutuar nga CD-ja"/>
+  <STRING id="UIText.SelLocalLocal" value="Kjo karakteristike do të mbetet tek hard-disku lokal"/>
+  <STRING id="UIText.SelLocalNetwork" value="Kjo karakteristikë do të hiqet nga hard-disku lokal, por do të mbetet e disponueshme për t&apos;u ekzekutuar nga rrjeti"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Kjo karakteristikë do të çinstalohet plotësisht; nuk do të i mundur as ekzekutimi nga rrjeti"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Kjo karakteristikë do të ndryshojë nga Ekzekuto nga rrjeti në Instalo kur të nevojitet"/>
+  <STRING id="UIText.SelNetworkLocal" value="Kjo karakteristikë do të ndryshojë nga Ekzekuto nga rrjeti në Instalo tek hard-disku lokal"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Kjo karakteristikë do të mbetet për t&apos;u ekzekutuar nga rrjeti"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Kjo karakteristikë liron [1] tek hard-disku juaj. Janë të selektuara [2] nën-karakteristika nga [3]. Ato lirojnë [4] tek hard-disku juaj."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Kjo karakteristikë liron [1] tek hard-disku juaj. Janë të selektuara [2] nën-karakteristika nga [3]. Ato kërkojnë [4] tek hard-disku juaj."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Kjo karakteristikë kërkon [1] tek hard-disku juaj. Janë të selektuara [2] nën-karakteristika nga [3]. Ato lirojnë [4] tek hard-disku juaj."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Kjo karakteristikë kërkon [1] tek hard-disku juaj. Janë të selektuara [2] nën-karakteristika nga [3]. Ato kërkojnë [4] tek hard-disku juaj."/>
+  <STRING id="UIText.TimeRemaining" value="Koha e mbetur: {[1] minuta }{[2] sekonda}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="I (e) disponueshëm (e)"/>
+  <STRING id="UIText.VolumeCostDifference" value="Diferenca"/>
+  <STRING id="UIText.VolumeCostRequired" value="I (e) kërkuar"/>
+  <STRING id="UIText.VolumeCostSize" value="Madhësia e diskut"/>
+  <STRING id="UIText.VolumeCostVolume" value="Vëllimi"/>
+  <STRING id="UIText.HttpPostMsg" value="Po dërgoj të dhënat e mbledhura..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.ODBCTestMsg" value="Ju lutem prisni derisa të provoj lidhjen..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Po shfletoj serverat SQL në rrjet..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="&amp;Mbylli automatikisht të gjitha programet dhe provo t&apos;i hapësh përsëri pas përfundimit të instalimit."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="M&amp;os i mbyll programet. (Do të nevojitet rinisja e sistemit.)"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Po, regjistro me këta tipa skedarësh."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Jo, injoro lidhjen e skedarëve."/>
+  <STRING id="RadioButton.Text.IAgree#1" value="Pr&amp;anoj kushtet e Kontratës së Liçensës"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="&amp;Nuk pranoj kushtet e Kontratës së Liçensës"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Jo, instalo përkrah me versionet e tjera."/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Po, hiq versionet e vjetra."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Jo, çinstalo vetëm versionin [AI_Replaced_Versions_List]."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Po, hiqi të gjitha versionet e vjetra."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; M&amp;brapa"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="M&amp;brapa"/>
+  <STRING id="Property.ButtonText_Browse" value="Shflet&amp;o..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Anulo"/>
+  <STRING id="Property.ButtonText_Exit" value="Dalj&amp;e"/>
+  <STRING id="Property.ButtonText_Finish" value="Për&amp;fundo"/>
+  <STRING id="Property.Text_Finish" value="Përfundo"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Injoro"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Instalo"/>
+  <STRING id="Property.Text_Install" value="Instalo"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Tjetër &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Tjetër"/>
+  <STRING id="Property.Text_Next" value="Tjetër"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Jo"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Hiq"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Riparo"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Rivendos"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Vazhdo"/>
+  <STRING id="Property.ButtonText_Retry" value="Provo Së&amp;rish"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Rikthehu"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Po"/>
+  <STRING id="Property.Text_Yes" value="Po"/>
+  <STRING id="Property.CtrlEvtchanges" value="ndryshime"/>
+  <STRING id="Property.CtrlEvtChanging" value="Po ndryshoj"/>
+  <STRING id="Property.CtrlEvtremoves" value="heq"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Po heq"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Po riparoj"/>
+  <STRING id="Property.CtrlEvtrepairs" value="riparon"/>
+  <STRING id="Property.InstallModeComplete" value="E plotë"/>
+  <STRING id="Property.InstallModeCustom" value="E përshtatur"/>
+  <STRING id="Property.InstallModeTypical" value="Tipik"/>
+  <STRING id="Property.Progress1" value="Po instaloj"/>
+  <STRING id="Property.Progress2" value="instalojë"/>
+  <STRING id="Property.Setup" value="Programi i instalimit"/>
+  <STRING id="Property.Wizard" value="Procedura e instalimit"/>
+  <!-- Trialware Settings table -->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Blerje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Dëshiron të hapësh faqen e blerjes së %TrialName%?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Çelës Regjistrimi i Pavlefshëm"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="Çelësi i regjistrimit është i pavlefshëm."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% Version Prove"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Shtypni butonin &quot;Përfundo&quot; për të konfirmuar çelësin dhe për të vazhduar."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Ju lutem shkruani të gjitha rreshtat e çelësit të regjistrimit që keni marrë."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Regjistrimi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Blerje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Vizitoni faqen e blerjes së %TrialName% për të marrë një liçensë"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="%TrialName% Periudha e provës ka përfunduar"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="%Quantity% ditët e provës kanë kaluar. Nqse dëshironi të vazhdoni të përdorni %TrialName% duhet të blini një liçensë dhe të regjistroni programin."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="%Quantity% ekzekutimet e provës kanë kaluar. Nqse dëshironi të vazhdoni të përdorni %TrialName% duhet të blini një liçensë dhe të regjistroni programin."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Mirëvini tek Versioni i Provës së %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Regjistrim"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Shkruani çelësin e regjistrimit"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Provojeni"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="I skaduar"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Blerje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Vizitoni faqen e blerjes së %TrialName% për të marrë një liçensë"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="%TrialName% Version Prove (kanë mbetur %TrialLeft% ditë)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="%TrialName% Version Prove (kanë mbetur %TrialLeft% ekzekutime)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="Ju po përdorni versionin e provës së %TrialName% të [|Manufacturer]. Keni akoma %TrialLeft% ditë."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="Ju po përdorni versionin e provës së %TrialName% të [|Manufacturer]. Keni akoma %TrialLeft% ekzekutime."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Mirësevini tek Versioni i Provës së %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Regjistrim"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Shkruani çelësin e regjistrimit"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Provojeni"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Vazhdo provën e %TrialName%"/>
+</DICTIONARY>

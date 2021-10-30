@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C2B1543C2B4EDAA5743B9AAC93133D" DisplayName="Windows Management Framework BITS 4.0 for Windows Vista/Server 2008 x86" VersionMin="4.0"
+      SetupFileUrl="http://download.microsoft.com/download/8/F/9/8F917766-5CBA-4B9A-81FB-10A97E851392/Windows6.0-KB960568-x86.msu"
+      Location="1" ExactSize="1543745" MD5="324474fba6170f0419930cc485a041f1"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista RTM x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="y" TargetName="Windows Management Framework BITS 4.0"/>
+    <ATTRIBUTE name="GroupName" value="Windows Management Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C2B1543C2B4EDAA5743B9AAC93133DSystemFolderQMgr.dll" Prereq="C2B1543C2B4EDAA5743B9AAC93133D" SearchType="0"
+      SearchString="[SystemFolder]QMgr.dll" VerMin="7.5"
+      Order="1" Property="PreReqSearch_C2B1543C2B4EDAA5743B9AAC93133D"/>
+    <ROW SearchKey="C2B1543C2B4EDAA5743B9AAC93133DQMgr.dll" Prereq="C2B1543C2B4EDAA5743B9AAC93133D" SearchType="0"
+      SearchString="[SystemFolder]Bits\QMgr.dll" VerMin="7.5"
+      Order="2" Property="PreReqSearch_1_C2B1543C2B4EDAA5743B9AAC93133D"/>
+  </COMPONENT>
+</FRAGMENT>

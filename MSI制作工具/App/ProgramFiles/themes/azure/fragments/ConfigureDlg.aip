@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="ConfigureDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="ConfigureDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ConfigureDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ConfigureDlg" Control="Tab" Type="TabHost" X="18" Y="18" Width="419" Height="305" Attributes="1" Property="AI_CONFIG_TABHOST_PROP" Text="TabHost" Order="400" ExtType="TabHost"/>
+    <ROW Dialog_="ConfigureDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="500" TextLocId="-" Options="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="ConfigureDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="ConfigureDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="35" Control_Default="Back" Control_Cancel="Cancel" TitleLocId="Dialog.ConfigureDlg"/>
+    <ATTRIBUTE name="ExitPoints" value="ConfigureDlg#Tab#CustomizePage#1!ConfigureDlg#Tab#FolderPage#NOT Installed"/>
+  </COMPONENT>
+</FRAGMENT>

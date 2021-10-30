@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="EF36CDD6CE40CFA978040EA5CBA799" DisplayName="Visual C++ Redistributable for Visual Studio 2012 Update 4 x64" VersionMin="11.0"
+      SetupFileUrl="http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe"
+      Location="1" ExactSize="7186992" MD5="3c03562b5af9ed347614053d459d7778"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="xf" TargetName="Visual C++ Redistributable for Visual Studio 2012"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="EF36CDD6CE40CFA978040EA5CBA799Version" Prereq="EF36CDD6CE40CFA978040EA5CBA799" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\11.0\RuntimeMinimum\Version" VerMin="11.0.61030"
+      Order="1" Property="PreReqSearch_EF36CDD6CE40CFA978040EA5CBA799"/>
+  </COMPONENT>
+</FRAGMENT>

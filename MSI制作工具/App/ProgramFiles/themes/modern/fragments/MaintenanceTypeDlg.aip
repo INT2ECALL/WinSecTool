@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="MaintenanceTypeDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="568" Height="379" Attributes="1048577" Text="[ThreeColorsBackground]" Order="100"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="Back" Type="PushButton" X="379" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="Next" Type="PushButton" X="435" Y="388" Width="56" Height="17" Attributes="1" Text="[ButtonText_Next]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="Cancel" Type="PushButton" X="497" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="BottomLine" Type="Line" X="0" Y="380" Width="568" Height="1" Attributes="1" Order="500"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="LogoIcon" Type="Icon" X="18" Y="11" Width="36" Height="36" Attributes="7340033" Text="[LogoIcon]" Order="600"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="AppName" Type="Text" X="62" Y="24" Width="143" Height="23" Attributes="196611" TextStyle="AppName" Order="700" TextLocId="Modern.Control.Text.Dlg#AppName"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="Manufacturer" Type="Text" X="61" Y="16" Width="300" Height="12" Attributes="196611" TextStyle="Manufacturer" Order="800" TextLocId="Modern.Control.Text.Dlg#Manufacturer"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="Setup" Type="Text" X="195" Y="24" Width="158" Height="23" Attributes="196611" TextStyle="[AI_SetupFont]" Order="900" TextLocId="Modern.Control.Text.Dlg#Setup"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="AddRemoveButton" Type="CommandLinkButton" X="8" Y="81" Width="240" Height="63" Attributes="6815747" Text="[CustomIconEx]" Order="1000" HelpLocId="Modern.Control.Help.MaintenanceTypeDlg#AddRemoveButton" ExtType="CommandLinkButton" ExtDataLocId="Modern.Control.ExtData.MaintenanceTypeDlg#AddRemoveButton"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="RepairButton" Type="CommandLinkButton" X="8" Y="160" Width="240" Height="63" Attributes="6815747" Text="[RepairIconEx]" Order="1100" HelpLocId="Modern.Control.Help.MaintenanceTypeDlg#RepairButton" ExtType="CommandLinkButton" ExtDataLocId="Modern.Control.ExtData.MaintenanceTypeDlg#RepairButton"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="RemoveButton" Type="CommandLinkButton" X="8" Y="239" Width="240" Height="63" Attributes="6815747" Text="[RemoveIconEx]" Order="1200" HelpLocId="Modern.Control.Help.MaintenanceTypeDlg#RemoveButton" ExtType="CommandLinkButton" ExtDataLocId="Control.Text.MaintenanceTypeDlg#RemoveLabel"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control="CompanyLogo" Type="Bitmap" X="285" Y="104" Width="265" Height="229" Attributes="1048577" Text="[CompanyLogo]" Order="1300"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="[InstallMode]" Argument="Remove" Condition="AI_MAINT" Ordering="100"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="[Progress1]" Argument="[CtrlEvtRemoving]" Condition="AI_MAINT" Ordering="200"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="[Progress2]" Argument="[CtrlEvtremoves]" Condition="AI_MAINT" Ordering="300"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="[AI_INSTALL_MODE]" Argument="Remove" Condition="1" Ordering="500"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="[AI_CommitButton]" Argument="ButtonText_Remove" Condition="1" Ordering="600"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="AddRemoveButton" Event="[InstallMode]" Argument="Change" Condition="AI_MAINT" Ordering="100"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="AddRemoveButton" Event="[Progress1]" Argument="[CtrlEvtChanging]" Condition="AI_MAINT" Ordering="200"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="AddRemoveButton" Event="[Progress2]" Argument="[CtrlEvtchanges]" Condition="AI_MAINT" Ordering="300"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="AddRemoveButton" Event="[AI_INSTALL_MODE]" Argument="Change" Condition="1" Ordering="400"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="AddRemoveButton" Event="[AI_CommitButton]" Argument="ButtonText_Install" Condition="1" Ordering="500"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="[InstallMode]" Argument="Repair" Condition="AI_MAINT" Ordering="100"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="[Progress1]" Argument="[CtrlEvtRepairing]" Condition="AI_MAINT" Ordering="200"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="[Progress2]" Argument="[CtrlEvtrepairs]" Condition="AI_MAINT" Ordering="300"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="[AI_INSTALL_MODE]" Argument="Repair" Condition="1" Ordering="500"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="[AI_CommitButton]" Argument="ButtonText_Repair" Condition="1" Ordering="600"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="MaintenanceTypeDlg" HCentering="50" VCentering="50" Width="568" Height="412" Attributes="3" Control_Default="AddRemoveButton" Control_Cancel="Cancel" TitleLocId="Dialog.MaintenanceTypeDlg"/>
+    <ATTRIBUTE name="ExitPoints" value="MaintenanceTypeDlg#RemoveButton#VerifyRemoveDlg#InstallMode = &quot;Remove&quot;!MaintenanceTypeDlg#RepairButton#VerifyRepairDlg#InstallMode = &quot;Repair&quot;!VerifyRepairDlg#Repair#+#InstallMode = &quot;Repair&quot;#MaintenanceTypeDlg!VerifyRemoveDlg#Remove#+#InstallMode = &quot;Remove&quot;#MaintenanceTypeDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="AddRemoveButton" Action="Default" Condition="1"/>
+  </COMPONENT>
+</FRAGMENT>

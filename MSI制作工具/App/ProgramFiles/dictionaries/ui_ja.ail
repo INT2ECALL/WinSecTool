@@ -1,0 +1,1777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="ja" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.AI_GenericProperty.Description" value="あなたのアプリケーションの説明。"/>
+  <STRING id="AI.AI_GenericProperty.Name" value="Your Application"/>
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="新しいフォルダ"/>
+  <STRING id="AI.DuplicateFile.DestName" value="コピー %s ～ %s"/>
+  <STRING id="AI.Environment.DefaultName" value="新しい変数"/>
+  <STRING id="AI.Feature.DefaultDescription" value="記述"/>
+  <STRING id="AI.Feature.DefaultTitle" value="機能"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="プレイ"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="サポート"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="[|CurrentGame] の説明"/>
+  <STRING id="AI.IniFile.DefaultFileName" value="新しいファイル"/>
+  <STRING id="AI.IniFile.DefaultKey" value="新しいキー"/>
+  <STRING id="AI.IniFile.DefaultSection" value="新しいセクション"/>
+  <STRING id="AI.IniFile.DefaultValue" value="新しい値"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="あなたの製品"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] は Adobe Reader が [AI_REQUIRED_ADOBEREADER_DISPLAY] より古いバージョンのシステムにインストールできません。"/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName] のインストールには [AI_REQUIRED_ACTIVESYNC_DISPLAY] 以上が必要です。"/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] は画面の色が [AI_REQUIRED_COLOR_QUALITY] ビットより少ないシステムにインストールできません。"/>
+  <STRING id="AI.LaunchCondition.Description" value="起動条件の詳細説明"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] は DirectX が [AI_REQUIRED_DIRECTX_DISPLAY] より古いバージョンのシステムにインストールできません。"/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] は .NET Framework が [AI_REQUIRED_DOTNET_DISPLAY] より古いバージョンのシステムにインストールできません。"/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] は .NET Core が [AI_REQUIRED_DOTNET_CORE_DISPLAY] より古いバージョンのシステムにインストールできません。"/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] は Internet Explorer が [AI_REQUIRED_IE_DISPLAY] より古いバージョンのシステムにはインストールできません。"/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] は Internet Information Services が [AI_REQUIRED_IIS_DISPLAY] より古いバージョンのシステムにはインストールできません。"/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] をインストールするにはインターネットへの接続が必要です。ネットワークおよびプロキシの設定を確認してください。"/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] のインストールには [AI_REQUIRED_JDK_DISPLAY] より前のバージョンの JDK が必要です。"/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] は JRE が [AI_REQUIRED_JRE_DISPLAY] より古いバージョンのシステムにインストールできません。"/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] は [WindowsType9XDisplay] にインストールできません。"/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] は [WindowsTypeNTDisplay] にインストールできません。"/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] は [WindowsTypeNT40Display] にインストールできません。"/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] は [WindowsTypeNT50Display] にインストールできません。"/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] は [WindowsTypeNT5XDisplay] にインストールできません。"/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] は [WindowsTypeNT64Display] にインストールできません。"/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] は次の Windows バージョンにはインストールできません: [WindowsType9XDisplay]。"/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] は次の Windows バージョンにはインストールできません: [WindowsTypeNTDisplay]。"/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] は次の Windows バージョンにはインストールできません: [WindowsTypeNT64Display]。"/>
+  <STRING id="AI.LaunchCondition.Office" value="[ProductName] のインストールには [AI_REQUIRED_OFFICE_APPNAME] が必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] のインストールには [AI_REQUIRED_OFFICE_APPNAME] 2003 が必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2003PIA" value="[ProductName] のインストールには [AI_REQUIRED_OFFICE2003_PIA_APPNAME] 2003 プライマリ相互運用アセンブリが必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName]のインストールには [AI_REQUIRED_OFFICE_APPNAME] 2007 が必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2007PIA" value="[ProductName] のインストールには [AI_REQUIRED_OFFICE2007_PIA_APPNAME] 2007 プライマリ相互運用アセンブリが必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2007SharedPIA" value="[ProductName] のインストールには Office 2007 共有プライマリ相互運用アセンブリが必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2010" value="[ProductName] のインストールには [AI_REQUIRED_OFFICE_APPNAME] 2010 が必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2010PIA" value="[ProductName] のインストールには [AI_REQUIRED_OFFICE2010_PIA_APPNAME] 2010 プライマリ相互運用アセンブリが必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2010SharedPIA" value="[ProductName] のインストールには Office 2010 共有プライマリ相互運用アセンブリが必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2013" value="[ProductName] のインストールには [AI_REQUIRED_OFFICE_APPNAME] 2013 が必要です。"/>
+  <STRING id="AI.LaunchCondition.Office2016" value="[ProductName] のインストールには [AI_REQUIRED_OFFICE_APPNAME] 2016 が必要です。"/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] のインストールには、管理者権限が必要です。"/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] は物理メモリが [AI_REQUIRED_PHYSICAL_MEMORY] MB より少ないシステムにインストールできません。"/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] は画面の解像度が [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y] より小さいシステムにインストールできません。"/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName] のインストールには [AI_REQUIRED_SQLCOMPACT_DISPLAY] が必要です。"/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName] のインストールには [AI_REQUIRED_SQLEXPRESS_DISPLAY] が必要です。"/>
+  <STRING id="AI.LaunchCondition.SharePoint" value="[ProductName] のインストールには [AI_REQUIRED_SHAREPOINT_DISPLAY] が必要です。"/>
+  <STRING id="AI.LaunchCondition.SharePointDeployment" value="SharePoint ソリューションが既に配布されているため [ProductName] はインストールできません。"/>
+  <STRING id="AI.LaunchCondition.SharePointPermissions" value="現在のユーザには [ProductName] のインストールに必要な SharePoint ソリューションの配布権限がありません。"/>
+  <STRING id="AI.LaunchCondition.SharePointServices" value="[ProductName] をインストールするには SharePoint Administration と SharePoint Timer サービスが開始されている必要があります。"/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] は仮想マシン上のシステムにインストールできません。"/>
+  <STRING id="AI.LaunchCondition.VSTO" value="[ProductName] のインストールには [AI_REQUIRED_VSTO_DISPLAY] が必要です。"/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] のインストールには、[AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY] よりも新しいバージョンの Windows Installer が必要です。"/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName] のインストールには [AI_REQUIRED_XNA_DISPLAY] より前のバージョンの XNA Framework が必要です。"/>
+  <STRING id="AI.MoveFile.DestName" value="あなたのファイル.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="このインストールデータベースには [|ProductName] のインストールに必要なロジックとデータが含まれまていす。"/>
+  <STRING id="AI.Property.DefaultManufacturer" value="あなたの会社"/>
+  <STRING id="AI.Property.DefaultModuleName" value="あなたのマージモジュール"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="このデータベースには &lt;module name&gt; コンポーネントのインストールに必要なロジックとデータが含まれています。"/>
+  <STRING id="AI.Property.DefaultProductName" value="あなたのアプリケーション"/>
+  <STRING id="AI.Property.DefaultValue" value="あなたの値"/>
+  <STRING id="AI.Property.FindExeTitle" value="[|ProductName] のインストール パッケージを選択してください"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="このパッケージは Advance Installer のトライアルバージョンにより作成されたマージモジュールを含んでいます。評価目的のみに使用できます。"/>
+  <STRING id="AI.Property.TrialMessageBody" value="このパッケージは Advance Installer のトライアルバージョンにより作成されています。評価目的のみに使用してください。"/>
+  <STRING id="AI.Property.TrialMessageTitle" value="警告"/>
+  <STRING id="AI.Registry.DefaultKey" value="新しいキー"/>
+  <STRING id="AI.Registry.DefaultName" value="新しい値"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="あなたのファイル.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="あなたの値"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="サービス名"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="あなたのサービス記述"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="あなたのサービス"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="新しいシェア"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="あなたのコマンドへのショートカット"/>
+  <STRING id="AI.Shortcut.DefaultName" value="%sへのショートカット"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="インストールされていません"/>
+  <STRING id="AI.Verb.DefaultCommand" value="開く(&amp;O)"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="新しいファイル"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="インストーラ 情報"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]）"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName][Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LogonInformationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ConfigureDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizePage" value="機能(&amp;T)"/>
+  <STRING id="Dialog.FolderPage" value="インストールフォルダ(&amp;F)"/>
+  <STRING id="Dialog.InstallDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MinProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SharePointLogDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="新しいフォルダを作成します。|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="レベルを１つ上げる|"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="新しいフォルダを作成する。|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="レベルを１つ上げる。|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="情報アイコン|"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="情報アイコン|"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="インストールを変更します。|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="インストールを削除します。|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="インストールを修復します。|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="完全インストール|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="カスタムインストール|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="標準的なインストール|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="アイコンの拡大|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="探す場所(&amp;L):"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="インストール先フォルダを参照します。"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="フォルダ名(&amp;F):"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="インストール先フォルダの変更"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="[ProductName] のサーバー イメージを作成するネットワーク上の場所を指定してください。"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="新しいネットワーク上の場所を入力するか［参照］をクリックして指定してください(&amp;P)。"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="ネットワーク上の場所"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD キー(&amp;K):"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="あなたの会社または組織の情報を入力してください。"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="下のボックスにあなたの会社名または組織名の名前を入力してください。これはデフォルトの会社名としてその後の [ProductName] のインストールに使われます(&amp;P)。"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="ユーザー情報"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="この[Wizard]は指定したネットワーク上の場所に [ProductName] のサーバーイメージを作成します。続行するには［[Text_Next]］をクリックしてください。［キャンセル］をクリックすると[Wizard]を終了します。"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="[ProductName] [Wizard]へようこそ"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="探す場所(&amp;L):"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="インストール先フォルダを参照します。"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="フォルダ名(&amp;F):"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="インストール先フォルダの変更"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="[ProductName] のインストールを本当にキャンセルしますか？"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="インストールする機能を選択してください。"/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="ディスク使用量(&amp;U)"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="現在選択しているアイテムのマルチラインの説明"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="現在選択しているアイテムのサイズ"/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="選択されているパス"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="場所："/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="下のツリーにあるアイコンをクリックして、機能のインストール方法を変更してください。"/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="カスタムセットアップ"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="選択のツリー"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="選択された機能をインストールするために必要なディスク容量です。"/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="強調表示されているボリュームには、現在選択されている機能をインストールするために十分な空き容量がありません。ボリュームからファイルを削除し必要なディスク容量を確保するか、インストールする機能を減らす、もしくは他のドライブを選択してください。"/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="必要なディスク容量"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="エラー"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="［完了］ボタンをクリックして[Wizard]を終了してください。"/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="[ProductName] を起動する"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="[ProductName] [Wizard]が完了しました"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="README ファイルを読む"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="ファイルと [ProductName] の関連付けを行います。"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard]は、次のファイルを [ProductName] から開くように登録します: [AI_ExtensionList_Text]"/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="ファイルの関連付け"/>
+  <STRING id="Control.Text.FatalError#Description1" value="セットアップの途中ですがエラーのため終了します。あなたのシステムは変更されていません。後でこのプログラムをインストールするためには再度インストーラを実行してください。"/>
+  <STRING id="Control.Text.FatalError#Description2" value="［完了］ボタンをクリックして[Wizard]を終了してください。"/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard]を中断しました"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="更新する必要のあるファイルが、現在使用中です。"/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="次のアプリケーションが、このセットアップによって更新される必要のあるファイルを使用しています。これらのアプリケーションを閉じてから［再試行］をクリックしインストールを続行してください。"/>
+  <STRING id="Control.Text.FilesInUse#Title" value="使用されているファイル"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="[ProductName] のインストール先フォルダを指定します。"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="フォルダ(&amp;F):"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="このフォルダにインストールするには［[Text_Next]］をクリックしてください。別のフォルダにインストールするにはインストール先を入力するか［参照］をクリックしてください。"/>
+  <STRING id="Control.Text.FolderDlg#Title" value="インストール先フォルダ"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_ja.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="以下の使用許諾契約書を注意深くお読みください。"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="使用許諾契約"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="変更(&amp;M)"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="インストールする機能の変更や、指定した機能の削除を行います。"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="プログラムの変更、修復、または削除を行います。操作を選択してください。"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="削除(&amp;R)"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="コンピュータから [ProductName] を削除します。"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="修復(&amp;P)"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="エラーの修復を行います。不足または破損したファイル、ショートカット、レジストリエントリを修復します。"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="プログラムの保守"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard]は [ProductName] の変更や修復、または [ProductName] をあなたのコンピュータから削除することができます。続行するには［[Text_Next]］をクリックしてください。［キャンセル］をクリックすると[Wizard]を終了します。"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="[ProductName] [Wizard]へようこそ"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="インストールに必要なディスク容量が、ディスクの空き容量を越えています。"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="強調表示されているボリュームには、現在選択されている機能をインストールするために十分な空き容量がありません。ボリュームからファイルを削除し必要なディスク容量を確保するか、インストールする機能を減らす、もしくは他のドライブを選択してください。"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="ディスクの空き容量不足"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="インストールに必要なディスク容量が、ディスクの空き容量を越えています。"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="強調表示されているボリュームには、現在選択されている機能をインストールするために十分な空き容量がありません。ボリュームからファイルを削除し必要なディスク容量を確保するか、インストールする機能を減らす、もしくは他のドライブを選択してください。"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="別の方法として、インストーラのロールバック機能を使用しない方法があります。ロールバック機能とは、インストールが中断された場合に元の状態に戻すための機能です。危険性を理解したうえでロールバック機能を使用しない場合は［はい］をクリックしてください。"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="ディスクの空き容量不足"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard]は [ProductName] のパッチをあなたのコンピュータにインストールします。続行するには［[Text_Next]］をクリックしてください。［キャンセル］をクリックするとパッチ[Wizard]を終了します。"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="[ProductName] のパッチ[Wizard]へようこそ"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="[Wizard] がインストールの準備をする間、しばらくお待ちください。"/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="[ProductName] [Wizard]へようこそ"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="進捗状況"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="ステータス:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="[ProductName] のインストールが完了するまでしばらくお待ちください。処理に数分かかる場合もあります。"/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[ProductName] を[Progress1]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="以下のテキストを注意深くお読みください。"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_ja.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="README ファイル"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard]は [ProductName] のインストールを再開します。"/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="[ProductName] [Wizard]の再開"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="完全(&amp;O)"/>
+  <STRING id="Property.Text_Complete" value="完全"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="すべてのプログラム機能がインストールされます。(もっとも多くのディスク容量が必要です。)"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="カスタム(&amp;U)"/>
+  <STRING id="Property.Text_Custom" value="カスタム"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="どのプログラム機能をインストールするかを選択できます。上級ユーザーにお勧めします。"/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="セットアップタイプを選択してください。"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="セットアップタイプの選択"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="標準(&amp;T)"/>
+  <STRING id="Property.Text_Typical" value="標準"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="もっとも一般的なプログラム機能をインストールします。ほとんどのユーザーにお勧めします。"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="新しいダイアログのディスクリプション．．．"/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="新しいダイアログ"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="新しい スポーンダイアログ"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="古いバージョンの [ProductName] を検索しアップグレードします。"/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard]は古いバージョンの [ProductName] を検索して削除します。古いバージョンを削除しますか？"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard]は指定されたインストール先が [ProductName] のバージョン [AI_Replaced_Versions_List] によって使用されていることを確認しました。すべての古いバージョンを削除しますか？"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value=" [ProductName] のアップグレード"/>
+  <STRING id="Control.Text.UserExit#Description1" value="[ProductName] のセットアップを中断しました。あなたのシステムは変更されていません。後でこのプログラムをインストールするには再度インストールを実行してください。"/>
+  <STRING id="Control.Text.UserExit#Description2" value="［完了］ボタンを押して[Wizard]を終了してください。"/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName] [Wizard]を中断しました"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="シリアル番号"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="情報を入力してください。"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="名前(&amp;U):"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="所属(&amp;O):"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="ユーザー情報"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard]は[ProductName]インストールを開始する準備ができました。"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="［インストール］をクリックしてインストールを開始してください。&#10;インストールの設定を変更する場合は［戻る］をクリックしてください。［キャンセル］をクリックすると、セットアップを中止します。"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="インストール準備完了"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="ご使用のシステムからプログラムを削除するオプションを選択しました。"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="このコンピュータから [ProductName] を削除するには、［削除］をクリックしてください。&#10;削除すると、このプログラムは使用できなくなります。設定を参照したり変更したりする場合は、［戻る］をクリックします。［キャンセル］をクリックすると、セットアップを中止します。"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value=" [ProductName] の削除"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard]は [ProductName] を修復する準備ができました。"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="［修復］をクリックして [ProductName] を修復してください。&#10;設定を参照したり変更したりする場合は、［戻る］をクリックします。［キャンセル］をクリックすると、セットアップを中止します。"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="[ProductName] の修復"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="インストーラーが必要なディスク容量を決定する間しばらくお待ちください。"/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard]は [ProductName] をあなたのコンピュータにインストールします。続行するには［[Text_Next]］をクリックしてください。［キャンセル］をクリックすると[Wizard]を終了します。"/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="[ProductName] [Wizard]へようこそ"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="更新する必要のあるファイルが、現在使用中です。"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="次のアプリケーションが、このセットアップによって更新される必要のあるファイルを使用しています。"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="使用されているファイル"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="アプリケーションのショートカットを作成します。"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="デスクトップ"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="クイック起動バー"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="[ProductName] のショートカットを、次の場所に作成します:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="スタート メニュー"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="スタートアップ"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="ショートカットの設定"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="データベース名："/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="SQL データベースへの接続を設定します。"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC データソース："/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="パスワード："/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="ポート："/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="サーバー："/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL データベース"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="ユーザー名："/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="[ProductName] のショートカットがインストールされるフォルダを選択できます。"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="サブフォルダにインストールするには、親フォルダ名の後に、サブフォルダ名を&quot;\&quot; で区切って付け加えてください。"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="インストール先のフォルダ(&amp;S):"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="このフォルダにショートカットをインストールする場合は［[Text_Next]］をクリックしてください。他のフォルダへインストールする場合は、インストールしたいフォルダを下のコンボ ボックスから選択してください。"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="スタート メニューのショートカット"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="完全インストール|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="サーバー インストール|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="クライアント インストール|"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="完全(&amp;O)"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="サーバーおよびクライアント構成をインストールします。"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="サーバー(&amp;S)"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="サーバー構成をインストールします。"/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="インストール タイプを選択してください"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="インストール タイプの選択"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="クライアント(&amp;C)"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="クライアント構成をインストールします。"/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="インストール タイプを選択してください"/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="[ProductName] のインストール:"/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="インストール タイプ"/>
+  <STRING id="Control.Text.LogonInformationDlg#Description" value="ユーザー アカウントを指定してください"/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainLabel" value="ドメイン(&amp;D):"/>
+  <STRING id="Control.Text.LogonInformationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameLabel" value="ユーザー名(&amp;U):"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordLabel" value="パスワード(&amp;P):"/>
+  <STRING id="Control.Text.LogonInformationDlg#Title" value="ログオン情報"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="新規ダイアログの説明..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="新規ダイアログ"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="Tomcat サーバーを設定してください"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="ホスト名:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="HTTP ポート番号:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="HTTP SSL ポート番号:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="Shutdown ポート番号:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="Tomcat サーバー設定"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Description" value="インストールする前提条件を選択してください。"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Title" value="前提条件"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#DescriptionNoClose" value="[Wizard]は [ProductName] のサーバイメージを指定されたネットワーク位置に作成します。 [Text_Next] をクリックして続行するか、ウィンドウを閉じて[Wizard]を終了してください。"/>
+  <STRING id="Control.Text.ConfigureDlg#Title" value="[ProductName] のインストール方法を設定"/>
+  <STRING id="Control.Text.CustomizeDlg#FeatsShortDescription" value="インストールする機能を選択してください"/>
+  <STRING id="Control.Text.FatalError#LogCheckBox" value="ログを表示"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Description" value="[ProductName] に関連付けたい拡張子を選択してください"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Text" value="[ProductName] で自動的に開くファイルタイプを選択します:"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Title" value="ファイルの関連付けを選択"/>
+  <STRING id="Control.Text.FolderDlg#TextNoNext" value="[ProductName] はコンピュータにインストールされます。他の場所にインストールするには、下の欄に入力するか &quot;Browse&quot; をクリックしてください。"/>
+  <STRING id="Control.Text.InstallDlg#DescWithSize" value="セットアップが必要とする空き容量 [PrimaryVolumeSpaceRequired]:"/>
+  <STRING id="Control.Text.InstallDlg#Title" value="ファイルの場所とライセンス条項"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#DescriptionNoClose" value="[Wizard]では [ProductName] の機能をインストールする方法を変更したり、[ProductName] をコンピュータから削除することができます。[Text_Next] をクリックして続行するか、ウィンドウを閉じて[Wizard]を終了してください。"/>
+  <STRING id="Control.Text.MinProgressDlg#ProgressBar" value="完了"/>
+  <STRING id="Control.Text.MinProgressDlg#StatusLabel" value="ステータス:"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#DescriptionNoClose" value="[Wizard]はコンピュータの [ProductName] にパッチをインストールします。[Text_Next] をクリックして続行するか、ウィンドウを閉じてパッチ[Wizard]を終了してください。"/>
+  <STRING id="Control.Text.ResumeDlg#DescriptionNoClose" value="[Wizard]はコンピュータに [ProductName] をインストールします。Install をクリックして続行するか、ウィンドウを閉じて[Wizard]を終了してください。"/>
+  <STRING id="Control.Text.SharePointLogDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SharePointLogDlg#SharePointLog" value="{0}"/>
+  <STRING id="Control.Text.SharePointLogDlg#Title" value="SharePoint 配布ログ"/>
+  <STRING id="Control.Text.TemplateChildDlg#Text" value="新規子ダイアログ"/>
+  <STRING id="Control.Text.VerifyReadyDlg#TextNoClose" value="Install をクリックしてインストールを開始します。インストール設定を変更するには Back をクリックします。ウィザードを終了するにはウィンドウを閉じてください。"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#TextNoClose" value="[ProductName] をコンピュータから削除するには Remove をクリックします。インストール設定を変更するには Back をクリックします。ウィザードを終了するにはウィンドウを閉じてください。"/>
+  <STRING id="Control.Text.VerifyRepairDlg#TextNoClose" value="[ProductName] のインストールを修復するには Repair をクリックします。インストール設定を変更するには Back をクリックします。ウィザードを終了するにはウィンドウを閉じてください。"/>
+  <STRING id="Control.Text.WelcomeDlg#DescriptionNoClose" value="[Wizard]はコンピュータに [ProductName] をインストールします。[Text_Next] をクリックして続行するか、ウィンドウを閉じて[Wizard]を終了してください。"/>
+  <!-- Azure Theme strings -->
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ClientCommand" value="クライアント"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#CompleteCommand" value="完全"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ServerCommand" value="サーバー"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#ModifyCommand" value="機能を追加または削除してください"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RemoveCommand" value="削除"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RepairCommand" value="修復"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CompleteCommand" value="完全(&amp;O)"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CustomCommand" value="カスタム(&amp;C)"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#TypicalCommand" value="標準(&amp;T)"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ClientCommand" value="クライアントの構成をインストールします。|"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#CompleteCommand" value="サーバーとクライアントの構成をインストールします。"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ServerCommand" value="サーバーの構成をインストールします。"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#ModifyCommand" value="インストールする機能を変更します。|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RemoveCommand" value="[ProductName] をお使いのコンピュータから削除します。|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RepairCommand" value="インストールエラーを修復し最新の状態に戻します。|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CompleteCommand" value="すべての機能がインストールされます。|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CustomCommand" value="インストールする機能を選択します。"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#TypicalCommand" value="一般的な機能をインストールします。|"/>
+  <STRING id="Azure.Control.Text.AdminInstallPointDlg#Title" value="[ProductName] のサーバーイメージを配置するネットワーク上の場所を指定してください"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceLabel" value="空きディスク容量: "/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#ItemDescription" value="現在選択されているアイテムに対する複数行の説明です。"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#Text" value="インストールする [ProductName] のコンポーネントを選択してください"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel" value="必要なディスク容量: "/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.DiskCostDlg#Title" value="選択された機能に必要なディスク容量"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionConfigured" value="[ProductName] は正しく構成されました。"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionInstalled" value="[ProductName] は正常にインストールされました。"/>
+  <STRING id="Azure.Control.Text.ExitDialog#Finish" value="閉じる(&amp;C)"/>
+  <STRING id="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" value="[ProductName] を実行する"/>
+  <STRING id="Azure.Control.Text.ExitDialog#ViewReadmeCheckBox" value="README ファイルを表示する"/>
+  <STRING id="Azure.Control.Text.ExtRegDlg#Title" value="[ProductName] ファイルの関連付け"/>
+  <STRING id="Azure.Control.Text.FilesInUse#Title" value="更新する必要のあるファイルが現在使用中です"/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceLabel" value="空きディスク容量: "/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#ContinueButton" value="続行(&amp;C)"/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceLabel" value="残りディスク容量: "/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceText" value="[PrimaryVolumeSpaceRemaining]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#Title" value="インストール先フォルダ"/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceLabel" value="必要なディスク容量: "/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.InstallTypeDlg#Title" value="[ProductName] インストール タイプ"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Description" value="続行するには、この [Manufacturer] 使用許諾契約をお読みになり、全条項に同意する必要があります。同意なさらない場合は、このウィンドウを閉じてインストールを終了してください。"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#EulaAgreeCheckBox" value="使用許諾契約の全条項に同意します(&amp;A)"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Title" value="[Manufacturer] 使用許諾契約をお読みください"/>
+  <STRING id="Azure.Control.Text.LogonInformationDlg#Title" value="ユーザー アカウント情報"/>
+  <STRING id="Azure.Control.Text.MaintenanceTypeDlg#Title" value="インストール済みの [ProductName] コンポーネントを変更します"/>
+  <STRING id="Azure.Control.Text.MsiRMFilesInUse#Title" value="更新する必要のあるファイルが現在使用中です"/>
+  <STRING id="Azure.Control.Text.OutOfDiskDlg#Title" value="インストールに必要なディスク容量が、ディスクの空き容量を越えています"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#OkButton" value="OK"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#Title" value="インストールに必要なディスク容量が、ディスクの空き容量を越えています"/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Description" value="[Wizard] がインストールの準備をしています。しばらくお待ちください。"/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Title" value="[ProductName] [Wizard] の準備をしています"/>
+  <STRING id="Azure.Control.Text.PrerequisitesDlg#Title" value="インストール前提条件の選択"/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Description" value="[ProductName] [Progress1]..."/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Title" value="インストール進行状況"/>
+  <STRING id="Azure.Control.Text.ReadmeDlg#Title" value="以下のテキストを注意深くお読みください"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Customize" value="インストールする機能を選択してください。|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Description" value="[ProductName] のインストール タイプを選択してください:"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#InstallNow" value="標準的なインストールを開始します。|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Title" value="インストールの選択"/>
+  <STRING id="Azure.Control.Text.ShortcutsDlg#Title" value="アプリケーションのショートカットを作成します"/>
+  <STRING id="Azure.Control.Text.SQLConnectionDlg#Title" value="SQL 接続設定"/>
+  <STRING id="Azure.Control.Text.StartMenuShortcutsDlg#Title" value="スタート メニューのフォルダを選択します"/>
+  <STRING id="Azure.Control.Text.TomcatServerDlg#Title" value="Tomcat サーバーを設定します"/>
+  <STRING id="Azure.Control.Text.UpgradeDlg#Title" value="古いバージョンの [ProductName] を検索しアップグレードします"/>
+  <STRING id="Azure.Control.Text.UserRegistrationDlg#Title" value="ユーザー情報を入力してください"/>
+  <STRING id="Azure.Control.Text.VerifyReadyDlg#Title" value="[ProductName] のインストールを開始します"/>
+  <STRING id="Azure.Control.Text.VerifyRemoveDlg#Title" value="[ProductName] の削除を開始します"/>
+  <STRING id="Azure.Control.Text.VerifyRepairDlg#Title" value="[ProductName] の修復を開始します"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#ContinueButton" value="続行(&amp;C)"/>
+  <STRING id="Property.Text_Continue" value="続行"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Description" value="続行するには、この [Manufacturer] 使用許諾契約をお読みになり、全条項に同意する必要があります。同意なさらない場合は、このウィンドウを閉じてインストールを終了してください。"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#EulaAgreeCheckBox" value="使用許諾契約の全条項に同意します(&amp;A)"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Title" value="[ProductName] [Wizard] へようこそ"/>
+  <!-- Graphite Theme strings -->
+  <STRING id="Graphite.Control.Text.AdminInstallPointDlg#Title" value="[ProductName] サーバー イメージのネットワーク ロケーション"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Description" value="インストールする機能を選択してください"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#SpaceRequiredLabel" value="選択しているコンポーネントに必要な容量 :"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Title" value="カスタム セットアップ"/>
+  <STRING id="Graphite.Control.Text.Dlg#CollectingLabel" value="情報を集めています"/>
+  <STRING id="Graphite.Control.Text.Dlg#FinalizingLabel" value="インストールを終了しています"/>
+  <STRING id="Graphite.Control.Text.Dlg#InstallingLabel" value="インストールしています"/>
+  <STRING id="Graphite.Control.Text.Dlg#PreparingLabel" value="インストールの準備をしています"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Intro" value="[ProductName] のインストールは正常に終了しました。"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Title" value="[ProductName] セットアップ完了"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description1" value="[ProductName] セットアップはエラーのため途中で終了しました。あなたのシステムは変更されていません。後でこのプログラムをインストールするためには再度インストーラを実行してください。"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description2" value="［完了］ボタンをクリックして[Wizard]を終了してください。"/>
+  <STRING id="Graphite.Control.Text.FatalError#Title" value="[ProductName] セットアップを中断しました"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#AvailableSpaceLabel" value="ディスクの空き容量:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Description" value="このフォルダにインストールするには［[Text_Next]］をクリックしてください。別のフォルダにインストールするにはインストール先を入力するか［参照］をクリックしてください。"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Intro" value="[ProductName] をインストールするフォルダです。"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#RemainingSpaceLabel" value="ディスクの残り容量:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#SpaceRequiredLabel" value="必要な空き容量:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Title" value="インストール先フォルダ"/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Description" value="以下の使用許諾契約書を注意深くお読みください。"/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Title" value="エンド ユーザー使用許諾契約書"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#ChangeText" value="インストールする機能の変更や、指定した機能の削除を行います。"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Description" value="実行したいメンテナンス操作を選択し、［[Text_Next]］をクリックしてください。"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Intro" value="[ProductName] メンテナンス へようこそ"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RemoveText" value="コンピュータから [ProductName] を削除します。"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RepairText" value="エラーの修復を行います。不足または破損したファイル、ショートカット、レジストリエントリを修復します。"/>
+  <STRING id="Graphite.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard]は [ProductName] の変更や修復、または [ProductName] をあなたのコンピュータから削除することができます。続行するには［[Text_Next]］をクリックしてください。［キャンセル］をクリックすると[Wizard]を終了します。"/>
+  <STRING id="Graphite.Control.Text.MsiRMFilesInUse#Description" value="更新する必要のあるファイルが、現在使用中です。"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Intro" value="[ProductName] のパッチ セットアップ ウィザードへようこそ"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Title" value="[ProductName] のパッチ セットアップへようこそ"/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Description" value="[Wizard] がインストールの準備をする間、しばらくお待ちください。"/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Title" value="[ProductName] セットアップの準備"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Description" value="インストールする前提条件を選択してください。"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}名前,必須,検出,アクション"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Title" value="前提条件"/>
+  <STRING id="Graphite.Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Description" value="以下のテキストを注意深くお読みください"/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Title" value="README ファイル"/>
+  <STRING id="Graphite.Control.Text.ResumeDlg#Title" value="[ProductName] セットアップの再開"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Description" value="セットアップタイプを選択してください。"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Title" value="セットアップタイプの選択"/>
+  <STRING id="Graphite.Control.Text.SQLConnectionDlg#Title" value="SQL データベースを設定します。"/>
+  <STRING id="Graphite.Control.Text.TomcatServerDlg#Title" value="Tomcat サーバーの設定"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description1" value="[ProductName] のセットアップを中断しました。あなたのシステムは変更されていません。後でこのプログラムをインストールするには再度インストールを実行してください。"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description2" value="［完了］ボタンを押して[Wizard]を終了してください。"/>
+  <STRING id="Graphite.Control.Text.UserExit#Title" value="[ProductName] セットアップを中断しました"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Description" value="［インストール］をクリックしてインストールを開始してください。&#10;インストールの設定を変更する場合は［戻る］をクリックしてください。［キャンセル］をクリックすると、セットアップを中止します。"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Intro" value="[Wizard]は [ProductName] のインストールを開始する準備ができました。"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Title" value="インストール準備完了"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Description" value="このコンピュータから [ProductName] を削除するには、［削除］をクリックしてください。&#10;設定を参照したり変更したりする場合は、［戻る］をクリックします。［キャンセル］をクリックすると、セットアップを中止します。"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Intro" value="[Wizard]は [ProductName] を削除する準備ができました"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Title" value="削除準備完了"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Description" value="［修復］をクリックして [ProductName] を修復してください。&#10;設定を参照したり変更したりする場合は、［戻る］をクリックします。［キャンセル］をクリックすると、セットアップを中止します。"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Intro" value="[Wizard]は [ProductName] を修復する準備ができました。"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Title" value="修復準備完了"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Description" value="[Wizard]は [ProductName] をあなたのコンピュータにインストールします。続行するには［[Text_Next]］をクリックしてください。"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Intro" value="[ProductName] セットアップ ウィザードへようこそ"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Title" value="[ProductName] セットアップへようこそ"/>
+  <STRING id="Graphite.MaintenanceTypeDlg#Title" value="[ProductName] メンテナンスへようこそ"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Complete" value="完全"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Custom" value="カスタム"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Typical" value="標準"/>
+  <!-- Modern Theme strings -->
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#AddRemoveButton" value="インストールする機能の変更や、指定した機能の削除を行います。|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RemoveButton" value="コンピュータから [ProductName] を削除します。|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RepairButton" value="エラーの修復を行います。不足または破損したファイル、ショートカット、レジストリエントリを修復します。|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CompleteInstallButton" value="すべてのプログラム機能がインストールされます。(もっとも多くのディスク容量が必要です。)|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CustomInstallButton" value="どのプログラム機能をインストールするかを選択できます。上級ユーザーにお勧めします。|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#TypicalInstallButton" value="もっとも一般的なプログラム機能をインストールします。ほとんどのユーザーにお勧めします。|"/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#BottomNote" value="続行するには［[Text_Next]］をクリックしてください。"/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#Description" value="[Wizard] は指定されたネットワーク ロケーションに [ProductName] のサーバー イメージを作成します。"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#Browse" value="参照..."/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#FeatureDescriptionLabel" value="機能詳細:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#InstallPathLabel" value="インストール先(&amp;P):"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#SelectionTreeLabel" value="インストールする機能を選択してください:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#VolumeCostListLabel" value="必要なディスク容量:"/>
+  <STRING id="Modern.Control.Text.Dlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.Dlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.Dlg#Setup" value="セットアップ"/>
+  <STRING id="Modern.Control.Text.FatalError#Description" value="[ProductName] セットアップはエラーのため途中で終了しました。あなたのシステムは変更されていません。後でこのプログラムをインストールするためには再度インストーラを実行してください。"/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#AgreementLabel" value="ライセンス条項を注意深くお読みになり、記載されているすべての権利および制限事項を確実にご理解ください。このソフトウェアのインストールを行う前に、ライセンス条項に同意する必要があります。"/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#ButtonLabel" value="Page Down キーを押して最後までお読みください。"/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#PrintButton" value="印刷"/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#BottomNote" value="続行するには［[Text_Next]］をクリックしてください。"/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard]は [ProductName] の変更や修復、または [ProductName] をあなたのコンピュータから削除することができます。"/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Description" value="[Wizard]は [ProductName] のパッチをあなたのコンピュータにインストールします。続行するには［[Text_Next]］をクリックしてください。［キャンセル］をクリックするとパッチ[Wizard]を終了します。"/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Title" value="[ProductName] のパッチ[Wizard]へようこそ"/>
+  <STRING id="Modern.Control.Text.PrepareDlg#Description" value="[Wizard] がインストールの準備をする間、しばらくお待ちください。"/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Description" value="インストールする前提条件を選択してください。"/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Title" value="前提条件"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Description" value="以下のテキストを注意深くお読みください。"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Title" value="README ファイル"/>
+  <STRING id="Modern.Control.Text.ResumeDlg#BottomNote" value="続行するには［インストール］をクリックしてください。［キャンセル］をクリックすると[Wizard]を終了します。"/>
+  <STRING id="Modern.Control.Text.ResumeDlg#Description" value="[Wizard]は [ProductName] のインストールを完了させます。"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#BrowseButton" value="参照..."/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#PathLabel" value="インストール先(&amp;P):"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#Title" value="インストールする機能を選択してください:"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#VolumeCostListLabel" value="必要なディスク容量:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Description" value="アプリケーションのショートカットを作成します。"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#ShortcutsLabel" value="[ProductName] のショートカットを、次の場所に作成します:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Title" value="ショートカットの設定"/>
+  <STRING id="Modern.Control.Text.SQLConnectionDlg#Description" value="SQL 接続を設定します。"/>
+  <STRING id="Modern.Control.Text.TomcatServerDlg#Description" value="Tomcat サーバーを設定してください。"/>
+  <STRING id="Modern.Control.Text.UserExit#BottomNote" value="［完了］ボタンをクリックして[Wizard]を終了してください。"/>
+  <STRING id="Modern.Control.Text.UserExit#Description" value="[ProductName] のセットアップを中断しました。あなたのシステムは変更されていません。後でこのプログラムをインストールするには再度インストールを実行してください。"/>
+  <STRING id="Modern.Control.Text.UserRegistrationDlg#Description" value="情報を入力してください。"/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#BottomNote" value="［インストール］をクリックしてインストールを開始してください。&#10;インストールの設定を変更する場合は［戻る］をクリックしてください。［キャンセル］をクリックすると、セットアップを中止します。"/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Description" value="[Wizard]は [ProductName] のインストールを開始する準備ができました。"/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Title" value="インストール準備完了"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#BottomNote" value="このコンピュータから [ProductName] を削除するには、［削除］をクリックしてください。&#10;設定を参照したり変更したりする場合は、［戻る］をクリックします。［キャンセル］をクリックすると、セットアップを中止します。"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Description" value="ご使用のシステムからプログラムを削除するオプションを選択しました。"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Title" value="[ProductName] の削除"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#BottomNote" value="［修復］をクリックして [ProductName] を修復してください。&#10;設定を参照したり変更したりする場合は、［戻る］をクリックします。［キャンセル］をクリックすると、セットアップを中止します。"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Description" value="[Wizard]は [ProductName] を修復する準備ができました。"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Title" value="[ProductName] の修復"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#BottomNote" value="続行するには［[Text_Next]］をクリックしてください。"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Description" value="[Wizard]は [ProductName] をあなたのコンピュータにインストールします。"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Title" value="[ProductName] [Wizard]へようこそ"/>
+  <STRING id="UIText.InstallMessage" value="ファイルをインストールしています。"/>
+  <STRING id="UIText.SharePointLogActivatingFeature" value="機能 [1] を有効化しています。"/>
+  <STRING id="UIText.SharePointLogAddingSln" value="ソリューションを追加しています: [1]。"/>
+  <STRING id="UIText.SharePointLogDeletingSln" value="ソリューションを削除しています: [1]。"/>
+  <STRING id="UIText.SharePointLogDeployingSln" value="ソリューション [1] を URL [2] に配布しています。"/>
+  <STRING id="UIText.SharePointLogFinish" value="SharePoint ソリューションの配布を完了しています"/>
+  <STRING id="UIText.SharePointLogInstall" value="初期インストールモードで実行します。"/>
+  <STRING id="UIText.SharePointLogMaintenance" value="メンテナンスモードで実行します。"/>
+  <STRING id="UIText.SharePointLogMissingStsadm" value="SharePoint または MSI の設定が不適切です。インストーラが SharePoint と同じパッケージタイプ（32 ビットまたは 64 ビット）であることを確認してください。"/>
+  <STRING id="UIText.SharePointLogNoUrl" value="注意: ソリューションは正しく配布されていない可能性があります。AI_WSP_URL に有効な URL が見つからず、ソリューションはグローバルでもローカルでもありません。"/>
+  <STRING id="UIText.SharePointLogRetractingSln" value="ソリューションを待避しています: [1]。"/>
+  <STRING id="UIText.SharePointLogRetractingSlnAdmin" value="ソリューション [1] を管理用仮想サーバー [2] から待避しています。"/>
+  <STRING id="UIText.SharePointLogStart" value="SharePoint ソリューションの配布を開始しています"/>
+  <STRING id="UIText.SharePointLogUninstall" value="アンインストールモードで実行します。"/>
+  <STRING id="UIText.SharePointLogUninstallFinish" value="SharePoint ソリューションの配布を終了しました"/>
+  <STRING id="UIText.SharePointLogUninstallStart" value="SharePoint ソリューションをアンインストールしています"/>
+  <STRING id="UIText.SharePointLogWspNoFile" value="CAB ファイルが見つかりません: [1]。スキップします。"/>
+  <STRING id="UIText.SharePointLogWspNoName" value="名前のない CAB をスキップします。完全なオプション文字列: [1]。"/>
+  <STRING id="UIText.SharePointLogWspNoOptions" value="不完全な CAB をスキップします。完全なオプション文字列: [1]。"/>
+  <STRING id="Air.Control.Help#Back" value="戻る|"/>
+  <STRING id="Air.Control.Help.ExitDialog#LaunchProdCheckBox" value="アプリケーションを起動|"/>
+  <STRING id="Air.Control.Help.ExitDialog#ViewReadmeCheckBox" value="README を表示|"/>
+  <STRING id="Air.Control.Text.ExitDialog#LaunchProdCheckBox" value="アプリケーションを起動"/>
+  <STRING id="Air.Control.Text.ExitDialog#SubTitle" value="ありがとうございます"/>
+  <STRING id="Air.Control.Text.FolderDlg#SubTitle" value="インストールフォルダの選択"/>
+  <STRING id="Air.Control.Text.LicenseAgreementDlg#SubTitle" value="ライセンス許諾条件"/>
+  <STRING id="Air.Control.Text.PrepareDlg#Description" value="セットアップの初期化が終わるまでお待ちください。"/>
+  <STRING id="Air.Control.Text.UserExit#SubTitle" value="セットアップの中止"/>
+  <STRING id="Air.Control.Text.WelcomeDlg#Title" value="[ProductName] [Wizard]"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#IntroUninstall" value="[ProductName] は正しくアンインストールされました。"/>
+  <STRING id="Metro.Control.ExtData#Cancel" value="[ButtonText_Cancel]"/>
+  <STRING id="Metro.Control.ExtData#Modify" value="変更(&amp;M)"/>
+  <STRING id="Metro.Control.ExtData#No" value="[ButtonText_No]"/>
+  <STRING id="Metro.Control.ExtData#OK" value="&amp;[ButtonText_OK]"/>
+  <STRING id="Metro.Control.ExtData#Yes" value="[ButtonText_Yes]"/>
+  <STRING id="Metro.Control.ExtData.Back" value="戻る"/>
+  <STRING id="Metro.Control.ExtData.ExitDialog#Finish" value="[ButtonText_Finish]"/>
+  <STRING id="Metro.Control.ExtData.VerifyReadyDlg#InstallButton" value="インストール"/>
+  <STRING id="Metro.Control.ExtData.VerifyRemoveDlg#Remove" value="削除(&amp;R)"/>
+  <STRING id="Metro.Control.ExtData.VerifyRepairDlg#Repair" value="修復(&amp;R)"/>
+  <STRING id="Metro.Control.ExtData.WelcomeDlg.BrowseTxt" value="..."/>
+  <STRING id="Metro.Control.Text.AdminWelcomeDlg#Description" value="[Wizard]は指定されたネットワーク位置に [ProductName] のサーバイメージを作成します。&quot;[Text_Next]&quot; をクリックして続行するか、&quot;Cancel&quot; をクリックして[Wizard]を終了してください。"/>
+  <STRING id="Metro.Control.Text.ExitDialog#Readme" value="README"/>
+  <STRING id="Metro.Control.Text.ExitDialog#Run" value="実行"/>
+  <STRING id="Metro.Control.Text.LicenseAgreementDlg#AgreeInstall" value="承諾してインストール(&amp;A)"/>
+  <STRING id="Metro.Control.Text.Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Metro.Control.Text.OutOfDiskDlg#Text" value="ハイライトされたボリュームの空き容量が不十分です。異なるインストール先ドライブを選択するか、ファイルを削除するか、インストールする機能を減らしてください。"/>
+  <STRING id="Metro.Control.Text.ProductName" value="[ProductName]"/>
+  <STRING id="Metro.Control.Text.ResumeDlg#Description" value="[Wizard]はコンピュータへの [ProductName] のインストールを完了します。&quot;Install&quot; をクリックして続行してください。"/>
+  <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_2" value="インストール場所:"/>
+  <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_4" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_5" value="必要なディスク容量:"/>
+  <STRING id="Metro.Control.Text.VerifyRemoveDlg#Text" value="&quot;Remove&quot; をクリックして [ProductName] をコンピュータから削除します。 インストール設定を変更するには &quot;Back&quot; をクリックしてください。"/>
+  <STRING id="Metro.Control.Text.VerifyRepairDlg#Text" value="&quot;Repair&quot; をクリックして [ProductName] のインストールを修復します。 インストール設定を変更するには &quot;Back&quot; をクリックしてください。"/>
+  <STRING id="Metro.Control.Text.WelcomeDlg#YouMustAgreeCtrl" value="[ProductName] をインストールするには &lt;a href=&quot;&quot;&gt;ライセンス許諾条件&lt;/a&gt; に同意していただく必要があります。"/>
+  <STRING id="Metro.Control.Text.WelcomeDlg.AgreeToLicense" value="ライセンス許諾条件に同意します。"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CompleteLabel" value="完了"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CompleteText" value="クライアントおよびサーバー"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CustomLabel" value="サーバー"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CustomText" value="サーバーの設定のみインストール"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#TypicalLabel" value="クライアント"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#TypicalText" value="クライアントの設定のみインストール"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#Desc" value="[ProductName] のインストール方法をカスタマイズ"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#SpaceAvail" value="ドライブの空き容量: [PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#SpaceReq" value="必要なドライブの空き容量: [PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#Title" value="インストールオプション"/>
+  <STRING id="Spring.Control.Text.ExitDialog#Close" value="閉じる"/>
+  <STRING id="Spring.Control.Text.ExitDialog#Description" value="[ProductName] は正常に[Finish1]されました。"/>
+  <STRING id="Spring.Control.Text.ExitDialog#EventConfigured" value="設定済み"/>
+  <STRING id="Spring.Control.Text.ExitDialog#EventInstalled" value="インストール済み"/>
+  <STRING id="Spring.Control.Text.ExitDialog#EventRemoved" value="削除済み"/>
+  <STRING id="Spring.Control.Text.FolderDlg#SpaceRem" value="ドライブの残り空き容量: [PrimaryVolumeSpaceRemaining]"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#ModifyDesc" value="機能の追加または削除"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#ModifyLabel" value="変更"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RemoveDesc" value="[ProductName] を削除"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RemoveLabel" value="アンインストール"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RepairDesc" value="存在しないファイルや破損ファイルを修復"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RepairLabel" value="修復"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#Title" value="[ProductName] のインストールを変更"/>
+  <STRING id="Spring.Control.Text.OutOfDiskDlg#Title" value="ディスクの空き容量が不足しています"/>
+  <STRING id="Spring.Control.Text.OutOfRbDiskDlg#Title" value="ロールバックを無効にしますか？"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#CustomLabel" value="カスタム"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#CustomText" value="インストールする機能の選択"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#TypicalLabel" value="今すぐインストール"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#TypicalText" value="一般的な機能をインストールします"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="後で使用するためにアプリケーションを設定しています"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="レジストリ領域を割り当てています"/>
+  <STRING id="ActionText.Description.AppSearch" value="インストールされているアプリケーションを検索しています"/>
+  <STRING id="ActionText.Description.BindImage" value="実行ファイルをバインドしています"/>
+  <STRING id="ActionText.Description.CCPSearch" value="条件に合う製品を検索しています"/>
+  <STRING id="ActionText.Description.CostFinalize" value="必要な領域を計算しています"/>
+  <STRING id="ActionText.Description.CostInitialize" value="必要な領域を計算しています"/>
+  <STRING id="ActionText.Description.CreateFolders" value="フォルダを作成しています"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="ショートカットを作成しています"/>
+  <STRING id="ActionText.Description.DeleteServices" value="サービスを削除しています"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="重複しているファイルを作成しています"/>
+  <STRING id="ActionText.Description.FileCost" value="必要な領域を計算しています"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="関連のアプリケーションを検索しています"/>
+  <STRING id="ActionText.Description.GenerateScript" value="操作のためのスクリプト操作を作成しています:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="ネットワーク インストール ファイルをコピーしています"/>
+  <STRING id="ActionText.Description.InstallFiles" value="新しいファイルをコピーしています"/>
+  <STRING id="ActionText.Description.InstallODBC" value="ODBC コンポーネントをインストールしています"/>
+  <STRING id="ActionText.Description.InstallServices" value="新しいサービスをインストールしています"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="システム カタログをインストールしています"/>
+  <STRING id="ActionText.Description.InstallValidate" value="インストールを検証しています"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="起動状態を検証しています"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="関連のアプリケーションから機能の状態を移行しています"/>
+  <STRING id="ActionText.Description.MoveFiles" value="ファイルを移動しています"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="アセンブリ情報を発行しています"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="アセンブリ情報の発行を停止しています"/>
+  <STRING id="ActionText.Description.PatchFiles" value="ファイルを修正しています"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="コンポーネントの登録を更新しています"/>
+  <STRING id="ActionText.Description.PublishComponents" value="条件に合うコンポーネントを発行しています"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="製品機能を発行しています"/>
+  <STRING id="ActionText.Description.PublishProduct" value="製品情報を発行しています"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="クラス サーバーを登録しています"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="COM+ アプリケーションとコンポーネントを登録しています"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="エクステンション サーバーを登録しています"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="フォントを登録しています"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="MIME 情報を登録しています"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="製品を登録しています"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="プログラム識別子を登録しています"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="タイプライブラリを登録しています"/>
+  <STRING id="ActionText.Description.RegisterUser" value="ユーザーを登録しています"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="重複しているファイルを削除しています"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="環境ストリングを更新しています"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="アプリケーションを削除しています"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="ファイルを削除しています"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="フォルダを削除しています"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="INI ファイルのエントリを削除しています"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="ODBC コンポーネントを削除しています"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="システム レジストリの値を削除しています"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="ショートカットを削除しています"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="条件に合う製品を検索しています"/>
+  <STRING id="ActionText.Description.Rollback" value="操作を元に戻しています:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="バックアップ ファイルを削除しています"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="モジュールを登録しています"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="モジュールの登録を解除しています"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="ODBC ディレクトリを初期化しています"/>
+  <STRING id="ActionText.Description.StartServices" value="サービスを開始しています"/>
+  <STRING id="ActionText.Description.StopServices" value="サービスを停止しています"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="移動したファイルを削除しています"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="条件に合うコンポーネントの発行を停止しています"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="製品機能の発行を停止しています"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="製品情報の発行を停止しています"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="クラス サーバーの登録を解除しています"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="COM+ アプリケーションとコンポーネントの登録を解除しています"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="エクステンション サーバーの登録を解除しています"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="フォントの登録を解除しています"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="MIME 情報の登録を解除しています"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="プログラム識別子の登録を解除しています"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="タイプライブラリの登録を解除しています"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="環境ストリングを更新しています"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="INI ファイルに値を書き込んでいます"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="システム レジストリの値を書き込んでいます"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="空き領域: [1]"/>
+  <STRING id="ActionText.Template.AppSearch" value="プロパティ: [1]、 署名: [2]"/>
+  <STRING id="ActionText.Template.BindImage" value="ファイル: [1]"/>
+  <STRING id="ActionText.Template.CreateFolders" value="フォルダ: [1]"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="ショートカット: [1]"/>
+  <STRING id="ActionText.Template.DeleteServices" value="サービス: [1]"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="ファイル: [1]、  ディレクトリ: [9]、  サイズ: [6]"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="見つかったアプリケーション : [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="ファイル: [1]、 ディレクトリ: [9]、 サイズ: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="ファイル: [1]、  ディレクトリ: [9]、  サイズ: [6]"/>
+  <STRING id="ActionText.Template.InstallServices" value="サービス: [2]"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="ファイル: [1],  依存関係: [2]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="アプリケーション : [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="ファイル: [1]、  ディレクトリ: [9]、  サイズ: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="アプリケーション コンテキスト:[1], アセンブリ名:[2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="アプリケーション コンテキスト:[1], アセンブリ名:[2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="ファイル: [1]、  ディレクトリ: [2]、  サイズ: [3]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="コンポーネント ID: [1]、修飾子: [2]"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="機能: [1]"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="クラス ID: [1]"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId : [1]{{, AppType : [2], Users : [3], RSN : [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="エクステンション: [1]"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="フォント: [1]"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="MIME コンテント タイプ: [1]、エクステンション: [2]"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="プログラム ID: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="ライブラリ ID: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="ファイル: [1]、 ディレクトリ: [9]"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="名前: [1]、値: [2]、操作 [3]"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="アプリケーション : [1], コマンド ライン : [2]"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="ファイル: [1]、 ディレクトリ: [9]"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="フォルダ: [1]"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="ファイル: [1]、セクション: [2]、キー: [3]、値: [4]"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="キー: [1]、名前: [2]"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="ショートカット: [1]"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="ファイル: [1]"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="ファイル: [1]、フォルダ: [2]"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="ファイル: [1]、フォルダ: [2]"/>
+  <STRING id="ActionText.Template.StartServices" value="サービス: [1]"/>
+  <STRING id="ActionText.Template.StopServices" value="サービス: [1]"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="ファイル: [1]、 ディレクトリ: [9]"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="コンポーネント ID: [1]、修飾子: [2]"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="機能: [1]"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="クラス ID: [1]"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId : [1]{{, AppType : [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="エクステンション: [1]"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="フォント: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="MIME コンテント タイプ: [1]、エクステンション: [2]"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="プログラム ID: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="ライブラリ ID: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="名前: [1]、値: [2]、操作 [3]"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="ファイル: [1]、セクション: [2]、キー: [3]、値: [4]"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="キー: [1]、 名前: [2]、 値: [3]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="ローカル コンピュータにユーザー アカウントを作成しています"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="ローカル コンピュータにユーザー グループを作成しています"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="アーカイブから展開されたファイルを削除しています"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="アーカイブからファイルを展開しています"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="IIS Web サイトと仮想ディレクトリを作成しています"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="インターネット インフォメーション サービスを構成するためのアクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="IIS Web サイトと仮想ディレクトリを削除しています"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value=" IIS 構成をロールバックしています"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="インターネット インフォメーション サービスを構成するためのアクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="ローカル コンピュータ上にユーザー アカウントを作成するためのアクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="ローカル コンピュータ上でフォルダを共有するためのアクションを作成しています:"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="ローカル コンピュータ上にユーザー グループを作成するためのアクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="ローカル コンピュータ上でタスクをスケジュールするためのアクションを作成しています:"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="ユーザー アカウントをローカル コンピュータから削除しています"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="ユーザー グループをローカル コンピュータから削除しています"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="フォルダ共有をローカル コンピュータから削除しています"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="スケジュールされたタスクをローカル コンピュータから削除しています"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="ローカル コンピュータ上に作成されたユーザー アカウントをロールバックしています"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="ローカル コンピュータ上に作成されたユーザー グループをロールバックしています"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="ローカル コンピュータに作成されたフォルダ共有をロールバックしています"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="ローカル コンピュータでスケジュールされたタスクをロールバックしています"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="ローカル コンピュータ上でタスクをスケジュールしています"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="ローカル コンピュータにフォルダ共有を作成しています"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="インストール SQL スクリプトを実行しています"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="インストール SQL スクリプトを実行するためのデータベース設定アクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="アンインストール SQL スクリプトを実行しています"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="ロールバック SQL スクリプトを実行しています"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="アンインストール SQL スクリプトを実行するためのデータベース設定アクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="ローカル コンピュータ上のユーザー アカウントを削除するためのアクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="ローカル コンピュータ上のユーザー グループを削除するためのアクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="ローカル コンピュータ上のフォルダ共有を削除するためのアクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="ローカル コンピュータ上でスケジュールされたタスクを削除するためのアクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="XML ファイルを構成しています"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="XML ファイルを構成するためのアクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="XML ファイルを構成しています"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="XML ファイルの構成をロールバックしています"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="XML ファイルを構成するためのアクションを作成しています"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="アカウント: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="アカウント: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="&quot;[1]&quot;をインストールしています"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="&quot;[1]&quot;を削除しています"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="メタベースの構成を復元しています"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="アカウント: [1],属性: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="フォルダ: [1],共有名: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="アカウント: [1],属性: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="タスク名: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="アカウント: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="アカウント: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="共有名: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="タスク名: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="アカウント: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="アカウント: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="共有名: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="タスク名: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="タスク名: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="フォルダ: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="接続: [1]スクリプト: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="接続: [1]スクリプト: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="接続: [1] スクリプト: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="アカウント: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="アカウント: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="共有名: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="構成中のXML ファイル: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="構成中のXML ファイル: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="XML ファイルの構成をロールバックしています"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Windows ファイアウォールの設定を行っています"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Windows ファイアウォール 設定アクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Windows ファイアウォールの設定を行っています"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Windows ファイアウォールの設定をロールバックしています"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Windows ファイアウォール 設定アクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="ゲーム エクスプローラの設定を行っています"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="ゲーム エクスプローラ 設定アクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="ゲーム エクスプローラの設定を行っています"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="ゲーム エクスプローラの設定をロールバックしています"/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="ゲーム エクスプローラ 設定アクションを作成しています"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="SQL スクリプトを変更しています"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Windows ファイアウォールの規則を設定しています: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Windows ファイアウォールの規則を設定しています:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Windows ファイアウォールの設定をロールバックしています"/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="ゲームを設定しています: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="ゲームを削除しています: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="ゲーム エクスプローラの設定をロールバックしています"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="接続: [1]  スクリプト: [2]"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="ファイルを削除しています。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="ファイルを削除しています。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="ファイルの削除アクションを生成しています。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="レジストリを削除しています。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="レジストリを削除しています。"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="レジストリ エントリの削除アクションを生成しています。"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="Windows CE アプリケーション マネージャにモバイル アプリケーションを登録しています"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="Windows CE アプリケーション マネージャへ登録したデータを処理しています(ステージ 2)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="Windows CE アプリケーション マネージャへ登録したデータを処理しています(ステージ 1)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="アプリケーションを設定するためWindows CE アプリケーション マネージャを起動しています"/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="前提条件ソフトウェアをダウンロードしています"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="前提条件ソフトウェアを展開しています"/>
+  <STRING id="ActionText.Description.AI_InstallLibraries" value="Windows ライブラリ をインストールしています"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="前提条件ソフトウェアをインストールしています"/>
+  <STRING id="ActionText.Description.AI_RollbackLibraries" value="Windows ライブラリ のインストールをロールバックしています"/>
+  <STRING id="ActionText.Description.AI_UninstallLibraries" value="Windows ライブラリ をアンインストールしています"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="前提条件を検証しています"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="ファイルを削除しています: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="ファイルを削除しています: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="レジストリ エントリを削除しています: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="レジストリ エントリを削除しています: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="ダウンロードしています [1]{[2] 終了}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="展開しています [1]{[2] 終了}"/>
+  <STRING id="ActionText.Template.AI_InstallLibraries" value="インストールしています [1]"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="インストールしています [1]{[2] 終了}"/>
+  <STRING id="ActionText.Template.AI_RollbackLibraries" value="ロールバックしています [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallLibraries" value="アンインストールしています [1]"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="[1] は正常にインストールされませんでした。"/>
+  <STRING id="ActionText.Description.AI_AiBackupDeferred" value="バックアップ操作を実行しています"/>
+  <STRING id="ActionText.Description.AI_AiBackupImmediate" value="バックアップ操作を準備しています"/>
+  <STRING id="ActionText.Description.AI_AiBackupRollback" value="バックアップのロールバック"/>
+  <STRING id="ActionText.Description.AI_AiMoveFilesDeferred" value="ファイルを移動しています"/>
+  <STRING id="ActionText.Description.AI_AiMoveFilesImmediate" value="ファイルを移動しています"/>
+  <STRING id="ActionText.Description.AI_AiMoveFilesRollback" value="ファイル移動のロールバック"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Permanent" value="削除するファイルを準備しています"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Undoable" value="削除するファイルを準備しています"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesRollback" value="削除したファイルを復元しています"/>
+  <STRING id="ActionText.Description.AI_AiRestoreDeferred" value="復元操作を実行しています"/>
+  <STRING id="ActionText.Description.AI_AiRestoreImmediate" value="復元操作を準備しています"/>
+  <STRING id="ActionText.Description.AI_AiRestoreRollback" value="復元操作のロールバック"/>
+  <STRING id="ActionText.Description.AI_CommitAccounts" value="ローカルコンピュータのユーザ追加操作を確定します"/>
+  <STRING id="ActionText.Description.AI_DeploySharePointSln" value="SharePoint ソリューションを配布しています"/>
+  <STRING id="ActionText.Description.AI_RemoveSharePointSln" value="SharePoint ソリューションを削除しています"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterCommit" value="テキストファイルの変更を確定します"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterConfig" value="テキストファイルを更新しています"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterInstall" value="テキストファイルの更新アクションを生成しています"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterRollback" value="テキストファイルの変更のロールバック"/>
+  <STRING id="ActionText.Description.AI_XmlCommit" value="XML ファイル設定を確定しています"/>
+  <STRING id="ActionText.Description.AI_XmlLocator" value="XML ロケータを実行しています"/>
+  <STRING id="ActionText.Template.AI_AiBackupDeferred" value="パス: [1]"/>
+  <STRING id="ActionText.Template.AI_AiBackupImmediate" value="パス: [1]"/>
+  <STRING id="ActionText.Template.AI_AiBackupRollback" value="パス: [1]"/>
+  <STRING id="ActionText.Template.AI_AiMoveFilesDeferred" value="ファイル: [1],  ディレクトリ: [2],  サイズ: [3]"/>
+  <STRING id="ActionText.Template.AI_AiMoveFilesImmediate" value="ファイル: [1],  ディレクトリ: [2],  サイズ: [3]"/>
+  <STRING id="ActionText.Template.AI_AiMoveFilesRollback" value="ファイル: [1],  ディレクトリ: [2],  サイズ: [3]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred_Permanent" value="ファイルを準備中: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred_Undoable" value="ファイルを準備中: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesImmediate" value="ファイルを準備中: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesRollback" value="ファイルを復元中: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRestoreDeferred" value="パス: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRestoreImmediate" value="パス: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRestoreRollback" value="パス: [1]"/>
+  <STRING id="ActionText.Template.AI_DeploySharePointSln" value="SharePoint ソリューションを配布中: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_RemoveSharePointSln" value="SharePoint ソリューションを削除中: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_TxtUpdaterCommit" value="テキストファイルの変更を確定します。"/>
+  <STRING id="ActionText.Template.AI_TxtUpdaterConfig" value="テキストファイルを更新中: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_TxtUpdaterRollback" value="テキストファイルの変更をロールバックします。"/>
+  <STRING id="ActionText.Template.AI_XmlCommit" value="XML ファイル設定を確定しています。"/>
+  <STRING id="ActionText.Template.AI_XmlLocator" value="XML ファイル: &quot;[1]&quot; のロケータを実行中"/>
+  <STRING id="Error.1001" value="エラー [1]。 [2]"/>
+  <STRING id="Error.2333" value="ファイル属性の設定エラーです。 GetLastError: [2]。"/>
+  <STRING id="Error.4026" value="ウェブサイト &quot;[2]&quot; は既にサーバに存在します。&#10;&#10;ウェブサイトを上書きしてインストールを続行しますか？&#10;（この操作は取り消しできません。）"/>
+  <STRING id="Error.4027" value="ウェブサイト &quot;[3]&quot; 上の仮想ディレクトリ &quot;[2]&quot; は既にサーバに存在します。&#10;&#10;仮想ディレクトリを上書きしてインストールを続行しますか？&#10;（この操作は取り消しできません。）"/>
+  <STRING id="Error.4028" value="アプリケーションプール &quot;[2]&quot; は既にサーバに存在します。&#10;&#10;アプリケーションプールを上書きしてインストールを続行しますか？&#10;（この操作は取り消しできません。）"/>
+  <STRING id="Error.4029" value="ID [\[] [2] [\]] のウェブサイト &quot;[3]&quot; は既にサーバに存在します。&#10;&#10;ウェブサイトをスキップしてインストールを続行しますか？"/>
+  <STRING id="Error.4030" value="ID [\[] [2] [\]] のウェブサイト &quot;[3]&quot; は既にサーバに存在します。&#10;&#10;ウェブサイトを上書きしてインストールを続行しますか？&#10;（この操作は取り消しできません。）"/>
+  <STRING id="Error.4031" value="ウェブサイト &quot;[2]&quot; のデジタル証明書の処理中にエラーが発生しました。"/>
+  <STRING id="Error.4157" value="[2] のロードに失敗しました。 エラー:[3]"/>
+  <STRING id="Error.4158" value="無効なファイル名が指定されたため、ファイル [2] の作成に失敗しました。"/>
+  <STRING id="Error.4159" value="ファイル [4] に対する &quot;[2]&quot; の検索と &quot;[3]&quot; への置換に失敗しました。ファイルの内容は変更されていません。"/>
+  <STRING id="Error.4160" value="指定されたインストールパスは既に存在します。異なるパスを選択してください。"/>
+  <STRING id="Error.4161" value="指定されたインストールパスは既に存在します。上書きしますか？"/>
+  <STRING id="Error.4162" value="指定されたインストールパスは &quot;[1]&quot; 要素を含んでいるので使用できません。異なるパスを選択してください。"/>
+  <STRING id="Error.4163" value="指定されたインストールパスは &quot;[1]&quot; 要素を含んでいないので使用できません。異なるパスを選択してください。"/>
+  <STRING id="Error.4164" value="異なるシリアル番号を使ってインストールする場合はセットアップを再起動してください。"/>
+  <STRING id="Error.4165" value="SharePoint ソリューションの配布中にエラーが発生しました。インストールを中止します。"/>
+
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{致命的なエラー: }}"/>
+  <STRING id="Error.1" value="{{エラー [1]。  }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="メッセージの種類: [1], 引数: [2]"/>
+  <STRING id="Error.1101" value="ファイルを読み取るときにエラーが発生しました: [2]。{{ システム エラー [3]。}} ファイルが存在し、アクセスできることを確認してください。"/>
+  <STRING id="Error.12" value="=== ログ開始: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== ログ終了: [Date]  [Time] ==="/>
+  <STRING id="Error.1301" value="ファイル &apos;[2]&apos; を作成できません。この名前のディレクトリが既にあります。インストールを取り消し、別の場所にインストールしてください。"/>
+  <STRING id="Error.1302" value="ディスク [2] を挿入してください。"/>
+  <STRING id="Error.1303" value="インストール プログラムにはディレクトリ [2] にアクセスするための特権が不足しています。インストールを続行できません。Administrator としてログオンするか、またはシステム管理者に問い合わせてください。"/>
+  <STRING id="Error.1304" value="ファイルに書き込むときにエラーが発生しました: [2]。このディレクトリにアクセスできることを確認してください。"/>
+  <STRING id="Error.1305" value="ファイル [2] の読み込みに失敗しました。{{ システム エラー [3]。}} ファイルが存在しアクセス権があることを確認してください。"/>
+  <STRING id="Error.1306" value="ファイル &apos;[2]&apos; は別のアプリケーションで使用されています。開いているアプリケーションをすべて終了してから、［再試行］をクリックしてください。"/>
+  <STRING id="Error.1307" value="ファイル [2] をインストールするためのディスク領域が不足しています。ディスク領域を解放してから、［再試行］をクリックしてください。終了する場合は［キャンセル］をクリックします。"/>
+  <STRING id="Error.1308" value="ソース ファイル [2] が見つかりません。ファイルが存在し、アクセスできることを確認してください。"/>
+  <STRING id="Error.1309" value="ファイルを読み取るときにエラーが発生しました: [3]。{{ システム エラー [2]。}} ファイルが存在し、アクセスできることを確認してください。"/>
+  <STRING id="Error.1310" value="ファイルに書き込むときにエラーが発生しました: [3]。{{ システム エラー[2]。}} このディレクトリにアクセスできることを確認してください。"/>
+  <STRING id="Error.1311" value="ソース ファイルが見つかりません。{{(cabinet)}}: [2]。ファイルが存在し、アクセスできることを確認してください。"/>
+  <STRING id="Error.1312" value="ディレクトリ &apos;[2]&apos; を作成できません。この名前のファイルが既にあります。ファイルの名前を変更するか、ファイルを削除してから、［再試行］をクリックしてください。または、［キャンセル］をクリックして、終了してください。"/>
+  <STRING id="Error.1313" value="ボリューム [2] は現在使用できません。別のボリュームを選択してください。"/>
+  <STRING id="Error.1314" value="指定されたパス &apos;[2]&apos; は使用できません。"/>
+  <STRING id="Error.1315" value="指定されたフォルダに書き込めません: [2]。"/>
+  <STRING id="Error.1316" value="次のファイルを読み取り中に、ネットワーク エラーが発生しました: [2]"/>
+  <STRING id="Error.1317" value="ディレクトリ [2] を作成中に、エラーが発生しました。"/>
+  <STRING id="Error.1318" value="ディレクトリ [2] を作成中に、ネットワーク エラーが発生しました。"/>
+  <STRING id="Error.1319" value="ソース ファイル キャビネットを開いている途中で、ネットワーク エラーが発生しました: [2]。"/>
+  <STRING id="Error.1320" value="指定されたパスは長すぎます: [2]"/>
+  <STRING id="Error.1321" value="インストール プログラムには、ファイルを修正する特権がありません: [2]。"/>
+  <STRING id="Error.1322" value="フォルダ パス &apos;[2]&apos; の一部は無効です。フォルダ パスが空であるか、またはシステムで許可された長さを超えています。"/>
+  <STRING id="Error.1323" value="フォルダ パス &apos;[2]&apos; に使用されている単語の中に、フォルダ パスでは使用できないものが含まれています。"/>
+  <STRING id="Error.1324" value="フォルダ パス &apos;[2]&apos; に使用できない文字が含まれています。"/>
+  <STRING id="Error.1325" value="[2]&apos; はショート ファイル名としては正しくありません。"/>
+  <STRING id="Error.1326" value="ファイル セキュリティを取得するときにエラーが発生しました: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="ドライブが正しくありません: [2]"/>
+  <STRING id="Error.1328" value="ファイル [2] にパッチを適用する時にエラーが発生しました。おそらく別の方法によってアップデートされたためです。このパッチで変更することはできません。詳細は、このパッチのベンダーにお問い合わせください。 {{システム エラー : [3]}}"/>
+  <STRING id="Error.1329" value="キャビネット ファイル [2] にデジタル署名が付いていないため、必要なファイルをインストールできません。キャビネット ファイルが壊れている可能性があります。"/>
+  <STRING id="Error.1330" value="キャビネット ファイル [2] に無効なデジタル署名が付いているため、必要なファイルをインストールできません。キャビネット ファイルが壊れている可能性があります。{{  エラー [3] が WinVerifyTrust によって返されました。}}"/>
+  <STRING id="Error.1331" value="[2] ファイルを正しくコピーできませんでした: CRC エラー。"/>
+  <STRING id="Error.1332" value="[2] ファイルを正しく移動できませんでした: CRC エラー。"/>
+  <STRING id="Error.1333" value="修正プログラムをファイル [2] に正しく適用できませんでした: CRC エラー。"/>
+  <STRING id="Error.1334" value="ファイル &apos;[2]&apos; はキャビネット ファイル &apos;[3]&apos; で見つからないため、インストールできません。ネットワーク エラーまたは CD-ROM からの読み取りエラーが発生したか、このパッケージに問題がある可能性があります。"/>
+  <STRING id="Error.1335" value="このインストールに必要なキャビネット ファイル &apos;[2]&apos; は壊れているため使用できません。ネットワーク エラーまたは CD-ROM からの読み取りエラーが発生したか、このパッケージに問題がある可能性があります。"/>
+  <STRING id="Error.1336" value="このインストールを完了するために必要な一時ファイルを作成するときにエラーが発生しました。{{  フォルダ: [3]. システム エラー コード: [2]}}"/>
+  <STRING id="Error.14" value="操作開始 [Time]: [1]。"/>
+  <STRING id="Error.1401" value="キーを作成できませんでした: [2]。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "/>
+  <STRING id="Error.1402" value="キーを開くことができませんでした: [2]。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "/>
+  <STRING id="Error.1403" value="キー [3] から値 [2] を削除できませんでした。{{ システム エラー [4]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "/>
+  <STRING id="Error.1404" value="キー [2] を削除できませんでした。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "/>
+  <STRING id="Error.1405" value="キー [3] から値 [2] を読み取れませんでした。{{ システム エラー [4]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。 "/>
+  <STRING id="Error.1406" value="値 [2] をキー [3] に書き込めません。{{ システム エラー [4]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1407" value="キー [2] に対する値の名前を取得できませんでした。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1408" value="キー [2] に対するサブ キー名を取得できませんでした。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1409" value="キー [2] に対するセキュリティ情報を読み取れませんでした。{{ システム エラー [3]。}} そのキーへの十分なアクセスがあることを確認するか、またはサポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1410" value="使用可能なレジストリ領域を増やすことができませんでした。このアプリケーションをインストールするには、[2] KB のレジストリ領域が必要です。"/>
+  <STRING id="Error.15" value="操作終了 [Time]: [1]。 戻り値 [2]。"/>
+  <STRING id="Error.1500" value="別のインストールが現在行われています。新たにインストールを行うには、既に実行中のインストールを完了しなければなりません。"/>
+  <STRING id="Error.1501" value="保護されているデータへのアクセスでエラーが発生しました。Windows インストーラが正しく設定されていることを確認してから、再度インストールを実行してください。"/>
+  <STRING id="Error.1502" value="ユーザー &apos;[2]&apos; によって、既に製品 &apos;[3]&apos; のインストールが開始されています。この製品を使う前に、このユーザーは再度インストールを実行する必要があります。現在のインストールはこのまま続行されます。"/>
+  <STRING id="Error.1503" value="ユーザー &apos;[2]&apos; によって、既に製品 &apos;[3]&apos; のインストールが開始されています。この製品を使う前に、このユーザーは再度インストールを実行する必要があります。"/>
+  <STRING id="Error.16" value="残り時間: {[1] 分 }{[2] 秒}"/>
+  <STRING id="Error.1601" value="ディスク領域が足りません -- ボリューム: &apos;[2]&apos;; 必要な領域: [3] KB; 利用可能な領域: [4] KB。ディスク領域を解放してから、再試行してください。"/>
+  <STRING id="Error.1602" value="取り消しますか?"/>
+  <STRING id="Error.1603" value="ファイル [2][3] は使用中です {プロセス名: [4]、ID: [5]、ウィンドウ タイトル: &apos;[6]&apos;} このアプリケーションを終了してから、再試行してください。"/>
+  <STRING id="Error.1604" value="&apos;[2]&apos; が既にインストールされているため、この製品をインストールできません。この 2 つの製品には互換性がありません。"/>
+  <STRING id="Error.1605" value="ボリューム &apos;[2]&apos; のディスク領域が不足しているため、回復を有効にしたままインストールを続行することはできません。[3] KB 必要ですが、[4] KB しかありません。回復情報を保存せずにインストールを続行する場合は［無視］、利用可能な領域を再確認する場合は［再試行］、インストールを終了する場合は［キャンセル］をクリックしてください。"/>
+  <STRING id="Error.1606" value="ネットワーク上の場所 [2] へアクセスできません。"/>
+  <STRING id="Error.1607" value="インストールを続行するには、次のアプリケーションを終了する必要があります:"/>
+  <STRING id="Error.1608" value="このコンピュータにこの製品をインストールするのに、前もってインストールされていなければならない製品が見つかりませんでした。"/>
+  <STRING id="Error.1609" value="セキュリティの設定を適用するときにエラーが発生しました。[2] は有効なユーザーまたはグループではありません。これはパッケージの問題か、またはネットワーク上のドメイン コントローラに接続するときの問題の可能性があります。ネットワークの接続を確認し［再試行］をクリックするか、インストールを終了するには［キャンセル］をクリックしてください。 {{ユーザーの SID を検出できません, システム エラー [3]}}"/>
+  <STRING id="Error.17" value="メモリ不足です。ほかのアプリケーションを閉じてから、再試行してください。"/>
+  <STRING id="Error.1701" value="キー [2] は正しくありません。正しいキーが入力されているかどうかを確認してください。"/>
+  <STRING id="Error.1702" value="[2] の構成を続行する前に、システムを再起動する必要があります。すぐに再起動する場合は［はい］を、後で手動で再起動する場合は［いいえ］をクリックしてください。"/>
+  <STRING id="Error.1703" value="[2] に行った構成の変更を有効にするには、システムを再起動する必要があります。すぐに再起動する場合は［はい］を、後で手動で再起動する場合は［いいえ］をクリックしてください。"/>
+  <STRING id="Error.1704" value="[2] のインストールは現在中断されています。続行するには、インストールによって行われた変更を取り消す必要があります。これらの変更を取り消しますか?"/>
+  <STRING id="Error.1705" value="この製品のインストールは現在進行中です。続行するには、インストールによって行われた変更を取り消す必要があります。これらの変更を取り消しますか?"/>
+  <STRING id="Error.1706" value="製品 [2] のインストール パッケージが見つかりませんでした。有効なコピーのインストール パッケージ &apos;[3]&apos; を使ってもう一度インストールしてください。"/>
+  <STRING id="Error.1707" value="インストールを正しく完了しました。"/>
+  <STRING id="Error.1708" value="インストールに失敗しました。"/>
+  <STRING id="Error.1709" value="製品: [2] -- [3]"/>
+  <STRING id="Error.1710" value="コンピュータを直前の状態に復元するか、後でインストールを続行することができます。復元しますか?"/>
+  <STRING id="Error.1711" value="インストール情報をディスクに書き込み中にエラーが発生しました。十分なディスク領域があることを確認してから、［再試行］をクリックして続行するか、または［キャンセル］をクリックしてインストールを中止してください。"/>
+  <STRING id="Error.1712" value="このコンピュータを直前の状態に復元するために必要なファイルの一部が見つかりませんでした。復元することはできません。"/>
+  <STRING id="Error.1713" value="[2] は要求された製品の 1 つをインストールできません。技術的に詳しい方にお問い合わせください。 {{システム エラー : [3]}}"/>
+  <STRING id="Error.1714" value="[2] の古いバージョンを削除することはできません。技術的に詳しい方にお問い合わせください。 {{システム エラー : [3]}}"/>
+  <STRING id="Error.1715" value="[2] をインストールしました"/>
+  <STRING id="Error.1716" value="[2] を構成しました"/>
+  <STRING id="Error.1717" value="[2] を削除しました"/>
+  <STRING id="Error.1718" value="ファイル [2] はデジタル署名ポリシーによって拒否されました。"/>
+  <STRING id="Error.1719" value="Windows インストーラ サービスにアクセスできませんでした。セーフ モードで Windows を実行している場合、または Windows インストーラが正しくインストールされていない場合に発生する可能性があります。サポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1720" value="この Windows インストーラ パッケージには問題があります。このインストールを完了するのに必要なスクリプトを実行できませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。  {{カスタム操作 [2] スクリプト エラー [3], [4]: [5] 行 [6], 列 [7], [8] }}"/>
+  <STRING id="Error.1721" value="この Windows インストーラ パッケージには問題があります。このインストールを完了するのに必要なプログラムを実行できませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。 {{操作: [2], 場所: [3], コマンド: [4] }}"/>
+  <STRING id="Error.1722" value="この Windows インストーラ パッケージには問題があります。セットアップの一部として実行されるプログラムは正しく完了しませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。 {{操作 [2], 場所: [3], コマンド: [4] }}"/>
+  <STRING id="Error.1723" value="この Windows インストーラ パッケージには問題があります。このインストールを完了するのに必要な DLL を実行できませんでした。サポート担当者またはパッケージのベンダに問い合わせてください。  {{操作 [2], エントリ: [3], ライブラリ: [4] }}"/>
+  <STRING id="Error.1724" value="削除を正しく完了しました。"/>
+  <STRING id="Error.1725" value="削除に失敗しました。"/>
+  <STRING id="Error.1726" value="アドバタイズを正しく完了しました。"/>
+  <STRING id="Error.1727" value="アドバタイズに失敗しました。"/>
+  <STRING id="Error.1728" value="構成を正しく完了しました。"/>
+  <STRING id="Error.1729" value="構成に失敗しました。"/>
+  <STRING id="Error.1730" value="このアプリケーションを削除するには Administrator でなければなりません。このアプリケーションを削除するには、Administrator としてログオンするか、またはテクニカル サポート グループに問い合わせてください。"/>
+  <STRING id="Error.18" value="インストール プログラムから応答がありません。"/>
+  <STRING id="Error.1801" value="パス [2] が正しくありません。正しいパスを指定してください。"/>
+  <STRING id="Error.1802" value="メモリ不足です。ほかのアプリケーションを閉じてから、再試行してください。"/>
+  <STRING id="Error.1803" value="ドライブ [2] にはディスクがありません。ディスクを挿入してから［再試行］をクリックしてください。既に選択されたボリュームに戻る場合は、［キャンセル］をクリックしてください。"/>
+  <STRING id="Error.1804" value="ドライブ [2] にはディスクがありません。ディスクを挿入してから［再試行］をクリックしてください。［参照］ダイアログ ボックスに戻って、別のボリュームを選択する場合は、［キャンセル］をクリックしてください。"/>
+  <STRING id="Error.1805" value="フォルダ [2] は存在しません。既存のフォルダへのパスを入力してください。"/>
+  <STRING id="Error.1806" value="このフォルダを読み取るための十分な特権がありません。"/>
+  <STRING id="Error.1807" value="インストールのための正しいコピー先を確定できませんでした。"/>
+  <STRING id="Error.19" value="インストール プログラムは完了前に中断されました。"/>
+  <STRING id="Error.1901" value="ソース インストール データベースから読み取るときにエラーが発生しました: [2]。"/>
+  <STRING id="Error.1902" value="再起動操作をスケジュールしています: ファイル [2] の名前を [3] に変更しています。操作を完了するには、再起動しなければなりません。"/>
+  <STRING id="Error.1903" value="再起動操作をスケジュールしています: ファイル [2] の削除。操作を完了するには、再起動しなければなりません。"/>
+  <STRING id="Error.1904" value="モジュール [2] で登録に失敗しました。HRESULT [3]。サポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1905" value="モジュール [2] で登録の解除に失敗しました。HRESULT [3]。サポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1906" value="パッケージ [2] のキャッシュに失敗しました。エラー: [3]。サポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1907" value="フォント [2] を登録できません。このフォントをインストールする権利があるかどうか、またシステムがこのフォントをサポートしているかどうかを確認してください。"/>
+  <STRING id="Error.1908" value="フォント [2] の登録を解除できませんでした。フォントを削除するのに十分なアクセス許可があることを確認してください。"/>
+  <STRING id="Error.1909" value="ショートカット [2] を作成できません。目的のフォルダが存在し、アクセスできることを確認してください。"/>
+  <STRING id="Error.1910" value="ショートカット [2] を削除できません。ショートカット ファイルが存在し、アクセスできることを確認してください。"/>
+  <STRING id="Error.1911" value="ファイル [2] のための種類のライブラリを登録できませんでした。サポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1912" value="ファイル [2] のための種類のライブラリの登録を解除できませんでした。サポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1913" value="INI ファイル [2][3] を更新できませんでした。ファイルが存在し、アクセスできることを確認してください。"/>
+  <STRING id="Error.1914" value="再起動するときに、ファイル [3] を [2] で置き換えるようにスケジュールすることができません。ファイル [3] への書き込みのアクセス許可を持っていることを確認してください。"/>
+  <STRING id="Error.1915" value="ODBC ドライバ マネージャの削除でエラーが発生しました。ODBC エラー [2]: [3]。サポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1916" value="ODBC ドライバ マネージャのインストールでエラーが発生しました。ODBC エラー [2]: [3]。サポート担当者に問い合わせてください。"/>
+  <STRING id="Error.1917" value="ODBC ドライバ [4] の削除でエラーが発生しました。ODBC エラー [2]: [3]。ODBC ドライバを削除する特権を持っていることを確認してください。"/>
+  <STRING id="Error.1918" value="ODBC ドライバ [4][5] のインストールでエラーが発生しました。ODBC エラー [2]: [3]。ファイル [4][6] が存在し、アクセスできることを確認してください。"/>
+  <STRING id="Error.1919" value="ODBC データ ソースの構成でエラーが発生しました: [4][5]。ODBC エラー [2]: [3]。ファイル [4][6] が存在し、アクセスできることを確認してください。"/>
+  <STRING id="Error.1920" value="サービス &apos;[2]&apos; ([3]) を開始できませんでした。システム サービスを開始する特権を持っていることを確認してください。"/>
+  <STRING id="Error.1921" value="サービス &apos;[2]&apos; ([3]) を停止できませんでした。システム サービスを停止する特権を持っていることを確認してください。"/>
+  <STRING id="Error.1922" value="サービス &apos;[2]&apos; ([3]) を削除できませんでした。システム サービスを削除する特権を持っていることを確認してください。"/>
+  <STRING id="Error.1923" value="サービス &apos;[2]&apos; ([3]) をインストールできませんでした。システム サービスをインストールする特権を持っていることを確認してください。"/>
+  <STRING id="Error.1924" value="環境変数 &apos;[2]&apos; を更新できませんでした。環境変数を修正する特権を持っていることを確認してください。"/>
+  <STRING id="Error.1925" value="特権が不十分なため、このコンピュータのすべてのユーザーが使用できるようにアプリケーションをインストールすることはできません。管理者としてログオンし、再度インストールしてください。"/>
+  <STRING id="Error.1926" value="ファイル &apos;[3]&apos; に対するセキュリティを設定できません。エラー : [2]。 このファイルに対してセキュリティを変更する権限を持っているかどうか確認してください。"/>
+  <STRING id="Error.1927" value="コンポーネント サービス (COM+ 1.0) は、このコンピュータに正しくインストールされていません。インストールを完了するには コンポーネント サービスが必要です。コンポーネント サービスは、Windows 2000 で利用できます。"/>
+  <STRING id="Error.1928" value="COM+ アプリケーションの登録エラーです。詳しくはサポート担当者へお問い合わせください。"/>
+  <STRING id="Error.1929" value="COM+ アプリケーションの登録解除のエラーです。詳しくはサポート担当者へお問い合わせください。"/>
+  <STRING id="Error.1930" value="サービス &apos;[2]&apos; ([3]) の記述は変更できませんでした。"/>
+  <STRING id="Error.1931" value="Windows インストーラ サービスは、システム ファイル [2] をアップデートできません。このファイルは Windows によって保護されています。このプログラムを正しく動作させるには、オペレーティング システムをアップデートする必要がある可能性があります。 {{パッケージ バージョン : [3], OS プロテクテッド バージョン  : [4]}}"/>
+  <STRING id="Error.1932" value="Windows インストーラ サービスでは、保護された Windows ファイル [2] をアップデートすることはできません。 {{パッケージ バージョン : [3], OS プロテクテッド バージョン 1 : [4], SFP エラー : [5]}}&quot;"/>
+  <STRING id="Error.1933" value="保護された Windows ファイルを更新できません。 {{SFP エラー: [2].  保護されたファイルの一覧:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="このコンピュータでは、ユーザーによるインストールはポリシーで無効になっています。"/>
+  <STRING id="Error.1935" value="アセンブリ &apos;[6]&apos; のインストール中にエラーが発生しました。詳しくはヘルプとサポートを参照してください。HRESULT: [3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"/>
+  <STRING id="Error.2" value="警告 [1]。 "/>
+  <STRING id="Error.20" value="Windows に [ProductName] を設定しています。しばらくお待ちください。"/>
+  <STRING id="Error.21" value="必要な情報を集めています..."/>
+  <STRING id="Error.22" value="このアプリケーションの古いバージョンを削除しています..."/>
+  <STRING id="Error.23" value="このアプリケーションの古いバージョンを削除する準備をしています..."/>
+  <STRING id="Error.32" value="{[ProductName] }のセットアップを正しく完了しました。"/>
+  <STRING id="Error.33" value="{[ProductName] }のセットアップに失敗しました。"/>
+  <STRING id="Error.4" value="情報 [1]。 "/>
+  <STRING id="Error.4000" value="シリアル番号が無効です。"/>
+  <STRING id="Error.4010" value="この製品よりも新しいバージョンの [ProductName] がすでにこのコンピュータにインストールされています。"/>
+  <STRING id="Error.4020" value="IIS の構成中にエラーが発生しました。&#10;以前の IIS 構成が復元されます。"/>
+  <STRING id="Error.4021" value="Web サイト[1] はすでにこのサーバーに存在します。"/>
+  <STRING id="Error.4022" value="Web サイト[2] の仮想ディレクトリ[1] はすでにこのサーバーに存在します。"/>
+  <STRING id="Error.5" value="このパッケージをインストールするときに予期しないエラーが検出されました。このパッケージは問題がある可能性があります。エラー コードは [1] です。 {{引数: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{ディスクがいっぱいです: }}"/>
+  <STRING id="Error.8" value="操作 [Time]: [1]。 [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.4023" value="このバージョンの IIS はサポートされていないか完全にインストールされていません。&#10;&#10;Internet Information Services 5.0 以上が必要です。"/>
+  <STRING id="Error.4024" value="同じサーバー バインドを持った Web サイトがすでに開始されています。&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="ユーザー アカウントまたはグループ&apos;[2]&apos;をローカル マシン上に作成することができません。エラーコード: [3]. [4]"/>
+  <STRING id="Error.4102" value="ユーザー アカウントまたはグループ&apos;[2]&apos;はすでにローカル マシン上に存在します。"/>
+  <STRING id="Error.4103" value="ローカル マシン上のユーザーアカウントまたはグループ&apos;[2]&apos;を削除することができません。エラーコード[3] "/>
+  <STRING id="Error.4104" value="ユーザー アカウントまたはグループ &apos;[2]&apos;はローカル マシン上に存在しません。"/>
+  <STRING id="Error.4105" value="&apos;[2]&apos; を共有名: &apos;[3]&apos; で共有する際にエラーが発生しました。エラー詳細: [4]"/>
+  <STRING id="Error.4106" value="スケジュールされたタスク &apos;[2]&apos; を作成する際にエラーが発生しました。エラー詳細[3]"/>
+  <STRING id="Error.4107" value="スケジュールされたタスク &apos;[2]&apos; を削除する際にエラーが発生しました。エラー詳細[3]"/>
+  <STRING id="Error.4110" value="メモリを確保できませんでした。"/>
+  <STRING id="Error.4111" value="ファイルが見つかりません: [2]"/>
+  <STRING id="Error.4112" value="ファイルを読み込めません: &apos;[2]&apos; "/>
+  <STRING id="Error.4113" value="ファイル解析エラー: &apos;[2]&apos; 行: [3],  列: [4], エラーコード: [5]"/>
+  <STRING id="Error.4114" value="XML ファイルのエンコードがサポートされていない形式です。"/>
+  <STRING id="Error.4115" value="ファイルを開けません: [2]"/>
+  <STRING id="Error.4116" value="ファイルに書き込めません: &apos;[2]&apos;"/>
+  <STRING id="Error.4117" value="ルートの要素が不正です: &quot;[2]&quot; XML ファイル: &apos;[3]&apos;"/>
+  <STRING id="Error.4120" value="Windows ファイアウォール設定中にエラーが発生しました。&#10;元のファイアウォール設定に戻します。"/>
+  <STRING id="Error.4121" value="ファイアウォールのプログラムパスが不正であるか、またはファイルが見つかりません: [2]"/>
+  <STRING id="Error.4122" value="ファイアウォールのポート番号/プロトコルが不正です: [2]"/>
+  <STRING id="Error.4123" value="ファイアウォールのスコープが不正です: [2]"/>
+  <STRING id="Error.4124" value="アプリケーションを Windows ファイアウォールに登録中にエラーが発生しました: [2]"/>
+  <STRING id="Error.4125" value="ポートを Windows ファイアウォールに登録中にエラーが発生しました: [2]"/>
+  <STRING id="Error.4130" value="ゲーム エクスプローラの設定中にエラーが発生しました。"/>
+  <STRING id="Error.4131" value="保護者による制限でこのゲームはブロックされました: [2]"/>
+  <STRING id="Error.4140" value="SQL スクリプト実行中にエラーが発生しました。"/>
+  <STRING id="Error.4141" value="ODBC エラー: [2] ([3])"/>
+  <STRING id="Error.4142" value="ODBC 接続: タイムアウトしました。"/>
+  <STRING id="Error.4143" value="SQL 解析エラー: 構文が正しくありません。"/>
+   <STRING id="Error.1936" value="アセンブリ &apos;[6]&apos; のインストール中にエラーが発生しました。アセンブリが厳密名で署名されていないか、署名に使用したキー長が短かすぎます。 HRESULT: [3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"/>
+  <STRING id="Error.1937" value=" アセンブリ &apos;[6]&apos; のインストール中にエラーが発生しました。署名またはカタログが確認できないか、またはそれらが無効です。 HRESULT: [3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"/>
+  <STRING id="Error.1938" value="アセンブリ &apos;[6]&apos; のインストール中にエラーが発生しました。アセンブリのモジュールの 1 つまたはそれ以上が見つかりません。 HRESULT: [3]. {{アセンブリ インターフェイス: [4], 関数: [5], コンポーネント: [2]}}"/>
+  <STRING id="Error.1939" value="サービス &apos;[2]&apos; ([3]) が設定できませんでした。パッケージまたはアクセス権限の問題である可能性があります。システムサービスの設定を更新する特権を持っているかどうか確認してください。"/>
+  <STRING id="Error.1940" value="サービス &apos;[2]&apos; ([3]) が設定できませんでした。サービスの設定は Windows Vista/Server 2008 以上でサポートされます。"/>
+  <STRING id="Error.1941" value="LockPermissions と MsiLockPermissionsEx 両方のテーブルがパッケージに見つかりません。どちらかのテーブルは存在する必要があります。パッケージに問題があります。"/>
+  <STRING id="Error.1942" value="オブジェクト [4] (テーブル [5]) のインストール中に、複数の条件 (&apos;[2]&apos; および &apos;[3]&apos;) が TRUE となりました。パッケージに問題があるかもしれません。"/>
+  <STRING id="Error.1943" value="オブジェクト [3](テーブル [4]) の SDDL文字列 &apos;[2]&apos; が有効なセキュリティ記述子で解決できませんでした。"/>
+  <STRING id="Error.1944" value="サービス &apos;[3]&apos; のセキュリティを設定できませんでした。エラー: [2]。このサービスに対してセキュリティを変更する特権を持っているかどうか確認してください。"/>
+  <STRING id="Error.1945" value="製品のアドバタイズを完了するのに十分な特権がありません。アドバタイズでは MsiAdvertiseScript API を使用するため、ローカル システム アカウントで起動する必要があります。"/>
+  <STRING id="Error.1946" value="ショートカット &apos;[3]&apos; の プロパティ &apos;[2]&apos; が設定できませんでした。{{ HRESULT [4].}}"/>
+  <STRING id="Error.2101" value="ショートカットは、このオペレーティング システムではサポートされません。"/>
+  <STRING id="Error.2102" value=".ini アクションが不正です: [2]"/>
+  <STRING id="Error.2103" value="シェル フォルダ [2] のパスを解決できませんでした。"/>
+  <STRING id="Error.2104" value=".ini ファイルの書き込み: [3]: システム エラー: [2]。"/>
+  <STRING id="Error.2105" value="ショートカットの作成 [3] に失敗しました。システム エラー: [2]。"/>
+  <STRING id="Error.2106" value="ショートカットの削除 [3] に失敗しました。システム エラー: [2]。"/>
+  <STRING id="Error.2107" value="タイプ ライブラリ [2] の登録でエラー [3] が発生しました。"/>
+  <STRING id="Error.2108" value="タイプ ライブラリ [2] の登録の解除でエラー [3] が発生しました。"/>
+  <STRING id="Error.2109" value=".ini アクションのためのセクションが見つかりません。"/>
+  <STRING id="Error.2110" value=".ini アクションのためのキーが見つかりません。"/>
+  <STRING id="Error.2111" value="実行中のアプリケーションの検出に失敗し、パフォーマンス データを取得できませんでした。 返された操作 : [2]。"/>
+  <STRING id="Error.2112" value="実行中のアプリケーションの検出に失敗し、パフォーマンス インデックスを取得できませんでした。 返された操作 : [2]。"/>
+  <STRING id="Error.2113" value="実行中のアプリケーションの検出に失敗しました。"/>
+  <STRING id="Error.2200" value="データベース: [2]。データベース オブジェクトの作成に失敗しました。モード = [3]。"/>
+  <STRING id="Error.2201" value="データベース: [2]。メモリ不足のため、初期化に失敗しました。"/>
+  <STRING id="Error.2202" value="データベース: [2]。メモリ不足のため、データ アクセスに失敗しました。"/>
+  <STRING id="Error.2203" value="データベース: [2]。データベース ファイルを開けません。システム エラー [3]。"/>
+  <STRING id="Error.2204" value="データベース: [2]。テーブルがすでに存在します。テーブル: [3]。"/>
+  <STRING id="Error.2205" value="データベース: [2]。テーブルが存在しません。テーブル: [3]。"/>
+  <STRING id="Error.2206" value="データベース: [2]。テーブルを削除できませんでした: [3]。"/>
+  <STRING id="Error.2207" value="データベース: [2]。インテント違反です。"/>
+  <STRING id="Error.2208" value="データベース: [2]。実行に必要なパラメータが不足しています。"/>
+  <STRING id="Error.2209" value="データベース: [2]。カーソルが不正な状態です。"/>
+  <STRING id="Error.2210" value="データベース: [2]。列 [3] の更新データの種類が不正です。"/>
+  <STRING id="Error.2211" value="データベース: [2]。データベース テーブル [3] を作成できませんでした。"/>
+  <STRING id="Error.2212" value="データベース: [2]。データベースが書き込み可能な状態ではありません。"/>
+  <STRING id="Error.2213" value="データベース: [2]。データベース テーブルの保存中にエラーが発生しました。"/>
+  <STRING id="Error.2214" value="データベース: [2]。エクスポート ファイルの書き込み中にエラーが発生しました: [3]。"/>
+  <STRING id="Error.2215" value="データベース: [2]。インポート ファイルを開けません: [3]。"/>
+  <STRING id="Error.2216" value="データベース: [2]。インポート ファイル形式エラー: [3]、[4]行目。"/>
+  <STRING id="Error.2217" value="データベース: [2]。CreateOutputDatabase [3] に対する状態が不適切です。"/>
+  <STRING id="Error.2218" value="データベース: [2]。テーブル名が指定されていません。"/>
+  <STRING id="Error.2219" value="データベース: [2]。インストーラ データベースの形式が不正です。"/>
+  <STRING id="Error.2220" value="データベース: [2]。行/フィールド データが不正です。"/>
+  <STRING id="Error.2221" value="データベース: [2]。インポート ファイルのコードページが競合しています: [3]。"/>
+  <STRING id="Error.2222" value="データベース: [2]。トランスフォームまたはマージしようとするコード ページ [3] がデータベースのコード ページ [4] と異なります。"/>
+  <STRING id="Error.2223" value="データベース: [2]。データベースは同じです。トランスフォームは生成されません。"/>
+  <STRING id="Error.2224" value="データベース: [2]。GenerateTransform: データベースが壊れています。テーブル: [3]。"/>
+  <STRING id="Error.2225" value="データベース: [2]。Transform: 一時テーブルを変換できません。テーブル: [3]。"/>
+  <STRING id="Error.2226" value="データベース: [2]。トランスフォームは失敗しました。"/>
+  <STRING id="Error.2227" value="データベース: [2]。SQL クエリに無効な識別子 &apos;[3]&apos; が含まれています: [4]。"/>
+  <STRING id="Error.2228" value="データベース: [2]。SQL クエリに不明なテーブル &apos;[3]&apos; が含まれています: [4]。"/>
+  <STRING id="Error.2229" value="データベース: [2]。SQL クエリ内のテーブル &apos;[3]&apos; を読み込めませんでした: [4]。"/>
+  <STRING id="Error.2230" value="データベース: [2]。SQL クエリ内にテーブル &apos;[3]&apos; が複数あります: [4]。"/>
+  <STRING id="Error.2231" value="データベース: [2]。SQL クエリに &apos;)&apos; が足りません: [3]。"/>
+  <STRING id="Error.2232" value="データベース: [2]。SQL クエリに予期しないトークン &apos;[3]&apos; が含まれています: [4]。"/>
+  <STRING id="Error.2233" value="データベース: [2]。SQL クエリの SELECT 句に列がありません: [3]。"/>
+  <STRING id="Error.2234" value="データベース: [2]。SQL クエリの ORDER BY 句に列がありません: [3]。"/>
+  <STRING id="Error.2235" value="データベース: [2]。SQL クエリ内の列 &apos;[3]&apos; が存在しないか、またはあいまいです: [4]。"/>
+  <STRING id="Error.2236" value="データベース: [2]。SQL クエリ内に不正な演算子 &apos;[3]&apos; が含まれています: [4]。"/>
+  <STRING id="Error.2237" value="データベース: [2]。クエリ文字列が不正であるか、または見つかりません: [3]。"/>
+  <STRING id="Error.2238" value="データベース: [2]。SQL クエリに FROM 句がありません: [3]。"/>
+  <STRING id="Error.2239" value="データベース: [2]。INSERT SQL ステートメントに値が不足しています。"/>
+  <STRING id="Error.2240" value="データベース: [2]。UPDATE SQL ステートメントに更新する列が指定されていません。"/>
+  <STRING id="Error.2241" value="データベース: [2]。INSERT SQL ステートメントに挿入する列が指定されていません。"/>
+  <STRING id="Error.2242" value="データベース: [2]。列 &apos;[3]&apos; が複数あります。"/>
+  <STRING id="Error.2243" value="データベース: [2]。テーブルに主キーが定義されていません。"/>
+  <STRING id="Error.2244" value="データベース: [2]。SQL クエリに無効な型指定子 &apos;[3]&apos; が含まれています: [4]。"/>
+  <STRING id="Error.2245" value="IStorage::Stat がエラー [3] で失敗しました。"/>
+  <STRING id="Error.2246" value="データベース: [2]。インストーラのトランスフォーム形式が不正です。"/>
+  <STRING id="Error.2247" value="データベース: [2] トランスフォーム ストリームの読み取り/書き込みに失敗しました。"/>
+  <STRING id="Error.2248" value="データベース: [2] GenerateTransform/Merge: 元のテーブルの列の種類が参照テーブルと一致しません。 テーブル: [3] 列番号: [4]。"/>
+  <STRING id="Error.2249" value="データベース: [2] GenerateTransform: 元のテーブルに参照テーブルよりも多くの列があります。テーブル: [3]。"/>
+  <STRING id="Error.2250" value="データベース: [2] Transform: すでに存在する行は追加できません。テーブル: [3]。"/>
+  <STRING id="Error.2251" value="データベース: [2] Transform: 存在しない行は削除できません。テーブル: [3]。"/>
+  <STRING id="Error.2252" value="データベース: [2] Transform: すでに存在するテーブルは追加できません。テーブル: [3]。"/>
+  <STRING id="Error.2253" value="データベース: [2] Transform: 存在しないテーブルは削除できません。テーブル: [3]。"/>
+  <STRING id="Error.2254" value="データベース: [2] Transform: 存在しない行は更新できません。テーブル: [3]。"/>
+  <STRING id="Error.2255" value="データベース: [2] Transform: この名前の列はすでに存在します。テーブル: [3] 列: [4]。"/>
+  <STRING id="Error.2256" value="データベース: [2] GenerateTransform/Merge: 元のテーブルの主キーの数が参照テーブルと一致しません。テーブル: [3]。"/>
+  <STRING id="Error.2257" value="データベース: [2]。読み取り専用テーブルを変更しようとしました: [3]。"/>
+  <STRING id="Error.2258" value="データベース: [2]。パラメータの種類に不一致があります: [3]。"/>
+  <STRING id="Error.2259" value="データベース: [2] テーブルの更新に失敗しました"/>
+  <STRING id="Error.2260" value="ストレージの CopyTo に失敗しました。システム エラー: [3]。"/>
+  <STRING id="Error.2261" value="ストリーム [2] を削除できませんでした。システム エラー: [3]。"/>
+  <STRING id="Error.2262" value="ストリームが存在しません: [2]。システム エラー: [3]。"/>
+  <STRING id="Error.2263" value="ストリーム [2] を開けませんでした。システム エラー: [3]。"/>
+  <STRING id="Error.2264" value="ストリーム [2] を削除できませんでした。システム エラー: [3]。"/>
+  <STRING id="Error.2265" value="ストレージをコミットできませんでした。システム エラー: [3]。"/>
+  <STRING id="Error.2266" value="ストレージをロールバックできませんでした。システム エラー: [3]。"/>
+  <STRING id="Error.2267" value="ストレージを削除できませんでした。システム エラー: [3]。"/>
+  <STRING id="Error.2268" value="データベース: [2]。Merge: [3] テーブル内でマージの矛盾が報告されました。"/>
+  <STRING id="Error.2269" value="データベース: [2]。Merge: &apos;[3]&apos; テーブルの列の数が 2 つのデータベース間で異なります。"/>
+  <STRING id="Error.2270" value="データベース: [2]。GenerateTransform/Merge: 元のテーブルの列の名前が参照テーブルと一致しません。テーブル: [3] 列番号: [4]。"/>
+  <STRING id="Error.2271" value="トランスフォーム時の SummaryInformation の書き込みに失敗しました。"/>
+  <STRING id="Error.2272" value="データベース: [2]。データベースが読み取り専用で開かれているため、MergeDatabase で変更は書き込まれません。"/>
+  <STRING id="Error.2273" value="データベース: [2]。MergeDatabase: 元のデータベースへの参照が参照データベースとして渡されました。"/>
+  <STRING id="Error.2274" value="データベース: [2]。MergeDatabase: Error テーブルにエラーを書き込めません。定義済みの Error テーブルにある NOT NULL 制約列が原因である可能性があります。"/>
+  <STRING id="Error.2275" value="データベース: [2]。指定された Modify [3] 操作はテーブルの結合に対して無効です。"/>
+  <STRING id="Error.2276" value="データベース: [2]。コード ページ [3] はシステムでサポートされていません。"/>
+  <STRING id="Error.2277" value="データベース: [2]。テーブル [3] の保存に失敗しました。"/>
+  <STRING id="Error.2278" value="データベース: [2]。SQL クエリの WHERE 句で、式の数が制限である 32 を超えています: [3]。"/>
+  <STRING id="Error.2279" value="データベース: [2] Transform: 元のテーブル [3] 内の列が多すぎます。"/>
+  <STRING id="Error.2280" value="データベース: [2]。テーブル [4] に列 [3] を作成できませんでした。"/>
+  <STRING id="Error.2281" value="ストリーム [2] の名前を変更できませんでした。システム エラー: [3]。"/>
+  <STRING id="Error.2282" value="ストリームの名前が不正です [2] 。"/>
+  <STRING id="Error.2302" value="パッチの通知: [2] バイト パッチが多すぎます。"/>
+  <STRING id="Error.2303" value="ボリューム情報取得エラー。GetLastError: [2]。"/>
+  <STRING id="Error.2304" value="ディスク空き領域取得エラー。GetLastError: [2]。ボリューム: [3]。"/>
+  <STRING id="Error.2305" value="パッチスレッド待機時エラー。GetLastError: [2]。"/>
+  <STRING id="Error.2306" value="パッチ アプリケーションのスレッドを作成できませんでした。GetLastError: [2]。"/>
+  <STRING id="Error.2307" value="ソース ファイルのキー名が Null です。"/>
+  <STRING id="Error.2308" value="あて先のファイル名が Null です。"/>
+  <STRING id="Error.2309" value="パッチがすでに進行しているのに、パッチファイル [2] を適用しようとしました。"/>
+  <STRING id="Error.2310" value="パッチが進行していないときに、パッチを続行しようとしました。"/>
+  <STRING id="Error.2315" value="パス区切り記号がありません: [2]。"/>
+  <STRING id="Error.2318" value="ファイルが存在しません: [2]。"/>
+  <STRING id="Error.2319" value="ファイル属性設定エラー: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2320" value="ファイルが書き込み禁止です: [2]。"/>
+  <STRING id="Error.2321" value="ファイル作成エラー: [2]。"/>
+  <STRING id="Error.2322" value="ユーザーによるキャンセル。"/>
+  <STRING id="Error.2323" value="不正なファイル属性です。"/>
+  <STRING id="Error.2324" value="ファイルを開くことができませんでした: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2325" value="ファイル時刻を取得できませんでした: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2326" value="FileToDosDateTime でエラーが発生しました。"/>
+  <STRING id="Error.2327" value="ディレクトリを削除できませんでした: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2328" value="ファイルのバージョン情報取得エラー。[2]。"/>
+  <STRING id="Error.2329" value="ファイル削除エラー: [3]。GetLastError: [2]。"/>
+  <STRING id="Error.2330" value="ファイル属性取得エラー。GetLastError: [2]。"/>
+  <STRING id="Error.2331" value="ライブラリ [2] のロードエラー、またはエントリポイント [3] が見つかりませんでした。"/>
+  <STRING id="Error.2332" value="ファイル属性取得エラー。GetLastError: [2]。"/>
+  <STRING id="Error.2333" value=""/>
+  <STRING id="Error.2334" value="ファイル時刻をローカル時刻に変換するときにエラーが発生しました: [3]。GetLastError: [2]。"/>
+  <STRING id="Error.2335" value="パス: [2] は [3] の親ではありません。"/>
+  <STRING id="Error.2336" value="一時ファイル作成エラー: [3]。GetLastError: [2]。"/>
+  <STRING id="Error.2337" value="ファイルを閉じることができませんでした: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2338" value="ファイルのリソースを更新できませんでした: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2339" value="ファイル時刻を設定できませんでした: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2340" value="ファイルのリソースを更新できませんでした: [3]、リソースが見つかりません。"/>
+  <STRING id="Error.2341" value="ファイルのリソースを更新できませんでした: [3]、リソースが大きすぎます。"/>
+  <STRING id="Error.2342" value="ファイルのリソースを更新できませんでした: [3] GetLastError: [2]。"/>
+  <STRING id="Error.2343" value="空のパスが指定されました。"/>
+  <STRING id="Error.2344" value="ファイル IMAGEHLP.DLL が見つかりませんでした。次のファイルの検証に必要です:[2]。"/>
+  <STRING id="Error.2345" value="[2]: ファイルに有効なチェックサム値が含まれていません。"/>
+  <STRING id="Error.2347" value="ユーザーによる無視。"/>
+  <STRING id="Error.2348" value="キャビネット ストリームからの読み取りでエラーが発生しました。"/>
+  <STRING id="Error.2349" value="異なった情報でコピーが再開されました。"/>
+  <STRING id="Error.2350" value="FDI サーバー エラー"/>
+  <STRING id="Error.2351" value="キャビネット &apos;[3]&apos; にファイル キー &apos;[2]&apos; が見つかりません。インストールは続行できません。"/>
+  <STRING id="Error.2352" value="キャビネット ファイル サーバー が初期化できませんでした。 &apos;CABINET.DLL&apos; ファイルが必要ですが見つかりません。"/>
+  <STRING id="Error.2353" value="キャビネットではありません。"/>
+  <STRING id="Error.2354" value="キャビネットを扱えません。"/>
+  <STRING id="Error.2355" value="キャビネットが壊れています。"/>
+  <STRING id="Error.2356" value="ストリーム内にキャビネットが見つかりませんでした: [2]。"/>
+  <STRING id="Error.2357" value="属性を設定できません。"/>
+  <STRING id="Error.2358" value="ファイルが使用中かどうかを調べているときにエラーが発生しました: [3]。GetLastError: [2]。"/>
+  <STRING id="Error.2359" value="ターゲット ファイルを作成できません - ファイルが使用中である可能性があります。"/>
+  <STRING id="Error.2360" value="進行状況の値。"/>
+  <STRING id="Error.2361" value="次のキャビネットが必要です。"/>
+  <STRING id="Error.2362" value="フォルダが見つかりません: [2]。"/>
+  <STRING id="Error.2363" value="サブフォルダを列挙できませんでした: [2]。"/>
+  <STRING id="Error.2364" value="CreateCopier 呼び出しの列挙定数が正しくありません。"/>
+  <STRING id="Error.2365" value="exe ファイル [2] の BindImage に失敗しました。"/>
+  <STRING id="Error.2366" value="ユーザーによる失敗。"/>
+  <STRING id="Error.2367" value="ユーザーによる中止。"/>
+  <STRING id="Error.2368" value="ネットワーク リソース情報を取得できませんでした。エラー [2]、ネットワーク パス [3]。拡張エラー: ネットワーク プロバイダ [5]、エラー コード [4]、エラーの説明 [6]。"/>
+  <STRING id="Error.2370" value="ファイル [2] の CRC チェックサム値が不正です。{ ファイルヘッダの値は [3]、計算された値は [4]。}"/>
+  <STRING id="Error.2371" value="ファイル [2] にパッチが適用できません。 GetLastError: [3]。"/>
+  <STRING id="Error.2372" value="パッチ ファイル [2] は壊れているか、不正なファイル形式です。パッチファイル [3] を試みます。 GetLastError: [4]"/>
+  <STRING id="Error.2373" value="ファイル [2] は有効なパッチ ファイルではありません。"/>
+  <STRING id="Error.2374" value="ファイル [2] はパッチ ファイル [3] の適用先として有効ではありません。"/>
+  <STRING id="Error.2375" value="不明なパッチ エラー: [2]。"/>
+  <STRING id="Error.2376" value="キャビネットが見つかりません。"/>
+  <STRING id="Error.2379" value="読み取り用にファイルを開くときにエラーが発生しました: [3]. GetLastError: [2]。"/>
+  <STRING id="Error.2380" value="書き込み用にファイルを開くときにエラーが発生しました: [3]. GetLastError: [2]。"/>
+  <STRING id="Error.2381" value="ディレクトリは存在しません: [2]。"/>
+  <STRING id="Error.2382" value="ドライブの準備ができていません: [2]。"/>
+  <STRING id="Error.2401" value="キー [2] について、32 ビット オペレーティング システム上で 64 ビット操作を行おうとしました。"/>
+  <STRING id="Error.2402" value="メモリが不足しています。"/>
+  <STRING id="Error.2501" value="ロールバック スクリプトの列挙子を作成できませんでした。"/>
+  <STRING id="Error.2502" value="インストールが進行していないときに InstallFinalize が呼ばれました。"/>
+  <STRING id="Error.2503" value="進行中でないときに RunScript が呼ばれました。"/>
+  <STRING id="Error.2601" value="プロパティ [2] の値が不正です: &apos;[3]&apos;"/>
+  <STRING id="Error.2602" value="[2] テーブルのエントリ &apos;[3]&apos; の中に、Media テーブルに関連付けられたエントリがありません。"/>
+  <STRING id="Error.2603" value="テーブル名 [2] が重複しています。"/>
+  <STRING id="Error.2604" value="[2] プロパティは定義されていません。"/>
+  <STRING id="Error.2605" value="サーバー [2] は、[3] または [4] に見つかりませんでした。"/>
+  <STRING id="Error.2606" value="プロパティ [2] の値が有効な完全パスではありません: &apos;[3]&apos;。"/>
+  <STRING id="Error.2607" value="Media テーブルが見つからないか、または空です (ファイルのインストールに必要です)。"/>
+  <STRING id="Error.2608" value="オブジェクトのセキュリティ記述子を作成できませんでした。エラー: &apos;[2]&apos;。"/>
+  <STRING id="Error.2609" value="初期化する前に製品の設定を移行しようとしました。"/>
+  <STRING id="Error.2611" value="ファイル [2] は圧縮されていますが、関連付けられたメディア エントリではキャビネットが指定されていません。"/>
+  <STRING id="Error.2612" value="&apos;[2]&apos; 列にストリームが見つかりません。主キー: &apos;[3]&apos;。"/>
+  <STRING id="Error.2613" value="RemoveExistingProducts アクションの順序が正しくありません。"/>
+  <STRING id="Error.2614" value="インストール パッケージから IStorage オブジェクトにアクセスできませんでした。"/>
+  <STRING id="Error.2615" value="ソースの解決に失敗したため、モジュール [2] の登録解除はスキップされました。"/>
+  <STRING id="Error.2616" value="コンパニオン ファイル [2] の親が見つかりません。"/>
+  <STRING id="Error.2617" value="Component テーブルに共有コンポーネント [2] が見つかりません。"/>
+  <STRING id="Error.2618" value="Component テーブルに独立アプリケーション コンポーネント [2] が見つかりません。"/>
+  <STRING id="Error.2619" value="独立したコンポーネント [2]、[3] が同じ機能ではありません。"/>
+  <STRING id="Error.2620" value="独立したアプリケーション コンポーネント [2] のキー ファイルが File テーブルにありません。"/>
+  <STRING id="Error.2621" value="ショートカット [2] のリソース DLL またはリソース ID 設定が正しくありません。"/>
+  <STRING id="Error.2701" value="機能の階層が、許容されるツリー階層のレベル [2] を超えています"/>
+  <STRING id="Error.2702" value="Feature テーブルのレコード ([2]) が、Attributes フィールドに存在しない親を参照しています。"/>
+  <STRING id="Error.2703" value="ルート ソース パスのプロパティ名が定義されていません: [2]"/>
+  <STRING id="Error.2704" value="ルート ディレクトリ プロパティが定義されていません: [2]"/>
+  <STRING id="Error.2705" value="不正なテーブル: [2]; ツリーとしてリンクできませんでした。"/>
+  <STRING id="Error.2706" value="ソース パスは作成されませんでした。 Directory テーブルにエントリ [2] のパスが存在しません。"/>
+  <STRING id="Error.2707" value="ターゲット パスは作成されませんでした。 Directory テーブルにエントリ [2] のパスが存在しません。"/>
+  <STRING id="Error.2708" value="ファイル テーブルにエントリが見つかりません。"/>
+  <STRING id="Error.2709" value="指定されたコンポーネント名 (&apos;[2]&apos;) が Component テーブルに見つかりません。"/>
+  <STRING id="Error.2710" value="要求された &apos;Select&apos; 状態はこのコンポーネントには無効です。"/>
+  <STRING id="Error.2711" value="指定された機能名 (&apos;[2]&apos;) が Feature テーブルに見つかりません。"/>
+  <STRING id="Error.2712" value="モードレス ダイアログからの戻り値が不正です: [3]、アクション: [2]。"/>
+  <STRING id="Error.2713" value="NOT NULL 制約列に Null 値があります (&apos;[4]&apos; テーブルの &apos;[3]&apos; 列にある &apos;[2]&apos;。"/>
+  <STRING id="Error.2714" value="デフォルト フォルダ名が不正な値です: [2]。"/>
+  <STRING id="Error.2715" value="指定されたファイルのキー (&apos;[2]&apos;) が File テーブルに見つかりません。"/>
+  <STRING id="Error.2716" value="コンポーネント &apos;[2]&apos; のランダムなサブコンポーネント名を作成できませんでした。"/>
+  <STRING id="Error.2717" value="アクションの条件が不正であるか、カスタム アクション &apos;[2]&apos; の呼び出し時のエラーです。"/>
+  <STRING id="Error.2718" value="製品コード &apos;[2]&apos; のパッケージ名が見つかりません。"/>
+  <STRING id="Error.2719" value="ソース &apos;[2]&apos; のパスに、UNC またはドライブ文字が見つかりません。"/>
+  <STRING id="Error.2720" value="ソースリストのキーを開くときにエラーが発生しました。エラー: &apos;[2]&apos;"/>
+  <STRING id="Error.2721" value="カスタム アクション [2] が Binary テーブル ストリームに見つかりません。"/>
+  <STRING id="Error.2722" value="カスタム アクション [2] が File テーブルに見つかりません。"/>
+  <STRING id="Error.2723" value="カスタム アクション [2] で、サポートされていない種類が指定されています。"/>
+  <STRING id="Error.2724" value="実行しているメディアのボリューム ラベル &apos;[2]&apos; が、Media テーブルで指定されたラベル &apos;[3]&apos; と一致しません。 これは、Media テーブルのエントリが 1 つだけの場合にのみ許可されます。"/>
+  <STRING id="Error.2725" value="データベース テーブルが不正です"/>
+  <STRING id="Error.2726" value="アクションが見つかりません: [2]。"/>
+  <STRING id="Error.2727" value="ディレクトリ エントリ &apos;[2]&apos; が Directory テーブルに存在しません。"/>
+  <STRING id="Error.2728" value="テーブル定義エラー: [2]"/>
+  <STRING id="Error.2729" value="インストール エンジンが初期化されていません。"/>
+  <STRING id="Error.2730" value="データベース内に不正な値があります。 テーブル: &apos;[2]&apos;; 主キー: &apos;[3]&apos;; 列: &apos;[4]&apos;"/>
+  <STRING id="Error.2731" value="選択マネージャが初期化されていません。"/>
+  <STRING id="Error.2732" value="ディレクトリ マネージャが初期化されていません"/>
+  <STRING id="Error.2733" value="&apos;[4]&apos; テーブルの &apos;[4]&apos; 列の外部キー (&apos;[2]&apos;) が不正です"/>
+  <STRING id="Error.2734" value="再インストール モードの文字が不正です。"/>
+  <STRING id="Error.2735" value="カスタム アクション &apos;[2]&apos; で処理不能な例外が発生したため、実行は中止されました。 これは、アクセス違反などのカスタム アクションの内部エラーによるものであると考えられます。"/>
+  <STRING id="Error.2736" value="カスタム アクション一時ファイルの生成に失敗しました: [2]。"/>
+  <STRING id="Error.2737" value="カスタム アクション [2],エントリ [3], ライブラリ [4] にアクセスできませんでした"/>
+  <STRING id="Error.2738" value="カスタム アクション [2] のための VBScript ランタイムにアクセスできませんでした。"/>
+  <STRING id="Error.2739" value="カスタム アクション [2] のための JScript ランタイムにアクセスできませんでした。"/>
+  <STRING id="Error.2740" value="カスタム アクション [2] スクリプト エラー [3]、[4]: [5] [6]行, [7]列, [8]。"/>
+  <STRING id="Error.2741" value="製品 [2] の構成情報が壊れています。不正な情報: [2]。"/>
+  <STRING id="Error.2742" value="サーバーに対するマーシャリングに失敗しました: [2]。"/>
+  <STRING id="Error.2743" value="カスタム アクション [2] を実行できませんでした。場所: [3]、コマンド: [4]。"/>
+  <STRING id="Error.2744" value="カスタム アクション [2] によって呼び出された EXE が失敗しました。場所: [3]、コマンド: [4]"/>
+  <STRING id="Error.2745" value="トランスフォーム [2] はパッケージ [3] に対して不正です。予期される言語 [4], 検出された言語 [5]。"/>
+  <STRING id="Error.2746" value="トランスフォーム [2] はパッケージ [3] に対して不正です。予期される製品 [4], 検出された製品 [5]。"/>
+  <STRING id="Error.2747" value="トランスフォーム [2] はパッケージ [3] に対して不正です。予期される製品バージョン &lt; [4], 検出された製品バージョン [5]。"/>
+  <STRING id="Error.2748" value="トランスフォーム [2] はパッケージ [3] に対して不正です。予期される製品バージョン &lt; = [4], 検出された製品バージョン [5]。"/>
+  <STRING id="Error.2749" value="トランスフォーム [2] はパッケージ [3] に対して不正です。予期される製品バージョン == [4], 検出された製品バージョン [5]。"/>
+  <STRING id="Error.2751" value="トランスフォーム [2] はパッケージ [3] に対して不正です。予期される製品バージョン &gt; [4], 検出された製品バージョン [5]。"/>
+  <STRING id="Error.2752" value="パッケージ [4] の子ストレージとして格納されているトランスフォーム [2] を開けませんでした。"/>
+  <STRING id="Error.2753" value="ファイル &apos;[2]&apos; はインストール対象ではありません。"/>
+  <STRING id="Error.2754" value="ファイル &apos;[2]&apos; は有効なパッチ ファイルではありません。"/>
+  <STRING id="Error.2755" value="パッケージ [3] のインストールを試みている際に、サーバーが予期しないエラー [2] を返しました。"/>
+  <STRING id="Error.2756" value="プロパティ &apos;[2]&apos; は 1 つ以上のテーブルでディレクトリ プロパティとして使用されていますが、値が割り当てられません。"/>
+  <STRING id="Error.2757" value="トランスフォーム [2] の概要を作成できませんでした。"/>
+  <STRING id="Error.2758" value="トランスフォーム [2] に、MSI バージョンが含まれて居ません。"/>
+  <STRING id="Error.2759" value="トランスフォーム [2] のバージョン [3] はエンジンと互換性がありません。最小: [4], 最大: [5]。"/>
+  <STRING id="Error.2760" value="トランスフォーム [2] はパッケージ [3] に対して不正です。 予期されるアップグレード コード [4], 検出されたコード [5]。"/>
+  <STRING id="Error.2761" value="トランザクションを開始できません。グローバル ミューテックスが正しく初期化されていません。"/>
+  <STRING id="Error.2762" value="スクリプトのレコードを書き込めません。トランザクションが開始されていません。"/>
+  <STRING id="Error.2763" value="スクリプトを実行できません。トランザクションが開始されていません。"/>
+  <STRING id="Error.2765" value="AssemblyName テーブルにアセンブリ名が見つかりません : コンポーネント: [4]。"/>
+  <STRING id="Error.2766" value="ファイル [2] は、無効な MSI ストレージ ファイルです。"/>
+  <STRING id="Error.2767" value="これ以上データはありません {[2] を列挙中}。"/>
+  <STRING id="Error.2768" value="パッチ パッケージに含まれるトランスフォームが不正です。"/>
+  <STRING id="Error.2769" value="カスタム アクション [2] が、[3] MSIHANDLE を閉じませんでした。"/>
+  <STRING id="Error.2770" value="キャッシュ フォルダ [2] は内部のキャッシュ フォルダ テーブルで定義されていません。"/>
+  <STRING id="Error.2771" value="機能 [2] のアップグレードに、コンポーネントが足りません。"/>
+  <STRING id="Error.2772" value="新しいアップグレード機能 [2] は、末端の機能でなければなりません。"/>
+  <STRING id="Error.2801" value="不明なメッセージ -- タイプ [2]。 アクションは実行されていません。"/>
+  <STRING id="Error.2802" value="イベント [2] の発行元が見つかりません。"/>
+  <STRING id="Error.2803" value="ダイアログ ビューは、ダイアログ [2] のレコードを見つけられませんでした。"/>
+  <STRING id="Error.2804" value="ダイアログ [2] にあるコントロール [3] のアクティブ化で、CMsiDialog が条件 [3] の評価に失敗しました。"/>
+  <STRING id="Error.2806" value="ダイアログ [2] が条件 [3] の評価に失敗しました。"/>
+  <STRING id="Error.2807" value="アクション [2] が認識できません。"/>
+  <STRING id="Error.2808" value="ダイアログ [2] のデフォルト ボタンが明確に定義されていません。"/>
+  <STRING id="Error.2809" value="ダイアログ [2] で、次のコントロールを示すポインタが一巡していません。[3] から [4] へのポインタはありますが、それ以降のポインタがありません。"/>
+  <STRING id="Error.2810" value="ダイアログ [2] で、次のコントロールを示すポインタが一巡していません。[3] から [5] と [4] の両方へのポインタが存在します。"/>
+  <STRING id="Error.2811" value="ダイアログ [2] で、コントロール [3] はフォーカスを設定できる必要がありますが、設定できません。"/>
+  <STRING id="Error.2812" value="イベント [2] が認識されません。"/>
+  <STRING id="Error.2813" value="EndDialog イベントが引数 [2] で呼び出されましたが、ダイアログには親が設定されています"/>
+  <STRING id="Error.2814" value="ダイアログ [2] 上のコントロール [3] が、次のコントロールとして存在しないコントロール [4] を指定しています。"/>
+  <STRING id="Error.2815" value="ControlCondition テーブルに、ダイアログ [2] に対する条件がない行があります。"/>
+  <STRING id="Error.2816" value="EventMapping テーブルが、イベント [3] についてダイアログ [2] 上の無効なコントロール [4] を参照しています。"/>
+  <STRING id="Error.2817" value="イベント [2] は、ダイアログ [3] のコントロール [4] の属性を設定できませんでした。"/>
+  <STRING id="Error.2818" value="ControlEvent テーブルの EndDialog に、認識されない引数 [2] があります。"/>
+  <STRING id="Error.2819" value="ダイアログ [2] 上のコントロール [3] には、リンクされたプロパティが必要です。"/>
+  <STRING id="Error.2820" value="すでに初期化されているハンドラを初期化しようとしました。"/>
+  <STRING id="Error.2821" value="すでに初期化されているダイアログを初期化しようとしました: [2]。"/>
+  <STRING id="Error.2822" value="すべてのコントロールが追加されるまで、ダイアログ [2] からメソッドを呼び出すことはできません。"/>
+  <STRING id="Error.2823" value="すでに初期化されているコントロールを初期化しようとしました: ダイアログ [2] 上の [3]。"/>
+  <STRING id="Error.2824" value="ダイアログの属性 [3] は、少なくとも [2] 個以上のフィールドを持つレコードが必要です。"/>
+  <STRING id="Error.2825" value="コントロールの属性 [3] は、少なくとも [2] 個以上のフィールドを持つレコードが必要です。"/>
+  <STRING id="Error.2826" value="ダイアログ [2] 上のコントロール [3] が、ダイアログの境界 [4] x [5] ピクセルを超えています。"/>
+  <STRING id="Error.2827" value="ダイアログ [2] 上のラジオ ボタン グループ [3] に含まれるボタン [4] が、グループの境界 [4] x [5] ピクセルを超えています。"/>
+  <STRING id="Error.2828" value="ダイアログ [2] からコントロール [3] を削除しようとしましたが、コントロールはダイアログに含まれていませんでした。"/>
+  <STRING id="Error.2829" value="初期化されていないダイアログを使用しようとしました。"/>
+  <STRING id="Error.2830" value="ダイアログ [2] 上の初期化されていないコントロールを使用しようとしました。"/>
+  <STRING id="Error.2831" value="ダイアログ [2] 上のコントロール [3] では、属性 [4] ( [5] ) はサポートされません。"/>
+  <STRING id="Error.2832" value="ダイアログ [2] では、属性 [3] はサポートされません。"/>
+  <STRING id="Error.2833" value="ダイアログ [3] 上のコントロール [4] が、メッセージ [2] を無視しました。"/>
+  <STRING id="Error.2834" value="ダイアログ [2] で、次を示すポインタが単一のループになっていません。"/>
+  <STRING id="Error.2835" value="ダイアログ [3] 上コントロール [2] が見つかりませんでした。"/>
+  <STRING id="Error.2836" value="ダイアログ [2] 上のコントロール [3] がフォーカスを取得できません。"/>
+  <STRING id="Error.2837" value="ダイアログ [2] 上のコントロール [3] は、WinProc が [4] を返すことを要求しています。"/>
+  <STRING id="Error.2838" value="選択テーブルの項目 [2] の親が、その項目自身です。"/>
+  <STRING id="Error.2839" value="プロパティ [2] の設定に失敗しました。"/>
+  <STRING id="Error.2840" value="ダイアログ名の不一致エラー。"/>
+  <STRING id="Error.2841" value="エラー ダイアログ上に［OK］ボタンが見つかりません。"/>
+  <STRING id="Error.2842" value="エラー ダイアログ上にテキスト フィールドが見つかりません。"/>
+  <STRING id="Error.2843" value="標準ダイアログは ErrorString 属性をサポートしていません。"/>
+  <STRING id="Error.2844" value="エラー ダイアログを実行するには、エラー文字列を設定する必要があります。"/>
+  <STRING id="Error.2845" value="ボタン幅の合計がエラー ダイアログのサイズを超えています。"/>
+  <STRING id="Error.2846" value="SetFocus は、指定されたコントロールをエラー ダイアログ上に見つけられませんでした。"/>
+  <STRING id="Error.2847" value="ダイアログ [2] 上のコントロール [3] に、アイコン形式とビットマップ形式の両方が設定されています｡"/>
+  <STRING id="Error.2848" value="ダイアログ [2] のデフォルト ボタンとして、コントロール [3] を設定しようとしましたが、コントロールが存在しません。"/>
+  <STRING id="Error.2849" value="ダイアログ [2] 上のコントロール [3] は、整数値を保持できません｡"/>
+  <STRING id="Error.2850" value="認識できないボリュームの種類です。"/>
+  <STRING id="Error.2851" value="アイコン [2] のデータが不正です。"/>
+  <STRING id="Error.2852" value="ダイアログ [2] を使用する前に、コントロールを少なくとも 1 つ追加する必要があります。"/>
+  <STRING id="Error.2853" value="ダイアログ [2] はモードレス ダイアログです。 Execute メソッドを呼び出さないでください。"/>
+  <STRING id="Error.2854" value="ダイアログ [2] で、コントロール [3] が最初のアクティブ コントロールとして指定されていますが、コントロールが存在しません。"/>
+  <STRING id="Error.2855" value="ダイアログ [2] 上のラジオ ボタン グループ [3] のボタンが 2 つ未満です。"/>
+  <STRING id="Error.2856" value="ダイアログ [2] の 2 つ目のコピーを作成しています。"/>
+  <STRING id="Error.2857" value="選択テーブルにディレクトリ [2] が記載されていますが、見つかりません。"/>
+  <STRING id="Error.2858" value="ビットマップ [2] のデータが不正です。"/>
+  <STRING id="Error.2859" value="テスト エラー メッセージ。"/>
+  <STRING id="Error.2860" value="ダイアログ [2] にキャンセル ボタンが明確に定義されていません。"/>
+  <STRING id="Error.2861" value="ダイアログ [2] 上のコントロール [3] で、次のラジオ ボタンを示すポインタが環状になっていません。"/>
+  <STRING id="Error.2862" value="ダイアログ [2] 上のコントロール [3] の属性で、無効なアイコン サイズが定義されています。サイズは 16 に設定します。"/>
+  <STRING id="Error.2863" value="ダイアログ [2] 上のコントロール [3] には サイズ [5]x[5] の アイコン [4] が必要ですが、そのサイズがありません。最初の使用可能なサイズのものをロードします。"/>
+  <STRING id="Error.2864" value="ダイアログ [2] 上のコントロール [3] が参照 イベントを受け取りましたが、現在の選択に対して表示可能なディレクトリがありません。 よくある原因: 参照 ボタンが正しく設定されていません。"/>
+  <STRING id="Error.2865" value="ビルボード [2] 上のコントロール [3] が、ビルボードの境界 [4] x [5] ピクセルを超えています。"/>
+  <STRING id="Error.2866" value="ダイアログ [2] は、引数 [3] で戻ることはできません。"/>
+  <STRING id="Error.2867" value="エラー ダイアログのプロパティが設定されていません。"/>
+  <STRING id="Error.2868" value="エラー ダイアログ [2] にエラー スタイル ビットが設定されていません。"/>
+  <STRING id="Error.2869" value="ダイアログ [2] にエラー スタイル ビットが設定されていますが、エラー ダイアログではありません。"/>
+  <STRING id="Error.2870" value="ダイアログ [2] 上のコントロール [3] のヘルプ文字列 [4] に、区切り文字が含まれていません。"/>
+  <STRING id="Error.2871" value="[2] テーブルが古すぎます: [3]。"/>
+  <STRING id="Error.2872" value="ダイアログ [2] のCheckPath コントロール イベントの引数が不正です。"/>
+  <STRING id="Error.2873" value="ダイアログ [2] 上のコントロール [3] に指定されている文字長制限が不正です: [4]。"/>
+  <STRING id="Error.2874" value="テキストのフォントを [2] に変更できませんでした。"/>
+  <STRING id="Error.2875" value="テキストの色を [2] に変更できませんでした。"/>
+  <STRING id="Error.2876" value="ダイアログ [2] 上のコントロール [3] で文字列が切り詰められました: [4]。"/>
+  <STRING id="Error.2877" value="バイナリ データ [2] が見つかりませんでした。"/>
+  <STRING id="Error.2878" value="ダイアログ [2] 上のコントロール [3] が取り得る値として次の値が指定されています: [4]。 この値は不正であるか重複している値です。"/>
+  <STRING id="Error.2879" value="ダイアログ [2] 上のコントロール [3] で、マスク文字列を解析できません: [4]。"/>
+  <STRING id="Error.2880" value="残りのコントロール イベントは実行しません。"/>
+  <STRING id="Error.2881" value="CMsiHandler の初期化に失敗しました。"/>
+  <STRING id="Error.2882" value="ダイアログのウィンドウ クラスの登録に失敗しました。"/>
+  <STRING id="Error.2883" value="ダイアログ [2] の CreateNewDialog に失敗しました。"/>
+  <STRING id="Error.2884" value="ダイアログ [2] のウィンドウを作成することができませんでした。"/>
+  <STRING id="Error.2885" value="ダイアログ [2] 上のコントロール [3] を作成することができませんでした。"/>
+  <STRING id="Error.2886" value="[2] テーブルを作成することができませんでした。"/>
+  <STRING id="Error.2887" value="[2] テーブルのカーソル作成に失敗しました。"/>
+  <STRING id="Error.2888" value="[2] ビューの実行に失敗しました。"/>
+  <STRING id="Error.2889" value="ダイアログ [2] 上のコントロール [3] のウィンドウを作成することができませんでした。。"/>
+  <STRING id="Error.2890" value="初期化されたダイアログを作成する際のハンドラで失敗しました。"/>
+  <STRING id="Error.2891" value="ダイアログ [2] のウィンドウを破棄する際に失敗しました。"/>
+  <STRING id="Error.2892" value="[2] は整数値のみのコントロールであり、[3] は有効な整数値ではありません。"/>
+  <STRING id="Error.2893" value="ダイアログ [2] 上のコントロール [3] では、最高 [5] 文字までのプロパティ値が使用可能です｡ 値 [4] はこの制限を超えているため文字が切り捨てられました。"/>
+  <STRING id="Error.2894" value="RICHED20.DLL のロード失敗。GetLastError() の戻り値: [2]。"/>
+  <STRING id="Error.2895" value="RICHED20.DLL の解放失敗。GetLastError() の戻り値: [2]。"/>
+  <STRING id="Error.2896" value="アクション [2] の実行に失敗しました。"/>
+  <STRING id="Error.2897" value="実行中のシステム上で [2] フォントを作成することに失敗しました。"/>
+  <STRING id="Error.2898" value="[2] テキスト スタイルに対して、システムは &apos;[3]&apos; フォントを [4] 文字セットで作成しました。"/>
+  <STRING id="Error.2899" value="[2] テキスト スタイルの作成失敗。GetLastError() の戻り値: [3]"/>
+  <STRING id="Error.2901" value="操作 [2] に対するパラメータが不正です: パラメータ [3]。"/>
+  <STRING id="Error.2902" value="操作 [2] の呼び出し順序が不正です。"/>
+  <STRING id="Error.2903" value="ファイル [2] が見つかりません。"/>
+  <STRING id="Error.2904" value="ファイル [2] の BindImage に失敗しました。"/>
+  <STRING id="Error.2905" value="スクリプト ファイル [2] からレコードを読み取れませんでした。"/>
+  <STRING id="Error.2906" value="スクリプト ファイル [2] にヘッダーがありません。"/>
+  <STRING id="Error.2907" value="セキュリティで保護されたセキュリティ記述子を作成できませんでした。エラー: [2]。"/>
+  <STRING id="Error.2908" value="コンポーネント [2] を登録できませんでした。"/>
+  <STRING id="Error.2909" value="コンポーネント [2] の登録を解除できませんでした。"/>
+  <STRING id="Error.2910" value="ユーザーのセキュリティ ID を特定できませんでした。"/>
+  <STRING id="Error.2911" value="フォルダ [2] を削除できませんでした。"/>
+  <STRING id="Error.2912" value="再起動時に、ファイル [2] を削除するようスケジュールできませんでした。"/>
+  <STRING id="Error.2919" value="圧縮ファイルにキャビネットが指定されていません: [2]。"/>
+  <STRING id="Error.2920" value="ファイル [2] にソース ディレクトリが指定されていません。"/>
+  <STRING id="Error.2924" value="スクリプト [2] のバージョンはサポートされていません。 スクリプトのバージョン: [3]，最小バージョン: [4]，最大バージョン: [5]。"/>
+  <STRING id="Error.2927" value="ShellFolder ID [2] が無効です。"/>
+  <STRING id="Error.2928" value="ソースの最大数を超えています。ソース &apos;[2]&apos; をスキップします。"/>
+  <STRING id="Error.2929" value="発行元を特定できませんでした。エラー: [2]。"/>
+  <STRING id="Error.2932" value="スクリプト データからファイル [2] を作成できませんでした。エラー: [3]。"/>
+  <STRING id="Error.2933" value="ロールバック スクリプト [2] を初期化できませんでした。"/>
+  <STRING id="Error.2934" value="トランスフォーム [2] セキュリティで保護できませんでした。エラー: [3]。"/>
+  <STRING id="Error.2935" value="トランスフォーム [2] のセキュリティ保護を解除できませんでした。エラー: [3]。"/>
+  <STRING id="Error.2936" value="トランスフォーム [2] が見つかりません。"/>
+  <STRING id="Error.2937" value="Windows Installer は、システム ファイル保護されたカタログをインストールできません。カタログ: [2]，エラー: [3]。"/>
+  <STRING id="Error.2938" value="Windows Installer は、システム ファイル保護されたカタログをキャッシュから取得できません。カタログ: [2]，エラー: [3]。"/>
+  <STRING id="Error.2939" value="Windows Installer は、システム ファイル保護されたカタログをキャッシュから削除できません。カタログ: [2]，エラー: [3]。"/>
+  <STRING id="Error.2940" value="ディレクトリ マネージャがソースを解決するために提供されていません。"/>
+  <STRING id="Error.2941" value="ファイル [2] の CRC を計算できません。"/>
+  <STRING id="Error.2942" value="BindImage アクションが [2] ファイルに対して実行されませんでした。"/>
+  <STRING id="Error.2943" value="このバージョンの Windows は 64 ビット パッケージの展開はサポートしていません。 スクリプト [2] は 64 ビット パッケージ用です。"/>
+  <STRING id="Error.2944" value="GetProductAssignmentType が失敗しました。"/>
+  <STRING id="Error.2945" value="ComPlus アプリケーション [2] のインストールに失敗しました。エラー: [3]。"/>
+  <STRING id="Error.3001" value="このリストのパッチには、正しくないシーケンス情報が含まれています: [2][3][4][5][6][7][8][9][10][11][12][13][14][15][16]。"/>
+  <STRING id="Error.3002" value="パッチ [2] に不正なシーケンス情報が含まれています。 "/>
+  <STRING id="Error.4001" value="シリアル ナンバーが確認できません。"/>
+  <STRING id="Error.4025" value="アプリケーション プール &quot;[2]&quot; はすでにこのサーバーに存在します。&#10;&#10;アプリケーション プールの設定をスキップしてインストールを続行しますか？"/>
+  <STRING id="Error.4150" value="CallStdFcn 内部エラー。"/>
+  <STRING id="Error.4151" value="&apos;[2]&apos; 関数は、DLL &apos;[3]&apos; に見つかりませんでした。"/>
+  <STRING id="Error.4152" value="[ProductName] の設定およびテンポラリ ファイルを削除しますか？"/>
+  <STRING id="Error.4153" value="[2] 必須の前提条件は正しくインストールされました。"/>
+  <STRING id="Error.4154" value="[2] 前提条件は正しくインストールされませんでした。それでも [ProductName] のインストールを続行しますか？"/>
+  <STRING id="Error.4155" value="ファイル [2] を正しく取得することができませんでした: CRC エラー。"/>
+  <STRING id="Error.4156" value="ファイル [2] を正しく取得することができませんでした: CRC エラー。それでも [ProductName] のインストールを続行しますか？"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="バイト"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="すべての機能が使用できなくなります。"/>
+  <STRING id="UIText.MenuAdvertise" value="機能は必要な時にインストールされます。"/>
+  <STRING id="UIText.MenuAllCD" value="すべての機能が CD-ROM から実行できます。"/>
+  <STRING id="UIText.MenuAllLocal" value="すべての機能がローカル ハード ディスクから実行されます。"/>
+  <STRING id="UIText.MenuAllNetwork" value="すべての機能がネットワークから実行できます。"/>
+  <STRING id="UIText.MenuCD" value="CD-ROM から実行できるようにインストールされます。"/>
+  <STRING id="UIText.MenuLocal" value="ローカル ハード ディスクにインストールされます。"/>
+  <STRING id="UIText.MenuNetwork" value="ネットワークから実行できるようにインストールされます。"/>
+  <STRING id="UIText.ScriptInProgress" value="必要な情報の収集をしています..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="この機能はインストールされません。"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="この機能は必要な時にインストールされます。"/>
+  <STRING id="UIText.SelAbsentCD" value="この機能は CD-ROM から実行できるようにインストールされます。"/>
+  <STRING id="UIText.SelAbsentLocal" value="この機能はローカル ハード ディスクにインストールされます。"/>
+  <STRING id="UIText.SelAbsentNetwork" value="この機能はネットワークから実行できるようにインストールされます。"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="この機能は使用できなくなります。"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="この機能は必要な時にインストールされます。"/>
+  <STRING id="UIText.SelAdvertiseCD" value="この機能は CD-ROM から実行できるようになります。"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="この機能はローカル ハード ディスクから実行できます。"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="この機能はネットワークから実行できるようになります。"/>
+  <STRING id="UIText.SelCDAbsent" value="この機能は完全にアンインストールされます。CD-ROM から実行する機能も使用できません。"/>
+  <STRING id="UIText.SelCDAdvertise" value="この機能は CD-ROM から実行する設定から、必要な時にインストールするように変更されます。"/>
+  <STRING id="UIText.SelCDCD" value="この機能は今後も CD-ROM から実行できます。"/>
+  <STRING id="UIText.SelCDLocal" value="この機能は CD-ROM から実行される設定から、ローカル ハード ディスク上にインストールされるように変更されます。"/>
+  <STRING id="UIText.SelChildCostNeg" value="この機能はローカル ハード ディスク上の [1] を空きにします。"/>
+  <STRING id="UIText.SelChildCostPos" value="この機能をインストールするにはローカル ハード ディスク上に [1] 必要です。"/>
+  <STRING id="UIText.SelCostPending" value="この機能のコストを計算しています..."/>
+  <STRING id="UIText.SelLocalAbsent" value="この機能は完全に削除されます。"/>
+  <STRING id="UIText.SelLocalAdvertise" value="この機能は、お使いのコンピュータからは削除されますが、必要な時にインストールされるようになります。"/>
+  <STRING id="UIText.SelLocalCD" value="この機能はローカル ハード ディスクから削除されますが、CD-ROM から実行できます。"/>
+  <STRING id="UIText.SelLocalLocal" value="この機能は今後もローカル ハード ディスクから実行されます。"/>
+  <STRING id="UIText.SelLocalNetwork" value="この機能はローカル ハード ディスクから削除されますが、ネットワークから実行できます。"/>
+  <STRING id="UIText.SelNetworkAbsent" value="この機能は完全にアンインストールされます。ネットワークからも実行できなくなります。"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="この機能はネットワークから実行する状態から、必要なときにインストールされるように設定が変更されます。"/>
+  <STRING id="UIText.SelNetworkLocal" value="この機能は、ネットワーク から実行する状態からローカル ハード ドライブへインストールするよう変更されます。"/>
+  <STRING id="UIText.SelNetworkNetwork" value="この機能は今後もネットワークから実行できます。"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="この機能はローカル ハード ディスク上の [1] を空きにします。サブ機能 [3] 個のうち [2] 個が選択されています。サブ機能は [4] を空きにします。"/>
+  <STRING id="UIText.SelParentCostNegPos" value="この機能はローカル ハード ディスク上の [1] を空きにします。サブ機能 [3] 個のうち [2] 個が選択されています。サブ機能には [4] 必要です。"/>
+  <STRING id="UIText.SelParentCostPosNeg" value="この機能をインストールするにはローカル ハード ディスク上に [1] 必要です。サブ機能 [3] 個のうち [2] 個が選択されています。サブ機能は [4] を空きにします。"/>
+  <STRING id="UIText.SelParentCostPosPos" value="この機能をインストールするにはローカル ハード ディスク上に [1] 必要です。サブ機能 [3] 個のうち [2] 個が選択されています。サブ機能には [4] 必要です。"/>
+  <STRING id="UIText.TimeRemaining" value="残り時間：{[1]  minutes }{[2]seconds}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="利用可能"/>
+  <STRING id="UIText.VolumeCostDifference" value="残領域"/>
+  <STRING id="UIText.VolumeCostRequired" value="必要な領域"/>
+  <STRING id="UIText.VolumeCostSize" value="ディスクのサイズ"/>
+  <STRING id="UIText.VolumeCostVolume" value="ボリューム"/>
+  <STRING id="UIText.HttpPostMsg" value="データを送信中です..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.ODBCTestMsg" value="接続テストが終了するまでお待ちください..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="ネットワーク上の SQL サーバーを参照しています..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.BrowseFolderLocation" value="場所"/>
+  <STRING id="UIText.BrowseFolderName" value="フォルダ名:"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="フォルダの選択"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;リソース ロードエラー:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="インストール"/>
+  <STRING id="UIText.PrereqInstalled" value="インストール済み"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="要インストール"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] 以下}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] 以上}"/>
+  <STRING id="UIText.PrereqSkipAction" value="スキップ"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="データベースに接続しています..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="容量不足"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="インストール先ドライブ"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="未使用のドライブ"/>
+  <STRING id="UIText.Warning" value="警告"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.ExtReg#1" value="はい、ファイルの関連付けを変更して登録します(&amp;Y)"/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="いいえ、ファイルの関連付けを行いません(&amp;N)"/>
+  <STRING id="RadioButton.Text.IAgree#1" value="使用許諾契約書のすべての条項に同意します(&amp;A)"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="使用許諾契約書の条項に同意しません(&amp;D)"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="アプリケーションを自動的に終了し、セットアップ終了後に再度起動させます(&amp;C)"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="アプリケーションを終了しません(システムの再起動が必要です)(&amp;N)"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="このユーザーのみ ([LogonUser])"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="すべてのユーザー(全員)"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Modify" value="変更"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Remove" value="削除"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Repair" value="修正"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="いいえ、複数のバージョンを共存させます(&amp;N)"/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="はい、古いバージョンを削除します(&amp;Y)"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="いいえ、[AI_Replaced_Versions_List] のみインストールします(&amp;N)"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="はい、すべての古いバージョンを削除します(&amp;Y)"/>
+  <STRING id="Property.ButtonText_Back" value="&lt;戻る(&amp;B)"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="戻る(&amp;B)"/>
+  <STRING id="Property.ButtonText_Browse" value="参照(&amp;S)..."/>
+  <STRING id="Property.ButtonText_Cancel" value="キャンセル"/>
+  <STRING id="Property.ButtonText_Exit" value="終了(&amp;E)"/>
+  <STRING id="Property.ButtonText_Finish" value="完了(&amp;F)"/>
+  <STRING id="Property.Text_Finish" value="完了"/>
+  <STRING id="Property.ButtonText_Ignore" value="無視(&amp;I)"/>
+  <STRING id="Property.ButtonText_Install" value="インストール(&amp;I)"/>
+  <STRING id="Property.Text_Install" value="インストール(I)"/>
+  <STRING id="Property.ButtonText_Next" value="次へ(&amp;N)&gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="次へ(&amp;N)"/>
+  <STRING id="Property.Text_Next" value="次へ(N)"/>
+  <STRING id="Property.ButtonText_No" value="いいえ(&amp;N)"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="削除(&amp;E)"/>
+  <STRING id="Property.ButtonText_Repair" value="修復(&amp;P)"/>
+  <STRING id="Property.ButtonText_Reset" value="元に戻す(&amp;R)"/>
+  <STRING id="Property.ButtonText_Resume" value="再開(&amp;R)"/>
+  <STRING id="Property.ButtonText_Retry" value="再試行(&amp;R)"/>
+  <STRING id="Property.ButtonText_Return" value="戻る(&amp;R)"/>
+  <STRING id="Property.ButtonText_Yes" value="はい(&amp;Y)"/>
+  <STRING id="Property.CtrlEvtchanges" value="変更"/>
+  <STRING id="Property.CtrlEvtChanging" value="変更しています"/>
+  <STRING id="Property.CtrlEvtremoves" value="削除"/>
+  <STRING id="Property.CtrlEvtRemoving" value="削除しています"/>
+  <STRING id="Property.CtrlEvtRepairing" value="修復しています"/>
+  <STRING id="Property.CtrlEvtrepairs" value="修復"/>
+  <STRING id="Property.InstallModeComplete" value="完全"/>
+  <STRING id="Property.InstallModeCustom" value="カスタム"/>
+  <STRING id="Property.InstallModeTypical" value="標準"/>
+  <STRING id="Property.Progress1" value="インストールしています"/>
+  <STRING id="Property.Progress2" value="インストール"/>
+  <STRING id="Property.Setup" value="セットアップ"/>
+  <STRING id="Property.Wizard" value="セットアップウィザード"/>
+  <!-- Trialware Settings table-->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="購入する"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="%TrialName% 購入ページを開いてよろしいですか?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="不正なライセンスキー"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="ライセンスキーが不正です。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% 体験版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="キーを確認して続行するには &quot;完了&quot; ボタンを押してしてください。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="受け取ったライセンスキーのすべての行を入力してください。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="登録"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="購入する"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="ライセンスのご購入は、%TrialName% 購入ページをご覧ください"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="%TrialName% 試用期限"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="体験版の試用期間 (%Quantity% 日) が終了しました。引き続き %TrialName% をご利用いただくには、ライセンスのご購入と登録が必要です。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="体験版の起動回数 (%Quantity% 回) が終了しました。引き続き %TrialName% をご利用いただくには、ライセンスのご購入と登録が必要です。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="%TrialName% 体験版へようこそ"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="登録する"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="ライセンスキーを入力してください"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="体験する"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="試用期限"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="購入する"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="ライセンスのご購入は、%TrialName% 購入ページをご覧ください"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="%TrialName% 体験版 (試用期限まで %TrialLeft% 日)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="%TrialName% 体験版 (残り起動回数 %TrialLeft% 回)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="お使いのバージョンは [|Manufacturer] %TrialName% 体験版です。試用期限まであと %TrialLeft% 日です。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="お使いのバージョンは [|Manufacturer] %TrialName% 体験版です。残り起動回数はあと %TrialLeft% 回です。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="%TrialName% 体験版へようこそ"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="登録する"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="ライセンスキーを入力してください"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="体験する"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="引き続き %TrialName% を体験する"/>
+  <STRING id="TrialwareSettings.alltrials#ContactReqLicenseCompId#Cmd" value="mailto:%LicReqContact%?subject=ライセンス要求コード: %CompId%&amp;body=%TrialName% のライセンスを希望します。%%0A%%0A要求コード: %CompId% %%0A"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=体験版 試用期間延長 申し込み&amp;body=%TrialName% の試用期間延長を希望します。%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error1" value="ご登録のライセンスは期限切れです。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error2" value="お使いのバージョンの %TrialName% はご登録のメンテナンスプランの対象外です。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error3" value="お使いの %TrialName% のライセンスは期限切れです"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="%TrialName% 体験版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="続行"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="試用期間延長申し込み"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="［続行］ボタンを押してください。コードを確認後、トライアル期間を延長します。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="お受け取りになった試用期間延長コードを入力してください。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="試用期間延長"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="体験版 試用期間延長の制限"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="試用期間は、%Quantity% %TrialMU% を超えて延長することはできません。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#DlgCaption" value="%TrialName% 体験版"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#FinishCaption" value="続行"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#LinkCaption" value="ライセンスの要求 (要求コード: %CompId%)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#Msg2Caption" value="［続行］ボタンを押してください。キーを確認して続行します。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#MsgCaption" value="お受け取りになった登録キーのすべての行を入力してください。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#PageHeader" value="登録"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="続行"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="%TrialName% 登録完了"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="%TrialName% のご登録ありがとうございました。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="登録完了"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="購入"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="%TrialName% 購入ページでライセンスをお求めください。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="%TrialName% 試用期間の終了"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="%Quantity% 日間の試用期間が終了しました。引き続き %TrialName% をお使いいただくには、試用期間の延長をお申し込みいただくか、ライセンスをご購入いただいた後、製品にご登録ください。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="%Quantity% 回の試用制限に達しました。引き続き %TrialName% をお使いいただくには、試用期間の延長をお申し込みいただくか、ライセンスをご購入いただいた後、製品にご登録ください。"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="%TrialName% 体験版へようこそ"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="登録"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="登録キーを入力してください"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="試用期間の延長"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="%TrialName% 体験版の試用期間を延長します"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value="%TrialName% 登録"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="%TrialName% のご登録ありがとうございました。"/>
+</DICTIONARY>

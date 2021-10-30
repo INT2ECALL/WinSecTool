@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B35B3203FEB4CFFA576A27CB835D3E6" DisplayName="Visual C++ Redistributable for Visual Studio 2017 x86" VersionMin="14.10"
+      SetupFileUrl="http://download.microsoft.com/download/1/f/e/1febbdb2-aded-4e14-9063-39fb17e88444/vc_redist.x86.exe"
+      Location="1" ExactSize="14408752" MD5="4ae35849e82945e117cefb28a83c2f8f"
+      WinNTVersions="Windows Vista RTM x86, Windows Vista SP1 x86, Windows Server 2008 RTM x86, Windows 7 RTM x86"
+      WinNT64Versions="Windows Vista RTM x64, Windows Vista SP1 x64, Windows Server 2008 RTM x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64"
+      NoUiComLine="/q /norestart"
+      Operator="0" Options="f" TargetName="Visual C++ Redistributable for Visual Studio 2017"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B35B3203FEB4CFFA576A27CB835D3E6Version" Prereq="B35B3203FEB4CFFA576A27CB835D3E6" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeMinimum\Version" VerMin="14.10.25008"
+      Order="1" Property="PreReqSearch_B35B3203FEB4CFFA576A27CB835D3E6"/>
+    <ROW SearchKey="B35B3203FEB4CFFA576A27CB835D3E6SystemFoldervcruntime140.dll" Prereq="B35B3203FEB4CFFA576A27CB835D3E6" SearchType="0"
+      SearchString="[SystemFolder]vcruntime140.dll" VerMin="14.10.25008"
+      Order="2" Property="PreReqSearch_2_B35B3203FEB4CFFA576A27CB835D3E6"/>
+  </COMPONENT>
+</FRAGMENT>

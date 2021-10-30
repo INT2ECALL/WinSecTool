@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F6CA30D0E4ECD9712E526F442C100" DisplayName="Remote Server Administration Tools for Windows 8.1 x64" VersionMin="6.3"
+      SetupFileUrl="http://download.microsoft.com/download/1/8/E/18EA4843-C596-4542-9236-DE46F780806E/Windows8.1-KB2693643-x64.msu"
+      Location="1" ExactSize="70872826" MD5="c2b1e3c97627adae934adeec556886db"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xf" TargetName="RSAT for W8.1"/>
+    <ATTRIBUTE name="GroupName" value="Windows Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F6CA30D0E4ECD9712E526F442C100SystemFolderrsatclient.dll" Prereq="F6CA30D0E4ECD9712E526F442C100" SearchType="0"
+      SearchString="[SystemFolder]rsatclient.dll" VerMin="6.3.9600.16384"
+      Order="1" Property="PreReqSearch_F6CA30D0E4ECD9712E526F442C100"/>
+  </COMPONENT>
+</FRAGMENT>

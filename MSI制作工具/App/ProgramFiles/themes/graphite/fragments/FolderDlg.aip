@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="FolderDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="525" Height="395" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="FolderDlg" Control="Next" Type="PushButton" X="368" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="FolderDlg" Control="FolderLabel" Type="Text" X="174" Y="192" Width="348" Height="12" Attributes="65539" TextStyle="Normal" Order="300" Help="|" TextLocId="Control.Text.FolderDlg#FolderLabel" HelpLocId="Control.Help.FolderDlg#FolderLabel"/>
+    <ROW Dialog_="FolderDlg" Control="FolderEdit" Type="PathEdit" X="175" Y="204" Width="252" Height="18" Attributes="7" Property="APPDIR" Order="400" Help="|" HelpLocId="Control.Help.FolderDlg#FolderEdit"/>
+    <ROW Dialog_="FolderDlg" Control="Browse" Type="PushButton" X="436" Y="204" Width="66" Height="18" Attributes="3" Text="[ButtonText_Browse]" Order="500" Help="|" TextLocId="-" HelpLocId="Control.Help.FolderDlg#Browse"/>
+    <ROW Dialog_="FolderDlg" Control="Cancel" Type="PushButton" X="436" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="600" TextLocId="-" Options="1"/>
+    <ROW Dialog_="FolderDlg" Control="Back" Type="PushButton" X="312" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="700" TextLocId="-" Options="1"/>
+    <ROW Dialog_="FolderDlg" Control="Title" Type="Text" X="11" Y="9" Width="200" Height="15" Attributes="196611" TextStyle="Title" Order="800" TextLocId="Graphite.Control.Text.FolderDlg#Title"/>
+    <ROW Dialog_="FolderDlg" Control="Intro" Type="Text" X="175" Y="70" Width="280" Height="30" Attributes="196611" TextStyle="Intro" Order="900" TextLocId="Graphite.Control.Text.FolderDlg#Intro"/>
+    <ROW Dialog_="FolderDlg" Control="GlobalProgress" Type="Bitmap" X="14" Y="88" Width="14" Height="86" Attributes="1048577" Text="[Collecting]" Order="1000"/>
+    <ROW Dialog_="FolderDlg" Control="Description" Type="Text" X="175" Y="145" Width="320" Height="40" Attributes="196611" TextStyle="Normal" Order="1100" TextLocId="Graphite.Control.Text.FolderDlg#Description"/>
+    <ROW Dialog_="FolderDlg" Control="CollectingLabel" Type="Text" X="35" Y="90" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1200" TextLocId="Graphite.Control.Text.Dlg#CollectingLabel"/>
+    <ROW Dialog_="FolderDlg" Control="PreparingLabel" Type="Text" X="35" Y="114" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1300" TextLocId="Graphite.Control.Text.Dlg#PreparingLabel"/>
+    <ROW Dialog_="FolderDlg" Control="InstallingLabel" Type="Text" X="35" Y="138" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1400" TextLocId="Graphite.Control.Text.Dlg#InstallingLabel"/>
+    <ROW Dialog_="FolderDlg" Control="FinalizingLabel" Type="Text" X="35" Y="162" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1500" TextLocId="Graphite.Control.Text.Dlg#FinalizingLabel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="FolderDlg" Control_="Browse" Event="[_BrowseProperty]" Argument="APPDIR" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FolderDlg" Control_="Browse" Event="SpawnDialog" Argument="BrowseDlg" Condition="1" Ordering="200"/>
+    <ROW Dialog_="FolderDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="SetTargetPath" Argument="APPDIR" Condition="1" Ordering="200"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="FolderDlg" HCentering="50" VCentering="50" Width="525" Height="395" Attributes="39" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.FolderDlg"/>
+  </COMPONENT>
+</FRAGMENT>

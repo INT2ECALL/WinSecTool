@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="ABECD543848517E3E97B1BC934" DisplayName="Java SE Development Kit 7u80 x64" VersionMin="1.7"
+      SetupFileUrl="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html"
+      Location="2" ExactSize="0"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64, Windows Vista SP1 x64"
+      Operator="0" Options="xy"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="ABECD543848517E3E97B1BC934CurrentVersion" Prereq="ABECD543848517E3E97B1BC934" SearchType="2"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Development Kit\CurrentVersion" VerMin="1.7"
+      Order="1" Property="PreReqSearch_ABECD543848517E3E97B1BC934"/>
+    <ROW SearchKey="ABECD543848517E3E97B1BC934JavaDevelopmentKit" Prereq="ABECD543848517E3E97B1BC934" SearchType="1"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Development Kit" VerMin="1.7.0_80"
+      Order="2" Property="PreReqSearch_1_ABECD543848517E3E97B1BC934"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="logoninfologoicon" SourcePath="&lt;AI_THEMES&gt;common-res\images\LogonInfoLogo.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="LogonInfoLogoIcon" Value="logoninfologoicon" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="LogonInformationDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="304" Attributes="1" Text="[Background]" Order="100"/>
+    <ROW Dialog_="LogonInformationDlg" Control="Next" Type="ImageButton" X="246" Y="277" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="200" TextLocId="-" ExtDataLocId="-" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Next]"/>
+    <ROW Dialog_="LogonInformationDlg" Control="Cancel" Type="ImageButton" X="306" Y="277" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="300" TextLocId="-" ExtDataLocId="-" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]"/>
+    <ROW Dialog_="LogonInformationDlg" Control="Back" Type="ImageButton" X="0" Y="2" Width="22" Height="22" Attributes="3" Text="[BackButton]" Order="400" TextLocId="-" ExtDataLocId="-" HelpLocId="Air.Control.Help#Back" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Back]"/>
+    <ROW Dialog_="LogonInformationDlg" Control="TitleIcon" Type="Icon" X="27" Y="5" Width="16" Height="16" Attributes="3145729" Text="[LogonInfoLogoIcon]" Order="500"/>
+    <ROW Dialog_="LogonInformationDlg" Control="Title" Type="Text" X="46" Y="7" Width="237" Height="11" Attributes="196611" TextStyle="Title" Order="600" TextLocId="Air.Control.Text.WelcomeDlg#Title"/>
+    <ROW Dialog_="LogonInformationDlg" Control="SubTitle" Type="Text" X="25" Y="45" Width="304" Height="18" Attributes="196611" TextStyle="SubTitle" Order="700" TextLocId="Control.Text.LogonInformationDlg#Title"/>
+    <ROW Dialog_="LogonInformationDlg" Control="NameLabel" Type="Text" X="35" Y="115" Width="100" Height="11" Attributes="65539" Order="800" TextLocId="Control.Text.LogonInformationDlg#NameLabel"/>
+    <ROW Dialog_="LogonInformationDlg" Control="NameEdit" Type="Edit" X="35" Y="127" Width="312" Height="18" Attributes="3" Property="USER_NAME" Order="900" TextLocId="Control.Text.LogonInformationDlg#NameEdit"/>
+    <ROW Dialog_="LogonInformationDlg" Control="DomainLabel" Type="Text" X="35" Y="153" Width="100" Height="11" Attributes="65539" Order="1000" TextLocId="Control.Text.LogonInformationDlg#DomainLabel"/>
+    <ROW Dialog_="LogonInformationDlg" Control="DomainEdit" Type="Edit" X="35" Y="165" Width="312" Height="18" Attributes="3" Property="DOMAIN_NAME" Order="1100" TextLocId="Control.Text.LogonInformationDlg#DomainEdit"/>
+    <ROW Dialog_="LogonInformationDlg" Control="PasswordLabel" Type="Text" X="35" Y="189" Width="100" Height="11" Attributes="65539" Order="1200" TextLocId="Control.Text.LogonInformationDlg#PasswordLabel"/>
+    <ROW Dialog_="LogonInformationDlg" Control="PassworEdit" Type="Edit" X="35" Y="202" Width="312" Height="18" Attributes="2097155" Property="USER_PASSWORD" Order="1300" TextLocId="Control.Text.LogonInformationDlg#PasswordEdit"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="LogonInformationDlg" Control_="Title" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="LogonInformationDlg" Control_="TitleIcon" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="LogonInformationDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="LogonInformationDlg" HCentering="50" VCentering="50" Width="370" Height="304" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.LogonInformationDlg"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SearchIndex version="1.0">
+
+  <View id="UpdaterEditorComponent">
+    update name download url installer release date critical MD5 patch detection registry value search file version size custom 64 
+    description features enhancements bug fixes 
+    target versions
+    auto close applications search restart command 
+  </View>
+
+  <View id="UpdaterEditorGlobalComponent">
+    verify license check url
+  </View>
+
+  <View id="UpdaterEditorMediaComponent">
+    output folder file updates configuration 
+    pre post build events command run file
+  </View>
+
+  <View id="DictionaryComponent">
+    build languages multilingual translations dictionary dictionaries 
+  </View>
+
+</SearchIndex>

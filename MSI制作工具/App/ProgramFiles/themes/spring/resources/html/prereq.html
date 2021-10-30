@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Dialog</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="varstyle.css" media="screen" />
+
+  <script type="text/javascript" src="jquery-1.3.2.js"></script>
+
+  <script type="text/javascript" src="common.js"></script>
+
+  <script type="text/javascript">
+	//hook the window load event ("event" argument will be automatically populated by standard browsers)
+	//background: url(background.jpg) no-repeat;
+    $(document).ready(function() {
+
+      /* START XXX */
+
+      InitPage();
+      UpdateBackGroundInd("DialogBitmap", 'main');
+      UpdateBackGroundInd("PrereqLogoIcon", 'logo');
+
+      ResolveTag("p");
+      ResolveTag("h1"); ResolveTag("span");
+
+      var a = ['leftBtnA', 'leftBtnSpan', 'rightBtnA', 'rightBtnSpan', 'cancelBtnA', 'cancelBtnSpan'];
+      UpdateBackGroundIndVec("BannerBitmap", a);
+      ShowFooter();
+
+      /* END XXX */
+
+    });
+  </script>
+
+  <!--[if IE 6]>
+	<script src="pngfix/DD_belatedPNG_0.0.8a.js"></script>
+	<script>
+	  if(screen.deviceXDPI == 96) DD_belatedPNG.fix('img,#logoBig,#logo');
+	</script>
+	<![endif]-->
+</head>
+<body>
+  <!-- Background will be changed at load with the one specified in Binary... this default value is used for openning the HTML in other browser aka debugging -->
+  <div id="main" style="background-image: url(../background.jpg);">
+    <div id="header">
+      <div id="logo" style="background-image: url(../PrerequisitesLogo.png);">
+      </div>
+      <h1 formatted="twice" style="visibility: hidden">
+        [PrereqDlgTitle]</h1>
+      <div class="clear">
+      </div>
+
+      <script type="text/javascript">
+			AdvinstTextMark();
+      </script>
+
+    </div>
+    <div id="content">
+      <p class="description" id="desc" formatted="twice" style="visibility: hidden">
+        [PrereqDlgSubTitle]</p>
+      <!-- Development only to be hiden of commented for release XXX -->
+      <div id="placeholder" style="visibility: hidden; border: 1px solid #9c9c9c; height: 242px;
+        margin: 20px 0 0 0;">
+      </div>
+      <!-- XXX comment guard end -->
+    </div>
+    <div id="footer" style="visibility: hidden">
+      <div class="button-group">
+        <div class="buttonwrapper">
+          <a id="leftBtnA" onclick="external.MsiPublishEvents('Back');" href="#"><b>
+            <img src="back.png" width="16" height="16" />
+          </b><span id="leftBtnSpan" formatted="noarrow">[ButtonText_Back]</span> </a>
+        </div>
+        <div class="buttonwrapper buttonwrapper-right">
+          <a id="rightBtnA" onclick="external.MsiPublishEvents('Next');" href="#"><b>
+            <img src="next.png" width="16" height="16" />
+          </b><span id="rightBtnSpan" formatted="noarrow">[ButtonText_Next]</span> </a>
+        </div>
+        <!--
+            <div class="buttonwrapper cancel">
+                <a id="cancelBtnA" href="#" onclick="external.MsiPublishEvents('Cancel');">
+                    <b>
+                        <img src="cancel.png" width="16" height="16"/>
+                    </b>
+                    <span id="cancelBtnSpan" formatted="noarrow">[ButtonText_Cancel]</span>
+                </a>
+            </div>                
+            -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>

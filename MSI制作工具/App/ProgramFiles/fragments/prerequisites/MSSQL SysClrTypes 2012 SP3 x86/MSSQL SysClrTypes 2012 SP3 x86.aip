@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B77470831546DAA133AABD84B00B7D" DisplayName="Microsoft System CLR Types for SQL Server 2012 SP3 x86" VersionMin="11.3"
+      SetupFileUrl="https://download.microsoft.com/download/3/6/1/3610D28C-D02D-4663-A850-CB77A24A5361/ENU/x86/SQLSysClrTypes.msi"
+      Location="1" ExactSize="2203648" MD5="3a472fb471bf7a1eb789971c533af843"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista RTM x86, Windows Vista SP1 x86, Windows 7 RTM x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64, Windows Vista SP1 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="f" TargetName="Microsoft System CLR Types for SQL Server 2012?SQLSysClrTypes_x86.msi"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B77470831546DAA133AABD84B00B7DInstall" Prereq="B77470831546DAA133AABD84B00B7D" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server 2012 Redist\SQL Server System CLR Types\CurrentVersion\Version" VerMin="11.3.6020.0"
+      Order="1" Property="PreReqSearch_B77470831546DAA133AABD84B00B7D"/>
+  </COMPONENT>
+</FRAGMENT>

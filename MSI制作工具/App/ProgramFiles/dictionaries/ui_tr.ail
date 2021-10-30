@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="tr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Yeni Klasör"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Kopya %s / %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Yeni Değişken"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Açıklama"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Özellik"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Çalıştır"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Destek"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="[|CurrentGame] için açıklamanız."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Yeni dosya"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Yeni Anahtar"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Yeni Bölüm"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Yeni Değer"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Ürününüz"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] Adobe Reader sürümü [AI_REQUIRED_ADOBEREADER_DISPLAY] sürümünün altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName], [AI_REQUIRED_ACTIVESYNC_DISPLAY] veya sonraki sürümü bulunmayan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] renk kalitesi [AI_REQUIRED_COLOR_QUALITY] bitin altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.Description" value="Başlatma Koşulu Açıklaması"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] DirectX sürümü [AI_REQUIRED_DIRECTX_DISPLAY] sürümünün altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] .NET Framework sürümü [AI_REQUIRED_DOTNET_DISPLAY] sürümünün altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] .NET Core sürümü [AI_REQUIRED_DOTNET_CORE_DISPLAY] sürümünün altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] Internet Explorer sürümü [AI_REQUIRED_IE_DISPLAY] sürümünün altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] Internet Information Services sürümü [AI_REQUIRED_IIS_DISPLAY] sürümünün altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] kurulum için aktif bir Internet bağlantısı gerektiriyor. Lütfen ağ yapılandırmanızı ve proxy ayarlarınızı kontrol ediniz."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName], JDK sürümü [AI_REQUIRED_JDK_DISPLAY] öncesi olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] JRE sürümü [AI_REQUIRED_JRE_DISPLAY] sürümünün altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName], [WindowsType9XDisplay] üzerine yüklenemez."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName], [WindowsTypeNTDisplay] üzerine yüklenemez."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName], [WindowsTypeNT40Display] üzerine yüklenemez."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName], [WindowsTypeNT50Display] üzerine yüklenemez."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName], [WindowsTypeNT5XDisplay] üzerine yüklenemez."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName], [WindowsTypeNT64Display] üzerine yüklenemez."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="[ProductName], [AI_REQUIRED_OFFICE_APPNAME] bulunmayan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName], [AI_REQUIRED_OFFICE_APPNAME] 2003 bulunmayan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName], [AI_REQUIRED_OFFICE_APPNAME] 2007 bulunmayan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] kurulması için yönetici hakları gerektiriyor."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] fiziksel bellek kapasitesi [AI_REQUIRED_PHYSICAL_MEMORY] megabaytın altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] ekran çözünürlüğü [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y] altında olan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName], [AI_REQUIRED_SQLCOMPACT_DISPLAY] bulunmayan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName], [AI_REQUIRED_SQLEXPRESS_DISPLAY] bulunmayan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] sanal makinelerde çalışan sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName], [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY] öncesindeki Windows Installer sürümüne sahip sistemlere yüklenemez."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName], XNA Framework sürümü [AI_REQUIRED_XNA_DISPLAY] öncesi olan sistemlere yüklenemez."/>
+  <STRING id="AI.MoveFile.DestName" value="Dosyanız.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Bu yükleyici veritabanı, [|ProductName] yüklemek için gerekli mantığı ve verileri içeriyor."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Şirketiniz"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Birleşme Modülünüz"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Bu veritabanı, &lt;module name&gt; bileşenini yüklemek için gerekli mantığı ve verileri içeriyor."/>
+  <STRING id="AI.Property.DefaultProductName" value="Uygulamanız"/>
+  <STRING id="AI.Property.DefaultValue" value="Değeriniz"/>
+  <STRING id="AI.Property.FindExeTitle" value="[|ProductName] için kurulum paketini seçiniz"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Bu paket, Advanced Installer deneme sürümüyle oluşturulmuş bir Birleşme Modülü içeriyor. Yalnızca değerlendirme amacıyla kullanabilirsiniz."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Bu paket, Advanced Installer deneme sürümüyle oluşturuldu. Yalnızca değerlendirme amacıyla kullanabilirsiniz."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Uyarı"/>
+  <STRING id="AI.Registry.DefaultKey" value="Yeni_Anahtar"/>
+  <STRING id="AI.Registry.DefaultName" value="Yeni Değer"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="Dosyanız.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="Değeriniz"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="HizmetAdı"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Servis Açıklaması"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Servisiniz"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Yeni Paylaşım"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Komutunuzun Kısayolu"/>
+  <STRING id="AI.Shortcut.DefaultName" value="%s Kısayolu"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Kaldır"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Aç"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Yeni Dosya"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Yükleyici Bilgisi"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Arama yeri:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Hedef klasörü bul."/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Yeni Klasör Oluştur|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Klasör adı:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Geçerli hedef klasörü değiştir"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Bir Düzey Yukarı|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Lütfen [ProductName] ürününün sunucu görüntüsü için bir ağ konumu belirtin."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Yeni bir ağ konumu girin veya bir tane bulmak için Gözat'a tıklayın."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Ağ Konumu"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD &amp;Anahtar:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Lütfen şirket bilgilerinizi girin."/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Lütfen kuruluşunuzun adını aşağıdaki kutuya girin.  Bu, [ProductName] ürününün sonraki yüklemelerinde varsayılan şirket adı olarak kullanılacaktır:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Şirket Bilgisi"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard], belirtilen ağ konumunda [ProductName] ürününün sunucu görüntüsünü oluşturacaktır.  Devam etmek için [Text_Next]'yi veya [Wizard]'ndan çıkmak için İptal'e tıklayın."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="[ProductName] [Wizard]'na hoş geldiniz."/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Arama yeri:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Hedef klasörü bul."/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Yeni Klasör Oluştur|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Klasör adı:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Geçerli hedef klasörü değiştir"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Bir Düzey Yukarı|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Bilgi simgesi|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="[ProductName] yüklemesini iptal etmek istediğinizden emin misiniz?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Özellikleri nasıl yüklemek istediğinizi seçin."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="Disk &amp;Kullanımı"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Geçerli seçili öğenin çok satırlı açıklaması."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Seçili öğenin boyutu."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Seçimin yolu&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Konum:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Özelliklerin yüklenme biçimini değiştirmek için aşağıdaki ağaçta bulunan simgelere tıklayın."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Özel Kurulum"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Seçim ağacı"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Seçili özelliklerin yüklenmesi için gerekli disk alanı."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Vurgulanan birimlerde (varsa) geçerli seçili özellikler için yeterli disk alanı yok.  Vurgulanan birimlerden bazı dosyaları kaldırabilir veya yerel sürücülere daha az özellik yüklemeyi seçebilir ya da farklı hedef sürücüler seçebilirsiniz."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Disk Alanı Gereksinimleri"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Bilgi simgesi|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Bilgi metni"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="[Wizard]'ndan çıkmak için Son düğmesine tıklayın."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="[ProductName] Ürününü Başlat"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="[ProductName] [Wizard] tamamlandı."/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Benioku dosyasını görüntüle"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] aşağıdaki dosya türlerini işlemek için [ProductName] ürününü kaydedecek: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="[ProductName] ile dosya türlerini ilişkilendirin."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Dosya İlişkileri"/>
+  <STRING id="Control.Text.FatalError#Description1" value="[ProductName] kurulumu bir hata nedeniyle tamamlanmadan sonlandırıldı.  Sisteminiz değiştirilmedi.  Bu programı daha sonra yüklemek için, lütfen yüklemeyi tekrar çalıştırın."/>
+  <STRING id="Control.Text.FatalError#Description2" value="[Wizard]'ndan çıkmak için Son düğmesine tıklayın."/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] tamamlanmadan sonlandırıldı."/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Güncelleştirilmesi gereken bazı dosyalar kullanılıyor."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Aşağıdaki uygulamalar, bu kurulum tarafından güncelleştirilmesi gereken dosyalar kullanıyor. Uygulamaları kapatıp Yeniden Dene'yi tıklatabilir veya yükleyicinin yüklemeye devam edip sistem yeniden başlatıldığında bu dosyaları değiştirmesi için Yoksay'ı tıklatabilirsiniz."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Kullanılan Dosyalar"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Bu, [ProductName] ürününün yükleneceği klasördür."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Klasör:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Bu klasöre yüklemek için, &quot;[Text_Next]&quot;'ye tıklayın. Farklı bir klasöre yüklemek için, onu aşağıya girin veya &quot;Gözat&quot;'a tıklayın."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Yükleme Klasörünü Seç"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_tr.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Lütfen bu lisans sözleşmesini dikkatlice okuyun."/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Son Kullanıcı Lisans Sözleşmesi"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Yüklemeyi Değiştir|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Değiştir"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Kullanıcıların özelliklerin yüklenme biçimini değiştirmelerine olanak verir."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Gerçekleştirmek istediğiniz işlemi seçin."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Yüklemeyi Kaldır|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Kaldır"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="[ProductName] ürününü bilgisayarınızdan kaldırır."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Yüklemeyi Onar|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="O&amp;nar"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="En son yükleme durumundaki hataları onarır; eksik veya bozuk dosyaları, kısayolları ve kayıt defteri girişlerini düzeltir."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Yüklemeyi Değiştir, Onar veya Kaldır"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard], [ProductName] özelliklerinin bilgisayarınıza yüklenme biçimini değiştirmenize, hatta [ProductName] ürününü bilgisayarınızdan kaldırmanıza olanak verir.  Devam etmek için [Text_Next]'yi veya [Wizard]'ndan çıkmak için İptal'e tıklayın."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="[ProductName] [Wizard]'na hoş geldiniz."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Yükleme için gerekli disk alanı, kullanılabilir disk alanını aşıyor."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Vurgulanan birimlerde geçerli seçili özellikler için yeterli disk alanı yok.  Vurgulanan birimlerden bazı dosyaları kaldırabilir veya yerel sürücülere daha az özellik yüklemeyi seçebilir ya da farklı hedef sürücüler seçebilirsiniz."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Disk Alanı Yetersiz"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Yükleme için gerekli disk alanı, kullanılabilir disk alanını aşıyor."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Vurgulanan birimlerde geçerli seçili özellikler için yeterli disk alanı yok.  Vurgulanan birimlerden bazı dosyaları kaldırabilir veya yerel sürücülere daha az özellik yüklemeyi seçebilir ya da farklı hedef sürücüler seçebilirsiniz."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="İsterseniz yükleyici&apos;nin geri döndürme işlevini devre dışı bırakmayı seçebilirsiniz.  Bu, yükleme bir şekilde kesilirse, yükleyici&apos;nin bilgisayarınızın özgün durumunu geri yüklemesine olanak verir.  Geri döndürmeyi devre dışı bırakma riskini almak istiyorsanız Evet'e tıklayın."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Disk Alanı Yetersiz"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Lütfen [Wizard] sizi yükleme boyunca yönlendirmek için hazırlanırken bekleyin."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="[ProductName] [Wizard]'na hoş geldiniz."/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Tamamlanan"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Durum:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Lütfen [Wizard] [ProductName] ürününü [Progress2] bekleyin. Bu işlem birkaç dakika sürebilir."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[ProductName] [Progress1]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Lütfen aşağıdaki metni dikkatlice okuyun."/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_tr.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Beni oku dosyası"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard], bilgisayarınızda [ProductName] yüklemesini tamamlayacak.  Devam etmek için Yükle'yi veya [Wizard]'ndan çıkmak için İptal'e tıklayın."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="[ProductName] [Wizard]'na devam ediliyor."/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Tam Yükleme|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="T&amp;am"/>
+  <STRING id="Property.Text_Complete" value="Tam"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Tüm program özellikleri yüklenir.  (En çok disk alanını gerektirir)"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Özel Yükleme|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="Ö&amp;zel"/>
+  <STRING id="Property.Text_Custom" value="Özel"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Kullanıcıların yüklenecek program özelliklerini ve bunların yükleneceği yeri seçmelerine olanak verir. Deneyimli kullanıcılar için önerilir."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Gereksinimlerinize en uygun kurulum türünü seçin."/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Kurulum Türünü Seç"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Genel Yükleme|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Genel"/>
+  <STRING id="Property.Text_Typical" value="Genel"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="En yaygın program özelliklerini yükler. Çoğu kullanıcıya önerilir."/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] eski [ProductName] sürümlerini arayıp bunları kaldırabilir. Bu sürümleri kaldırmak istiyor musunuz?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] seçtiğiniz yükleme konumunun [ProductName] [AI_Replaced_Versions_List] sürümü tarafından kullanıldığını belirledi. Bu sürüm kaldırılmalıdır. Kaldırmak istediğiniz başka eski sürüm var mı?"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Eski [ProductName] sürümlerini arayın ve yükseltin."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Eski Sürümleri Yükselt"/>
+  <STRING id="Control.Text.UserExit#Description1" value="[ProductName] kurulumu kesildi.  Sisteminiz değiştirilmedi.  Bu programı daha sonra yüklemek için, lütfen yüklemeyi tekrar çalıştırın."/>
+  <STRING id="Control.Text.UserExit#Description2" value="[Wizard]'ndan çıkmak için Son düğmesine tıklayın."/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName] [Wizard] kesildi."/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Seri Numarası:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Lütfen müşteri bilgilerinizi girin."/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Kullanıcı Adı:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Kuruluş:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Müşteri Bilgileri"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] [ProductName] yüklemesini başlatmaya hazır."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Yüklemeyi başlatmak için Yükle'ye tıklayın.  Yükleme ayarlarınızdan birini incelemek veya değiştirmek isterseniz Geri'ye tıklayın.  Sihirbazdan çıkmak için İptal'e tıklayın."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Yükleme İçin Hazır"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Programı bilgisayarınızdan kaldırmayı seçtiniz."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="[ProductName] ürününü bilgisayarınızdan kaldırmak için Kaldır'a tıklayın.  Yükleme ayarlarınızdan birini incelemek veya değiştirmek isterseniz Geri'ye tıklayın.  Sihirbazdan çıkmak için İptal'e tıklayın."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="[ProductName] Kaldırılacak"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard], [ProductName] onarımını başlatmaya hazır."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="[ProductName] yüklemesini onarmak için Onar'a tıklayın.  Yükleme ayarlarınızdan birini incelemek veya değiştirmek isterseniz Geri'ye tıklayın.  Sihirbazdan çıkmak için İptal'e tıklayın."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="[ProductName] Onarılacak"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Ünlem simgesi|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Lütfen yükleyici disk alanı gereksinimlerinizi belirleyene kadar bekleyin."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard], bilgisayarınıza [ProductName] ürününü yükleyecek.  Devam etmek için [Text_Next]'ye veya [Wizard]'ndan çıkmak için İptal'e tıklayın."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="[ProductName] [Wizard]'na hoş geldiniz."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard], bilgisayarınıza [ProductName] için Yama yükleyecek.  Devam etmek için [Text_Next]'ye veya Yama [Wizard]'ndan çıkmak için İptal'e tıklayın."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="[ProductName] Yama [Wizard]'na hoş geldiniz."/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Uygulama kısayollarını oluştur."/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Masaüstü"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Hızlı Başlatma araç çubuğu"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Aşağıdaki konumlarda [ProductName] kısayollarını oluştur:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Başlat Menüsü Programlar klasörü"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Başlangıç klasörü"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Kısayolları yapılandır"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Bu klasör [ProductName] kısayollarının yükleneceği yerdir."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Bir alt klasöre yüklemek için, alt klasörün adını &quot;\&quot; işaretiyle ayırarak ekleyin."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Başlat Menüsü Kısayolları Klasörü:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Kısayolları bu klasöre yüklemek için, &quot;[Text_Next]&quot; düğmesine tıklayın. Başka bir klasöre yüklemek için, aşağıya girin veya açılan kutudan seçim yapın."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Başlat Menüsü Kısayolları Klasörünü Seçin"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Veritabanı:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC Kaynağı:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Parola:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Bağlantı Noktası:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Sunucu:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Kullanıcı Adı:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="SQL Bağlantısı Yapılandırılıyor..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL Veritabanı"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Yeni İletişim Kutusu Açıklaması..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Yeni İletişim Kutusu"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Yeni Oluşturma(Bekleme) İletişim Kutusu"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Güncelleştirilmesi gereken bazı dosyalar şu anda kullanımda."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Aşağıdaki uygulamalar bu kurulum tarafından güncelleştirilmesi gereken dosyaları kullanıyor."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Kullanımdaki Dosyalar"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="Tam Yükleme|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="Sunucu Yüklemesi|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="İstemci Yüklemesi|"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="T&amp;amamlandı"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="Hem istemci, hem de sunucu yapılandırmalarını yükler."/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="&amp;Sunucu"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="Sunucu yapılandırmasını yükler."/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="Gereksinimlerinize en uygun yükleme türünü seçin"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="Gelişmiş Yükleyici"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="Yükleme Türünü Seçin"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="&amp;İstemci"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="İstemci yapılandırmasını yükler."/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="Yükleme türünü seçin."/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="Aşağıdakiler için [ProductName] yükle:"/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="Gelişmiş Yükleyici"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="Yükleme Türü"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="Yeni İletişim Kutusu Açıklaması..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="Yeni İletişim Kutusu"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="Lütfen Tomcat sunucusunun özniteliklerini yapılandırın"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="Ana Bilgisayar Adı:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="HTTP Bağlantı Noktası Numarası:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="HTTP SSL Bağlantı Noktası Numarası:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="Gelişmiş Yükleyici"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="Kapanış Bağlantı Noktası Numarası:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="Tomcat Sunucusu Öznitelikleri"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Uygulama duyuruluyor."/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Kayıt defteri alanı ayrılıyor."/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Boş alan: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="Yüklü uygulamalar aranıyor."/>
+  <STRING id="ActionText.Template.AppSearch" value="Özellik: [1], İmza: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="Yürütülebilir dosyalar bağlanıyor."/>
+  <STRING id="ActionText.Template.BindImage" value="Dosya: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Uygun ürünler aranıyor."/>
+  <STRING id="ActionText.Description.CostFinalize" value="Alan gereksinimleri hesaplanıyor."/>
+  <STRING id="ActionText.Description.CostInitialize" value="Alan gereksinimleri hesaplanıyor."/>
+  <STRING id="ActionText.Description.CreateFolders" value="Klasörler oluşturuluyor."/>
+  <STRING id="ActionText.Template.CreateFolders" value="Klasör: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Kısayollar oluşturuluyor."/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Kısayol: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Hizmetler siliniyor."/>
+  <STRING id="ActionText.Template.DeleteServices" value="Hizmet: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Yinelenen dosyalar oluşturuluyor."/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Dosya: [1],  Dizin: [9],  Boyut: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="Alan gereksinimleri hesaplanıyor."/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="İlgili uygulamalar aranıyor."/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Bulunan uygulama: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Eylem için komut dosyası işlemleri üretiliyor:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Ağ yükleme dosyaları kopyalanıyor."/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Dosya: [1],  Dizin: [9],  Boyut: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Yeni dosyalar kopyalanıyor."/>
+  <STRING id="ActionText.Template.InstallFiles" value="Dosya: [1],  Dizin: [9],  Boyut: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="ODBC bileşenleri yükleniyor."/>
+  <STRING id="ActionText.Description.InstallServices" value="Yeni hizmetler yükleniyor."/>
+  <STRING id="ActionText.Template.InstallServices" value="Hizmet: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Sistem kataloğu yükleniyor."/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Dosya: [1],  Bağımlılıklar: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Yükleme doğrulanıyor."/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Başlatma koşulları değerlendiriliyor."/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="İlgili uygulamalardan özellik durumları geçiriliyor."/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Uygulama: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Dosyalar taşınıyor."/>
+  <STRING id="ActionText.Template.MoveFiles" value="Dosya: [1],  Dizin: [9],  Boyut: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Derleme bilgileri yayımlanıyor."/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Uygulama İçeriği:[1], Derleme Adı:[2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Derleme bilgileri yayımdan kaldırılıyor."/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Uygulama İçeriği:[1], Derleme Adı:[2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Dosyalara yama uygulanıyor."/>
+  <STRING id="ActionText.Template.PatchFiles" value="Dosya: [1],  Dizin: [2],  Boyut: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Bileşen kaydı güncelleştiriliyor."/>
+  <STRING id="ActionText.Description.PublishComponents" value="Uygun bileşenler yayımlanıyor."/>
+  <STRING id="ActionText.Template.PublishComponents" value="Bileşen Kimliği: [1], Niteleyici: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Ürün özellikleri yayımlanıyor."/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Özellik: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Ürün bilgileri yayımlanıyor."/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Sınıf sunucuları kaydettiriliyor."/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Sınıf kimliği: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="COM+ uygulamaları ve bileşenleri kaydettiriliyor."/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="Uygulama Kimliği: [1]{{, Tipi: [2], Kullanıcılar: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Uzantı sunucuları kaydettiriliyor."/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Uzantı: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Yazı tipleri kaydettiriliyor."/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Yazı Tipi: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="MIME bilgileri kaydettiriliyor."/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="MIME İçerik Türü: [1], Uzantı: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Ürün kaydettiriliyor."/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Program tanımlayıcıları kaydettiriliyor."/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="Program Kimliği: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Tür kitaplıkları kaydettiriliyor."/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="Kitaplık Kimliği: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Kullanıcı kaydettiriliyor."/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Yinelenen dosyalar kaldırılıyor."/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Dosya: [1],  Dizin: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Ortam dizeleri güncelleştiriliyor."/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Ad: [1], Değer: [2], Eylem [3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Uygulamalar kaldırılıyor."/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Uygulama: [1], Komut satırı: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Dosyalar kaldırılıyor."/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Dosya: [1],  Dizin: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Klasörler kaldırılıyor."/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Klasör: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="INI dosyalarının girdileri kaldırılıyor."/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Dosya: [1],  Bölüm: [2],  Anahtar: [3], Değer: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="ODBC bileşenleri kaldırılıyor."/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Sistem kayıt defteri değerleri kaldırılıyor."/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Anahtar: [1], Ad: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Kısayollar kaldırılıyor."/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Kısayol: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Uygun ürünler aranıyor."/>
+  <STRING id="ActionText.Description.Rollback" value="Eylem geri alınıyor:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Yedek dosyalar kaldırılıyor."/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Dosya: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Modüller kaydettiriliyor."/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Dosya: [1], Klasör: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Modüllerin kaydı siliniyor."/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Dosya: [1], Klasör: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="ODBC dizinleri başlatılıyor."/>
+  <STRING id="ActionText.Description.StartServices" value="Hizmetler başlatılıyor."/>
+  <STRING id="ActionText.Template.StartServices" value="Hizmet: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="Hizmetler durduruluyor."/>
+  <STRING id="ActionText.Template.StopServices" value="Hizmet: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Taşınan dosyalar kaldırılıyor."/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Dosya: [1],  Dizin: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Uygun bileşenler yayımdan kaldırılıyor."/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Bileşen Kimliği: [1], Niteleyici: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Ürün özellikleri yayımdan kaldırılıyor."/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Özellik: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Ürün bilgileri yayımdan kaldırılıyor."/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Sınıf sunucularının kaydı siliniyor."/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Sınıf kimliği: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="COM+ uygulamaları ve bileşenlerinin kaydı siliniyor."/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="Uygulama Kimliği: [1]{{, Tipi: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Uzantı sunucularının kaydı siliniyor."/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Uzantı: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Yazı tiplerinin kaydı siliniyor."/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Yazı Tipi: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="MIME bilgisi kaydı siliniyor."/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="MIME İçerik Türü: [1], Uzantı: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Program tanımlayıcılarının kaydı siliniyor."/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="Program Kimliği: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Tür kitaplıklarının kaydı siliniyor."/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="Kitaplık Kimliği: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Ortam dizeleri güncelleştiriliyor."/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Ad: [1], Değer: [2], Eylem [3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="INI dosyalarının değerleri yazılıyor."/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Dosya: [1],  Bölüm: [2],  Anahtar: [3], Değer: [4]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Sistem kayıt defteri değerleri yazılıyor."/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Anahtar: [1], Ad: [2], Değer: [3]"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Yerel bilgisayarda kullanıcı hesapları oluşturmak için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Hesap: [1], Özellikleri: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Yerel bilgisayarda kullanıcı hesabı oluşturuluyor."/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Hesap: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Yerel bilgisayardan kullanıcı hesabı kaldırılıyor."/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Hesap: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Yerel bilgisayarda kullanıcı hesapları oluşturulması geri alınıyor."/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Hesap: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Yerel bilgisayarda kullanıcı hesapları kaldırmak için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Hesap: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Yerel bilgisayarda kullanıcı grupları oluşturmak için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Hesap: [1], Özellikleri: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Yerel bilgisayarda kullanıcı grubu oluşturuluyor."/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Hesap: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Yerel bilgisayardan kullanıcı grubu kaldırılıyor."/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Hesap: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Yerel bilgisayarda kullanıcı grupları oluşturulması geri alınıyor."/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Hesap: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Yerel bilgisayarda kullanıcı grupları kaldırmak için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Hesap: [1]"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Arşivden dosyaları ayıklanıyor."/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Arşivden ayıklanan dosyaları siliniyor."/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="SQL komut dosyası yükleme işlemi yürütmek için veritabanlarını yapılandırma eylemleri oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="SQL komut dosyası kaldırma işlemi yürütmek için veritabanlarını yapılandırma eylemleri oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="SQL komut dosyalarını yükleme işlemi yürütülüyor."/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Bağlantı: [1]  Komut Dosyası: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="SQL komut dosyalarını kaldırma işlemi yürütülüyor."/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Bağlantı: [1]  Komut Dosyası: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="SQL komut dosyalarını geri alma işlemi yürütülüyor."/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Bağlantı: [1]  Komut Dosyası: [2]"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Internet Information Services yapılandırması için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Internet Information Services yapılandırması için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="IIS Web Siteleri ve Sanal Dizinler oluşturuluyor."/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="&quot;[1]&quot; yükleniyor"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="IIS Web Sitelerini ve Sanal Dizinleri kaldırılıyor."/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="&quot;[1]&quot; kaldırılıyor"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="IIS yapılandırmasını geri alınıyor."/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Meta taban yapılandırması geri alınıyor."/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="XML dosyaların ayarlanması için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="XML dosyaların ayarlanması için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="XML dosya ayarları yapılıyor."/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="XML dosya ayarlanıyor: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="XML dosya ayarları yapılıyor"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="XML dosya ayarlanıyor: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="XML dosya ayarları geri alınıyor."/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="XML dosya ayarları geri alınıyor."/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Windows Firewall ayarları için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Windows Firewall ayarları için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Windows Firewall ayarları yapılıyor."/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Windows Firewall kuralı ayarlanıyor: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Windows Firewall ayarları yapılıyor."/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Windows Firewall kuralı ayarlanıyor: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Windows Firewall ayarları geri alınıyor."/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Windows Firewall ayarları geri alınıyor."/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Yerel bilgisayardaki dizinlerin paylaştırılması için eylemler hazırlanıyor:"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Dizin: [1], PaylaşımAdı: [2]"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Yerel bilgisayardaki dizin paylaştırılıyor."/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Dizin: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Yerel bilgisayardaki dizin paylaşımı kaldırılıyor."/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="PaylaşımAdı: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Yerel bilgisayardaki dizin paylaşımı geri alınıyor."/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="PaylaşımAdı: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Yerel bilgisayardaki dizin paylaşımının kaldırılması için eylemler hazırlanıyor:"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="PaylaşımAdı: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Yerel bilgisayarda görevlerin zamanlanması için eylemler hazırlanıyor:"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Görev Adı: [1]"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Yerel bilgisayarda görev zamanlanıyor."/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Görev Adı: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Yerel bilgisayarda zamanlanmış görev kaldırılıyor."/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Görev Adı: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Yerel bilgisayarda zamanlanmış görev geri alınıyor."/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Görev Adı: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Yerel bilgisayarda zamanlanmış görevleri kaldırmak için eylemler hazırlanıyor:"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Oyun Gezgini yapılandırmaları çalıştırılıyor"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Oyun Gezgini yapılandırması için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Oyun Gezgini yapılandırmaları çalıştırılıyor"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Oyun Gezgini yapılandırmaları geri alınıyor."/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Oyun Gezgini ayarları için eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Bakım SQL komutları çalıştırılıyor"/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Oyun yapılandırılıyor: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Oyun kaldırılıyor: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Oyun Gezgini yapılandırmaları geri alınıyor."/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Bağlantı: [1]  Komut: [2]"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="Dosya kaldırma işlemleri yürütülüyor."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="Dosya kaldırma işlemleri yürütülüyor."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="Dosyaları kaldırmak üzere eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="Kayıt defteri kaldırma işlemleri yürütülüyor."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="Kayıt defteri kaldırma işlemleri yürütülüyor."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="Kayıt defteri girişlerini kaldırmak üzere eylemler oluşturuluyor."/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="Mobil uygulamalar, Windows CE Application Manager’a kaydediliyor."/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="Windows CE Application Manager kayıt verileri işleniyor (aşama 2)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="Windows CE Application Manager kayıt verileri işleniyor (aşama 1)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="Yüklenmiş uygulamaların yapılandırılması için Windows CE Application Manager başlatılıyor."/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="Gerekli yazılım indiriliyor"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="Gerekli yazılım ayıklanıyor"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="Gerekli yazılım yükleniyor"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="Gereksinimler doğrulanıyor"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="Dosya kaldırılıyor: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="Dosya kaldırılıyor: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="Kayıt defteri girişi kaldırılıyor: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="Kayıt defteri girişi kaldırılıyor: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="[1] indiriliyor {[2] tamamlandı}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="[1] ayıklanıyor {[2]tamamlandı}"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="[1] yükleniyor {[2]tamamlandı}"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="[1] doğru şekilde yüklenmedi."/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Ciddi hata: }}"/>
+  <STRING id="Error.1" value="{{Hata [1]. }}"/>
+  <STRING id="Error.2" value="Uyarı [1]. "/>
+  <STRING id="Error.4" value="Bilgi [1]. "/>
+  <STRING id="Error.5" value="Yükleyici bu paketi yüklerken beklenmedik bir hata ile karşılaştı. Bu, paketle ilgili bir sorunu gösteriyor olabilir. Hata kodu: [1]. {{Argümanlar: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Disk dolu: }}"/>
+  <STRING id="Error.8" value="Eylem [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="İleti türü: [1], Bağımsız değişken: [2]"/>
+  <STRING id="Error.12" value="=== Günlük başladı: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Günlük durdu: [Date]  [Time] ==="/>
+  <STRING id="Error.14" value="Eylem başladı [Time]: [1]."/>
+  <STRING id="Error.15" value="Eylem sonlandı [Time]: [1]. Dönen değer [2]."/>
+  <STRING id="Error.16" value="Kalan süre: {[1] dakika }{[2] saniye}"/>
+  <STRING id="Error.17" value="Bellek yetersiz. Yeniden denemeden önce diğer uygulamaları kapatın."/>
+  <STRING id="Error.18" value="Yükleyici artık yanıt vermiyor."/>
+  <STRING id="Error.19" value="Yükleyici erken durduruldu."/>
+  <STRING id="Error.20" value="Lütfen Windows [ProductName] ürününü yapılandırırken bekleyin."/>
+  <STRING id="Error.21" value="Gerekli bilgiler toplanıyor..."/>
+  <STRING id="Error.22" value="Bu uygulamanın eski sürümleri kaldırılıyor..."/>
+  <STRING id="Error.23" value="Bu uygulamanın eski sürümlerini kaldırmaya hazırlanıyor..."/>
+  <STRING id="Error.32" value="{[ProductName] }Kurulumu başarıyla tamamlandı."/>
+  <STRING id="Error.33" value="{[ProductName] }Kurulumu başarısız oldu."/>
+  <STRING id="Error.1101" value="Dosyadan okuma hatası: [2]. {{ System error [3].}}  Dosyanın varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1301" value="&apos;[2]&apos; dosyası oluşturulamıyor.  Bu ada sahip bir dizin zaten var.  Yüklemeyi iptal edin ve farklı bir konuma yüklemeyi deneyin."/>
+  <STRING id="Error.1302" value="Lütfen diski yerleştirin: [2]"/>
+  <STRING id="Error.1303" value="Yükleyicinin bu dizine erişmek için yeterli ayrıcalığı yok: [2].  Yükleme işlemi devam edemez.  Yönetici olarak oturum açın veya sistem yöneticinize başvurun."/>
+  <STRING id="Error.1304" value="Bu dosyaya yazma hatası: [2].  Bu dizine erişiminizin olduğundan emin olun."/>
+  <STRING id="Error.1305" value="[2] dosyasından okuma hatası. {{ System error [3].}} Dosyanın varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1306" value="Diğer bir uygulamanın &apos;[2]&apos; dosyasına özel kullanım erişimi var.  Lütfen diğer tüm uygulamaları kapatın ve sonra Yeniden Dene'ye tıklayın."/>
+  <STRING id="Error.1307" value="Bu dosyayı yüklemek için yeterli disk alanı yok: [2].  Diski biraz boşaltın ve Yeniden Dene'ye tıklayın ya da çıkmak için İptal'e tıklayın."/>
+  <STRING id="Error.1308" value="Bu kaynak dosya bulunamadı: [2].  Dosyanın varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1309" value="Dosyadan okuma hatası: [3]. {{ System error [2].}}  Dosyanın varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1310" value="Bu dosyaya yazma hatası: [3]. {{ System error [2].}}  Bu dizine erişiminizin olduğundan emin olun."/>
+  <STRING id="Error.1311" value="Kaynak dosya bulunamadı{{(cabinet)}}: [2].  Dosyanın varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1312" value="&apos;[2]&apos; dizini oluşturulamıyor.  Bu ada sahip bir dosya zaten var.  Lütfen dosyanın adını değiştirin veya dosyayı silin ve Yeniden Dene'ye tıklayın ya da çıkmak için İptal'e tıklayın."/>
+  <STRING id="Error.1313" value="[2] birimi şu anda kullanılamıyor.  Lütfen farklı bir tane seçin."/>
+  <STRING id="Error.1314" value="Belirtilen &apos;[2]&apos; yolu kullanılamaz."/>
+  <STRING id="Error.1315" value="Belirtilen klasöre yazılamıyor: [2]."/>
+  <STRING id="Error.1316" value="Bu dosyadan okumaya çalışırken bir ağ hatası oluştu: [2]"/>
+  <STRING id="Error.1317" value="Bu dizini oluşturmaya çalışırken bir hata oluştu: [2]"/>
+  <STRING id="Error.1318" value="Bu dizini oluşturmaya çalışırken bir ağ hatası oluştu: [2]"/>
+  <STRING id="Error.1319" value="Bu kaynak dosya kabinini açmaya çalışırken bir ağ hatası oluştu: [2]"/>
+  <STRING id="Error.1320" value="Belirtilen yol çok uzun: [2]"/>
+  <STRING id="Error.1321" value="Yükleyicinin bu dosyayı değiştirmek için yeterli ayrıcalığı yok: [2]."/>
+  <STRING id="Error.1322" value="&apos;[2]&apos; klasör yolunun bir kısmı geçersiz.  Bu bölüm boş veya sistem tarafından izin verilen uzunluğu aşıyor."/>
+  <STRING id="Error.1323" value="&apos;[2]&apos; klasör yolu, klasör yolunda geçerli olmayan sözcükler içeriyor."/>
+  <STRING id="Error.1324" value="&apos;[2]&apos; klasör yolu geçersiz bir karakter içeriyor."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; geçerli bir kısa dosya adı değil."/>
+  <STRING id="Error.1326" value="Dosya güvenliğini alma hatası: [3] SonAlınanHata: [2]"/>
+  <STRING id="Error.1327" value="Geçersiz Sürücü: [2]"/>
+  <STRING id="Error.1328" value="Yamayı [2] dosyasına uygulama hatası.  Büyük olasılıkla bu dosya başka şekillerde güncelleştirilmiş ve artık bu yamayla değiştirilemez.  Daha fazla bilgi için bu yamayı aldığınız yerle bağlantı kurun.  {{Sistem Hatası: [3]}}"/>
+  <STRING id="Error.1329" value="[2] kabin dosyası dijital imzalanmadığı için gereken bir dosya yüklenemiyor.  Bu, kabin dosyasında bir bozulmadan kaynaklanabilir."/>
+  <STRING id="Error.1330" value="[2] kabin dosyasının dijital imzası geçersiz olduğu için gereken bir dosya yüklenemiyor.  Bu, kabin dosyasında bir bozulmadan kaynaklanabilir.{{  Hata [3] WinVerifyTrust'dan döndürüldü.}}"/>
+  <STRING id="Error.1331" value="[2] dosyası doğru kopyalanamadı: CRC hatası."/>
+  <STRING id="Error.1332" value="[2] dosyası doğru taşınamadı: CRC hatası."/>
+  <STRING id="Error.1333" value="[2] dosyası düzeltilemedi: CRC hatası."/>
+  <STRING id="Error.1334" value="&apos;[2]&apos; dosyası &apos;[3]&apos; kabin dosyasında bulunamadığı için yüklenemez. Bu, bir ağ hatasından kaynaklanıyor olabilir veya CD-ROM okuma hatası ya da bu paketle ilgili sorun olabilir."/>
+  <STRING id="Error.1335" value="Bu yükleme için gereken kabin dosyası &apos;[2]&apos; bozulmuş ve kullanılamaz. Bu, bir ağ hatasından kaynaklanıyor olabilir veya CD-ROM okuma hatası ya da bu paketle ilgili sorun olabilir."/>
+  <STRING id="Error.1336" value="Yüklemeyi tamamlamak için gereken geçici dosyayı oluştururken hata oluştu.{{  Klasör: [3]. Sistem hata kodu: [2]}}"/>
+  <STRING id="Error.1401" value="Bu anahtar oluşturulamadı: [2]. {{ System error [3].}}  Bu anahtara yeterli erişiminizin olduğunu doğrulayın veya destek sorumlunuza başvurun. "/>
+  <STRING id="Error.1402" value="Bu anahtar açılamadı: [2]. {{ System error [3].}}  Bu anahtara yeterli erişiminizin olduğunu doğrulayın veya destek sorumlunuza başvurun. "/>
+  <STRING id="Error.1403" value="[3] anahtarından [2] değeri silinemedi. {{ System error [4].}}  Bu anahtara yeterli erişiminizin olduğunu doğrulayın veya destek sorumlunuza başvurun. "/>
+  <STRING id="Error.1404" value="[2] anahtarı silinemedi. {{ System error [3].}}  Bu anahtara yeterli erişiminizin olduğunu doğrulayın veya destek sorumlunuza başvurun. "/>
+  <STRING id="Error.1405" value="[3] anahtarından [2] değeri okunamadı. {{ System error [4].}}  Bu anahtara yeterli erişiminizin olduğunu doğrulayın veya destek sorumlunuza başvurun. "/>
+  <STRING id="Error.1406" value="[3] anahtarına [2] değeri yazılamadı. {{ System error [4].}}  Bu anahtara yeterli erişiminizin olduğunu doğrulayın veya destek sorumlunuza başvurun."/>
+  <STRING id="Error.1407" value="[2] anahtarının değer adları alınamadı. {{ System error [3].}}  Bu anahtara yeterli erişiminizin olduğunu doğrulayın veya destek sorumlunuza başvurun."/>
+  <STRING id="Error.1408" value="[2] anahtarının alt anahtar adları alınamadı. {{ System error [3].}}  Bu anahtara yeterli erişiminizin olduğunu doğrulayın veya destek sorumlunuza başvurun."/>
+  <STRING id="Error.1409" value="[2] anahtarının güvenlik bilgileri okunamadı. {{ System error [3].}}  Bu anahtara yeterli erişiminizin olduğunu doğrulayın veya destek sorumlunuza başvurun."/>
+  <STRING id="Error.1410" value="Kullanılabilir kayıt defteri alanı artırılamadı. Bu uygulamanın yüklenmesi için [2] KB boş kayıt defteri alanı gerekiyor."/>
+  <STRING id="Error.1500" value="Diğer bir yükleme işlemi sürüyor. Yenisine devam etmeden önce bu yükleme işlemini tamamlamalısınız."/>
+  <STRING id="Error.1501" value="Güvenli veriye erişim hatası. Lütfen Windows Installer'ın doğru şekilde yapılandırıldığından emin olun ve yeniden yüklemeyi deneyin."/>
+  <STRING id="Error.1502" value="&apos;[2]&apos; kullanıcısı &apos;[3]&apos; ürününü yüklemeyi daha önce başlattı.  Bu kullanıcının, bu ürünü kullanmadan önce yükleme işlemini yeniden çalıştırması gerekir.  Geçerli yükleme işlemine devam edilecek."/>
+  <STRING id="Error.1503" value="&apos;[2]&apos; kullanıcısı &apos;[3]&apos; ürününü yüklemeyi daha önce başlattı.  Bu kullanıcının, bu ürünü kullanmadan önce yükleme işlemini yeniden çalıştırması gerekir."/>
+  <STRING id="Error.1601" value="Disk alanı yetersiz -- Birim: &apos;[2]&apos;; gereken alan: [3] KB; kullanılabilir alan: [4] KB.  Disk alanını biraz boşaltın ve yeniden deneyin."/>
+  <STRING id="Error.1602" value="İptal etmek istediğinizden emin misiniz?"/>
+  <STRING id="Error.1603" value="[2][3] dosyası kullanımda {İşlem: Adı: [4], No: [5], Pencere Başlığı: &apos;[6]&apos;}.  Bu uygulamayı kapatın ve yeniden deneyin."/>
+  <STRING id="Error.1604" value="&apos;[2]&apos; ürünü zaten yüklü ve bu ürünün yüklenmesini engelliyor.  İki ürün uyumsuz."/>
+  <STRING id="Error.1605" value="&apos;[2]&apos; biriminde kurtarma etkinleştirilmiş yüklemeye devam etmek için yeterli boş alan yok. [3] KB gerekli, ancak yalnızca [4] KB kullanılabilir durumda. Kurtarma bilgilerini kaydetmeden yüklemeye devam etmek için Yoksay'a tıklayın, kullanılabilir alanı yeniden denetlemek için Yeniden Dene'ye tıklayın veya yüklemeden çıkmak için İptal'e tıklayın."/>
+  <STRING id="Error.1606" value="[2] ağ konumuna erişilemedi."/>
+  <STRING id="Error.1607" value="Yüklemeye devam etmeden önce aşağıdaki uygulamaların kapatılması gerekir:"/>
+  <STRING id="Error.1608" value="Bu ürünü yüklemek için bu makineye daha önce yüklenmiş uygun bir ürün bulunamadı."/>
+  <STRING id="Error.1609" value="Güvenlik ayarlarını uygularken bir hata oluştu. [2] geçerli bir kullanıcı veya grup değil. Bu, bir paket sorunu veya ağda etki alanı denetleyicisine bağlantı sorunu olabilir. Ağ bağlantınızı denetleyip Yeniden Dene'ye tıklayın veya yüklemeyi sonlandırmak için İptal'e tıklayın.       {{Unable to locate the user&apos;s SID, system error [3]}}"/>
+  <STRING id="Error.1701" value="[2] anahtarı geçerli değil.  Doğru anahtarı girdiğinizi doğrulayın."/>
+  <STRING id="Error.1702" value="[2] yapılandırması başlamadan önce yükleyicinin sisteminizi yeniden başlatması gerekiyor.  Şimdi yeniden başlatmak için Evet'e tıklayın veya daha sonra el ile başlatacaksanız Hayır'a tıklayın."/>
+  <STRING id="Error.1703" value="[2] yapılandırma değişikliklerinin etkinleşmesi için sisteminizi yeniden başlatmalısınız. Şimdi yeniden başlatmak için Evet'e tıklayın veya daha sonra el ile başlatacaksanız Hayır'a tıklayın."/>
+  <STRING id="Error.1704" value="[2] yüklemesi şu anda askıya alınmış.  Devam etmek için bu yüklemenin yaptığı değişiklikleri geri almanız gerekir.  Bu değişiklikleri geri almak istiyor musunuz?"/>
+  <STRING id="Error.1705" value="Bu ürünün önceki bir yükleme işlemi sürüyor.  Devam etmek için bu yüklemenin yaptığı değişiklikleri geri almanız gerekir.  Bu değişiklikleri geri almak istiyor musunuz?"/>
+  <STRING id="Error.1706" value="[2] ürünü için geçerli bir yükleme paketi bulunamadı. &apos;[3]&apos; yükleme paketinin geçerli bir kopyasını kullanarak yüklemeyi yeniden deneyin."/>
+  <STRING id="Error.1707" value="Yükleme başarıyla tamamlandı."/>
+  <STRING id="Error.1708" value="Yükleme başarısız."/>
+  <STRING id="Error.1709" value="Ürün: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Bilgisayarınızı bir önceki durumuna döndürebilir veya yükleme işlemine daha sonra devam edebilirsiniz. Önceki duruma dönmek istiyor musunuz?"/>
+  <STRING id="Error.1711" value="Yükleme bilgileri diske yazılırken bir hata oluştu.  Yeterli disk alanı olup olmadığını denetleyin ve Yeniden Dene'ye tıklayın veya yükleme işlemini sonlandırmak için İptal'e tıklayın."/>
+  <STRING id="Error.1712" value="Bilgisayarınızı önceki durumuna döndürmek için gereken bir veya daha çok dosya bulunamadı.  Geri yükleme yapılamaz."/>
+  <STRING id="Error.1713" value="[2] gerekli uygulamalarından birini yükleyemiyor. Teknik destek grubuyla bağlantı kurun.  {{Sistem Hatası: [3].}}"/>
+  <STRING id="Error.1714" value="Eski [2] sürümü kaldırılamıyor.  Teknik destek grubuyla bağlantı kurun.  {{Sistem Hatası [3].}}"/>
+  <STRING id="Error.1715" value="Yüklü [2]"/>
+  <STRING id="Error.1716" value="Yapılandırıldı [2]"/>
+  <STRING id="Error.1717" value="Kaldırıldı [2]"/>
+  <STRING id="Error.1718" value="[2] dosyası dijital imza ilkesi tarafından reddedildi."/>
+  <STRING id="Error.1719" value="Windows Installer Hizmeti'ne erişilemedi. Bu, Windows Installer güvenli modda çalışıyorsa veya Windows Installer düzgün şekilde kurulmamışsa ortaya çıkar. Yardım için destek sorumlunuza başvurun."/>
+  <STRING id="Error.1720" value="Bu Windows Installer paketiyle ilgili bir sorun var. Bu yüklemeyi tamamlamak için gereken komut dosyası çalıştırılamadı. Destek sorumlunuza veya paketi aldığınız yere başvurun.  {{Özel eylem [2] komut hatası [3], [4]: [5] Satır [6], Kolon [7], [8] }}"/>
+  <STRING id="Error.1721" value="Bu Windows Installer paketiyle ilgili bir sorun var. Bu yüklemeyi tamamlamak için gereken program çalıştırılamadı. Destek sorumlunuza veya paketi aldığınız yere başvurun. {{Eylem: [2], yer: [3], komut: [4] }}"/>
+  <STRING id="Error.1722" value="Bu Windows Installer paketiyle ilgili bir sorun var. Kurulumun bir parçası olarak çalışan program beklendiği gibi sonlanmadı. Destek sorumlunuza veya paketi aldığınız yere başvurun.  {{Eylem [2], yer: [3], komut: [4] }}"/>
+  <STRING id="Error.1723" value="Bu Windows Installer paketiyle ilgili bir sorun var. Bu yüklemeyi tamamlamak için gereken DLL çalıştırılamadı. Destek sorumlunuza veya paketi aldığınız yere başvurun.  {{Eylem [2], giriş: [3], kütüphane: [4] }}"/>
+  <STRING id="Error.1724" value="Kaldırma başarıyla tamamlandı."/>
+  <STRING id="Error.1725" value="Kaldırma başarısız oldu."/>
+  <STRING id="Error.1726" value="Duyuru başarıyla tamamlandı."/>
+  <STRING id="Error.1727" value="Duyuru başarısız oldu."/>
+  <STRING id="Error.1728" value="Yapılandırma başarıyla tamamlandı."/>
+  <STRING id="Error.1729" value="Yapılandırma başarısız oldu."/>
+  <STRING id="Error.1730" value="Bu uygulamayı kaldırmak için Yönetici olmalısınız. Bu uygulamayı kaldırmak için Yönetici olarak oturum açabilir veya yardım için teknik destek grubuna başvurabilirsiniz."/>
+  <STRING id="Error.1801" value="[2] yolu geçersiz.  Lütfen geçerli bir yol belirtin."/>
+  <STRING id="Error.1802" value="Bellek yetersiz. Yeniden denemeden önce diğer uygulamaları kapatın."/>
+  <STRING id="Error.1803" value="[2] sürücüsünde disk yok. Lütfen bir tane yerleştirin ve Yeniden Dene'ye tıklayın veya daha önce seçilen birime geri dönmek için İptal'e tıklayın."/>
+  <STRING id="Error.1804" value="[2] sürücüsünde disk yok. Lütfen bir tane yerleştirin ve Yeniden Dene'ye tıklayın veya gözatma iletişim kutusuna dönmek ve farklı bir birim seçmek için İptal'e tıklayın."/>
+  <STRING id="Error.1805" value="[2] klasörü yok.  Lütfen varolan bir klasörün yolunu girin."/>
+  <STRING id="Error.1806" value="Bu klasörü okumak için yeterli ayrıcalığınız yok."/>
+  <STRING id="Error.1807" value="Yükleme işlemi için geçerli bir hedef klasör belirlenemedi."/>
+  <STRING id="Error.1901" value="Kaynak yükleme veritabanından okuma hatası: [2]."/>
+  <STRING id="Error.1902" value="Yeniden başlatma işlemi planlanıyor: [2] dosyasının adı [3] olarak değiştiriliyor. İşlemi tamamlamak için bilgisayarı yeniden başlatmalısınız."/>
+  <STRING id="Error.1903" value="Yeniden başlatma işlemi planlanıyor: [2] dosyası siliniyor. İşlemi tamamlamak için bilgisayarı yeniden başlatmalısınız."/>
+  <STRING id="Error.1904" value="[2] modülü kaydedilemedi.  HRESULT [3].  Destek sorumlunuza başvurun."/>
+  <STRING id="Error.1905" value="[2] modülünün kaydı silinemedi.  HRESULT [3].  Destek sorumlunuza başvurun."/>
+  <STRING id="Error.1906" value="[2] paketi önbelleğe alınamadı. Hata: [3]. Destek sorumlunuza başvurun."/>
+  <STRING id="Error.1907" value="[2] yazı tipi kaydedilemedi.  Yazı tipi yüklemek için yeterli izniniz olduğunu ve sistemin bu yazı tipini desteklediğini doğrulayın."/>
+  <STRING id="Error.1908" value="[2] yazı tipinin kaydı silinemedi. Yazı tiplerini kaldırmak için yeterli izniniz olduğunu doğrulayın."/>
+  <STRING id="Error.1909" value="[2] Kısayolu oluşturulamadı. Hedef klasörünün varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1910" value="[2] Kısayolu kaldırılamadı. Kısayol dosyasının varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1911" value="[2] dosyası için tür kitaplığı kaydedilemedi.  Destek sorumlunuza başvurun."/>
+  <STRING id="Error.1912" value="[2] dosyası için tür kitaplığı kaydı silinemedi.  Destek sorumlunuza başvurun."/>
+  <STRING id="Error.1913" value="[2][3] ini dosyası güncelleştirilemedi.  Dosyanın varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1914" value="Yeniden başlatma sırasında, [2] dosyasının [3] dosyası ile değişmesi zamanlanamadı.  [3] dosyasına yazma izninizin olduğunu doğrulayın."/>
+  <STRING id="Error.1915" value="ODBC sürücü yöneticisini kaldırma hatası, ODBC hatası [2]: [3]. Destek sorumlunuza başvurun."/>
+  <STRING id="Error.1916" value="ODBC sürücü yöneticisini yükleme hatası, ODBC hatası [2]: [3]. Destek sorumlunuza başvurun."/>
+  <STRING id="Error.1917" value="ODBC sürücüsünü kaldırma hatası: [4], ODBC hatası [2]: [3]. ODBC sürücülerini kaldırmak için yeterli ayrıcalığınızın olduğunuzu doğrulayın."/>
+  <STRING id="Error.1918" value="ODBC sürücüsünü yükleme hatası: [4][5], ODBC hatası [2]: [3]. [4][6] dosyasının varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1919" value="ODBC veri kaynağını yapılandırma hatası: [4][5], ODBC hatası [2]: [3]. [4][6] dosyasının varolduğunu ve ona erişebildiğinizi doğrulayın."/>
+  <STRING id="Error.1920" value="&apos;[2]&apos; ([3]) hizmeti başlatılırken hata oluştu.  Sistem hizmetlerini başlatmak için yeterli ayrıcalığınızın olduğunu doğrulayın."/>
+  <STRING id="Error.1921" value="&apos;[2]&apos; ([3]) hizmeti durdurulamadı.  Sistem hizmetlerini durdurmak için yeterli ayrıcalığınızın olduğunu doğrulayın."/>
+  <STRING id="Error.1922" value="&apos;[2]&apos; ([3]) hizmeti silinemedi.  Sistem hizmetlerini kaldırmak için yeterli ayrıcalığınızın olduğunu doğrulayın."/>
+  <STRING id="Error.1923" value="&apos;[2]&apos; ([3]) hizmeti yüklenemedi.  Sistem hizmetlerini yüklemek için yeterli ayrıcalığınızın olduğunu doğrulayın."/>
+  <STRING id="Error.1924" value="&apos;[2]&apos; ortam değişkeni güncelleştirilemedi.  Ortam değişkenlerini değiştirmek için yeterli ayrıcalığınızın olduğunu doğrulayın."/>
+  <STRING id="Error.1925" value="Makinenin tüm kullanıcıları için yüklemeyi tamamlayacak yeterli yetkiniz yok.  Yönetici olarak oturum açın ve bu yükleme işlemini yeniden deneyin."/>
+  <STRING id="Error.1926" value="&apos;[3]&apos; dosyası için dosya güvenliği ayarlanamadı. Hata: [2].  Bu dosyanın güvenlik izinlerini değiştirmek için yeterli izniniz olduğunu doğrulayın."/>
+  <STRING id="Error.1927" value="Bileşen Hizmetleri (COM+ 1.0) bu bilgisayarda yüklü değil.  Bu yüklemenin başarılı olabilmesi için Bileşen Hizmetleri yüklü olmalıdır.  Bileşen Hizmetleri Windows 2000'de bulunabilir."/>
+  <STRING id="Error.1928" value="COM+ Uygulaması kaydettirme hatası.  Daha fazla bilgi için destek sorumlunuza başvurun."/>
+  <STRING id="Error.1929" value="COM+ Uygulaması kaydını kaldırma hatası.  Daha fazla bilgi için destek sorumlunuza başvurun."/>
+  <STRING id="Error.1930" value="&apos;[2]&apos; ([3]) hizmetinin açıklaması değiştirilemedi."/>
+  <STRING id="Error.1931" value="[2] sistem dosyası Windows tarafından korunduğu için Windows Installer hizmeti bu dosyayı güncelleştiremiyor.  Bu programın doğru çalışabilmesi için işletim sisteminizi güncelleştirmeniz gerekebilir. {{Paket sürümü: [3], OS Korumalı sürümü: [4]}}"/>
+  <STRING id="Error.1932" value="Windows Installer hizmeti korumalı [2] Windows dosyasını güncelleştiremiyor. {{Paket sürümü: [3], OS Korumalı sürümü: [4], SFP Hatası: [5]}}"/>
+  <STRING id="Error.1933" value="Windows Installer hizmeti, bir veya daha fazla korumalı Windows dosyasını güncelleştiremiyor. {{SFP Hatası: [2].  Korumalı dosyalar:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Kullanıcı yüklemeleri bu makinedeki ilke ile devre dışı bırakıldı."/>
+  <STRING id="Error.1935" value="[2] derleme bileşeninin yüklemesi sırasında hata oluştu. HRESULT: [3]. {{bilşene arabirimi: [4], fonksiyon: [5], bileşen adı: [6]}}"/>
+  <STRING id="Error.4000" value="Geçersiz seri numarası."/>
+  <STRING id="Error.4010" value="[ProductName] ürününün daha yeni bir sürümü bu bilgisayarda zaten yüklü."/>
+  <STRING id="Error.4020" value="IIS yapılandırma işlemi sırasında bir hata oluştu. Özgün IIS yapılandırmanız geri yüklenecek."/>
+  <STRING id="Error.4021" value="[1] Web Sitesi bu sunucuda zaten var."/>
+  <STRING id="Error.4022" value="Bu sunucuda [2] Web Sitesinin [1] Sanal Dizini zaten var."/>
+  <STRING id="Error.4023" value="Bu IIS sürümü desteklenmiyor veya IIS tam olarak yüklenmedi!&#10;&#10;Internet Information Services 5.0 veya sonrasını yüklemeniz gerekir."/>
+  <STRING id="Error.4024" value="Aynı Sunucu Bağlamalarıyla bir Web sitesi zaten başlatıldı.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Yerel makinede kullanıcı hesabı veya grubu &apos;[2]&apos; oluşturulamadı. Hata Kodu: [3]. [4]"/>
+  <STRING id="Error.4102" value="Yerel makinede kullanıcı hesabı veya grubu &apos;[2]&apos; zaten var."/>
+  <STRING id="Error.4103" value="Yerel makineden kullanıcı hesabı veya grubu &apos;[2]&apos; kaldırılamadı. Hata Kodu: [3]."/>
+  <STRING id="Error.4104" value="Yerel makinede kullanıcı hesabı veya grubu &apos;[2]&apos; yok."/>
+  <STRING id="Error.4105" value="'[2]' paylaşımı '[3]' adıyla oluştururken bir hata ile karşılaşıldı. Hata açıklaması: [4]"/>
+  <STRING id="Error.4106" value="Bir zamanlanmış görevi oluşturulurken bir hata ile karşılaşıldı: '[2]'. Hata açıklaması: [3]"/>
+  <STRING id="Error.4107" value="Bir zamanlanmış görevi kaldırılırken bir hata ile karşılaşıldı: '[2]'. Hata açıklaması: [3]"/>
+  <STRING id="Error.4110" value="Bellek alanı ayrılamadı."/>
+  <STRING id="Error.4111" value="Dosya bulunamadı: [2]."/>
+  <STRING id="Error.4112" value="'[2]' dosyası okunamadı."/>
+  <STRING id="Error.4113" value="Dosyada ayrıştırma hatası: '[2]' Satır: [3], Kolon: [4]. HataKodu: [5]."/>
+  <STRING id="Error.4114" value="Desteklenmeyen XML dosya kodlaması."/>
+  <STRING id="Error.4115" value="Dosya açılırken hata: [2]."/>
+  <STRING id="Error.4116" value="'[2]' Dosyası yazılamadı."/>
+  <STRING id="Error.4117" value="'[3]' XML dosyasında beklenemeyen kök eleman: &quot;[2]&quot;."/>
+  <STRING id="Error.4120" value="Windows Firewall ayarlama işlemi sırasında hata oluştu.&#10;Orijinal Firewall ayarlarınıza geri dönülecek."/>
+  <STRING id="Error.4121" value="Geçersiz Firewall işlem adı, veya dosya bulunamadı: [2]."/>
+  <STRING id="Error.4122" value="Geçersiz Firewall port veya protokolu: [2]."/>
+  <STRING id="Error.4123" value="Geçersiz Firewall ağ kapsamı: [2]."/>
+  <STRING id="Error.4124" value="Uygulama Windows Firewall'a kaydedilirken bir hata oluştu.: [2]."/>
+  <STRING id="Error.4125" value="Port Windows Firewall'a kaydedilirken bir hata oluştu: [2]."/>
+  <STRING id="Error.4130" value="Oyun Gezgini yapılandırma işlemi sırasında bir hata oluştu."/>
+  <STRING id="Error.4131" value="Ebeveyn Kontrolleri oyunu oynamanızı engelliyor: [2]."/>
+  <STRING id="Error.4140" value="SQL komutu çalıştırma işlemi sırasında bir hata oluştu."/>
+  <STRING id="Error.4141" value="ODBC Hatası: [2] ([3])."/>
+  <STRING id="Error.4142" value="ODBC Bağlantı: zamanaşımı oluştu."/>
+  <STRING id="Error.4143" value="SQL komut ayrıştırma hatası: hatalı yazım şekli."/>
+  <STRING id="Error.4001" value="Seri numarası doğrulanamadı."/>
+  <STRING id="Error.4025" value="Uygulama Havuzu &quot;[2]&quot; bu sunucuda zaten var.&#10;&#10;Bu uygulama havuzunu yapılandırmayı atlayıp yükleme işlemine devam etmek istiyor musunuz?"/>
+  <STRING id="Error.4150" value="CallStdFcn içinde dahili hata."/>
+  <STRING id="Error.4151" value="&apos;[2]&apos; işlevi &apos;[3]&apos; DLL’inde bulunamadı."/>
+  <STRING id="Error.4152" value="[ProductName] ayarlarını ve geçici dosyaları kaldırmak ister misiniz?"/>
+  <STRING id="Error.4153" value="[2] adlı zorunlu gereksinim doğru şekilde yüklenmedi."/>
+  <STRING id="Error.4154" value="[2] gereksinimi doğru şekilde yüklenmedi. [ProductName] yüklemesine devam edilsin mi?"/>
+  <STRING id="Error.4155" value="[2] dosyası doğru şekilde alınamadı: CRC hatası."/>
+  <STRING id="Error.4156" value="[2] dosyası doğru şekilde alınamadı: CRC hatası. [ProductName] yüklemesine devam edilsin mi?"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bayt"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Özelliğin tamamı kullanılamayacak"/>
+  <STRING id="UIText.MenuAdvertise" value="Özellik istendiğinde yüklenecek"/>
+  <STRING id="UIText.MenuAllCD" value="Tüm özellik CD'den çalışacak şekilde yüklenecek."/>
+  <STRING id="UIText.MenuAllLocal" value="Tüm özellik yerel sabit disk üzerine yüklenecek."/>
+  <STRING id="UIText.MenuAllNetwork" value="Tüm özellik ağdan çalışacak şekilde yüklenecek."/>
+  <STRING id="UIText.MenuCD" value="CD'den çalışacak şekilde yüklenecek."/>
+  <STRING id="UIText.MenuLocal" value="Yerel sabit disk üzerine yüklenecek."/>
+  <STRING id="UIText.MenuNetwork" value="Ağdan çalışacak şekilde yüklenecek."/>
+  <STRING id="UIText.ScriptInProgress" value="Gerekli bilgiler toplanıyor..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Bu özellik yüklenmemiş olarak kalacak."/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Bu özellik istendiğinde yüklenecek şekilde ayarlanacak."/>
+  <STRING id="UIText.SelAbsentCD" value="Bu özellik CD'den çalışacak şekilde yüklenecek."/>
+  <STRING id="UIText.SelAbsentLocal" value="Bu özellik yerel sabit diske yüklenecek."/>
+  <STRING id="UIText.SelAbsentNetwork" value="Bu özellik ağdan çalışacak şekilde yüklenecek."/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Bu özellik kullanılamayacak."/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="İstendiğinde yüklenecek."/>
+  <STRING id="UIText.SelAdvertiseCD" value="Bu özellik CD'den çalıştırmada kullanılabilecek."/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Bu özellik yerel sabit diskinize yüklenecek."/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Bu özellik ağdan çalıştırmada kullanılabilecek."/>
+  <STRING id="UIText.SelCDAbsent" value="Bu özellik tamamen kaldırılacak, bunu CD&apos;den çalıştıramayacaksınız."/>
+  <STRING id="UIText.SelCDAdvertise" value="Bu özellik istendiğinde yüklenmek üzere ayarlanmak için CD'den çalışma durumundan çıkacak."/>
+  <STRING id="UIText.SelCDCD" value="Bu özellik CD'den çalıştırılabilecek şekilde kalacak."/>
+  <STRING id="UIText.SelCDLocal" value="Bu özellik yerel sabit diske yüklenebilmek için CD'den çalışma durumundan çıkacak"/>
+  <STRING id="UIText.SelChildCostNeg" value="Bu özellik sabit diskinizden [1] boşaltır."/>
+  <STRING id="UIText.SelChildCostPos" value="Bu özellik sabit diskinizde [1] yer gerektirir."/>
+  <STRING id="UIText.SelCostPending" value="Bu özellik için gerekenler belirleniyor..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Bu özellik tamamen kaldırılacak."/>
+  <STRING id="UIText.SelLocalAdvertise" value="Bu özellik yerel sabit diskinizden kaldırılacak, ancak istendiğinde yüklenecek şekilde ayarlanacak."/>
+  <STRING id="UIText.SelLocalCD" value="Bu özellik yerel sabit diskinizden kaldırılacak, ancak CD'den çalıştırılabilecek."/>
+  <STRING id="UIText.SelLocalLocal" value="Bu özellik yerel sabit diskinizde kalacak."/>
+  <STRING id="UIText.SelLocalNetwork" value="Bu özellik yerel sabit diskinizden kaldırılacak, ancak ağ üzerinden çalıştırılabilecek."/>
+  <STRING id="UIText.SelNetworkAbsent" value="Bu özellik tamamen kaldırılacak, bunu ağ üzerinden de çalıştıramayacaksınız."/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Bu özellik istendiğinde yüklenmek üzere ayarlanmak için ağ üzerinden çalışma durumundan çıkacak."/>
+  <STRING id="UIText.SelNetworkLocal" value="Bu özellik yerel sabit diske yüklenebilmek için ağ üzerinden çalışma durumundan çıkacak."/>
+  <STRING id="UIText.SelNetworkNetwork" value="Bu özellik ağ üzerinden çalışacak şekilde kalacak."/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Bu özellik sabit diskinizden [1] boşaltır. Seçili [3] alt özelliğin [2] tanesi var. Alt özellikler sabit diskinizden [4] boşaltır."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Bu özellik sabit diskinizden [1] boşaltır. Seçili [3] alt özelliğin [2] tanesi var. Bu alt özellikler sabit diskinizde [4] yer gerektirir."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Bu özellik sabit diskinizde [1] yer gerektirir. Seçili [3] alt özelliğin [2] tanesi var. Alt özellikler sabit diskinizden [4] boşaltır."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Bu özellik sabit diskinizde [1] yer gerektirir. Seçili [3] alt özelliğin [2] tanesi var. Bu alt özellikler sabit diskinizde [4] yer gerektirir."/>
+  <STRING id="UIText.TimeRemaining" value="Kalan süre: {[1] dakika }{[2] saniye}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Kullanılabilir"/>
+  <STRING id="UIText.VolumeCostDifference" value="Fark"/>
+  <STRING id="UIText.VolumeCostRequired" value="Gerekli"/>
+  <STRING id="UIText.VolumeCostSize" value="Disk Boyutu"/>
+  <STRING id="UIText.VolumeCostVolume" value="Birim"/>
+  <STRING id="UIText.HttpPostMsg" value="Toplanan bilgiler gönderiliyor..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.ODBCTestMsg" value="Lütfen, bağlantı test edilirken bekleyiniz..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Ağdaki SQL Server&apos;lar araştırılıyor..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.BrowseFolderLocation" value="Konum"/>
+  <STRING id="UIText.BrowseFolderName" value="Klasör adı:"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="Klasör Seç"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;Kaynak yüklenirken hata:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="Yükle"/>
+  <STRING id="UIText.PrereqInstalled" value="Yüklendi"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="Yüklenmesi Zorunlu"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] veya öncesi}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] veya sonrası}"/>
+  <STRING id="UIText.PrereqSkipAction" value="Atla"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="Veritabanı sunucusuna bağlanılıyor..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="Yetersiz alan"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="Yükleme sürücüleri"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="Kullanılmayan sürücüler"/>
+  <STRING id="UIText.Warning" value="Uyarı"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.IAgree#1" value="Lisans Sözleşmesinin koşullarını &amp;kabul ediyorum."/>
+  <STRING id="RadioButton.Text.IAgree#2" value="Lisans Sözleşmesinin koşullarını kabul &amp;etmiyorum."/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Evet, bu tür dosyaları işlenmek üzere kaydet."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Hayır, dosya ilişkilendirmesini atla."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Uygulamaları &amp;otomatik kapat ve kurulum tamamlandığında tekrar başlatmayı dene."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="&amp;Uygulamaları kapatma. (Yeniden başlatma gerekebilir.)"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="Yalnızca benim için ([LogonUser])"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="Herkes (tüm kullanıcılar)"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Hayır, diğer sürümlerin yanına yükle."/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Evet, eski sürümleri kaldır."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Hayır, yalnızca [AI_Replaced_Versions_List] sürümünü kaldır."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Evet, tüm eski sürümleri kaldır."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Geri"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Geri"/>
+  <STRING id="Property.ButtonText_Browse" value="Gö&amp;zat..."/>
+  <STRING id="Property.ButtonText_Cancel" value="İptal"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Çıkış"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Son"/>
+  <STRING id="Property.Text_Finish" value="Son"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Yoksay"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Yükle"/>
+  <STRING id="Property.Text_Install" value="Yükle"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;İleri &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;İleri"/>
+  <STRING id="Property.Text_Next" value="İleri"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Hayır"/>
+  <STRING id="Property.ButtonText_OK" value="Tamam"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Kaldır"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Onar"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Sıfırla"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Devam Et"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Yeniden Dene"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Geri Dön"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Evet"/>
+  <STRING id="Property.Text_Yes" value="Evet"/>
+  <STRING id="Property.CtrlEvtchanges" value="değiştirirken"/>
+  <STRING id="Property.CtrlEvtChanging" value="Değiştiriliyor"/>
+  <STRING id="Property.CtrlEvtremoves" value="kaldırırken"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Kaldırılıyor"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Onarılıyor"/>
+  <STRING id="Property.CtrlEvtrepairs" value="onarırken"/>
+  <STRING id="Property.InstallModeComplete" value="Tam"/>
+  <STRING id="Property.InstallModeCustom" value="Özel"/>
+  <STRING id="Property.InstallModeTypical" value="Genel"/>
+  <STRING id="Property.Progress1" value="Yükleniyor"/>
+  <STRING id="Property.Progress2" value="yüklerken"/>
+  <STRING id="Property.Setup" value="Kurulumu"/>
+  <STRING id="Property.Wizard" value="Kurulum Sihirbazı"/>
+  <!-- Trialware Settings table-->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Satın Al"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="%TrialName% satın alma sayfasını açmak ister misiniz?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Geçersiz Kayıt Anahtarı"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="Kayıt anahtarı hatalı."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% Denemesi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Anahtarı doğrulamak ve devam etmek için &quot;Son&quot; buttonuna basınız."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Lütfen aldığınız kayıt anahtarının tüm satırlarını giriniz."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Kayıt"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Satın Al"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Lisans almak için %TrialName% satın alma sayfasını ziyaret ediniz"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="%TrialName% Denemesi Sona Erdi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="%Quantity% günlük denemeniz sona erdi. %TrialName% ürününü kullanmaya devam etmek istiyorsanız bir lisans satın almalı ve uygulamayı kayıt ettirmelisiniz."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="%Quantity% defa çalıştırmalık denemeniz sona erdi. %TrialName% ürününü kullanmaya devam etmek istiyorsanız bir lisans satın almalı ve uygulamayı kayıt ettirmelisiniz."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="%TrialName% Denemesine Hoşgeldiniz"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Kayıt Ol"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Kayıt anahtarını giriniz"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Dene"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Sona Erdi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Satın Al"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Lisans almak için %TrialName% satın alma sayfasını ziyaret ediniz"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="%TrialName% Denemesi (%TrialLeft% gün kaldı)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="%TrialName% Denemesi (%TrialLeft% defa çalıştırma kaldı)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="[|Manufacturer] %TrialName% ürününün deneme sürümünü kullanıyorsunuz. %TrialLeft% gününüz kaldı."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="[|Manufacturer] %TrialName% ürününün deneme sürümünü kullanıyorsunuz. %TrialLeft% defa çalıştırmanız kaldı."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="%TrialName% Denemesine Hoşgeldiniz"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Kayıt Ol"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Kayıt anahtarını giriniz"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Dene"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="%TrialName% denemesine devam et"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=Deneme Süresi Uzatma İsteği&amp;body=Merhaba,%%0A%%0A%TrialName% deneme süresi uzatma kodunu rica ediyorum.%%0A%%0ATeşekkürler,%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="%TrialName% Deneme Sürümü"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="Devam"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="Deneme süresi uzatma isteği gönder"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="Kodu doğrulamak ve deneme sürümünü kullanmaya devam etmek için &quot;Devam&quot; düğmesini tıklatın."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="Deneme süresini uzatamak için lütfen size gönderilen kodu girin."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="Deneme Süresini Uzat"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="Deneme Süresi Uzatma Sayısı Aşıldı"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="Deneme süresini şu değerden daha fazla uzatamazsınız: %Quantity% %TrialMU%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="Devam"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="%TrialName% Kayıtlı"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="%TrialName% uygulamasını kaydettirdiğiniz için teşekkürler."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="Kayıt Başarılı"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="Satın Al"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="Lisan almak için %TrialName% satın alma sayfasını ziyaret edin"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="%TrialName% Deneme Süresi Doldu"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="%Quantity% günlük deneme süreniz doldu.  %TrialName% uygulamasını kullanmaya devam etmek istiyorsanız, deneme süresini uzatma isteğinde bulunmanız veya bir lisans satın alıp uygulamayı kaydettirmeniz gerekir."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="%Quantity% defalık deneme sürümü çalıştırma hakkınız doldu. %TrialName% uygulamasını kullanmaya devam etmek istiyorsanız, deneme süresini uzatma isteğinde bulunmanız veya bir lisans satın alıp uygulamayı kaydettirmeniz gerekir."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="%TrialName% Deneme Sürümüne Hoş Geldiniz"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="Kaydol"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="Kayıt anahtarı girin"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="Deneme Süresini Uzat"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="%TrialName% deneme süresini uzat"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value="%TrialName% Kayıtlı"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="%TrialName% uygulamasını kaydettirdiğiniz için teşekkürler."/>
+</DICTIONARY>

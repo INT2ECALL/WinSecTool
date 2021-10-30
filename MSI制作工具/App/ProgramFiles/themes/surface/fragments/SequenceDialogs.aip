@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="9.4" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="WelcomeDlg" Condition="AI_INSTALL" Sequence="1230" SeqType="3"/>
+    <ROW Action="MaintenanceTypeDlg" Condition="AI_MAINT" Sequence="1250" SeqType="3"/>
+    <ROW Action="ExitDialog" Condition="NOT AiSkipExitDlg OR NOT AI_INSTALL" Sequence="-1" SeqType="3"/>
+    <ROW Action="FatalError" Sequence="-3" SeqType="3"/>
+    <ROW Action="PatchWelcomeDlg" Condition="AI_PATCH" Sequence="1260" SeqType="3"/>
+    <ROW Action="PrepareDlg" Sequence="75" SeqType="3"/>
+    <ROW Action="ProgressDlg" Sequence="1280" SeqType="3"/>
+    <ROW Action="ResumeDlg" Condition="AI_RESUME" Sequence="1240" SeqType="3"/>
+    <ROW Action="UserExit" Condition="NOT AiSkipUserExit" Sequence="-2" SeqType="3"/>
+    <ROW Action="AI_SetControlStyle" Condition="AI_NO_BORDER_NORMAL AND AI_CONTROL_VISUAL_STYLE_FLAT" Sequence="10" SeqType="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_SetControlStyle" Type="51" Source="AI_CONTROL_VISUAL_STYLE" Target="[AI_CONTROL_VISUAL_STYLE_FLAT]"/>
+  </COMPONENT>
+</FRAGMENT>

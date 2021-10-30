@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F2DE1_E21C_494A_B2EE_4D8397D05ECD" DisplayName="Access 2007 Runtime" VersionMin="12.0"
+      SetupFileUrl="http://download.microsoft.com/download/D/2/A/D2A2FC8B-0447-491C-A5EF-E8AA3A74FB98/AccessRuntime.exe"
+      Location="1" ExactSize="58937448" MD5="f448b8b0d41b867fa0491df96bfe624d"
+      NoUiComLine="/quiet"
+      Operator="1" Options="f" TargetName="Access 2007 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Office"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F2DE1_E21C_494A_B2EE_4D8397D05ECDPath" Prereq="F2DE1_E21C_494A_B2EE_4D8397D05ECD" SearchType="7"
+      SearchString="HKLM\SOFTWARE\Microsoft\Office\12.0\Access\InstallRoot\Path"
+      Order="1" Property="PreReqSearch_F2DE1_E21C_494A_B2EE_4D8397D05ECD"/>
+  </COMPONENT>
+</FRAGMENT>

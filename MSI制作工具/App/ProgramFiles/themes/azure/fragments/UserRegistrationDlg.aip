@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="userreglogoicon" SourcePath="&lt;AI_THEMES&gt;common-res\images\UserRegLogo.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="UserRegLogoIcon" Value="userreglogoicon" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="UserRegistrationDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="NameLabel" Type="Text" X="55" Y="100" Width="100" Height="11" Attributes="65539" Order="400" TextLocId="Control.Text.UserRegistrationDlg#NameLabel"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="NameEdit" Type="Edit" X="55" Y="112" Width="360" Height="18" Attributes="3" Property="USERNAME" Text="{80}" Order="500" TextLocId="Control.Text.UserRegistrationDlg#NameEdit"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="OrganizationLabel" Type="Text" X="55" Y="155" Width="100" Height="11" Attributes="65539" Order="600" TextLocId="Control.Text.UserRegistrationDlg#OrganizationLabel"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="OrganizationEdit" Type="Edit" X="55" Y="166" Width="360" Height="18" Attributes="3" Property="COMPANYNAME" Order="700" TextLocId="Control.Text.UserRegistrationDlg#OrganizationEdit"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="CDKeyLabel" Type="Text" X="55" Y="209" Width="70" Height="11" Attributes="196611" Order="800" TextLocId="Control.Text.UserRegistrationDlg#CDKeyLabel"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="CDKeyEdit" Type="MaskedEdit" X="55" Y="220" Width="360" Height="18" Attributes="3" Property="PIDKEY" Text="[PIDTemplate]" Order="900" TextLocId="-"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="1000" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="Title" Type="Text" X="55" Y="23" Width="380" Height="40" Attributes="65539" TextStyle="TitleFont" Order="1100" TextLocId="Azure.Control.Text.UserRegistrationDlg#Title"/>
+    <ROW Dialog_="UserRegistrationDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[UserRegLogoIcon]" Order="1200"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="UserRegistrationDlg" Control_="CDKeyEdit" Action="Disable" Condition="SERIAL_VALIDATION=&quot;TRUE&quot;"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="UserRegistrationDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="UserRegistrationDlg" Control_="Next" Event="[SERIAL_VALIDATION]" Argument="FALSE" Condition="1" Ordering="100"/>
+    <ROW Dialog_="UserRegistrationDlg" Control_="Next" Event="ValidateProductID" Argument="0" Condition="1" Ordering="200"/>
+    <ROW Dialog_="UserRegistrationDlg" Control_="Next" Event="DoAction" Argument="AI_VALID_SERIAL" Condition="ProductID" Ordering="300"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="UserRegistrationDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.UserRegistrationDlg"/>
+  </COMPONENT>
+</FRAGMENT>

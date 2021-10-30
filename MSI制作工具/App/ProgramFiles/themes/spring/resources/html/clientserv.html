@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Choose Installation Type</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="varstyle.css" media="screen" />
+
+  <script type="text/javascript" src="jquery-1.3.2.js"></script>
+
+  <script type="text/javascript" src="common.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+
+      /* START XXX */
+
+      ResolveTag("p");
+      ResolveTag("h1");
+      ResolveTag("span");
+      ResolveTag("b");
+
+      InitPage();
+      UpdateBackGroundInd("DialogBitmap", 'main');
+
+      var a = ['leftBtnA', 'leftBtnSpan', 'rightBtnA', 'rightBtnSpan', 'cancelBtnA', 'cancelBtnSpan'];
+      UpdateBackGroundIndVec("BannerBitmap", a);
+      ShowFooter();
+
+      /* END XXX */
+
+      $(".install-now a").hover(function() {
+        $(".install-now img")
+		   .animate({ top: "-8px" }, 200).animate({ top: "0" }, 200) // first jump
+		   .animate({ top: "-5px" }, 100).animate({ top: "0" }, 100) // second jump
+		   .animate({ top: "0" }, 100).animate({ top: "0" }, 100); // the last jump
+      });
+
+      $(".customize a").hover(function() {
+        $(".customize img")
+		   .animate({ top: "-8px" }, 200).animate({ top: "0" }, 200) // first jump
+		   .animate({ top: "-5px" }, 100).animate({ top: "0" }, 100) // second jump
+		   .animate({ top: "0" }, 100).animate({ top: "0" }, 100); // the last jump
+      });
+
+      $(".uninst a").hover(function() {
+        $(".uninst img")
+		   .animate({ top: "-8px" }, 200).animate({ top: "0" }, 200) // first jump
+		   .animate({ top: "-5px" }, 100).animate({ top: "0" }, 100) // second jump
+		   .animate({ top: "0" }, 100).animate({ top: "0" }, 100); // the last jump
+      });
+    });
+  </script>
+
+  <!--[if IE 6]>
+	<script src="pngfix/DD_belatedPNG_0.0.8a.js"></script>
+	<script>
+	  if(screen.deviceXDPI == 96) DD_belatedPNG.fix('img,#logoBig,#logo');
+	</script>
+	<![endif]-->
+</head>
+<body onload="replace('desc');">
+  <div id="main" style="background-image: url(../background.jpg);">
+    <div id="header">
+      <div id="logo">
+      </div>
+      <h1 formatted="twice" keepamp="true" style="visibility: hidden">
+        [ClientServerDlgTitle]</h1>
+      <div class="clear">
+      </div>
+
+      <script type="text/javascript">
+			AdvinstTextMark();
+      </script>
+
+    </div>
+    <div id="content">
+      <p class="description" id="desc" formatted="twice" keepamp="true" style="visibility:hidden">
+        [ClientServerDlgSubTitle]</p>
+      <div class="button-large install-now">
+        <a href="#" title="" onclick="external.MsiPublishEvents('ClientButton');">
+          <img width="55" height="55" src="client.png" alt="">
+          <span formatted="true" style="visibility: hidden">[ClientServerDlgTypicalLabel]<b formatted="true"
+            style="visibility: hidden">[ClientServerDlgTypicalDesc]</b></span> </a>
+      </div>
+      <div class="button-large customize">
+        <a href="#" title="" onclick="external.MsiPublishEvents('ServerButton');">
+          <img width="55" height="55" src="server.png" alt="">
+          <span formatted="true" style="visibility: hidden">[ClientServerDlgCustomLabel]<b formatted="true"
+            style="visibility: hidden">[ClientServerDlgCustomDesc]</b></span> </a>
+      </div>
+      <div class="button-large uninst">
+        <a href="#" title="" onclick="external.MsiPublishEvents('CompleteButton');">
+          <img width="55" height="55" src="client_server.png" alt="">
+          <span formatted="true" style="visibility: hidden">[ClientServerDlgCompleteLabel]<b formatted="true"
+            style="visibility: hidden">[ClientServerDlgCompleteDesc]</b></span> </a>
+      </div>
+    </div>
+    <div id="footer" style="visibility: hidden">
+      <div class="button-group">
+        <div class="buttonwrapper">
+          <a id="leftBtnA" onclick="external.MsiPublishEvents('Back');" href="#"><b>
+            <img src="back.png" width="16" height="16" />
+          </b><span id="leftBtnSpan" formatted="noarrow">[ButtonText_Back]</span> </a>
+        </div>
+        <!--
+          <div class="buttonwrapper">
+              <a id="rightBtnA" onclick="external.MsiPublishEvents('Next');" href="#">
+                  <b>
+                      <img src="next.png" width="16" height="16"/>
+                  </b>
+                  <span id="rightBtnSpan" formatted="noarrow">[ButtonText_Next]</span>
+              </a>
+          </div>
+          -->
+        <!--
+          <div class="buttonwrapper cancel">
+              <a id="cancelBtnA" href="#" onclick="external.MsiPublishEvents('Cancel');">
+                  <b>
+                      <img src="cancel.png" width="16" height="16"/>
+                  </b>
+                  <span id="cancelBtnSpan" formatted="noarrow">[ButtonText_Cancel]</span>
+              </a>
+          </div>
+          -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>

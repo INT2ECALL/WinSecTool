@@ -1,0 +1,52 @@
+;SetupMgrTag
+[Data]
+  AutoPartition=1
+  MsDosInitiated="0"
+  UnattendedInstall="Yes"
+  AutomaticUpdates=yes
+
+[Unattended]
+  UnattendMode=FullUnattended
+  OemSkipEula=Yes
+  OemPreinstall=Yes
+  TargetPath=\WINDOWS
+  Repartition=Yes
+  UnattendSwitch="yes"
+  WaitForReboot="No"
+  KeyboardLayout="US"
+
+[GuiUnattended]
+  AdminPassword=$ADMIN_PASS$
+  EncryptedAdminPassword=NO
+  AutoLogon=Yes
+  AutoLogonCount=99
+  OEMSkipRegional=1
+  OemSkipWelcome=1
+  TimeZone=85
+
+[UserData]
+  ProductKey=$SERIAL_KEY$
+  FullName="Caphyon"
+  OrgName="Caphyon"
+  ComputerName=$COMPUTER_NAME$
+
+[Identification]
+  JoinWorkgroup=WORKGROUP
+
+[Networking]
+  InstallDefaultComponents=Yes
+
+[Components]
+  msmsgs=off
+  msnexplr=off
+  freecell=off
+  hearts=off
+  minesweeper=off
+  pinball=off
+  solitaire=off
+  spider=off
+  zonegames=off
+
+[GuiRunOnce]
+  a:\platformtools.cmd
+  a:\osprovision.cmd

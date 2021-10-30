@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C0F523B656404EAA86670978B1AF3B87" DisplayName="PowerShell 2.0 for Windows XP/Server 2003 x64" VersionMin="2.0"
+      SetupFileUrl="http://download.microsoft.com/download/B/D/9/BD9BB1FF-6609-4B10-9334-6D0C58066AA7/WindowsServer2003-KB968930-x64-ENG.exe"
+      Location="1" ExactSize="10334496" MD5="01dddf73c260b550809736cd3b662935"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xy" TargetName="PowerShell 2.0"/>
+    <ATTRIBUTE name="GroupName" value="Windows Management Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C0F523B656404EAA86670978B1AF3B87PowerShellVersion" Prereq="C0F523B656404EAA86670978B1AF3B87" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine\PowerShellVersion" VerMin="2.0"
+      Order="1" Property="PreReqSearch_C0F523B656404EAA86670978B1AF3B87"/>
+  </COMPONENT>
+</FRAGMENT>

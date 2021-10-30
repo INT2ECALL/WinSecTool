@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.3" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F4B9B645EABEB72990F8BF8CDB" DisplayName="SQL Server Native Client 2008 SP4 x64" VersionMin="10.4.6000.29"
+      SetupFileUrl="http://download.microsoft.com/download/8/D/1/8D13A364-D38E-43C7-B844-64208DFEBC3A/ENU/x64/sqlncli.msi"
+      Location="1" ExactSize="8167424" MD5="1971d021a93f4c2417370f79d27d5827"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows 10 x64, Windows Server 2016 x64"
+      BasicUiComLine="/qb"
+      NoUiComLine="/qn"
+      Operator="1" Options="xf" TargetName="SQL Server Native Client 2008?sqlncli_sp4x64.msi"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F4B9B645EABEB72990F8BF8CDBVersion" Prereq="F4B9B645EABEB72990F8BF8CDB" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server Native Client 10.0\CurrentVersion\Version" VerMin="10.4.6000.29"
+      Order="1" Property="PreReqSearch_F4B9B645EABEB72990F8BF8CDB"/>
+  </COMPONENT>
+</FRAGMENT>

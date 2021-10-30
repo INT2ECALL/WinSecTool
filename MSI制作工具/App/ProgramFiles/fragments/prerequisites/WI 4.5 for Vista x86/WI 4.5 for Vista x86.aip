@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D5ACF1DA_E9F5_4D0B_BE2E_BA8866896750" DisplayName="Windows Installer 4.5 for Windows Vista/Server 2008 x86" VersionMin="4.5"
+      SetupFileUrl="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/Windows6.0-KB942288-v2-x86.msu"
+      Location="1" ExactSize="1768236" MD5="2a6c8620d69880e2cfdcd41f58643620"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista SP2 x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="y" TargetName="Windows Installer 4.5"/>
+    <ATTRIBUTE name="GroupName" value="Windows Installer"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D5ACF1DA_E9F5_4D0B_BE2E_BA8866896750SystemFoldermsi.dll" Prereq="D5ACF1DA_E9F5_4D0B_BE2E_BA8866896750" SearchType="0"
+      SearchString="[SystemFolder]msi.dll" VerMin="4.5.6000.20817"
+      Order="1" Property="PreReqSearch_D5ACF1DA_E9F5_4D0B_BE2E_BA8866896750"/>
+  </COMPONENT>
+</FRAGMENT>

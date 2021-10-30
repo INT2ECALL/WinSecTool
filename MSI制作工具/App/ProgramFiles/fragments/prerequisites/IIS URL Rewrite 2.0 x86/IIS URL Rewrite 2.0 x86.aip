@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B7D2BC8B4C029CCD2536FB643F48" DisplayName="IIS URL Rewrite 2.0 x86" VersionMin="7.2.2"
+      SetupFileUrl="http://download.microsoft.com/download/6/9/C/69C1195A-123E-4BE8-8EDF-371CDCA4EC6C/rewrite_2.0_rtw_x86.msi"
+      Location="1" ExactSize="5693440" MD5="a2366c32eadaf8a46dc6358ec004f886"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista RTM x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="f" TargetName="IIS URL Rewrite 2.0"/>
+    <ATTRIBUTE name="GroupName" value="Web Server"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B7D2BC8B4C029CCD2536FB643F48Version" Prereq="B7D2BC8B4C029CCD2536FB643F48" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\IIS Extensions\URL Rewrite\Version" VerMin="7.1.0761.0"
+      Order="1" Property="PreReqSearch_B7D2BC8B4C029CCD2536FB643F48"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D8B1B3CC4E0D4893BB5BB0E745BEC70B" DisplayName="PowerShell 1.0 for Windows Vista x86" VersionMin="1.0"
+      SetupFileUrl="http://download.microsoft.com/download/4/b/8/4b8e4fac-bf73-49d0-8b98-ce1f58ba26b8/Windows6.0-KB928439-x86.msu"
+      Location="1" ExactSize="5279681" MD5="d22a9b83676761fe407586827e1fc195"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="y" TargetName="PowerShell 1.0"/>
+    <ATTRIBUTE name="GroupName" value="Windows Management Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D8B1B3CC4E0D4893BB5BB0E745BEC70BPowerShellVersion" Prereq="D8B1B3CC4E0D4893BB5BB0E745BEC70B" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine\PowerShellVersion" VerMin="1.0"
+      Order="1" Property="PreReqSearch_D8B1B3CC4E0D4893BB5BB0E745BEC70B"/>
+  </COMPONENT>
+</FRAGMENT>

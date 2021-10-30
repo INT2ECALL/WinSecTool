@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="CustomizePage" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="309" Height="222" Attributes="1" Text="[BackgroundSurface]" Order="100"/>
+    <ROW Dialog_="CustomizePage" Control="Description" Type="Text" X="15" Y="15" Width="278" Height="12" Attributes="196611" Order="200" TextLocId="Control.Text.CustomizeDlg#FeatsShortDescription"/>
+    <ROW Dialog_="CustomizePage" Control="Tree" Type="QuickSelectionTree" X="15" Y="37" Width="278" Height="170" Attributes="7" Property="_BrowseProperty" Order="300" TextLocId="Control.Text.CustomizeDlg#Tree" ExtType="QuickSelectionTree"/>
+    <ROW Dialog_="CustomizePage" Control="DefBut" Type="PushButton" X="0" Y="0" Width="0" Height="0" Attributes="2" Text="" Order="400" TextLocId="-"/>
+    <ROW Dialog_="CustomizePage" Control="AdvInst" Type="Text" X="5" Y="388" Width="74" Height="11" Attributes="196611" Text="Advanced Installer" TextStyle="[BrandingStyle]" Order="500"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="CustomizePage" Control_="DefBut" Event="[AiStopPageChange]" Argument="{}" Condition="1" Ordering="100"/>
+    <ROW Dialog_="CustomizePage" Control_="DefBut" Event="EndDialog" Argument="Return" Condition="1" Ordering="200"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="CustomizePage" HCentering="50" VCentering="50" Width="309" Height="222" Attributes="3" Control_Default="DefBut" Control_Cancel="DefBut" TitleLocId="Dialog.CustomizePage"/>
+  </COMPONENT>
+</FRAGMENT>

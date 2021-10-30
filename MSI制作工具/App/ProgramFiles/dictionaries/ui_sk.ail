@@ -1,0 +1,957 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="sk" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bitová"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Nový priečinok"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Duplikovať %s z %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Nová premenná"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Popis"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Súčasť"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Hrať"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Podpora"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Váš popis pre hru [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Nový súbor"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Nový kľúč"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Nová sekcia"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Nová hodnota"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Váš produkt"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="Produkt [ProductName] nie je možné inštalovať na systémoch s verziou aplikácie Adobe Reader nižšou ako [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="Produkt [ProductName] nie je možné inštalovať v systémoch bez komponentu [AI_REQUIRED_ACTIVESYNC_DISPLAY] alebo novšej"/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="Produkt [ProductName] sa nemôže inštalovať na systémoch s kvalitou farby nižšou ako [AI_REQUIRED_COLOR_QUALITY] bitov."/>
+  <STRING id="AI.LaunchCondition.Description" value="Popis podmienky spustenia"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="Produkt [ProductName] nie je možné inštalovať na systémoch s verziou aplikácie DirectX nižšou ako [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="Produkt [ProductName] sa nemôže inštalovať na systémoch s verziou aplikácie .NET Framework nižšou ako [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="Produkt [ProductName] sa nemôže inštalovať na systémoch s verziou aplikácie .NET Core nižšou ako [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="Produkt [ProductName] sa nemôže inštalovať na systémoch s verziou programu Internet Explorer nižšou ako [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="Produkt [ProductName] sa nemôže inštalovať na systémoch s verziou služieb Internet Information Services nižšou ako [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="Produkt [ProductName] vyžaduje pri inštalácii aktívne internetové pripojenie. Skontrolujte konfiguráciu siete a nastavenia servera proxy."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="Produkt [ProductName] nie je možné inštalovať v systémoch s verziou súpravy JRE nižšou ako [AI_REQUIRED_JDK_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="Produkt [ProductName] nie je možné inštalovať na systémoch s verziou aplikácie JRE nižšou ako [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] cannot be installed on [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] cannot be installed on [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] cannot be installed on [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] cannot be installed on [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] cannot be installed on [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="Produkt [ProductName] nie je možné inštalovať v systémoch bez komponentu [AI_REQUIRED_OFFICE_APPNAME]."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="Produkt [ProductName] nie je možné inštalovať v systémoch bez komponentu [AI_REQUIRED_OFFICE_APPNAME] 2003."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="Produkt [ProductName] nie je možné inštalovať v systémoch bez komponentu [AI_REQUIRED_OFFICE_APPNAME] 2007."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="Produkt [ProductName] vyžaduje pri inštalácii práva správcu."/>
+  <STRING id="AI.LaunchCondition.RAM" value="Produkt [ProductName] sa nemôže inštalovať na systémoch s fyzickou pamäťou menšou ako [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="Produkt [ProductName] sa nemôže inštalovať na systémoch s rozlíšením obrazovky menším ako [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="Produkt [ProductName] nie je možné inštalovať v systémoch bez komponentu [AI_REQUIRED_SQLCOMPACT_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="Produkt [ProductName] nie je možné inštalovať v systémoch bez komponentu [AI_REQUIRED_SQLEXPRESS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.VM" value="Produkt [ProductName] sa nemôže inštalovať na systémoch bežiacich na virtuálnych zariadeniach."/>
+  <STRING id="AI.LaunchCondition.WI" value="Produkt [ProductName] nemožno nainštalovať v systémoch s Inštalátorom systému Windows, ktorého verzia je nižšia než [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="Produkt [ProductName] nie je možné inštalovať v systémoch s verziou štruktúry XNA Framework nižšou ako [AI_REQUIRED_XNA_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="VasSubor.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Táto databáza inštalátora obsahuje logiku a údaje potrebné na inštaláciu produktu &lt;product name&gt;."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Vaša spoločnosť"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Váš modul zlúčenia"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Táto databáza obsahuje logiku a údaje potrebné na inštaláciu súčasti &lt;module name&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="Vaša aplikácia"/>
+  <STRING id="AI.Property.DefaultValue" value="Vaša hodnota"/>
+  <STRING id="AI.Property.FindExeTitle" value="Vyberte inštalačný balík pre produkt [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Tento balík obsahuje modul Merge Module, ktorý bol vytvorený pomocou skúšobnej verzie inštalátora Advanced Installer."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Tento balík bol vytvorený pomocou skúšobnej verzie inštalátora Advanced Installer."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Upozornenie"/>
+  <STRING id="AI.Registry.DefaultKey" value="Nový_kľúč"/>
+  <STRING id="AI.Registry.DefaultName" value="Nová hodnota"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="YourFile.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="VašaHodnota"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="NázovSlužby"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Popis vašej služby"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Vaša služba"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Nové zdieľanie"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Odkaz na VášPríkaz"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Odkaz na %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Odinštalovať"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Otvoriť"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Nový súbor"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Informácie o inštalátore"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Kde hľadať:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Prehľadať cieľový priečinok"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Vytvoriť nový priečinok|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Názov priečinka:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Zmeniť aktuálny cieľový priečinok"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="O jednu úroveň nahor|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Zadajte sieťové umiestnenie pre serverový obraz produktu [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Zadajte sieťové umiestnenie alebo kliknutím na tlačidlo Prehľadávať vyhľadajte požadované umiestnenie."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Sieťové umiestnenie"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="&amp;Kód disku CD:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Zadajte informácie o vašej spoločnosti"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Zadajte názov vašej organizácie do poľa nižšie."/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Informácie o spoločnosti"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard] vytvorí serverový obraz produktu [ProductName] v zadanom sieťovom umiestnení."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Víta vás [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Kde hľadať:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Prehľadať cieľový priečinok"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Vytvoriť nový priečinok|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Názov priečinka:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Zmeniť aktuálny cieľový priečinok"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="O jednu úroveň nahor|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Ikona informácií|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Naozaj chcete zrušiť inštaláciu produktu [ProductName]?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Vyberte spôsob, akým sa majú nainštalovať jednotlivé súčasti."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="Vy&amp;užitie disku"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Viacriadkový popis aktuálne nainštalovanej položky."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Veľkosť aktuálne nainštalovanej položky."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Cesta výberu&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Umiestnenie:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Kliknutím na ikony v stromovej štruktúre nižšie zmeníte spôsob, akým sa nainštalujú jednotlivé súčasti."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Vlastná inštalácia"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Stromová štruktúra výberu"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Miesto na disku vyžadované na inštaláciu vybratých súčastí."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Zvýraznené zväzky nemajú dostatok miesta na disku pre aktuálne vybraté súčasti."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Požiadavky na miesto na disku"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Ikona informácií|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Informačný text"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Kliknutím na tlačidlo Dokončiť ukončíte sprievodcu [Wizard]."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Spustiť produkt [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="[ProductName] [Wizard] dokončuje prácu"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Zobraziť súbor readme"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] zaregistruje produkt [ProductName] ako predvolený program na prácu s nasledovnými typmi súborov:"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Priradí produkt [ProductName] k typom súborov."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Priradenia súborov"/>
+  <STRING id="Control.Text.FatalError#Description1" value="Inštalácia produktu [ProductName] bola predčasne ukončená z dôvodu chyby."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Kliknutím na tlačidlo Dokončiť ukončíte sprievodcu [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] bol ukončený predčasne"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Niektoré súbory, ktoré je potrebné aktualizovať, sa momentálne používajú."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Nasledovné aplikácie používajú súbory, ktorých aktualizáciu vyžaduje táto inštalácie."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Používané súbory"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Do tohto priečinka sa produkt [ProductName] nainštaluje."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Priečinok:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Ak chcete produkt nainštalovať do tohto priečinka, kliknite na tlačidlo [Text_Next]."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Výber priečinka pre inštaláciu"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_sk.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Pozorne si prečítajte nižšie uvedenú licenčnú zmluvu"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Licenčná zmluva koncového používateľa"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Upraviť inštaláciu|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Upraviť"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Používateľom umožňuje zmeniť spôsob inštalácie jednotlivých súčastí."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Vyberte operáciu, ktorú chcete vykonať."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Odstrániť inštaláciu|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="Odst&amp;rániť"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Odstráni produkt [ProductName] z počítača."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Opraviť inštaláciu|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="&amp;Opraviť"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Opraví chyby najnovšieho stavu inštalácie – opraví chýbajúce alebo poškodené súbory, odkazy a položky databázy Registry."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Zmeniť, opraviť alebo odstrániť inštaláciu"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] vám umožní zmeniť spôsob inštalácie súčastí produktu [ProductName] v počítači alebo odstrániť produkt [ProductName] z počítača."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Víta vás [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Miesto na disku požadované pre inštaláciu prekračuje dostupné miesto na disku."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Zvýraznené zväzky nemajú dostatok miesta na disku pre aktuálne vybraté súčasti."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Nedostatok miesta na disku"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Miesto na disku požadované pre inštaláciu prekračuje dostupné miesto na disku."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Zvýraznené zväzky nemajú dostatok miesta na disku pre aktuálne vybraté súčasti."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Môžete tiež vypnúť funkciu vrátenia zmien vykonaných inštalátorom."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Nedostatok miesta na disku"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Počkajte, kým sa [Wizard] pripraví, aby vás mohol previesť inštaláciou."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Víta vás [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Priebeh: hotovo"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Stav:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Počkajte, kým [Wizard] [Progress2] produkt [ProductName]."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Pozorne si prečítajte nasledovný text"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_sk.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Súbor readme"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard] dokončí inštaláciu produktu [ProductName] v počítači."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="[ProductName] [Wizard] sa obnovuje"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Dokončiť inštaláciu|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="K&amp;ompletná"/>
+  <STRING id="Property.Text_Complete" value="Kompletná"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Nainštalujú sa všetky súčasti programu."/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Vlastná inštalácia|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="V&amp;lastná"/>
+  <STRING id="Property.Text_Custom" value="Vlastná"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Umožňuje používateľom vybrať súčasti programu, ktoré sa nainštalujú, ako aj ich umiestnenie."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Vyberte typ inštalácie, ktorý najlepšie zodpovedá vašim požiadavkám."/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Výber typu inštalácie"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Typická inštalácia|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Typická"/>
+  <STRING id="Property.Text_Typical" value="Typická"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Nainštaluje väčšinu bežných súčastí programu."/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] môže vyhľadať staršie verzie produktu [ProductName] a odstrániť ich."/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] zistil, že ste vybrali umiestnenie inštalácie, ktoré používa aj verzia [AI_Replaced_Versions_List] produktu [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Vyhľadať a inovovať staršie verzie produktu [ProductName]"/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Inovovať staršie verzie"/>
+  <STRING id="Control.Text.UserExit#Description1" value="Inštalácia produktu [ProductName] bola prerušená."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Kliknutím na tlačidlo Dokončiť ukončíte sprievodcu [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName] [Wizard] bol prerušený"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Sériové číslo:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Zadajte informácie o zákazníkovi"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="Meno po&amp;užívateľa:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Organizácia:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Informácie o zákazníkovi"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] je pripravený na spustenie inštalácie v režime [ProductName]"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Kliknutím na tlačidlo Inštalovať spustíte inštaláciu."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Pripravené na inštaláciu"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Vybrali ste možnosť odstránenia programu z počítača."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Ak chcete produkt [ProductName] odstrániť z počítača, kliknite na tlačidlo Odstrániť."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Odstrániť produkt [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard] je pripravený na spustenie opravy produktu [ProductName]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Ak chcete opraviť inštaláciu produktu [ProductName], kliknite na tlačidlo Opraviť."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Opraviť produkt [ProductName]"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Ikona upozornenia|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Počkajte, kým sprievodca určí požiadavky na miesto na disku."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard] nainštaluje produkt [ProductName] do počítača."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Víta vás [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] nainštaluje opravu produktu [ProductName] v počítači."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Víta vás [Wizard] inštaláciou opravy produktu [ProductName]"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Popis nového dialógového okna..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Nové dialógové okno"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Nové dialógové okno Spawn(Wait)"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Niektoré súbory, ktoré je potrebné aktualizovať, sa teraz používajú."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Tieto aplikácie používajú súbory, ktoré je potrebné pri tejto inštalácii aktualizovať."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Používané súbory"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Vytvorenie aplikačných skratiek"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Pracovná plocha"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Panel nástrojov Quick Launch"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Vytvoriť klávesové skratky pre produkt [ProductName] na týchto miestach:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Priečinok Programy ponuky Štart"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Priečinok Pri spustení"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Konfigurovať klávesové skratky"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Databáza:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Konfigurácia pripojenia SQL..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="Zdroj ODBC:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Heslo:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Port:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Server:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="Databáza SQL"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Používateľské meno:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Toto je priečinok, kde sa nainštalujú klávesové skratky produktu [ProductName]."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Ak chcete inštalovať v podpriečinku, pripojte názov podpriečinku oddelený znakom &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Priečinok klávesových skratiek ponuky Štart:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Klávesové skratky v tomto priečinku nainštalujete kliknutím na tlačidlo &quot;[Text_Next]&quot;. Ak chcete inštalovať v inom priečinku, zadajte ho nižšie alebo ho vyberte z kombinovaného poľa."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Vyberte priečinok klávesových skratiek ponuky Štart"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="Úplná inštalácia|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="Inštalácia servera|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="Inštalácia klienta|"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="Ú&amp;plná"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="Inštaluje konfiguráciu klienta aj servera."/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="&amp;Server"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="Inštaluje konfiguráciu servera."/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="Vyberte typ inštalácie, ktorý najlepšie zodpovedá vašim potrebám"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="Rozšírený inštalačný program"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="Vybrať typ inštalácie"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="&amp;Klient"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="Inštaluje konfiguráciu klienta."/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="Vyberte typ inštalácie."/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="Inštalovať produkt [ProductName] pre:"/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="Rozšírený inštalačný program"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="Typ inštalácie"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="Popis nového dialógového okna..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="Nové dialógové okno"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="Konfigurujte atribúty servera Tomcat"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="Názov hostiteľa:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="Číslo portu protokolu HTTP:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="Číslo portu zabezpečenia SSL protokolu HTTP:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="Rozšírený inštalačný program"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="Číslo portu ukončenia činnosti:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="Atribúty servera Tomcat"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Inzertná aplikácia"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Vyhrádza sa miesto v databáze Registry"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Voľné miesto:"/>
+  <STRING id="ActionText.Description.AppSearch" value="Hľadajú sa nainštalované aplikácie"/>
+  <STRING id="ActionText.Template.AppSearch" value="Vlastnosť:"/>
+  <STRING id="ActionText.Description.BindImage" value="Naviazané spustiteľné súbory"/>
+  <STRING id="ActionText.Template.BindImage" value="Súbor:"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Hľadajú sa zodpovedajúce produkty"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Vypočítavajú sa požiadavky na miesto"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Vypočítavajú sa požiadavky na miesto"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Vytvárajú sa priečinky"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Priečinok:"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Vytvárajú sa odkazy"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Odkaz:"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Odstraňujú sa služby"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Služba:"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Vytvárajú sa duplicitné súbory"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Súbor:"/>
+  <STRING id="ActionText.Description.FileCost" value="Vypočítavajú sa požiadavky na miesto"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Hľadajú sa súvisiace aplikácie"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Nájdená aplikácia:"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Generujú sa skriptové operácie pre akciu:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Kopírujú sa súbory sieťovej inštalácie"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Súbor:"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Kopírujú sa nové súbory"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Súbor:"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Inštalujú sa súčasti ODBC"/>
+  <STRING id="ActionText.Description.InstallServices" value="Inštalujú sa nové služby"/>
+  <STRING id="ActionText.Template.InstallServices" value="Služba:"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Inštaluje sa systémový katalóg"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Súbor:"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Overuje sa inštalácia"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Vyhodnocujú sa podmienky spustenia"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Prenášajú sa stavy súčastí zo súvisiacich aplikácií"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Aplikácia:"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Premiestňujú sa súbory"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Súbor:"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Publikujú sa informácie o zostave"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Kontext aplikácie:[1], názov zostavy:[2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Ruší sa publikovanie informácií o zostave"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Kontext aplikácie:[1], názov zostavy:[2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Opravujú sa súbory"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Súbor:"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Aktualizuje sa registrácia súčastí"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Publikujú sa kvalifikované súčasti"/>
+  <STRING id="ActionText.Template.PublishComponents" value="ID súčasti:"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Publikujú sa súčasti produktu"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Súčasť:"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Publikujú sa informácie o produkte"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Registrujú sa servery triedy"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="ID triedy:"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Registrujú sa aplikácie a súčasti COM+"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId:"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Registrujú sa servery rozšírení"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Rozšírenie:"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Registrujú sa písma"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Písmo:"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Registrujú sa informácie MIME"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Typ obsahu MIME:"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Registruje sa produkt"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Registrujú sa identifikátory programov"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ID programu:"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Registrujú sa knižnice typov"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="ID knižnice:"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Registruje sa používateľ"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Odstraňujú sa duplicitné súbory"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Súbor:"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Aktualizujú sa reťazce prostredia"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Názov:"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Odstraňujú sa aplikácie"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Aplikácia:"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Odstraňujú sa súbory"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Súbor:"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Odstraňujú sa priečinky"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Priečinok:"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Odstraňujú sa položky súborov INI"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Súbor:"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Odstraňujú sa súčasti ODBC"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Odstraňujú sa hodnoty systémovej databázy Registry"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Kľúč:"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Odstraňujú sa odkazy"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Odkaz:"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Hľadajú sa zodpovedajúce produkty"/>
+  <STRING id="ActionText.Description.Rollback" value="Vracia sa akcia:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Odstraňujú sa záložné súbory"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Súbor:"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Registrujú sa moduly"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Súbor:"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Ruší sa registrácia modulov"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Súbor:"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Inicializujú sa adresáre ODBC"/>
+  <STRING id="ActionText.Description.StartServices" value="Spúšťajú sa služby"/>
+  <STRING id="ActionText.Template.StartServices" value="Služba:"/>
+  <STRING id="ActionText.Description.StopServices" value="Zastavujú sa služby"/>
+  <STRING id="ActionText.Template.StopServices" value="Služba:"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Odstraňujú sa premiestnené súbory"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Súbor:"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Ruší sa publikovanie kvalifikovaných súčastí"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="ID súčasti:"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Ruší sa publikovanie súčastí produktu"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Súčasť:"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Ruší sa publikovanie informácií o produkte"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Ruší sa registrácia serverov tried"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="ID triedy:"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Ruší sa registrácia aplikácií a súčastí COM+"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId:"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Ruší sa registrácia serverov rozšírení"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Rozšírenie:"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Ruší sa registrácia písiem"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Písmo:"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Ruší sa registrácia informácií MIME"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Typ obsahu MIME:"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Ruší sa registrácia identifikátorov programov"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ID programu:"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Ruší sa registrácia knižníc typov"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="ID knižnice:"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Aktualizujú sa reťazce prostredia"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Názov:"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Zapisujú sa hodnoty súborov INI"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Súbor:"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Zapisujú sa hodnoty systémovej databázy Registry"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Kľúč:"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Vytvorenie používateľského konta na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Vytvorenie používateľskej skupiny na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Odstránenie súborov extrahovaných z archívu"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Extrahovanie súborov z archívu"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Vytvorenie webových lokalít a virtuálnych adresárov služieb IIS"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Generovanie akcií potrebných na konfiguráciu služieb Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Odstránenie webových lokalít a virtuálnych adresárov služieb IIS"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Vrátenie späť konfigurácie služieb IIS"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Generovanie akcií potrebných na konfiguráciu služieb Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Generovanie akcií potrebných na vytvorenie používateľských kont na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Generovanie akcií potrebných na vytvorenie používateľských skupín na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Odstránenie používateľského konta z lokálneho počítača"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Odstránenie používateľskej skupiny z lokálneho počítača"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Vrátenie späť vytvorenia používateľských kont na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Vrátenie späť vytvorenia používateľských skupín na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Vykonanie inštalačných skriptov SQL"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Generovanie akcií potrebných na konfiguráciu databáz pre vykonanie inštalačných skriptov SQL"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Vykonanie odinštalačných skriptov SQL"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Vykonanie odvolacích skriptov SQL"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Generovanie akcií potrebných na konfiguráciu databáz pre vykonanie odinštalačných skriptov SQL"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Generovanie akcií potrebných na odstránenie používateľských kont na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Generovanie akcií potrebných na odstránenie používateľských skupín na lokálnom počítači"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Inštalovanie &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Odstraňovanie &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Obnovenie metabázovej konfigurácie."/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Konto: [1], atribúty: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Konto: [1], atribúty: [2]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Pripojenie: [1]  skript: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Pripojenie: [1]  skript: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Pripojenie: [1]  skript: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Konto: [1]"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Vykonanie konfigurácií brány firewall systému Windows"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Vytvorenie akcií na konfiguráciu brány firewall systému Windows"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Vykonanie konfigurácií brány firewall systému Windows"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Vrátenie konfigurácií brány firewall systému Windows."/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Vytvorenie akcií na konfiguráciu brány firewall systému Windows"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Vykonanie konfigurácií programu Prieskumník hier"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Vytvorenie akcií na konfiguráciu programu Prieskumník hier"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Vykonanie konfigurácií programu Prieskumník hier"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Vrátenie konfigurácií programu Prieskumník hier."/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Vytvorenie akcií na konfiguráciu programu Prieskumník hier"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Vytvorenie akcií potrebných na zdieľanie priečinkov na lokálnom počítači:"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Vytvorenie akcií potrebných na plánovanie úloh na lokálnom počítači:"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Odstránenie zdieľania priečinku z lokálneho počítača"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Odstránenie plánovanej úlohy z lokálneho počítača"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Vrátenie zdieľania priečinku na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Vrátenie plánovanej úlohy na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Plánovanie úlohy na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Zdieľanie priečinku na lokálnom počítači"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Vykonanie údržbových skriptov SQL"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Vytvorenie akcií potrebných na odstránenie zdieľania priečinkov na lokálnom počítači:"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Vytvorenie akcií potrebných na odstránenie plánovaných úloh na lokálnom počítači:"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Vykonanie konfigurácií súboru XML"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Vytvorenie akcií na konfiguráciu súborov XML"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Vykonanie konfigurácií súboru XML"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Vrátenie konfigurácií súboru XML."/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Vytvorenie akcií na konfiguráciu súborov XML"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Konfigurácia pravidla brány firewall systému Windows: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Konfigurácia pravidla brány firewall systému Windows:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Vrátenie konfigurácií brány firewall systému Windows."/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Konfigurácia hry: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Odstránenie hry: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Vrátenie konfigurácií programu Prieskumník hier."/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Priečinok: [1], Názov zdieľania: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Názov úlohy: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="Názov zdieľania: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Názov úlohy: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="Názov zdieľania: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Názov úlohy: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Názov úlohy: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Priečinok: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Pripojenie: [1]  Skript: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="Názov zdieľania: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Konfigurácia súboru XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Konfigurácia súboru XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Vrátenie konfigurácií súboru XML."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="Vykonávanie operácií odstránenia súborov."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="Vykonávanie operácií odstránenia súborov."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="Vytváranie akcií na odstránenie súborov."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="Vykonávanie operácií odstránenia registrov."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="Vykonávanie operácií odstránenia registrov."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="Vytváranie akcií na odstránenie položiek registrov."/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="Registrovanie mobilných aplikácií v komponente Windows CE Application Manager"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="Spracovanie registračných údajov komponentu Windows CE Application Manager (fáza 2)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="Spracovanie registračných údajov komponentu Windows CE Application Manager (fáza 1)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="Spúšťanie komponentu Windows CE Application Manager s cieľom konfigurovať inštalované aplikácie"/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="Preberanie vyžadovaného softvéru"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="Extrahovanie vyžadovaného softvéru"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="Inštalovanie vyžadovaného softvéru"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="Overovanie vyžadovaného softvéru"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="Odstraňovanie súboru: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="Odstraňovanie súboru: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="Odstraňovanie položky registra: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="Odstraňovanie položky registra: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="Preberanie položky [1] {dokončené: [2]}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="Extrahovanie položky [1] {dokončené: [2]}"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="Inštalovanie položky [1] {dokončené: [2]}"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="Položka [1] sa nenainštalovala správne."/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Fatal error: }}"/>
+  <STRING id="Error.1" value="{{Error [1]. }}"/>
+  <STRING id="Error.2" value="Upozornenie [1]."/>
+  <STRING id="Error.4" value="Informácie [1]."/>
+  <STRING id="Error.5" value="Počas inštalácie tohto balíka narazil inštalátor na neočakávanú chybu."/>
+  <STRING id="Error.7" value="{{Disk full: }}"/>
+  <STRING id="Error.8" value="Akcia [Time]:"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Typ hlásenia:"/>
+  <STRING id="Error.12" value="=== Zapisovanie sa spustilo:"/>
+  <STRING id="Error.13" value="=== Zapisovanie bolo zastavené:"/>
+  <STRING id="Error.14" value="Akcia sa spustila [Time]:"/>
+  <STRING id="Error.15" value="Akcia bola ukončená [Time]:"/>
+  <STRING id="Error.16" value="Zostávajúci čas:"/>
+  <STRING id="Error.17" value="Nedostatok pamäte."/>
+  <STRING id="Error.18" value="Inštalátor nereaguje."/>
+  <STRING id="Error.19" value="Inštalátor sa predčasne ukončil."/>
+  <STRING id="Error.20" value="Počkajte, kým systém Windows nakonfiguruje produkt [ProductName]"/>
+  <STRING id="Error.21" value="Zhromažďujú sa požadované informácie..."/>
+  <STRING id="Error.22" value="Odstraňujú sa staršie verzie tejto aplikácie..."/>
+  <STRING id="Error.23" value="Pripravuje sa odstránenie starších verzií tejto aplikácie..."/>
+  <STRING id="Error.32" value="Inštalácia produktu {[ProductName] }bola úspešne dokončená."/>
+  <STRING id="Error.33" value="Inštalácia produktu {[ProductName] }zlyhala."/>
+  <STRING id="Error.1101" value="Chyba pri čítaní zo súboru:"/>
+  <STRING id="Error.1301" value="Nemožno vytvoriť súbor [2]."/>
+  <STRING id="Error.1302" value="Vložte disk:"/>
+  <STRING id="Error.1303" value="Inštalátor nemá dostatočné oprávnenia na prístup k tomuto adresáru:"/>
+  <STRING id="Error.1304" value="Chyba pri zápise do súboru:"/>
+  <STRING id="Error.1305" value="Chyba pri čítaní zo súboru [2]."/>
+  <STRING id="Error.1306" value="Iná aplikácia má vyhradený prístup k súboru [2]."/>
+  <STRING id="Error.1307" value="Na inštaláciu nasledovného súboru nie je na disku dostatok miesta:"/>
+  <STRING id="Error.1308" value="Zdrojový súbor sa nenašiel:"/>
+  <STRING id="Error.1309" value="Chyba pri čítaní zo súboru:"/>
+  <STRING id="Error.1310" value="Chyba pri zápise do súboru:"/>
+  <STRING id="Error.1311" value="Zdrojový súbor sa nenašiel {{(cabinet)}}:"/>
+  <STRING id="Error.1312" value="Nemožno vytvoriť adresár [2]."/>
+  <STRING id="Error.1313" value="Zväzok [2] je momentálne nedostupný."/>
+  <STRING id="Error.1314" value="Zadaná cesta [2] je nedostupná."/>
+  <STRING id="Error.1315" value="Nemožno zapisovať do zadaného priečinka:"/>
+  <STRING id="Error.1316" value="Pri pokuse o čítanie zo súboru sa vyskytla sieťová chyba:"/>
+  <STRING id="Error.1317" value="Pri pokuse o vytvorenie adresára sa vyskytla chyba:"/>
+  <STRING id="Error.1318" value="Pri pokuse o vytvorenie adresára sa vyskytla sieťová chyba:"/>
+  <STRING id="Error.1319" value="Pri pokuse o otvorenie kabinetu zdrojového súboru sa vyskytla sieťová chyba:"/>
+  <STRING id="Error.1320" value="Zadaná cesta je príliš dlhá:"/>
+  <STRING id="Error.1321" value="Inštalátor nemá dostatočné oprávnenia na úpravu tohto súboru:"/>
+  <STRING id="Error.1322" value="Časť cesty priečinka [2] je neplatná."/>
+  <STRING id="Error.1323" value="Cesta priečinka [2] obsahuje slová, ktoré nie sú v cestách adresárov povolené."/>
+  <STRING id="Error.1324" value="Cesta priečinka [2] obsahuje neplatný znak."/>
+  <STRING id="Error.1325" value="[2] je neplatný skrátený názov súboru."/>
+  <STRING id="Error.1326" value="Chyba pri načítavaní zabezpečenia súboru:"/>
+  <STRING id="Error.1327" value="Neplatná jednotka:"/>
+  <STRING id="Error.1328" value="Chyba pri inštalácii opravy súboru [2]."/>
+  <STRING id="Error.1329" value="Požadovaný súbor nemožno nainštalovať, pretože súbor kabinetu [2] nie je digitálne podpísaný."/>
+  <STRING id="Error.1330" value="Požadovaný súbor nemožno nainštalovať, pretože súbor kabinetu [2] má neplatný digitálny podpis."/>
+  <STRING id="Error.1331" value="Nepodarilo sa správne skopírovať súbor [2]:"/>
+  <STRING id="Error.1332" value="Nepodarilo sa správne premiestniť súbor [2]:"/>
+  <STRING id="Error.1333" value="Nepodarilo sa správne opraviť súbor [2]:"/>
+  <STRING id="Error.1334" value="Súbor [2] nemožno nainštalovať, pretože sa nenašiel v súbore kabinetu [3]."/>
+  <STRING id="Error.1335" value="Súbor kabinetu [2], ktorý je potrebný na túto inštaláciu, je poškodený a nemožno ho použiť."/>
+  <STRING id="Error.1336" value="Pri vytváraní dočasného súboru potrebného na dokončenie tejto inštalácie sa vyskytla chyba.{{  Folder: [3]. System error code: [2]}}"/>
+  <STRING id="Error.1401" value="Nedá sa vytvoriť kľúč:"/>
+  <STRING id="Error.1402" value="Nedá sa otvoriť kľúč:"/>
+  <STRING id="Error.1403" value="Nepodarilo sa odstrániť hodnotu [2] z kľúča [3]."/>
+  <STRING id="Error.1404" value="Nepodarilo sa odstrániť kľúč [2]."/>
+  <STRING id="Error.1405" value="Nepodarilo sa čítať hodnotu [2] z kľúča [3]."/>
+  <STRING id="Error.1406" value="Nepodarilo sa zapísať hodnotu [2] do kľúča [3]."/>
+  <STRING id="Error.1407" value="Nepodarilo sa získať názvy hodnôt pre kľúč [2]."/>
+  <STRING id="Error.1408" value="Nepodarilo sa získať názvy podkľúčov pre kľúč [2]."/>
+  <STRING id="Error.1409" value="Nepodarilo sa čítať informácie o zabezpečení pre kľúč [2]."/>
+  <STRING id="Error.1410" value="Nepodarilo sa zväčšiť miesto pre databázu Registry."/>
+  <STRING id="Error.1500" value="Prebieha iná inštalácia."/>
+  <STRING id="Error.1501" value="Pri prístupe k zabezpečeným údajom sa vyskytla chyba."/>
+  <STRING id="Error.1502" value="Používateľ [2] už začal inštalovať produkt [3]."/>
+  <STRING id="Error.1503" value="Používateľ [2] už začal inštalovať produkt [3]."/>
+  <STRING id="Error.1601" value="Nedostatok miesta na disku. Zväzok:"/>
+  <STRING id="Error.1602" value="Naozaj chcete operáciu zrušiť?"/>
+  <STRING id="Error.1603" value="Súbor [2][3] momentálne používa{ nasledovný proces: Name: [4], Id: [5], Window Title: &apos;[6]&apos;}.  Close that application and retry."/>
+  <STRING id="Error.1604" value="Produkt [2] je už nainštalovaný, čo zamedzuje inštaláciu tohto produktu."/>
+  <STRING id="Error.1605" value="Na disku v zväzku [2] nie je dostatok miesta na inštaláciu so zapnutým obnovením."/>
+  <STRING id="Error.1606" value="Nedá sa získať prístup k sieťovému umiestneniu [2]."/>
+  <STRING id="Error.1607" value="Nasledovné aplikácie by mali byť zatvorené skôr, ako bude pokračovať inštalácia:"/>
+  <STRING id="Error.1608" value="Na tomto počítači sa nepodarilo nájsť žiadny predtým nainštalovaný produkt oprávňujúci inštaláciu tohto produktu."/>
+  <STRING id="Error.1609" value="Pri použití nastavenia zabezpečenia sa vyskytla chyba."/>
+  <STRING id="Error.1701" value="Kľúč [2] je neplatný."/>
+  <STRING id="Error.1702" value="Pred pokračovaním v konfigurácii [2] musí inštalátor reštartovať počítač."/>
+  <STRING id="Error.1703" value="Zmeny konfigurácie [2] sa uplatnia až po reštartovaní počítača."/>
+  <STRING id="Error.1704" value="Inštalácia súčasti [2] je teraz pozastavená."/>
+  <STRING id="Error.1705" value="Prebieha predchádzajúca inštalácia tohto produktu."/>
+  <STRING id="Error.1706" value="Inštalačný balík pre produkt [2] sa nedá nájsť."/>
+  <STRING id="Error.1707" value="Inštalácia bola úspešne dokončená."/>
+  <STRING id="Error.1708" value="Inštalácia zlyhala."/>
+  <STRING id="Error.1709" value="Produkt:"/>
+  <STRING id="Error.1710" value="Môžete obnoviť predchádzajúci stav počítača, alebo môžete v inštalácii pokračovať neskôr."/>
+  <STRING id="Error.1711" value="Pri zapisovaní inštalačných informácií na disk sa vyskytla chyba."/>
+  <STRING id="Error.1712" value="Jeden alebo niekoľko súborov potrebných na obnovenie predošlého stavu počítača sa nenašlo."/>
+  <STRING id="Error.1713" value="[2] nemôže nainštalovať niektorý z požadovaných produktov."/>
+  <STRING id="Error.1714" value="Staršia verzia produktu [2] sa nedá odstrániť."/>
+  <STRING id="Error.1715" value="Súčasť [2] bola nainštalovaná"/>
+  <STRING id="Error.1716" value="Súčasť [2] bola nakonfigurovaná"/>
+  <STRING id="Error.1717" value="Súčasť [2] bola odstránená"/>
+  <STRING id="Error.1718" value="Politika pre digitálne podpisy zamietla súbor [2]."/>
+  <STRING id="Error.1719" value="Nedá sa získať prístup k Inštalátoru systému Windows."/>
+  <STRING id="Error.1720" value="Vyskytol sa problém s týmto balíkom Inštalátora systému Windows."/>
+  <STRING id="Error.1721" value="Vyskytol sa problém s týmto balíkom Inštalátora systému Windows."/>
+  <STRING id="Error.1722" value="Vyskytol sa problém s týmto balíkom Inštalátora systému Windows."/>
+  <STRING id="Error.1723" value="Vyskytol sa problém s týmto balíkom Inštalátora systému Windows."/>
+  <STRING id="Error.1724" value="Odstránenie bolo úspešne dokončené."/>
+  <STRING id="Error.1725" value="Odstránenie zlyhalo."/>
+  <STRING id="Error.1726" value="Inzercia sa úspešne dokončila."/>
+  <STRING id="Error.1727" value="Inzercia zlyhala."/>
+  <STRING id="Error.1728" value="Konfigurácia bola úspešne dokončená."/>
+  <STRING id="Error.1729" value="Konfigurácia zlyhala."/>
+  <STRING id="Error.1730" value="Na odstránenie tejto aplikácie musíte mať oprávnenia správcu."/>
+  <STRING id="Error.1801" value="Cesta [2] je neplatná."/>
+  <STRING id="Error.1802" value="Nedostatok pamäte."/>
+  <STRING id="Error.1803" value="V jednotke [2] nie je disk."/>
+  <STRING id="Error.1804" value="V jednotke [2] nie je disk."/>
+  <STRING id="Error.1805" value="Priečinok [2] neexistuje."/>
+  <STRING id="Error.1806" value="Na čítanie tohto priečinka nemáte dostatočné oprávnenia."/>
+  <STRING id="Error.1807" value="Nebolo možné určiť platný cieľový priečinok pre inštaláciu."/>
+  <STRING id="Error.1901" value="Pri pokuse o čítanie zo zdrojovej inštalačnej databázy sa vyskytla chyba:"/>
+  <STRING id="Error.1902" value="Plánuje sa operácia reštartovania:"/>
+  <STRING id="Error.1903" value="Plánuje sa operácia reštartovania:"/>
+  <STRING id="Error.1904" value="Modul [2] sa nepodarilo zaregistrovať."/>
+  <STRING id="Error.1905" value="Zrušenie registrácie modulu [2] sa nepodarilo."/>
+  <STRING id="Error.1906" value="Balík [2] sa nepodarilo uložiť do vyrovnávacej pamäte."/>
+  <STRING id="Error.1907" value="Písmo [2] sa nedá zaregistrovať."/>
+  <STRING id="Error.1908" value="Registrácia písma [2] sa nedá zrušiť."/>
+  <STRING id="Error.1909" value="Nepodarilo sa vytvoriť odkaz [2]."/>
+  <STRING id="Error.1910" value="Nepodarilo sa odstrániť odkaz [2]."/>
+  <STRING id="Error.1911" value="Knižnica typov pre súbor [2] sa nedala zaregistrovať."/>
+  <STRING id="Error.1912" value="Registrácia knižnice typov pre súbor [2] sa nedala zrušiť."/>
+  <STRING id="Error.1913" value="Nepodarilo sa aktualizovať súbor INI [2][3]."/>
+  <STRING id="Error.1914" value="Nedalo sa naplánovať, aby počas reštartovania súbor [2] nahradil súbor [3]."/>
+  <STRING id="Error.1915" value="Vyskytla sa chyba pri odstraňovaní správcu ovládačov ODBC, chyba ODBC [2]:"/>
+  <STRING id="Error.1916" value="Vyskytla sa chyba pri inštalácii správcu ovládačov ODBC, chyba ODBC [2]:"/>
+  <STRING id="Error.1917" value="Chyba pri odstraňovaní ovládača ODBC:"/>
+  <STRING id="Error.1918" value="Chyba pri inštalácii ovládača ODBC:"/>
+  <STRING id="Error.1919" value="Chyba pri konfigurácii zdroja údajov ODBC:"/>
+  <STRING id="Error.1920" value="Službu [2] ([3]) sa nepodarilo spustiť."/>
+  <STRING id="Error.1921" value="Službu [2] ([3]) sa nepodarilo zastaviť."/>
+  <STRING id="Error.1922" value="Službu [2] ([3]) sa nepodarilo odstrániť."/>
+  <STRING id="Error.1923" value="Službu [2] ([3]) sa nepodarilo nainštalovať."/>
+  <STRING id="Error.1924" value="Nedá sa aktualizovať premenná prostredia [2]."/>
+  <STRING id="Error.1925" value="Nemáte dostatočné oprávnenia na dokončenie tejto inštalácie pre všetkých používateľov tohto počítača."/>
+  <STRING id="Error.1926" value="Pre súbor [3] sa nedá nastaviť zabezpečenie súboru."/>
+  <STRING id="Error.1927" value="V tomto počítači nie je nainštalovaná služba Component Services (COM+ 1.0)."/>
+  <STRING id="Error.1928" value="Pri registrácii aplikácie COM+ sa vyskytla chyba."/>
+  <STRING id="Error.1929" value="Pri rušení registrácie aplikácie COM+ sa vyskytla chyba."/>
+  <STRING id="Error.1930" value="Popis služby [2] ([3]) sa nepodarilo zmeniť."/>
+  <STRING id="Error.1931" value="Inštalátor systému Windows nemôže aktualizovať systémový súbor [2], pretože súbor je chránený systémom Windows."/>
+  <STRING id="Error.1932" value="Inštalátor systému Windows nemôže aktualizovať chránený súbor systému Windows [2]."/>
+  <STRING id="Error.1933" value="Služba Windows Installer nemôže aktualizovať niektoré zabezpečené súbory systému Windows."/>
+  <STRING id="Error.1934" value="Politika počítača zakazuje používateľské inštalácie."/>
+  <STRING id="Error.1935" value="Počas inštalácie súčasti zostavy [2] sa vyskytla chyba."/>
+  <STRING id="Error.4000" value="Neplatné sériové číslo."/>
+  <STRING id="Error.4010" value="V počítači je už nainštalovaná novšia verzia produktu [ProductName]."/>
+  <STRING id="Error.4020" value="Počas konfigurácie služby IIS sa vyskytla chyba."/>
+  <STRING id="Error.4021" value="Webová lokalita [1] už na tomto serveri existuje."/>
+  <STRING id="Error.4022" value="Virtuálny adresár [1] webovej lokality [2] už na tomto serveri existuje."/>
+  <STRING id="Error.4023" value="Táto verzia služieb IIS nie je podporovaná alebo služby IIS nie sú úplne nainštalované !&#10;&#10;Potrebné sú služby Internet Information Services verzie 5.0 alebo vyššie."/>
+  <STRING id="Error.4024" value="Webová lokalita s rovnakými serverovými väzbami sa už spustila.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Nie je možné vytvoriť používateľské konto alebo skupinu apos;[2]&apos; na lokálnom počítači. Chybový kód: [3]. [4]"/>
+  <STRING id="Error.4102" value="Používateľské konto alebo skupina apos;[2]&apos; už na lokálnom počítači existuje."/>
+  <STRING id="Error.4103" value="Nie je možné odstrániť používateľské konto alebo skupinu apos;[2]&apos; na lokálnom počítači. Chybový kód: [3]."/>
+  <STRING id="Error.4104" value="Používateľské konto alebo skupina apos;[2]&apos; na lokálnom počítači neexistuje."/>
+  <STRING id="Error.4105" value="Vyskytla sa chyba počas zdieľania &apos;[2]&apos; pod názvom: &apos;[3]&apos;. Popis chyby: [4]"/>
+  <STRING id="Error.4106" value="Vyskytla sa chyba počas vytvárania plánovanej úlohy: &apos;[2]&apos;. Popis chyby: [3]"/>
+  <STRING id="Error.4107" value="Vyskytla sa chyba počas odstraňovania plánovanej úlohy: &apos;[2]&apos;. Popis chyby: [3]"/>
+  <STRING id="Error.4110" value="Nebolo možné alokovať pamäť."/>
+  <STRING id="Error.4111" value="Súbor sa nenašiel: [2]."/>
+  <STRING id="Error.4112" value="Súbor &apos;[2]&apos; nebolo možné prečítať."/>
+  <STRING id="Error.4113" value="Chyba rozkladu v súbore: &apos;[2]&apos; na riadku: [3], stĺpec: [4]. Chybový kód: [5]."/>
+  <STRING id="Error.4114" value="Nepodporované kódovanie súboru XML."/>
+  <STRING id="Error.4115" value="Chyba pri otvorení súboru: [2]."/>
+  <STRING id="Error.4116" value="Súbor &apos;[2]&apos; nebolo možné zapísať."/>
+  <STRING id="Error.4117" value="Neočakávaný koreňový prvok: &quot;[2]&quot; v súbore XML: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="Vyskytla sa chyba počas procesu konfigurácie brány firewall systému Windows.&#10;Obnoví sa pôvodná konfigurácia brány firewall."/>
+  <STRING id="Error.4121" value="Neplatná cesta obrazu procesu brány firewall alebo sa nenašiel súbor: [2]."/>
+  <STRING id="Error.4122" value="Neplatný port brány firewall/protokol: [2]."/>
+  <STRING id="Error.4123" value="Neplatný sieťový dosah brány firewall: [2]."/>
+  <STRING id="Error.4124" value="Vyskytla sa chyba pri registrácii aplikácie v bráne firewall: [2]."/>
+  <STRING id="Error.4125" value="Vyskytla sa chyba pri registrácii portu v bráne firewall: [2]."/>
+  <STRING id="Error.4130" value="Vyskytla sa chyba počas procesu konfigurácie programu Prieskumník hier."/>
+  <STRING id="Error.4131" value="Rodičovská kontrola nedovoľuje hrať hru: [2]."/>
+  <STRING id="Error.4140" value="Vyskytla sa chyba počas procesu vykonania skriptu SQL."/>
+  <STRING id="Error.4141" value="Chyba ODBC: [2] ([3])."/>
+  <STRING id="Error.4142" value="Pripojenie ODBC: prekročený časový limit."/>
+  <STRING id="Error.4143" value="Chyba rozkladu skriptu SQL: neplatná syntax."/>
+  <STRING id="Error.4001" value="Sériové číslo nebolo možné overiť."/>
+  <STRING id="Error.4025" value="Fond aplikácií &quot;[2]&quot; už na tomto serveri existuje.&#10;&#10;Chcete vynechať konfigurovanie tohto fondu aplikácií a pokračovať v inštalácii?"/>
+  <STRING id="Error.4150" value="Interná chyba v module CallStdFcn."/>
+  <STRING id="Error.4151" value="Funkcia &apos;[2]&apos; sa v knižnici DLL &apos;[3]&apos; nenašla."/>
+  <STRING id="Error.4152" value="Chcete odstrániť nastavenia a dočasné súbory produktu [ProductName]?"/>
+  <STRING id="Error.4153" value="Povinná časť vyžadovaného softvéru [2] sa nenainštalovala správne."/>
+  <STRING id="Error.4154" value="Vyžadovaný softvér [2] sa nenainštaloval správne. Chcete pokračovať v inštalácii produktu [ProductName]?"/>
+  <STRING id="Error.4155" value="Nepodarilo sa správne získať súbor [2]: Chyba CRC."/>
+  <STRING id="Error.4156" value="Nepodarilo sa správne získať súbor [2]: Chyba CRC. Chcete pokračovať v inštalácii produktu [ProductName]?"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bajtov"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="kB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Celá súčasť nebude k dispozícii"/>
+  <STRING id="UIText.MenuAdvertise" value="Súčasť sa nainštaluje v prípade potreby"/>
+  <STRING id="UIText.MenuAllCD" value="Celá súčasť sa nainštaluje tak, aby sa spúšťala z disku CD"/>
+  <STRING id="UIText.MenuAllLocal" value="Celá súčasť sa nainštaluje na lokálny pevný disk"/>
+  <STRING id="UIText.MenuAllNetwork" value="Celá súčasť sa nainštaluje tak, aby sa spúšťala zo siete"/>
+  <STRING id="UIText.MenuCD" value="Nainštaluje sa tak, aby sa spúšťala z disku CD"/>
+  <STRING id="UIText.MenuLocal" value="Nainštaluje sa na lokálny pevný disk"/>
+  <STRING id="UIText.MenuNetwork" value="Nainštaluje sa tak, aby sa spúšťala zo siete"/>
+  <STRING id="UIText.ScriptInProgress" value="Zhromažďujú sa požadované informácie..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Táto súčasť zostane nenainštalovaná"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Táto súčasť sa nainštaluje v prípade potreby"/>
+  <STRING id="UIText.SelAbsentCD" value="Táto súčasť sa nainštaluje tak, aby sa spúšťala z disku CD"/>
+  <STRING id="UIText.SelAbsentLocal" value="Táto súčasť sa nainštaluje na lokálny pevný disk"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Táto súčasť sa nainštaluje tak, aby sa spúšťala zo siete"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Táto súčasť nebude k dispozícii"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Nainštaluje sa v prípade potreby"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Táto súčasť bude k dispozícii na spustenie z disku CD"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Táto súčasť sa nainštaluje na lokálny pevný disk"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Táto súčasť bude k dispozícii na spustenie zo siete"/>
+  <STRING id="UIText.SelCDAbsent" value="Táto súčasť sa úplne odinštaluje a nebude sa dať spúšťať z disku CD"/>
+  <STRING id="UIText.SelCDAdvertise" value="Túto súčasť už nebude možné spúšťať z disku CD, v prípade potreby sa však nainštaluje"/>
+  <STRING id="UIText.SelCDCD" value="Táto súčasť sa naďalej bude spúšťať z disku CD"/>
+  <STRING id="UIText.SelCDLocal" value="Táto súčasť sa už nebude spúšťať z disku CD, ale sa nainštaluje na lokálny pevný disk"/>
+  <STRING id="UIText.SelChildCostNeg" value="Táto súčasť uvoľní [1] na pevnom disku."/>
+  <STRING id="UIText.SelChildCostPos" value="Táto súčasť vyžaduje [1] na pevnom disku."/>
+  <STRING id="UIText.SelCostPending" value="Kompiluje sa údaj o prostriedkoch požadovaných pre túto súčasť..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Táto súčasť sa úplne odstráni"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Táto súčasť bude odstránená z lokálneho pevného disku, v prípade potreby sa však nainštaluje"/>
+  <STRING id="UIText.SelLocalCD" value="Táto súčasť sa odstráni z lokálneho pevného disku, ale bude k dispozícii na spustenie z disku CD"/>
+  <STRING id="UIText.SelLocalLocal" value="Táto súčasť zostane na lokálnom pevnom disku"/>
+  <STRING id="UIText.SelLocalNetwork" value="Táto súčasť sa odstráni z lokálneho pevného disku, ale bude k dispozícii na spustenie zo siete"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Táto súčasť sa úplne odinštaluje a nebude sa dať spúšťať zo siete"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Túto súčasť už nebude možné spúšťať zo siete, v prípade potreby sa však nainštaluje"/>
+  <STRING id="UIText.SelNetworkLocal" value="Táto súčasť sa už nebude spúšťať zo siete, ale sa nainštaluje na lokálny pevný disk"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Táto súčasť sa naďalej bude spúšťať zo siete"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Táto súčasť uvoľní [1] na pevnom disku."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Táto súčasť uvoľní [1] na pevnom disku."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Táto súčasť vyžaduje [1] na pevnom disku."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Táto súčasť vyžaduje [1] na pevnom disku."/>
+  <STRING id="UIText.TimeRemaining" value="Zostávajúci čas:"/>
+  <STRING id="UIText.VolumeCostAvailable" value="K dispozícii"/>
+  <STRING id="UIText.VolumeCostDifference" value="Rozdiel"/>
+  <STRING id="UIText.VolumeCostRequired" value="Vyžaduje sa"/>
+  <STRING id="UIText.VolumeCostSize" value="Veľkosť disku"/>
+  <STRING id="UIText.VolumeCostVolume" value="Zväzok"/>
+  <STRING id="UIText.HttpPostMsg" value="Posielanie zhromaždených údajov..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.ODBCTestMsg" value="Počkajte, kým sa otestuje pripojenie..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Vyhľadávanie serverov SQL na sieti..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.BrowseFolderLocation" value="Umiestnenie"/>
+  <STRING id="UIText.BrowseFolderName" value="Názov priečinka:"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="Vybrať priečinok"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;Chyba pri načítavaní zdroja:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="Inštalovať"/>
+  <STRING id="UIText.PrereqInstalled" value="Nainštalované"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="Nutná inštalácia"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] alebo nižšia verzia}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] alebo vyššia verzia}"/>
+  <STRING id="UIText.PrereqSkipAction" value="Vynechať"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="Pripájanie k databázovému serveru..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="Nedostatok miesta"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="Inštalačné jednotky"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="Nepoužité jednotky"/>
+  <STRING id="UIText.Warning" value="Varovanie"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.IAgree#1" value="Súhl&amp;asím s podmienkami licenčnej zmluvy"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="Nesúhlasím s po&amp;dmienkami licenčnej zmluvy"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="Án&amp;o, zaregistrovať ako predvolený program na prácu s týmito typmi súborov"/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Nie, vynechať priradenie súborov"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Automaticky zatvoriť aplikácie a reštartovať ich po ukončení inštalácie."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="Aplikácie nezatvárať. (Bude sa vyžadovať reštartovanie počítača.)"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="Len pre mňa ([LogonUser])"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="Pre všetkých (všetci používatelia)"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="Án&amp;o, odstrániť staršie verzie"/>
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Nie, nainštalovať a ponechať staršie verzie"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="Án&amp;o, odstrániť všetky staršie verzie"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Nie, odinštalovať len verziu [AI_Replaced_Versions_List]"/>
+  <STRING id="Property.ButtonText_Back" value="&lt; N&amp;aspäť"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="N&amp;aspäť"/>
+  <STRING id="Property.ButtonText_Browse" value="Pr&amp;ehľadávať..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Zrušiť"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Skončiť"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Dokončiť"/>
+  <STRING id="Property.Text_Finish" value="Dokončiť"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Ignorovať"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Inštalovať"/>
+  <STRING id="Property.Text_Install" value="Inštalovať"/>
+  <STRING id="Property.ButtonText_Next" value="Ď&amp;alej &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="Ď&amp;alej"/>
+  <STRING id="Property.Text_Next" value="Ďalej"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Nie"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="Odst&amp;rániť"/>
+  <STRING id="Property.ButtonText_Repair" value="Op&amp;raviť"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Vynulovať"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Pokračovať"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Znova"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Vrátiť"/>
+  <STRING id="Property.ButtonText_Yes" value="Án&amp;o"/>
+  <STRING id="Property.CtrlEvtchanges" value="zmení"/>
+  <STRING id="Property.CtrlEvtChanging" value="Mení sa"/>
+  <STRING id="Property.CtrlEvtremoves" value="odstráni"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Odstraňuje sa"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Opravuje sa"/>
+  <STRING id="Property.CtrlEvtrepairs" value="opraví"/>
+  <STRING id="Property.InstallModeComplete" value="Kompletná"/>
+  <STRING id="Property.InstallModeCustom" value="Vlastná"/>
+  <STRING id="Property.InstallModeTypical" value="Typická"/>
+  <STRING id="Property.Progress1" value="Inštaluje sa"/>
+  <STRING id="Property.Progress2" value="nainštaluje"/>
+  <STRING id="Property.Setup" value="Inštalácia"/>
+  <STRING id="Property.Wizard" value="Sprievodca inštaláciou"/>
+  <!-- Trialware Settings table -->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Kúpiť"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Chcete otvoriť nákupnú stránku %TrialName%?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Neplatný registračný kľúč"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="Registračný kľúč je neplatný."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="Skúšobná verzia programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Stlačením tlačidla &quot;Dokončiť&quot; overíte kľúč a budete pokračovať."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Zadajte všetky riadky registračného kľúča, ktorý ste dostali."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Registrácia"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Kúpiť"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Licenciu získate na nákupnej stránke programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="Skúšobnej verzii programu %TrialName% skončila platnosť"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="Uplynulo %Quantity% dní používania skúšobnej verzie. Ak chcete pokračovať v používaní programu %TrialName%, musíte kúpiť licenciu a aplikáciu zaregistrovať."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="Minulo sa %Quantity% spustení skúšobnej verzie. Ak chcete pokračovať v používaní programu %TrialName%, musíte kúpiť licenciu a aplikáciu zaregistrovať."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Vitajte v skúšobnej verzii programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Registrovať"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Zadajte registračný kľúč"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Skúsiť"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Skončila platnosť"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Kúpiť"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Licenciu získate na nákupnej stránke programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="Skúšobná verzia programu %TrialName% (ostáva %TrialLeft% dní)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="Skúšobná verzia programu %TrialName% (ostáva %TrialLeft% spustení)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="Používate skúšobnú verziu programu %TrialName% od spoločnosti [|Manufacturer]. K dispozícii máte %TrialLeft% dní."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="Používate skúšobnú verziu programu %TrialName% od spoločnosti [|Manufacturer]. K dispozícii máte %TrialLeft% spustení."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Vitajte v skúšobnej verzii programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Registrovať"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Zadajte registračný kľúč"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Skúsiť"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Pokračovať v používaní skúšobnej verzie programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=Žiadosť o predĺženie platnosti skúšobnej verzie&amp;body=Dobrý deň,%%0A%%0Achcel(a) by som požiadať o kód na predĺženie platnosti skúšobnej verzie pre produkt %TrialName%.%%0A%%0AĎakujem,%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="Skúšobná verzia programu %TrialName% "/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="Pokračovať"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="Požiadať o predĺženie platnosti skúšobnej verzie"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="Stlačením tlačidla &quot;Pokračovať&quot; overíte kód a budete môcť pokračovať v používaní skúšobnej verzie."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="Zadajte obdŕžaný kód na predĺženie platnosti skúšobnej verzie."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="Predĺžiť platnosť skúšobnej verzie"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="Prekročený počet predĺžení platnosti skúšobnej verzie"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="Maximálny povolený počet predĺžení platnosti skúšobnej verzie je %Quantity% %TrialMU%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="Pokračovať"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="Registrovaná verzia programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="Ďakujeme za registrovanie programu %TrialName%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="Registrácia bola úspešná"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="Kúpiť"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="Licenciu získate na nákupnej stránke programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="Platnosť skúšobnej verzie programu %TrialName% sa skončila"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="Uplynulo %Quantity% dní používania skúšobnej verzie. Ak chcete pokračovať v používaní programu %TrialName%, musíte požiadať o predĺženie platnosti skúšobnej verzie alebo zakúpiť licenciu a aplikáciu zaregistrovať."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="Vykonali ste %Quantity% spustení skúšobnej verzie. Ak chcete pokračovať v používaní programu %TrialName%, musíte požiadať o predĺženie platnosti skúšobnej verzie alebo zakúpiť licenciu a aplikáciu zaregistrovať."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="Vitajte v skúšobnej verzii programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="Registrovať"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="Zadajte registračný kľúč"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="Predĺžiť platnosť skúšobnej verzie"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="Predĺžiť platnosť skúšobnej verzie programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value="Registrovaná verzia programu %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="Ďakujeme za registrovanie programu %TrialName%."/>
+</DICTIONARY>

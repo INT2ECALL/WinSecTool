@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SearchIndex version="1.0">
+
+  <View id="MsmModuleSignatureComponent">
+    module details name company comments ID version package type GUID property properties 
+    32 64 bit Intel64 Itanium x64 AMD64 EM64T
+  </View>
+
+  <View id="DigCertStoreComponent">
+    digital signature files
+    PFX SPC CER PVK
+    certificates URL time stamp signtool signcode store
+    authenticode
+  </View>
+  
+  <View id="MsiFilesComponent">
+    files folders shortcuts INI URL 
+    operations removal remove duplication duplicate copy move 
+    source path attributes digitally signature version self register registration permissions
+    uninstall cleanup synchronization import temporary
+    "auto register files" ocx dll dependency "extract registration"
+    sharing hash xml "add file"
+  </View>
+  
+  <View id="MsiRegsComponent">
+    registry key entry value remove removal string integer binary import export REG classes root machine
+  </View>
+  
+  <View id="MsiExtComponent">
+    file associations extensions progid verb default programs
+    description icon command MIME arguments 
+    application capabilities 
+  </View>
+  
+  <View id="MsiAssemblyComponent">
+    windows assemblies assembly manifest private GAC .NET win32 native images attributes
+  </View>
+  
+  <View id="MsiServInstComponent">
+    services install control configure failure operations 
+    type start automatic disabled error win32 load order group dependecies dependency arguments account 
+    actions stop delete parameters
+    settings manager SCM 
+    reboot 
+  </View>
+  
+  <View id="MsiOrgComponent">
+    organization package features components resources 
+    GUID condition 
+    attributes transitive overwrite optional reference count 64 bit permanent
+    additional space reserve local source 
+    qualified groups qualifier
+    isolated 
+  </View>
+  
+  <View id="MsmMediaComponent">
+    output package folder file dependencies module ID exclusions
+    pre post build events command run file
+  </View>
+  
+  <View id="DictionaryComponent">
+    build languages multilingual translations dictionary dictionaries 
+    internationalization i18n localization l10n "multi lingual"
+  </View>
+  
+  <View id="MsiEnvComponent">
+    environment variables system create append replace modify
+  </View>
+  
+  <View id="MsiClassComponent">
+    class DCOM COM+ register local inproc server progid handler argument 
+    appid distributed interfaces
+    type library language version 
+  </View>
+  
+  <View id="MsiOdbcDataSrcComponent">
+    odbc driver translator "data source" attributes
+    system user
+    database 
+  </View>
+  
+  <View id="MsiAppSearchComponent">
+    application file registry folder INI component searches test
+    configure system
+  </View>
+  
+  <View id="MsmModuleInstExSeqComponent">
+    custom actions program
+    standard installation 
+    comprehensive predefined
+    ui sequence scheduling asynchronous synchronous 
+    immediate deffered rollback commit impersonation condition action data
+    function attached installed script inline visual basic VBS java script JS 64 bit
+    powershell "windows powershell"
+    
+    behavior DLL scripts uninstall rollback launch execute run bat vbscript exe
+    url detect slideshow setproperty
+    "property" oldproducts JScript "synchronous execution" "asynchronous execution"
+    deferred rollback immediate "no impersonation"  "script inline" "error message"
+    "Property Source" "EXE working Dir" "Property Set Formatted"
+    "Directory Set Formatted" "MSI Database relative package"
+    "MSI Database Product Code" "Launch File Open URL"
+    "Launch File Open URL 64 launcher" "Call function standard DLL"
+    "Call function standard DLL 64 DLL" "Resolve known folder"
+    "Add network location" "Remove network location" "net installer class action"
+    "Close application" "Detect process" "Terminate process" "detect service"
+    "check user exists" "Start image slideshow" "Stop immage slideshow"
+    "message box" "Launch File Administrator" "Test ODBC Connection"
+    "Update MSI Edit Controls" "Browse file" "Populate ComboBox" 
+    "Delete ComboBox" "Extract ComboBox Data" "Populate ListBox" 
+    "Delete ListBox" "Extract ListBox Data" "Send install information web server"
+    "Preserve Install Type older version" "Uninstall previous versions"
+    "Play audio file" sound "Check TCP Port" "Get Free TCP Port"
+  </View>
+  
+  <View id="MsiDirectEditorComponent">
+    direct tables editor raw
+    MSI custom orca 
+  </View>
+  
+</SearchIndex>

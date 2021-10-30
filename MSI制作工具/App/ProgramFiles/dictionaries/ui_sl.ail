@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="sl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32 bitov"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Nova mapa"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Podvoji %s od %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Nova spremenljivka"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Opis"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Funkcija"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Predvajaj"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Podpora"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Vaš opis za [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Nova datoteka"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Nov ključ"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Nov razdelek"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Nova vrednost"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="napake.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="rezultat.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Vaš izdelek"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] ni možno namestiti na sisteme z različico programa Adobe Reader, slabšo od [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName] ne more biti nameščen v sisteme brez [AI_REQUIRED_ACTIVESYNC_DISPLAY] ali novejše različice."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] ni možno namestiti na sisteme z barvno kakovostjo, manjšo od [AI_REQUIRED_COLOR_QUALITY] bitov."/>
+  <STRING id="AI.LaunchCondition.Description" value="Opis pogoja za zagon"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] ni možno namestiti na sisteme z različico programa DirectX, slabšo od [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] ni možno namestiti na sisteme z različico programa .NET Framework, slabšo ob [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] ni možno namestiti na sisteme z različico programa .NET Core, slabšo ob [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] ni možno namestiti na sisteme z različico programa Internet Explorer slabšo ob [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] ni možno namestiti na sisteme z različico programa Internet Information Services, slabšo ob [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] zahteva aktivno internetno povezavo za namestitev. Prosimo, da preverite nastavitve omrežja in nastavitve proxy."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] ne more biti nameščen v sisteme z različico programa JDK, slabšo od [AI_REQUIRED_JDK_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] ni možno namestiti na sisteme z različico programa JRE, slabšo od [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] cannot be installed on [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] cannot be installed on [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] cannot be installed on [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] cannot be installed on [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] cannot be installed on [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="[ProductName] ne more biti nameščen v sisteme brez programa [AI_REQUIRED_OFFICE_APPNAME]."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] ne more biti nameščen v sisteme brez programa [AI_REQUIRED_OFFICE_APPNAME] 2003."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName] ne more biti nameščen v sisteme brez programa [AI_REQUIRED_OFFICE_APPNAME] 2007."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] zahteva skrbniške pravice za namestitev."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] ni možno namestiti na sisteme z manj kot [AI_REQUIRED_PHYSICAL_MEMORY] MB fizičnega spomina."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] ni možno namestiti na sisteme z ločljivostjo zaslona, manjšo od [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName] ne more biti nameščen v sisteme brez programa [AI_REQUIRED_SQLCOMPACT_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName] ne more biti nameščen v sisteme brez programa [AI_REQUIRED_SQLEXPRESS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] ni možno namestiti na sisteme, ki jih poganjajo virtualni pogoni."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] ni mogoče namestiti na sistemih, kjer je nameščen Windows Installer z različico, manjšo od [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName] ne more biti nameščen v sisteme z različico programa XNA Framework, slabšo od [AI_REQUIRED_XNA_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="VašaDatoteka.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Ta namestitvena podatkovna zbirka vsebuje logiko in podatke, ki so potrebni za namestitev &lt;product name&gt;."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Vaše podjetje"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Vaš modul za spajanje"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Ta namestitvena podatkovna zbirka vsebuje logiko in podatke, ki so potrebni za namestitev komponente &lt;modul name&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="Vaša aplikacija"/>
+  <STRING id="AI.Property.DefaultValue" value="Vaša vrednost"/>
+  <STRING id="AI.Property.FindExeTitle" value="Izberite namestitveni paket za [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Ta paket vsebuje modul za spajanje, ki je bil pripravljen s preizkusno različico Advanced Installer. Uporabljate ga lahko samo za preizkusne namene."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Ta paket je bil pripravljen s preizkusno različico Advanced Installer. Uporabljate ga lahko samo za preizkusne namene."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Opozorilo"/>
+  <STRING id="AI.Registry.DefaultKey" value="Nov ključ"/>
+  <STRING id="AI.Registry.DefaultName" value="Nova vrednost"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="VašaDatoteka.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="VašaVrednost"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="ImeStoritve"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Vaš opis storitve"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Vaša storitev"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Nova skupna uporaba"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Bližnjica do VašUkaz"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Bližnjica do %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Odstrani"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Odpri"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Nova datoteka"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.BrowseDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.CancelDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ErrorDlg" value="Podatki o namestilniku"/>
+  <STRING id="Dialog.ExitDialog" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.FatalError" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.FilesInUse" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.FolderDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.PrepareDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ProgressDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ResumeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.UserExit" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.TemplateDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Poglejte v:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Poiščite ciljno mapo"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Ustvari novo mapo|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Ime mape:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Spremeni trenutno ciljno mapo"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Raven više|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Navedite omrežno mesto za strežniško sliko izdelka [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Vpišite novo omrežno mesto ali kliknite Prebrskaj, če ga želite poiskati z brskanjem."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Omrežno mesto"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="&amp;Ključ zgoščenke:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Vpišite podatke o podjetju"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;V spodnje okence vpišite ime svoje organizacije. Uporabljeno bo kot privzeto ime podjetja za poznejše namestitve [ProductName]"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Podatki o podjetju"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard] bo ustvaril strežniško sliko izdelka [ProductName] na navedenem omrežnem mestu. Kliknite [Text_Next], če želite nadaljevati, ali Prekini, če želite zapustiti [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Dobrodošli v [Wizard] za izdelek [ProductName]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Poglej v:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Iskanje ciljne mape"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Ustvarjanje nove mape|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Ime mape:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Spreminjanje trenutne ciljne mape"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Na višjo raven|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Ikona za informacije|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Ste prepričani, da želite preklicati namestitev [ProductName]?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Izberite način, na katerega želite namestiti funkcije."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="&amp;Raba diska"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Večvrstični opis trenutno izbranega predmeta."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Velikost trenutno izbranega predmeta."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;The selection&apos;s path&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Lokacija:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="S klikom na ikone v spodnjem drevesu lahko izberete možnosti, ki jih želite namestiti."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Namestitev po meri"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Drevo izbir"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Prostor na disku, potreben za namestitev izbranih možnosti."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Osvetljeni nosilci (če so) nimajo dovolj prostega prostora za trenutno izbrane možnosti. Z osvetljenega nosilca lahko odstranite nekaj datotek, na krajevni disk(e) lahko namestite manj funkcij ali pa izberete drug ciljni disk(e)."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Potreben prostor na disku"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Ikona za informacije|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Besedilo informacije"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Kliknite gumb Končaj, če želite zapustiti [Wizard]."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Zagon [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="[Wizard] za izdelek [ProductName] se končuje"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Prikaz datoteke preberime"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] bo registriral [ProductName] za odpiranje datotek naslednjih vrst: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Povezovanje [ProductName] z vrstami datotek."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Povezave datotek"/>
+  <STRING id="Control.Text.FatalError#Description1" value="Nastavitev [ProductName] se je končala prehitro zaradi napake. Vaš sistem ni bil spremenjen. Če želite ta program namestiti pozneje, znova zaženite namestitev."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Kliknite gumb Končaj, če želite zapustiti [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="[Wizard] za [ProductName] se je končal prehitro"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Nekatere od datotek, ki jih je treba posodobiti, so trenutno v uporabi."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Datoteke, ki jih mora ta namestitev posodobiti, imajo odprte naslednje aplikacije. Lahko zaprete aplikacije in kliknete Ponovi ali pa kliknete Prezri, da namestilnik nadaljuje namestitev in te datoteke zamenja ob ponovnem zagonu sistema."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Datoteke v uporabi"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="To je mapa, kamor bo nameščen [ProductName]."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Mapa:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Za namestitev v to mapo kliknite &quot;[Text_Next]&quot;. Če želite program namestiti v drugo mapo, jo vpišite spodaj ali kliknite &quot;Prebrskaj&quot;"/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Izberite namestitveno mapo"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_sl.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Pazljivo preberite naslednjo licenčno pogodbo."/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Licenčna pogodba za končnega uporabnika"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Spremeni namestitev|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Spremeni"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Uporabniku omogoča spreminjanje načina nameščanja posameznih funkcij."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Izberite operacijo, ki jo želite izvesti."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Odstrani namestitev|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Odstrani"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Odstrani [ProductName] iz vašega računalnika."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Popravi namestitev|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Pop&amp;ravi"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Popravi napake glede na zadnje stanje namestitve - popravi manjkajoče in poškodovane datoteke, bližnjice in registrske zapise."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Spremeni, popravi ali zamenja namestitev"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] vam omogoča spreminjanje načina, na katerega bodo v vaš računalnik nameščene funkcije izdelka [ProductName], oziroma odstranjevanje [ProductName] iz računalnika. Kliknite [Text_Next], če želite nadaljevati, ali Prekini, če želite zapustiti [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Dobrodošli v [Wizard] za izdelek [ProductName]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Potreben prostor na disku je večji od razpoložljivega."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Osvetljeni nosilci nimajo dovolj prostega prostora za trenutno izbrane funkcije. Z osvetljenega nosilca lahko odstranite nekaj datotek, na krajevni disk(e) lahko namestite manj funkcij ali pa izberete drug ciljni disk(e)."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Na disku ni več prostora"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Potreben prostor na disku je večji od razpoložljivega."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Osvetljeni nosilci nimajo dovolj prostega prostora za trenutno izbrane funkcije. Z osvetljenega nosilca lahko odstranite nekaj datotek, na krajevni disk(e) lahko namestite manj funkcij ali pa izberete drug ciljni disk(e)."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Lahko se odločite tudi za izklop namestilnikove možnosti za vračanje nazaj. Ta možnost namestilniku omogoča vračanje računalnika v stanje pred namestitvijo, če med nameščanjem pride do napake. Kliknite Da, če želite sprejeti tveganje, ki nastane z izklopom možnosti za vračanje nazaj."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Na disku ni več prostora"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Počakajte, da se [Wizard] pripravi in vas vodi skozi namestitev."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Dobrodošli v [Wizard] za izdelek [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Dokončano"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Stanje:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Počakajte, da [Wizard] [Progress2] [ProductName]. To lahko traja nekaj minut."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Pozorno preberite naslednje besedilo"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_sl.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Datoteka z informacijami, ki jih je dobro prebrati"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard] bo končal nameščanje [ProductName] v vaš računalnik. Kliknite Namesti, če želite nadaljevati, ali Prekini, če želite zapustiti [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Nadaljevanje izvajanja [Wizard] za izdelek [ProductName]"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Kompletna namestitev|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="&amp;Kompletno"/>
+  <STRING id="Property.Text_Complete" value="Kompletno"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Nameščene bodo vse funkcije programa. (zahteva največ prostora na disku)"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Namestitev po meri|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="Po &amp;meri"/>
+  <STRING id="Property.Text_Custom" value="Pomeri"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Uporabniku omogoča izbiro programskih možnosti za namestitev in njihovih namestitvenih mest. Priporočeno za napredne uporabnike."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Izberite vrsto namestitve, ki najbolje ustreza vašim potrebam"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Izberite vrsto namestitve"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Tipična namestitev|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Tipično"/>
+  <STRING id="Property.Text_Typical" value="Tipično"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Namesti najpogosteje uporabljane funkcije programa. Priporočeno za večino uporabnikov."/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] lahko poišče starejše različice [ProductName] in jih odstrani. Želite odstraniti te različice?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] je ugotovil, da ste izbrali namestitveno mesto, ki ga uporablja tudi različica [AI_Replaced_Versions_List] programa [ProductName]. To različico morate odstraniti. Želite odstraniti tudi druge starejše različice?"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Poišči in posodobi starejše različice [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Posodobi starejše različice"/>
+  <STRING id="Control.Text.UserExit#Description1" value="Namestitev [ProductName] je bila prekinjena. Vaš sistem ni bil spremenjen. Če želite ta program namestiti pozneje, znova zaženite namestitev."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Kliknite gumb Končaj, če želite zapustiti [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="[Wizard] za [ProductName] je bil prekinjen."/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Serijska številka:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Vpišite podatke o kupcu"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Uporabnik:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Organizacija:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Informacije o kupcu"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] je pripravljen za nameščanje v načinu [ProductName]"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Kliknite Namesti, da sprožite postopek namestitve. Če želite pregledati ali spremeniti svoje namestitvene nastavitve, kliknite Nazaj. Kliknite Prekliči, če želite zapustiti čarovnika."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Nared za namestitev"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Izbrali ste možnost za odstranitev programa iz računalnika."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Kliknite Odstrani, če želite odstraniti [ProductName] iz računalnika. Če želite pregledati ali spremeniti svoje namestitvene nastavitve, kliknite Nazaj. Kliknite Prekliči, če želite zapustiti čarovnika."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Odstranjevanje [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard] je pripravljen na popravljanje namestitve [ProductName]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Kliknite Popravi, če želite popraviti namestitev [ProductName]. Če želite pregledati ali spremeniti svoje namestitvene nastavitve, kliknite Nazaj. Kliknite Prekliči, če želite zapustiti čarovnika."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Popravi [ProductName]"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Ikona s klicanjem|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Počakajte, da namestilnik konča z ugotavljanjem potrebnega prostora na disku."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard] bo namestil [ProductName] v vaš računalnik. Kliknite [Text_Next], če želite nadaljevati, ali Prekini, če želite zapustiti [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Dobrodošli v [Wizard] za izdelek [ProductName]"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] bo namestil Popravek za [ProductName] v vaš računalnik. Kliknite [Text_Next], če želite nadaljevati, ali Prekini, če želite zapustiti [Wizard] za popravke."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Dobrodošli v [Wizard] za popravke [ProductName]"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Opis novega pogovornega okna ..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Novo pogovorno okno"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Novo modalno pogovorno okno"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Nekatere datoteke, ki jih je treba posodobiti, so trenutno v uporabi."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Naslednje aplikacije uporabljajo datoteke, ki jih je treba posodobiti s to nastavitvijo."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Datoteke v rabi"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Ustvari bližnjice za aplikacijo"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Namizje"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Orodna vrstica za hitri zagon"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Ustvari bližnjice za [ProductName] na naslednjih mestih:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Mapa s programi zagonskega menija"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Zagonska mapa"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Konfiguriraj bližnjice"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Podatkovna baza:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Konfiguriraj povezavo SQL …"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="Vir ODBC:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Geslo:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Vrata:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Strežnik:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="Podatkovna baza SQL:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Uporabniško ime:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="To je mapa, kamor se bodo namestile bližnjice [ProductName].."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Če jih želite namestiti v podmapo, dodajte ime podmape, ki mora biti ločeno z &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Mapa z bližnjicami zagonskega menija:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Za namestitev bližnjic v to mapo kliknite &quot;[Text_Next]&quot;.. Za namestitev bližnjic v drugo mapo slednjo vpišite spodaj ali pa jo izberite iz okvirčka."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Izberite mapo z bližnjicami zagonskega menija"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="Končana namestitev|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="Namestitev strežnika|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="Namestitev odjemalca|"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="D&amp;okončano"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="Namestite konfiguracije odjemalca in strežnika."/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="&amp;Strežnik"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="Namestite konfiguracijo strežnika."/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="Izberite vrsto namestitve, ki najbolj ustreza vašim potrebam"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="Program za napredno namestitev Advanced Installer"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="Izberite vrsto namestitve"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="&amp;Odjemalec"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="Namestite konfiguracijo odjemalca."/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="Izberite vrsto namestitve."/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="Namestite [ProductName] za:"/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="Program za napredno namestitev Advanced Installer"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="Vrsta namestitve"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="Opis novega dialoga ..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="Nov dialog"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="Konfigurirajte atribute strežnika Tomcat"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="Ime gostitelja:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="Številka vrat HTTP:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="Številka vrat HTTP SSL:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="Program za napredno namestitev Advanced Installer"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="Številka vrat za izhod:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="Atributi strežnika Tomcat"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Oglaševanje aplikacije"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Dodeljevanje prostora v registru"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Nezasedeno: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="Iskanje nameščenih aplikacij"/>
+  <STRING id="ActionText.Template.AppSearch" value="Lastnost: [1], Podpis: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="Povezovanje izvedljivih datotek"/>
+  <STRING id="ActionText.Template.BindImage" value="Datoteka: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Iskanje ustreznih izdelkov"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Računanje potrebnega prostora"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Računanje potrebnega prostora"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Ustvarjanje mape"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Mapa: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Ustvarjanje bližnjice"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Bližnjica: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Brisanje storitev"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Storitev: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Ustvarjanje dvojnikov datotek"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Datoteka: [1], Imenik: [9], Velikost: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="Izračunavam potreben prostor"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Iskanje povezanih aplikacij"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Najdena aplikacija: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Ustvarjanje skriptnih ukazov za dejanje:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Kopiranje omrežnih namestitvenih datotek"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Datoteka: [1], Imenik: [9], Velikost: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Kopiranje novih datotek"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Datoteka: [1], Imenik: [9], Velikost: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Nameščanje komponente ODBC"/>
+  <STRING id="ActionText.Description.InstallServices" value="Nameščanje novih storitev"/>
+  <STRING id="ActionText.Template.InstallServices" value="Storitev: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Nameščanje sistemskega kataloga"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Datoteka: [1], Odvisnosti: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Preverjanje namestitve"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Pregledovanje zagonskih pogojev"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Prenos stanja funkcij iz povezanih aplikacij"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Aplikacija: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Premikanje datotek"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Datoteka: [1], Imenik: [9], Velikost: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Objavljanje informacij zbirnika"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Kontekst aplikacije: [1], Ime zbirnika: [2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Odjavljanje informacij zbirnika"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Kontekst aplikacije: [1], Ime zbirnika: [2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Popravljanje datotek"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Datoteka: [1], Imenik: [2], Velikost: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Posodabljanje registracij komponent"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Objavljanje kvalificiranih komponent"/>
+  <STRING id="ActionText.Template.PublishComponents" value="ID komponente: [1], Kvalifikator: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Objavljanje funkcij izdelka"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Funkcija: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Objavljanje informacije izdelka"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Registracija razreda strežnikov"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="ID razreda: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Registracija programa COM+ in komponent"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Registracija razširitev strežnikov"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Razširitev: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Registracija pisav"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Pisava: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Registracija informacij MIME"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Vrsta vsebine MIME: [1], Razširitev: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Registracija izdelka"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Registracija identifikatorjev programa"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Registracija knjižnic podatkovnih tipov"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Registracija uporabnika"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Odstranjevanje dvojnikov datotek"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Datoteka: [1], Imenik: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Posodabljanje nastavitev okolja"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Ime: [1], Vrednost: [2], Dejanje [3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Odstranjevanje aplikacij"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Aplikacija: [1], Ukazna vrstica: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Odstranjevanje datotek"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Datoteka: [1], Imenik: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Odstranjevanje map"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Mapa: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Odstranjevanje vnosov iz datoteke INI"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Datoteka: [1], Odsek: [2], Ključ: [3], Vrednost: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Odstranjevanje komponente ODBC"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Odstranjevanje vrednosti sistemskega registra"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Ključ: [1], Ime: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Odstranjevanje bližnjic"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Bližnjica: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Iskanje ustreznih izdelkov"/>
+  <STRING id="ActionText.Description.Rollback" value="Razveljavitev sprememb dejanja:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Odstranjevanje varnostnih kopij datotek"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Datoteka: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Registracija modulov"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Datoteka: [1], Mapa: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Odjavljanje modulov"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Datoteka: [1], Mapa: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Inicializacija imenikov ODBC"/>
+  <STRING id="ActionText.Description.StartServices" value="Zagon storitev"/>
+  <STRING id="ActionText.Template.StartServices" value="Storitev: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="Ustavljanje storitev"/>
+  <STRING id="ActionText.Template.StopServices" value="Storitev: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Odstranjevanje premaknjenih datotek"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Datoteka: [1], Imenik: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Odjavljanje kvalificiranih komponent"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="ID komponente: [1], Kvalifikator: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Odjavljanje funkcij izdelka"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Funkcija: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Odjavljanje informacij izdelka"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Odjavljanje razreda strežnikov"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="ID razreda: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Odjavljanje programov COM+ in komponent"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Odjavljanje razširitev strežnikov"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Razširitev: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Odjavljanje pisav"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Pisava: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Odjavljanje informacij MIME"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Vrsta vsebine MIME: [1], Razširitev: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Odjavljanje identifikatorjev programa"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Odjavljanje knjižnic podatkovnih tipov"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Posodabljanje nastavitev okolja"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Ime: [1], Vrednost: [2], Dejanje [3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Zapis vrednosti v datoteko INI"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Datoteka: [1], Odsek: [2], Ključ: [3], Vrednost: [4]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Zapis vrednosti sistemskega registra"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Ključ: [1], Ime: [2], Vrednost: [3]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Izdelava uporabniškega računa na lokalnem računalniku"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Izdelava uporabniške skupine na lokalnem računalniku"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Brisanje datotek, izvlečenih iz arhiva"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Izvlačenje datotek iz arhiva"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Izdelava spletnih strani IIS in virtualnih slovarjev"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Generiranje akcij za konfiguriranje programa Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Odstranjevanje spletnih strani IIS in virtualnih slovarjev"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Preklic konfiguracije IIS"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Generiranje akcij za konfiguriranje programa Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Generiranje akcij za izdelavo uporabniških računov na lokalnem računalniku"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Generiranje akcij za izdelavo uporabniških skupin na lokalnem računalniku"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Odstranjevanje uporabniškega računa z lokalnega računalnika"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Odstranjevanje uporabniške skupine z lokalnega računalnika"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Preklic izdelave uporabniških računov na lokalnem računalniku"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Preklic izdelave uporabniških skupin na lokalnem računalniku"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Izvajanje namestitvenih SQL skript"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Generiranje akcij za konfiguriranje podatkovnih baz za izvršitev namestitvenih SQL skript"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Izvajanje odstranitvenih SQL skript"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Izvajanje preklica SQL skript"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Generiranje akcij za konfiguriranje podatkovnih baz za izvršitev odstranitvenih SQL skript"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Generiranje akcij za odstranitev uporabniških računov na lokalnem računalniku"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Generiranje akcij za odstranitev uporabniških skupin na lokalnem računalniku"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Račun: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Račun: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Nameščam &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Odstranjujem &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Vzpostavljam konfiguracijo meta baze."/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Račun: [1], oznake: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Račun: [1], oznake: [2]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Račun: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Račun: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Račun: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Račun: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Priklop: [1]  Skripta: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Priklop: [1]  Skripta: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Priklop: [1]  Skripta: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Račun: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Račun: [1]"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Izvajanje konfiguracij za Windows Firewall"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Generiranje akcij za konfiguriranje Windows Firewall"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Izvajanje konfiguracij za Windows Firewall"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Preklic konfiguracij za Windows Firewall."/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Generiranje akcij za konfiguriranje Windows Firewall"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Izvajanje konfiguracij za Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Generiranje akcij za konfiguriranje Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Izvajanje konfiguracij za Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Preklic konfiguracij za Games Explorer.."/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Generiranje akcij za konfiguriranje Games Explorer"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Generiranje akcij zaskupno rabo map na lokalnem računalniku:"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Generiranje akcij za razporejanje opravil na lokalnem računalniku."/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Odstranjevanje skupne rabe map z lokalnega računalnika"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Odstranjevanje razporejanja opravil z lokalnega računalnika"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Preklic skupne rabe map z lokalnega računalnika"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Preklic razporejenih opravil z lokalnega računalnika."/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Razporejanje opravil na lokalnem računalniku"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Skupna raba map na lokalnem računalniku"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Izvajanje vzdrževalnih SQL skript"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Generiranje akcij za umik skupne rabe map z lokalnega računalnika:"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Generiranje akcij za umik razporejenih opravil z lokalnega računalnika."/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Izvajanje konfiguracij za datoteke XML"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Generiranje akcij za konfiguriranje datotek XML"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Izvajanje konfiguracij za datoteke XML"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Preklic konfiguracij datoteke XML."/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Generiranje akcij za konfiguriranje datotek XML"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Konfiguriranje pravila za Windows Firewall: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Konfiguriranje pravila za Windows Firewall:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Preklic konfiguracij za Windows Firewall."/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Konfiguriranje igre: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Odstranjevanje igre: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Preklic konfiguracij za Games Explorer.."/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Mapa: [1], ShareName: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Ime opravila: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="ShareName: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Ime opravila: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="ShareName: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Ime opravila: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Ime opravila: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Mapa: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Priklop: [1]  Skripta: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="ShareName: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Konfiguriranje datoteke XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Konfiguriranje datoteke XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Preklic konfiguracij datoteke XML."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="Izvajanje postopkov odstranjevanja datotek."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="Izvajanje postopkov odstranjevanja datotek."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="Ustvarjanje dejanj za odstranjevanje datotek."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="Izvajanje postopkov odstranjevanja registra."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="Izvajanje postopkov odstranjevanja registra."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="Ustvarjanje dejanj za odstranjevanje vnosov v register."/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="Registracija mobilnih aplikacij v programu Windows CE Application Manager"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="Obdelava podatkov za registracijo v programu Windows CE Application Manager (2. faza)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="Obdelava podatkov za registracijo v programu Windows CE Application Manager (1. faza)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="Zagon programa Windows CE Application Manager za konfiguracijo nameščenih aplikacij"/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="Prenos predpripomočkov"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="Razširjanje predpripomočkov"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="Nameščanje predpripomočkov"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="Preverjanje predpripomočkov"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="Odstranjevanje datoteke: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="Odstranjevanje datoteke: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="Odstranjevanje vnosa v register: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="Odstranjevanje vnosa v register: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="Prenos [1]{[2] končano}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="Pridobivanje [1]{[2] končano}"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="Nameščanje[1]{[2] končano}"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="[1] ni bil nameščen pravilno."/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Fatal error: }}"/>
+  <STRING id="Error.1" value="{{Error [1]. }}"/>
+  <STRING id="Error.2" value="Opozorilo [1]. "/>
+  <STRING id="Error.4" value="Info [1]. "/>
+  <STRING id="Error.5" value="Namestilnik je med nameščanjem paketa naletel na nepričakovano napako. To lahko pomeni, da je s paketom kaj narobe. Koda napake je [1]. {{The arguments are: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Disk full: }}"/>
+  <STRING id="Error.8" value="Dejanje [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Vrsta sporočila: [1], Argument: [2]"/>
+  <STRING id="Error.12" value="=== Beleženje zagnano: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Beleženje ustavljeno: [Date]  [Time] ==="/>
+  <STRING id="Error.14" value="Začetek dejanja [Time]: [1]."/>
+  <STRING id="Error.15" value="Konec dejanja [Time]: [1]. Vrnjena vrednost [2]."/>
+  <STRING id="Error.16" value="Preostali čas: {[1] minutes }{[2] seconds}"/>
+  <STRING id="Error.17" value="Zmanjkalo je pomnilnika. Preden poskusite znova, zaprite druge aplikacije."/>
+  <STRING id="Error.18" value="Namestilnik ne odgovarja več."/>
+  <STRING id="Error.19" value="Namestilnik se je zaustavil prehitro."/>
+  <STRING id="Error.20" value="Počakajte, da Windows nastavi [ProductName]"/>
+  <STRING id="Error.21" value="Zbiranje potrebnih informacij ..."/>
+  <STRING id="Error.22" value="Odstranjevanje starejših različic aplikacije ..."/>
+  <STRING id="Error.23" value="Priprava na odstranjevanje starejših različic aplikacije ..."/>
+  <STRING id="Error.32" value="Nastavitev {[ProductName] } se je uspešno končala."/>
+  <STRING id="Error.33" value="Nastavitev {[ProductName] } ni bila uspešna."/>
+  <STRING id="Error.1101" value="Napaka med branjem datoteke: [2]. {{ System error [3].}} Preverite, ali datoteka obstaja in ali imate do nje dostop."/>
+  <STRING id="Error.1301" value="Ni mogoče ustvariti datoteke &apos;[2]&apos;. Mapa s tem imenom že obstaja. Prekličite namestitev in poskusite spremeniti mesto nastavitve."/>
+  <STRING id="Error.1302" value="Vstavite disk: [2]"/>
+  <STRING id="Error.1303" value="Namestilnik nima dostopnih pravic za to mapo: [2]. Namestitev se ne more nadaljevati. Prijavite se kot skrbnik ali pa se obrnite na skrbnika sistema."/>
+  <STRING id="Error.1304" value="Napaka med pisanjem v datoteko: [2]. Preverite, ali imate dostopne pravice za to mapo."/>
+  <STRING id="Error.1305" value="Napaka med branjem datoteke [2]. {{ System error [3].}} Preverite, ali datoteka obstaja in ali imate do nje dostop."/>
+  <STRING id="Error.1306" value="Druga aplikacija ima izključni dostop do datoteke &apos;[2]&apos;. Zaprite vse druge aplikacije in kliknite Ponovi."/>
+  <STRING id="Error.1307" value="Za nameščanje datoteke ni dovolj prostora na disku: [2]. Na disku sprostite nekaj prostora in kliknite Ponovi ali pa kliknite Prekliči za izhod."/>
+  <STRING id="Error.1308" value="Ne najdem izvorne datoteke: [2]. Preverite, ali datoteka obstaja in ali imate do nje dostop."/>
+  <STRING id="Error.1309" value="Napaka med branjem datoteke: [3]. {{ System error [2].}} Preverite, ali datoteka obstaja in ali imate do nje dostop."/>
+  <STRING id="Error.1310" value="Napaka med pisanjem v datoteko: [3]. {{ System error [2].}} Preverite, ali imate dostopne pravice za to mapo."/>
+  <STRING id="Error.1311" value="Ne najdem izvorne datoteke{{(cabinet)}}: [2]. Preverite, ali datoteka obstaja in ali imate do nje dostop."/>
+  <STRING id="Error.1312" value="Ni mogoče ustvariti mape &apos;[2]&apos;. Datoteka s tem imenom že obstaja. Izberite drugo ime, odstranite datoteko in kliknite Ponovi ali pa kliknite Prekliči za izhod."/>
+  <STRING id="Error.1313" value="Nosilec [2] trenutno ni na voljo. Izberite drugega."/>
+  <STRING id="Error.1314" value="Navedena pot &apos;[2]&apos; ni na voljo."/>
+  <STRING id="Error.1315" value="Pisanje v navedeno mapo ni mogoče: [2]."/>
+  <STRING id="Error.1316" value="Med poskusom branja datoteke je prišlo do omrežne napake: [2]"/>
+  <STRING id="Error.1317" value="Med poskusom ustvarjanja mape je prišlo do napake: [2]"/>
+  <STRING id="Error.1318" value="Med poskusom ustvarjanja mape je prišlo do omrežne napake: [2]"/>
+  <STRING id="Error.1319" value="Med poskusom odpiranja arhiva izvorne datoteke je prišlo do omrežne napake: [2]"/>
+  <STRING id="Error.1320" value="Navedena pot je predolga: [2]"/>
+  <STRING id="Error.1321" value="Namestilnik nima dostopnih pravic za spreminjanje te datoteke: [2]."/>
+  <STRING id="Error.1322" value="Del poti mape &apos;[2]&apos; ni veljaven. Mapa je prazna ali pa je dolžina poti daljša od dovoljene."/>
+  <STRING id="Error.1323" value="Pot mape &apos;[2]&apos; vsebuje besede, ki niso dovoljene v poteh map."/>
+  <STRING id="Error.1324" value="Pot mape &apos;[2]&apos; vsebuje neveljaven znak."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; ni veljavno kratko ime datoteke."/>
+  <STRING id="Error.1326" value="Napaka med branjem varnostnih podatkov datoteke: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Neveljaven pogon: [2]"/>
+  <STRING id="Error.1328" value="Napaka med popravljanjem datoteke [2]. Datoteka je bila verjetno že popravljena, kar pomeni, da tega popravka ne morete uporabiti. Za podrobnejše informacije se obrnite na prodajalca popravka. {{System Error: [3]}}"/>
+  <STRING id="Error.1329" value="Ene od potrebnih datotek ni mogoče namestiti, ker arhivska datoteka [2] ni elektronsko podpisana. To lahko pomeni, da je arhiv poškodovan."/>
+  <STRING id="Error.1330" value="Ene od potrebnih datotek ni mogoče namestiti, ker ima arhivska datoteka [2] neveljaven elektronski podpis. To lahko pomeni, da je arhiv poškodovan.{{  Error [3] was returned by WinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="Ni mogoče pravilno kopirati datoteke [2]: Napaka CRC."/>
+  <STRING id="Error.1332" value="Ni mogoče pravilno premakniti datoteke [2]: Napaka CRC."/>
+  <STRING id="Error.1333" value="Ni mogoče pravilno popraviti datoteke [2]: Napaka CRC."/>
+  <STRING id="Error.1334" value="Datoteke &apos;[2]&apos; ni mogoče namestiti, ker je ne najdem v arhivu &apos;[3]&apos;. To lahko pomeni omrežno napako, napako med branjem z zgoščenke ali težave s tem paketom."/>
+  <STRING id="Error.1335" value="Arhiv &apos;[2]&apos;, ki je potreben za namestitev, je poškodovan, zato ga ni mogoče uporabiti. To lahko pomeni omrežno napako, napako med branjem z zgoščenke ali težave s tem paketom."/>
+  <STRING id="Error.1336" value="Med ustvarjanjem začasne datoteke, ki je potrebna za dokončanje namestitve, je prišlo do napake.{{  Folder: [3]. System error code: [2]}}"/>
+  <STRING id="Error.1401" value="Ni mogoče ustvariti ključa: [2]. {{ System error [3].}} Preverite, ali imate ustrezen dostop do tega ključa, ali pa se obrnite na podporo. "/>
+  <STRING id="Error.1402" value="Ni mogoče odpreti ključa: [2]. {{ System error [3].}} Preverite, ali imate ustrezen dostop do tega ključa, ali pa se obrnite na podporo. "/>
+  <STRING id="Error.1403" value="Ni mogoče zbrisati vrednosti [2] za ključ [3]. {{ System error [4].}} Preverite, ali imate ustrezen dostop do tega ključa, ali pa se obrnite na podporo. "/>
+  <STRING id="Error.1404" value="Ni mogoče zbrisati ključa [2]. {{ System error [3].}} Preverite, ali imate ustrezen dostop do tega ključa, ali pa se obrnite na podporo. "/>
+  <STRING id="Error.1405" value="Ni mogoče prebrati vrednosti [2] za ključ [3]. {{ System error [4].}} Preverite, ali imate ustrezen dostop do tega ključa, ali pa se obrnite na podporo. "/>
+  <STRING id="Error.1406" value="Ni mogoče zapisati vrednosti [2] za ključ [3]. {{ System error [4].}} Preverite, ali imate ustrezen dostop do tega ključa, ali pa se obrnite na podporo."/>
+  <STRING id="Error.1407" value="Ni mogoče dobiti imen vrednosti za ključ [2]. {{ System error [3].}} Preverite, ali imate ustrezen dostop do tega ključa, ali pa se obrnite na podporo."/>
+  <STRING id="Error.1408" value="Ni mogoče dobiti imen podključev za ključ [2]. {{ System error [3].}} Preverite, ali imate ustrezen dostop do tega ključa, ali pa stopite v stik z osebjem za podporo."/>
+  <STRING id="Error.1409" value="Ni mogoče prebrati varnostnih podatkov za ključ [2]. {{ System error [3].}} Preverite, ali imate ustrezen dostop do tega ključa, ali pa se obrnite na podporo."/>
+  <STRING id="Error.1410" value="Ni mogoče povečati razpoložljivega registrskega prostora. Za namestitev tega programa je potrebno [2] KB prostega registrskega prostora."/>
+  <STRING id="Error.1500" value="Trenutno že poteka neka druga namestitev. Dokončajte jo, preden nadaljujete nameščanje tega programa."/>
+  <STRING id="Error.1501" value="Pri dostopu do zavarovanih podatkov je prišlo do napake. Preverite, ali je Windows Installer pravilno konfiguriran, in nato poskusite znova zagnati namestitev."/>
+  <STRING id="Error.1502" value="Uporabnik &apos;[2]&apos; je pred tem že zagnal namestitev izdelka &apos;[3]&apos;. Omenjeni uporabnik bo moral znova zagnati namestitev, da bi lahko uporabljal ta izdelek. Trenutna namestitev se bo nadaljevala."/>
+  <STRING id="Error.1503" value="Uporabnik &apos;[2]&apos; je pred tem že zagnal namestitev izdelka &apos;[3]&apos;. Omenjeni uporabnik bo moral znova zagnati namestitev, da bi lahko uporabljal ta izdelek."/>
+  <STRING id="Error.1601" value="Zmanjkalo je prostora na disku -- Nosilec: &apos;[2]&apos;; potreben prostor: [3] KB; nezaseden prostor: [4] KB. Sprostite nekaj prostora na disku in poskusite znova."/>
+  <STRING id="Error.1602" value="Ste prepričani, da želite preklicati?"/>
+  <STRING id="Error.1603" value="Datoteko [2][3] uporablja{ by the following process: Name: [4], Id: [5], Window Title: &apos;[6]&apos;}. Zaprite ta program in poskusite znova."/>
+  <STRING id="Error.1604" value="Izdelek &apos;[2]&apos; je že nameščen, zato tega izdelka ne morete namestiti. Izdelka nista združljiva."/>
+  <STRING id="Error.1605" value="Na nosilcu &apos;[2]&apos; ni dovolj prostora za nadaljevanje namestitve z omogočeno obnovitvijo. Potrebno je [3] KB, na voljo je le [4] KB. Kliknite Prezri, če želite nadaljevati namestitev, ne da bi shranili obnovitvene informacije; kliknite Poskusi znova, če želite znova preveriti prostor, ki je na voljo; kliknite Prekliči, če želite prekiniti namestitev."/>
+  <STRING id="Error.1606" value="Do omrežnega mesta [2] ni bilo mogoče priti."/>
+  <STRING id="Error.1607" value="Preden nadaljujete namestitev, morate zapreti te programe:"/>
+  <STRING id="Error.1608" value="Za namestitev tega izdelka v računalniku ni bilo mogoče najti prej nameščenih ustreznih izdelkov."/>
+  <STRING id="Error.1609" value="Med uveljavljanjem varnostnih nastavitev je prišlo do napake. [2] ni veljaven uporabnik oz. skupina. Težava je lahko s paketom oz. pri vzpostavljanju povezave s kontrolnikom domene v omrežju. Preverite povezavo z omrežjem in kliknite Poskusi znova oz. Prekliči, če želite končati namestitev.       {{Unable to locate the user&apos;s SID, system error [3]}}"/>
+  <STRING id="Error.1701" value="Ključ [2] ni veljaven. Preverite, ali ste vnesli pravilen ključ."/>
+  <STRING id="Error.1702" value="Namestitveni program mora znova zagnati sistem, preden lahko nadaljuje konfiguracijo [2]. Kliknite Da, če želite vnovičen zagon zdaj, oz. Ne, če boste sistem znova zagnali pozneje."/>
+  <STRING id="Error.1703" value="Če želite uveljaviti konfiguracijske spremembe za [2], znova zaženite sistem. Kliknite Da, če želite vnovičen zagon zdaj, oz. Ne, če boste sistem znova zagnali pozneje."/>
+  <STRING id="Error.1704" value="Namestitev za [2] je trenutno ustavljena. Če želite nadaljevati, morate razveljaviti narejene spremembe. Želite odstraniti te spremembe?"/>
+  <STRING id="Error.1705" value="Prejšnja namestitev tega izdelka se še izvaja. Če želite nadaljevati, morate razveljaviti narejene spremembe. Želite odstraniti te spremembe?"/>
+  <STRING id="Error.1706" value="Namestitvenega paketa za izdelek [2] ni mogoče najti. Poskusite znova zagnati namestitev z uporabo veljavne kopije namestitvenega paketa &apos;[3]&apos;."/>
+  <STRING id="Error.1707" value="Namestitev se je uspešno končala."/>
+  <STRING id="Error.1708" value="Namestitev ni uspela."/>
+  <STRING id="Error.1709" value="Izdelek: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Računalnik lahko povrnete v prejšnje stanje ali pa nadaljujete namestitev pozneje. Ali želite obnoviti prejšnje stanje?"/>
+  <STRING id="Error.1711" value="Med zapisovanjem namestitvenih informacij na disk je prišlo do napake. Preverite, ali je na voljo dovolj prostora na disku, in kliknite Poskusi znova oz. Prekliči, če želite končati namestitev."/>
+  <STRING id="Error.1712" value="Ene ali več datotek, potrebnih za obnovitev prejšnjega stanja računalnika, ni bilo mogoče najti. Obnovitev ne bo mogoča."/>
+  <STRING id="Error.1713" value="[2] ne more namestiti enega od zahtevanih izdelkov. Obrnite se na skupino za tehnično podporo. {{System Error: [3].}}"/>
+  <STRING id="Error.1714" value="Starejše različice [2] ni mogoče odstraniti. Obrnite se na skupino za tehnično podporo. {{ System error [3].}}"/>
+  <STRING id="Error.1715" value="Nameščeno [2]"/>
+  <STRING id="Error.1716" value="Konfigurirano [2]"/>
+  <STRING id="Error.1717" value="Odstranjeno [2]"/>
+  <STRING id="Error.1718" value="Datoteko [2] je zavrnil pravilnik o elektronskem podpisu."/>
+  <STRING id="Error.1719" value="Dostop do storitve Windows Installer ni mogoč. Do tega lahko pride, če izvajate Windows v varnem načinu ali pa storitev Windows Installer ni pravilno nameščena. Za pomoč se obrnite na svoje osebje za podporo."/>
+  <STRING id="Error.1720" value="Ta paket Windows Installerja povzroča težave. Skripte, potrebne za zaključitev namestitve, ni mogoče zagnati. Stopite v stik z osebjem za podporo oz. prodajalcem paketa. {{Custom action [2] script error [3], [4]: [5] Line [6], Column [7], [8] }}"/>
+  <STRING id="Error.1721" value="Ta paket Windows Installerja povzroča težave. Programa, potrebnega za zaključitev namestitve, ni mogoče zagnati. Stopite v stik z osebjem za podporo oz. prodajalcem paketa. {{Action: [2], location: [3], command: [4] }}"/>
+  <STRING id="Error.1722" value="Ta paket Windows Installerja povzroča težave. Program, zagnan kot del namestitve, ni končal, kot je bilo pričakovano. Stopite v stik z osebjem za podporo oz. prodajalcem paketa. {{Action [2], location: [3], command: [4] }}"/>
+  <STRING id="Error.1723" value="Ta paket Windows Installerja povzroča težave. Knjižnice DLL, potrebne za zaključitev namestitve, ni mogoče zagnati. Stopite v stik z osebjem za podporo oz. prodajalcem paketa. {{Action [2], entry: [3], library: [4] }}"/>
+  <STRING id="Error.1724" value="Odstranitev se je uspešno končala."/>
+  <STRING id="Error.1725" value="Odstranitev ni uspela."/>
+  <STRING id="Error.1726" value="Oglaševanje se je uspešno končalo."/>
+  <STRING id="Error.1727" value="Oglaševanje ni uspelo."/>
+  <STRING id="Error.1728" value="Konfiguracija se je uspešno končala."/>
+  <STRING id="Error.1729" value="Konfiguracija ni uspela."/>
+  <STRING id="Error.1730" value="Če želite odstraniti ta program, morate biti skrbnik. Če želite odstraniti ta program, se prijavite kot skrbnik ali pa se za pomoč obrnite na skupino za tehnično podporo."/>
+  <STRING id="Error.1801" value="Pot [2] ni veljavna. Navedite veljavno pot."/>
+  <STRING id="Error.1802" value="Zmanjkalo je pomnilnika. Preden poskusite znova, zaprite druge aplikacije."/>
+  <STRING id="Error.1803" value="V pogonu [2] ni diska. Vstavite disk in kliknite Ponovi ali pa kliknite Prekliči, če se želite vrniti na prej izbrani nosilec."/>
+  <STRING id="Error.1804" value="V pogonu [2] ni diska. Vstavite disk in kliknite Ponovi ali pa kliknite Prekliči, če se želite vrniti v pogovorno okno za brskanje in izbrati drugi nosilec."/>
+  <STRING id="Error.1805" value="Mapa [2] ne obstaja. Vnesite pot do obstoječe mape."/>
+  <STRING id="Error.1806" value="Za branje te mape nimate zadostnih pravic."/>
+  <STRING id="Error.1807" value="Veljavne ciljne mape za namestitev ni bilo mogoče določiti."/>
+  <STRING id="Error.1901" value="Napaka pri poskusu branja iz izvirne namestitvene zbirke podatkov: [2]."/>
+  <STRING id="Error.1902" value="Razporejanje vnovičnega zagona: Preimenovanje datoteke [2] v [3]. Za dokončanje operacije je potreben vnovičen zagon."/>
+  <STRING id="Error.1903" value="Razporejanje vnovičnega zagona: Brisanje datoteke [2]. Za dokončanje operacije je potreben vnovičen zagon."/>
+  <STRING id="Error.1904" value="Modul [2] se ni uspel prijaviti. HRESULT [3]. Stopite v stik z osebjem za podporo"/>
+  <STRING id="Error.1905" value="Modul [2] se ni uspel odjaviti. HRESULT [3]. Stopite v stik z osebjem za podporo"/>
+  <STRING id="Error.1906" value="Predpomnjenje paketa [2] ni uspelo. Napaka: [3]. Stopite v stik z osebjem za podporo"/>
+  <STRING id="Error.1907" value="Pisave [2] ni bilo mogoče registrirati. Preverite, ali imate ustrezna dovoljenja za namestitev pisav in ali sistem podpira to pisavo."/>
+  <STRING id="Error.1908" value="Registracije pisave [2] ni bilo mogoče izbrisati. Preverite, ali imate ustrezna dovoljenja za odstranjevanje pisav."/>
+  <STRING id="Error.1909" value="Bližnjice [2] ni bilo mogoče ustvariti. Preverite, ali ciljna mapa obstaja in ali imate dostop do nje."/>
+  <STRING id="Error.1910" value="Bližnjice [2] ni bilo mogoče odstraniti. Preverite, ali ciljna mapa obstaja in ali imate do nje dostop."/>
+  <STRING id="Error.1911" value="Za datoteko [2] ni bilo mogoče ustvariti knjižnice podatkovnih tipov. Stopite v stik z osebjem za podporo"/>
+  <STRING id="Error.1912" value="Za datoteko [2] ni bilo mogoče odjaviti knjižnice podatkovnih tipov. Stopite v stik z osebjem za podporo"/>
+  <STRING id="Error.1913" value="Ni mogoče posodobiti datoteke ini [2][3]. Preverite, ali datoteka obstaja in ali imate do nje dostop."/>
+  <STRING id="Error.1914" value="Datoteke [2] ni bilo mogoče razporediti, tako da bi ob zagonu zamenjala datoteko [3]. Preverite, ali imate dovoljenje za pisanje v datoteko [3]."/>
+  <STRING id="Error.1915" value="Napaka pri odstranjevanju upravitelja gonilnika ODBC, napaka ODBC [2] [3]. Stopite v stik z osebjem za podporo"/>
+  <STRING id="Error.1916" value="Napaka pri namestitvi upravitelja gonilnika ODBC, napaka ODBC [2] [3]. Stopite v stik z osebjem za podporo"/>
+  <STRING id="Error.1917" value="Prišlo je do napake pri odstranjevanju gonilnika ODBC: [4], napaka ODBC [2]: [3]. Preverite, ali imate ustrezne pravice za odstranjevanje gonilnikov ODBC."/>
+  <STRING id="Error.1918" value="Prišlo je do napake pri namestitvi gonilnika ODBC: [4][5], napaka ODBC [2]: [3]. Preverite, ali datoteka [4][6] obstaja in ali imate do nje dostop."/>
+  <STRING id="Error.1919" value="Prišlo je do napake pri konfiguriranju vira podatkov ODBC: [4][5], napaka ODBC [2]: [3]. Preverite, ali datoteka [4][6] obstaja in ali imate do nje dostop."/>
+  <STRING id="Error.1920" value="Zagon storitve &apos;[2]&apos; ([3]) ni uspel. Preverite, ali imate ustrezne pravice za zagon sistemskih storitev."/>
+  <STRING id="Error.1921" value="Storitve &apos;[2]&apos; ([3]) ni bilo mogoče ustaviti. Preverite, ali imate ustrezne pravice za ustavljanje sistemskih storitev."/>
+  <STRING id="Error.1922" value="Storitve &apos;[2]&apos; ([3]) ni bilo mogoče zbrisati. Preverite, ali imate ustrezne pravice za odstranjevanje sistemskih storitev."/>
+  <STRING id="Error.1923" value="Storitve &apos;[2]&apos; ([3]) ni bilo mogoče namestiti. Preverite, ali imate ustrezne pravice za nameščanje sistemskih storitev."/>
+  <STRING id="Error.1924" value="Spremenljivke okolja &apos;[2]&apos; ni bilo mogoče posodobiti. Preverite, ali imate ustrezne pravice za spreminjanje spremenljivk okolja."/>
+  <STRING id="Error.1925" value="Nimate ustreznih pravic za dokončanje te namestitve za vse uporabnike tega računalnika. Prijavite se kot skrbnik in nato ponovite namestitev."/>
+  <STRING id="Error.1926" value="Za datoteko &apos;[3]&apos; ni bilo mogoče nastaviti varnosti. Napaka: [2]. Preverite, ali imate ustrezne pravice za spreminjanje varnostnih dovoljenj te datoteke."/>
+  <STRING id="Error.1927" value="Component Services (COM+ 1.0) niso nameščene v tem računalniku. Ta namestitev za uspešno dokončanje potrebuje Component Services. Component Services so na voljo v Windows 2000."/>
+  <STRING id="Error.1928" value="Napaka pri registriranju programa COM+. Za pomoč se obrnite na svoje osebje za podporo."/>
+  <STRING id="Error.1929" value="Napaka pri odjavi programa COM+. Za pomoč se obrnite na svoje osebje za podporo."/>
+  <STRING id="Error.1930" value="Opisa storitve &apos;[2]&apos; ([3]) ni bilo mogoče spremeniti."/>
+  <STRING id="Error.1931" value="Storitev Windows Installer ne more posodobiti sistemske datoteke [2], ker je Windows datoteko zaščitil. Za pravilno delovanje tega programa boste morda potrebovali posodobitev operacijskega sistema. {{Package version: [3], OS Protected version: [4]}}"/>
+  <STRING id="Error.1932" value="Storitev Windows Installer ne more posodobiti zaščitene datoteke Windows [2]. {{Package version: [3], OS Protected version: [4], SFP Error: [5]}}"/>
+  <STRING id="Error.1933" value="Storitev Windows Installer ne more posodobiti ene ali več zaščitenih datotek Windows. {{System Error: [2]. List of protected files:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Uporabniške namestitve so onemogočene s pravilniki v računalniku."/>
+  <STRING id="Error.1935" value="Med namestitvijo komponente zbirnika [2] je prišlo do napake. HRESULT: [3]. {{assembly interface: [4], function: [5], assembly name: [6]}}"/>
+  <STRING id="Error.4000" value="Neveljavna serijska številka."/>
+  <STRING id="Error.4010" value="Novejša različica [ProductName] je že nameščena v tem računalniku."/>
+  <STRING id="Error.4020" value="Prišlo je do napake med konfiguracijo IIS. Povrnjena bo izvorna konfiguracija IIS."/>
+  <STRING id="Error.4021" value="Spletno mesto [1] že obstaja v tem strežniku."/>
+  <STRING id="Error.4022" value="Navidezna mapa [1] na spletnem mestu [2] že obstaja v tem strežniku."/>
+  <STRING id="Error.4023" value="Ta različica IIS ni podprta ali pa IIS ni nameščen v celoti!&#10;&#10;Potrebujete program Internet Information Services 5.0 ali več."/>
+  <STRING id="Error.4024" value="Spletna stran z enakimi vezmi strežnika je že odprta.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Ne morem ustvariti uporabniškega računa ali skupine &apos;[2]&apos; na lokalni napravi. Koda napake: [3]. [4]"/>
+  <STRING id="Error.4102" value="Uporabniški račun ali skupina &apos;[2]&apos; že obstajata na lokalni napravi."/>
+  <STRING id="Error.4103" value="Ne morem odstraniti uporabniškega računa ali skupine &apos;[2]&apos; na lokalni napravi. Koda napake: [3]...."/>
+  <STRING id="Error.4104" value="Uporabniški račun ali skupina &apos;[2]&apos; ne obstajata na lokalni napravi."/>
+  <STRING id="Error.4105" value="Ugotovljena je bila napaka med skupno rabo &apos;[2]&apos; pod imenom: &apos;[3]&apos;. Opis napake: [4]"/>
+  <STRING id="Error.4106" value="Ugotovljena je bila napaka med ustvarjanjem razporejanja opravil: &apos;[2]&apos;. Opis napake: [3]"/>
+  <STRING id="Error.4107" value="Ugotovljena je bila napaka med odstranjevanjem razporejanja opravil: &apos;[2]&apos;. Opis napake: [3]"/>
+  <STRING id="Error.4110" value="Ne morem dodeliti spomina."/>
+  <STRING id="Error.4111" value="Ne najdem datoteke: [2]."/>
+  <STRING id="Error.4112" value="Datoteke &apos;[2]&apos; ne morem prebrati."/>
+  <STRING id="Error.4113" value="Razčleni napako v datoteki: &apos;[2]&apos; v vrstici: [3], stolpec: [4]. Koda napake: [5]."/>
+  <STRING id="Error.4114" value="Nepodprto zakodiranje datoteke XML."/>
+  <STRING id="Error.4115" value="Napaka pri odpiranju datoteke: [2]."/>
+  <STRING id="Error.4116" value="Datoteke &apos;[2]&apos; ne morem zapisati."/>
+  <STRING id="Error.4117" value="Nepričakovan izvirni element: &quot;[2]&quot; v datoteki XML: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="Med konfiguracijskim procesom Windows Firewall je prišlo do napake.&#10;Povrnila se bo vaša originalna konfiguracija Firewall."/>
+  <STRING id="Error.4121" value="Neveljavna pot slike Firewall procesa, ali ni najdena datoteka: [2]."/>
+  <STRING id="Error.4122" value="Neveljavna vrata/protokol Firewall: [2]."/>
+  <STRING id="Error.4123" value="Neveljavno omrežno območje Firewall: [2]."/>
+  <STRING id="Error.4124" value="Prišlo je do napake pri registraciji aplikacije z Windows Firewall: [2]."/>
+  <STRING id="Error.4125" value="Prišlo je do napake pri registraciji vrat z Windows Firewall: [2]."/>
+  <STRING id="Error.4130" value="Prišlo je do napake med konfiguracijo Game Explorer."/>
+  <STRING id="Error.4131" value="Starševski nadzor vam preprečuje igranje igre: [2]."/>
+  <STRING id="Error.4140" value="Prišlo je do napake med izvajanjem SQL skripte."/>
+  <STRING id="Error.4141" value="Napaka ODBC: [2] ([3])."/>
+  <STRING id="Error.4142" value="Povezava ODBC: presežen odmor."/>
+  <STRING id="Error.4143" value="Razčlenjena napaka SQL skripte: nepravilna skladnja."/>
+  <STRING id="Error.4001" value="Serijske številke ni mogoče preveriti."/>
+  <STRING id="Error.4025" value="Zbirka aplikacij &quot;[2]&quot; že obstaja v tem strežniku.&#10;&#10;Ali želite preskočiti konfiguracijo te zbirke aplikacij in nadaljevati z namestitvijo?"/>
+  <STRING id="Error.4150" value="Notranja napaka v CallStdFcn."/>
+  <STRING id="Error.4151" value="Funkcije &apos;[2]&apos; ni mogoče najti v DLL &apos;[3]&apos;."/>
+  <STRING id="Error.4152" value="Ali želite odstraniti nastavitve in začasne datoteke [ProductName]?"/>
+  <STRING id="Error.4153" value="Obvezni predpripomoček [2] ni bil ustrezno nameščen."/>
+  <STRING id="Error.4154" value="Predpripomoček [2] ni bil nameščen pravilno. Ali želite nadaljevati z namestitvijo[ProductName]?"/>
+  <STRING id="Error.4155" value="Datoteke [2] ni mogoče pravilno naložiti: napaka CRC."/>
+  <STRING id="Error.4156" value="Datoteke [2] ni mogoče pravilno naložiti: napaka CRC. Ali želite nadaljevati z namestitvijo[ProductName]?"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bajtov"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="kB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Funkcija ne bo na voljo."/>
+  <STRING id="UIText.MenuAdvertise" value="Funkcija bo nameščena, ko bo to potrebno."/>
+  <STRING id="UIText.MenuAllCD" value="Funkcija se bo izvajala z zgoščenke."/>
+  <STRING id="UIText.MenuAllLocal" value="Funkcija bo v celoti nameščena na krajevni disk."/>
+  <STRING id="UIText.MenuAllNetwork" value="Funkcija se bo izvajala iz omrežja."/>
+  <STRING id="UIText.MenuCD" value="Namestitev za zagon z zgoščenke."/>
+  <STRING id="UIText.MenuLocal" value="Namestitev na krajevni disk."/>
+  <STRING id="UIText.MenuNetwork" value="Namestitev za zagon iz omrežja."/>
+  <STRING id="UIText.ScriptInProgress" value="Zbiranje potrebnih informacij ..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Funkcija bo ostala nenameščena."/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Funkcija bo nameščena, ko bo to potrebno."/>
+  <STRING id="UIText.SelAbsentCD" value="Funkcija bo nameščena za zagon z zgoščenke."/>
+  <STRING id="UIText.SelAbsentLocal" value="Funkcija bo v celoti nameščena na krajevni disk."/>
+  <STRING id="UIText.SelAbsentNetwork" value="Funkcija bo nameščena za zagon iz omrežja."/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Funkcija ne bo več na voljo."/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Nameščena bo, ko bo to potrebno."/>
+  <STRING id="UIText.SelAdvertiseCD" value="Funkcija bo na voljo za zagon z zgoščenke."/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Funkcija bo nameščena na krajevni disk."/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Funkcija bo na voljo za zagon iz omrežja."/>
+  <STRING id="UIText.SelCDAbsent" value="Ta funkcija bo v celoti odstranjena. Zagon z zgoščenke ne bo mogoč."/>
+  <STRING id="UIText.SelCDAdvertise" value="Stanje funkcije bo spremenjeno: zagon z zgoščenke ne bo mogoč, zato pa se bo namestila po potrebi."/>
+  <STRING id="UIText.SelCDCD" value="Funkcija bo še vedno na voljo za zagon z zgoščenke."/>
+  <STRING id="UIText.SelCDLocal" value="Stanje funkcije bo spremenjeno: zagon z zgoščenke ne bo mogoč, zato pa se bo namestila na krajevni disk"/>
+  <STRING id="UIText.SelChildCostNeg" value="Ta funkcija bo sprostila [1] na krajevnem disku."/>
+  <STRING id="UIText.SelChildCostPos" value="Ta funkcija potrebuje [1] na krajevnem disku."/>
+  <STRING id="UIText.SelCostPending" value="Računanje cene te funkcije ..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Funkcija bo v celoti odstranjena."/>
+  <STRING id="UIText.SelLocalAdvertise" value="Ta funkcija bo odstranjena s krajevnega diska, vendar se bo po potrebi znova namestila."/>
+  <STRING id="UIText.SelLocalCD" value="Ta funkcija bo odstranjena s krajevnega diska, vendar bo še vedno na voljo za zagon z zgoščenke."/>
+  <STRING id="UIText.SelLocalLocal" value="Ta funkcija bo ostala nameščena na krajevni disk."/>
+  <STRING id="UIText.SelLocalNetwork" value="Ta funkcija bo odstranjena s krajevnega diska, vendar bo še vedno na voljo za zagon iz omrežja."/>
+  <STRING id="UIText.SelNetworkAbsent" value="Ta funkcija bo v celoti odstranjena. Zagon iz omrežja ne bo mogoč."/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Stanje funkcije bo spremenjeno: zagon iz omrežja ne bo mogoč, zato pa se bo namestila po potrebi."/>
+  <STRING id="UIText.SelNetworkLocal" value="Stanje funkcije bo spremenjeno: zagon iz omrežja ne bo mogoč, zato pa se bo namestila na krajevni disk"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Funkcija bo ostala nameščena za zagon iz omrežja."/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Ta funkcija bo sprostila [1] na krajevnem disku. Izbrane podfunkcije: [2] od [3]. Ta podfunkcija bo sprostila [4] na krajevnem disku."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Ta funkcija bo sprostila [1] na krajevnem disku. Izbrane podfunkcije: [2] od [3]. Ta podfunkcija potrebuje [4] na krajevnem disku."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Ta funkcija potrebuje [1] na krajevnem disku. Izbrane podfunkcije: [2] od [3]. Ta podfunkcija bo sprostila [4] na krajevnem disku."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Ta funkcija potrebuje [1] na krajevnem disku. Izbrane podfunkcije: [2] od [3]. Ta podfunkcija potrebuje [4] na krajevnem disku."/>
+  <STRING id="UIText.TimeRemaining" value="Preostali čas: {[1] minutes }{[2] seconds}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Na voljo"/>
+  <STRING id="UIText.VolumeCostDifference" value="Razlika"/>
+  <STRING id="UIText.VolumeCostRequired" value="Potrebno"/>
+  <STRING id="UIText.VolumeCostSize" value="Velikost diska"/>
+  <STRING id="UIText.VolumeCostVolume" value="Nosilec"/>
+  <STRING id="UIText.HttpPostMsg" value="Pošiljanje zbranih podatkov..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.ODBCTestMsg" value="Prosimo, počakajte, medtem ko preizkušamo povezavo..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Brskanje po SQL strežnikih na omrežju..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.BrowseFolderLocation" value="Lokacija"/>
+  <STRING id="UIText.BrowseFolderName" value="Ime mape:"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="Izberite mapo"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;Napaka pri nalaganju vira:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="Namestitev"/>
+  <STRING id="UIText.PrereqInstalled" value="Nameščeno"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="Namestitev je obvezna"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] ali manj}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] ali več}"/>
+  <STRING id="UIText.PrereqSkipAction" value="Preskoči"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="Povezovanje s strežnikom zbirke podatkov ..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="Premalo prostora"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="Gonilniki za namestitev"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="Neuporabljeni pogoni"/>
+  <STRING id="UIText.Warning" value="Opozorilo"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.IAgree#1" value="Sprejemam pogoje licenčne pogodbe"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="Ne sprejemam pogojev licenčne pogodbe"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Da, registriraj za odpiranje te vrste datotek."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Ne, preskoči povezovanje datotek."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Samodejno &amp;zapri aplikacije in jih poskusi po koncu nastavitve ponovno zagnati."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="Ne &amp;zapri aplikacij. (Potreben bo ponovni zagon.)"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="Samo zame ([LogonUser])"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="Vsi (vsi uporabniki)"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Da, odstrani starejše različice."/>
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Ne, namesti poleg starejših različic."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Da, odstrani vse starejše različice."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Ne, odstrani samo različico [AI_Replaced_Versions_List]."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Nazaj"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Nazaj"/>
+  <STRING id="Property.ButtonText_Browse" value="Pre&amp;brskaj ..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Prekliči"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Izhod"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Konec"/>
+  <STRING id="Property.Text_Finish" value="Konec"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Prezri"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Namesti"/>
+  <STRING id="Property.Text_Install" value="Namesti"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Naprej &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Naprej"/>
+  <STRING id="Property.Text_Next" value="Naprej"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Ne"/>
+  <STRING id="Property.ButtonText_OK" value="OK (V redu)"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Odstrani"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Popravi"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Ponastavi"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Nadaljuj"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Ponovi"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Vrnitev"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Da"/>
+  <STRING id="Property.Text_Yes" value="Da"/>
+  <STRING id="Property.CtrlEvtchanges" value="spreminja"/>
+  <STRING id="Property.CtrlEvtChanging" value="Spreminjanje"/>
+  <STRING id="Property.CtrlEvtremoves" value="odstrani"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Odstranjevanje"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Popravljanje"/>
+  <STRING id="Property.CtrlEvtrepairs" value="popravi"/>
+  <STRING id="Property.InstallModeComplete" value="Kompletna"/>
+  <STRING id="Property.InstallModeCustom" value="Po meri"/>
+  <STRING id="Property.InstallModeTypical" value="Tipična"/>
+  <STRING id="Property.Progress1" value="Nameščanje"/>
+  <STRING id="Property.Progress2" value="namesti"/>
+  <STRING id="Property.Setup" value="Nastavitev"/>
+  <STRING id="Property.Wizard" value="Čarovnik za nastavitev"/>
+  <!-- Trialware Settings table -->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Kupi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Ali bi želeli odpreti %TrialName% stran za nakup?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Nepravilna registracijska šifra"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="Registracijska šifra je nepravilna."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% Preizkus"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Pritisnite gumb &quot;Končaj&quot; , da potrdite šifro in nadaljujte."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Prosimo, da vnesete vse vrstice registracijske šifre, ki ste jih prejeli."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Registracija"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Kupi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Obiščite %TrialName% nakupno stran, da si pridobite licenco"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="%TrialName% Poskus je potekel"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="Vaši %Quantity% dnevi poskusa so potekli. Če želite nadaljevati z uporabo %TrialName% , morate kupiti licenco in registrirati aplikacijo."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="Vaše %Quantity% trajanje poskusa je poteklo. Če želite nadaljevati z uporabo %TrialName% , morate kupiti licenco in registrirati aplikacijo."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Dobrodošli v %TrialName% Poskus"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Registrirajte se"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Vnesite registracijsko šifro"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Poskusi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Poteklo"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Kupi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Obiščite %TrialName% nakupno stran, da si pridobite licenco"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="%TrialName% Poskus (%TrialLeft% preostalih dni)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="%TrialName% Poskus (%TrialLeft% preostalo trajanje)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="Uporabljate poskusno različico %TrialName% od [|Manufacturer].. Imate še %TrialLeft% dni na voljo."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="Uporabljate poskusno verzijo %TrialName% od [|Manufacturer]. Na voljo vam je še %TrialLeft% trajanja."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Dobrodošli v %TrialName% Poskus"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Registrirajte se"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Vnesite registracijsko šifro"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Poskusi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Nadaljujte poskus %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=Zahteva za podaljšanje preizkusnega obdobja&amp;body=Pozdravljeni,%%0A%%0Arad bi prejel kodo za podaljšanje preizkusnega obdobja za %TrialName%.%%0A%%0AHvala,%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="Preizkus %TrialName% "/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="Nadaljuj"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="Zahteva za podaljšanje preizkusnega obdobja"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="Pritisnite gumb &quot;Nadaljuj&quot;, da potrdite kodo in nadaljujete s preizkusnim obdobjem."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="Vnesite kodo, ki ste jo prejeli za podaljšanje preizkusnega obdobja."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="Podaljšanje preizkusnega obdobja"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="Podaljšanje preizkusnega obdobja preseženo"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="Preizkusnega obdobja ne morete podaljšati za več kot %Quantity% %TrialMU%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="Nadaljuj"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="%TrialName% registriran"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="Zahvaljujemo se vam za registracijo %TrialName%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="Registracija je uspela"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="Kupi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="Obiščite %TrialName% nakupno stran, da pridobite licenco"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="Preizkus %TrialName% je potekel"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="Vaši %Quantity% dnevi preizkusa so potekli. Če želite nadaljevati z uporabo %TrialName%, morate zahtevati za podaljšanje preizkusnega obdobja ali kupiti licenco in registrirati aplikacijo."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="Vaši %Quantity% trajanje preizkusa je poteklo. Če želite nadaljevati z uporabo %TrialName% , morate zahtevati za podaljšanje preizkusnega obdobja ali kupiti licenco in registrirati aplikacijo."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="Dobrodošli v preizkusu %TrialName% "/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="Registrirajte se"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="Vnesite registracijsko šifro"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="Podaljšanje preizkusnega obdobja"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="Podaljšajte preizkusno obdobje %TrialName% "/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value="%TrialName% registriran"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="Zahvaljujemo se vam za registracijo %TrialName%."/>
+</DICTIONARY>

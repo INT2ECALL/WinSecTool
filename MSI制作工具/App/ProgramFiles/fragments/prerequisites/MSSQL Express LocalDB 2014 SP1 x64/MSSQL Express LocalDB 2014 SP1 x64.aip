@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="FDF5893EA0A24C40ABAA2954F804851E" DisplayName="SQL Server Express LocalDB 2014 SP1 x64" VersionMin="12.1.4100.1"
+      SetupFileUrl="http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x64/SqlLocalDB.msi"
+      Location="1" ExactSize="45318144" MD5="be7f56c047489b0d20a7d49709b8686a"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64, Windows Vista SP1 x64"
+      BasicUiComLine="/qb IACCEPTSQLLOCALDBLICENSETERMS=YES"
+      NoUiComLine="/qn IACCEPTSQLLOCALDBLICENSETERMS=YES"
+      Operator="1" Options="xf" TargetName="SQL Server Express LocalDB 2014 SP1?SqlLocalDB_x64.msi"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="FDF5893EA0A24C40ABAA2954F804851EVersion" Prereq="FDF5893EA0A24C40ABAA2954F804851E" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server 2014 Redist\SqlLocalDB\CurrentVersion\Version" VerMin="12.1.4100.1"
+      Order="1" Property="PreReqSearch_FDF5893EA0A24C40ABAA2954F804851E"/>
+  </COMPONENT>
+</FRAGMENT>

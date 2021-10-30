@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="he" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.BasicUIDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.ErrorDlg" value="מידע למתקין"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [מערכת התקנה]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [מערכת התקנה]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="צור תיקיה חדשה"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="רמה אחת למעלה |י"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="צור תיקיה חדשה"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="שלב אחד למעלה"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="|מידע איקון"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="|מידע איקון"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="שנה התקנה"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="הסר התקנה"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="תקן התקנה"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="| סמל סימן קריאה"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value=":עיון&amp;"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="עבור לתיקית מטרה"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value=":שם התיקיה&amp;"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="שנה ניתוב תיקיה נוכחית"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="נא לציין מיקום רשת עבור דמוי שרת התוכנה"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="הכנס מיקום רשת חדש או לחץ &quot;עיון&quot; על מנת לדפדף לאחד"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="מיקום הרשת"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="התקנה תייצר דמות רשת של התוכנה, במיקום רשת המצוינת.  לחץ &quot;[TEXT_NEXT]&quot; להמשך או &quot;בטל&quot; כדי לבטל"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="ברוכים הבאים למערכת התקנה"/>
+  <STRING id="Control.Text.BasicUIDlg#ProgressBar" value="פס התקדמות"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value=":עיון&amp;"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="דפדף אל תיקיית היעד"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value=":שם התיקיה&amp;"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="שנה ניתוב תיקיה נוכחית"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="? אתה בטוח שברצונך לבטל את התקנה"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="בחר את הדרך לבצוע התקנה"/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="דיסק &amp;שימוש"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="שורות כפולות לתאור הפריט הנבחר הנוכחי"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="הגודל של הפריט הנוכחי"/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;הנתיב הנבחר&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value=":מיקום"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="לחץ על הסמל בעץ מתחת לשנות את הדרך שהפריטים מהותקנים"/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="התקנה לפי בחירה"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="עץ הבחירות"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="שטח איחסון הנדרש להתקנת הפריטים הנבחרים"/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="אתה יכול להסיר חלק מהקבצים מהערכים המודגשים, או לבחור להתקין פחות פריטים בכונן המקומי, או לבחור במיקום אחר"/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="שטח דיסק נדרש"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="טקסט מידע"/>
+  <STRING id="Control.Text.ExitDialog#Description" value=" לחץ על כפתור &quot;סיום&quot; על מנת לצאת מהתקנה"/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="[ProductName] הפעל"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="מסיים את התקנה"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="readme עיין בקובץ"/>
+  <STRING id="Control.Text.FatalError#Description1" value="התקנה נעצרה באופן לא צפוי בגלל טעות, המערכת שלך לא שונתה. להתקין את התוכנה בשלב מאוחר יותר, יש להפעיל את התקנה מחדש"/>
+  <STRING id="Control.Text.FatalError#Description2" value=" לחץ על כפתור &quot;סיום&quot; על מנת לצאת מהתקנה"/>
+  <STRING id="Control.Text.FatalError#LogCheckBox" value="הצג קובץ הרצה"/>
+  <STRING id="Control.Text.FatalError#Title" value="התקנה הסתימה לפני הזמן"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="קבצים מסוימים הנדרשים לעדכון נמצאים כרגע בשימוש"/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="התוכנות הבאות משתמשים בקבצים הנדרשים לעדכון, אתה יכול לסגור את התוכנות ואז ללחוץ &quot;נסה שוב&quot; או ללחוץ &quot;התעלם&quot; ולהמשיך בהתקנה ולחליף את הקבצים במערכת"/>
+  <STRING id="Control.Text.FilesInUse#Title" value="קבצים בשימוש"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="זו הספריה שבו תתוקן התוכנה"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value=":תיקיה&amp;"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="&quot;להתקין במחיצה אחרת, הכנס את זה למטה או לחץ &quot;עיון .&quot;[TEXT_NEXT]&quot;להתקין במחיצה הנוכחית, לחץ "/>
+  <STRING id="Control.Text.FolderDlg#Title" value="בחר תיקיה להתקנה"/>
+  <STRING id="Control.Text.LanguageDlg#LangText" value="בחר שפה להתקנה"/>
+  <STRING id="Control.Text.LanguageDlg#Title" value="[Wizard] [ProductName] ברוכים הבאים למערכת התקנה"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="שינוי&amp;"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="מאפשר למשתמש לשנות את הדרך התקנת הפריטים"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="בחר את הפעולה שברצונך לבצע"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="הסר&amp;"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="[ProductName] מסיר מהמחשב שלך"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="תיקון&amp;"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="מתקן טעויות במצב התקנה נוכחי - מתקן קבצים חסרים או פגומים, קיצורי דרך ורישומי תוכנה"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="שנה, תקן, או הסר התקנה"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="מערכת התקנה תאפשר לך לשנות את התקנה, או אפילו להסיר אותה מהמחשב. לחץ על &quot;המשך&quot; כדי להמשיך או &quot;ביטול&quot; כדי לצאת מהתקנה"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="ברוכים הבאים למערכת התקנה"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="קבצים מסוימים הנדרשים לעדכון נמצאים כרגע בשימוש"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="התוכנות הבאות משתמשים בקבצים הנדרשים לעדכון"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="קבצים בשימוש"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="שטח איחסון הנדרש להתקנה גדול משטח איחסון זמין"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="אתה יכול להסיר חלק מהקבצים מהערכים המודגשים, או לבחור להתקין פחות פריטים בכונן המקומי, או לבחור במיקום אחר"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="חסר שטח איחסון בדיסק"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="שטח איחסון הנדרש להתקנה גדול משטח איחסון זמין"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="אתה יכול להסיר חלק מהקבצים מהערכים המודגשים, או לבחור להתקין פחות פריטים בכונן המקומי, או לבחור במיקום אחר"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="לחילופין, אתה יכול לבחור למנוע מהתקנה לחזור אחורה. זה מאפשר להתקנה למחזר למצב המקורי במידה והתקנה תופרע בדרך כל שהיא. לחץ &quot;כן&quot; במידה ותרצה לקחת את הסיכון למנוע את החזרה אחורה"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="חסר שטח איחסון בדיסק"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="התקנה תבצע את הטלאי במחשב. על מנת להמשיך לחץ &quot;[ טקסט הבא]&quot; או &quot;בטל&quot; כדי לצאת"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="ברוכים הבאים למערכת השיפוץ"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="נא המתן למערכת התקנה להכין את הדרכה להתקנה"/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="ברוכים הבאים למערכת התקנה"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="ביצוע הסתיים"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value=":מצב"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value=" זה עלול לקחת מספר דקות[ProductName]נא המתן למערכת התקנה [התקדמות2] "/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[ProductName][התקדמות1] "/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="מערכת התקנה תתקין את התוכנה על המחשב, לחץ &quot;המשך&quot; על מנת להמשיך בהתקנה או לחץ &quot;בטל&quot; על מנת לבטל את התקנה ולצאת"/>
+  <STRING id="Control.Text.ResumeDlg#Title" value=" [ProductName] מחדש את התקנה של"/>
+  <STRING id="Control.Text.UserExit#Description1" value="מערכת התקנה הופסקה. מערכת המחשב לא שונתה. על מנת להתקין את התוכנה בשלב מאוחר יותר, הפעל את התקנה מחדש"/>
+  <STRING id="Control.Text.UserExit#Description2" value=" לחץ על כפתור &quot;סיום&quot; על מנת לצאת מהתקנה"/>
+  <STRING id="Control.Text.UserExit#Title" value="מערכת התקנה הופרעה"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="מערכת התקנה מוכנה להתחיל בהתקנה"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="לחץ &quot;התקן&quot; על מנת להתחיל בביצוע התקנה. לחץ על &quot;חזור&quot; במידה וברצונך לעיין או לשנות את נתוני התקנה. לחץ על &quot;בטל&quot; על מנת לבטל את התקנה ולצאת"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="מוכן לבצע את התקנה"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="בחרת להסיר את התוכנה מהמחשב"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="לחץ &quot;הסר&quot; על מנת להסיר את התוכנה מהמחשב. במידה ותרצה לעיין או לשנות את ערכי התקנה, לחץ &quot;חזור&quot; או &quot;בטל&quot; על מנת לצאת ממערכת התקנה"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="הסר את התוכנה"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="מערכת התקנה מוכנה להתחיל בתיקון"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="לחץ &quot;תקן&quot; להתחיל בתיקון. המידה ותרצה לעיין או לשנות את נתוני התקנה, לחץ &quot;חזור&quot; או &quot;בטל&quot; על מנת לצאת ממערכת התקנה"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="[ProductName] תקן"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="המתן עד שמערכת התקנה תגמור לחשב את שטח האיחסון הנדרש"/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="מערכת התקנה תתקין את התוכנה על המחשב. לחץ &quot;המשך&quot; על מנת להמשיך בהתקנה או לחץ &quot;בטל&quot; על מנת לבטל את התקנה ולצאת"/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="ברוכים הבאים למערכת התקנה"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="תוכנת פירסום"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="מאתר שטח לרישום"/>
+  <STRING id="ActionText.Description.AppSearch" value="מחפש תוכנות מותקנות"/>
+  <STRING id="ActionText.Description.BindImage" value="מתאם הפעלות"/>
+  <STRING id="ActionText.Description.CCPSearch" value="מחפש מוצרים מאושרים"/>
+  <STRING id="ActionText.Description.CostFinalize" value="מחשב שטח נדרש"/>
+  <STRING id="ActionText.Description.CostInitialize" value="מחשב שטח נדרש"/>
+  <STRING id="ActionText.Description.CreateFolders" value="יצירת תיקיות"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="יוצר קיצור דרך"/>
+  <STRING id="ActionText.Description.DeleteServices" value="מבטל שירותים"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="יוצר קבצים כפולים"/>
+  <STRING id="ActionText.Description.FileCost" value="מחשב שטחים נדרשים"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="מחפש יישומים קשורים"/>
+  <STRING id="ActionText.Description.GenerateScript" value="יוצר פועלות כתב לפעולה"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="מעתיק קבצי התקנה לרשת"/>
+  <STRING id="ActionText.Description.InstallFiles" value="מעתיק קבצים חדשים"/>
+  <STRING id="ActionText.Description.InstallODBC" value="ODBC מתקין פרטי"/>
+  <STRING id="ActionText.Description.InstallServices" value="מתקין שרות חדש"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="מתקין ספרית המערכת"/>
+  <STRING id="ActionText.Description.InstallValidate" value="מאשרר התקנה"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="בודק תנאי הפעלה"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="מעביר מצבי תכונות מיישומים קשורים"/>
+  <STRING id="ActionText.Description.MoveFiles" value="מזיז קבצים"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="מפרסם מידע על המאגר"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="מסיר פירסום על המאגר"/>
+  <STRING id="ActionText.Description.PatchFiles" value="מתקן קבצים"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="מעדכן רשום רכיבים"/>
+  <STRING id="ActionText.Description.PublishComponents" value="מפרסם פריטים נבחרים"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="מפרסם אפשריות מוצר"/>
+  <STRING id="ActionText.Description.PublishProduct" value="מפרסם מידע על המוצר"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="רישום שירותים קלסיים"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="COM+ רישום תוכנות ורכיבים ל"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="רישום שירותים מורכבים"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="רישום גופנים"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="MIME רישום מידע ל"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="רישום מוצר"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="רישום מזהה התוכנית"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="type רישום ספריות"/>
+  <STRING id="ActionText.Description.RegisterUser" value="רישום משתמש"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="מסיר קבצים כפולים"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="מעדכן שורות "/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="מסיר תוכנות"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="מסיר קבצים"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="מסיר מחיצות"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="INI מסיר קבצי"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="ODBC מסיר רכיבי"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="מסיר ערכי רישום מערכת"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="מסיר קיצורי דרך"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="מחפש מוצרים מאושרים"/>
+  <STRING id="ActionText.Description.Rollback" value=":פעילות גילגול חזרה"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="מסיר קבצי גיבוי"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="רישום מודלים"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="מחיקת רישום מודלים"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="ODBC מאתחל ספריות"/>
+  <STRING id="ActionText.Description.StartServices" value="מתחיל שירותים"/>
+  <STRING id="ActionText.Description.StopServices" value="עוצר שירותים"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="מסיר קבצים מוזזים"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="מסיר פרסום לפריטים מאושרים"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="מסיר פרסום אפשריות מוצר"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="מסיר פרסום מידע על המוצר"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="מסיר רישום שירותים קלסיים"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="COM+ מסיר רישום תוכנות ורכיבים ל"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="מסיר רישום שירותים מורחבים"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="מסיר רישום גופנים"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="MIME מסיר מידע ל"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="מסיר רישום מזהי תוכנית"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="מסיר רישום סוגי ספריות"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="מעדכן סביבת השורה"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="INI כותב ערכים לקבצי"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="כותב ערכי מערכת"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="[1] :שטח פנוי"/>
+  <STRING id="ActionText.Template.AppSearch" value=" [2]תכונה: [1], חתימה"/>
+  <STRING id="ActionText.Template.BindImage" value="[1]:קובץ"/>
+  <STRING id="ActionText.Template.CreateFolders" value="[1] :תיקיה"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="[קצור דרך:[1"/>
+  <STRING id="ActionText.Template.DeleteServices" value="[1] :שרות"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="[6]קובץ: [1], ספריה: [9], גודל"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="[1] :נמצא תוכנה"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="[6]קובץ: [1], ספריה: [9], גודל"/>
+  <STRING id="ActionText.Template.InstallFiles" value="[6]קובץ: [1], ספריה: [9], גודל"/>
+  <STRING id="ActionText.Template.InstallServices" value="[2] :שרות"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value=" [2]קובץ: [1], תלות"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="[1] :תוכנה"/>
+  <STRING id="ActionText.Template.MoveFiles" value="[6]קובץ: [1], ספריה: [9], גודל"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="[תוכן התוכנה:[1], שם הקובץ[2"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="[תוכן התוכנה:[1], שם הקובץ[2"/>
+  <STRING id="ActionText.Template.PatchFiles" value="[3]קובץ: [1], נתיב: [2], גודל"/>
+  <STRING id="ActionText.Template.PublishComponents" value=" [2]זיהוי פריט: [1], מאשר"/>
+  <STRING id="ActionText.Template.PublishFeatures" value=" [1] :מאפין "/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="מזהה מחלקה: [1]י"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="[1] :שלוחה"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="[1] :גופן"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="[2]שלוחה,[1]:MIME תוכן הסוג"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="[9]קובץ: [1], נתיב"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="[3]שם: [1], ערך: [2], פעולה"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value=" [2]תוכנה: [1], שורת פקודה"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="[9]קובץ: [1], נתיב"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="תיקיה: [1]י"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value=" [4]קובץ: [1], מדור: [2], מפתח: [3], ערך"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="[2]מפתח: [1], שם"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="[קצור דרך:[1"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="[1]:קובץ"/>
+  <STRING id="ActionText.Template.SelfRegModules" value=" [2]קובץ: [1], תיקיה"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value=" [2]קובץ: [1], תיקיה"/>
+  <STRING id="ActionText.Template.StartServices" value="[1] :שרות"/>
+  <STRING id="ActionText.Template.StopServices" value="[1] :שרות"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="[9]קובץ: [1], נתיב"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value=" [2]זיהוי פריט: [1], מאשר"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="[1]: מאפין"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="מזהה מחלקה: [1]י"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="[1] :שלוחה"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="[1] :גופן"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="[2]שלוחה,[1]:MIME תוכן הסוג"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="[3]שם: [1], ערך: [2], פעולה"/>
+  <STRING id="ActionText.Template.WriteIniValues" value=" [4]קובץ: [1], מדור: [2], מפתח: [3], ערך"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="[3]מפתח: [1], שם: [2], ערך "/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{טעות משמעותית }}"/>
+  <STRING id="Error.1" value="{{טעות [1]. }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.1001" value="[2]. [1] טעות"/>
+  <STRING id="Error.11" value=" [2] סוג הודעה [1], טענה"/>
+  <STRING id="Error.1101" value="  טעות קריאה מקובץ .[2] {{ טעות מערכת [3]}} וודע שהקובץ קיים ויש גישה אליו"/>
+  <STRING id="Error.12" value="=== רישום יומן החל: [תאריך] [זמן] ==="/>
+  <STRING id="Error.13" value="=== רישום יומן נעצר: [תאריך] [זמן] ==="/>
+  <STRING id="Error.1301" value="  לא יכול לייצור קובץ &apos;[2]&apos; ספריה באותו שם כבר קיימת. בטל את התקנה, ותנסה להתקין למיקום אחר "/>
+  <STRING id="Error.1302" value="[2] נא להכנים תקליטור"/>
+  <STRING id="Error.1303" value="למתקין אין הרשאה מתאימה לגשת לספריה: [2]. התקנה לא יכולה להמשיך. כנס כמנהל או פנה למנהל המערכת"/>
+  <STRING id="Error.1304" value="טעות בכתיבה לקובץ: [2]. וודע שיש לך גישה לספריה"/>
+  <STRING id="Error.1305" value="  טעות קריאה מקובץ .[2] {{ טעות מערכת [3]}} וודע שהקובץ קיים ויש  לך גישה אליו"/>
+  <STRING id="Error.1306" value="&quot;תוכנה אחרת יש גישה בלעדית לקובץ &apos;[2]&apos;. סגור את כל התוכנות האחרות, ולחץ &quot;נסה שוב"/>
+  <STRING id="Error.1307" value="אין מספיק מקום בכונן להתקין את קובץ: [2]. פנה מקום בכונן ולחץ &quot;נסה שוב&quot; או לחץ &quot;בטל&quot; על מנת לצאת"/>
+  <STRING id="Error.1308" value="קובץ מקור לא אותר: [2]. וודע שהקובץ קיים ואתה יכול לגשת אליו"/>
+  <STRING id="Error.1309" value="  טעות קריאה מקובץ .[3] {{ טעות מערכת [2]}} וודע שהקובץ קיים ויש  לך גישה אליו"/>
+  <STRING id="Error.1310" value="  טעות קריאה מקובץ .[3] {{ טעות מערכת [2]}} וודע שהקובץ קיים ויש  לך גישה אליו"/>
+  <STRING id="Error.1311" value="קובץ מקור לא אותר {{(תא)}}: [2]. וודע שהקובץ קיים ואתה יכול לגשת אליו"/>
+  <STRING id="Error.1312" value="  לא יכול לייצור קובץ &apos;[2]&apos; ספריה באותו שם כבר קיימת. שנה את השם או בטל אותו "/>
+  <STRING id="Error.1313" value="ערך [2] כרגע לא זמין. נא בחר אחר"/>
+  <STRING id="Error.1314" value="הנתיב המצוין &apos;[2]&apos; לא נגיש"/>
+  <STRING id="Error.1315" value="[2] לא מסוגל לכתוב למחיצה"/>
+  <STRING id="Error.1316" value=" [2] טעות רשת נוצרה בנסיון לקרוא מקובץ"/>
+  <STRING id="Error.1317" value="דפדף אל תיקיית היעד אירעה שגיאה בעת ניסיון ליצור את הספרייה: [2]ו"/>
+  <STRING id="Error.1318" value="[2] נוצרה טעות רשת בזמן יצירת ספריה"/>
+  <STRING id="Error.1319" value=" [2] טעות רשת נוצרה בזמן נסיון לפתוח תא קובץ מקור"/>
+  <STRING id="Error.1320" value=" [2] הנתיב המצוין ארוך מדי"/>
+  <STRING id="Error.1321" value="[2]. למתקין אין הרשאות מתאימות לשנות את קובץ"/>
+  <STRING id="Error.1322" value="חלק מנתיב המחיצה [2] לא מתאים. או שזה ריק או ארוך יותר מאשר המערכת מרשה"/>
+  <STRING id="Error.1323" value="נתיב המחיצה &apos;[2]&apos; מכיל מילים לא מתאימות לתיב מחיצה"/>
+  <STRING id="Error.1324" value="נתיב תיקיה &apos;[2]&apos; מכיל אותיות לא מתיאמות"/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; הוא לא שם קובץ תקין"/>
+  <STRING id="Error.1326" value="[2]:GetLastError: [3] טעות קבלת קובץ בטחון "/>
+  <STRING id="Error.1327" value="[2] כונן לא תואם"/>
+  <STRING id="Error.1328" value="שגיאה בהחלת תיקון על הקובץ [2]. כנראה שהקובץ עודכן בדרך אחרת, ולא ניתן לשנותו עוד באמצעות תיקון זה. לקבלת מידע נוסף, פנה אל ספק תיקון. {{שגיאת מערכת: [3]}}"/>
+  <STRING id="Error.1329" value="קובץ אשר נדרש לא ניתן להתקין מפני שקובץ ה- Cabinet [2] לא חתום דיגיטלית. זה עשוי להצביע על כך שקובץ ה- Cabinet פגום."/>
+  <STRING id="Error.1330" value="קובץ אשר נדרש לא ניתן להתקין מפני שקובץ ה- Cabinet [2] חתום בחתימה דיגיטלית לא חוקית. זה עשוי להצביע על כך שקובץ ה- Cabinet פגום. {{שגיאה [3] WinVerifyTrust החזירה.}}"/>
+  <STRING id="Error.1331" value="CRC.נכשל נסיון להעתיק כראוי [2] קובץ: שגיאת "/>
+  <STRING id="Error.1332" value="CRC.נכשל נסיון להזיז כראוי [2] קובץ: שגיאת "/>
+  <STRING id="Error.1333" value="CRC.נכשל תיקון תקין [2] קובץ: שגיאת "/>
+  <STRING id="Error.1334" value="הקובץ &apos;[2]&apos; לא ניתן להתקין מכיוון שהקובץ לא ניתן למצוא בקובץ ה- Cabinet &apos;[3]&apos;. זה יכול להעיד על שגיאת רשת, שגיאה בקריאה מן CD-ROM, או בעיה עם החבילה הזו."/>
+  <STRING id="Error.1335" value="קובץ cabinet &apos;[2]&apos; הנדרש עבור התקנה זו הוא מושחת ולא ניתן לשימוש. זה יכול להעיד על שגיאת רשת, שגיאה בקריאת CD-ROM, או בעיה עם החבילה הזו."/>
+  <STRING id="Error.1336" value="אירעה שגיאה בעת יצירת קובץ זמני הנחוץ להשלמת התקנה זו {{תיקיה:. [3]. קוד שגיאת מערכת: [2]}}"/>
+  <STRING id="Error.14" value=" [Time]: [1]. הפעולה התחילה"/>
+  <STRING id="Error.1401" value="אין אפשרות ליצור מפתח: [2]. {{שגיאת מערכת [3].}} ודא שיש לך גישה מספקת למפתח זה, או פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1402" value="אין אפשרות לפתוח מפתח: [2]. {{שגיאת מערכת [3].}} ודא שיש לך גישה מספקת למפתח זה, או פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1403" value="אין אפשרות למחוק את הערך [2] מהמפתח [3]. {{שגיאת מערכת [4].}} ודא שיש לך גישה מספקת למפתח זה, או פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1404" value="אין אפשרות למחוק את המפתח [2]. {{שגיאת מערכת [3].}} ודא שיש לך גישה מספקת למפתח זה, או פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1405" value="אין אפשרות לקרוא את הערך [2] מהמפתח [3]. {{שגיאת מערכת [4].}} ודא שיש לך גישה מספקת למפתח זה, או פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1406" value="אין אפשרות לכתוב את הערך [2] מהמפתח [3]. {{שגיאת מערכת [4].}} ודא שיש לך גישה מספקת למפתח זה, או פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1407" value="אין אפשרות לקבל שמות ערכים עבור מפתח [2]. {{שגיאת מערכת [3].}} ודא שיש לך גישה מספקת למפתח זה, או פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1408" value="אין אפשרות לקבל שמות מפתחות משנה עבור מפתח [2]. {{שגיאת מערכת [3].}} ודא שיש לך גישה מספקת למפתח זה, או פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1409" value="אין אפשרות לקרוא מידע אבטחה עבור מפתח [2]. {{שגיאת מערכת [3].}} ודא שיש לך גישה מספקת למפתח זה, או פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1410" value="אין אפשרות להגדיל את שטח הרישום הזמין. [2] KB שטח רישום פנוי עבור ההתקנה של יישום זה."/>
+  <STRING id="Error.15" value="הפעולה הסתיימה ב- [זמן]: [1]. ערך החזרה [2]י"/>
+  <STRING id="Error.1500" value="מערכת התקנה אחרת נמצאת בפעולה. אתה חייב לגמור את התקנה לפני שתמשיך בנוכחי"/>
+  <STRING id="Error.1501" value="שגיאה בגישה אל נתונים מאובטחים. ודא ש- Windows Installer מוגדר כהלכה ונסה להתקין שוב."/>
+  <STRING id="Error.1502" value="המשתמש [2] &apos;הפעיל בעבר התקנה עבור המוצר &quot;[3]&quot;. משתמש זה יצטרך להפעיל מתקינים שוב לפני שהם יכולים להשתמש במוצר זה. התקנה הנוכחית שלך ימשיך עכשיו."/>
+  <STRING id="Error.1503" value="המשתמש [2] &apos;הפעיל בעבר התקנה עבור המוצר &quot;[3]&quot;. משתמש זה יצטרך להפעיל התקנה זו שוב לפני שהם יכולים להשתמש במוצר זה."/>
+  <STRING id="Error.16" value="זמן שנותר: {[1] דקות} {[2]} שניות"/>
+  <STRING id="Error.1601" value="אין שטח דיסק פנוי - אמצעי אחסון: &apos;[2]&apos;; שטח דרוש: [3] KB; מקום פנוי: [4] KB. פנה שטח בדיסק ונסה שנית."/>
+  <STRING id="Error.1602" value="? אתה בטוח שברצונך לבטל"/>
+  <STRING id="Error.1603" value="הקובץ [2] [3] מוחזק בשימוש {בתהליך הבא: שם: [4], מזהה: [5], חלון הכותרת: &quot;[6] &apos;}. סגור יישום זה ונסה שנית."/>
+  <STRING id="Error.1604" value="המוצר &apos;[2]&apos; מותקן כבר ומונע את ההתקנה של מוצר זה. שני המוצרים אינם תואמים זה .."/>
+  <STRING id="Error.1605" value="אין מספיק מקום פנוי בדיסק על אמצעי האחסון &apos;[2]&apos; כדי להמשיך את ההתקנה עם התאוששות מופעלת. [3] KB נדרש, אך רק [4] KB זמין. לחץ על &quot;התעלם&quot; כדי להמשיך את ההתקנה מבלי לשמור את מידע שחזור, לחץ על &quot;נסה שוב&quot; כדי לבדוק שוב את שטח הפנוי, או לחץ על &quot;ביטול&quot; כדי להפסיק את"/>
+  <STRING id="Error.1606" value=".[2] לא מצליח להכנס למיקום הרשת"/>
+  <STRING id="Error.1607" value=":היישומים הבאים צריכים להיות סגורים לפני המשך התקנה"/>
+  <STRING id="Error.1608" value="לא נמצאו מוצרים תואמים מותקנים במחשב לצורך התקנת מוצר זה."/>
+  <STRING id="Error.1609" value="אירעה שגיאה בעת החלת הגדרות אבטחה. [2] אינו משתמש או קבוצה חוקי. זה יכול להיות בעיה עם החבילה, או בעיה בחיבור לבקר תחומים ברשת. בדוק את חיבור הרשת ולחץ על &quot;נסה שוב&quot;, או &quot;ביטול&quot; כדי לסיים את ההתקנה. {{אין אפשרות לאתר את השגיאה של משתמשים SID, טעות מערכת [3]}}"/>
+  <STRING id="Error.17" value=".חסר זיכרון. סגור יישומים אחרים לפני שתנסה שוב"/>
+  <STRING id="Error.1701" value=".המפתח [2] לא חוקי. ודא שהזנת את המפתח הנכון"/>
+  <STRING id="Error.1702" value="המתקין חייב להפעיל מחדש את המערכת לפני הגדרת התצורה של [2] יכול להמשיך. לחץ על &quot;כן&quot; כדי להפעיל מחדש עכשיו, או &quot;לא&quot; אם אתה מתכנן להפעיל מחדש באופן ידני מאוחר יותר."/>
+  <STRING id="Error.1703" value="עליך להפעיל מחדש את המחשב כדי ששינויי התצורה שבוצעו ב- [2] ייכנסו לתוקף. לחץ על &quot;כן&quot; כדי להפעיל מחדש עכשיו, או &quot;לא&quot; אם אתה מתכנן להפעיל מחדש באופן ידני מאוחר יותר."/>
+  <STRING id="Error.1704" value="התקנה עבור [2] נמצאת כעת בהשהיה. עליך לבטל את השינויים שנעשו על ידי התקנה זו כדי להמשיך. האם אתה רוצה לבטל את השינויים האלה?"/>
+  <STRING id="Error.1705" value="התקנה קודמת של מוצר זה מתבצעת כעת. עליך לבטל את השינויים שנעשו על ידי התקנה זו כדי להמשיך. האם אתה רוצה לבטל את השינויים האלה?"/>
+  <STRING id="Error.1706" value="חבילת התקנה עבור המוצר [2] לא ניתן למצוא. נסה לבצע את ההתקנה שוב באמצעות עותק חוקי של חבילת ההתקנה &apos;[3]&apos;.?"/>
+  <STRING id="Error.1707" value="התקנה בוצעה בהצלחה"/>
+  <STRING id="Error.1708" value="התקנה נכשלה"/>
+  <STRING id="Error.1709" value=" [3] -- [2] מוצרים"/>
+  <STRING id="Error.1710" value="?באפשרותך לשחזר את המחשב למצבו הקודם או להמשיך את ההתקנה מאוחר יותר. האם אתה רוצה לשחזר"/>
+  <STRING id="Error.1711" value="אירעה שגיאה בעת כתיבת פרטי התקנה בדיסק. בדוק על מנת להבטיח שיש מספיק מקום זמין בדיסק, ולחץ על &quot;נסה שוב&quot;, או &quot;ביטול&quot; כדי לסיים את ההתקנה."/>
+  <STRING id="Error.1712" value="אחת או יותר של הקבצים הדרושים כדי לשחזר את המחשב למצבו הקודם לא נמצא. שיקום לא יהיה אפשרי"/>
+  <STRING id="Error.1713" value="{{System Error: [3].}} לא יכול להתקין אחד המוצרים הנדרשים. פנה לתמיכה הטכנית[2]"/>
+  <STRING id="Error.1714" value="הגרסה הישנה של [2] לא ניתן להסיר. פנה אל קבוצת התמיכה הטכנית שלך. {{שגיאת מערכת [3].}}"/>
+  <STRING id="Error.1715" value=" [2] הותקן"/>
+  <STRING id="Error.1716" value="[2] מחשב"/>
+  <STRING id="Error.1717" value=" [2] הוסר"/>
+  <STRING id="Error.1718" value="קובץ [2] נדחה על ידי מדיניות חתימות דיגיטליות."/>
+  <STRING id="Error.1719" value="שירות Windows Installer לא היתה אפשרות גישה. זה יכול להתרחש אם אתה מפעיל את Windows במצב בטוח, או אם Windows Installer אינו מותקן כראוי. פנה אל צוות התמיכה שלך לקבלת סיוע."/>
+  <STRING id="Error.1720" value="קיימת בעיה בחבילה זו של Windows Installer. Script הדרוש עבור להשלמת התקנה זו אין אפשרות להפעיל. פנה אל צוות התמיכה או ספק החבילה. {{פעולה מותאמת אישית [2] שגיאת Script [3], [4]: [5] שורה [6], עמודה [7], [8]}}"/>
+  <STRING id="Error.1721" value="קיימת בעיה בחבילה זו של Windows Installer. תוכנית הדרושה להשלמת התקנה זו אין אפשרות להפעיל. פנה אל צוות התמיכה או ספק החבילה. {{פעולה: [2], מיקום: [3], פקודה: [4]}}"/>
+  <STRING id="Error.1722" value="קיימת בעיה בחבילה זו של Windows Installer. הפעלת תוכנית כחלק מההתקנה לא הסתיימה כצפוי. פנה אל צוות התמיכה או ספק החבילה. {{פעולה [2], מיקום: [3], פקודה: [4]}}"/>
+  <STRING id="Error.1723" value="קיימת בעיה בחבילה זו של Windows Installer. אין אפשרות להפעיל DLL הדרוש להשלמת התקנה זו. פנה אל צוות התמיכה או ספק החבילה. {{פעולה [2], כניסה: [3], ספרייה: [4]}}"/>
+  <STRING id="Error.1724" value="הסרה הושלמה בהצלחה"/>
+  <STRING id="Error.1725" value="הסרה נכשלה"/>
+  <STRING id="Error.1726" value="פירסום הושלם בהצלחה"/>
+  <STRING id="Error.1727" value="פירסום נכשל"/>
+  <STRING id="Error.1728" value="הגדרת התצורה הסתיימה בהצלחה"/>
+  <STRING id="Error.1729" value="קביעת התצורה נכשלה"/>
+  <STRING id="Error.1730" value="עליך להיות מנהל כדי להסיר יישום זה. כדי להסיר יישום זה, אתה יכול להיכנס למערכת כמנהל או לפנות אל קבוצת התמיכה הטכנית לקבלת סיוע."/>
+  <STRING id="Error.18" value="מערכת התקנה לא מגיבה יותר"/>
+  <STRING id="Error.1801" value=".הנתיב [2] לא חוקי. אנא ציין נתיב חוקי"/>
+  <STRING id="Error.1802" value=".חסר זיכרון. סגור יישומים אחרים לפני שתנסה שוב"/>
+  <STRING id="Error.1803" value="אין דיסק בכונן [2]. אנא הכנס דיסק לכונן ולחץ על &quot;נסה שוב&quot;, או לחץ על &quot;ביטול&quot; כדי לחזור לאמצעי האחסון שנבחר קודם לכן."/>
+  <STRING id="Error.1804" value="אין דיסק בכונן [2]. אנא הכנס דיסק לכונן ולחץ על &quot;נסה שוב&quot;, או לחץ על &quot;ביטול&quot; כדי לחזור לתיבת הדו-שיח לדפדוף ולבחור באמצעי אחסון אחר."/>
+  <STRING id="Error.1805" value="התיקייה [2] לא קיימת. אנא הזן נתיב אל תיקייה קיימת."/>
+  <STRING id="Error.1806" value="אין לך הרשאות מספיקות לקריאת תיקייה זו."/>
+  <STRING id="Error.1807" value="תיקיית יעד עבור ההתקנה לא ניתן לקבוע."/>
+  <STRING id="Error.19" value="התקנה הופסקה בטרם עת"/>
+  <STRING id="Error.1901" value=" [2].שגיאה בעת ניסיון לקרוא מהמקור מסד נתונים להתקנה"/>
+  <STRING id="Error.1902" value="מתזמן פעולת אתחול מחדש: משנה שם הקובץ [2] ל- [3]. נדרש אתחול מחדש להשלמת הפעולה"/>
+  <STRING id="Error.1903" value="מתזמן פעולת אתחול מחדש: מוחק קובץ [2]. נדרש אתחול מחדש להשלמת הפעולה"/>
+  <STRING id="Error.1904" value="מודול [2] לא הצליח לרשום. פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1905" value="מודול [2] נכשל לבטל רישום.  פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1906" value="נכשלה החבילה מטמון [2]. שגיאה: [3]. פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1907" value="לא ניתן לבצע רישום של הגופן [2]. ודא שיש לך הרשאות גישה מספיקות כדי להתקין גופנים, ושהמערכת תומכת בגופן זה."/>
+  <STRING id="Error.1908" value="לא ניתן לבטל את רישום הגופן [2]. ודא שיש לך הרשאות מספיקות להסרת גופנים"/>
+  <STRING id="Error.1909" value="לא ניתן ליצור קיצור דרך [2]. ודא שתיקיית היעד קיימת וכי יש לך אפשרות גישה אליו."/>
+  <STRING id="Error.1910" value="אין אפשרות להסיר את קיצור הדרך [2]. ודא שקובץ קיצור הדרך קיים וכי יש לך אפשרות גישה אליו"/>
+  <STRING id="Error.1911" value="אין אפשרות לרשום ספריית סוגים עבור קובץ [2]. פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1912" value="אין אפשרות לבטל את רישום ספריית סוגים עבור קובץ [2]. פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1913" value="אין אפשרות לעדכן את קובץ ה [2] [3]. ודא שהקובץ קיים וכי יש לך אפשרות גישה אליו."/>
+  <STRING id="Error.1914" value="אין אפשרות לתזמן קובץ [2] להחלפת קובץ [3] בעת אתחול מחדש. ודא שיש לך הרשאות כתיבה בקובץ [3]."/>
+  <STRING id="Error.1915" value="שגיאה בהסרת מנהל התקן, שגיאת  [2]: [3]. פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1916" value="שגיאה בהתקנת מנהל התקן, שגיאת  [2]: [3]. פנה אל צוות התמיכה שלך."/>
+  <STRING id="Error.1917" value="שגיאה בהסרת מנהל התקן : [4], שגיאת [2]: [3]. ודא שיש לך הרשאות מספיקות להסרת מנהלי התקן ODBC."/>
+  <STRING id="Error.1918" value="שגיאה בהתקנת מנהל התקן : [4] [5], שגיאת [2]: [3]. ודא שהקובץ [4] [6] קיים וכי יש לך אפשרות גישה אליה"/>
+  <STRING id="Error.1919" value="שגיאה בהגדרת מקור נתוני : [4] [5], שגיאת [2]: [3]. ודא שהקובץ [4] [6] קיים וכי יש לך אפשרות גישה אליה"/>
+  <STRING id="Error.1920" value="&apos;[2]&apos; ([3])שירות  התחלה נכשלה. ודא שיש לך הרשאות מספיקות להפעלת שירותי מערכת  "/>
+  <STRING id="Error.1921" value="שירות  לא היה אפשר לעצור אותו. ודא שיש לך הרשאות מספיקות לעצירת שירותי מערכת"/>
+  <STRING id="Error.1922" value=" אין אפשרות למחוק. ודא שיש לך הרשאות מספיקות להסרת שירותי מערכת  ([3])&apos;[2]&apos;שרות"/>
+  <STRING id="Error.1923" value=" אין אפשרות להתקין. ודא שיש לך הרשאות מספיקות להסרת שירותי מערכת  ([3])&apos;[2]&apos;שרות"/>
+  <STRING id="Error.1924" value="לא ניתן לעדכן את משתנה הסביבה &quot;[2]&quot;. ודא שיש לך הרשאות מספיקות לשינוי משתנה סביבה."/>
+  <STRING id="Error.1925" value="אין לך הרשאות מספיקות להשלמת התקנה זו עבור כל המשתמשים במחשב. היכנס למערכת כמנהל מערכת ולאחר מכן נסה להתקין שוב."/>
+  <STRING id="Error.1926" value="לא ניתן להגדיר את אבטחת קובץ עבור קובץ &apos;[3]&apos;. שגיאה: [2]. ודא שיש לך הרשאות מספיקות לשינוי הרשאות האבטחה של קובץ זה."/>
+  <STRING id="Error.1927" value="שירותי רכיבים  אינם מותקנים במחשב זה. התקנה זו מחייבת שירותי רכיבים כדי להשלים בהצלחה. שירותי רכיבים זמינים ב- Windows 2000."/>
+  <STRING id="Error.1928" value="COM+ שגיאה בעת הרישום של היישום. פנה אל צוות התמיכה שלך לקבלת מידע נוסף."/>
+  <STRING id="Error.1929" value="COM + יישום שגיאה בעת ביטול רישום. פנה אל צוות התמיכה שלך לקבלת מידע נוסף."/>
+  <STRING id="Error.1930" value="התיאור לשירות &apos;2]&apos; ([3]) לא ניתן לשינוי."/>
+  <STRING id="Error.1931" value="Windows Installer אין אפשרות לעדכן את קובץ המערכת [2] מפני שהקובץ מוגן על-ידי חלונות. ייתכן שיהיה עליך לעדכן את מערכת ההפעלה כדי שתוכנית זו תפעל כהלכה. {{גרסת חבילה: [3], גרסה מוגנת של מערכת ההפעלה: [4]}}"/>
+  <STRING id="Error.1932" value="Windows Installer לשירות אין אפשרות לעדכן את קובץ ה- חלונות המוגן [2]. {{גרסת חבילה: [3], גרסה מוגנת של מערכת ההפעלה: [4], שגיאת : [5]}}"/>
+  <STRING id="Error.1933" value="לשירות אין אפשרות לעדכן אחד או יותר קבצי ה- חלונות מוגנים. {{שגיאת : [2]. רשימת קבצים מוגנים: Windows Installer"/>
+  <STRING id="Error.1934" value="התקנות משתמש מושבתות על-ידי מדיניות המערכת."/>
+  <STRING id="Error.1935" value="אירעה שגיאה במהלך התקנת רכיב הרכבה [2]. {{ממשק הרכבה: [4], פונקציה: [5], שם הרכבה: [6]}} HRESULT: [3]."/>
+  <STRING id="Error.1936" value="אירעה שגיאה במהלך ההתקנה של הרכבה &apos;[6]&apos;. ההרכבה אינה בעלת שם חזק או שאינה חתומה באורך המפתח המינימלי. {{ממשק הרכבה: [4], פונקציה: [5], רכיב: [2]}} HRESULT: [3]."/>
+  <STRING id="Error.1937" value="אירעה שגיאה במהלך ההתקנה של הרכבה &apos;[6]&apos;. את החתימה או הקטלוג לא ניתן לאמת או אינה חוקית. {{ממשק הרכבה: [4], פונקציה: [5], רכיב: [2]}} HRESULT: [3]."/>
+  <STRING id="Error.1938" value="אירעה שגיאה במהלך ההתקנה של הרכבה &apos;[6]&apos;. אחת או יותר מהמודולים עבור ההרכבה לא נמצא. {{ממשק הרכבה: [4], פונקציה: [5], רכיב: [2]}} HRESULT: [3]."/>
+  <STRING id="Error.1939" value="&apos;[2]&apos; ([3])השירות לא יכול להיות מוגדר. זה יכול להיות בעיה עם החבילה או ההרשאות שלך. ודא שיש לך הרשאות מספיקות כדי להגדיר שירותים במערכת"/>
+  <STRING id="Error.1940" value="השירות לא יכול להיות מוגדר. קביעת תצורה של שירותים נתמכים רק בחלונות 2008 ומעלה &apos;[2]&apos; ([3])"/>
+  <STRING id="Error.1941" value="נמצאו בחבילה. רק אחד מהם צריך להיות נוכח. זוהי בעיה עם החבילה MsiLockPermissions &amp; Ex LockPermissions"/>
+  <STRING id="Error.1942" value=" תנאים  כפולים(&apos;[2]&apos; ו &apos;[3]&apos;פתרו לנכון בעת התקנת אובייקט [4] (משולחן [5] זה עשוי להיות בעיה עם החבילה"/>
+  <STRING id="Error.1943" value="מחרוזת &apos;[2]&apos; עבור אוביקט [3] בטבלה [4], לא יכולה להיפתר לתוך מתאר אבטחה תקף"/>
+  <STRING id="Error.1944" value="לא ניתן להגדיר את האבטחה עבור שירות &apos;[3]&apos;. שגיאה: [2]. ודא שיש לך הרשאות מספיקות לשינוי הרשאות האבטחה של שירות זה."/>
+  <STRING id="Error.1945" value="API MsiAdvertiseScript אין לך הרשאות מספיקות להשלמת מחדש פרסומת של מוצר זה. Re-פרסומת דורש חניכה על ידי חשבון מערכת מקומית קורא ל- "/>
+  <STRING id="Error.1946" value="{{HRESULT [4].}} נכס &apos;[2]&apos; עבור קיצור &apos;[3]&apos; לא יכול להיות מוגדר"/>
+  <STRING id="Error.2" value="[1] אזהרה"/>
+  <STRING id="Error.20" value="[ProductName] אנא המתן בזמן ש-חלונות מגדיר"/>
+  <STRING id="Error.21" value="אוסף מידע נדרש"/>
+  <STRING id="Error.2101" value=".קיצורי דרך לא נתמך על ידי מערכת ההפעלה"/>
+  <STRING id="Error.2102" value=" INI [2]:פעולה לא חוקית"/>
+  <STRING id="Error.2103" value="אין אפשרות לפענח נתיב עבור תיקיית המעטפת [2]ו"/>
+  <STRING id="Error.2104" value="INI שגיעת מערכת [2]. כתיבת קובץ [3]:ו"/>
+  <STRING id="Error.2105" value="יצירת קיצור הדרך [3] נכשלה. שגיאת מערכת: [2]ו"/>
+  <STRING id="Error.2106" value="מחיקת קיצור דרך [3] נכשלה. שגיאת מערכת: [2]ו"/>
+  <STRING id="Error.2107" value="שגיאה [3]ספריית סוגי רישום [2]ו"/>
+  <STRING id="Error.2108" value="שגיאה [3] ביטול רישום של ספרייה [2]ו"/>
+  <STRING id="Error.2109" value="INI חסר מקטע עבור פעולת "/>
+  <STRING id="Error.2110" value=".INI חסר מפתח לפעילות"/>
+  <STRING id="Error.2111" value="ןזיהוי יישומים פעילים נכשל, אין אפשרות לקבל נתוני ביצועים. פעולה רשומה החזירה: [2]ו"/>
+  <STRING id="Error.2112" value="זיהוי יישומים פעילים נכשל, אין אפשרות לקבל אינדקס ביצועים. פעולה רשומה החזירה: [2]ו"/>
+  <STRING id="Error.2113" value="זיהוי יישומים פועלים נכשל."/>
+  <STRING id="Error.22" value="מסיר גירסות ישנות של התוכנה"/>
+  <STRING id="Error.2200" value="מסד נתונים: [2]. יצירה אובייקט מסד נתונים נכשלה, מצב = [3]ו"/>
+  <STRING id="Error.2201" value="מסד נתונים: [2]. האתחול נכשל, אין זיכרון פנוי.ו"/>
+  <STRING id="Error.2202" value="מסד נתונים: [2]. האתחול נכשל, אין זיכרון פנוי.ו"/>
+  <STRING id="Error.2203" value="מסד נתונים: [2]. אין אפשרות לפתוח קובץ מסד נתונים. שגיאת מערכת [3].י"/>
+  <STRING id="Error.2204" value="מסד נתונים: [2]. טבלה קיימת כבר: [3].י"/>
+  <STRING id="Error.2205" value="מסד נתונים: [2]. טבלה לא קיימת: [3].י"/>
+  <STRING id="Error.2206" value="מסד נתונים: [2]. לטבלה אין אפשרות לשחרר את: [3].י"/>
+  <STRING id="Error.2207" value="מסד נתונים: [2]. הפרת כוונה.י"/>
+  <STRING id="Error.2208" value="מסד נתונים: [2]. פרמטרים לא מספיקים להפעלה."/>
+  <STRING id="Error.2209" value="מסד נתונים: [2]. סמן במצב לא חוקי."/>
+  <STRING id="Error.2210" value="מסד נתונים: [2]. סוג נתוני עדכון לא חוקי בעמודה [3]י"/>
+  <STRING id="Error.2211" value="מסד נתונים: [2]. אין אפשרות ליצור טבלת מסד נתונים [3]י"/>
+  <STRING id="Error.2212" value="מסד נתונים: [2]. מסד הנתונים אינו במצב ניתן לכתיבה"/>
+  <STRING id="Error.2213" value="מסד נתונים: [2]. שגיאה בשמירת טבלאות מסד נתונים"/>
+  <STRING id="Error.2214" value="מסד נתונים: [2]. שגיעה בכתיבת קובץ יצוא: [3]י"/>
+  <STRING id="Error.2215" value="מסד נתונים: [2]. אין אפשרות לפתוח את קובץ הייבוא: [3]י"/>
+  <STRING id="Error.2216" value="מסד נתונים: [2]. שגיאה בפורמט קובץ ייבוא: [3], שורה [4]י"/>
+  <STRING id="Error.2217" value="CreateOutputDatabase [3].מסד נתונים: [2]. מצב שגוי לביצוע "/>
+  <STRING id="Error.2218" value="מסד נתונים: [2]. לא סופק שם טבלה"/>
+  <STRING id="Error.2219" value="Installer מסד נתונים: [2]. פורמט לא חוקי במסד נתונים "/>
+  <STRING id="Error.2220" value="מסד נתונים: [2]. נתוני שורה / שדה לא חוקיים"/>
+  <STRING id="Error.2221" value="מסד נתונים: [2]. התנגשות קידוד בקובץ ייבוא: [3].י"/>
+  <STRING id="Error.2222" value="מסד נתונים: [2]. המרה או מיזוג קידוד [3] שונה מדף קוד באתר [4]י"/>
+  <STRING id="Error.2223" value="מסד נתונים: [2]. מסדי נתונים זהים. לא נוצרו המרה"/>
+  <STRING id="Error.2224" value="GenerateTransform: מסד נתונים: [2]. מסד נתונים פגום. טבלה: [3].י"/>
+  <STRING id="Error.2225" value="מסד נתונים: [2]. המרה: אין אפשרות להמיר טבלה זמנית. טבלה: [3].י"/>
+  <STRING id="Error.2226" value="מסד נתונים: [2]. ההמרה נכשלה.י"/>
+  <STRING id="Error.2227" value="SQL query: [4].מסד נתונים: [2]. מזהה לא חוקי &apos;[3]&apos; בשאילתת :י"/>
+  <STRING id="Error.2228" value="SQL query: [4] מסד נתונים: [2]. טבלה לא ידועה &apos;[3]&apos; בשאילתת "/>
+  <STRING id="Error.2229" value="SQL query: [4] מסד נתונים: [2]. לא ניתן לטעון את הטבלה &apos;[3]&apos; בשאילתת "/>
+  <STRING id="Error.2230" value="SQL query: [4] מסד נתונים: [2]. טבלה חוזרת &apos;[3]&apos; בשאילתת"/>
+  <STRING id="Error.2231" value="SQL query: [3] מסד נתונים: [2]. חסר &apos;)&apos; בשאילתת"/>
+  <STRING id="Error.2232" value="SQL query: [4] מסד נתונים: [2]. סימן לא צפוי &apos;[3]&apos; בשאילתת"/>
+  <STRING id="Error.2233" value="SQL query: [3] מסד נתונים: [2]. אין עמודות במשפט &quot;בחירה&quot; בשאילתת"/>
+  <STRING id="Error.2234" value="SQL query: [3] מסד נתונים: [2]. אין עמודות במשפט &quot;סדר לפי&quot; בשאילתת"/>
+  <STRING id="Error.2235" value="SQL query: [4] מסד נתונים: [2]. עמודה &apos;[3]&apos; לא קיים או רב-משמעי בשאילתה"/>
+  <STRING id="Error.2236" value="SQL query: [4] מסד נתונים: [2]. אופרטור לא חוקי &apos;[3]&apos; בשאילתת"/>
+  <STRING id="Error.2237" value="מסד נתונים: [2]. מחרוזת שאילתה לא חוקית או חסרה: [3]י"/>
+  <STRING id="Error.2238" value="SQL query: [3] מסד נתונים: [2]. משפט &quot;מהיכן&quot; חסר בשאילתת"/>
+  <STRING id="Error.2239" value="INSERT SQL מסד נתונים: [2]. ערכים לא מספיקים בהצהרה"/>
+  <STRING id="Error.2240" value="UPDATE SQL מסד נתונים: [2]. עמודות עדכון חסרות במשפט"/>
+  <STRING id="Error.2241" value="INSERT SQL מסד נתונים: [2]. עמודות הוספה חסרות במשפט"/>
+  <STRING id="Error.2242" value="מסד נתונים: [2]. העמודה &apos;[3]&apos; חוזרת על עצמה"/>
+  <STRING id="Error.2243" value="מסד נתונים: [2]. אין עמודות ראשיות מוגדרות ליצירת הטבלה"/>
+  <STRING id="Error.2244" value="SQL query [4] מסד נתונים: [2]. מציין סוג לא חוקי &apos;[3]&apos; בשאילתת"/>
+  <STRING id="Error.2245" value=" נכשלה עם שגיאה [3]י IStorage::Stat"/>
+  <STRING id="Error.2246" value="Installer מסד נתונים: [2]. פורמט המרה לא חוקית ב"/>
+  <STRING id="Error.2247" value="מסד נתונים: [2] כשלון זרם המרה לקריאה / כתיבה"/>
+  <STRING id="Error.2248" value="מסד נתונים: [2] צור המרה / מיזוג: סוג העמודה בטבלת הבסיס לא תואם לטבלת ההפניות. טבלה: [3] מס &apos;עמודה: [4]י"/>
+  <STRING id="Error.2249" value="GenerateTransform: מסד נתונים: [2] עמודות רבות יותר בטבלה הבסיסית מאשר בטבלת ההפניות. טבלה: [3]י"/>
+  <STRING id="Error.2250" value="מסד נתונים: [2] המרה: אין אפשרות להוסיף שורה קיימת. טבלה: [3]י"/>
+  <STRING id="Error.2251" value="מסד נתונים: [2] המרה: אין אפשרות למחוק שורה שאינה קיימת. טבלה: [3]י"/>
+  <STRING id="Error.2252" value="מסד נתונים: [2] המרה: אין אפשרות להוסיף טבלה קיימת. טבלה: [3]י"/>
+  <STRING id="Error.2253" value="מסד נתונים: [2] המרה: אין אפשרות למחוק טבלה שאינה קיימת. טבלה: [3]י"/>
+  <STRING id="Error.2254" value="מסד נתונים: [2] המרה: אין אפשרות לעדכן שורה שאינה קיימת. טבלה: [3]י"/>
+  <STRING id="Error.2255" value="מסד נתונים: [2] המרה: עמודה בשם זה כבר קיים. טבלה: [3] שורה: [4]י"/>
+  <STRING id="Error.2256" value="GenerateTransform/Merge: מסד נתונים: [2] מספר המפתחות הראשיים בטבלת הבסיס לא תואם לטבלת ההפניות. טבלה: [3]י"/>
+  <STRING id="Error.2257" value="מסד נתונים: [2]. ניסיון לשנות טבלה לקריאה בלבד: [3]י"/>
+  <STRING id="Error.2258" value="מסד נתונים: [2]. חוסר התאמה של סוגים בפרמטר: [3]י"/>
+  <STRING id="Error.2259" value="מסד נתונים: [2] טבלה/טבלאות עדכון נכשל"/>
+  <STRING id="Error.2260" value="CopyTo פעולת אחסון נכשלה. שגיאת מערכת: [3]י"/>
+  <STRING id="Error.2261" value="אין אפשרות להסיר את זרימת הנתונים [2]. שגיאת מערכת: [3]י"/>
+  <STRING id="Error.2262" value="זרם הנתונים לא קיים: [2]. שגיאת מערכת: [3]י"/>
+  <STRING id="Error.2263" value="לא ניתן לפתוח את זרימת נתונים [2]. שגיאת מערכת: [3]י"/>
+  <STRING id="Error.2264" value="אין אפשרות להסיר את זרימת הנתונים [2]. שגיאת מערכת: [3]י"/>
+  <STRING id="Error.2265" value="לא ניתן להתחייב אחסון. שגיאת מערכת: [3]י"/>
+  <STRING id="Error.2266" value="לא היתה אפשרות להחזיר אחסון. שגיאת מערכת: [3]י"/>
+  <STRING id="Error.2267" value="לא ניתן למחוק את האחסון [2]. שגיאת מערכת: [3]י"/>
+  <STRING id="Error.2268" value="מסד נתונים: [2]. מיזוג: דווח על התנגשויות מיזוג [3] טבלאות"/>
+  <STRING id="Error.2269" value="מסד נתונים: [2]. מיזוג: ספירת עמודה שונה בטבלה &apos;[3]&apos; בשני מסדי הנתונים"/>
+  <STRING id="Error.2270" value="מסד נתונים: [2]. צור המרה / מיזוג: שם עמודה בטבלת בסיס לא תואם לטבלת הפניות. טבלה: [3] מס &apos;עמודה: [4]י"/>
+  <STRING id="Error.2271" value="כתיבת סיכום מידע עבור ההמרה נכשלה"/>
+  <STRING id="Error.2272" value="MergeDatabase מסד נתונים: [2]. לא תכתוב שינויים מפני שמסד הנתונים הוא לקריאה בלבד."/>
+  <STRING id="Error.2273" value="מסד נתונים: [2]. מיזוג מסד נתונים: הפניה למסד הנתונים הבסיסי הועברה כמסד הנתונים להפניה."/>
+  <STRING id="Error.2274" value="מסד נתונים: [2]. לא ניתן לכתוב שגיאות בטבלת השגיאות. יכול להיות בגלל העמודה שאינה &quot;כלום&quot; בטבלת שגיאות מוגדרת מראש."/>
+  <STRING id="Error.2275" value="מסד נתונים: [2]. הוגדר כשינוי [3] פעולה לא חוקית עבור צירופי טבלאות."/>
+  <STRING id="Error.2276" value="מסד נתונים: [2]. הקידוד [3] לא נתמך על ידי המערכת"/>
+  <STRING id="Error.2277" value="מסד נתונים: [2]. נכשל שמירת טבלה [3]י"/>
+  <STRING id="Error.2278" value="SQL query: [3] WHERE מסד נתונים: [2]. מספר הביטויים חרג מהמגבלה של 32 במשפט"/>
+  <STRING id="Error.2279" value="מסד נתונים: [2] המרה: עמודות רבות מדי בטבלת הבסיס [3]י"/>
+  <STRING id="Error.2280" value="מסד נתונים: [2]. אין אפשרות ליצור עמודה [3] עבור טבלה [4]י"/>
+  <STRING id="Error.2281" value="לא ניתן לשנות את שם זרימה [2]. שגיאת מערכת: [3].י"/>
+  <STRING id="Error.2282" value="שם זרם חוקי [2].י"/>
+  <STRING id="Error.23" value="מתכונן להסרת גרסאות קודמות של יישום זה ...י"/>
+  <STRING id="Error.2302" value="הודעת תיקון: [2] בייטים תוקנו עד כה"/>
+  <STRING id="Error.2303" value="GetLastError: [2]. שגיאה בקבלת מידע אודות אמצעי אחסון"/>
+  <STRING id="Error.2304" value="GetLastError: [2]. שגיאה בקבלת שטח דיסק פנוי. נפח: [3]י"/>
+  <STRING id="Error.2305" value="GetLastError: [2].שגיאה בעת המתנה לשרשור התיקון"/>
+  <STRING id="Error.2306" value="GetLastError: [2].אין אפשרות ליצור שרשור עבור יישום התיקון"/>
+  <STRING id="Error.2307" value="שם מפתח קובץ המקור הוא ריק"/>
+  <STRING id="Error.2308" value="שם קובץ היעד הוא ריק"/>
+  <STRING id="Error.2309" value="מנסה לתקן את הקובץ [2] כבר בשעה שהתיקון מתבצע"/>
+  <STRING id="Error.2310" value="מנסה להמשיך בתיקון כאשר לא מתבצע תיקון"/>
+  <STRING id="Error.2315" value="מפריד נתיב חסר: [2]י"/>
+  <STRING id="Error.2318" value="[2] קובץ לא קיים"/>
+  <STRING id="Error.2319" value="GetLastError: [2].שגיאה בהגדרת תכונת קובץ: [3]י"/>
+  <STRING id="Error.2320" value="[2] לא ניתן לכתוב לקובץ"/>
+  <STRING id="Error.2321" value=".[2] טעות ביצירת קובץ"/>
+  <STRING id="Error.2322" value="משתמש ביטל"/>
+  <STRING id="Error.2323" value="תכונת קובץ לא חוקית"/>
+  <STRING id="Error.2324" value="GetLastError: [2].אין אפשרות לפתוח קובץ: [3]י"/>
+  <STRING id="Error.2325" value="GetLastError: [2].אין אפשרות לקבל את שעת הקובץ עבור הקובץ: [3]י"/>
+  <STRING id="Error.2326" value="ToDosDateTime טעות בקובץ"/>
+  <STRING id="Error.2327" value="GetLastError: [2].אין אפשרות להסיר את הספרייה: [3]י"/>
+  <STRING id="Error.2328" value="שגיאה בקבלת פרטי גרסת הקובץ עבור הקובץ: [2]י"/>
+  <STRING id="Error.2329" value="GetLastError: [2].שגיאה במחיקת קובץ: [3]י"/>
+  <STRING id="Error.2330" value="GetLastError: [2].שגיאה בקבלת תכונות קובץ: [3]י"/>
+  <STRING id="Error.2331" value="שגיאה בטעינת ספרייה [2] או חיפוש נקודת כניסה [3]י"/>
+  <STRING id="Error.2332" value="GetLastError: [2].שגיאה בקבלת תכונות קובץ"/>
+  <STRING id="Error.2333" value="GetLastError: [2].שגיאה בהגדרת תכונות קובץ"/>
+  <STRING id="Error.2334" value="GetLastError: [2].שגיאה בהמרת קובץ זמן, לזמן מקומי עבור קובץ: [3]י"/>
+  <STRING id="Error.2335" value="נתיב: [2] אינו אב של [3]י"/>
+  <STRING id="Error.2336" value="GetLastError: [2].שגיאה ביצירת קובץ זמני בנתיב: [3]י"/>
+  <STRING id="Error.2337" value="GetLastError: [2].לא יכול לסגור את הקובץ: [3]י"/>
+  <STRING id="Error.2338" value="GetLastError: [2].אין אפשרות לעדכן משאב עבור הקובץ: [3]י"/>
+  <STRING id="Error.2339" value="GetLastError: [2].לא ניתן לקבוע את זמן הקובץ עבור הקובץ: [3]י"/>
+  <STRING id="Error.2340" value="אין אפשרות לעדכן משאב עבור הקובץ: [3], משאב חסר"/>
+  <STRING id="Error.2341" value="אין אפשרות לעדכן משאב עבור קובץ: [3], משאב גדול מדי"/>
+  <STRING id="Error.2342" value="GetLastError: [2].אין אפשרות לעדכן משאב עבור הקובץ: [3]י"/>
+  <STRING id="Error.2343" value="הנתיב שצוין ריק"/>
+  <STRING id="Error.2344" value="IMAGEHLP.DLL לא ניתן למצוא את הקובץ הנדרש לאימות הקובץ: [2]י"/>
+  <STRING id="Error.2345" value="[2]: הקובץ לא מכיל ערך בדיקת סיכום חוקי."/>
+  <STRING id="Error.2347" value="משתמש התעלם"/>
+  <STRING id="Error.2348" value="שגיאה בעת ניסיון לקרוא מזרם התא"/>
+  <STRING id="Error.2349" value="ההעתקה חודשה עם מידע שונה"/>
+  <STRING id="Error.2350" value="FDI טעות שרת"/>
+  <STRING id="Error.2351" value="מפתח הקובץ &apos;[2]&apos; לא נמצא בתא &apos;[3]&apos;. ההתקנה לא יכולה להמשיך."/>
+  <STRING id="Error.2352" value=" &apos;CABINET.DLL&apos; אין אפשרות לאתחל שרת קובצי התא. הקובץ הנדרש הזה עלול להיות חסר"/>
+  <STRING id="Error.2353" value="לא תא"/>
+  <STRING id="Error.2354" value="לא מסוגל לטפל בתא"/>
+  <STRING id="Error.2355" value="תא מקולקל"/>
+  <STRING id="Error.2356" value="אין אפשרות לאתר תא בזרם הנתונים: [2]י"/>
+  <STRING id="Error.2357" value="אין אפשרות להגדיר מאפיינים"/>
+  <STRING id="Error.2358" value="GetLastError: [2].שגיאה בקביעה אם הקובץ נמצא בשימוש: [3]י"/>
+  <STRING id="Error.2359" value="לא ניתן ליצור את קובץ היעד - ייתכן שהקובץ נמצא בשימוש"/>
+  <STRING id="Error.2360" value="ביצוע מתבצע"/>
+  <STRING id="Error.2361" value="צריך תא הבא"/>
+  <STRING id="Error.2362" value=".[2] :תיקיה לא נמצאה"/>
+  <STRING id="Error.2363" value="אין אפשרות לספור את תת התיקיות של התיקייה: [2]י"/>
+  <STRING id="Error.2364" value="CreateCopier ספירה קבוע שגויה בקריאה בתא"/>
+  <STRING id="Error.2365" value="BindImage EXE לא ניתן להגיש בקובץ [2]י"/>
+  <STRING id="Error.2366" value="משתמש נכשל"/>
+  <STRING id="Error.2367" value="משתמש נטש"/>
+  <STRING id="Error.2368" value="נכשל ניסיון לקבל מידע אודות משאבי רשת. שגיאה [2], נתיב רשת [3]. שגיאה מורחבת: ספק רשת [5], קוד שגיאה [4], תיאור שגיאה [6]י"/>
+  <STRING id="Error.2370" value="בדיקת ערך לא חוקי עבור הקובץ [2]. {לפי הכותרת שלו הוא [3] בדיקת הסיכום, אך הערך המחושב הוא [4].}י CRC"/>
+  <STRING id="Error.2371" value="GetLastError: [3].אין אפשרות להחיל את התיקון על הקובץ [2]י"/>
+  <STRING id="Error.2372" value="GetLastError: [4].תיקון קובץ [2] פגום או אינו בפורמט חוקי. מנסה לתקן את הקובץ [3]י"/>
+  <STRING id="Error.2373" value="קובץ [2] אינו קובץ תיקון חוקי"/>
+  <STRING id="Error.2374" value="קובץ [2] אינו קובץ יעד חוקי עבור קובץ תיקון [3]י"/>
+  <STRING id="Error.2375" value="שגיאת תיקון לא ידועה: [2]י"/>
+  <STRING id="Error.2376" value="תא לא נמצא"/>
+  <STRING id="Error.2379" value="GetLastError: [2].שגיאה בפתיחת קובץ לקריאה: [3]י"/>
+  <STRING id="Error.2380" value="GetLastError: [2].שגיאה בפתיחת קובץ לכתיבה: [3]י"/>
+  <STRING id="Error.2381" value="הספרייה לא קיימת: [2]י"/>
+  <STRING id="Error.2382" value=" [2] הכונן לא מוכן"/>
+  <STRING id="Error.2401" value="י64 ביט ניסיון לבצע פעולת רישום במערכת הפעלה של 32 ביט עבור מפתח [2]י"/>
+  <STRING id="Error.2402" value="אין מספיק זכרון"/>
+  <STRING id="Error.2501" value="script אין אפשרות ליצור מונה ביטול שינויים ל"/>
+  <STRING id="Error.2502" value=" קרא כשאין התקנה בתהליך InstallFinalize"/>
+  <STRING id="Error.2503" value="קרא כאשר לא מסומן בהתקדמות RunScript"/>
+  <STRING id="Error.2601" value="ערך לא חוקי עבור המאפיין [2]: &apos;[3]י"/>
+  <STRING id="Error.2602" value="ה- [2] הרשום בטבלה &apos;[3]&apos; אין ערך משויך בטבלת המדיה"/>
+  <STRING id="Error.2603" value=".[2] כפילות בשם הטבלה"/>
+  <STRING id="Error.2604" value="י[2] נכס מוגדר"/>
+  <STRING id="Error.2605" value="לא ניתן למצוא את השרת [2] ב [3] או [4]י"/>
+  <STRING id="Error.2606" value="ערך נכסים [2] אינו נתיב מלא חוקי: &apos;[3]י"/>
+  <STRING id="Error.2607" value="טבלת המדיה לא נמצאה או ריקה (נדרשת להתקנת קבצים)"/>
+  <STRING id="Error.2608" value="אין אפשרות ליצור מתאר אבטחה עבור אובייקט. שגיאה: &apos;[2]&apos;י"/>
+  <STRING id="Error.2609" value="נערך ניסיון להעביר הגדרות מוצר לפני האתחול"/>
+  <STRING id="Error.2611" value="הקובץ [2] מסומן כדחוס, אך ערך המדיה המשויך לא מציין תא"/>
+  <STRING id="Error.2612" value="זרימת נתונים לא נמצא בעמודה &apos;[2]&apos; . מפתח ראשי: &apos;[3]&apos;י"/>
+  <STRING id="Error.2613" value="RemoveExistingProducts  פעולת רצף שגויה"/>
+  <STRING id="Error.2614" value="IStorage אין אפשרות לגשת לאובייקט מחבילת התקנה"/>
+  <STRING id="Error.2615" value="דילוג על ביטול הרישום של מודול [2] בשל כשל בפענוח מקור"/>
+  <STRING id="Error.2616" value="קובץ נלווה [2] חסר אב"/>
+  <STRING id="Error.2617" value="הרכיב המשותף [2] לא נמצא בטבלת הרכיבים."/>
+  <STRING id="Error.2618" value="רכיב יישום מבודד [2] לא נמצא בטבלת רכיבים"/>
+  <STRING id="Error.2619" value="רכיבים מבודדים [2], [3] אינו חלק של אותה תכונה"/>
+  <STRING id="Error.2620" value="מפתח קובץ של רכיב יישום מבודד [2] לא נמצא בטבלת הקבצים"/>
+  <STRING id="Error.2621" value="עבור קיצור הדרך [2] מוגדרים באופן שגוי Resource DLL או Resource ID "/>
+  <STRING id="Error.2701" value="עומקה של תכונה חורג מעומק העץ הקביל של רמות [2]י"/>
+  <STRING id="Error.2702" value="רשומה בטבלת תכונות מפנה אל אב לא קיים בשדה תכונות ([2])"/>
+  <STRING id="Error.2703" value="שם מאפיין עבור נתיב מקור בסיס לא מוגדר: [2]י"/>
+  <STRING id="Error.2704" value="מאפיין ספריית בסיס לא מוגדר: [2]י"/>
+  <STRING id="Error.2705" value="טבלה לא חוקית: [2]; לא ניתן להיות מקושר כעץ"/>
+  <STRING id="Error.2706" value="לא נוצרו נתיבי מקור. לא קיים נתיב עבור הערך [2] בטבלת הספריות"/>
+  <STRING id="Error.2707" value="לא נוצרו נתיבי יעד. לא קיים נתיב עבור הערך [2] בטבלת הספריות"/>
+  <STRING id="Error.2708" value="לא נמצאו ערכים בטבלת הקבצים"/>
+  <STRING id="Error.2709" value="שם הרכיב שצוין לא נמצא בטבלת הרכיבים (&apos;[2]&apos;)"/>
+  <STRING id="Error.2710" value="ציון מבוקש &apos;בחר&apos; אינו חוקי עבור רכיב זה."/>
+  <STRING id="Error.2711" value="שם התכונה שצוין לא נמצא בטבלת התכונות .. (&apos;[2]&apos;)"/>
+  <STRING id="Error.2712" value="החזרה לא חוקית מתיבת דו-שיח: [3], בפעולה [2]י"/>
+  <STRING id="Error.2713" value="ערך ריק בעמודה שאינה מאפשרת ערכים ריקים (&apos;[2]&apos; ב &apos;[3]&apos; בעמודה של &quot;[4] שולחן."/>
+  <STRING id="Error.2714" value="ערך לא חוקי עבור שם תיקיית ברירת המחדל: [2]י"/>
+  <STRING id="Error.2715" value="מפתח הקובץ שצוין לא נמצא בטבלת הקבצים. (&apos;[2]&apos;) "/>
+  <STRING id="Error.2716" value="לא ניתן ליצור שם רכיב משנה אקראי עבור הרכיב &apos;[2]&apos;י"/>
+  <STRING id="Error.2717" value="מצב פעולה שגוי או שגיאה בקריאה לפעולה מותאמת אישית &apos;[2]&apos;י"/>
+  <STRING id="Error.2718" value="שם חבילה חסר עבור קוד המוצר &apos;[2]&apos;י"/>
+  <STRING id="Error.2719" value="או אות כונן לא נמצא במקור &apos;[2]&apos;י UNC"/>
+  <STRING id="Error.2720" value="שגיעת פתיחה במפתח רשימת מקור. שגיאה: &apos;[2]&apos;י"/>
+  <STRING id="Error.2721" value="פעולה מותאמת אישית [2] לא נמצאה בזרם הטבלה הבינארי"/>
+  <STRING id="Error.2722" value="פעולה מותאמת אישית [2] לא נמצאה בטבלת הקבצים"/>
+  <STRING id="Error.2723" value="פעולה מותאמת אישית [2] מציינת סוג שאינו נתמך"/>
+  <STRING id="Error.2724" value="תווית אמצעי האחסון &apos;[2]&apos; במדיה אתה מפעיל לא תואם לתווית &apos;[3]&apos; המצוינת בטבלת המדיה. זו מותרת רק אם יש לך רק 1 כניסה בטבלת המדיה."/>
+  <STRING id="Error.2725" value="טבלאות מסד נתונים לא חוקיים"/>
+  <STRING id="Error.2726" value=" [2]. הפעולה לא נמצאה"/>
+  <STRING id="Error.2727" value="ערך הספרייה &apos;[2]&apos; לא קיים בטבלת הספריות"/>
+  <STRING id="Error.2728" value="שגיאה בהגדרת טבלה: [2]י"/>
+  <STRING id="Error.2729" value="מנוע ההתקנה לא אותחל"/>
+  <STRING id="Error.2730" value="ערך שגוי במסד הנתונים. שולחן 2]&apos;; מפתח ראשי: &apos;[3]&apos;; טור: &apos;[4]&apos;י"/>
+  <STRING id="Error.2731" value="מנהל הבחירה לא אותחל"/>
+  <STRING id="Error.2732" value="מנהל הספריות לא אותחל"/>
+  <STRING id="Error.2733" value="מפתח זר פגום ב &apos;[3]&apos; בעמודה של הטבלה &apos;[4]&apos;י  (&apos;[2]&apos;)"/>
+  <STRING id="Error.2734" value="אופי של מצב התקנה מחדש לא חוקי"/>
+  <STRING id="Error.2735" value="פעולה מותאמת אישית &apos;[2]&apos; גרמה לחריג לא מטופל והופסק. זה עשוי להיות תוצאה של שגיאה פנימית בפעולה המותאמת אישית, כגון הפרת זכויות גישה."/>
+  <STRING id="Error.2736" value="יצירת קובץ זמני לפעולה מותאמת אישית נכשלה: [2].י"/>
+  <STRING id="Error.2737" value="אין אפשרות לגשת לפעולה מותאמת אישית [2], ערך [3], ספרייה [4]י"/>
+  <STRING id="Error.2738" value="אין אפשרות לגשת אל זמן ריצה עבור פעולה מותאמת אישית [2].י VBScript"/>
+  <STRING id="Error.2739" value="אין אפשרות לגשת אל זמן ריצה עבור פעולה מותאמת אישית [2].י JScript"/>
+  <STRING id="Error.2740" value="script  פעולה מותאמת אישית [2] שגיאת   [3], [4]: [5] שורה [6], עמודה [7], [8].י"/>
+  <STRING id="Error.2741" value=" [2] מידע התכנון למוצר [2] מקולקל. מידע לא מתאים"/>
+  <STRING id="Error.2742" value="מתמרנים לשרת נכשל: [2].י"/>
+  <STRING id="Error.2743" value="אין אפשרות לבצע פעולה מותאמת אישית [2], מיקום: [3], פקודה: [4].י"/>
+  <STRING id="Error.2744" value="כשל. נקרא על ידי פעולה מותאמת אישית [2], מיקום: [3], פקודה: [4].י EXE"/>
+  <STRING id="Error.2745" value="המרה [2] לא חוקי עבור חבילה [3]. ציפיה לשפה [4], שפה נמצאה [5].י"/>
+  <STRING id="Error.2746" value="המרה [2] לא חוקי עבור חבילה [3]. ציפיה למוצר [4], אך נמצא מוצר [5].י"/>
+  <STRING id="Error.2747" value="המרה [2] לא חוקי עבור חבילה [3]. ציפיה לגרסת מוצר &lt;[4], נמצא גרסת מוצר [5].י"/>
+  <STRING id="Error.2748" value="המרה [2] לא חוקי עבור חבילה [3]. המערכת ציפתה לגרסת מוצר &lt;= [4], נמצאה גרסת מוצר [5].י"/>
+  <STRING id="Error.2749" value="המרה [2] לא חוקי עבור חבילה [3]. מוצר גרסה צפויה == [4], נמצא גרסת מוצר [5].י"/>
+  <STRING id="Error.2751" value="המרה [2] לא חוקי עבור חבילה [3]. המערכת ציפתה לגרסת מוצר&gt; [4], נמצאה גרסת מוצר [5].י"/>
+  <STRING id="Error.2752" value="אין אפשרות לפתוח המרה [2] המאוחסנת כאחסון צאצא של החבילה [4].י"/>
+  <STRING id="Error.2753" value="הקובץ &apos;[2]&apos; לא מסומן להתקנה."/>
+  <STRING id="Error.2754" value="הקובץ &apos;[2]&apos; אינו קובץ תיקון חוקי"/>
+  <STRING id="Error.2755" value="השרת החזיר שגיאה לא צפויה [2] מנסה להתקין את החבילה [3].י"/>
+  <STRING id="Error.2756" value="המאפיין &apos;[2]&apos; שימש כמאפיין ספרייה בטבלה אחת או יותר, אך מעולם לא הוקצה לו ערך."/>
+  <STRING id="Error.2757" value="אין אפשרות ליצור מידע סיכום עבור המרה [2].י"/>
+  <STRING id="Error.2758" value="MSI ההמרה [2] לא מכילה גרסת "/>
+  <STRING id="Error.2759" value="המרה [2] גרסה [3] לא תואמת למנוע; מיני: [4], מקס: [5].י"/>
+  <STRING id="Error.2760" value="המרה [2] לא חוקי עבור חבילה [3]. צפוי קוד שדרוג [4], אך נמצא [5].י"/>
+  <STRING id="Error.2761" value="לא אותחל כראוי. אין אפשרות להתחיל את העסקה  Global mutex"/>
+  <STRING id="Error.2762" value="אין אפשרות לכתוב רשום. הטרנזקציה לא הופעלה script "/>
+  <STRING id="Error.2763" value="אין אפשרות להפעיל. הטרנזקציה לא הופעלה script "/>
+  <STRING id="Error.2765" value="שם הרכבה חסרה, רכיב: [4].י AssemblyName table "/>
+  <STRING id="Error.2766" value="MSI הקובץ [2] הוא קובץ אחסון לא חוקי."/>
+  <STRING id="Error.2767" value="אין יותר נתונים {בעת ספירת [2]}.י"/>
+  <STRING id="Error.2768" value="המרה בחבילת תיקון לא חוקית"/>
+  <STRING id="Error.2769" value="MSIHANDLEs. פעולה מותאמת אישית [2] לא לסגור [3]י"/>
+  <STRING id="Error.2770" value="תיקיית מטמון [2] לא מוגדרת בטבלת תיקיות מטמון פנימית"/>
+  <STRING id="Error.2771" value="בשדרוג התכונה [2] יש מרכיב חסר"/>
+  <STRING id="Error.2772" value="תכונת שדרוג חדשה [2] חייבת להיות תכונת עלה"/>
+  <STRING id="Error.2801" value="הודעה לא ידועה - סוג [2]. לא ננקטה כל פעולה"/>
+  <STRING id="Error.2802" value="לא נמצא מפרסם עבור האירוע [2]י"/>
+  <STRING id="Error.2803" value="לא מצאה רשומה עבור תיבת הדו-שיח [2]י Dialog View"/>
+  <STRING id="Error.2804" value="MsiDialog על הפעלת הפקד [3] בתיבת הדו-שיח [2] נכשלה בהערכת התנאי [3].י"/>
+  <STRING id="Error.2806" value="תיבת הדו-שיח [2] נכשלה בהערכת התנאי [3]י"/>
+  <STRING id="Error.2807" value="פעולה [2] לא מוכרת"/>
+  <STRING id="Error.2808" value="לחצן ברירת מחדל מוגדר בצורה שגויה בתיבת הדו-שיח [2]י"/>
+  <STRING id="Error.2809" value="בתיבת הדו-שיח [2], מצביעי הפקדים הבאים לא יוצרים מעגל. קיים מצביע מ- [3] ל- [4], אך אין מצביע הלאה"/>
+  <STRING id="Error.2810" value="בתיבת הדו-שיח [2], מצביעי הפקדים הבאים לא יוצרים מעגל. קיים מצביעים [3], [5] אל [4]י"/>
+  <STRING id="Error.2811" value="על הדו-שיח [2] פקד [3] צריך לקבל מיקוד, אך אין באפשרותו לעשות זאת"/>
+  <STRING id="Error.2812" value="האירוע [2] לא מזוהה"/>
+  <STRING id="Error.2813" value="נקרא עם הארגומנט [2], אך הדו-שיח יש אב EndDialog"/>
+  <STRING id="Error.2814" value="בתיבת הדו-שיח [2], הפקד [3] מציין פקד שאינו קיים [4] כפקד הבא"/>
+  <STRING id="Error.2815" value="הטבלה כוללת שורה ללא תנאי עבור תיבת הדו-שיח [2]י ControlCondition"/>
+  <STRING id="Error.2816" value="טבלה מפנה אל פקד לא חוקי [4] על-שיח [2] עבור האירוע [3]י EventMapping"/>
+  <STRING id="Error.2817" value="האירוע [2] נכשל בהגדרת התכונה עבור הפקד [4] בדו-שיח [3]י"/>
+  <STRING id="Error.2818" value="בטבלה יש ויכוח לא מזוהה [2]י ControlEvent table EndDialog"/>
+  <STRING id="Error.2819" value="פקד [3] בדו-שיח [2] צריך נכס המקושר אליו"/>
+  <STRING id="Error.2820" value="ניסיון לאתחל מטפל שאותחל כבר"/>
+  <STRING id="Error.2821" value="בוצע ניסיון לאתחל תיבת דו-שיח שאותחלה כבר: [2]י"/>
+  <STRING id="Error.2822" value="אין שיטה אחרת יכול להיקרא על הדו-שיח [2] עד להוספת כל הפקדים."/>
+  <STRING id="Error.2823" value="בוצע ניסיון לאתחל פקד שאותחל כבר: [3] על-שיח [2]י"/>
+  <STRING id="Error.2824" value="התכונה הדו-שיח [3] נדרשת רשומה של לפחות [2] שדות"/>
+  <STRING id="Error.2825" value="עבור תכונת הפקד [3] נדרשת רשומה של לפחות [2] שדות"/>
+  <STRING id="Error.2826" value="הפקד [3] בדו-שיח [2] חורג מגבולות של הדו-שיח [4] ב- [5] פיקסלים"/>
+  <STRING id="Error.2827" value="הלחצן [4] בקבוצת לחצני האפשרויות [3] בדו-שיח [2] חורג מגבולות הקבוצה [5] ב- [6] פיקסלים."/>
+  <STRING id="Error.2828" value="ניסיון להסיר את הפקד [3] מתיבת דו-שיח [2], אך הפקד אינו חלק של דיאלוג."/>
+  <STRING id="Error.2829" value="ניסיון להשתמש שיח מאותחל"/>
+  <STRING id="Error.2830" value="ניסיון להשתמש בפקד לא מאותחל בדו-שיח [2]י"/>
+  <STRING id="Error.2831" value="הפקד [3] בדו-שיח [2] לא תומך [5] בתכונה [4]י"/>
+  <STRING id="Error.2832" value="תיבת הדו-שיח [2] לא תומכת בתכונה [3]י"/>
+  <STRING id="Error.2833" value="הבקר [4] בדו-שיח [3] התעלם מההודעה [2]י"/>
+  <STRING id="Error.2834" value="המצביעים הבאים בתיבת הדו-שיח [2] לא יוצרים לולאה יחידה"/>
+  <STRING id="Error.2835" value="הפקד [2] לא נמצא על הדו-שיח [3]י"/>
+  <STRING id="Error.2836" value="הפקד [3] בדו-שיח [2] אין אפשרות לקבל מיקוד"/>
+  <STRING id="Error.2837" value="winproc הפקד [3] בדו-שיח [2] מבקש לחזיר [4]י"/>
+  <STRING id="Error.2838" value="הפריט [2] בטבלת הבחירה יש בעצמו כהורה"/>
+  <STRING id="Error.2839" value="הגדרת המאפיין [2] נכשלה"/>
+  <STRING id="Error.2840" value="שגיאה אי-התאמה בשם הדו-שיח"/>
+  <STRING id="Error.2841" value="לא נמצא לחצן אישור על שגיעת דו שיח."/>
+  <STRING id="Error.2842" value="לא נמצא שדה טקסט על שגיעת דו שיח"/>
+  <STRING id="Error.2843" value="אינה נתמכת עבור דיאלוגים סטנדרטיים ErrorString "/>
+  <STRING id="Error.2844" value="ErrorString אין אפשרות להפעיל שיח שגיאה אם אין הגדרה ל"/>
+  <STRING id="Error.2845" value="הרוחב הכולל של הלחצנים חורג מהגודל של הדו-שיח השגיאה"/>
+  <STRING id="Error.2846" value="לא מצא את הפקד הדרוש בתיבת הדו-שיח שגיאה SetFocus "/>
+  <STRING id="Error.2847" value="הפקד [3] בדו-שיח [2] יש הן הסמל והן סגנון מפת סיביות"/>
+  <STRING id="Error.2848" value="ניסיון להגדיר את הפקד [3] כלחצן ברירת המחדל בתיבת הדו-שיח [2], אך הפקד לא קיים."/>
+  <STRING id="Error.2849" value="הפקד [3] בדו-שיח [2] הוא מסוג שלא יכול להיות ערך מספר שלם"/>
+  <STRING id="Error.2850" value="סוג ערך לא מוכר"/>
+  <STRING id="Error.2851" value="המידע לסמל [2] לא מתאימה"/>
+  <STRING id="Error.2852" value="פקד אחד לפחות יש להוסיף לדו-שיח [2] לפני השימוש בה"/>
+  <STRING id="Error.2853" value="דיאלוג [2] הוא דיאלוג ללא מצב. השיטה לבצע אסור להיקרא על זה"/>
+  <STRING id="Error.2854" value="בתיבת הדו-שיח [2], הפקד [3] מוקצה כפקד פעיל ראשון, אך אין פקד כזה"/>
+  <STRING id="Error.2855" value="בקבוצת לחצני אפשרויות [3] בדו-שיח [2] יש פחות מ -2 כפתורים"/>
+  <STRING id="Error.2856" value="יוצר עותק נוסף של תיבת הדו-שיח [2]י"/>
+  <STRING id="Error.2857" value="הספרייה [2] מוזכרת בטבלת הבחירה אך לא נמצאה"/>
+  <STRING id="Error.2858" value="הנתונים עבור מפת הסיביות [2] לא חוקיים"/>
+  <STRING id="Error.2859" value="הודעה טעות בדיקה"/>
+  <STRING id="Error.2860" value="לחצן ביטול מוגדר בצורה שגויה על הדו-שיח [2]י"/>
+  <STRING id="Error.2861" value="המצביעים הבאים עבור לחצני אפשרויות על הדו-שיח [2] פקד [3] לא יוצרים מעגל."/>
+  <STRING id="Error.2862" value="התכונות עבור הפקד [3] בדו-שיח [2] לא מגדירות גודל סמל חוקי. מגדיר את הגודל כ- 16."/>
+  <STRING id="Error.2863" value="הפקד [3] בדו-שיח [2] דורש את הסמל [4] בגודל [5] - [5], אך גודל זה אינו זמין. טוען את הגודל הזמין הראשון."/>
+  <STRING id="Error.2864" value="הפקד [3] בדו-שיח [2] קיבל אירוע דפדוף, אך אין ספרייה ניתנת להגדרה עבור הבחירה הנוכחית. גורם סביר: לחצן דפדוף לא הוגדר כהלכה."/>
+  <STRING id="Error.2865" value="הפקד [3] בלוח [2] חורג מגבולות הלוח [4] ב- [5] פיקסלים"/>
+  <STRING id="Error.2866" value="תיבת הדו-שיח [2] לא מורשה להחזיר את הארגומנט [3]י"/>
+  <STRING id="Error.2867" value="נכס השגיאה בדו-השיח אינו מוגדר"/>
+  <STRING id="Error.2868" value="תיבת הדו-שיח השגיאה [2] אין מוגדר עם ביט סגנון שגיאה"/>
+  <STRING id="Error.2869" value="תיבת הדו-שיח [2] מוגדרת עם ביט סגנון שגיאה, אך זוהי אינה דו-שיח שגיאה."/>
+  <STRING id="Error.2870" value="מחרוזת העזרה [4] עבור פקד [3] בדו-שיח [2] לא מכילה את התו המפריד"/>
+  <STRING id="Error.2871" value="ה- [2] השולחן אינו מעודכן: [3] ..י"/>
+  <STRING id="Error.2872" value="הטענה של אירוע בקרת הדו-שיח [2] לא חוקית CheckPath"/>
+  <STRING id="Error.2873" value="בתיבת הדו-שיח [2], הפקד [3] יש מגבלת אורך מחרוזת לא חוקית: [4]י"/>
+  <STRING id="Error.2874" value="[2] שינוי גופן הטקסט נכשל"/>
+  <STRING id="Error.2875" value="[2] שינוי צבע הטקסט נכשל"/>
+  <STRING id="Error.2876" value="הפקד [3] בדו-שיח [2] נאלץ לחתוך את המחרוזת: [4]י"/>
+  <STRING id="Error.2877" value="המידע הבינרי [2] לא נמצאה"/>
+  <STRING id="Error.2878" value="בתיבת הדו-שיח [2], הפקד [3] ערך אפשרי: [4]. זהו ערך לא חוקי או כפול"/>
+  <STRING id="Error.2879" value="הפקד [3] בדו-שיח [2] אין אפשרות לפענח את מחרוזת המסכה: [4]י"/>
+  <STRING id="Error.2880" value="אל תבצע את אירועי הבקרה שנותרו"/>
+  <STRING id="Error.2881" value="MsiHandler אתחול נכשל"/>
+  <STRING id="Error.2882" value="רישום מחלקת החלון דיאלוג נכשל"/>
+  <STRING id="Error.2883" value="נכשל עבור הדו-שיח [2]י CreateNewDialog"/>
+  <STRING id="Error.2884" value="נכשלה יצירת חלון עבור תיבת הדו-שיח [2]י"/>
+  <STRING id="Error.2885" value="נכשל יצירת הפקד [3] בדו-השיח [2]י"/>
+  <STRING id="Error.2886" value="[2] נכשלה יצירת טבלה"/>
+  <STRING id="Error.2887" value="יצירת סמן לטבלה [2] נכשלה"/>
+  <STRING id="Error.2888" value="הפעלת התצוגה [2] נכשלה"/>
+  <STRING id="Error.2889" value="יצירת החלון עבור הפקד [3] בדו-שיח [2] נכשל"/>
+  <STRING id="Error.2890" value="המטפל נכשל ביצירת דיאלוג מאותחל"/>
+  <STRING id="Error.2891" value="נכשל ניסיון השמדת חלון עבור הדו-שיח [2]י"/>
+  <STRING id="Error.2892" value="י[2] הוא מספר שלם בלבד, [3] אינו ערך מספר שלם חוקי"/>
+  <STRING id="Error.2893" value="הפקד [3] בדו-שיח [2] יכול לקבל ערכי מאפיינים באורך מרבי של [5] תווים. הערך [4] חורג ממגבלה זו, ועל כן נחתך."/>
+  <STRING id="Error.2894" value="החזיר [2]י GetLastError() טעינה נכשלה RICHED20.DLL "/>
+  <STRING id="Error.2895" value="החזיר:[2]י GetLastError() טעינה נכשלה RICHED20.DLL "/>
+  <STRING id="Error.2896" value="ביצוע פעולה [2] נכשל"/>
+  <STRING id="Error.2897" value="נכשל ביצירת כלשהוא [2] גופן על המערכת הזו"/>
+  <STRING id="Error.2898" value="עבור [2] , יצרה מערכת גופן &apos;[3]&apos;, ב [4] ערכת תווים. textstyle"/>
+  <STRING id="Error.2899" value="החזירה: [3], נכשל ביצירת [2]י textstyle. GetLastError() returned: [3]"/>
+  <STRING id="Error.2901" value="פרמטר לא חוקי עבור הפעולה [2]: פרמטר [3]י"/>
+  <STRING id="Error.2902" value="מבצע [2] נקרא מחוץ לרצף"/>
+  <STRING id="Error.2903" value="קובץ [2] חסר"/>
+  <STRING id="Error.2904" value="לא ניתן להגיש קובץ [2]י BindImage"/>
+  <STRING id="Error.2905" value="script אין אפשרות לקרוא רשומה מקובץ [2]י"/>
+  <STRING id="Error.2906" value="script כותרת חסרה בקובץ [2]י"/>
+  <STRING id="Error.2907" value="אין אפשרות ליצור מתאר אבטחה מאובטח. שגיאה: [2]י"/>
+  <STRING id="Error.2908" value="[2] לא יכול לבצע רישום לפריט"/>
+  <STRING id="Error.2909" value=".[2] לא מצליח לבטל רישום פריט"/>
+  <STRING id="Error.2910" value="לא ניתן לקבוע את מזהה האבטחה של המשתמש"/>
+  <STRING id="Error.2911" value="[2] לא ניתן להסיר את הקבוצה"/>
+  <STRING id="Error.2912" value="אין אפשרות לתזמן את הקובץ [2] להסרה לאחר הפעלה מחדש"/>
+  <STRING id="Error.2919" value="לא צוין תא עבור קובץ דחוס: [2]י"/>
+  <STRING id="Error.2920" value="לא צוינה ספריית מקור עבור קובץ [2]י"/>
+  <STRING id="Error.2924" value="תסריט [2] גרסה שאינה נתמכת. גרסת תסריט: [3], גרסה מינימלית: [4], גרסה מקסימלית: [5]י"/>
+  <STRING id="Error.2927" value="[2] לא חוקי ShellFolder id"/>
+  <STRING id="Error.2928" value="מספר מקורות מרבי, חרג ממגבלה. מדלג על מקור &apos;[2]&apos;י"/>
+  <STRING id="Error.2929" value="אין אפשרות לקבוע בסיס פרסום. שגיאה: [2]י"/>
+  <STRING id="Error.2932" value="אין אפשרות ליצור קובץ [2] מנתוני התסריט. שגיאה: [3]י"/>
+  <STRING id="Error.2933" value="אין אפשרות לאתחל תסריט ביטול שינויים [2]י"/>
+  <STRING id="Error.2934" value="אין אפשרות לבצע המרה [2]. שגיאה [3]י"/>
+  <STRING id="Error.2935" value="לא ניתן לשחרר את ההמרה [2]. שגיאה [3]י"/>
+  <STRING id="Error.2936" value="אין אפשרות למצוא את ההמרה [2]י"/>
+  <STRING id="Error.2937" value="אין אפשרות להתקין קטלוג הגנה בקבצי מערכת. קטלוג: [2], שגיאה: [3]י Windows Installer"/>
+  <STRING id="Error.2938" value="אין אפשרות לאחזר קטלוג הגנה על קבצי מערכת מטמון. קטלוג: [2], שגיאה: [3]י Windows Installer"/>
+  <STRING id="Error.2939" value="אין אפשרות למחוק קובץ הגנה בקבצי מערכת מטמון. קטלוג: [2], שגיאה: [3]י Windows Installer"/>
+  <STRING id="Error.2940" value="לא סופק מנהל ספריות לפענוח מקור"/>
+  <STRING id="Error.2941" value="לא ניתן לחשב, עבור קובץ [2]י CRC"/>
+  <STRING id="Error.2942" value="לא בוצעה על הקובץ [2]י BindImage"/>
+  <STRING id="Error.2943" value="גרסה זו של חלונות לא תומכת בפריסת חבילות של 64 ביט. התסריט [2] נועד לחבילה של 64 סיביות."/>
+  <STRING id="Error.2944" value="GetProductAssignmentType נכשל"/>
+  <STRING id="Error.2945" value="נכשלה עם שגיאה [3]י ComPlus App [2]"/>
+  <STRING id="Error.3001" value="התיקונים ברשימה זו מכילים מידע סידור שגוי: [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [ 15] [16]י"/>
+  <STRING id="Error.3002" value="התיקון [2] מכיל מידע סידור לא חוקי"/>
+  <STRING id="Error.32" value="התקנה הושלמה בהצלחה"/>
+  <STRING id="Error.33" value="התקנה נכשלה"/>
+  <STRING id="Error.4" value="[1] מידע"/>
+  <STRING id="Error.4000" value="מםפר סידורי לא תואם"/>
+  <STRING id="Error.4001" value="לא ניתן לאשר את מספר הסידורי"/>
+  <STRING id="Error.4010" value="גרסה עדכנית יותר, כבר מותקנת במחשב זה [ProductName]"/>
+  <STRING id="Error.4020" value=" ארעה שגיאה בתהליך יצירת הגירסה, הגירסה המקורית שלך תשוחזר IIS"/>
+  <STRING id="Error.4021" value="? אתר האינטרנט &quot;[2]&quot; כבר קיים בשרת זה. האם אתה רוצה לדלג על אתר אינטרנט זה ולהמשיך בהתקנה?"/>
+  <STRING id="Error.4022" value="ספרייה וירטואלית &quot;[2]&quot; באתר &quot;[3]&quot; כבר קיים בשרת זה. האם אתה רוצה לדלג ספרייה וירטואלית זו ולהמשיך בהתקנה ?י"/>
+  <STRING id="Error.4023" value="Internet Information Services 5.0 גרסה זו אינה נתמכת או אינו מותקן באופן מלא! אתה צריך גירסה ומעלה  IIS"/>
+  <STRING id="Error.4024" value="Bindings אתר אינטרנט עם אותה שרת כבר התחיל. [2]י"/>
+  <STRING id="Error.4025" value="מאגר יישומים &quot;[2]&quot; כבר קיים בשרת זה. האם אתה רוצה לדלג על תצורת מאגר יישומים זה ולהמשיך בהתקנה?י"/>
+  <STRING id="Error.4026" value="אתר האינטרנט &quot;[2]&quot; כבר קיים בשרת זה. האם אתה רוצה להחליף את האתר הזה ולהמשיך בהתקנה? (פעולה זו אינה ניתנת לביטול.)י"/>
+  <STRING id="Error.4027" value="ספרייה וירטואלית &quot;[2]&quot; באתר &quot;[3]&quot; כבר קיים בשרת זה. האם ברצונך להחליף ספרייה וירטואלית זו ולהמשיך בהתקנה? (פעולה זו אינה ניתנת לביטול.)י"/>
+  <STRING id="Error.4028" value="מאגר יישומים &quot;[2]&quot; כבר קיים בשרת זה. האם ברצונך להחליף מאגר יישומים זה ולהמשיך בהתקנה? (פעולה זו אינה ניתנת לביטול.)י"/>
+  <STRING id="Error.4029" value=" אתר אינטרנט זה כבר קיים בשרת זה. האם אתה רוצה לדלג על אתר אינטרנט זה ולהמשיך בהתקנה?י [\[] [2] [\]] - &quot;[3]&quot;"/>
+  <STRING id="Error.4030" value="אתר אינטרנט זה כבר קיים בשרת זה. האם אתה רוצה להחליף את האתר הזה ולהמשיך בהתקנה? (פעולה זו אינה ניתנת לביטול.)י [\[] [2] [\]] - &quot;[3]&quot;"/>
+  <STRING id="Error.4031" value="ארעה שגיאה בעת עיבוד אישור דיגיטלי עבור אתר האינטרנט &quot;[2]&quot;י"/>
+  <STRING id="Error.4032" value="IIS Web Deploy אירעה שגיאה במהלך תהליך תצורת"/>
+  <STRING id="Error.4033" value="אירעה שגיאה במהלך תהליך תצורה עבור חבילה &quot;[2]&quot;. האם אתה רוצה לדלג על החבילה הזו ולהמשיך בהתקנה?י IIS Web Deploy"/>
+  <STRING id="Error.4101" value="לא ניתן ליצור חשבון משתמש או קבוצה &apos;[2]&apos; במחשב המקומי. קוד שגיאה: [3]. [4]י"/>
+  <STRING id="Error.4102" value="חשבון משתמש או קבוצה &apos;[2]&apos; כבר קיים במחשב המקומי"/>
+  <STRING id="Error.4103" value="לא ניתן להסיר חשבון משתמש או קבוצה &apos;[2]&apos; במחשב המקומי. קוד שגיאה: [3]י"/>
+  <STRING id="Error.4104" value="חשבון משתמש או קבוצה &apos;[2]&apos; לא קיים במחשב המקומי"/>
+  <STRING id="Error.4105" value="אירעה שגיאה תוך שיתוף &apos;[2]&apos; תחת השם: &apos;[3]&apos;. שגיאת תיאור: [4]י"/>
+  <STRING id="Error.4106" value="שגיאה התרחשה בזמן יצירת משימה מתוזמנת: &apos;[2]&apos;. שגיאת תיאור: [3]י"/>
+  <STRING id="Error.4107" value="אירעה שגיאה בעת הסרת משימה מתוזמנת: &apos;[2]&apos;. שגיאת תיאור: [3]י"/>
+  <STRING id="Error.4110" value="לא מצליח לאתר זיכרון"/>
+  <STRING id="Error.4111" value="[2] קובץ לא נמצא"/>
+  <STRING id="Error.4112" value="קובץ &apos;[2]&apos; לא ניתן היה לקרוא"/>
+  <STRING id="Error.4113" value="שגיאת ניתוח בקובץ: &apos;[2]&apos; בשורה: [3], עמודה: [4]. קוד שגיעה: [5]י"/>
+  <STRING id="Error.4114" value="קידוד קובץ לא נתמך XML"/>
+  <STRING id="Error.4115" value=" [2] טעות בפתיחת קובץ"/>
+  <STRING id="Error.4116" value="לא ניתן לכתוב לקובץ &apos;[2]&apos;י"/>
+  <STRING id="Error.4117" value="XML file: &apos;[3]&apos; אלמנט שורש בלתי צפוי: &quot;[2]&quot; בקובץ "/>
+  <STRING id="Error.4120" value="ארעה שגיאה בתהליך תצורת חומת האש של חלונות. תצורת חומת האש המקורית שלך תשוחזר."/>
+  <STRING id="Error.4121" value="נתיב תמונה, תהליך לא חוקי, או קובץ לא נמצא: [2]י Firewall"/>
+  <STRING id="Error.4122" value="יציאה/פרוטוקול לא חוקי: [2]י Firewall"/>
+  <STRING id="Error.4123" value="היקף רשת לא חוקי: [2]י Firewall"/>
+  <STRING id="Error.4124" value="ארעה שגיאה ברישום היישום עם חומת האש של חלונות: [2]י"/>
+  <STRING id="Error.4125" value="ארעה שגיאה ברישום הכניסה עם חומת האש של חלונות: [2]י"/>
+  <STRING id="Error.4130" value="ארעה שגיאה בתהליך תצורת משחק סייר"/>
+  <STRING id="Error.4131" value="בקרת הורים מונע ממך לשחק את המשחק: [2]י"/>
+  <STRING id="Error.4140" value="SQL ארעה שגיאה במהלך תהליך ביצוע התסריט"/>
+  <STRING id="Error.4141" value="([שגיאה: [2] ([3 ODBC"/>
+  <STRING id="Error.4142" value="פסק זמן חריג ODBC Connect"/>
+  <STRING id="Error.4143" value="שגיעת ניתוח SQL script parse error"/>
+  <STRING id="Error.4150" value="CallStdFcn טעות פנימית ב"/>
+  <STRING id="Error.4151" value="DLL &apos;[3]&apos; פונקציה &apos;[2]&apos; לא נמצא ב-י"/>
+  <STRING id="Error.4152" value="האם אתה רוצה להסיר את הגדרות וקבצים זמניים?י [ProductName] "/>
+  <STRING id="Error.4153" value="[2] תנאי חובה לא הותקנו כראויי"/>
+  <STRING id="Error.4154" value="? [ProductName] י[2] תנאים לא הותקנו כראוי. המשך בהתקנה של "/>
+  <STRING id="Error.4155" value="CRC לא הצליח לרכוש [2] כראוי, קובץ: שגיאת "/>
+  <STRING id="Error.4156" value="[ProductName] לא הצליח לרכוש [2] כראוי, המשך בהתקנה ?י CRC "/>
+  <STRING id="Error.4157" value="נכשל ניסיון לטעון [2]. שגיאה: [3]י"/>
+  <STRING id="Error.4158" value="נכשל ביצירת קובץ [2] כי צוין שם קובץ לא חוקי"/>
+  <STRING id="Error.4159" value="כשל בהפעלת החיפוש &quot;[2]&quot; ולהחליף &quot;[3]&quot; על קובץ [4]. תוכן הקובץ לא שונה"/>
+  <STRING id="Error.4160" value="נתיב ההתקנה שצוין כבר קיים. אנא בחר בנתיב אחר"/>
+  <STRING id="Error.4161" value="נתיב ההתקנה שצוין כבר קיים. האם אתה רוצה להחליף אותו?י"/>
+  <STRING id="Error.4162" value="נתיב ההתקנה שצוין לא ניתן להשתמש כי הוא מכיל את האלמנט &quot;[1]&quot;. אנא בחר בנתיב אחר"/>
+  <STRING id="Error.4163" value="נתיב ההתקנה שצוין לא ניתן להשתמש כי הוא לא מכיל את האלמנט &quot;[1]&quot;. אנא בחר בנתיב אחר"/>
+  <STRING id="Error.4164" value="כדי להתקין באמצעות מספר סידורי שונה אנא הפעל מחדש את ההתקנה"/>
+  <STRING id="Error.4165" value="SharePoint התקנה תבוטל. אירעה שגיאה בעת פריסת פתרון "/>
+  <STRING id="Error.4166" value="נכשל לפרסם את החבילה בגלל השגיאה הבאה: [2]י"/>
+  <STRING id="Error.4167" value="נכשל ניסיון להסיר את החבילה בגלל השגיאה הבאה: [2]י"/>
+  <STRING id="Error.4168" value="חבילת התקנה זו אינה נתמכת על ידי סוג המעבד הזה. פנה לספק המוצר שלך"/>
+  <STRING id="Error.4178" value="לא היתה אפשרות לחלונות להתחבר לאינטרנט כדי להוריד את הקבצים הדרושים. ודא שאתה מחובר לאינטרנט, ולחץ על &quot;נסה שוב&quot; כדי לנסות שוב."/>
+  <STRING id="Error.4179" value="תכונות חלונות הנדרשות הבאות אינן זמינות במערכת שלך: [2]י"/>
+  <STRING id="Error.4180" value="ארעה שגיאה במהלך קביעת התצורה.  התצורה המקורית שלך תשוחזר"/>
+  <STRING id="Error.4181" value="אותיות לא מקובלות"/>
+  <STRING id="Error.4182" value="ניתן להדפיס מספרים בלבד"/>
+  <STRING id="Error.4183" value="ניתן להדפיס אותיות הפרדה בלבד"/>
+  <STRING id="Error.4184" value="נכשל נסיון להתקין [2] יישומון לוח הבקרה"/>
+  <STRING id="Error.4185" value="שרות שרת מדווח שפריסה [2] נכשל. הסיבה: [3]י SQL"/>
+  <STRING id="Error.4186" value="השרת מדווח שפריסה [2] נכשלה כיוון פריסת הכלי זה אינו קיים SQL"/>
+  <STRING id="Error.4187" value="[2]. נוצרה טעות בזמן הורדת קובץ"/>
+  <STRING id="Error.4188" value="אירעה שגיאה בעת חילוץ ארכיון [2]י"/>
+  <STRING id="Error.5" value="המתקין נתקל בשגיאה לא צפויה בהתקנת החבילה הזו. הדבר עשוי להעיד על בעיה עם החבילה הזו. קוד השגיאה הוא [1]. {{הטיעונים הם: [2], [3], [4]}}י"/>
+  <STRING id="Error.7" value="{{הדיסק מלא }}"/>
+  <STRING id="Error.8" value=" [Time]: [2]. [1] פעולה"/>
+  <!-- UIText table -->
+  <STRING id="UIText.BrowseFolderLocation" value=":מיקום"/>
+  <STRING id="UIText.BrowseFolderName" value=":שם המחיצה"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="בחר מחיצה"/>
+  <STRING id="UIText.bytes" value="ביטים"/>
+  <STRING id="UIText.ConfigurePackage" value="[1] מחשב"/>
+  <STRING id="UIText.DownloadingPrereq" value="[1] מוריד"/>
+  <STRING id="UIText.ExtractPrereq" value="[1] :שלוחה"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;Error loading resource:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.HttpPostMsg" value="שולח את המידע שנאסף"/>
+  <STRING id="UIText.InstallingPackage" value="[1] מתקין"/>
+  <STRING id="UIText.InstallingPrereq" value="[1] מתקין"/>
+  <STRING id="UIText.InstallMessage" value="מתקין קבצים"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="כלל המאפינים היו לא זמינים"/>
+  <STRING id="UIText.MenuAdvertise" value="המאפינים יותקנו כשידרש"/>
+  <STRING id="UIText.MenuAllCD" value="המאפינים יותקנו להפעלה מדיסקט"/>
+  <STRING id="UIText.MenuAllLocal" value="כלל המאפינים יותקנו על כונן קשיח מקומי"/>
+  <STRING id="UIText.MenuAllNetwork" value="כלל המאפינים יותקנו להפעלה מהרשת"/>
+  <STRING id="UIText.MenuCD" value="התקנה תבוצע להפעלה מדיסקט"/>
+  <STRING id="UIText.MenuLocal" value="התקנה תבוצע להפעלה מדיסק קשיח"/>
+  <STRING id="UIText.MenuNetwork" value="התקנה תבוצע להפעלה מהרשת"/>
+  <STRING id="UIText.NumberValidationTipMsg" value="ניתן להדפיס מספרים בלבד"/>
+  <STRING id="UIText.NumberValidationTipTitle" value="אותיות לא מקובלות"/>
+  <STRING id="UIText.ODBCTestMsg" value="נא להמתין לבדיקת קישור"/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.OpenSitePrereq" value="[1] פותח אתר של"/>
+  <STRING id="UIText.OpenSiteWaitPrereq" value="מערכת התקנה ממתינה לך לאתר, להוריד ולהתקין את דרישות מקדימות הבאים למחשב שלך. לחץ &quot;בסדר&quot; כשתהיה מוכן להמשיך"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="התקן"/>
+  <STRING id="UIText.PrereqInstalled" value="הותקן"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="מוכרח להתקין"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] או נמוך יותר}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] או גבוה יותר}"/>
+  <STRING id="UIText.PrereqSkipAction" value="דלק"/>
+  <STRING id="UIText.ScriptInProgress" value="אוסף מידע נדרש"/>
+  <STRING id="UIText.SearchPrereq" value="מחפש תוכנות מותקנות"/>
+  <STRING id="UIText.SelAbsentAbsent" value="המאפין ישאר לא מותקן"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="המאפינן יותקן כשידרש"/>
+  <STRING id="UIText.SelAbsentCD" value="המאפין יותקן להפעלה מדיסקט"/>
+  <STRING id="UIText.SelAbsentLocal" value="המאפין יותקן על כונן קשיח מקומי"/>
+  <STRING id="UIText.SelAbsentNetwork" value="המאפין יותקן להפעלה מהרשת"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="המאפין יהיה לא זמין"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="התקנה תבוצע כשידרש"/>
+  <STRING id="UIText.SelAdvertiseCD" value="המאפין יהיה זמין להפעלה מ-דיסקט"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="המאפין יהותקן על דיסק קשיח מקומי"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="המאפין יהיה זמין להפעלה מהרשת"/>
+  <STRING id="UIText.SelCDAbsent" value="המאפין יוסר לחלוטין, לא תוכל להפעיל אותו מדיסקט"/>
+  <STRING id="UIText.SelCDAdvertise" value="המאפין ישנה את הפעלה מדיסקט, להתקנה כאשר ידרש"/>
+  <STRING id="UIText.SelCDCD" value="המאפין ישאר במצב הפעלה מדיסקט"/>
+  <STRING id="UIText.SelCDLocal" value="המאפין ישנה את הפעלה מדיסקט, להתקנה על כונן קשיח שלך"/>
+  <STRING id="UIText.SelChildCostNeg" value="המאפין ישחרר [1] על כונן הקשיח"/>
+  <STRING id="UIText.SelChildCostPos" value="המאפין דורש [1] על הכונן הקשיח"/>
+  <STRING id="UIText.SelCostPending" value="מקמפל עלות המאפין"/>
+  <STRING id="UIText.SelLocalAbsent" value="המאפין יוסר לחלוטין"/>
+  <STRING id="UIText.SelLocalAdvertise" value="המאפין יוסר מהכונן הקשיח, אבל יהיה זמין להתקנה כשידרש"/>
+  <STRING id="UIText.SelLocalCD" value="המאפין יוסר מהכונן הקשיח, אבל יהיה זמין להפעלה מדיסקט"/>
+  <STRING id="UIText.SelLocalLocal" value="המאפין ישאר על הכונן הקשיח"/>
+  <STRING id="UIText.SelLocalNetwork" value="המאפין יוסר מהכונן הקשיח, אבל יהיה זמין להפעלה מהרשת"/>
+  <STRING id="UIText.SelNetworkAbsent" value="המאפין יוסר לחלוטין, לא תוכל להפעיל אותו מרשת"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="המאפין ישנה את הפעלה מהרשת, להתקנה כאשר ידרש"/>
+  <STRING id="UIText.SelNetworkLocal" value="המאפין ישנה את הפעלה מהרשת, להתקנה בכונן קשיח"/>
+  <STRING id="UIText.SelNetworkNetwork" value="המאפין ישאר להפעלה מהרשת"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="המאפין משחרר [1] מהכונן הקשיח. יש לו [2] מתוך [3] תת מאפינים שנבחרו. תת מאפינים משחרר [4] בכונן הקשיח"/>
+  <STRING id="UIText.SelParentCostNegPos" value="המאפין משחרר [1] מהכונן הקשיח. יש לו [2] מתוך [3] תת מאפינים שנבחרו. תת מאפינים דורש [4] בכונן הקשיח"/>
+  <STRING id="UIText.SelParentCostPosNeg" value="המאפין דורש [1] מהכונן הקשיח. יש לו [2] מתוך [3] תת מאפינים שנבחרו. תת מאפינים משחרר [4] בכונן הקשיח"/>
+  <STRING id="UIText.SelParentCostPosPos" value="המאפין דורש [1] מהכונן הקשיח. יש לו [2] מתוך [3] תת מאפינים שנבחרו. תת מאפינים דורש [4] בכונן הקשיח"/>
+  <STRING id="UIText.SharePointLogActivateFeature" value="UIText.SharePointLogActivateFeature"/>
+  <STRING id="UIText.SharePointLogAddingSln" value="[1] מוסיף פתרון"/>
+  <STRING id="UIText.SharePointLogDeletingSln" value="[1] מסיר פתרון"/>
+  <STRING id="UIText.SharePointLogDeployingSln" value="[2]URLפורס פתרונות [1] עבור   "/>
+  <STRING id="UIText.SharePointLogFinish" value="SharePoint מסיים פריסת פתרונות עבור"/>
+  <STRING id="UIText.SharePointLogInstall" value="פועל בגירסת התקנה ראשונית"/>
+  <STRING id="UIText.SharePointLogMaintenance" value="פועל הגירסת אחזקה"/>
+  <STRING id="UIText.SharePointLogMissingStsadm" value="SharePoint שגוי . אנא ודא כי המתקין שלך יש את אותו סוג החבילה (ביט-32 או 64)ב  SharePoint או MSI "/>
+  <STRING id="UIText.SharePointLogNoUrl" value="אזהרה: פתרון לא יכול להתפרס בצורה נכונה. כתובת אתר חוקית לא נמצאה. הפתרון אינו גלובלי או מקומי."/>
+  <STRING id="UIText.SharePointLogNoWsps" value="UIText.SharePointLogNoWsps"/>
+  <STRING id="UIText.SharePointLogRetractingSln" value="[1]. מחפש פתרונות"/>
+  <STRING id="UIText.SharePointLogRetractingSlnAdmin" value="מחפש פתרונות [1] מרשת אדמינסטרטור [2]"/>
+  <STRING id="UIText.SharePointLogStart" value="SharePoint מתחיל פריסת פתרונות"/>
+  <STRING id="UIText.SharePointLogUninstall" value="פועל בגירסת ביטול"/>
+  <STRING id="UIText.SharePointLogUninstallFinish" value="SharePoint סיום הסרת פתרונות"/>
+  <STRING id="UIText.SharePointLogUninstallStart" value="SharePoint מסיר התקנת פתרונות"/>
+  <STRING id="UIText.SharePointLogWspNoFile" value="מדלק .[1] CAB לא נמצא קובץ"/>
+  <STRING id="UIText.SharePointLogWspNoName" value="[1]ללא שם, שורת אופציה מלאה CAB מדלק על"/>
+  <STRING id="UIText.SharePointLogWspNoOptions" value="[1]לא מושלם, שורת אופציה מלאה CAB מדלק על"/>
+  <STRING id="UIText.SQLBrowseMsg" value=" ברשת SQL מדפדף בשירותי "/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.SQLFetchMsg" value="Querying database..."/>
+  <STRING id="UIText.SQLFetchTitle" value="ODBC"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="מבטל את שרות בסיס המידע"/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.TimeRemaining" value="{[1] minutes }{[2] seconds} זמן נותר"/>
+  <STRING id="UIText.UnInstallingPackage" value="[1] מסיר"/>
+  <STRING id="UIText.UninstallMsg" value="? אתה בטוח שברצונך לבטל את התקנה"/>
+  <STRING id="UIText.VolumeCostAvailable" value="אפשרי"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="שטח לא מתאים"/>
+  <STRING id="UIText.VolumeCostDifference" value="הבדל"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="מנועי התקנה"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="מריצים שלא בשימוש"/>
+  <STRING id="UIText.VolumeCostRequired" value="נדרש"/>
+  <STRING id="UIText.VolumeCostSize" value="שטח הדיסק"/>
+  <STRING id="UIText.VolumeCostVolume" value="ערך"/>
+  <STRING id="UIText.Warning" value="אזהרה"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="סגור אוטמטית את התוכנות והאתחל אותם בגמר התקנה"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="אל תסגור את התוכנות (אתחול ידרש)"/>
+  <!-- Property table -->
+  <STRING id="Property.ButtonText_Accept" value="קבל&amp;"/>
+  <STRING id="Property.ButtonText_Back" value="חזרה&amp;"/>
+  <STRING id="Property.ButtonText_Browse" value="עיון&amp;"/>
+  <STRING id="Property.ButtonText_Cancel" value="בטל"/>
+  <STRING id="Property.ButtonText_Decline" value="התעלם&amp;"/>
+  <STRING id="Property.ButtonText_Exit" value="יציאה&amp;"/>
+  <STRING id="Property.ButtonText_Finish" value="סיום&amp;"/>
+  <STRING id="Property.ButtonText_Ignore" value="התעלם&amp;"/>
+  <STRING id="Property.ButtonText_Install" value="התקן&amp;"/>
+  <STRING id="Property.ButtonText_Next" value="הבא&amp;"/>
+  <STRING id="Property.ButtonText_No" value="לא&amp;"/>
+  <STRING id="Property.ButtonText_OK" value="בסדר"/>
+  <STRING id="Property.ButtonText_Remove" value="הסר&amp;"/>
+  <STRING id="Property.ButtonText_Repair" value="תקן&amp;"/>
+  <STRING id="Property.ButtonText_Reset" value="התחל מחדש&amp;"/>
+  <STRING id="Property.ButtonText_Resume" value="שחזר&amp;"/>
+  <STRING id="Property.ButtonText_Retry" value="נסה שוב&amp;"/>
+  <STRING id="Property.ButtonText_Return" value="חזור&amp;"/>
+  <STRING id="Property.ButtonText_Yes" value="כן&amp;"/>
+  <STRING id="Property.CtrlEvtchanges" value="שינוים"/>
+  <STRING id="Property.CtrlEvtChanging" value="משנה"/>
+  <STRING id="Property.CtrlEvtremoves" value="מסירים"/>
+  <STRING id="Property.CtrlEvtRemoving" value="מסיר"/>
+  <STRING id="Property.CtrlEvtRepairing" value="מתקן"/>
+  <STRING id="Property.CtrlEvtrepairs" value="תיקונים"/>
+  <STRING id="Property.InstallModeComplete" value="סיום"/>
+  <STRING id="Property.InstallModeCustom" value="בחירה"/>
+  <STRING id="Property.InstallModeTypical" value="אופיני"/>
+  <STRING id="Property.Progress1" value="מתקין"/>
+  <STRING id="Property.Progress2" value="מתקין"/>
+  <STRING id="Property.Setup" value="התקנה"/>
+  <STRING id="Property.Text_Install" value="התקן"/>
+  <STRING id="Property.Text_Next" value="הבא"/>
+  <STRING id="Property.Wizard" value="מומחה להתקנה"/>
+</DICTIONARY>

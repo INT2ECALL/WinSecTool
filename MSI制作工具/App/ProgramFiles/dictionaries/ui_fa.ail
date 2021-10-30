@@ -1,0 +1,1993 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="fa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.AI_GenericProperty.Description" value="توضیحات برنامه شما"/>
+  <STRING id="AI.AI_GenericProperty.Name" value="برنامه شما"/>
+  <STRING id="AI.Directory.Default32BitName" value="بیت 32"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="پوشه جديد"/>
+  <STRING id="AI.DuplicateFile.DestName" value="تکراری %s از %s"/>
+  <STRING id="AI.Environment.DefaultName" value="متغییر جدید"/>
+  <STRING id="AI.Feature.DefaultDescription" value="توضيحات"/>
+  <STRING id="AI.Feature.DefaultTitle" value="ویژگی"/>
+  <STRING id="AI.FileDownload.DefaultFileName" value="FileDownload.ext"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="پخش"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="پشتیبانی"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="توضیحات شما برای [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="فایل جدید"/>
+  <STRING id="AI.IniFile.DefaultKey" value="کلید جدید"/>
+  <STRING id="AI.IniFile.DefaultSection" value="قسمت جدید"/>
+  <STRING id="AI.IniFile.DefaultValue" value="مقدار جدید"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="محصول شما"/>
+  <STRING id="AI.Java.JRELoadError" value="قادر به بارگیری محیط زمان اِجرای جاوا نیست."/>
+  <STRING id="AI.Java.JavaDirectoryNotFound" value="قادر به شمردن محتویات دایرکتوری جاوا نیست."/>
+  <STRING id="AI.Java.MainClassNameRequired" value="نام کلاس اصلی مورد نیاز است."/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] نمیتواند در سیستمی با اَدوب ریدر پایین تر از نسخه [AI_REQUIRED_ADOBEREADER_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_ACTIVESYNC_DISPLAY] یا بالاتر نصب شود."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] نمیتواند در سیستمی با کیفیت رنگی کمتر از [AI_REQUIRED_COLOR_QUALITY] بیت نصب شود."/>
+  <STRING id="AI.LaunchCondition.Description" value="توضیحات شرایط اِجرا"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] نمیتواند در سیستمی با دایرکت ایکس پایین تر از نسخه [AI_REQUIRED_DIRECTX_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] نمیتواند در سیستمی با دات نت فریم ورک پایین تر از نسخه [AI_REQUIRED_DOTNET_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] نمیتواند در سیستمی با اینترنت اکسپلورر پایین تر از نسخه [AI_REQUIRED_IE_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] نمیتواند در سیستمی با سرویس اینترنت اینفورمیشن پایین تر از نسخه [AI_REQUIRED_IIS_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] برای نصب نیاز به ارتباط اینترنتی فعال دارد.لطفا پیکربندی شبکه و تنظیمات پراکسی را بررسی کنید"/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] نمیتواند در سیستمی با کیت توسعه جاوای پایین تر از نسخه [AI_REQUIRED_JDK_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] نمیتواند در سیستمی با جاوای پایین تر از نسخه [AI_REQUIRED_JRE_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] نمیتواند در [WindowsType9XDisplay] نصب شود."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] نمیتواند در [WindowsTypeNTDisplay] نصب شود."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] نمیتواند در [WindowsTypeNT40Display] نصب شود."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] نمیتواند در [WindowsTypeNT50Display] نصب شود."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] نمیتواند در [WindowsTypeNT5XDisplay] نصب شود."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] نمیتواند در [WindowsTypeNT64Display] نصب شود."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] نمیتواند در نسخه های ویندوز زیر نصب شود: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] نمیتواند در نسخه های ویندوز زیر نصب شود: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] نمیتواند در نسخه های ویندوز زیر نصب شود: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_OFFICE_APPNAME] نصب شود."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_OFFICE_APPNAME] 2003 یا بالاتر نصب شود."/>
+  <STRING id="AI.LaunchCondition.Office2003PIA" value="[ProductName]نمیتواند در سیستمی بدون [AI_REQUIRED_OFFICE2003_PIA_APPNAME] 2003 اسمبلی اینتروپ اولیه نصب شود."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_OFFICE_APPNAME] 2007 یا بلاتر نصب شود."/>
+  <STRING id="AI.LaunchCondition.Office2007PIA" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_OFFICE2007_PIA_APPNAME] 2007 اسمبلی اینتروپ اولیه نصب شود."/>
+  <STRING id="AI.LaunchCondition.Office2007SharedPIA" value="[ProductName] نمیتواند در سیستمی بدون آفیس دوهزار و هفت اشتراک گذاشته شده اولیه اینتروپ اسمبلی نصب شود"/>
+  <STRING id="AI.LaunchCondition.Office2010" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_OFFICE_APPNAME] 2010 یا بلاتر نصب شود."/>
+  <STRING id="AI.LaunchCondition.Office2010PIA" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_OFFICE2010_PIA_APPNAME] 2010 اسمبلی اینتروپ اولیه نصب شود."/>
+  <STRING id="AI.LaunchCondition.Office2010SharedPIA" value="[ProductName] نمیتواند در سیستمی بدون آفیس دوهزار و ده اشتراک گذاشته شده اولیه اینتروپ اسمبلی نصب شود"/>
+  <STRING id="AI.LaunchCondition.Office2013" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_OFFICE_APPNAME] 2013 یا بالاتر نصب شود."/>
+  <STRING id="AI.LaunchCondition.Office2016" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_OFFICE_APPNAME] 2016 یا بلاتر نصب شود."/>
+  <STRING id="AI.LaunchCondition.PowerShell" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_POWERSHELL_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] برای نصب نیاز به اجازه آدمین هست"/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] نمیتواند در سیستمی با حافظه فیزیکی کمتر از [AI_REQUIRED_PHYSICAL_MEMORY] مگابایت نصب شود."/>
+  <STRING id="AI.LaunchCondition.RequireBootstrapper" value="این بسته فقط میتواند از یک بوت استرپر اِجرا شود."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] نمیتواند در در سیستمی با وضوح کمتر از [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y] نصب شود."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_SQLCOMPACT_DISPLAY] یا بالاتر نصب شود"/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_SQLEXPRESS_DISPLAY] یا بالاتر نصب شود."/>
+  <STRING id="AI.LaunchCondition.SharePoint" value="[ProductName] نمیتواند در سیستمی بدون [AI_REQUIRED_SHAREPOINT_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.SharePointDeployment" value="[ProductName] نمیتواند نصب شود زیرا سولوشین شیرپوینت آن محتوای از قبل گسترش داده شده است"/>
+  <STRING id="AI.LaunchCondition.SharePointPermissions" value="[ProductName] نمیتواند نصب شود زیرا کاربر فعلی اجازه کافی برای گسترش سولوشین شیرپوینت ندارد"/>
+  <STRING id="AI.LaunchCondition.SharePointServices" value="[ProductName] نمیتواند نصب شود زیرا سرویس آدمین شیرپوینت و شیرپوینت زمان بند اجرا نشده است"/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] نمیتواند در سیستمی که درحال اِجرا در ماشین مجازی هست اِجرا شود"/>
+  <STRING id="AI.LaunchCondition.VSTO" value="[ProductName] نمیتواند در سیستمی بدو [AI_REQUIRED_VSTO_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] نمیتواند در سیستمی با ویندوز اینستالر پایین تر از نسخه [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY] نصب شود."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName] نمیتواند در سیستمی با ایکس اِن اِی فریم ورک کوچکتر از [AI_REQUIRED_XNA_DISPLAY] نصب شود."/>
+  <STRING id="AI.Library.DefaultFileName" value="کتابخانه جدید"/>
+  <STRING id="AI.MoveFile.DestName" value="YourFile.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="پایگاه دادن این اینستالر محتوای منطق و داده مورد نیاز برای نصب [|ProductName] هست."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="شرکت شما"/>
+  <STRING id="AI.Property.DefaultModuleName" value="مدل ادغام شما"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="این پایگاه داده اینستالر محتوای منطق و داده مورد نیاز برای نصب مولفه &lt;module name&gt; هست."/>
+  <STRING id="AI.Property.DefaultProductName" value="برنامه شما"/>
+  <STRING id="AI.Property.DefaultValue" value="مقدار شما"/>
+  <STRING id="AI.Property.FindExeTitle" value="بسته نصب را برای [|ProductName] انتخاب کنید"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="این بسته محتوی مدل ادغامی هست که با نسخه آزمایشی برنامه ایجاد شده است.میتوانید بمنظور ارزیابی از آن استفاده کنید."/>
+  <STRING id="AI.Property.TrialMessageBody" value="این بسته با نسخه آزمایشی اینستالر پیشرفته ساخته شده است. از آن فقط برای ارزیابی میتوانید استفاده کنید."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="هشدار"/>
+  <STRING id="AI.Registry.DefaultKey" value="New_Key"/>
+  <STRING id="AI.Registry.DefaultName" value="مقدار جدید"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="YourFile.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="YourValue"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="ServiceName"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="توضیح سرویس شما"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="سرویش شما"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="اشتراک جدید"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="میانبر به YourCommand"/>
+  <STRING id="AI.Shortcut.DefaultName" value="%s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="حذف کامل"/>
+  <STRING id="AI.Verb.DefaultCommand" value="بازکردن"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="فایل جدید"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="اطلاعات اینستالر"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LogonInformationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MinProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SharePointLogDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLServerConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseIISWebsitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ConfigureDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderPage" value="پوشه نصب&amp;"/>
+  <STRING id="Dialog.CustomizePage" value="ویژگی ها&amp;"/>
+  <STRING id="Dialog.LanguageDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomePrereqDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressPrereqDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PreparePrereqDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BasicUIDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MultipleInstancesDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="نصب در:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="پوشه مقصد را انتخاب کنید"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="ایجاد پوشه جدید|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="نام پوشه:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="تغییر پوشه نصب فعلی"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="یک مرحله به بالا|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="لطفا مکان شبکه سرور ایمیج  [ProductName] را مشخص کنید"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="مکان شبکه جدید وارد کنید یا یا روی جستجو کلیک کنید"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="مکان شبکه"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="کلید سی دی:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="اطلاعات شرکت خود را وارد کنید"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="لطفا نام سازمان را در زیر وارد کنید.  این استفاده خواهد شد بعنوان نام شرکت برای نصب بعدی [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="اطلاعات شرکت"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard] ایمیج سرور [ProductName]، در مکان مشخص شده شبکه ایجاد خواهد کرد.  روی [Text_Next] برای ادامه یا برای خروج از [Wizard] روی لغو کلیک کنید."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#DescriptionNoClose" value="[Wizard] ایمیج سرور [ProductName]، در مکان مشخص شده شبکه ایجاد خواهد کرد.  روی [Text_Next] برای ادامه یا برای خروج از [Wizard] پنجره را ببندید."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="خوش آمدید به [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="نصب در:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="پوشه مقصد را انتخاب کنید"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="ایجاد پوشه جدید|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="نام پوشه:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="تغییر پوشه نصب فعلی"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="یک مرحله به بالا|"/>
+  <STRING id="Control.Text.BrowseIISWebsitesDlg#Description" value="وبسایتی را که میخواهید بروز رسانی کنید انتخاب کنید."/>
+  <STRING id="Control.Text.BrowseIISWebsitesDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.BrowseIISWebsitesDlg#Title" value=".بسایت های هدف"/>
+  <STRING id="Control.Text.BrowseIISWebsitesDlg#WebsitesList" value="لیست وبسایت"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="آیکون اطلاعات|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="آیا میخواهید نصب [ProductName] را لغو کنید؟"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="نصب کامل|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="نصب سرور|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="نصب کلاینت|"/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="نو نصبی را که نیاز شما را برآورده میکند انتخاب کنید"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="نوع نصب را انتخاب کنید"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="کامل"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="نصب پیکربندی های سرور و کلاینت"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="سرور"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="نصب پیکربندی سرور"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="کلاینت"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="نصب پیکربندی کلاینت"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="روشی را که میخواهید ویژگی ها نصب شود انتخاب کنید."/>
+  <STRING id="Control.Text.CustomizeDlg#FeatsShortDescription" value="ویژگی برای نصب را انتخاب کنید"/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="مصرف دیسک"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="توضیح چندخطی آیتم انتخاب شده"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="حجم آیتم فعلی انتخاب شده."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;مسیر انتخاب&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="مكان:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="روی آیکون درختی در زیر برای انتخاب اینکه کدام ویژگی ها نصب شود کلیک کنید."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="نصب دستی"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="ریشه انتخابی"/>
+  <STRING id="Control.Text.CustomizeDlg#QuickSelectionTree" value="ریشه انتخابی"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="فضای دیسک موردنیاز برای نصب ویژگی های انتخاب شده"/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="درایوهای برجسته شده(اگر وجود دارد) فضای دیسک کافی برای ویژگی های انتخاب شده ندارد.شما میتوانید تعدادی فایل از درایو برجسته شده حذف کنید، یا ویژگی های کمتری برای نصب در درایو محلی انتخاب کنید یا درایو مقصد متفاوتی انتخاب کنید."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="فضای دیسک موردنیاز"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="آیکون اطلاعات|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="متن اطلاعات"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="برای خروج از ویزارد [Wizard] روی پایان کلیک کنید."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="اِجرای [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="این [Wizard] [ProductName] کامل شد"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="مشاهده فایل بیشتر بخوانید"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] [ProductName] برای دستگیره کردن انواع فایل زیر ثبت خواهد کرد: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="وابسته سازی [ProductName] با انواع فایل"/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="وابسته سازی فایل"/>
+  <STRING id="Control.Text.FatalError#Description1" value="نصب [ProductName] نابهنگام به علت خطا پایان یافت. سیستم شما تغییر نکرده است.  برای نصب این برنامه در زمانی دیگر، لطفا برنامه راه انداز را دوباره اجرا کنید."/>
+  <STRING id="Control.Text.FatalError#Description2" value="برای خروج از ویزارد [Wizard] روی پایان کلیک کنید."/>
+  <STRING id="Control.Text.FatalError#Title" value="[Wizard] [ProductName] نابهنگام پایان یافت"/>
+  <STRING id="Control.Text.FatalError#LogCheckBox" value="نمایش وقایع"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Description" value="پسوندهایی را که میخواهید با [ProductName] وابسته سازی شود انتخاب کنید"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Title" value="وابسته سازی فایل را انتخاب کنید"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Text" value="انواع فایلی را که میخواهید خودکار با [ProductName] باز شود انتخاب کنید:"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="بعضی از فایل هایی که نیاز به بروزرسانی دارند اکنون درحال استفاده است"/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="برنامه های زیر از فایل هایی که توسط این راه انداز نیاز به بروزرسانی دارند در حال استفاده اند. شما میتوانید برنامه را ببندید و روی دوباره کیک کنید، با روی چشمپوشی کلیک کنید بنابراین راه انداز نصب را ادامه میدهد و آن فایل ها را در ریستارت سیستم جایگزین میکند"/>
+  <STRING id="Control.Text.FilesInUse#Title" value="فایل در حال استفاده"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="این پوشه ای هست که [ProductName] در آن نصب خواهد شد."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="پوشه:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="برای نصب در این پوشه، روی &quot;[Text_Next]&quot; کلیک کنید. برای نصب در پوشه متفاوت، آن را در زیر وارد کنید یا روی &quot;جستجو&quot; کلیک کنید"/>
+  <STRING id="Control.Text.FolderDlg#TextNoNext" value="[ProductName] در رایانه شما نصب میشود. برای نصب در مکانی دیگر،در زیر وارد کنید یا دکمه &quot;جستجو&quot; را فشار دهید."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="پوشه نصب را انتخاب کنید"/>
+  <STRING id="Control.Text.InstallDlg#Title" value="مکان فایل و شرایط مجوز"/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="نوع نصب را انتخاب کنید"/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="نوع نصب"/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="نصب [ProductName] برای:"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_fa.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="لطفا توافقنامه مجوز زیرا را بادقت بخوانید"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="توافقنامه مجوز کاربر نهایی"/>
+  <STRING id="Control.Text.LogonInformationDlg#Description" value="اطلاعات اکانت کاربر را مشخص کنید"/>
+  <STRING id="Control.Text.LogonInformationDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.LogonInformationDlg#Title" value="اطلاعات ورود"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameLabel" value="نام کاربری:"/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainLabel" value="دامنه:"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordLabel" value="رمزعبور:"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="تغییر نصب|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="تغییر"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="اجازه به کاربر برای تغییر ویژگی های نصب شده."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="عملکردی را که میخواهید اجرا کنید انتخاب کنید."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="حذف نصب|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="حذف"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="حذف [ProductName] از رایانه."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="تعمیر نصب|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="تعمیر"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="تعمیر خطاها در حالت نصب های اخیر - تعمیر فایل های گم شده یا خراب،میانبرها و وردی ریجیستری"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="تغییر، تعمیر یا حذف نصب"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] اجازه تغییر ویژگی های نصب شده [ProductName] را میدهد یا حتی اجازه حذف [ProductName] از رایانه را میدهد.  برای ادامه روی [Text_Next] کلید کنید یا برای خروج از [Wizard] لغو را فشار دهید."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#DescriptionNoClose" value="[Wizard] اجازه تغییر ویژگی های نصب شده [ProductName] را میدهد یا حتی اجازه حذف [ProductName] از رایانه را میدهد.  برای ادامه روی [Text_Next] کلید کنید یا برای خروج از [Wizard] پنجره را ببندید."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="خوش آمدید به [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.MinProgressDlg#ProgressBar" value="پیشرفت انجام شد"/>
+  <STRING id="Control.Text.MinProgressDlg#StatusLabel" value="وضعيت:"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="فضای دیسک موردنیاز برای نصب از فضای دیسک موجود تجاوز کرده است"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="درایوهای برجسته شده فضای دیسک کافی برای ویژگی های انتخاب شده ندارد.شما میتوانید تعدادی فایل از درایو برجسته شده حذف کنید، یا ویژگی های کمتری برای نصب در درایو محلی انتخاب کنید یا درایو مقصد متفاوتی انتخاب کنید."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="حافظه کم است"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="فضای دیسک موردنیاز برای نصب از فضای دیسک موجود تجاوز کرده است"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="درایوهای برجسته شده فضای دیسک کافی برای ویژگی های انتخاب شده ندارد.شما میتوانید تعدادی فایل از درایو برجسته شده حذف کنید، یا ویژگی های کمتری برای نصب در درایو محلی انتخاب کنید یا درایو مقصد متفاوتی انتخاب کنید."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="متناوبا، شما میتوانید قابلیت بازگشت به عقب ایستالر را غیر فعال کنید.  این به شما اجازه بازگرداندن رایانه به حالت اصلی در هر جا که نصب قطع شده را میدهد.  اگر این ریسک را قبول میکنید روی بله کلیک کنید."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="حافظه کم است"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="لطفا منتظر بمانید تا [Wizard] آماده شود تا توسط آن شما را درنصب راهنمایی کند."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="خوش آمدید به [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Description" value="انتخاب کنید کدام پیش نیازها نصب خواهد شد"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}نام,موردنیاز,یافت,اقدام"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Title" value="پبش نیازها"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="پیشرفت انجام شد"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="وضعيت:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="لطفا تا زمانیکه [Wizard] [ProductName] [Progress2] میکند،منتظر بمانید.  شاید چنددقیقه طول بکشد."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="لطفا متن زیر را بادقت بخوانید"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_fa.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="فایل من رابخوانید"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard] نصب [ProductName] را در رایانه شما کامل خواهد کرد.  روی نصب برای ادامه یا برای خروج از [Wizard] پنجره را ببندید."/>
+  <STRING id="Control.Text.ResumeDlg#DescriptionNoClose" value="[Wizard] نصب [ProductName] را در رایانه شما کامل خواهد کرد.  روی نصب برای ادامه یا برای خروج از [Wizard] پنجره را ببندید."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="این [Wizard] [ProductName] ادامه داده شود"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="نصب کامل|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="کامل"/>
+  <STRING id="Property.Text_Complete" value="کامل"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="همه ویژگی ها نصب خواهد شد.  (فضای دیسک بیشتری نیاز است)"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="نصب دستی|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="دستی"/>
+  <STRING id="Property.Text_Custom" value="دستی"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="اجازه به کاربر برای انتخاب اینکه کدام ویژگی های برنامه باید نصب شود و در کجا باید نصب شود.به کاربران پیشرفته توصیه میشود."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="نوع نصبی را که نیازهای شما را برآورده میکند انتخاب کنید"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="نوع نصب را انتخاب کنید"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="نصب معمولی|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="معمولی"/>
+  <STRING id="Property.Text_Typical" value="معمولی"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="نصب بیشتر ویژگی های متعارف برنامه.بای بیشتر کاربران توصیه میشود."/>
+  <STRING id="Control.Text.SharePointLogDlg#Title" value="وقایع گسترش شیرپوینت"/>
+  <STRING id="Control.Text.SharePointLogDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.SharePointLogDlg#SharePointLog" value="{0}"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] میتواند نسیخه های قدیمی [ProductName] را جستجو و حذف کند.میخواهید آن نسخه ها را حذف کنید؟"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] تشخیص داده شما مکان نصبی را انتخاب کرده اید که آن همچنین توسط نسخه [AI_Replaced_Versions_List] از محصول [ProductName] در حال استفاده است. این نسخه باید حذف شود. آیا میخواهید نسخه قدیمی را حذف کنید؟"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="جستجو و ارتقاء نسخه قدیمی [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="ارتقاء نصب قدیمی"/>
+  <STRING id="Control.Text.UserExit#Description1" value="نصب [ProductName] قطع شده است.  سیستم شما تغییرنیافته است.  برای نصب دوباره این برنامه،لطفا فایل راه انداز را دوباره اجرا کنید."/>
+  <STRING id="Control.Text.UserExit#Description2" value="برای خروج از ویزارد [Wizard] روی پایان کلیک کنید."/>
+  <STRING id="Control.Text.UserExit#Title" value="[Wizard] [ProductName] قطع شده است"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="شماره سریال:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="اطلاعات مشتری خود را وارد کنید"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="نام کاربری:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="سازمان:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="اطلاعات مشتری"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] آماده شروع نصب [ProductName] هست."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="برای شروع &quot;نصب&quot; را کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید"/>
+  <STRING id="Control.Text.VerifyReadyDlg#TextNoClose" value="برای شروع،نصب را کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی قبلی کلیک کنید.  روی لغو برای خروج از ویزارد کلیک کنید."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="آماده نصب"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="شما حذف برنامه از رایانه را انتخاب کرده اید"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="روی &quot;حذف&quot; برای حذف [ProductName] از رایانه کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#TextNoClose" value="روی &quot;حذف&quot; برای حذف [ProductName] از رایانه کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="حذف [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard] آماده شروع تعمیر [ProductName] هست."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="روی &quot;تعمیر&quot; برای تعمیر نصب [ProductName] کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید."/>
+  <STRING id="Control.Text.VerifyRepairDlg#TextNoClose" value="روی &quot;تعمیر&quot; برای تعمیر نصب [ProductName] کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="تعمیر [ProductName]"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="آیکون تعجب|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="لطفا تا زمانیکه اینستالر فضای دیسک موردنیاز را تشخیص دهد منتظر بمانید."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard] [ProductName] را روی رایانه شما نصب خواهد کرد.  روی [Text_Next] برای ادامه یا روی &quot;لغو&quot; برای خروج از [Wizard] کلیک کنید."/>
+  <STRING id="Control.Text.WelcomeDlg#DescriptionNoClose" value="[Wizard] [ProductName] را روی رایانه شما نصب خواهد کرد.  روی [Text_Next] برای ادامه یا روی &quot;لغو&quot; برای خروج از [Wizard] پنجره را ببندید."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="خوش آمدید به [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] وصله را برای [ProductName] در رایانه نصب خواهد کرد. روی [Text_Next] برای ادامه یا برای خروج از [Wizard] روی لغو کلیک کنید."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#DescriptionNoClose" value="[Wizard] وصله را برای [ProductName] در رایانه نصب خواهد کرد. روی [Text_Next] برای ادامه یا برای خروج از [Wizard] وصله پنجره را ببندید."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="به [Wizard] وصله [ProductName] خوش آمدید"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="پیکربندی میانبرها"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="ایجاد میانبرهای برنامه"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="ایجاد میانبر برای [ProductName] در مکان های زیر:"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="دسکتاپ"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="پوشه برنامه ها در اِستارت منو"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="نوارابزار اِجرای سریع"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="پوشه اِستارت آپ"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="پوشه میانبرهای اِستارت منو:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="برای نصب میانبر در این پوشه، روی &quot;[Text_Next]&quot; کلیک کنید. برای نصب در پوشه دیگر،آن را وارد یا از منوی بازشدنی انتخاب کنید."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="در این پوشه میانبرهای [ProductName] نصب خواهد شد."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="پوشه میانبر اِستارت منو را انتخاب کنید"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="بمنظور نصب در زیرپوشه، الحاق نام زیرپوشه، با &quot;\&quot; جدا شده است."/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="پایگاه داده:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ریسورس ODBC:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="رمزعبور:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="پورت:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="سرور:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="نام کاربر:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="پیکربندی اتصال اِس کیو اِل..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="پایگاه داده اِس کیو اِل"/>
+  <STRING id="Control.Text.SQLServerConnectionDlg#TestSqlConnectionLabel" value="تست ارتباط اِس کیو اِل"/>
+  <STRING id="Control.Text.SQLServerConnectionDlg#TestSqlConnection" value="&lt;a href=&quot;&quot;&gt;تست ارتباط اِس کیو اِل&lt;/a&gt;"/>
+  <STRING id="Control.Text.SQLServerConnectionDlg#ConnectionResult" value="[SqlConnectionResult]"/>
+  <STRING id="Control.ExtData.SQLServerConnectionDlg#TrustedConnectionCheckBox" value="ارتباط معتبر (احراز هویت یکپارچه شده ویندوز)"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="توضیح دیالوگ جدید..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="دیالوگ جدید"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="توضیح دیالوگ جدید..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="دیالوگ جدید"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="دیالوگ(انتظار) اسپان جدید"/>
+  <STRING id="Control.Text.TemplateChildDlg#Text" value="دیالوگ پچه جدید"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="لطفا صفات سرور تام کَت را پیکربندی کنید"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="نام هاست:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="HTTP پورت:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="HTTP SSL پورت:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="شماره پورت شات دان:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="صفات سرور تام کَت"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="بعضی از فایل هایی که نیاز به بروزرسانی دارند اکنون درحال استفاده است"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="برنامه های زیر از فایل هایی که نیاز به بروزرسانی دارند استفاده میکنند."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="فایل در حال استفاده"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.ConfigureDlg#Title" value="پیکربندی کنید چگونه [ProductName] نصب شود"/>
+  <STRING id="Control.Text.OptionalFeatsDlg#Title" value="ویژگی اختیاری برای نصب"/>
+  <STRING id="Control.Text.SelectAll" value="انتخاب همه&amp;"/>
+  <STRING id="Control.Text.LanguageDlg#Title" value="خوش آمدید به [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.LanguageDlg#LangText" value="زبان راه انداز را انتخاب کنید"/>
+  <STRING id="Control.Text.WelcomePrereqDlg#Title" value="به [Wizard] پیش نیازها خوش آمدید"/>  
+  <STRING id="Control.Text.ProgressPrereqDlg#Title" value="[Progress1] پیش نیاز برای [ProductName]"/>
+  <STRING id="Control.Text.ProgressPrereqDlg#Text" value="لطفا تا زمانیکه [Wizard] [Progress2] پیش نیازها برای [ProductName] منتظر بمانید.  شاید چنددقیقه طول بکشد."/>
+  <STRING id="Control.Text.ProgressPrereqDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.ProgressPrereqDlg#ProgressBar" value="پیشرفت انجام شد"/>
+  <STRING id="Control.Text.ProgressPrereqDlg#StatusLabel" value="وضعيت:"/>
+  <STRING id="Control.Text.PreparePrereqDlg#Description" value="لطفا منتظر بمانید تا [Wizard] آماده شود تا توسط آن شما را درنصب راهنمایی کند."/>
+  <STRING id="Control.Text.PreparePrereqDlg#Title" value="به [Wizard] پیش نیازها خوش آمدید"/>  
+  <STRING id="Control.Text.BasicUIDlg#ProgressBar" value="ProgressBar"/>
+  <STRING id="Control.Text.MultipleInstancesDlg#Description" value="این بسته به شما اجازه نصب چندین نمونه از محصول را میدهد."/>
+  <STRING id="Control.Text.MultipleInstancesDlg#InstanceNameCheckBox" value="نام دستی برای نمونه انتخاب کنید:"/>
+  <STRING id="Control.Text.MultipleInstancesDlg#InstanceNameEdit" value="{260}"/>
+  <STRING id="Control.Text.MultipleInstancesDlg#InstancesListNew" value="{220}شناسه نمونه"/>
+  <STRING id="Control.Text.MultipleInstancesDlg#InstancesListMaint" value="{180}{80}{400}نام محصول،نسخه،مکان نصب"/>
+  <STRING id="Control.Text.MultipleInstancesDlg#Logo" value="اینستالر پیشرفته"/>
+  <STRING id="Control.Text.MultipleInstancesDlg#NewInstRadioButtonGroup" value="RadioButtonGroup"/>
+  <STRING id="Control.Text.MultipleInstancesDlg#Title" value="چندین نمونه"/>  
+  <STRING id="Control.Text.MultipleInstancesDlg#Upgrade" value="نگهداری یا ارتقاء نصب نمونه ها موجود است،لطفا نمونه ای را که میخواهید نگهداری یا ارتقاء دهید را انتخاب و روی بعدی کلیک کنید:"/>  
+  <STRING id="Control.Text.WelcomePrereqDlg#SubTitle" value="به [Wizard] پیش نیازها خوش آمدید"/>
+  <STRING id="Control.Text.WelcomePrereqDlg#Description" value="راه انداز تشخیص داده برخی پیشنیاز های که برای اِجرای [ProductName] نیاز است گم شده اند. این ویزارد به شما در گرفتن و نصب این پیش نیاز ها کمک می کند. روی &quot;[Text_Next]&quot; برای ادامه یا روی &quot;[ButtonText_Cancel]&quot; برای خروج از [Wizard] کلیک کنید."/>
+  <!-- Metro Theme strings -->
+  <STRING id="Metro.Control.Text.LicenseAgreementDlg#AgreeInstall" value="پذیرفتن و&amp; نصب"/>
+  <STRING id="Metro.Control.ExtData#Cancel" value="[ButtonText_Cancel]"/>
+  <STRING id="Metro.Control.ExtData#Modify" value="تغییر"/>
+  <STRING id="Metro.Control.ExtData#No" value="[ButtonText_No]"/>
+  <STRING id="Metro.Control.ExtData#OK" value="&amp;[ButtonText_OK]"/>
+  <STRING id="Metro.Control.ExtData#Yes" value="[ButtonText_Yes]"/>
+  <STRING id="Metro.Control.ExtData.Back" value="قبلی"/>
+  <STRING id="Metro.Control.ExtData.ExitDialog#Finish" value="[ButtonText_Finish]"/>
+  <STRING id="Metro.Control.ExtData.VerifyReadyDlg#InstallButton" value="نصب"/>
+  <STRING id="Metro.Control.ExtData.VerifyRemoveDlg#Remove" value="حذف"/>
+  <STRING id="Metro.Control.ExtData.VerifyRepairDlg#Repair" value="تعمیر"/>
+  <STRING id="Metro.Control.ExtData.WelcomeDlg.BrowseTxt" value="..."/>
+  <STRING id="Metro.Control.Text.AdminWelcomeDlg#Description" value="[Wizard] ایمیج سرور [ProductName]، در مکان مشخص شده شبکه ایجاد خواهد کرد.  روی &quot;[Text_Next]&quot; برای ادامه یا &quot;لغو&quot; برای خروج از [Wizard] کلیک کنید."/>
+  <STRING id="Metro.Control.Text.ExitDialog#Readme" value="مرا بخوانید"/>
+  <STRING id="Metro.Control.Text.ExitDialog#Run" value="اِجرا"/>
+  <STRING id="Metro.Control.Text.Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Metro.Control.Text.OutOfDiskDlg#Text" value="فضای دیسک کافی در درایوهای مشخص شده موجود نیست.درایو دیگری انتخاب کنید یا تعدادی فایل از درایو حذف کنید یا ویژگی های کمتری برای نصب انتخاب کنید."/>
+  <STRING id="Metro.Control.Text.ProductName" value="[ProductName]"/>
+  <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_2" value="راه انداز نصب خواهد شد در:"/>
+  <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_4" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_5" value="فضای مورد نیاز:"/>
+  <STRING id="Metro.Control.Text.VerifyRemoveDlg#Text" value="روی &quot;حذف&quot; برای حذف [ProductName] از رایانه کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید."/>
+  <STRING id="Metro.Control.Text.VerifyRepairDlg#Text" value="روی &quot;تعمیر&quot; برای تعمیر نصب [ProductName] کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید."/>
+  <STRING id="Metro.Control.Text.WelcomeDlg#YouMustAgreeCtrl" value="قبل از نصب [ProductName] شما باید با &lt;a href=&quot;&quot;&gt;شرایط و ضوابط&lt;/a&gt; موافقت کنید."/>
+  <STRING id="Metro.Control.Text.WelcomeDlg.AgreeToLicense" value="من موافق شرایط و ضوابط مجوز هستم."/>
+  <STRING id="Metro.Control.Text.ResumeDlg#Description" value="[Wizard] نصب [ProductName] را در رایانه شما کامل خواهد کرد. برای ادامه روی &quot;نصب&quot; کلیک کنید."/>
+  <STRING id="Control.Text.InstallDlg#DescWithSize" value="راه انداز نیاز دارد به [PrimaryVolumeSpaceRequired] در:"/>
+  <!-- Modern Theme strings -->
+  <STRING id="Modern.Control.Text.Dlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.Dlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.Dlg#Setup" value="نصب"/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#Description" value="[Wizard] ایمیج سرور [ProductName]، در مکان مشخص شده شبکه ایجاد خواهد کرد."/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#BottomNote" value="برای ادامه روی &quot;[Text_Next]&quot; کلیک کنید."/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#SelectionTreeLabel" value="انتخاب ویژگی ها برای نصب:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#FeatureDescriptionLabel" value="توضیح ویژگی:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#Browse" value="جستجو.."/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#InstallPathLabel" value="مسیر نصب محصول:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#VolumeCostListLabel" value="فضای دیسک موردنیاز:"/>
+  <STRING id="Modern.Control.ExtData.MaintenanceTypeDlg#AddRemoveButton" value="&amp;افزودن یا حذف ویژگی"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#AddRemoveButton" value="تغییر ویژگی هایی که حذف میشوند یا وِزگی هایی که مشخص شده تاحذف شود|"/>
+  <STRING id="Modern.Control.ExtData.MaintenanceTypeDlg#RepairButton" value="&amp;تعمیر/نصب مجدد"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RepairButton" value="تعمیر خطاها در حالت نصب های اخیر - تعمیر فایل های گم شده یا خراب،میانبرها و وردی ریجیستری|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RemoveButton" value="حذف [ProductName] از رایانه|"/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] به شما اجازه تغییر ویژگی های نصب شده [ProductName] در رایانه را میدهد یا حتی میتواند [ProductName] را از رایانه شما حذف کند."/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#BottomNote" value="برای ادامه روی &quot;[Text_Next]&quot; کلیک کنید."/>
+  <STRING id="Modern.Control.Text.PrepareDlg#Description" value="لطفا منتظر بمانید تا [Wizard] آماده شود تا توسط آن شما را درنصب راهنمایی کند."/>
+  <STRING id="Modern.Control.Text.ResumeDlg#Description" value="[Wizard] نصب [ProductName] را در رایانه کامل خواهد کرد."/>
+  <STRING id="Modern.Control.Text.ResumeDlg#BottomNote" value="روی &quot;نصب&quot; برای ادامه یا &quot;لغو&quot; برای خروج از [Wizard] کلیک کنید."/>
+  <STRING id="Modern.Control.Text.UserExit#Description" value="نصب [ProductName] قطع شده است.  سیستم شما تغییرنیافته است.  برای نصب دوباره این برنامه،لطفا فایل راه انداز را دوباره اجرا کنید."/>
+  <STRING id="Modern.Control.Text.UserExit#BottomNote" value="برای خروج از [Wizard] دکمه &quot;پایان&quot; را فشار دهید."/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Title" value="آماده نصب"/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Description" value="[Wizard] آماده شروع نصب [ProductName] هست."/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#BottomNote" value="برای شروع &quot;نصب&quot; را کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Title" value="حذف [ProductName]"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Description" value="شما حذف برنامه از رایانه را انتخاب کرده اید"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#BottomNote" value="روی &quot;حذف&quot; برای حذف [ProductName] از رایانه کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید."/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Title" value="تعمیر [ProductName]"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Description" value="[Wizard] آماده شروع تعمیر [ProductName] هست."/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#BottomNote" value="روی &quot;تعمیر&quot; برای تعمیر نصب [ProductName] کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید."/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Title" value="خوش آمدید به [Wizard] [ProductName]"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Description" value="[Wizard] [ProductName] را روی رایانه شما نصب خواهد کرد."/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#BottomNote" value="برای ادامه روی &quot;[Text_Next]&quot; کلیک کنید."/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Title" value="به [Wizard] وصله [ProductName] خوش آمدید"/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Description" value="[Wizard] وصله را برای [ProductName] در رایانه نصب خواهد کرد. روی &quot;[Text_Next]&quot; برای ادامه یا برای خروج از [Wizard] وصله لغو را فشار دهید."/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#AgreementLabel" value="مطمئن شوید با دقت خوانده اید و همه حقوق و محدودیت های توضیح داده شده دز شرایط مجوز را درک کرده اید.قبل از ادامه نصب نرم افزار،باید شرایط مجوز را بپذیرید."/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#ButtonLabel" value="کلید Page Down را از صفحه کلید برای دیدن متن بیشتر کلیک کنید"/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#PrintButton" value="چاپ"/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Title" value="پبش نیازها"/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Description" value="انتخاب کنید کدام پیش نیازها نصب خواهد شد"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Title" value="فایل من رابخوانید"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Description" value="لطفا متن زیر را با دقت بخوانید"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#TypicalInstallButton" value="نصب بیشتر ویژگی های متعارف برنامه.برای بیشترکاربران توصیه میشود|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CustomInstallButton" value="اجازه به کاربر برای انتخاب اینکه کدام ویژگی های برنامه باید نصب شود و در کجا باید نصب شود.به کاربران پیشرفته توصیه میشود.|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CompleteInstallButton" value="همه ویژگی های برنامه نصب میشود.  (فضای دیسک بیشتری نیاز است)|"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#Title" value="انتخاب ویژگی ها برای نصب:"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#PathLabel" value="مسیر نصب محصول:"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#BrowseButton" value="جستجو.."/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#VolumeCostListLabel" value="فضای دیسک موردنیاز:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Title" value="پیکربندی میانبرها"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Description" value="ایجاد میانبر برنامه"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#ShortcutsLabel" value="ایجاد میانبر برای [ProductName] در مکان های زیر:"/>
+  <STRING id="Modern.Control.Text.SQLConnectionDlg#Description" value="پیکربندی اتصال اِس کیو اِل."/>
+  <STRING id="Modern.Control.Text.FatalError#Description" value="نصب [ProductName] نابهنگام به علت خطا پایان یافت. سیستم شما تغییر نکرده است.  برای نصب این برنامه در زمانی دیگر، لطفا برنامه راه انداز را دوباره اجرا کنید."/>
+  <STRING id="Modern.Control.Text.UserRegistrationDlg#Description" value="اطلاعات مشتری خود را وارد کنید."/>
+  <STRING id="Modern.Control.Text.TomcatServerDlg#Description" value="لطفا صفات سرور تام کَت را پیکربندی کنید."/>
+  <STRING id="Modern.Control.Text.LanguageDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.LanguageDlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.LanguageDlg#Setup" value="نصب"/>
+  <STRING id="Modern.Control.Text.MultipleInstancesDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.MultipleInstancesDlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.MultipleInstancesDlg#Setup" value="نصب"/>
+  <STRING id="Modern.Control.Text.PreparePrereqDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.PreparePrereqDlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.PreparePrereqDlg#Setup" value="نصب"/>
+  <STRING id="Modern.Control.Text.WelcomePrereqDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.WelcomePrereqDlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.WelcomePrereqDlg#Setup" value="نصب"/>
+  <STRING id="Modern.Control.Text.ProgressPrereqDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.ProgressPrereqDlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.ProgressPrereqDlg#Setup" value="نصب"/>
+  <!-- Graphite Theme strings -->
+  <STRING id="Graphite.Control.Text.Dlg#CollectingLabel" value="گردآوری اطلاعات"/>
+  <STRING id="Graphite.Control.Text.Dlg#PreparingLabel" value="آماده سازی نصب"/>
+  <STRING id="Graphite.Control.Text.Dlg#InstallingLabel" value="نصب"/>
+  <STRING id="Graphite.Control.Text.Dlg#FinalizingLabel" value="به پایان رسیدن نصب"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Description" value="[Wizard] [ProductName] را در رایانه شما نصب میکند.  روی &quot;[Text_Next]&quot; برای ادامه کلیک کنید."/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Title" value="به نصب [ProductName] خوش آمدید"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Intro" value="به ویزارد نصب [ProductName] خوش آمدید."/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Title" value="آماده سازی نصب [ProductName] "/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Description" value="لطفا منتظر بمانید تا [Wizard] آماده شود تا توسط آن شما را درنصب راهنمایی کند."/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Title" value="اطلاعات من را بخوانید"/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Description" value="لطفا متن زیر را با دقت بخوانید"/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Description" value="لطفا توافقنامه مجوز زیرا را بادقت بخوانید"/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Title" value="توافقنامه مجوز کاربر نهایی"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Description" value="انتخاب کنید کدام پیش نیازها نصب خواهد شد"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Title" value="پبش نیازها"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}نام,موردنیاز,یافت,اقدام"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Title" value="پوشه نصب"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Intro" value="این پوشه ای هست که [ProductName] در آن نصب خواهد شد."/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Description" value="برای نصب در این پوشه، روی &quot;[Text_Next]&quot; کلیک کنید. برای نصب در پوشه متفاوت، آن را در زیر وارد کنید یا روی &quot;جستجو&quot; کلیک کنید"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#SpaceRequiredLabel" value="فضای موردنیاز:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#AvailableSpaceLabel" value="فضای دیسک موجود:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#RemainingSpaceLabel" value="فضای دیسک باقیمانده:"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Title" value="آماده نصب"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Intro" value="[Wizard] آماده شروع نصب [ProductName] هست."/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Description" value="برای شروع &quot;نصب&quot; را کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید"/>
+  <STRING id="Graphite.Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Title" value="نصب [ProductName] کامل شد"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Intro" value="[ProductName] باموفقیت نصب شد"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#IntroUninstall" value="[ProductName] باموفقیت نصب شد"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Title" value="نوع نصب"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Description" value="لطفا نوع نصبی که نیازهای شما را برآورده میکند انتخاب کنید"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Complete" value="کامل"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Typical" value="معمولی"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Custom" value="دستی"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Title" value="نصب دستی"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Description" value="لطفا ویژگی های برنامه را که میخواهید نصب شود انتخاب کنید."/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#SpaceRequiredLabel" value="فضای موردنیاز برای مولفه نصب شده:"/>
+  <STRING id="Graphite.Control.Text.UserExit#Title" value="نصب [ProductName] قطع شده است"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description1" value="نصب [ProductName] قطع شده است.  سیستم شما تغییرنیافته است.  برای نصب دوباره این برنامه،لطفا فایل راه انداز را دوباره اجرا کنید."/>
+  <STRING id="Graphite.Control.Text.UserExit#Description2" value="برای خروج از [Wizard] دکمه &quot;پایان&quot; را فشار دهید."/>
+  <STRING id="Graphite.Control.Text.FatalError#Title" value="راه انداز[ProductName] پیش از موعد بسته شد"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description1" value="نصب [ProductName] نابهنگام به علت خطا پایان یافت. سیستم شما تغییر نکرده است.  برای نصب این برنامه در زمانی دیگر، لطفا برنامه راه انداز را دوباره اجرا کنید."/>
+  <STRING id="Graphite.Control.Text.FatalError#Description2" value="برای خروج از [Wizard] دکمه &quot;پایان&quot; را فشار دهید."/>
+  <STRING id="Graphite.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] اجازه تغییر ویژگی های نصب شده [ProductName] را میدهد یا حتی اجازه حذف [ProductName] از رایانه را میدهد.  برای ادامه روی [Text_Next] کلید کنید یا برای خروج از [Wizard] لغو را فشار دهید."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#ChangeText" value="تغییر وضعیت حالت نصب - افزودن و حذف ویژگی های برنامه"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RemoveText" value="حذف [ProductName] از رایانه."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RepairText" value="تعمیر خطاها در حالت نصب های اخیر - تعمیر فایل های گم شده یا خراب،میانبرها و وردی ریجیستری"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Description" value="لطفا عملکرد نگهداری را که میخواهید اِجرا کنید را انتخاب و روی &quot;[Text_Next]&quot; کلیک کنید."/>
+  <STRING id="Graphite.MaintenanceTypeDlg#Title" value="به نگهداری [ProductName] خوش آمدید"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Intro" value="به ویزارد نگهداری [ProductName] خوش آمدید"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Modify" value="ویرایش"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Repair" value="تعمير"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Remove" value="حذف"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Description" value="روی &quot;حذف&quot; برای حذف [ProductName] از رایانه کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید."/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Title" value="آماده حذف"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Intro" value="[Wizard] آماده شروع حذف [ProductName] هست."/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Description" value="روی &quot;تعمیر&quot; برای تعمیر نصب [ProductName] کلیک کنید.  اگر میخواهید هرگونه از تنظیمات نصب را بازبینی یا تغییر دهید، روی &quot;قبلی&quot; کلیک کنید.  روی &quot;لغو&quot; برای خروج از ویزارد کلیک کنید."/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Title" value="آماده تعمیر"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Intro" value="[Wizard] آماده شروع تعمیر [ProductName] هست."/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Title" value="به نصب وصله [ProductName] خوش آمدید"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Intro" value="به ویزارد نصب وصله [ProductName] خوش آمدید."/>
+  <STRING id="Graphite.Control.Text.ResumeDlg#Title" value="ادامه نصب [ProductName] "/>
+  <STRING id="Graphite.Control.Text.MsiRMFilesInUse#Description" value="بعضی از فایل هایی که نیاز دارند بروزرسانی شود فعلا درحال استفاده هستند"/>
+  <STRING id="Graphite.Control.Text.AdminInstallPointDlg#Title" value="مکان شبکه ایمیج سرور [ProductName] ."/>
+  <STRING id="Graphite.Control.Text.SQLConnectionDlg#Title" value="پیکربندی پایگاه داده اِس کیو اِل"/>
+  <STRING id="Graphite.Control.Text.TomcatServerDlg#Title" value="پیکربندی سرور تام کَت"/>
+  <!-- Azure Theme strings -->
+  <STRING id="Azure.Control.Text.PrepareDlg#Title" value="آماده سازی [ProductName] [Wizard]"/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Description" value="لطفا منتظر بمانید تا [Wizard] آماده شود تا توسط آن شما را درنصب راهنمایی کند."/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Title" value="خوش آمدید به [Wizard] [ProductName]"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Description" value="برای ادامه باید شرایط این توافقنامه را بپذیرید. اگرنمیخواهید شرایط مجوز [Manufacturer] بپذیرید، این پنجره را بسته و نصب را لغو کنید"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#EulaAgreeCheckBox" value="من شرایط این توافقنامه را می پذیرم"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#ContinueButton" value="ادامه"/>
+  <STRING id="Property.Text_Continue" value="ادامه"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#InstallNow" value="شروع نصب ویژگی های پیش فرض|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Customize" value="انتخاب اینکه کدام ویژگی ها نصب شود|"/>
+  <STRING id="Azure.Control.Text.FolderDlg#Title" value="مکان فایل را انتخاب کنید"/>
+  <STRING id="Azure.Control.Text.FolderDlg#ContinueButton" value="ادامه"/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceText" value="[PrimaryVolumeSpaceRemaining]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceLabel" value="فضای آزاد در درایو:"/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceLabel" value="فضای موجود دردرایو:"/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceLabel" value="مجموع فضای موردنیاز برای درایو:"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#Title" value="فضای دیسک موردنیاز برای نصب از فضای دیسک موجود تجاوز کرده است"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#OkButton" value="تأیید"/>
+  <STRING id="Azure.Control.Text.OutOfDiskDlg#Title" value="فضای دیسک موردنیاز برای نصب از فضای دیسک موجود تجاوز کرده است"/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Title" value="پیشرفت نصب"/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Description" value="[Progress1] [ProductName]..."/>
+  <STRING id="Azure.Control.Text.ExitDialog#Finish" value="بستن"/>
+  <STRING id="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" value="اِجرای [ProductName]"/>
+  <STRING id="Azure.Control.Text.ExitDialog#ViewReadmeCheckBox" value="مشاهده فایل من رابخوانید"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionConfigured" value="[ProductName] باموفقیت پیکربندی شد"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionInstalled" value="[ProductName] باموفقیت نصب شد"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#Text" value="انتخاب اینکه کدام مولفه های [ProductName] نصب خواهد شد"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#ItemDescription" value="توضیح چندخطی آیتم انتخاب شده"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceLabel" value="فضای موجود دردرایو:"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel" value="مجموع فضای موردنیاز دردرایو:"/>
+  <STRING id="Azure.Control.Text.DiskCostDlg#Title" value="فضای دیسک موردنیاز برای ویژگی های انتخاب شده"/>
+  <STRING id="Azure.Control.Text.FilesInUse#Title" value="بعضی از فایل هایی که نیاز دارند بروزرسانی شود فعلا درحال استفاده هستند"/>
+  <STRING id="Azure.Control.Text.MsiRMFilesInUse#Title" value="بعضی از فایل هایی که نیاز دارند بروزرسانی شود فعلا درحال استفاده هستند"/>
+  <STRING id="Azure.Control.Text.VerifyReadyDlg#Title" value="شروع نصب [ProductName]"/>
+  <STRING id="Azure.Control.Text.InstallTypeDlg#Title" value="نوع نصب [ProductName]"/>
+  <STRING id="Azure.Control.Text.ExtRegDlg#Title" value="وابسته سازی [ProductName] با انواع فایل"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Title" value="شرایط مجوز [Manufacturer] را بخوانید"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Description" value="برای ادامه باید شرایط این توافقنامه را بپذیرید. اگرنمیخواهید شرایط مجوز [Manufacturer] بپذیرید، این پنجره را بسته و نصب را لغو کنید"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#EulaAgreeCheckBox" value="من شرایط این توافقنامه را می پذیرم"/>
+  <STRING id="Azure.Control.Text.LogonInformationDlg#Title" value="اطلاعات اکانت کاربر"/>
+  <STRING id="Azure.Control.Text.PrerequisitesDlg#Title" value="انتخاب پیش نیاز برای نصب"/>
+  <STRING id="Azure.Control.Text.ReadmeDlg#Title" value="لطفا متن زیر را بادقت بخوانید"/>
+  <STRING id="Azure.Control.Text.ShortcutsDlg#Title" value="ایجاد میانبرهای برنامه"/>
+  <STRING id="Azure.Control.Text.SQLConnectionDlg#Title" value="پیکربندی اتصال اِس کیو اِل"/>
+  <STRING id="Azure.Control.Text.UpgradeDlg#Title" value="جستجو و ارتقاء نسخه های قدیمی [ProductName]"/>
+  <STRING id="Azure.Control.Text.StartMenuShortcutsDlg#Title" value="پوشه میانبر اِستارت منو را انتخاب کنید"/>
+  <STRING id="Azure.Control.Text.UserRegistrationDlg#Title" value="اطلاعات مشتری خود را وارد کنید"/>
+  <STRING id="Azure.Control.Text.MaintenanceTypeDlg#Title" value="تغییر نصب [ProductName]"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RemoveCommand" value="حذف [ProductName] از رایانه|"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RemoveCommand" value="حذف"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RepairCommand" value="تعمیر خطاها در حالت نصب های اخیر|"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RepairCommand" value="تعمير"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#ModifyCommand" value="تغییری که کدام ویژگی ها نصب شود.|"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#ModifyCommand" value="افزودن یا حذف ویژگی ها"/>
+  <STRING id="Azure.Control.Text.VerifyRemoveDlg#Title" value="شروع حذف [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRepairDlg#Title" value="شروع تعمیر [ProductName]"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Title" value="نصبی را که میخواهید انتخاب کنید"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Description" value="لطفا نوع ترجیحی نصب [ProductName] را در زیر انتخاب کنید:"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#TypicalCommand" value="شروع نصب ویژگی های پیش فرض|"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#TypicalCommand" value="معمولی"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CustomCommand" value="انتخاب اینکه کدام ویژگی ها نصب شود|"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CustomCommand" value="دستی"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CompleteCommand" value="شروع نصب همه ویژگی ها|"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CompleteCommand" value="کامل"/>
+  <STRING id="Azure.Control.Text.AdminInstallPointDlg#Title" value="مکان شبکه را برای ایمیج سرور محصول [ProductName] را انتخاب کنید"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ClientCommand" value="نصب پیکربندی کلاینت|"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ClientCommand" value="کلاینت"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ClientCommand" value="نصب پیکربندی کلاینت|"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ClientCommand" value="کلاینت"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ServerCommand" value="نصب پیکربندی سرور|"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ServerCommand" value="سرور"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#CompleteCommand" value="نصب پیکربندی های کلاینت و سرور|"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#CompleteCommand" value="کامل"/>
+  <STRING id="Azure.Control.Text.TomcatServerDlg#Title" value="پیکربندی سرور تام کَت"/>
+  <STRING id="Azure.Control.Text.ProgressPrereqDlg#Description" value="[Progress1] پیش نیاز ها برای [ProductName]..."/>  
+  <STRING id="Azure.Control.Text.PreparePrereqDlg#Description" value="لطفا منتظر بمانید تا [Wizard] آماده شود تا توسط آن شما را درنصب پیش نیاز ها کمک کند."/>
+  <STRING id="Azure.Control.Text.PreparePrereqDlg#Title" value="آماده سازی پیش نیازهای [Wizard]"/>
+  <!-- Spring Theme strings -->
+  <STRING id="Spring.Control.Text.SetupTypeDlg#TypicalLabel" value="حالا نصب"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#CustomLabel" value="دستی"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#TypicalText" value="نصب اغلب ویژگی های معمول"/>
+  <STRING id="Spring.Control.Text.SetupTypeDlg#CustomText" value="ویژگی ها را برای نصب انتخاب کنید"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#Title" value="گزینه راه اندازی"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#Desc" value="سفارشی کنید چطور [ProductName] نصب شود"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#SpaceReq" value="مجموع فضای مورد نیاز در درایو: [PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#SpaceAvail" value="فضای موجود در درایو: [PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Spring.Control.Text.FolderDlg#SpaceRem" value="فضای آزاد باقیمانده در درایو: [PrimaryVolumeSpaceRemaining]"/>
+  <STRING id="Spring.Control.Text.ExitDialog#EventInstalled" value="نصب شده"/>
+  <STRING id="Spring.Control.Text.ExitDialog#EventConfigured" value="پیکربندی شده"/>
+  <STRING id="Spring.Control.Text.ExitDialog#EventRemoved" value="حذف شده"/>
+  <STRING id="Spring.Control.Text.ExitDialog#Description" value="[ProductName] با موفقیت [Finish1]."/>
+  <STRING id="Spring.Control.Text.OutOfDiskDlg#Title" value="فضای دیسک بیشتری مورد نیاز است"/>
+  <STRING id="Spring.Control.Text.OutOfRbDiskDlg#Title" value="غیرفعالسازی برگرداندن به عقب؟"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#ModifyLabel" value="ویرایش"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RepairLabel" value="تعمير"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RemoveLabel" value="حذف کامل"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#ModifyDesc" value="افزودن یا حذف ویژگی ها"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RepairDesc" value="تعمیر فایل های گمشده یا خراب"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RemoveDesc" value="حذف [ProductName]"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#Title" value="تغییر نصب [ProductName]"/>
+  <STRING id="Spring.Control.Text.ExitDialog#Close" value="بستن"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CompleteLabel" value="کامل"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CompleteText" value="هم دو کلاینت و سرور"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CustomLabel" value="سرور"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#CustomText" value="فقط نصب پیکربندی سرور"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#TypicalLabel" value="کلاینت"/>
+  <STRING id="Spring.Control.Text.ClientServerDlg#TypicalText" value="فقط نصب پیکربندی کلاینت"/>
+  <!-- Air Theme strings -->
+  <STRING id="Air.Control.Text.WelcomeDlg#Title" value="[ProductName] [Wizard]"/>
+  <STRING id="Air.Control.Text.FolderDlg#SubTitle" value="انتخاب پوشه نصب"/>
+  <STRING id="Air.Control.Text.PrepareDlg#Description" value="لطفا تا بارگیری نصب برنامه منتظر بمانید."/>
+  <STRING id="Air.Control.Text.LicenseAgreementDlg#SubTitle" value="توافقنامه مجوز"/>
+  <STRING id="Air.Control.Text.UserExit#SubTitle" value="نصب لغو شده است"/>
+  <STRING id="Air.Control.Text.ExitDialog#SubTitle" value="سپاس‌گزارم"/>
+  <STRING id="Air.Control.Help.ExitDialog#ViewReadmeCheckBox" value="مشاهده فایل من رابخوانید|"/>
+  <STRING id="Air.Control.Help.ExitDialog#LaunchProdCheckBox" value="اِجرای برنامه|"/>
+  <STRING id="Air.Control.Text.ExitDialog#LaunchProdCheckBox" value="اِجرای برنامه"/>
+  <STRING id="Air.Control.Help#Back" value="قبلی|"/>
+  <STRING id="Air.Control.Text.WelcomePrereqDlg#Title" value="[ProductName] [Wizard]"/>
+  <STRING id="Air.Control.Text.WelcomePrereqDlg#SubTitle" value="به [Wizard] پیش نیازها خوش آمدید"/>
+  <STRING id="Air.Control.Text.ProgressPrereqDlg#Title" value="[ProductName] [Wizard]"/>
+  <STRING id="Air.Control.Text.ProgressPrereqDlg#SubTitle" value="[Progress1] پیش نیاز ها برای [ProductName]..."/> 
+  <STRING id="Air.Control.Text.MultipleInstancesDlg#Title" value="[ProductName] [Wizard]"/>
+  <STRING id="Air.Control.Text.MultipleInstancesDlg#SubTitle" value="چندین نمونه"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="دانلود نرم افزار پیش نیاز"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="استخراج نرم افزار پیش نیاز"/>
+  <STRING id="ActionText.Description.AI_InstallLibraries" value="نصب کتابخانه ویندوزی"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="نصب نرم افزار پیش نیاز"/>
+  <STRING id="ActionText.Description.AI_RollbackLibraries" value="برگرداندن به عقب نصب متابخانه های ویندوز"/>
+  <STRING id="ActionText.Description.AI_UninstallLibraries" value="حذف کتابخانه ویندوزی"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="بازبینی پیش نیازها"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="دانلود [1]{[2] کامل شد}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="استخراج [1]{[2] کامل شد}"/>
+  <STRING id="ActionText.Template.AI_InstallLibraries" value="نصب [1]"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="نصب [1]{[2] کامل شد}"/>
+  <STRING id="ActionText.Template.AI_RollbackLibraries" value="برگرداندن به عقب [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallLibraries" value="حذف کامل [1]"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="[1] بدرستی نصب نشده است."/>
+  <STRING id="ActionText.Description.Advertise" value="برنامه آگهی"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="تخصیص فضای ریجیستری"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="فضای آزاد: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="جستجوی برای برنامه های نصب شده"/>
+  <STRING id="ActionText.Template.AppSearch" value="مشخصه: [1], امضاء: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="فایل قابل اجرای الزامی"/>
+  <STRING id="ActionText.Template.BindImage" value="فایل: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="جستجو برای صلاحیت محصول"/>
+  <STRING id="ActionText.Description.CostFinalize" value="محاسبه فضای موردنیاز"/>
+  <STRING id="ActionText.Description.CostInitialize" value="محاسبه فضای موردنیاز"/>
+  <STRING id="ActionText.Description.CreateFolders" value="ایجاد پوشه ها"/>
+  <STRING id="ActionText.Template.CreateFolders" value="پوشه: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="ایبجاد میانبرها"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="میانبر: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="حذف سرویس"/>
+  <STRING id="ActionText.Template.DeleteServices" value="سرویس: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="ایجاد فایل المثنی"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="فایل: [1],  دایرکتوری: [9],  حجم: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="محاسبه فضای موردنیاز"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="جستجوی برای برنامه مربوطه"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="برنامه یافت: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="تولید اسکریپت عملکرد برای اقدام:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="کپی فایل های نصب شبکه"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="فایل: [1], دایرکتوری: [9], حجم: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="کپی فایل های جدید"/>
+  <STRING id="ActionText.Template.InstallFiles" value="فایل: [1],  دایرکتوری: [9],  حجم: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="نصب مولفه های ODBC"/>
+  <STRING id="ActionText.Description.InstallServices" value="نصب سرویس جدید"/>
+  <STRING id="ActionText.Template.InstallServices" value="سرویس: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="نصب پرونده شاخص"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="فایل: [1],  وابسته ها: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="معتبرسازی نصب"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="بررسی شرایط اِجرا"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="انتقال یافتن حالت ویژگی از برنامه مرتبط"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="برنامه: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="انتقال فایل ها"/>
+  <STRING id="ActionText.Template.MoveFiles" value="فایل: [1],  دایرکتوری: [9],  حجم: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="نشر اطلاعات اسمبلی"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="زمینه برنامه:[1], نام اسمبلی:[2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="حذف اطلاعات اسمبلی"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="زمینه برنامه:[1], نام اسمبلی:[2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="وصله کردن فایل ها"/>
+  <STRING id="ActionText.Template.PatchFiles" value="فایل: [1],  دایرکتوری: [2],  حجم: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="بروزرسانی ثبت مولفه"/>
+  <STRING id="ActionText.Description.PublishComponents" value="نشر مولفه های بررسی صلاحت شده"/>
+  <STRING id="ActionText.Template.PublishComponents" value="شناسه مولفه: [1], صلاحیت کننده: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="نشر ویژگی های محصول"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="ویژگی: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="نشر اطلاعات محصول"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="ثبت کرد کلاس سرورها"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="شناسه کلاس: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="ثبت کردن موفه ها و برنامه های کام پلاس"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="شناسه برنامه: [1]{{, نوع برنامه: [2], کاربران: [3], آر اِس اِن: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="ثبت کردن پسوند های سرور"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="پسوند: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="ثبت کردن فونت ها"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="فونت: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="ثبت کردن اطلاعات MIME"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="و محتوای MIME: [1], پسوند: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="ثبت کردن محصول"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="ثبت تعیین کننده هویت برنامه"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="شناسه برنامه: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="ثبت نوع کتابخانه"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="شناسه لیب: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="ثبت کردن کاربر"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="حذف فایل های تکراری"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="فایل: [1], دایرکتوری: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="بروزرسانی استرینگ های محیطی"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="نام: [1], مقدار: [2], اقدام [3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="حذف برنامه"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="برنامه: [1], فرمان خطی: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="حذف فایل ها"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="فایل: [1], دایرکتوری: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="حذف پوشه ها"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="پوشه: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="حذف ورودی های فایل INI"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="فایل: [1],  قسمت: [2],  کلید: [3], مقدار: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="حذف مولفه های ODBC"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="حذف مقادیر سیستم ریجیستری"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="کلید: [1], نام: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="حذف میانبرها"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="میانبر: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="جستجو برای صلاحیت محصول"/>
+  <STRING id="ActionText.Description.Rollback" value="اقدام برگرداندن به عقب:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="حذف فایل های پشتیبان"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="فایل: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="ثبت کردن مدل ها"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="فایل: [1], پوشه: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="حذف مدل ها"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="فایل: [1], پوشه: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="بارگیری دایرکتوری های ODBC"/>
+  <STRING id="ActionText.Description.StartServices" value="شروع سرویس"/>
+  <STRING id="ActionText.Template.StartServices" value="سرویس: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="توقف سرویس"/>
+  <STRING id="ActionText.Template.StopServices" value="سرویس: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="حذف فایل ها انتقال داده شده"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="فایل: [1], دایرکتوری: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="حذف مولفه هی صلاحیت شده"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="شناسه مولفه: [1], صلاحیت کننده: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="حذف ویژگی های محصول"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="ویژگی: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="حذف اطلاعات محصول"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="حذف کلاس سرورها"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="شناسه کلاس: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="حذف مولفه و برنامه های کام پلاس"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="شناسه برنامه: [1]{{, نوع برنامه: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="حذف پسوند سرورها"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="پسوند: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="حذف فونت ها"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="فونت: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="حذف اطلاعات MIME"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="و محتوای MIME: [1], پسوند: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="حذف تعیین کننده هویت برامه"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="شناسه برنامه: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="حذف نوع کتابخانه ای"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="شناسه لیب: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="بروزرسانی استرینگ های محیطی"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="نام: [1], مقدار: [2], اقدام [3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="نوشتن مقادیر فایل INI "/>
+  <STRING id="ActionText.Template.WriteIniValues" value="فایل: [1],  قسمت: [2],  کلید: [3], مقدار: [4]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="نوشتن مقادیر سیستم ریجیستری"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="کلید: [1], نام: [2], مقدار: [3]"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="تولید اقدامات برای ایجاد اکانت کاربر در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="اکانت: [1], صفات: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="ایجاد اکانت کاربر در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="اکانت: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="حذف اکانت کاربر از رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="اکانت: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="برگرداندن به عقب ایجاد اکانت کاربر در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="اکانت: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="تولید اقدامات برای حذف اکانت کاربر از رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="اکانت: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="تولید اقدامات برای ایجاد گروه کاربر در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="اکانت: [1], صفات: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="ایجاد گروه کاربر در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="اکانت: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="حذف گروه کاربر از رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="اکانت: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="برگرداندن به عقب ایجاد گروه کاربر در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="اکانت: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="تولید اقدامات برای حذف گروه کاربر در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="اکانت: [1]"/>
+  <STRING id="ActionText.Description.AI_CommitAccounts" value="اِعمال ایجاد اکانت کاربر در رایانه محلی"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="استخراج فایل ها از آرشیو"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="حذف فایل های استخراج شده از آرشیو"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="تولید اقدامات برای پیکربندی پایگاه داده برای نصب اسکریپت اجرای اِس کیو اِل"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="تولید اقدامات برای پیکربندی پایگاه داده برای حذف اسکریپت اجرای اِس کیو اِل"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="اِجرای اسکریپت های نصب اِس کیو اِل"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="اتصال: [1]  اسکریپت: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="اِجرای نگهدارنده اِسکریپت اِس کیو اِل"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="اتصال: [1]  اسکریپت: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="اِجرای اسکریپت های حذف اِس کیو اِل"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="اتصال: [1]  اسکریپت: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="اِجرای اسکریپت اِس کیو اِل برگرداندن به عقب"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="اتصال: [1]  اسکریپت: [2]"/>
+  <STRING id="ActionText.Description.SqlQueryAction" value="جستار پایگاه داده برای داده"/>
+  <STRING id="ActionText.Template.SqlQueryAction" value="اتصال: [1]  اسکریپت: [2]"/>
+  <STRING id="ActionText.Description.AI_OdbcInstall" value="تولید اقدامات برای پیکربندی منابع ODBC"/>
+  <STRING id="ActionText.Description.AI_OdbcUninstall" value="تولید اقدامات برای حذف منابع ODBC"/>
+  <STRING id="ActionText.Description.AI_OdbcConfig" value="اِجرای نصب منابع ODBC"/>
+  <STRING id="ActionText.Template.AI_OdbcConfig" value="منبع: [1]"/>
+  <STRING id="ActionText.Description.AI_OdbcRemove" value="اِجرای حذف منابع ODBC"/>
+  <STRING id="ActionText.Template.AI_OdbcRemove" value="منبع: [1]"/>
+  <STRING id="ActionText.Description.AI_OdbcRollback" value="اِجرای بازگرداندن به عقب منابع ODBC"/>
+  <STRING id="ActionText.Template.AI_OdbcRollback" value="منبع: [1]"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="تولید اقدامات برای پیکربندی اینترنت اینفورمیشن سرویس"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="تولید اقدامات برای پیکربندی اینترنت اینفورمیشن سرویس"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="پیکربندی اینترنت اینورمیشن سرویس"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="نصب &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="پیکربندی اینترنت اینورمیشن سرویس"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="حذف &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="برگرداندن به عقب پیکربندی اینترنت اینفورمیشن سرویس"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="بازگردانی پیکربندی متابیس"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="تولید اقدامات برای پیکربندی فایل های ایکس اِم اِل"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="تولید اقدامات برای پیکربندی فایل های ایکس اِم اِل"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="اِجرای پیکربندی فایل ایکس اِم اِل"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="پیکربندی فایل ایکس اِم اِل: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="اِجرای پیکربندی فایل ایکس اِم اِل"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="پیکربندی فایل ایکس اِم اِل: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="برگرداندن به عقب پیکربندی فایل ایکس اِم اِل."/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="برگرداندن به عقب پیکربندی فایل ایکس اِم اِل."/>
+  <STRING id="ActionText.Description.AI_XmlCommit" value="اِعمال پیکربندی فایل ایکس اِم اِل"/>
+  <STRING id="ActionText.Template.AI_XmlCommit" value="اِعمال پیکربندی فایل ایکس اِم اِل"/>
+  <STRING id="ActionText.Description.AI_ExpandArchInstall" value="تولید اقدامات برای استخراج آرشیو"/>
+  <STRING id="ActionText.Description.AI_ExpandArchUninstall" value="تولید اقدامات برای استخراج آرشیو"/>
+  <STRING id="ActionText.Description.AI_ExpandArchConfig" value="استخراج آرشیوها"/>
+  <STRING id="ActionText.Template.AI_ExpandArchConfig" value="استخراج آرشیوها: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_ExpandArchRemove" value="پاکسازی فایل های استخراج شده"/>
+  <STRING id="ActionText.Template.AI_ExpandArchRemove" value="حذف محتویات آرشیو استخراج شده: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_ExpandArchRollback" value="بازگرداندن به عقب فایل های استخراج شده"/>
+  <STRING id="ActionText.Template.AI_ExpandArchRollback" value="بازگرداندن به عقب محتویات آرشیو استخراج شده: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="تولید اقدامات برای پیکربندی ویندوز فایروال"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="تولید اقدامات برای پیکربندی ویندوز فایروال"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="اِجرای پیکربندی ویندوز فایروال"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="پیکربندی دستور ویندوز فایروال: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="اِجرای پیکربندی ویندوز فایروال"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="پیکربندی دستور ویندوز فایروال:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="برگرداندن به عقب پیکربندی ویندوز فایروال"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="برگرداندن به عقب پیکربندی ویندوز فایروال"/>
+  <STRING id="ActionText.Description.AI_FdInstall" value="تولید اقدامات برای عملکرد های دانلود فایل "/>
+  <STRING id="ActionText.Description.AI_FdUninstall" value="تولید اقدامات برای عملکرد های دانلود فایل "/>
+  <STRING id="ActionText.Description.AI_FdConfig" value="دانلود فایل ها"/>
+  <STRING id="ActionText.Template.AI_FdConfig" value="دانلود فایل: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FdRemove" value="پاکسازی فایل های دانلود شده"/>
+  <STRING id="ActionText.Template.AI_FdRemove" value="حذف فایل دانلود شده: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FdRollback" value="بازگرداندن به عقب فایل های دانلود شده"/>
+  <STRING id="ActionText.Template.AI_FdRollback" value="بازگرداندن به عقب فایل دانلود شده: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="تولید اقدامات برای پیکربندی گیم اکسپلورر"/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="تولید اقدامات برای پیکربندی گیم اکسپلورر"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="اِجرای پیکربندی گیم اکسپلورر"/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="پیکربندی بازی: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="اِجرای پیکربندی گیم اکسپلورر"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="حذف بازی: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="برگرداندن به عقب پیکربندی گیم اکسپلورر"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="برگرداندن به عقب پیکربندی گیم اکسپلورر"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="تولید اقدامات برای اشتراک گذاشتن پوشه در رایانه محلی:"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="پوشه: [1], نام اشتراک: [2]"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="اشتراک گذاری پوشه در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="پوشه: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="حذف پوشه اشتراکی از رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="نام اشتراک: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="برگرداندن به عقب پوشه اشتراکی در رایاه محلی"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="نام اشتراک: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="تولید اقدامات برای حذف پوشه اشتراکی از رایانه محلی:"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="نام اشتراک: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="تولید اقدامات برای وظایف زمان بندی شده در رایانه محلی:"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="نام وظیفه: [1]"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="زمان بندی وظیفه در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="نام وظیفه: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="حذف وظیفه زمان بندی شده از رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="نام وظیفه: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="برگرداندن به عقب وظیفه زمان بندی شده در رایانه محلی"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="نام وظیفه: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="تولید اقدامات برای حذف وظایف زمان بندی شده از رایانه محلی:"/>
+
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="آماده سازی فایل ها برای حذف"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Undoable" value="آماده سازی فایل ها برای حذف"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred_Permanent" value="آماده سازی فایل ها برای حذف"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesRollback" value="بازگردانی فایل های حذف شده"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="اِجرای عملکردهای حذف فایل"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesImmediate" value="آماده سازی فایل: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred_Undoable" value="آماده سازی فایل: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred_Permanent" value="آماده سازی فایل: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesRollback" value="بازگردانی فایل: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="اِجرای حذف فایل: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="حذف فایل: [1]"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="اِجرای عملکردهای حذف فایل."/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="حذف فایل: [1]"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="تولید اقدامات برای حذف ورودی ریجیستری"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="اِجرای عملکرد حذف ریجیستری"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="حذف ورودی ریجیستری: [1]"/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="اِجرای عملکرد حذف ریجیستری"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="حذف ورودی ریجیستری: [1]"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="پردازش داده ثبت نام مدیریت برنامه ویندوز سی ای (گام 1)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="پردازش داده ثبت نام مدیریت برنامه ویندوز سی ای (گام 2)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="اجرای مدیریت برنامه ویندوز سی ای برای پیکربندی برنامه های نصب شده"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="ثبت نام برنامه موبایل با مدیر برنامه ویندوز سی ای"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterInstall" value="تولید اقدامات برای پیکربندی بروزرسانی فایل های متنی"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterConfig" value="اِجرای بروزرسانی فایل متنی"/>
+  <STRING id="ActionText.Template.AI_TxtUpdaterConfig" value="بروزرسانی فایل متنی: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterRollback" value="برگرداندن به عقب تغییرات فایل متنی. "/>
+  <STRING id="ActionText.Template.AI_TxtUpdaterRollback" value="برگرداندن به عقب تغییرات فایل متنی."/>
+  <STRING id="ActionText.Description.AI_TxtUpdaterCommit" value="اِعمال تغییرات فایل متنی. "/>
+  <STRING id="ActionText.Template.AI_TxtUpdaterCommit" value="اِعمال تغییرات فایل متنی. "/>
+  <STRING id="ActionText.Description.AI_XmlLocator" value="اجرای جایگزین شونده ایکس اِم اِل"/>
+  <STRING id="ActionText.Template.AI_XmlLocator" value="اجرای فایل ایکس اِم اِل: &quot;[1]&quot; جایگزین شونده"/>
+  <STRING id="ActionText.Description.AI_DeploySharePointSln" value="گسترش سولوشین شیرپوینت"/>
+  <STRING id="ActionText.Template.AI_DeploySharePointSln" value="گسترش سولوشین شیرپوینت: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_AiMoveFilesImmediate" value="انتقال فایل ها"/>
+  <STRING id="ActionText.Template.AI_AiMoveFilesImmediate" value="فایل: [1],  دایرکتوری: [2],  حجم: [3]"/>
+  <STRING id="ActionText.Description.AI_AiMoveFilesDeferred" value="انتقال فایل ها"/>
+  <STRING id="ActionText.Template.AI_AiMoveFilesDeferred" value="فایل: [1],  دایرکتوری: [2],  حجم: [3]"/>
+  <STRING id="ActionText.Description.AI_AiMoveFilesRollback" value="بازگرداندن به عقب فایل های منتقل شده"/>
+  <STRING id="ActionText.Template.AI_AiMoveFilesRollback" value="فایل: [1],  دایرکتوری: [2],  حجم: [3]"/>
+  <STRING id="ActionText.Template.AI_AiBackupImmediate" value="مسیر: [1]"/>
+  <STRING id="ActionText.Description.AI_AiBackupImmediate" value="آماده سازی عملکرد پشتیبان"/>
+  <STRING id="ActionText.Template.AI_AiBackupDeferred" value="مسیر: [1]"/>
+  <STRING id="ActionText.Description.AI_AiBackupDeferred" value="اِجرای عملکرد پشتیبان"/>
+  <STRING id="ActionText.Template.AI_AiBackupRollback" value="مسیر: [1]"/>
+  <STRING id="ActionText.Description.AI_AiBackupRollback" value="بازگرداندن به عقب پشتیبان"/>
+  <STRING id="ActionText.Template.AI_AiRestoreImmediate" value="مسیر: [1]"/>
+  <STRING id="ActionText.Description.AI_AiRestoreImmediate" value="آماده سازی عملکرد بازیابی"/>
+  <STRING id="ActionText.Template.AI_AiRestoreDeferred" value="مسیر: [1]"/>
+  <STRING id="ActionText.Description.AI_AiRestoreDeferred" value="اِجرای عملکرد بازیابی"/>
+  <STRING id="ActionText.Template.AI_AiRestoreRollback" value="مسیر: [1]"/>
+  <STRING id="ActionText.Description.AI_AiRestoreRollback" value="بازگرداندن به عقب بازگردانی"/>
+  <STRING id="ActionText.Description.AI_WinOptFeaturesInstall" value="تولید اقدامات برای پیکربندی ویژگی های ویندوز."/>
+  <STRING id="ActionText.Description.AI_WinOptFeaturesUninstall" value="تولید اقدامات برای پیکربندی ویژگی های ویندوز."/>
+  <STRING id="ActionText.Description.AI_WinOptFeaturesConfig" value="پیکربندی ویژگی های ویندوز."/>
+  <STRING id="ActionText.Description.AI_WinOptFeaturesRemove" value="حذف ویژگی های پیکربندی شده ویندوز."/>
+  <STRING id="ActionText.Description.AI_WinOptFeaturesRollback" value="بازگرداندن به عقب ویژگی های پیکربندی شده ویندوز."/>
+  <STRING id="ActionText.Template.AI_WinOptFeaturesInstall" value="پیکربندی ویژگی های ویندوز."/>
+  <STRING id="ActionText.Template.AI_WinOptFeaturesUninstall" value="حذف ویژگی های پیکربندی شده ویندوز."/>
+  <STRING id="ActionText.Template.AI_WinOptFeaturesConfig" value="پیکربندی ویژگی های ویندوز."/>
+  <STRING id="ActionText.Template.AI_WinOptFeaturesRemove" value="حذف ویژگی های پیکربندی شده ویندوز."/>
+  <STRING id="ActionText.Template.AI_WinOptFeaturesRollback" value="بازگرداندن به عقب ویژگی های پیکربندی شده ویندوز."/>
+  <STRING id="ActionText.Description.AI_CplAppletInstall" value="تولید اقدامات برای پیکربندی منابع اَپلت های کنترل پنل"/>
+  <STRING id="ActionText.Description.AI_CplAppletUninstall" value="تولید اقدامات برای حذف منابع اَپلت های کنترل پنل"/>
+  <STRING id="ActionText.Description.AI_CplAppletRollback" value="اِجرای بازگرداندن به عقب اَپلت های کنترل پنل"/>
+  <STRING id="ActionText.Template.AI_CplAppletRollback" value="اَپلت: [1]"/>
+  <STRING id="ActionText.Description.AI_CplAppletConfig" value="اِجرای نصب اَپلت های کنترل پنل"/>
+  <STRING id="ActionText.Template.AI_CplAppletConfig" value="اَپلت: [1]"/>
+  <STRING id="ActionText.Description.AI_CplAppletRemove" value="اِجرای حذف اَپلت های کنترل پنل"/>
+  <STRING id="ActionText.Template.AI_CplAppletRemove" value="اَپلت: [1]"/>
+  <STRING id="ActionText.Description.AI_ConfigureChainer" value="پیکربندی راه انداز پیش نیازها"/>
+  <STRING id="ActionText.Template.AI_ConfigureChainer" value="پیکربندی راه انداز"/>
+  <STRING id="ActionText.Description.AI_SsrsDeploy" value="تولید اقدامات برای توسعه منابع اِس اِس آر اِس"/>
+  <STRING id="ActionText.Description.AI_SsrsConfig" value="توسعه منابع اِس اِس آر اِس"/>
+  <STRING id="ActionText.Template.AI_SsrsConfig" value="توسعه اِس اِس آر اِس: [1]"/>
+  <STRING id="ActionText.Description.AI_SsrsUninstall" value="تولید اقدامت برای حذف منابع اِس اِس آر اِس"/>
+  <STRING id="ActionText.Description.AI_SsrsRemove" value="حذف منابع اِس اِس آر اِس"/>
+  <STRING id="ActionText.Template.AI_SsrsRemove" value="توسعه اِس اِس آر اِس: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessFailActions" value="تولید اقدامات برای پیکربندی اقدامات عدم موفقیت سرویس"/>
+  <STRING id="ActionText.Template.AI_ProcessFailActions" value="سرویس: [1]"/>
+  <STRING id="ActionText.Description.AI_ConfigFailActions" value="پیکربندی اقدامات عدم موفقیت سرویس"/>
+  <STRING id="ActionText.Template.AI_ConfigFailActions" value="سرویس: [1]"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{خطای مهلک: }}"/>
+  <STRING id="Error.1" value="{{خطا [1]. }}"/>
+  <STRING id="Error.2" value="هشدار [1]. "/>
+  <STRING id="Error.4" value="اطلاعات [1]. "/>
+  <STRING id="Error.5" value="اینستالر با یک خطای غیرمنتظره در نصب این بسته مواجه شده است. این یک مشکل با این برنامه را نشان میدهد. کد خطا [1]هست. {{نشانوند هست: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{دیسک پر است: }}"/>
+  <STRING id="Error.8" value="اقدام [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="نوع پیام: [1], نشانوند: [2]"/>
+  <STRING id="Error.12" value="=== وقایع نگاری شروه شده: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== وقایع نگاری متوقف شده: [Date]  [Time] ==="/>
+  <STRING id="Error.14" value="شروع اقدام [Time]: [1]."/>
+  <STRING id="Error.15" value="اقدام پایان یافته است [Time]: [1]. مقدار بازگشت [2]."/>
+  <STRING id="Error.16" value="زمان باقیمانده: {[1] دقیقه }{[2] ثانیه}"/>
+  <STRING id="Error.17" value="حافظه کم است.قبل از سعی دوباره سایر برنامه ها را ببندید."/>
+  <STRING id="Error.18" value="اینستالر بیش از این پاسخ نمیدهد."/>
+  <STRING id="Error.19" value="اینستالر نابهنگام متوقف شده است."/>
+  <STRING id="Error.20" value="لطفا تا زمانیکه ویندوز [ProductName] پیکربندی میکند منتظر بمانید"/>
+  <STRING id="Error.21" value="گردآوری اطلاعات موردنیاز..."/>
+  <STRING id="Error.22" value="حذف نسخه های قدیمی این برنامه..."/>
+  <STRING id="Error.23" value="آماده سازی برای حذف نسخه های قدیمی این برنامه..."/>
+  <STRING id="Error.32" value="نصب {[ProductName] }با موفقیت کامل شد."/>
+  <STRING id="Error.33" value="موفق به نصب {[ProductName] }نشد."/>
+  <STRING id="Error.1001" value="خطا [1]. [2]"/>
+  <STRING id="Error.1101" value="خطای خواندن از فایل: [2]. {{ خطای سیستم [3].}}  بازبینی کنید فایل موجود است و میتوانید به آن دسترسی داشته باشید"/>
+  <STRING id="Error.1301" value="فایل &apos;[2]&apos; را نمیتوان ایجاد کرد.  یک دایرکتوری با این نام موجود است.  لغو نصب و سعی در نصب در پوشه متفاوت"/>
+  <STRING id="Error.1302" value="لطفا دیسک را قرار دهید: [2]"/>
+  <STRING id="Error.1303" value="نصب کننده اجازه ناکافی برای دسترسی به این دایرکتوری دارد: [2].  نصب را نمیتوان ادامه داد.  بعنوان آدمین وارد شوید یا با مدیر سیستم تماس بگیرید."/>
+  <STRING id="Error.1304" value="خطای نوشتن در فایل: [2].  بازبینی کنید اجازه نوشتن در این دایرکتوری دارید."/>
+  <STRING id="Error.1305" value="خطای خواندن از فایل [2]. {{ خطای سیستم [3].}} بازبینی کنید فایل موجود است و اجازه دسترسی به آن دارید"/>
+  <STRING id="Error.1306" value="برنامه دیگری دسترسی احصاری به فایل &apos;[2]&apos; را دارد.  لطف سایر برنامه ها را بسته،و دوبارزه سعی کنید."/>
+  <STRING id="Error.1307" value="فضای دیسک کافی برای نصب این فایل موجود نیست: [2].  مقداری از فضای دیسک را خالی کنید و روی &quot;دوباره&quot;، کلیک کنید یا روی &quot;لغو&quot; برای خروج کلیک کنید."/>
+  <STRING id="Error.1308" value="فایل منبع یافت نشد: [2].  بازبینی کنید فایل موجود است و شما اجازه دسترسی به آن دارید."/>
+  <STRING id="Error.1309" value="خطای خواندن از فایل: [3]. {{ خطای سیستم [2].}}  بازبینی کنید فایل موجود است و اجازه دسترسی دارید."/>
+  <STRING id="Error.1310" value="خطای نوشتن در فایل: [3]. {{ خطای سیستم [2].}} بازبینی کنید شما اجازه دسترسی به این فایل دارید."/>
+  <STRING id="Error.1311" value="فایل منبع یافت نشد{{(cabinet)}}: [2].  بازبینی کنید فایل وجود دارد و به آن دسترسی دارید."/>
+  <STRING id="Error.1312" value="دایرکتوری &apos;[2]&apos; را نمیتوان ایجاد کرد.  یک فایل با این نام از قبل موجود است.  لطفا فایل را حذف یا تغییرنام دهید و روی &quot;دوباره&quot;، یا &quot;لغو&quot; برای خروج کلیک کنید."/>
+  <STRING id="Error.1313" value="درایو [2] حالا غیرقابل دسترسی است.یکی دیگر انتخاب کنید."/>
+  <STRING id="Error.1314" value="مسیر مشخص شده &apos;[2]&apos; غیرقابل دسترسی است."/>
+  <STRING id="Error.1315" value="قادر به نوشتن در پوشه مشخص شه نیست: [2]."/>
+  <STRING id="Error.1316" value="یک خطای شبکه حین سعی در خواندن از فایل رخ داد: [2]"/>
+  <STRING id="Error.1317" value="یک خطا حین سعی در ایجاد دایرکتوری رخ داد: [2]"/>
+  <STRING id="Error.1318" value="یک خطای شبکه حین ایجاد دایرکتوری رخ داده است: [2]"/>
+  <STRING id="Error.1319" value="یک خطای شبکه حین سعی در خواندن فایل منبع شبکه رخ داده است: [2]"/>
+  <STRING id="Error.1320" value="مسیر مشخص شده خیلی بلند است: [2]"/>
+  <STRING id="Error.1321" value="اینستالر اجازه کافی برای تغییر این فایل ندارد: [2]."/>
+  <STRING id="Error.1322" value="یک بخش از مسیر پوشه &apos;[2]&apos; نامعتبر است.  آن یا خالی هست یا از مقدار اجازه داده شده سیستم بیشتر است."/>
+  <STRING id="Error.1323" value="مسیر پوشه &apos;[2]&apos; محتوی لغاتی هست که در مسیر پوشه ها معتبر نیست"/>
+  <STRING id="Error.1324" value="مسیر پوشه &apos;[2]&apos; محتوی کاراکتر نامعتبر است."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; نام فایل کوته صحیح نیست."/>
+  <STRING id="Error.1326" value="خطای گرفتن امنیت فایل: [3] گرفتن آخرین خطا: [2]"/>
+  <STRING id="Error.1327" value="درایو نامعتبر: [2]"/>
+  <STRING id="Error.1328" value="خطای اِعمال وصله به فایل [2].  آن بروزسانی شده با روشی دیگر، و بیش از این نمیتواند با این وصله ویرایش شود.  برای اطلاعات بیشتر با فروشده وصله تمای بگیرید.  {{خطای سیستم: [3]}}"/>
+  <STRING id="Error.1329" value="یک فایل موردنیاز نمیتواند نصب شود زیرا کابینت فایل [2] امضای دیجیتالی نشده است.  این ممکن است نشان دهنده فایل کابینت خراب است."/>
+  <STRING id="Error.1330" value="یک فایل که موردنیاز است نمیتواند نصب شود زیرا فایل کابینت [2] امضای دیجیتالی نامعتبر دارد.  این ممکن است نشان دهنده این است که فایل کابینت خراب است.{{  خطا [3] بازگشت خورده با WinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="موفق به کپی صحیح فایل [2] نشد: خطای سی آر سی."/>
+  <STRING id="Error.1332" value="موفق به انتقال صحیح فایل [2] نشد: خطای سی آر سی."/>
+  <STRING id="Error.1333" value="موفق به وصله صحیح فایل [2] نشد: خطای سی آر سی."/>
+  <STRING id="Error.1334" value="فایل &apos;[2]&apos; نمیتواند نصب شود زیرا فایل را در کابینت فایل &apos;[3]&apos; نیافت. این شاید نشان دهنده خطای شبکه باشد، یک خطای خواندن از سی دی رام، یا یک مشکل با این بسته."/>
+  <STRING id="Error.1335" value="فایل کابینت &apos;[2]&apos; که موردنیاز برای این نصب است خراب است و نمیتوان استفاده کرد. این شاید نشان دهنده خطای شبکه باشد، یک خطای خواندن از سی دی رام، یا یک مشکل با این بسته."/>
+  <STRING id="Error.1336" value="یک خطای ایجاد فایل موقتی هست که آن برای کامل شدن نصب نیاز است.{{  پوشه: [3]. کد خطای سیستم: [2]}}"/>
+  <STRING id="Error.1401" value="کلید را نمیتوان ایجاد کرد: [2]. {{ خطای سیستم [3].}}  بازبینی کید اجازه کافی در این کلید دارید،یا با پشتیبانی شخصی تماس بگیرید. "/>
+  <STRING id="Error.1402" value="کلید را نمیتوان باز کرد: [2]. {{ خطای سیستمی [3].}}  بازبینی کنید اجازه کافی در این کلید دارید،یا با پشتیبانی شخصی تماس بگیرید. "/>
+  <STRING id="Error.1403" value="مقدار [2] از کلید [3] نمیتوان بازکرد. {{ خطای سیستم [4].}}  بازبینی کنید اجازه کافی در این کلید دارید،یا با پشتیبانی شخصی تماس بگیرید. "/>
+  <STRING id="Error.1404" value="کلید [2] را نمیتوان حذف کرد. {{ خطای سیستم [3].}}  بازبینی کنید اجازه کافی در این کلید دارید،یا با پشتیبانی شخصی تماس بگیرید. "/>
+  <STRING id="Error.1405" value="مقدار [2] از کلید [3] نمیتوان خواند. {{ خطای سیستم [4].}}  بازبینی کنید اجازه کافی در این کلید دارید،یا با پشتیبانی شخصی تماس بگیرید. "/>
+  <STRING id="Error.1406" value="مقدار [2] در کلید [3] نمیتواند بنویسد. {{ خطای سیستم [4].}}  بازبینی کنید اجازه کافی در این کلید دارید،یا با پشتیبانی شخصی تماس بگیرید."/>
+  <STRING id="Error.1407" value="نام مقدار را برای کلید [2] میتوان گرفت. {{ خطای سیستم [3].}}  بازبینی کنید اجازه کافی در این کلید دارید،یا با پشتیبانی شخصی تماس بگیرید."/>
+  <STRING id="Error.1408" value="نام زیرکلید را برای کلید [2] نمیتوان گرفت. {{ خطای سیستم [3].}}  بازبینی کنید اجازه کافی در این کلید دارید،یا با پشتیبانی شخصی تماس بگیرید."/>
+  <STRING id="Error.1409" value="اطلاعات امنیتی را برای کلید [2] نمیتوان خواند. {{ خطای سیستم [3].}}  بازبینی کنید اجازه کافی در این کلید دارید،یا با پشتیبانی شخصی تماس بگیرید."/>
+  <STRING id="Error.1410" value="فضای ریجیستری موجود را نمیتوان افزایش داد. [2] کیلوبایت از فضای آزاد ریجیستری برای نصب این برنامه نیاز است."/>
+  <STRING id="Error.1500" value="نصب دیگری درحال پیشرفت است.باید آن نصب را قبل از ادامه نصب جدید کامل کنید."/>
+  <STRING id="Error.1501" value="خطای دسترسی به داده ایمن شده. لطفا مطمئن شوید ویندوز اینستالر بدرسی پیکربندی شده و دوباره سعی کنید."/>
+  <STRING id="Error.1502" value="کاربر &apos;[2]&apos; قبلا سعی در نصب محصول &apos;[3]&apos; داشته است.  آن کاربر نیاز خواهد بود دوباره این نصب را اجرا کند قبل از اینکه آنها بتوانند از آن استفاده کنند.  نصب فعلی شما حالا ادامه خواهد یافت"/>
+  <STRING id="Error.1503" value="کاربر &apos;[2]&apos; قبلا سعی در نصب محصول &apos;[3]&apos; داشته است.  آن کاربر نیاز خواهد بود دوباره این نصب را اجرا کند قبل از اینکه آنها بتوانند از آن استفاده کنند."/>
+  <STRING id="Error.1601" value="فضای دیسک کم است -- درایو: &apos;[2]&apos;; فضای موردنیاز: [3] کیلوبایت; فضای موجود: [4] کیلوبایت.  فضایی از دیسک را خالی و دوباره سعی کنید."/>
+  <STRING id="Error.1602" value="آیا میخواهید لغو کنید؟"/>
+  <STRING id="Error.1603" value="فایل [2][3] در حال استفاده نگه داشته شده است{ با فرآین زیر: نام: [4], شناسه: [5], عنوان پنجره: &apos;[6]&apos;}.  آن برنامه را بسته و دوباره سعی کنید."/>
+  <STRING id="Error.1604" value="محصول &apos;[2]&apos; از قبل نصب شده است، جلوگیری از نصب این محصول.  دو محصول ناسازگار هستند."/>
+  <STRING id="Error.1605" value="برای ادامه نصب با قابلیت بازگردانی فعال شده در درایو &apos;[2]&apos; فضای آزاد کافی نیست. [3] کیلوبایت نیازاست. اما فقط [4] کیلوبایت موجود است. روی چشمپوشی برای ادامه نصب بدون ذخیره اطلاعات بازگردانی کلیک کنید، روی دوباره برای محاسبه فضای موجود       کلیک کنید، یا روی لغو برای خروج از نصب کیک کنید."/>
+  <STRING id="Error.1606" value="به مکان شبکه [2] نمیتوان دسترسی داشت."/>
+  <STRING id="Error.1607" value="برنامه های زیر باید قبل از ادامه نصب بسته شود:"/>
+  <STRING id="Error.1608" value="نمیتواند هیچگونه محصول مشابه که قبلا در این ماشین نصب شده باشد را برای نصب این محصول بیابد."/>
+  <STRING id="Error.1609" value="یک خطا حین اِعمال تنظیمات امنیتی رخ داد. [2] گروه یا کاربر معتبر نیست. این مشکل میتواند از بسته باشد، یا مشکل اتصال به کنترلگر دامین در شبکه باشد. ارتباط شبکه را بررسی و روی دوباره کلیک کنید، یا روی لغو برای پایان نصب کلیک کنید.       {{قادر به مکان یابی اِس ای دی کاربر نیست، خطای سیستم [3]}}"/>
+  <STRING id="Error.1701" value="کلید [2] صحیح نیست.  بازبینی کنید کلید صحیح را وارد کرده اید."/>
+  <STRING id="Error.1702" value="اینستالر قبل از پیکربندی [2] برای ادامه،باید ریستارت شود.  روی &quot;بله&quot; برای ریستارت یا &quot;خیر&quot; برای ریستارت در زمانی دیگر کلیک کنید."/>
+  <STRING id="Error.1703" value="برای اعمال اثرگذاری تغییرات پیکربندی اعمال شده در [2] سیستم را باید ریستارت کنید. روی بله برای ریستارت و روی خیر برای ریستارت در بعد کلیک کنید."/>
+  <STRING id="Error.1704" value="یک نصب برای [2] تعلیق شده است.  برای ادامه باید تغییرات ایجاد شده توسط نصب را آندو کنید.  آیا تغییرات را آندو می کنید؟"/>
+  <STRING id="Error.1705" value="یک نصب قبلی برای این محصول در پیشرفت است.باید تغییراتی که با آن نصب ایجاد شده را آندو کرده و ادامه دهید.آیا تغییرات را آندو می کنید؟"/>
+  <STRING id="Error.1706" value="یک بسته نصب برای محصول [2] را نمیتوان یافت. نصب را دوباره توسط نسخه معتبر بسته نصب &apos;[3]&apos; اجرا کنید."/>
+  <STRING id="Error.1707" value="نصب باموفقیت کامل شد."/>
+  <STRING id="Error.1708" value="موفق به نصب نشد."/>
+  <STRING id="Error.1709" value="محصول: [2] -- [3]"/>
+  <STRING id="Error.1710" value="میتوانید رایانه را به حالت قبل برگردانید یا نصب را در زمان دیگری ادامه دهید.میخواهید بازگردانی کنید؟"/>
+  <STRING id="Error.1711" value="یک خطا حین نوشتن اطلاعات نصب روی دیسک رخ داد.مطمئن شوید فضای آزاد دیسک کافی است،و روی دوباره یا لغو برای پایان دادن به نصب کلیک کنید."/>
+  <STRING id="Error.1712" value="یک یا تعداد بیشتری از فایلهایی موردنیاز برای بازگردانی رایانه به حالت قبل یافت نشد.بازگردانی غیرممکن است."/>
+  <STRING id="Error.1713" value="[2] نمیتواند یکی از محصولات موردنیاز را حذف کند. با گروه پشتیبانی فنی خود تماس بگیرید.  {{خطای سیستم: [3].}}"/>
+  <STRING id="Error.1714" value="نسخه قدیمی [2] را نمیتوان حذف کرد.  با گروه پشتیبانی فنی خود تماس بگیرید.  {{خطای سیستم [3].}}"/>
+  <STRING id="Error.1715" value="نصب شده [2]"/>
+  <STRING id="Error.1716" value="پیکربندی شده [2]"/>
+  <STRING id="Error.1717" value="حذف شده [2]"/>
+  <STRING id="Error.1718" value="فایل [2] با سیاست امضای دیجیتالی پذیرفته نشده است"/>
+  <STRING id="Error.1719" value="نمیتوان به ویندوز اینستالر دسترسی داشت.اگر در سیف مد ویندوز باشید این رخ میدهد، یا ویندوز اینستالر بدرستی نصب نشده است.برای راهنمایی با پشتیبانی شخصی خود تماس بگیرید."/>
+  <STRING id="Error.1720" value="این یک مشکل با بسته ویندوز اینستالر هست. یک اسکریپت موردنیاز برای کامل شدن این نصب را نمیتوان اجرا کرد. با فروشنده بسته یا پشتیبانی شخصی تماس بگیرید..  {{اقدام دستی [2] خطای اسکریپت [3], [4]: [5] خط [6], ستون [7], [8] }}"/>
+  <STRING id="Error.1721" value="این یک مشکل با بسته ویندوز اینستالر هست. یک برنامه موردنیاز برای کامل شدن این نصب را نمیتوان اجرا کرد. با فروشنده بسته یا پشتیبانی شخصی تماس بگیرید.. {{اقدام: [2], مکان: [3], فرمان: [4] }}"/>
+  <STRING id="Error.1722" value="این مشکل با بسته ویندوز اینستالر هست. برنامه اجرا شده بعنوان بخشی از نصب همانطور که انتظار میرفت به پایان نرسیده است. با پشتیبانی شخصی یا فروشنده محصول تماس بگیرید.  {{اقدام [2], مکان: [3], فرمان: [4] }}"/>
+  <STRING id="Error.1723" value="این یک مشکل با بسته ویندوز اینستالر هست. یک دی اِل اِل موردنیاز برای کامل شدن این نصب را نمیتوان اجرا کرد. با فروشنده بسته یا پشتیبانی شخصی تماس بگیرید..  {{اقدام [2], ورودی: [3], کتابخانه: [4] }}"/>
+  <STRING id="Error.1724" value="حذف باموفقیت انجام شد."/>
+  <STRING id="Error.1725" value="موفق به حذف نشد."/>
+  <STRING id="Error.1726" value="آگهی با موفقیت کامل شد."/>
+  <STRING id="Error.1727" value="آگهی موفق نشد."/>
+  <STRING id="Error.1728" value="پیکربندی باموفقیت کامل شد."/>
+  <STRING id="Error.1729" value="موفق به پیکربندی نشد."/>
+  <STRING id="Error.1730" value="شما باید برای حذف این برنامه آدمین باشید.برای حذف این برنامه،وارد اکانت آدمین شوید،یا برای راهنمایی با گروه پشتیبانی تماس بگیرید."/>
+  <STRING id="Error.1801" value="مسیر [2] صحیح نیست.  لطفا مسیر صحیح مشخص کنید."/>
+  <STRING id="Error.1802" value="حافظه کم است.قبل از سعی دوباره سایر برنامه ها را ببندید."/>
+  <STRING id="Error.1803" value="دیسکی در درایو [2] موجود نیست. لطفا دیسک را قرار داده و روی &quot;دوباره&quot;، یا روی &quot;لغو&quot; برای رفتن به درایو انتخاب شده قبلی کلیک کنید"/>
+  <STRING id="Error.1804" value="دیسکی در درایو [2] موجود نیست. لطفا دیسک را قرار داده و روی &quot;دوباره&quot;، یا روی &quot;لغو&quot; برای بازگشت به دیالوگ جستجو و انتخاب درایو متفاوت کلیک کنید"/>
+  <STRING id="Error.1805" value="پوشه [2] وجود ندارد.  لطفا مسیری در پوشه موجود وارد کنید."/>
+  <STRING id="Error.1806" value="شما اجازه کافی برای خواندن این پوشه را ندارید"/>
+  <STRING id="Error.1807" value="یک پوشه مقصد معتبر برای نصب را نمیتواند تشخیص دهد."/>
+  <STRING id="Error.1901" value="خطا سعی در خواندن از منبع نصب پایگاه داده: [2]."/>
+  <STRING id="Error.1902" value="زمان بندی عملکرد ریستارت: تغییرنام فایل [2] به [3]. برای کامل شدن عملکرد باید ریستارت شود."/>
+  <STRING id="Error.1903" value="زمان بندی عملکرد ریستارت: حذف فایل [2]. برای کامل شدن عملکرد باید ریستارت شود."/>
+  <STRING id="Error.1904" value="مدل [2] موفق به ثبت نشد.  HRESULT [3].  با پشتیبانی شخصی خود تماس بگیرید."/>
+  <STRING id="Error.1905" value="مدل [2] موفق به حذف نشد.  HRESULT [3].  با پشتیبانی شخصی خود تماس بگیرید."/>
+  <STRING id="Error.1906" value="موفق به کش یا ذخیره بسته [2] نشد. خطا: [3]. با پشتیبانی شخصی تماس بگیرید."/>
+  <STRING id="Error.1907" value="قادر به ثبت فونت [2] نیست.  بازبینی کنید اجازه کافی برای نصب فونت ها را دارید، و آن سیستم از این فونت پشتیبانی میکند."/>
+  <STRING id="Error.1908" value="فونت [2] را نمیتوان حذف کرد. بازبینی کنید اجازه کافی برای حذف فونت را دارید."/>
+  <STRING id="Error.1909" value="میانبر [2] را نمیتوان ایجاد کرد.بازبینی کنید پوشه مقصد وجود دارد و میتوانید به آن دسترسی داشته باشید."/>
+  <STRING id="Error.1910" value="میانبر [2] را نمیتوان حذف کرد.بازبینی کنید فایل میانبر وجود دارد و میتوانید به آن دسترسی داشته باشید"/>
+  <STRING id="Error.1911" value="نوع کتابخانه را برای فایل [2] نمیتوان ثبت کرد.  با پشتیبانی شخصی تماس بگیرید."/>
+  <STRING id="Error.1912" value="نوع کتابخانه ای را برای فایل [2] نمیتوان حذف کرد.  با پشتیبانی شخصی تماس بگیرید."/>
+  <STRING id="Error.1913" value="نمیتوان بروز رسانی کرد فایل INI [2][3].  بازبینی کنید فایل وجود دارد و به آن دسترسی دارید."/>
+  <STRING id="Error.1914" value="فایل [2] برای جایگزینی با فایل [3] در ریستارت را نمیتوان زمان بندی کرد.  بازبینی کنید اجازه نوشتن در فایل [3] را دارید."/>
+  <STRING id="Error.1915" value="خطای حذف مدیریت درایور ODBC ، ODBC خطای [2]: [3]. با پشتیبانی شخصی تماس بگیرید."/>
+  <STRING id="Error.1916" value="خطای نصب مدیریت درایو ODBC، ODBC خطا [2]: [3]. با پشتیبانی شخصی تماس بگیرید."/>
+  <STRING id="Error.1917" value="خطای حذف درایور ODBC : [4], ODBC خطا [2]: [3]. بازبینی اجازه کافی برای حذف درایورای ODBC را دارید."/>
+  <STRING id="Error.1918" value="خطای نصب درایور ODBC: [4][5], خطای ODBC  [2]: [3]. بازبینی کنید فایل [4][6] موجود است و به آن دسترسی دارید."/>
+  <STRING id="Error.1919" value="خطای پیکربندی داده منبع ODBC : [4][5], خطایODBC [2]: [3]. بازبینی کنید فایل [4][6] موجود است و به آن دسترسی دارید."/>
+  <STRING id="Error.1920" value="سرویس &apos;[2]&apos; ([3]) موفق به شروع نشد.  بازبینی کنید شما اجازه کافی برای شروع سرویس سیستم دارید."/>
+  <STRING id="Error.1921" value="یرویس &apos;[2]&apos; ([3]) را نمیتوان متوقف کرد.  بازبینی کنید شما اجازه کافی برای توقف سرویس را دارید."/>
+  <STRING id="Error.1922" value="سرویس &apos;[2]&apos; ([3]) را نمیتوان حذف کرد.  بازبینی کنید شما اجازه کافی برای حذف سرویس سیستمی را دارید."/>
+  <STRING id="Error.1923" value="سرویس &apos;[2]&apos; ([3]) را نمیتوان حذف کرد.  بازبینی کنید شما اجازه کافی برای نصب سرویس سیستمی را دارید."/>
+  <STRING id="Error.1924" value="نمیتوان متغییرهای محیطی &apos;[2]&apos; را بروزرسانی کرد.  بازبینی کنید اجازه کافی برای ویرایش متغییرهای محیطی را دارید."/>
+  <STRING id="Error.1925" value="شما اجازه کافی برای کامل کردن این نصب برای همه کاربران این ماشین را ندارید.وارد اکانت آدمین شوید و مجددا سعی کنید"/>
+  <STRING id="Error.1926" value="نمیتواند  فایل امنیتی را برای فایل &apos;[3]&apos; تنظیم کند. خطا: [2].  بازبینی کنید اجازه کافی برای ویرایش امنیت برای این فایل را دارید."/>
+  <STRING id="Error.1927" value="مولفه سرویس (COM+ 1.0) در این رایانه نصب نشده است.  این نب نیاز به مولفه سرویس بمنظور کامل شدن موفقیت آمیز دارد.  مولفه سرویس در ویندوز 2000 موجود است."/>
+  <STRING id="Error.1928" value="خطای حذف برنامه کام پلاس.برای اطلاعات بیشتر با پشتیبانی شخصی تماس بگیرید"/>
+  <STRING id="Error.1929" value="خطای حذف برنامه کام پلاس.برای اطلاعات بیشتر با پشتیبانی شخصی تماس بگیرید"/>
+  <STRING id="Error.1930" value="توضیح برای سرویس &apos;[2]&apos; ([3]) را نمیتوان تغییر داد."/>
+  <STRING id="Error.1931" value="سرویس ویندوز اینستالر نمیتواند فایل سیستمی [2] را بروزرسانی کند زیرا توسط ویندوز حفاظت میشود.  ممکن است شما نیاز به بروزرسانی سیستم برای صحیح کارکردن این برامه دارید. {{نسخه بسته: [3], نسخه حفاظت شده سیستم عامل: [4]}}"/>
+  <STRING id="Error.1932" value="سرویس ویندوز اینستالر فایل ویندوزی حفاظت شده [2] را نمیتواند بروزرسانی کند. {{نسخه بسته: [3], نسخه حفاظت شده سیستم عامل: [4], SFP خطای: [5]}}"/>
+  <STRING id="Error.1933" value="سرویس ویندوز اینستالر نمیتواند یک یا تعداد بیشتری از فایل های حافظت شده را بروزرسانی کند. {{SFP خطای: [2].  لیست فایل های حافظت شده:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="نصب کاربر در این ماشین توسط سیاست غیرفعال شده است."/>
+  <STRING id="Error.1935" value="یک خطا حین نصب مولفه اسمبلی [2] رخ داد. HRESULT: [3]. {{رابط اسمبلی: [4], تابع: [5], نام اسمبلی: [6]}}"/>
+  <STRING id="Error.1936" value="یک خطا حین نصب اسمبلی '[6]' رخ داده است. اسمبلی قویا با حداقل طول کلید نام گذاری یا امضاء نشده است. HRESULT: [3]. {{رابط اسمبلی: [4], تابع: [5], مولفه: [2]}}"/>
+  <STRING id="Error.1937" value="یک خطا حین نصب اسمبلی '[6]' رخ داده است. امضاء یا پرونده نمیتواند بازبینی شود یا معتبر نیست. HRESULT: [3]. {{رابط اسمبلی: [4], تابع: [5], مولفه: [2]}}"/>
+  <STRING id="Error.1938" value="یک خطا حین نصب اسمبلی '[6]' رخ داده است. یک یا تعداد بیشتری از مدل های اسمبلی نمیتواند یافت شود. HRESULT: [3]. {{رابط اسمبلی: [4], تابع: [5], مولفه: [2]}}"/>
+  <STRING id="Error.1939" value="سرویس '[2]' ([3]) را نمیتوان پیکربندی کرد. ای مشکل میتواند از بسته یا سطح اجازه شما باشد. بازبینی کنید اجازه کافی برای پیکربندی این سرویس سیستمی را دارید."/>
+  <STRING id="Error.1940" value="سرویس '[2]' ([3]) را نمیتوان پیکربندی کرد. پیکربندی سرویس فقط در ویندوز 2008 و ویستا به بالا امکان پذیر است."/>
+  <STRING id="Error.1941" value="هر دو جدول LockPermissions و MsiLockPermissionsExدر بسته یافت شد. فقط یکی از آنها باید حاضر باشد. این یک مشکل با بسته هست."/>
+  <STRING id="Error.1942" value="شرایط چندگانه ('[2]' و '[3]')تعیین شده به واقعی حین نصب شی [4] (از جدول [5]). ممکن است این مشکل بسته باشد"/>
+  <STRING id="Error.1943" value="استرینگ اِس دی دی اِل '[2]' برای سی [3](در جدول [4]) نمیتواند در واصف امنیتی معتبر قرار گیرد"/>
+  <STRING id="Error.1944" value="ایمنی را برای سرویس '[3]' نمیتوان تنظیم کرد. خطا: [2]. بازبینی کنید شما اجازه کافی برای ویرایش سطح ایمنی برای این سرویس را دارید."/>
+  <STRING id="Error.1945" value="شما اجازه کافی برای کامل کردن مجدد آگهی ندارید.آگهی مجدد نیاز به راه اندازی با اکانت سیستم محلی فراخوانده شده با اِی پی آی MsiAdvertiseScript دارد."/>
+  <STRING id="Error.1946" value="مشخصه '[2]' را برای میانبر '[3]' را نمیتوان تنظیم کرد{{ HRESULT [4].}}"/>
+  <STRING id="Error.2101" value="میانبر با سیستم عامل پشتیبانی نمیشود"/>
+  <STRING id="Error.2102" value="اقدام .INI نامعتبر: [2]"/>
+  <STRING id="Error.2103" value="نمیتواند مسیر را برای شیل پوشه [2].تعیین کند"/>
+  <STRING id="Error.2104" value="نوشتن فایل .INI: [3]: خطای سیستم: [2]."/>
+  <STRING id="Error.2105" value="موفق به ایجاد میانبر [3] نشد. خطای سیستم: [2]."/>
+  <STRING id="Error.2106" value="موفق به حذف میانبر [3] نشد. خطای سیستم: [2]."/>
+  <STRING id="Error.2107" value="خطای [3] ثبت نوع کتابخانه [2]."/>
+  <STRING id="Error.2108" value="خطای [3] حذف نوع کتابخانه [2]."/>
+  <STRING id="Error.2109" value="بخش گمشده برای اقدام .INI "/>
+  <STRING id="Error.2110" value="کلید گمشده برای اقدام .INI "/>
+  <STRING id="Error.2111" value="موفق به تشخیص برنامه دراجرا نشد، داده کارآیی را نمیتواند بگیرد. عملکرد ثبت شده بازگشت خورد : [2]."/>
+  <STRING id="Error.2112" value="موفق به تشخیص برنامه در اجرا نشد، شاخص کارایی را نمیتواند بگیرید. عملکرد ثبت شده بازگشت خورد : [2]."/>
+  <STRING id="Error.2113" value="موفق به تشخیص برنامه در اجرا نشد."/>
+  <STRING id="Error.2200" value="پایگاه داده: [2]. موفق به ابجاد شیء پایگاه داده نشد، حالت = [3]."/>
+  <STRING id="Error.2201" value="پایگاه داده: [2]. موفق به مقداردهی نشد،حافظه کم است."/>
+  <STRING id="Error.2202" value="پایگاه داده: [2]. موفق به دسترسی داده نشد،حافظه کم است."/>
+  <STRING id="Error.2203" value="پایگاه داده: [2]. نمیتوان فایل پایگاه داده را بازکرد. خطای سیستم [3]."/>
+  <STRING id="Error.2204" value="پایگاه داده: [2]. جدول از قبل موجود است: [3]."/>
+  <STRING id="Error.2205" value="پایگاه داده: [2]. جدول وجود ندارد: [3]."/>
+  <STRING id="Error.2206" value="پایگاه داده: [2]. جدول را نمیتوان رها کرد: [3]."/>
+  <STRING id="Error.2207" value="پایگاه داده: [2]. قصد تخطی."/>
+  <STRING id="Error.2208" value="پایگاه داده: [2]. پاترامترهای ناکافی برای اِجرا"/>
+  <STRING id="Error.2209" value="پایگاه داده: [2]. مکان نما در حالت نامعتبر است."/>
+  <STRING id="Error.2210" value="پایگاه داده: [2]. نوع داده بروزرسانی نامعتبر ذر ستون [3] هست."/>
+  <STRING id="Error.2211" value="پایگاه داده: [2]. جدول پایگاه داده [3] را نمیتوان ایجاد کرد."/>
+  <STRING id="Error.2212" value="پایگاه داده: [2]. پایگاه داده در حالت قابل نوشتن نیست."/>
+  <STRING id="Error.2213" value="پایگاه داده: [2]. خطای ذخیره کردن جداول پایگاه داده."/>
+  <STRING id="Error.2214" value="پایگاه داده: [2]. خطای نوشت فایل خروجیگیری: [3]."/>
+  <STRING id="Error.2215" value="پایگاه داده: [2]. فایل واردکردن را نمیتوان بازکرد: [3]."/>
+  <STRING id="Error.2216" value="پایگاه داده: [2]. خطای واردکردن فرمت فایل: [3], خط [4]."/>
+  <STRING id="Error.2217" value="پایگاه داده: [2]. حالت غلط در ایجاد پایگاه داده خروجی [3]."/>
+  <STRING id="Error.2218" value="پایگاه داده: [2]. نام جدول تامین نشده است"/>
+  <STRING id="Error.2219" value="پایگاه داده: [2]. فرمت پایگاه داده اینستالر نامعتبر."/>
+  <STRING id="Error.2220" value="پایگاه داده: [2]. داده نامعتبر سطر/فیلد."/>
+  <STRING id="Error.2221" value="پایگاه داده: [2]. ناسازگاری کدصفحه در واردکردن فایل: [3]."/>
+  <STRING id="Error.2222" value="پایگاه داده: [2]. تغيير شكل‌  یا ادغام کد صفحه [3] متفاوت از کد صفحه پایگاه داده [4] هست."/>
+  <STRING id="Error.2223" value="پایگاه داده: [2]. پایگاه داده یکی هست. تغيير شكلی تولید نشده است."/>
+  <STRING id="Error.2224" value="پایگاه داده: [2]. تولید تغيير شكل‌ : پایگاه داده خراب است. جدول: [3]."/>
+  <STRING id="Error.2225" value="پایگاه داده: [2]. تغيير شكل‌: جدول موقتی را نمیتواند تغيير شكل داد. جدول: [3]."/>
+  <STRING id="Error.2226" value="پایگاه داده: [2]. موفق به تغيير شكل نشد."/>
+  <STRING id="Error.2227" value="پایگاه داده: [2]. تعیین کننده هویت نامعتبر '[3]' در جستار اِس کیو اِل: [4]."/>
+  <STRING id="Error.2228" value="پایگاه داده: [2]. جدول ناشناخته '[3]' در جستار اِس کیو اِل: [4]."/>
+  <STRING id="Error.2229" value="پایگاه داده: [2]. جدول '[3]' را نمیتواند بارگیری کند در جستار اِس کیو اِل: [4]."/>
+  <STRING id="Error.2230" value="پایگاه داده: [2]. جدول تکرار شده '[3]' در جستار اِس کیو اِل: [4]."/>
+  <STRING id="Error.2231" value="پایگاه داده: [2]. گم شده ')' در جستار اِس کیو اِل: [3]."/>
+  <STRING id="Error.2232" value="پایگاه داده: [2]. نشاه غیرمنتظره '[3]' در جستار اِس کیو اِل: [4]."/>
+  <STRING id="Error.2233" value="پایگاه داده: [2]. ستونی نیست در بند انتخاب در جستار اِس کیو اِل: [3]."/>
+  <STRING id="Error.2234" value="پایگاه داده: [2]. ستونی نیست در بند مرتبسازی با در جستار اِس کیو اِل: [3]."/>
+  <STRING id="Error.2235" value="پایگاه داده: [2]. ستون '[3]' ارائه نشده یا مبهم است در جستار اِس کیو اِل: [4]."/>
+  <STRING id="Error.2236" value="پایگاه داده: [2]. گرداننده نامعتبر '[3]' در جستار اِس کیو اِل: [4]."/>
+  <STRING id="Error.2237" value="پایگاه داده: [2]. استرینگ جستار نامعتبر یا گمشده: [3]."/>
+  <STRING id="Error.2238" value="پایگاه داده: [2]. بند گم شده فرم در جستار اِس کیو اِل: [3]."/>
+  <STRING id="Error.2239" value="پایگاه داده: [2]. مقادیر ناکافی در دستور قراردادن اِس کیو اِل."/>
+  <STRING id="Error.2240" value="پایگاه داده: [2]. ستون گم شده بروزرسانی در دستور بروزرسانی اِس کیو اِل."/>
+  <STRING id="Error.2241" value="پایگاه داده: [2]. ستون قراردادن گم شده در دستور قراردادن اِس کیو اِل."/>
+  <STRING id="Error.2242" value="پایگاه داده: [2]. ستون '[3]' تکرار شده است."/>
+  <STRING id="Error.2243" value="پایگاه داده: [2]. ستون های اولیه برای ایجاد ستون تعریف نشده است"/>
+  <STRING id="Error.2244" value="پایگاه داده: [2]. نوع تصریح کننده نامعتبر '[3]' در جستار اِس کیو اِل [4]."/>
+  <STRING id="Error.2245" value="IStorage::شروع موفق نشد با خطای [3]."/>
+  <STRING id="Error.2246" value="پایگاه داده: [2]. فرمت تغيير شكل اینستالر نامعتبر است"/>
+  <STRING id="Error.2247" value="پایگاه داده: [2] جریان خواندن/نوشتن تغيير شكل موفق نشد."/>
+  <STRING id="Error.2248" value="پایگاه داده: [2] تولید تغيير شكل/ادغام: نوع ستون در جدول پایه با مرجع جدول تطابق ندارد. جدول: [3] ستون #: [4]."/>
+  <STRING id="Error.2249" value="پایگاه داده: [2] تولید تغيير شكل: ستون های بیشتر در جدول پایه نسبت به جدول مرجع وجود دارد. جدول: [3]."/>
+  <STRING id="Error.2250" value="پایگاه داده: [2] تغيير شكل: سطر موجود را نمیتوان اضافه کرد. جدول: [3]."/>
+  <STRING id="Error.2251" value="پایگاه داده: [2] تغيير شكل: سطری را که وجود ندارد نمیتوان حذف کرد. جدول: [3]."/>
+  <STRING id="Error.2252" value="پایگاه داده: [2] تغيير شكل: جدول موجود را نمیتوان اضافه کرد. جدول: [3]."/>
+  <STRING id="Error.2253" value="پایگاه داده: [2] تغيير شكل: جدولی که وجود ندارد را نمیتوان حذف کرد. جدول: [3]."/>
+  <STRING id="Error.2254" value="پایگاه داده: [2] تغيير شكل: سطری را که وجود ندارد نمیتوان بروزرسانی کرد. جدول: [3]."/>
+  <STRING id="Error.2255" value="پایگاه داده: [2] تغيير شكل: ستون با این نام از قبل وجود دارد. جدول: [3] ستون: [4]."/>
+  <STRING id="Error.2256" value="پایگاه داده: [2] تولید تغيير شكل/ادغام: تعداد کلیدهای اولیه در جدول پایه با جدول مرجع مطابقت ندارد. جدول: [3]."/>
+  <STRING id="Error.2257" value="پایگاه داده: [2]. قصد در ویرایش جدول فقط خواندنی: [3]."/>
+  <STRING id="Error.2258" value="پایگاه داده: [2]. نوع عدم مطابقت در پارامترها: [3]."/>
+  <STRING id="Error.2259" value="پایگاه داده: [2] موفق به بروزرسانی جدول نشد"/>
+  <STRING id="Error.2260" value="موفق به کپی انباره نشد. خطای سیستم: [3]."/>
+  <STRING id="Error.2261" value="نمیتوان جریان [2] را حذف کرد. خطای سیستم: [3]."/>
+  <STRING id="Error.2262" value="جریان وجود ندارد: [2]. خطای سیستم: [3]."/>
+  <STRING id="Error.2263" value="نمیتوان جریان [2] را بازکرد. خطای سیستم: [3]."/>
+  <STRING id="Error.2264" value="نمیتوان جریان [2] را حذف کرد. خطای سیستم: [3]."/>
+  <STRING id="Error.2265" value="انباره را نمیتواند ذخیره کند. خطای سیستم: [3]."/>
+  <STRING id="Error.2266" value="مخزن را نمیتوان برگرداند به عقب. خطای سیستم: [3]."/>
+  <STRING id="Error.2267" value="انباره [2] را نمیتواند حذف کند. خطای سیستم: [3]."/>
+  <STRING id="Error.2268" value="پایگاه داده: [2]. ادغام: در جدول [3] ناسازگاری ادغام گذارش شده است"/>
+  <STRING id="Error.2269" value="پایگاه داده: [2]. ادغام: تعداد ستون متفاوت درجدول '[3]' برای دو پایگاه داده."/>
+  <STRING id="Error.2270" value="پایگاه داده: [2]. تولید تغيير شكل/ادغام: نام ستون در جدول پایه با جدول مرجع مطابقت ندارد. جدول: [3] ستون #: [4]."/>
+  <STRING id="Error.2271" value="خلاصه اطلاعات نوشتن برای تغییرشکل موفق نشد"/>
+  <STRING id="Error.2272" value="پایگاه داده: [2]. اداغام پایگاه داده هیچگونه تغییری نمینویسد زیرا پایگاه داده برای فقط خواندنی باز هست."/>
+  <STRING id="Error.2273" value="پایگاه داده: [2]. ادغام پایگاه داده: یک مرجع به پایگاه داده پایه رد شده بعنوان پایگاه داده مرجع"/>
+  <STRING id="Error.2274" value="پایگاه داده: [2]. ادغام پایگاه داده: قادر به نوشتن خطا در جدول خطا نیست. میتواند بعلت ستون غیرخالی یک جدول خطای از پیش تعریف شده باشد."/>
+  <STRING id="Error.2275" value="پایگاه داده: [2]. ویرایش مشخص شده [3] عملکرد نامعتبر برای ادغام جداول"/>
+  <STRING id="Error.2276" value="پایگاه داده: [2]. کدصفحه [3] با سیستم پشتیبانی نشده است"/>
+  <STRING id="Error.2277" value="پایگاه داده: [2]. موفق به ذخیره جدول [3] نشد."/>
+  <STRING id="Error.2278" value="پایگاه داده: [2]. تعداد عبارات محدود 32در جای بند جستار اِس کیو اِل تخطی کرده است: [3]."/>
+  <STRING id="Error.2279" value="پایگاه داده: [2] تغيير شكل: تعداد زیادی ستون در جدول پایه [3] هست."/>
+  <STRING id="Error.2280" value="پایگاه داده: [2]. نمیتواند ستون [3] برای جدول [4] ایجاد کند."/>
+  <STRING id="Error.2281" value="نمیتوان جریان [2] را تغییرنام داد. خطای سیستم: [3]."/>
+  <STRING id="Error.2282" value="نام نامعتبر جریان [2]."/>
+  <STRING id="Error.2302" value="اطلاع وصله: [2] بایت وصله شده زیاد است."/>
+  <STRING id="Error.2303" value="خطای گرفتن اطلاعات درایو. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2304" value="خطای گرفتن فضای آزاد دیسک. گرفتن آخرین خطا: [2]. درایو: [3]."/>
+  <STRING id="Error.2305" value="خطای انتظار برای نخ وصله. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2306" value="نمیتوان نخ را برای وصله برنامه ایجاد کرد. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2307" value="نام کلید فایل منبع پوچ است."/>
+  <STRING id="Error.2308" value="نام فایل مقصد پوچ است."/>
+  <STRING id="Error.2309" value="سعی در وصله فایل [2] وقتیکه وصله از قبل در پیشرفت هست."/>
+  <STRING id="Error.2310" value="سعی در ادامه وصله وقتیکه وصله ای در پیشرفت نیست."/>
+  <STRING id="Error.2315" value="مسیرگم شده جداساز: [2]."/>
+  <STRING id="Error.2318" value="فایل وجود ندارد: [2]."/>
+  <STRING id="Error.2319" value="خطای تنظیم صفات فایل: [3] گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2320" value="فایل قابل نوشتن نیست: [2]."/>
+  <STRING id="Error.2321" value="خطای ایجاد فایل: [2]."/>
+  <STRING id="Error.2322" value="کاربر لغو کرده است."/>
+  <STRING id="Error.2323" value="صفت فایل نامعتبر است."/>
+  <STRING id="Error.2324" value="فایل را نمیتوان بازکرد: [3] گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2325" value="زمان فایل را نمیتوان برای ای فایل گرفت: [3] گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2326" value="خطا در FileToDosDateTime."/>
+  <STRING id="Error.2327" value="این دایرکتوری را نمیتوان حذف کرد: [3] گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2328" value="خطای دریافت اطلاعت نسخه برای فایل: [2]."/>
+  <STRING id="Error.2329" value="خطای حذف فایل: [3]. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2330" value="خطای گرفتن صفات فایل: [3]. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2331" value="خطای بارگیری کتابخانه [2] یا یافتن نقطه ورودی [3]."/>
+  <STRING id="Error.2332" value="خطای گرفتن صفات فایل. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2333" value="خطای تنظیم صفات فایل. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2334" value="خطای تبدیل زمان فایل به زمان محلی برای این فایل: [3]. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2335" value="مسیر: [2] منشاء [3] نیست."/>
+  <STRING id="Error.2336" value="فایل موقتی نمیتوان ایجاد کرد در این مسیر: [3]. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2337" value="فایل را نمیتوان بست: [3] گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2338" value="ریسورس را نمیتوان بروزرسانی کرد برای فایل: [3] گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2339" value="زمان فایل را نمیتوان تنظطیم کرد برای فایل: [3] گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2340" value="نمیتوان بروزرسانی کرد منابع را برای فایل: [3], منبع گم شده."/>
+  <STRING id="Error.2341" value="نمیتوان منابع را بروزرسانی کرد برای فایل: [3], منابع خیلی بزرگ است"/>
+  <STRING id="Error.2342" value="ریسورس را نمیتوان بروزرسانی کرد برای فایل: [3] گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2343" value="مسیر مشخص شده خالی هست."/>
+  <STRING id="Error.2344" value="فایل موردنیاز IMAGEHLP.DLLبرای معتبرسازی فایل:[2] یافت نشد"/>
+  <STRING id="Error.2345" value="[2]: فایل محتوی یک مقدار مجموع مقابله ای معتبر نیست"/>
+  <STRING id="Error.2347" value="چشمپوشی کاربر."/>
+  <STRING id="Error.2348" value="خطا سعی درخواندن از جریان کابینت."/>
+  <STRING id="Error.2349" value="کپی ادامه یافته با اطلاعات متفاوت"/>
+  <STRING id="Error.2350" value="خطای سرور اِف دی آی"/>
+  <STRING id="Error.2351" value="فایل کلید '[2]' در کابینت '[3]' یافت نشد.نصب نمیتواند ادامه پیدا کند"/>
+  <STRING id="Error.2352" value="فایل کابینت سرور را نمیتوان مقدار دهی کرد. فایل موردنیاز 'CABINET.DLL' ممکن است گم شده باشد."/>
+  <STRING id="Error.2353" value="کابینت نیست."/>
+  <STRING id="Error.2354" value="کابین را نمیتوان هندل یا دستگیره کرد"/>
+  <STRING id="Error.2355" value="کابینت خراب است."/>
+  <STRING id="Error.2356" value="قادر به مکانیابی کابینت نیست در جریان: [2]."/>
+  <STRING id="Error.2357" value="صفات را نمیتوان تنظیم کرد."/>
+  <STRING id="Error.2358" value="خطا تشخیص اینکه فایل درحال استفاده است: [3]. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2359" value="قادر به ایجاد فایل هدف نیست- ممکن است فایل درحال استفاده باشد."/>
+  <STRING id="Error.2360" value="تیک پیشرفت."/>
+  <STRING id="Error.2361" value="به کابینت بعدی نیاز است."/>
+  <STRING id="Error.2362" value="پوشه یافت نشد: [2]."/>
+  <STRING id="Error.2363" value="نمیتواند زیرپوشه را بشمرد برای پوشه: [2]."/>
+  <STRING id="Error.2364" value="شمارش ثابت بد در فراخوانی CreateCopier هست."/>
+  <STRING id="Error.2365" value="نمیتوان نمیتوان فایل اگزه را BindImage [2] کرد."/>
+  <STRING id="Error.2366" value="کارب موفق نشد."/>
+  <STRING id="Error.2367" value="کاربر لغو کرد."/>
+  <STRING id="Error.2368" value="موفق به گرفتن اطلاعات ریسورس شبکه نشد. خطا [2], مسیر شبکه [3]. خطای گسترش یافته: ارائه دهنده شبکه [5], کد خطا [4], توضیح خطا [6]."/>
+  <STRING id="Error.2370" value="مقدار مجموع مقابله ای نامعتبر سی آر سی برای فایلr [2] .{ سرساز آن بیان میکند [3] برای مجموع مقابله ای, مقدار محاسبه شده آن هست [4].}"/>
+  <STRING id="Error.2371" value="وصلبه را نمیتوان در فایل [2] اِعمال کرد. گرفتن آخرین خطا: [3]."/>
+  <STRING id="Error.2372" value="فایل وصله [2] خراب هست یا فرمت نامعتبر دارد. سعی در وصله کردن فایل [3]. گرفتن آخرین خطا: [4]."/>
+  <STRING id="Error.2373" value="فایل [2] یک فایل وصله صحیح نیست"/>
+  <STRING id="Error.2374" value="فایل [2] فایل مقصد معتبر برای فایل وصله [3] نیست"/>
+  <STRING id="Error.2375" value="خطای وصله ناشناخته: [2]."/>
+  <STRING id="Error.2376" value="کابینت یافت نشد"/>
+  <STRING id="Error.2379" value="خطای بازکردن فایل برای خواندن: [3] گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2380" value="خطای بازکردن فایل برای نوشتن: [3]. گرفتن آخرین خطا: [2]."/>
+  <STRING id="Error.2381" value="دایرکتوری وجود ندارد: [2]."/>
+  <STRING id="Error.2382" value="درایو آماده نیست: [2]."/>
+  <STRING id="Error.2401" value="عملکرد ریجیستری 64 بیت سعی در سیستم عامل 32 بیتی برای کلید [2] دارد."/>
+  <STRING id="Error.2402" value="حافظه کم است."/>
+  <STRING id="Error.2501" value="نمیتوان اسکریپت صورت دهنده برگرداندن به عقب را ایجاد کرد."/>
+  <STRING id="Error.2502" value="InstallFinalize را فراخوانده وقتیکه نصبی در پیشرفت نیست"/>
+  <STRING id="Error.2503" value="RunScript رافراخوانده وقتیکه مارک شده در پیشرفت نیست"/>
+  <STRING id="Error.2601" value="مقدار نامعتبر برای مشخصه [2]: '[3]'"/>
+  <STRING id="Error.2602" value="جدول ورودی [2] هیچگونه وابسته ورودی در رسانه جدول '[3]' ندارد."/>
+  <STRING id="Error.2603" value="نام جدول تکراری [2]."/>
+  <STRING id="Error.2604" value="[2] مشخصه تعریف نشده است."/>
+  <STRING id="Error.2605" value="سرور [2] در [3] یا [4] نمیتواند پیدا کند."/>
+  <STRING id="Error.2606" value="مقدار مشخصه [2] مسیر کامل معتبر ندارد: '[3]'."/>
+  <STRING id="Error.2607" value="جدول رسانه یافت نشد یا خالی است (برای نصب فایل ها نیاز است)."/>
+  <STRING id="Error.2608" value="برای شی نمیتوان واصف ایمنی ایجاد کرد. خطا: '[2]'."/>
+  <STRING id="Error.2609" value="سعی در انتقال یافتن تنظیمات محصول قبل از مقدار دهی"/>
+  <STRING id="Error.2611" value="فایل [2] بعنوان فشرده شده نشانه گذاری شده اسیت، اما ورودی مدیا وابسته سازی شده یک کابینت مشسخص نکرده است."/>
+  <STRING id="Error.2612" value="جریان یافت نشد در '[2]' ستون. کلید اولیه: '[3]'."/>
+  <STRING id="Error.2613" value="اقدام RemoveExistingProducts دارای توالی نادرست است."/>
+  <STRING id="Error.2614" value="نمیتوان به شی IStorage از بسته نصب دسترسی داشت"/>
+  <STRING id="Error.2615" value="ردکردن حذف ثبت [2] به علت عدم موفقیت تحلیل منبع."/>
+  <STRING id="Error.2616" value="فایل همراه [2] منشاء گم شده."/>
+  <STRING id="Error.2617" value="مولفه اشتراکی [2] در جدول مولفه یافت نشد"/>
+  <STRING id="Error.2618" value="مولفه مجزا برنامه [2] در جدول مولفه یافت نشد."/>
+  <STRING id="Error.2619" value="مولفه های مجزا [2], [3] بخشی از یک ویژگی نیستند."/>
+  <STRING id="Error.2620" value="فایل کلید مجزا مولفه برنامه [2] در جدول فایل نیست."/>
+  <STRING id="Error.2621" value="اطلاعات ریسورس دی اِل اِل یا شناسه ریسورس برای میانبر [2] نادرست تنظیم شده است."/>
+  <STRING id="Error.2701" value="عمق ویژگی از عمق درختی سطح قابل قبول [2] تخطی کرده است."/>
+  <STRING id="Error.2702" value="یک ویژگی جدول رکورد ([2]) یک منشا ناموجود را در فیلد صفت ارجاع میدهد."/>
+  <STRING id="Error.2703" value="نام مشخصه برای مسیر ریشه منبع تعریف نشده است: [2]"/>
+  <STRING id="Error.2704" value="مشخصه ریشه دایرکتوری تعریف نشده است: [2]"/>
+  <STRING id="Error.2705" value="جدول نامعتبر: [2]; نمیتواند بعنوان درختی لینک شود."/>
+  <STRING id="Error.2706" value="مسیرهای منبع ایجاد نشده است. مسیری برای ورودی در دایرکتوری جدول [2] وجود ندارد."/>
+  <STRING id="Error.2707" value="مسیرهای هدف ایجاد نشده است. مسیری برای ورودی [2] در جدول دایرکتوری وجود ندارد."/>
+  <STRING id="Error.2708" value="ورودی هایی در جدول فایل یافت نشد."/>
+  <STRING id="Error.2709" value="نام مولفه مشخص شده ('[2]') در جدول مولفه یافت نشد."/>
+  <STRING id="Error.2710" value="وضعیت درخواست شده 'Select' برای این مولفه غیرقانونی هست."/>
+  <STRING id="Error.2711" value="نام ویژگی مشخص شده ('[2]') در جدول ویژگی یافت نشد."/>
+  <STRING id="Error.2712" value="بازگشت نامعتبر از دیالوگ کوچکتر: [3], در اقدام [2]."/>
+  <STRING id="Error.2713" value="مقدار پوچ در یک ستون غیر پوچ ('[2]' در '[3]' ستون '[4]' جدول."/>
+  <STRING id="Error.2714" value="مقدار نامعتبر برای نام پوشه پیش فرض: [2]."/>
+  <STRING id="Error.2715" value="فایل کلید مشخص شده ('[2]') در جدول فایل یافت نشد."/>
+  <STRING id="Error.2716" value="نمیتواند نام تصادفی subcomponent name برای مولفه '[2]' ایجاد کند."/>
+  <STRING id="Error.2717" value="وضعیت بد اقدام یا خطای فراخواندن اقدام دستی '[2]'."/>
+  <STRING id="Error.2718" value="نام بسته گم شده برای کد محصول '[2]'."/>
+  <STRING id="Error.2719" value="هیچ یک از این دو یو اِن سی یا مسیر درایو در منبع '[2]' یافت نشد."/>
+  <STRING id="Error.2720" value="خطای بازکردن لیست کلید منبع. خطا: '[2]'"/>
+  <STRING id="Error.2721" value="اقدام دستی [2] در جریان جدول باینری یافت نشد"/>
+  <STRING id="Error.2722" value="اقدام دستی [2] در جدول فایل پیدا نشد"/>
+  <STRING id="Error.2723" value="اقدام دستی [2] نوع پشتیبانی نشده تشخیص داده شد"/>
+  <STRING id="Error.2724" value="نام درایو '[2]' با رسانه ای که شما در آن هستید با نام '[3]' در جدول رسانه مطابقت ندارد. این اجازه داده شده هست فقط اگر شما یک ورودی در جدول رسانه دارید.."/>
+  <STRING id="Error.2725" value="جداول پایگاه داده نامعتبر است"/>
+  <STRING id="Error.2726" value="اقدام یافت نشد: [2]."/>
+  <STRING id="Error.2727" value="ورودی دایرکتوری '[2]' در جدول دایرکتوری وجود ندارد."/>
+  <STRING id="Error.2728" value="خطای تعریف جدول: [2]"/>
+  <STRING id="Error.2729" value="موتور نصب مقداردهی نشده است."/>
+  <STRING id="Error.2730" value="مقدار بد در پایگاه داده. جدول: '[2]'; کلید اولیه: '[3]'; ستون: '[4]'"/>
+  <STRING id="Error.2731" value="مدیریت انتخاب مقداردهی نشده است"/>
+  <STRING id="Error.2732" value="مدیریت دایرکتوری مقداردهی نشده است"/>
+  <STRING id="Error.2733" value="کلید خارجی بد ('[2]') در '[3]' ستون جدول '[4]' هست."/>
+  <STRING id="Error.2734" value="حالت کاراکتر نصب مجدد نامعتبر است."/>
+  <STRING id="Error.2735" value="اقدام دستی '[2]' موجب یک استثناء بدون دستگیره شده و متوقف شده است. ممکن است نتیجه یک خطای داخلی در اقدام دستی باشد، همچون تخطی دستیابی."/>
+  <STRING id="Error.2736" value="تولید اقدام دستی فایل موقتی موفق نشد: [2]."/>
+  <STRING id="Error.2737" value="نمیتوان به اقدام دستی [2] دسترسی داشت، ورودی [3], کتابخانه [4]"/>
+  <STRING id="Error.2738" value="نمیتوان به ران تایم VBScriptبرای اقدام دستی [2] دسترسی داشت."/>
+  <STRING id="Error.2739" value="نمیتوان به ران تایم JScript برای اقدام دستی [2] دسترسی داشت."/>
+  <STRING id="Error.2740" value="اقدام دستی [2] خطای اسکریپت [3], [4]: [5] خط [6], ستون [7], [8]."/>
+  <STRING id="Error.2741" value="اطلاعات پیکربندی برای محصول [2] خراب است. اطلاعات نامعتبر: [2]."/>
+  <STRING id="Error.2742" value="صورت برداری به سرور موفق نشد: [2]."/>
+  <STRING id="Error.2743" value="نمیتوان اجرا کرد اقدام دستی [2], مکان: [3], فرمان: [4]."/>
+  <STRING id="Error.2744" value="اگزه موفق نشد به فراخوانی با اقدام دستی [2], مکان: [3], فرمان: [4]."/>
+  <STRING id="Error.2745" value="تغيير شكل [2] برای بسته [3] نامعتبر است زبان قابل انتظار [4], زبان [5] را یافت."/>
+  <STRING id="Error.2746" value="تغيير شكل [2] برای بسته [3] نامعتبر است. محصول قابل انتظار [4], محصول [5] را یافت."/>
+  <STRING id="Error.2747" value="تغییرشکل [2] برای بسته [3] نامعتبر است. نسخه مورد انتظار محصول &lt; [4], نسخه یافت شده محصول [5] را یافت."/>
+  <STRING id="Error.2748" value="تغییر شکل [2] برای بسته [3] نامعتبر است. نسخه مورد انتظار محصول &lt; = [4], نسخه [5] محصول را یافت."/>
+  <STRING id="Error.2749" value="تغییرشکل [2] برای بسته [3] نامعتبر است.نسخه موردانتظار محصول == [4], نسخه [5] محصول را یافت."/>
+  <STRING id="Error.2751" value="تغییرشکل [2] برای بسته [3] نامعتبر است. نسخه موردانتظار محصول &gt; [4], نسخه [5] محصول را یافت."/>
+  <STRING id="Error.2752" value="تغییرشکل [2] را نمیتوان بازکرد که بعنوان انباره بسته بچه [4] ذخیره شده است."/>
+  <STRING id="Error.2753" value="فایل '[2]' برای نصب انتخاب نشده است."/>
+  <STRING id="Error.2754" value="فایل '[2]' فایل وصله صحیح نیست."/>
+  <STRING id="Error.2755" value="سرور به خطای غیرمنتظره برگشت [2] سعی در نصب بسته [3] دارد."/>
+  <STRING id="Error.2756" value="مشخصه '[2]' بعنوان مشخصه دایرکتوری در یک یا تعداد بیشتری جدول بکاررفته است،اما هیچگونه مقداری اختصاص داده نشده است"/>
+  <STRING id="Error.2757" value="نمیتوان خلاصه اطلاعات را برای تغییرشکل [2] ایجاد کرد."/>
+  <STRING id="Error.2758" value="تغییرشکل [2] محتوی هیچگونه نسخه اِم اِس ای نیست."/>
+  <STRING id="Error.2759" value="تغییرشکل [2] نسخه [3] با موتور ناسازگار است; حداقل: [4], حداکثر: [5]."/>
+  <STRING id="Error.2760" value="تغییرشکل [2] برای بسته [3] نامعتبر است.کد ارتقاء موردانتظار [4], کد [5] را یافت"/>
+  <STRING id="Error.2761" value="تراکنش را نمیتوان آغاز کرد.اِموتیکس سراسری به درستی مقداردهی نشده است."/>
+  <STRING id="Error.2762" value="رکورد اسکریپت را نمیتوان نوشت.تراکنش شروع نشده است."/>
+  <STRING id="Error.2763" value="اسکریپت را نمیتوان اجرا کرد.تراکنش آغاز نشده است."/>
+  <STRING id="Error.2765" value="نام اسمبلی گم شده از نام اسمبلی جدول : مولفه: [4]."/>
+  <STRING id="Error.2766" value="فایل [2] یک فایل انباره نامعتبر اِم اِس آی هست"/>
+  <STRING id="Error.2767" value="داده بیشتری ندارد{حین شمارش [2]}."/>
+  <STRING id="Error.2768" value="تغییرشکل در بسته وصله نامعتبر است."/>
+  <STRING id="Error.2769" value="اقدام دستی [2] بسته نشده [3] MSIHANDLEs."/>
+  <STRING id="Error.2770" value="پوشه کش شده [2] در کش درونی جدول پوشه تعریف نشده است"/>
+  <STRING id="Error.2771" value="ارتقاء ویژگی [2] مولفه گم شده دارد. ."/>
+  <STRING id="Error.2772" value="ویژگی ارتقاء جدید [2] باید برگ ویژگی باشد."/>
+  <STRING id="Error.2801" value="پیام ناشناخته -- نوع [2]. اقدامی گرفته نشده است."/>
+  <STRING id="Error.2802" value="برای رویداد [2] ناشری یافت نشد."/>
+  <STRING id="Error.2803" value="مشاهده دیالوگ رکوردی برای دیالوگ [2] نیافت."/>
+  <STRING id="Error.2804" value="در فعالسازی کنترل [3] در دیالوگ [2] دیالوگ اِم اِس آی موفق به ارزیابی شرایط نشد [3]."/>
+  <STRING id="Error.2806" value="دیالوگ [2] موفق به ارزیابی وضعیت [3] نشد."/>
+  <STRING id="Error.2807" value="اقدام [2] شناخته نشده است."/>
+  <STRING id="Error.2808" value="دکمه پیش فرض در دیالوگ [2] تعریف شده است."/>
+  <STRING id="Error.2809" value="در دیالوگ [2]کنترل بعدی اشاره گر چرخه فرم ندارد. آنجا اشاره گر فرم [3] به [4] هست، اما اشاره گر های بعدی را ندارد."/>
+  <STRING id="Error.2810" value="در دیالوگ [2] کنترل بعدی اشاره گر چرخه فرم ندارد. آنجا اشاره گر فرم هردو از [3] و [5] به [4] هست."/>
+  <STRING id="Error.2811" value="در دیالوگ [2] کنترل [3] باید درکانون باشد، اما آن قادر به انجام آن نیست."/>
+  <STRING id="Error.2812" value="رویداد [2] به رسمیت شناخته نشده است."/>
+  <STRING id="Error.2813" value="رویداد EndDialog با نشانوند [2] فراخوانی شده است،اما دیالوگ منشاء دارد"/>
+  <STRING id="Error.2814" value="در دیالوگ [2] کنترل [3] نام دارد که وجود ندارد در کنترل [4] بعنوان کنترل بعدی."/>
+  <STRING id="Error.2815" value="جدول ControlCondition سطری بدون وضعیت برای دیالوگ [2] دارد."/>
+  <STRING id="Error.2816" value="جدول EventMapping یک کنترل نامعتبر [4] در دیالوگ [2] برای رویداد [3] ارجاع میدهد."/>
+  <STRING id="Error.2817" value="رویداد [2]موفق به تنظیم صفت برای کنترل [4] در دیالوگ [3] نشد."/>
+  <STRING id="Error.2818" value="در جدول ControlEvent جدول EndDialog نشانوند [2].دسته بندی نشده دارد."/>
+  <STRING id="Error.2819" value="کنترل [3] در دیالوگ [2] نیاز دارد یک مشخصه به آن لینک شود"/>
+  <STRING id="Error.2820" value="سعی در مقداردهی یک دستگیره که قبلا مقداردهی شده است."/>
+  <STRING id="Error.2821" value="سعی در مقداردهی یک دستگیره که قبلا مقداردهی شده است: [2]."/>
+  <STRING id="Error.2822" value="هیچ کدام از سایر روش ها نمیتواند در دیالوگ [2] تا زمانیکه همه کنترل ها افزوده شوند فراخوانی شود."/>
+  <STRING id="Error.2823" value="سعی در مقداردهی یک کنترل که قبلا مقداردهی شده است.: [3] در دیالوگ [2]."/>
+  <STRING id="Error.2824" value="صفت دیالوگ [3] حداقل به رکورد [2] فیلد نیاز دارد"/>
+  <STRING id="Error.2825" value="صفت کنترل [3] حداقل به رکورد [2] فیلد نیاز دارد"/>
+  <STRING id="Error.2826" value="کنترل [3] در دیالوگ [2] محدوده بیرونی دیالوگ [4] by [5] پیکسل گسترش داده است."/>
+  <STRING id="Error.2827" value="دکمه [4] در گروه رادیوباتن [3] در دیالوگ [2] محدوده بیرونی [5] با [6] پیکسل گسترش داد."/>
+  <STRING id="Error.2828" value="سعی کرده به حذف کنترل [3] از دیالوگ [2], اما کنترل بخشی از دیالوگ نیست."/>
+  <STRING id="Error.2829" value="سعی در استفاده یک دیالوگ مقداردهی نشده دارد."/>
+  <STRING id="Error.2830" value="سعی در استفاده یک کنترل مقداردهی نشده دارد. [2]."/>
+  <STRING id="Error.2831" value="کنترل [3] در دیالوگ [2] از [5] صفت [4] پشتیبانی نمیکند"/>
+  <STRING id="Error.2832" value="دیالوگ [2] صفات [3] را پشتیبانی نمیکند."/>
+  <STRING id="Error.2833" value="کنترل [4] در دیالوگ [3] از پیام [2] چشمپوشی کرده است."/>
+  <STRING id="Error.2834" value="نشانگر بعدی در دیالوگ [2] از حلقه تکی پشتیبانی نمیکند."/>
+  <STRING id="Error.2835" value="کنترل [2] در دیالوگ [3] یافت نشد."/>
+  <STRING id="Error.2836" value="کنترل [3] در دیالوگ [2] نمیتواند کانون را بگیرد."/>
+  <STRING id="Error.2837" value="کنترل [3] در دیالوگ [2] به winproc برای بازگشت [4] نیاز دارد."/>
+  <STRING id="Error.2838" value="آیتم [2] در جدول انتخابی خودش بعنوان منشا هست."/>
+  <STRING id="Error.2839" value="موفق به تنظیم مشخصه [2] نشد."/>
+  <STRING id="Error.2840" value="نام دیالوگ خطا اشتباه است"/>
+  <STRING id="Error.2841" value="دکمه تایید در دیالوگ خطا نیافت"/>
+  <STRING id="Error.2842" value="فیلد متنی در دیالوگ خطا نیافت"/>
+  <STRING id="Error.2843" value="صفت ErrorString در دیالوگ استاندارد پشتیبانی نشده است."/>
+  <STRING id="Error.2844" value="نمیتوان دیالوگ خطا را اجرا کرد اگر رشته خطا تنظیم نشده باشد."/>
+  <STRING id="Error.2845" value="مجموع عرض دکمه ها از اندازه دیالوگ خطا تجاوز کرده است."/>
+  <STRING id="Error.2846" value="SetFocus کنترل موردنیاز در دیالوگ خطا را پیدا نکرد"/>
+  <STRING id="Error.2847" value="کنترل [3] دردیالوگ [2] دسته سبک آیکون و بیتمپ را با هم دارد."/>
+  <STRING id="Error.2848" value="سعی کرده به تنظیم کنترل [3] بعنوان دکمه پیش فرض در دیالوگ [2], اما کنترل وجود ندارد."/>
+  <STRING id="Error.2849" value="کنترل [3] در دیالوگ [2] یک نوع هست،نمیتواند مقدار عدد صحیح باشد"/>
+  <STRING id="Error.2850" value="نوع صدای شناخته نشده"/>
+  <STRING id="Error.2851" value="داده برای آیکون [2] معتبر نیست."/>
+  <STRING id="Error.2852" value="حداقل یک کنترلباید به دیالوگ [2] قبل از استفاده آن اضافه شود."/>
+  <STRING id="Error.2853" value="دیالوگ [2] یک دیالوگ سبک کوچکتر هست. روش اجرا نباید در آن فرخوانی شود."/>
+  <STRING id="Error.2854" value="در دیالوگ [2] کنترل [3] بعنوان اولین کنترل فعال طراحی شده است، اما در آنجا چنین کنترلی وجود ندارد."/>
+  <STRING id="Error.2855" value="گروه رادیو باتن [3] در دیالوگ [2] کمتر از دو دکمه دارد."/>
+  <STRING id="Error.2856" value="ایجاد کپی دوم در دیالوگ [2]."/>
+  <STRING id="Error.2857" value="دایرکتوری [2]در جدول انتخابی نگهداری شده است ولی یافت نشد."/>
+  <STRING id="Error.2858" value="داده برای بیت مپ [2] معتبر نیست."/>
+  <STRING id="Error.2859" value="پیام خطای متن"/>
+  <STRING id="Error.2860" value="دکمه لغو هست ill-defined در دیالوگ [2]."/>
+  <STRING id="Error.2861" value="نشانگر بعدی برای دکمه رادیو در دیالوگ [2] کنترل [3] از یک سیکل نیست"/>
+  <STRING id="Error.2862" value="صفات برای کنترل [3] در دیالوگ [2] اندازه آیکون معتبر تعریف نکرده است.به اندازه 16 تنظیم کنید"/>
+  <STRING id="Error.2863" value="کنترل [3] در دیالوگ [2] نیادارد به آیمون [4] د اندازه [5]x[5], اما این اندازه وجود ندارد. بارگیری اولین اندازه موجود."/>
+  <STRING id="Error.2864" value="کنترل [3] در دیالوگ [2] یک رویداد جستجو دریافت کرده است. اما آنجا یک دایرکتوری قابل پیکربندی برای انتخاب حاضر ندارد. علت محتمل: دکمه جستجو بطور صحیح باعث نشده است"/>
+  <STRING id="Error.2865" value="کنترل [3] در بیلبورد [2] محدوده آنسوی بیپلبورد را [4] به [5] پیکسل افزایش داده است"/>
+  <STRING id="Error.2866" value="دیالوگ [2] به بازگشت به نشانوند [3] اجازه داده نشده است"/>
+  <STRING id="Error.2867" value="مشخصه دیالوگ خطا تنظیم نشده است"/>
+  <STRING id="Error.2868" value="دیالوگ خطا [2] سبک خطا تنظیم بیت ندارد"/>
+  <STRING id="Error.2869" value="دیالوگ [2] سبک خطای بیت دارد، اما نه در دیالوگ خطا"/>
+  <STRING id="Error.2870" value="استرینگ راهنما [4] برای کنترل [3] در دیالوگ [2] محتوی کاراکتر جداساز نیست"/>
+  <STRING id="Error.2871" value=" [2] جدول قدیمی شده هست: [3]."/>
+  <STRING id="Error.2872" value="نشانوند رویداد کنترل CheckPath در دیالوگ [2] نامعتبر است."/>
+  <STRING id="Error.2873" value="در دیالوگ [2] کنترل [3] محدودیت عرض استرینگ نامعتبر دارد: [4]."/>
+  <STRING id="Error.2874" value="موفق به تغییر متن فونت [2] نشد."/>
+  <STRING id="Error.2875" value="موفق به تغییر متن رنگ به [2] نشد."/>
+  <STRING id="Error.2876" value="کنترل [3] در دیالوگ [2] باید کوتاه شود به استرینگ: [4]."/>
+  <STRING id="Error.2877" value="داده باینری [2] یافت نشد"/>
+  <STRING id="Error.2878" value="در دیالوگ [2] کنترل [3] مقدار ممکن: [4] را دارد. این نامعتبر هست یا یک مقدار تکراری هست"/>
+  <STRING id="Error.2879" value="کنترل [3] در دیالوگ [2] استرینگ ماسک: [4] را نمیتواند تجزیه کند"/>
+  <STRING id="Error.2880" value="کنترل رویدادهای باقیمانده را اجرا نکن"/>
+  <STRING id="Error.2881" value="موفق به مقدار دهی اولیه دستگره اِم اِس آی نشد."/>
+  <STRING id="Error.2882" value="موفق به ثبت کلاس دیالوگ پنجره نشد."/>
+  <STRING id="Error.2883" value="CreateNewDialog موفق نشد برای دیالوگ [2]."/>
+  <STRING id="Error.2884" value="موفق به ایجاد دیالوگ جدید برای دیالوگ [2] ندارد."/>
+  <STRING id="Error.2885" value="موفق به ایجاد کنترل [3] در دیالوگ [2] نشد"/>
+  <STRING id="Error.2886" value="ایجاد جدول [2] موفق نشد."/>
+  <STRING id="Error.2887" value="ایجاد مکان نما در جدول [2] موفق نشد."/>
+  <STRING id="Error.2888" value="موفق به اجرای مشاهده [2] نشد."/>
+  <STRING id="Error.2889" value="ایجاد پنجره برای کنترل [3] در دیالوگ [2] موفق نشد"/>
+  <STRING id="Error.2890" value="دستگیره موفق نشد در ایجاد یک دیالوگ مقداردهی شده."/>
+  <STRING id="Error.2891" value="موفق به از بین بردن پنجره برای دیالوگ [2] نشد."/>
+  <STRING id="Error.2892" value="[2] فقط یک کنترل صحیح است, [3] یک مقدار عدد صحیح معتبر نیست."/>
+  <STRING id="Error.2893" value="کنترل [3] در دیالوگ [2] میتواند مقادیر مشخصه را حداکثر [5] کاراکتر بلند قبول کند. مقدار [4] از این محدودیت بیشتر شده است, و بریده شده است."/>
+  <STRING id="Error.2894" value="موفق به بارگیری RICHED20.DLL نشد. گرفتن آخرین خطا() برگشت خورده: [2]."/>
+  <STRING id="Error.2895" value="موفق به آزادکردن RICHED20.DLL نشد. گرفتن آخرین خطا() برگشت خورده: [2]."/>
+  <STRING id="Error.2896" value="موفق به اجرای اقدام [2] نشد."/>
+  <STRING id="Error.2897" value="موفق به ایجاد هر [2] فونت در این سیستم نشد."/>
+  <STRING id="Error.2898" value="برای سبک متن [2] سیستم یک '[3]' فونت ایجاد کرده است, در  [4] گروه کارکتر."/>
+  <STRING id="Error.2899" value="موفق به ایجاد سبک متن [2] نشد. گرفتن آخرین خطا() برگشت خورده: [3]."/>
+  <STRING id="Error.2901" value="پارامتر نامعتبر برای عملکرد [2]: پارامتر [3]."/>
+  <STRING id="Error.2902" value="عملکرد [2] خارج از توالی فراخوانده شده است."/>
+  <STRING id="Error.2903" value="فایل [2] گم شده است."/>
+  <STRING id="Error.2904" value="نمیتوان فایل را BindImage  [2] کرد."/>
+  <STRING id="Error.2905" value="قادر به خواندن رکورد از فایل اسکریپت [2] نیست"/>
+  <STRING id="Error.2906" value="سرساز در فایل [2] گم شده است."/>
+  <STRING id="Error.2907" value="نمیتواند واصف ایمن امنیتی را ایجاد کند. خطا: [2]."/>
+  <STRING id="Error.2908" value="مولفه [2] را نمیتوان ثبت کرد."/>
+  <STRING id="Error.2909" value="مولفه [2] را نمیتوان حذف ثبت کرد."/>
+  <STRING id="Error.2910" value="نمیتوان شناسه امنیتی کاربر را تشخیص داد"/>
+  <STRING id="Error.2911" value="پوشه [2] را نمیتوان حذف کرد."/>
+  <STRING id="Error.2912" value="فایل [2] را برای حذف در ریستارت نمیتوان زمان بندی کرد."/>
+  <STRING id="Error.2919" value="کابینتی برای فایل فشرده شده مشخص نشده است: [2]."/>
+  <STRING id="Error.2920" value="دایرکتوری منبع برای فایل [2] مشخص نشده است."/>
+  <STRING id="Error.2924" value="نسخه اسکریپت [2] پشتیبانی نشده است. نسخه اسکریپت: [3], حداقل نسحه: [4], حداکثر نسخه: [5]."/>
+  <STRING id="Error.2927" value="شناسه شیل پوشه [2] نامعتبر هست."/>
+  <STRING id="Error.2928" value="حداکثر تعداد منابع تخطی کرده است. ردکردن منبع '[2]'."/>
+  <STRING id="Error.2929" value="قادر به تعیین ریشه انتشار نیست. خطا: [2]."/>
+  <STRING id="Error.2932" value="قادر به ایجاد فایل [2] از داده اسکریپت نیست. خطا: [3]."/>
+  <STRING id="Error.2933" value="نمیتوان اسکریپت برگرداندن به عقب [2] را مقداردهی کرد."/>
+  <STRING id="Error.2934" value="نمیتواند تغییر شکل [2] را ایمن کند. خطا [3]."/>
+  <STRING id="Error.2935" value="نمیتواند تغيير شكل [2] را ناایمن کند خطا [3]."/>
+  <STRING id="Error.2936" value="تغيير شكل [2] را نمیتوان یافت"/>
+  <STRING id="Error.2937" value="ویندوز اینستالر نمیتواند کاتالوگ فایل سیستمی حفاظت را نصب کند. کاتالوگ: [2], خطا: [3]."/>
+  <STRING id="Error.2938" value="ویندوز اینستالر نمیتواند کاتالوگ فایل سیستمی حفاظت را از کش بازیابی کند. کاتالوگ: [2], خطا: [3]."/>
+  <STRING id="Error.2939" value="ویندوز اینستالر نمیتواند کاتالوگ فایل سیستمی حفاظت را از کش حذف کند. کاتالوگ: [2], خطا: [3]."/>
+  <STRING id="Error.2940" value="مدیریت دایرکتوری برای تحلیل منبع تهیه نشده است."/>
+  <STRING id="Error.2941" value="قادر به محاسبه سی آر سی برای فایل [2] نیست."/>
+  <STRING id="Error.2942" value="اقدام BindImage درفایل [2] اجرا نشده است."/>
+  <STRING id="Error.2943" value="این نسخه از ویندوز از گسترش بسته 64 بیتی پشتیبانی نمیکند. اسکریپت [2] برای بسته 64 بیتی هست"/>
+  <STRING id="Error.2944" value="GetProductAssignmentType موفق نشد."/>
+  <STRING id="Error.2945" value="نصب ComPlus App [2] موفق نشد با خطای [3]."/>
+  <STRING id="Error.3001" value="وصله ها در لیست محتوی توالی نادرست اطلاعات هست: [2][3][4][5][6][7][8][9][10][11][12][13][14][15][16]."/>
+  <STRING id="Error.3002" value="وصله [2] محتوی اطلاعات پی رفت نامعتبر است"/>
+  <STRING id="Error.4000" value="شماره سریال نامعتبر است."/>
+  <STRING id="Error.4001" value="شماره سریال را نمیتوان بازبینی کرد."/>
+  <STRING id="Error.4010" value="جدیدترین نسخه [ProductName] از قبل روی رایانه نصب شده است."/>
+  <STRING id="Error.4020" value="یک خطا حین پیکربندی فرآیند اینترنت اینفورمیش سرویس رخ داده است.
+پیکربندی اصلی ایترنت ایفورمیش سرویس بازگردانی میشود."/>
+  <STRING id="Error.4021" value="وب سایت &quot;[2]&quot; از قبل در این سرور موجود است.
+
+آیا میخواهید این وب سایت را رد کرده و نصب را ادامه دهید؟"/>
+  <STRING id="Error.4022" value="دایرکتوری مجازی &quot;[2]&quot; در وب سایت &quot;[3]&quot; از قبل در این سرور موجود است.
+
+آیا میخواهید این دایرکتوری مجازی را رد کرده و نصب را ادامه دهید؟"/>
+  <STRING id="Error.4023" value="این نسخه از اینترنت اینفورمیش سرویس پشتیبانی نشده یا کاملا نصب نشده است !
+
+نیاز به اینترنت اینفورمیش سرویس 5.0 به بالا دارید."/>
+  <STRING id="Error.4024" value="یک وبسایت با همان سرور الزامی از قبل اجرا شده است.
+
+[2]"/>
+  <STRING id="Error.4025" value="برنامه مشابه &quot;[2]&quot; از قبل در این سرویس وجود دارد.
+
+آیا میخواهید پیکربندی این برنامه مشابه را رد کرده و نصب را ادامه دهید؟"/>
+  <STRING id="Error.4026" value="وب سایت &quot;[2]&quot; از قبل در این سرور موجود است.
+
+آیا میخواهید این وبسایت را جایگزین و نصب را ادامه دهید؟
+(این عملکرد قابل بازگشت نیست.)"/>
+  <STRING id="Error.4027" value="دایرکتوری مجازی &quot;[2]&quot; در وب سایت &quot;[3]&quot; از قبل در این سرور موجود است.
+
+آیا میخواهید این دایرکتوری مجازی را جایگزی و نصب را ادامه دهید؟
+(این عملکرد غیرقابل بازگشت است.)"/>
+  <STRING id="Error.4028" value="برنامه مشابه &quot;[2]&quot;از قبل در این سرور وجود دارد.
+
+آیا میخواهید این برنامه مشابه جایگزین شود و نصب ادامه پیدا کند؟
+(این عملکرد قابل آندو نیست.)"/>
+  <STRING id="Error.4029" value="یک وبسایت با شناسه [\[] [2] [\]] - &quot;[3]&quot; از قبل در این سرور موجود است.
+
+آیا میخواهید این وبسایت را رد کرده و نصب را ادامه دهید؟"/>
+  <STRING id="Error.4030" value="یک وب سایت با این شناسه [\[] [2] [\]] - &quot;[3]&quot; از قبل در این سرور موجود است.
+
+آیا میخواهید این وبسایت را جایگزین کنید و نصب را ادامه دهید؟
+(این عملکرد غیرقابل برگشت است.)"/>
+  <STRING id="Error.4031" value="یک خطا حین پردازش امضای دیجیتالی برای وبسایت &quot;[2]&quot; رخ داد"/>
+  <STRING id="Error.4032" value="یک خطا  حین توسعه پردازش پیکربندی آی آی اِس وب برای بسته &quot;[2]&quot; رخ داده است."/>
+  <STRING id="Error.4033" value="یک خطا  حین توسعه پردازش پیکربندی آی آی اِس وب برای بسته &quot;[2]&quot; رخ داده است.
+
+آیا میخواهید این بسته را رد کرده و نصب را ادامه دهید؟"/>
+  <STRING id="Error.4101" value="موفق به ایجاد اکانت کاربر یا گروه '[2]' در دستگاه محلی نشد. کُذ خطا: [3]. [4]"/>
+  <STRING id="Error.4102" value="اکانت کاربر یا گروه '[2]' از قبل در رایانه محلی موجود است"/>
+  <STRING id="Error.4103" value="قادر به حذف اکانت کاربر یا گروه '[2]' در ماشین محلی نیست. کد خطا: [3]."/>
+  <STRING id="Error.4104" value="اکانت کاربر یا گروه '[2]' در ماشین محلی موجود نیست"/>
+  <STRING id="Error.4105" value="یک خطا مواجه شده حین به اشتراک گذاری '[2]' تحت نام: '[3]'. توضیح خطا: [4]"/>
+  <STRING id="Error.4106" value="یک خطا مواجه شده حین ایجاد وظیفه زمان بندی شده: '[2]'. توضیح خطا: [3]"/>
+  <STRING id="Error.4107" value="یک خطا مواجه شده حین حذف وظیفه زمان بندی شده: '[2]'. توضیح خطا: [3]"/>
+  <STRING id="Error.4110" value="حافظه را نمیتوان تخصیص داد."/>
+  <STRING id="Error.4111" value="فایل یافت نشد: [2]."/>
+  <STRING id="Error.4112" value="فایل '[2]' را نمیتوان خواند."/>
+  <STRING id="Error.4113" value="تجزیه خطا در فایل: '[2]' در خط: [3], ستون: [4]. کد خطا: [5]."/>
+  <STRING id="Error.4114" value="کدگذاری فایل ایکس اِم اِل پشتیبانی نشده است"/>
+  <STRING id="Error.4115" value="خطای بازکردن فایل: [2]."/>
+  <STRING id="Error.4116" value="فایل '[2]' را نمیتوان نوشت."/>
+  <STRING id="Error.4117" value="عنصر ریشه غیرمنتظره: &quot;[2]&quot;در فایل ایکس اِم اِل: '[3]'."/>
+  <STRING id="Error.4120" value="یک خطا حین فرآیند پیکربندی ویندوز فایروال رخ داده است
+پیکربندی اصلی فایروال شما بازگردانی میشود."/>
+  <STRING id="Error.4121" value="مسیر ایمیج نامعتبر فرآیند فایروال, یا فایل یافت نشد: [2]."/>
+  <STRING id="Error.4122" value="پورت/پروتکل نامعتبر فایروال: [2]."/>
+  <STRING id="Error.4123" value="حوزه فایروال شبکه نامعتبر: [2]."/>
+  <STRING id="Error.4124" value="یک خطا حین ثبت برنامه با ویندوز فایروال رخ داد: [2]."/>
+  <STRING id="Error.4125" value="یک خطا حین ثبت پورت با ویندوز فایروال بود: [2]."/>
+  <STRING id="Error.4130" value="یک خطا حین فرآیند پیکربندی گیم اکسپلورر رخ داد."/>
+  <STRING id="Error.4131" value="کنترل والدین به شما اجازه بازی را نمیدهد: [2]."/>
+  <STRING id="Error.4140" value="خطای حین فرآیند اجرای اِس کیو ایل اسکریپت بود."/>
+  <STRING id="Error.4141" value="ODBC خطای: [2] ([3])."/>
+  <STRING id="Error.4142" value="اتصال ODBC : تایم اوت رخ داده است"/>
+  <STRING id="Error.4143" value="خطای تجزیه اسکریپت اِس کیو اِل: نحو نامعتبر."/>
+  <STRING id="Error.4150" value="خطای داخلی در CallStdFcn."/>
+  <STRING id="Error.4151" value="تابع '[2]' در دی ایل اِل '[3]' یافت نشد."/>
+  <STRING id="Error.4152" value="آیا میخواهید تنظیمات و فایل های موقتی [ProductName] را حذف کنید؟"/>
+  <STRING id="Error.4153" value="پیش نیاز اجباری[2] به درستی نصب نشده است."/>
+  <STRING id="Error.4154" value="پیش نیاز [2] به درستی نصب نشده است. نصب [ProductName] ادامه یابد؟"/>
+  <STRING id="Error.4155" value="موفق به دریافت صحیح فایل [2]نشد: خطای سی آر سی."/>
+  <STRING id="Error.4156" value="موفق به دریافت صحیح فایل [2]نشد: خطای سی آر سی.. ادامه نصب [ProductName]؟"/>
+  <STRING id="Error.4157" value="موفق به بارگیری [2] نشد. خطا:[3]"/>
+  <STRING id="Error.4158" value="موفق به ایجاد فایل [2] نشد زیرا یک نام فایل نامعتبر تعیین شده است"/>
+  <STRING id="Error.4159" value="موفق به اجرای جستجو &quot;[2]&quot; و جایگزینی &quot;[3]&quot; در فایل [4] نشد. محتوای فایل تغییر نیافته است."/>
+  <STRING id="Error.4160" value="مسیر نصب مشخص شده از قبل وجود دارد.لطفا مسیر دیگری انتخاب کنید."/>
+  <STRING id="Error.4161" value="مسیر نصب مشخص شده از قبل وجود دارد.میخواهید آن را جایگزین کنید؟"/>
+  <STRING id="Error.4162" value="مسیر نصب مشخص شده را نمیتوان استفاده کرد چون آن حاوی عنصر &quot;[1]&quot; است. لطفا مسیر دیگری انتخاب کنید."/>
+  <STRING id="Error.4163" value="مسیر نصب مشخص شده را نمیتوان استفاده کرد چون آن حاوی عنصر &quot;[1]&quot; است. لطفا مسیر دیگری انتخاب کنید."/>
+  <STRING id="Error.4164" value="برای نصب توسط شماره سریال متفاوت.لطفا راه انداز را ریستارت کنید."/>
+  <STRING id="Error.4165" value="یک خطا حین توسعه سولوشین شیرپوینت رخ داده است. نصب حالا لغو خواهد شد."/>
+  <STRING id="Error.4166" value="به علت خطای زیر موفق به انتشار بسته نشد: [2]"/>
+  <STRING id="Error.4167" value="به علت خطای زیر موفق به حذف بسته نشد: [2]"/>
+  <STRING id="Error.4168" value="این بسته نصب توسط این نوع پردازشگر پشتیبانی نشده است.با فروشنده محصول تماس بگیرید."/>
+  <STRING id="Error.4178" value="برای دانلود فایل های ضروری ویندوز قادر نیست به اینترنت متصل شود. مطمئن شوید به اینترنت متصل هستید، و روی &quot;دوباره&quot; برای امتحان مجدد کلیک کنید."/>
+  <STRING id="Error.4179" value="ویژگی (های) ویندوز مورد نیاز زیر در سیستم شما در دسترس نیست: [2]."/>
+  <STRING id="Error.4180" value="یک خطا حین پردازش پیکربندی ویژگی ویندوز رخ داده است
+پیکربندی اصلی شما باز گردانی خواهد شد."/>
+  <STRING id="Error.4181" value="کاراکتر غیر قابل پذیرش"/>
+  <STRING id="Error.4182" value="در اینجا فقط اعداد را میتوانید تایپ کنید"/>
+  <STRING id="Error.4183" value="شما در اینجا فقط میتوانید کاراکتر جداساز تایپ کنید."/>
+  <STRING id="Error.4184" value="موفق به نصب اَپلت کنترل پنل [2] نشد."/>
+  <STRING id="Error.4185" value="سرویس توسعه گزارش سرور اِس کیو اِل [2] موفق نشد. علت: [3]."/>
+  <STRING id="Error.4186" value="سرویس توسعه گزارش سرور اِس کیو اِل [2] موفق نشد چون ابزار توسعه یافت نشد."/>
+  <STRING id="Error.4187" value="یک خطا حین دانلود فایل [2] رخ داده است."/>
+  <STRING id="Error.4188" value="یک خطا حین استخراج آرشیو [2] رخ داده است."/>
+  <STRING id="Error.4189" value="امضای دیجیتالی فایل اِگزه و اِم اِس آی تطبیق ندارد"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="بايت"/>
+  <STRING id="UIText.GB" value="گيگابايت"/>
+  <STRING id="UIText.KB" value="کيلوبايت"/>
+  <STRING id="UIText.MB" value="مگابايت"/>
+  <STRING id="UIText.MenuAbsent" value="کل ویژگی ها دردسترس نمیباشد"/>
+  <STRING id="UIText.MenuAdvertise" value="ویژگی زمانیکه نیاز باشد نصب خواهد شد"/>
+  <STRING id="UIText.MenuAllCD" value="کل ویژگی ها برای اجرا از سی دی نصب خواهد شد"/>
+  <STRING id="UIText.MenuAllLocal" value="کل ویژگی ها روی درایو محلی نصب خواهد شد"/>
+  <STRING id="UIText.MenuAllNetwork" value="کل ویژگی ها برای اجرا از شبکه نصب خواهد شد"/>
+  <STRING id="UIText.MenuCD" value="برای اجرا از روی سی دی نصب خواهد شد"/>
+  <STRING id="UIText.MenuLocal" value="روی درایو محلی نصب خواهد شد"/>
+  <STRING id="UIText.MenuNetwork" value="برای اجرا از شبکه نصب خواهد شد"/>
+  <STRING id="UIText.ScriptInProgress" value="گردآوری اطلاعات موردنیاز..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="ای ویژگی حذف شده باقی میماند"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="این ویژگی تنظیم خواهد شد تا هنگامیکه نیازبود نصب شود"/>
+  <STRING id="UIText.SelAbsentCD" value="این ویژگی نصب خواهد شد تا از روی سی دی اِجرا شود"/>
+  <STRING id="UIText.SelAbsentLocal" value="این ویژگی روی درایو محلی نصب خواهد شد"/>
+  <STRING id="UIText.SelAbsentNetwork" value="این ویژگی برای اجرا از شبکه نصب خواهد شد"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="این ویژگی خارج از دسترس میباشد"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="زمانیکه نیازباشد نصب خواهد شد"/>
+  <STRING id="UIText.SelAdvertiseCD" value="این ویژگی برای اجرا از سی دی موجود خواهد بود"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="این ویژگی از درایو محلی نصب خواهد شد"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="این ویژگی برای اجرا از شبکه موجود خواهد بود"/>
+  <STRING id="UIText.SelCDAbsent" value="این ویژگی کاملا حذف خواهد شد،شما قادر به اجرا از سی دی نخواهید بود"/>
+  <STRING id="UIText.SelCDAdvertise" value="این ویژگی از حالت اجرا از سی دی به حالت زمانیکه نیازباشد نصب شود تغییر خواهد کرد"/>
+  <STRING id="UIText.SelCDCD" value="این ویژگی برای اجرا از سی دی باقی میماند"/>
+  <STRING id="UIText.SelCDLocal" value="این ویژگی از حالت اجرا از سی دی به حالت نصب شده در درایو محلی تغییر خواهد کرد"/>
+  <STRING id="UIText.SelChildCostNeg" value="این ویژگی [1] از فضای دیسک را آزاد میکند."/>
+  <STRING id="UIText.SelChildCostPos" value="این ویژگی نیاز به [1]  در درایو محلی دارد."/>
+  <STRING id="UIText.SelCostPending" value="کامپایل بها برای این ویژگی..."/>
+  <STRING id="UIText.SelLocalAbsent" value="این ویژگی کاملا حذف خواهد شد"/>
+  <STRING id="UIText.SelLocalAdvertise" value="این ویژگی از درایو محلی حذف خواهد شد،اما تنظیم میشود زمانیکه نیاز بود نصب شود"/>
+  <STRING id="UIText.SelLocalCD" value="این ویژگی از درایو محلی حذف خواهد شد،اما هنوز برای اجرا از سی دی موجود خواهد بود"/>
+  <STRING id="UIText.SelLocalLocal" value="این ویژگی در درایو محلی باقی میماند"/>
+  <STRING id="UIText.SelLocalNetwork" value="این ویژگی از درایو محلی حذف خواهد شد،اما هنوز برای اجرا از شبکه موجود خواهد بود"/>
+  <STRING id="UIText.SelNetworkAbsent" value="این ویژگی کاملا حذف خواهد شد،شما قادر به اجرا از شبکه نخواهید بود"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="این ویژگی از حالت اجرا از شبکه به حالت زمانیکه نیازباشد نصب شود تغییر خواهد کرد"/>
+  <STRING id="UIText.SelNetworkLocal" value="این ویژگی از حالت اجرا از شبکه به حالت نصب شده در درایو محلی تغییر خواهد کرد"/>
+  <STRING id="UIText.SelNetworkNetwork" value="این ویژگی برای اجرا از شبکه باقی میماند"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="این ویژگی [1] از درایو محلی را آزاد خواهد کرد. آن [2] از [3] زیر ویژگی های انتخاب شده را دارد. زیرویژگی ها [4] از درایو محلی را آزاد میکند."/>
+  <STRING id="UIText.SelParentCostNegPos" value="این ویژگی [1] از درایو محلی را آزاد خواهد کرد. آن [2] از [3] زیر ویژگی های انتخاب شده را دارد. زیرویژگی ها نیاز به [4] از درایو محلی دارد."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="این ویژگی نیاز به [1] از درایو محلی دارد. آن [2] از [3] زیرویژگی های انتخاب شده را دارد. زیرویژگی ها [4] از درایو محلی را ازاد میکند."/>
+  <STRING id="UIText.SelParentCostPosPos" value="این ویژگی نیاز به [1] از درایو محلی دارد. آن [2] از [3] زیرویژگی های انتخاب شده را دارد. زیرویژگی ها نیازبه [4] از درایو محلی دارد."/>
+  <STRING id="UIText.TimeRemaining" value="زمان باقیمانده: {[1] دقیقه }{[2] ثانیه}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="موجود"/>
+  <STRING id="UIText.VolumeCostDifference" value="تفاوت"/>
+  <STRING id="UIText.VolumeCostRequired" value="موردنیاز"/>
+  <STRING id="UIText.VolumeCostSize" value="حجم دیسک"/>
+  <STRING id="UIText.VolumeCostVolume" value="درایو"/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.ODBCTestMsg" value="لطفا حین تست ارتباط منتظر بمانید..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.SQLBrowseMsg" value="مرور در اِس کیو اِل سرور در شبکه..."/>
+  <STRING id="UIText.SQLFetchTitle" value="ODBC"/>
+  <STRING id="UIText.SQLFetchMsg" value="جستار پایگاه داده..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="درحال اتصال به سرور پایگاه داده..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.HttpPostMsg" value="ارسال داده جمع آوری شده..."/>
+  <STRING id="UIText.VolumeCostBadGroup" value="فضای ناکافی"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="نصب درایوها"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="درایو بکارنرفته"/>
+  <STRING id="UIText.BrowseFolderLocation" value="مكان"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="انتخاب پوشه"/>
+  <STRING id="UIText.BrowseFolderName" value="نام پوشه:"/>
+  <STRING id="UIText.Warning" value="هشدار"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] یا بالاتر}"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] یا پایین تر}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqInstalled" value="نصب شده"/>
+  <STRING id="UIText.PrereqInstallAction" value="نصب"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="نصب"/>
+  <STRING id="UIText.PrereqSkipAction" value="ردکردن"/>
+  <STRING id="UIText.SearchPrereq" value="جستجوی برای برنامه های نصب شده"/>
+  <STRING id="UIText.DownloadingPrereq" value="در حال دانلود [1]"/>
+  <STRING id="UIText.InstallingPrereq" value="نصب [1]"/>
+  <STRING id="UIText.OpenSitePrereq" value="در حال بازکردن سایت [1]"/>
+  <STRING id="UIText.ExtractPrereq" value="در حال استخراج [1]"/>
+  <STRING id="UIText.OpenSiteWaitPrereq" value="راه انداز در انتظار شما برای مکان یابی و دانلود و نصب پیش نیاز ها در رایانه شما است.وقتی آماده ادامه نصب شدید روی تأیید کلیک کنید."/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;خطای بارگیری منابع:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.SharePointLogMissingStsadm" value="پیکربندی اِم اِس آی یا شیرپوینت نادرست است.مطمئن شوید نصب کننده شما همان نوع بسته 32 بیتی یا 64 بیتی شیرپوینت هست"/>
+  <STRING id="UIText.SharePointLogInstall" value="درحالت اولین زمان نصب در اجرا است"/>
+  <STRING id="UIText.SharePointLogMaintenance" value="درحالت نگهداری در اجرا است"/>
+  <STRING id="UIText.SharePointLogUninstall" value="درحالت حذف در اجرا است"/>
+  <STRING id="UIText.SharePointLogNoUrl" value="هشدار: شاید سولوشین به درستی گسترش نیافته است. یک آدر معتبر در مشخصه AI_WSP_URL یافت نشد و سولوشین سراسری یا محلی نیست"/>
+  <STRING id="UIText.SharePointLogWspNoOptions" value="ردکردن کاب ناکامل. استرینگ گزینه کامل: [1]."/>
+  <STRING id="UIText.SharePointLogWspNoName" value="ردکردن کاب بی نام. استرینگ گزینه کامل: [1]."/>
+  <STRING id="UIText.SharePointLogWspNoFile" value="فایل کاب یافت نشد: [1]. ردکردن."/>
+  <STRING id="UIText.SharePointLogAddingSln" value="افزودن سولوشین: [1]."/>
+  <STRING id="UIText.SharePointLogDeployingSln" value="گسترش سولوشین [1] به آدرس [2]."/>
+  <STRING id="UIText.SharePointLogRetractingSln" value="عقب گرد سولوشین: [1]."/>
+  <STRING id="UIText.SharePointLogRetractingSlnAdmin" value="عقب گرد سولوشین [1] از سرور مجازی آدمین [2]."/>
+  <STRING id="UIText.SharePointLogDeletingSln" value="حذف سولوشین: [1]."/>
+  <STRING id="UIText.SharePointLogStart" value="شروع گسترش سولوشین شیرپوینت"/>
+  <STRING id="UIText.SharePointLogFinish" value="پایان گسترش سولوشین شیرپوینت"/>
+  <STRING id="UIText.SharePointLogUninstallStart" value="حذف سولوشین شیرپوینت"/>
+  <STRING id="UIText.SharePointLogUninstallFinish" value="حذف سولوشین شیرپوینت پایان یافته است"/>
+  <STRING id="UIText.SharePointLogActivatingFeature" value="فعالسازی ویژگی [1]."/>
+  <STRING id="UIText.InstallMessage" value="نصب فایل ها"/>
+  <STRING id="UIText.NumberValidationTipTitle" value="کاراکتر غیر قابل پذیرش"/>
+  <STRING id="UIText.NumberValidationTipMsg" value="در اینجا فقط اعداد را میتوانید تایپ کنید"/>
+  <STRING id="UIText.UninstallMsg" value="آیا واقعا میخواهید [ProductName] را حذف کنید؟"/>
+  <STRING id="UIText.InstallingPackage" value="نصب [1]"/>
+  <STRING id="UIText.UnInstallingPackage" value="حذف [1]"/>
+  <STRING id="UIText.ConfigurePackage" value="پیکربندی [1]"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.IAgree#1" value="من شرایط در توافقنامه مجوز را می پذیرم"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="من شرایط را در توافقنامه مجوز نمی پذیرم"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="فقط برای من ([LogonUser])"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="هرکسی (همه کاربران)"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="بله،برای انواع دستگیره فایل ثبت کن"/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="خیر،وابسته سازی فایل را رد کن"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="بستن خودکار برنامه و رایانه را بعد از کامل شدن نصب ریستارت کند."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="برنامه را نبند. (یک ریستارت نیاز است.)"/>
+  <STRING id="RadioButton.Text.INST_RADIOBUTTONGROUP_PROP#1" value="نصب نمونه جدید:"/>
+  <STRING id="RadioButton.Text.INST_RADIOBUTTONGROUP_PROP#2" value="نگهداری یا ارتقاء یک نمونه از قبل نصب شده:"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="بله، حذف نسخه های قدیمی"/>
+  <STRING id="Property.AI_Upgrade_Question_No" value="خیر، پهلو به پهلو با نسخه های دیگر نصب کن"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="بله،همه نسخه های قدیمی را حذف کن"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="خیر فقط نسخه [AI_Replaced_Versions_List] را حذف کن."/>
+  <STRING id="Property.Text_Accept" value="پذیرفتن"/>
+  <STRING id="Property.Text_Agree" value="موافق"/>
+  <STRING id="Property.Text_Not" value="نه"/>
+  <STRING id="Property.Text_Dont" value="نه"/>
+  <STRING id="Property.ButtonText_Back" value="&lt; قبلی"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;قبلی"/>
+  <STRING id="Property.ButtonText_Browse" value="جستجو..."/>
+  <STRING id="Property.ButtonText_Cancel" value="لغو"/>
+  <STRING id="Property.ButtonText_Exit" value="خروج"/>
+  <STRING id="Property.ButtonText_Finish" value="پایان"/>
+  <STRING id="Property.Text_Finish" value="پایان&amp;"/>
+  <STRING id="Property.ButtonText_Ignore" value="چشمپوشی"/>
+  <STRING id="Property.ButtonText_Install" value="نصب"/>
+  <STRING id="Property.Text_Install" value="نصب"/>
+  <STRING id="Property.ButtonText_Next" value="بعدی &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;بعدی"/>
+  <STRING id="Property.Text_Next" value="بعدی"/>
+  <STRING id="Property.ButtonText_No" value="خیر"/>
+  <STRING id="Property.ButtonText_OK" value="تأیید"/>
+  <STRING id="Property.ButtonText_Remove" value="حذف"/>
+  <STRING id="Property.ButtonText_Repair" value="تعمیر"/>
+  <STRING id="Property.ButtonText_Reset" value="ریست"/>
+  <STRING id="Property.ButtonText_Resume" value="ادامه"/>
+  <STRING id="Property.ButtonText_Retry" value="دوباره"/>
+  <STRING id="Property.ButtonText_Return" value="بازگشت"/>
+  <STRING id="Property.ButtonText_Yes" value="بله"/>
+  <STRING id="Property.Text_Yes" value="بله"/>
+  <STRING id="Property.ButtonText_Accept" value="پذیرفتن&amp;"/>
+  <STRING id="Property.ButtonText_Decline" value="نپذیرفتن"/>
+  <STRING id="Property.CtrlEvtchanges" value="تغییر"/>
+  <STRING id="Property.CtrlEvtChanging" value="تغییر"/>
+  <STRING id="Property.CtrlEvtremoves" value="حذف"/>
+  <STRING id="Property.CtrlEvtRemoving" value="حذف"/>
+  <STRING id="Property.CtrlEvtRepairing" value="تعمیر"/>
+  <STRING id="Property.CtrlEvtrepairs" value="تعمیر"/>
+  <STRING id="Property.InstallModeComplete" value="کامل"/>
+  <STRING id="Property.InstallModeCustom" value="دستی"/>
+  <STRING id="Property.InstallModeTypical" value="معمولی"/>
+  <STRING id="Property.Progress1" value="نصب"/>
+  <STRING id="Property.Progress2" value="نصب"/>
+  <STRING id="Property.Setup" value="نصب"/>
+  <STRING id="Property.Wizard" value="ویزارد"/>
+  <STRING id="Property.INST_RADIOBUTTONGROUP_PROP" value="MaintInst"/>
+  <!-- Trialware Settings table-->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="خرید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="آیا میخواهید صفحه خرید %TrialName% را باز کنید؟"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="کلید ثبت نام نامعتبر است"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="کلید ثبت نام نامعتبر هست. %LastErrorMsg%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value="%TrialName% ثبت شده است"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="برای ثبت %TrialName% از شما سپاسگذاریم"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% آزمایشی"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="دکمه &quot;ادامه&quot; را برای معتبرسازی کلید و ادامه دادن فشار دهید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="ادامه"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="لطفا همه خطوط کلید ثبت نام را که دریافت کرده اید وارد کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="ثبت نام"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="خرید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="از صفحه خرید %TrialName% برای خرید مجوز آن کلیک کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="%TrialName% آزمایشی منقضی شده است"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="تعداد %Quantity% روز آزمایشی شما منقضی شده است. اگر میخواهید استفاده %TrialName% را ادامه دهید،باید یک مجوز بخرید و برنامه را ثبت کنید."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="تعداد %Quantity% اجرای آزمایشی شما منقضی شده است. اگر میخواهید استفاده %TrialName% را ادامه دهید،باید یک مجوز بخرید و برنامه را ثبت کنید."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="به آزمایش %TrialName% خوش آمدید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="ثبت نام"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="کلید ثبت نام را وارد کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="امتحان کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="منقضی شده"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="خرید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="از صفحه خرید %TrialName% برای خرید مجوز آن کلیک کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="%TrialName% آزمایشی (%TrialLeft% روز باقیمانده)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="%TrialName% آزمایشی (%TrialLeft% اجرا باقیمانده است)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="شما از نسخه آزمایشی %TrialName% از [|Manufacturer]شما تعداد %TrialLeft% روز باقیمانده دارید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="شما از نسخه آزمایشی %TrialName% از [|Manufacturer] استفاده میکنید. شما %TrialLeft% اجرای اضافی باقیمانده دارید."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="به آزمایش %TrialName% خوش آمدید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="ثبت نام"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="کلید ثبت نام را وارد کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="امتحان کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="ادامه آزمایش %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="%TrialName% ثبت شده است"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="ثبت نام با موفقیت انجام شد"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="برای ثبت %TrialName% از شما سپاسگذاریم"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ElevatedPrivilegesPage#PageHeader" value="هشدار"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ElevatedPrivilegesPage#DlgCaption" value="هشدار"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ElevatedPrivilegesPage#MsgCaption" value="برنامه بدون سطح دسترسی بالا در اِجرا است.به منظور ثبت نام لطفا آن را بسته و با گزینه&quot;اِجرا بعنوان آدمین&quot; آن را اِجرا کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="%TrialName% آزمایشی منقضی شده است"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="به آزمایش %TrialName% خوش آمدید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="تعداد %Quantity% روز آزمایشی شما منقضی شده است. اگر میخواهید استفاده %TrialName% ادامه دهید،باید یک افزونه آزمایشی درخواست دهید یا یک مجوز بخرید و برنامه را ثبت کنید."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="تعداد %Quantity% اجرای آزمایشی منقضی شده است. اگر میخواهید استفاده %TrialName% را ادامه دهید باید یک افزونه آزمایشی درخواست دهید یا یک مجوز بخرید و برنامه را ثبت کنید."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="افزایش آزمایشی"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="ثبت نام"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="خرید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="افزایش دوره ارزیابی %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="کلید ثبت نام را وارد کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="از صفحه خرید %TrialName% برای خرید مجوز آن کلیک کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="%TrialName% آزمایشی"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="افزایش آزمایشی"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="کدی را که برای افزایش دوره ارزیابی دریافت کردید وارد کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="روی &quot;ادامه&quot; برای معتبرسازی کد و ادامه ارزیابی کلیک کنید."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="ادامه"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="درخواست افزونه آزمایشی"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="شما مجازبه گسترش دوره آزمایشی به بیشتر از %Quantity% %TrialMU% نیستید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="افزونه آزمایشی تمام شده است"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error1" value="مجوز ثبت نام شما منقضی شده است"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error2" value="این نسخه از %TrialName% با دوره نگهداری مجوز شما پشتیبانی نمیشود"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error3" value="مجوز %TrialName% شما منقضی شده است!"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="ایمیل به:%TrialExtendContact%?subject=درخواست افزونه آزمایشی&amp;body=سلام،%%0A%%0Aمن درخواست یک دوره افزونه آزمایشی برای %TrialName% دارم.%%0A%%0Aسپاس گذارم،%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#ContactReqLicenseCompId#Cmd" value="ایمیل به:%LicReqContact%?subject=کد درخواست مجوز: %CompId%&amp;body=سلام,%%0A%%0Aمن تمایل به درخواست مجوز %TrialName% با کد درخواست زیر دارم: %CompId% %%0A%%0Aممنونم,%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#DlgCaption" value="%TrialName% آزمایشی"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#Msg2Caption" value="دکمه &quot;ادامه&quot; را برای معتبرسازی کلید و ادامه دادن فشار دهید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#FinishCaption" value="ادامه"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#MsgCaption" value="لطفا همه خطوط کلید ثبت نام را که دریافت کرده اید وارد کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#PageHeader" value="ثبت نام"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#LinkCaption" value="درخواست مجوز (کددرخواست: %CompId%)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterOnlinePage#MsgCaption" value="لطفا برای ثبت نام آنلاین شناسه مجوز خود را وارد کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterOnlinePage#FinishCaption" value="ثبت نام"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterOnlinePage#Msg2Caption" value="دکمه &quot;ثبت نام&quot; را برای معتبر سازی مجوز خود و ادامه دادن فشار دهید."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdOnlinePage#MsgCaption" value="لطفا برای ثبت نام آنلاین شناسه مجوز خود را وارد کنید"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdOnlinePage#Msg2Caption" value="دکمه &quot;ثبت نام&quot; را برای دانلود مجوز خود و ادامه دادن فشار دهید."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdOnlinePage#LinkCaption" value="ثبت نام بدون ارتباط اینترنتی"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#OnlineRegistrationErrorDlg#MsgCaption" value="%LastErrorMsg%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#OnlineRegistrationErrorDlg#DlgCaption" value="ثبت نام آنلاین موفق نشد"/>
+  <STRING id="TrialwareSettings.alltrials#Properties#MsgServiceUnavailable" value="سرویس ثبت نام آنلاین در دسترس نیست"/>
+</DICTIONARY>

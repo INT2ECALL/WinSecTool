@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.3" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="BD569C9C_D2BB_4B64_99DA_80C2B49DF418" DisplayName="SQL Server Express 2008 x86" VersionMin="10.0"
+      SetupFileUrl="http://download.microsoft.com/download/c/2/8/c28cc7df-c9d2-453b-9292-ae7d242dfeca/SQLEXPR_x86_ENU.exe"
+      Location="1" ExactSize="93377552" MD5="ba1eafe16fffcb21dcea3dc6c4f6e131"
+      WinNTVersions="Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /ACTION=Install /FEATURES=SQLEngine /INSTANCENAME=SQLEXPRESS /SQLSVCACCOUNT=&quot;NT AUTHORITY\NETWORK SERVICE&quot; /SQLSYSADMINACCOUNTS=&quot;%USERDOMAIN%\%USERNAME%&quot;"
+      Operator="1" Options="f" TargetName="SQL Server Express 2008"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="BD569C9C_D2BB_4B64_99DA_80C2B49DF418CurrentVersion" Prereq="BD569C9C_D2BB_4B64_99DA_80C2B49DF418" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\100\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="10.0"
+      Order="1" Property="PreReqSearch_BD569C9C_D2BB_4B64_99DA_80C2B49DF418"/>
+    <ROW SearchKey="BD569C9C_D2BB_4B64_99DA_80C2B49DF418CurrentVersion_1" Prereq="BD569C9C_D2BB_4B64_99DA_80C2B49DF418" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\110\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="11.0"
+      Order="2" Property="PreReqSearch_1_BD569C9C_D2BB_4B64_99DA_80C2B49DF418"/>
+    <ROW SearchKey="BD569C9C_D2BB_4B64_99DA_80C2B49DF418CurrentVersion_2" Prereq="BD569C9C_D2BB_4B64_99DA_80C2B49DF418" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\120\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="12.0"
+      Order="3" Property="PreReqSearch_2_BD569C9C_D2BB_4B64_99DA_80C2B49DF418"/>
+    <ROW SearchKey="BD569C9C_D2BB_4B64_99DA_80C2B49DF418CurrentVersion_3" Prereq="BD569C9C_D2BB_4B64_99DA_80C2B49DF418" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\130\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="13.0"
+      Order="4" Property="PreReqSearch_3_BD569C9C_D2BB_4B64_99DA_80C2B49DF418"/>
+  </COMPONENT>
+</FRAGMENT>

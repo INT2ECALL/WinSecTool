@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="printico" SourcePath="&lt;AI_THEMES&gt;common-res\images\print.ico"/>
+    <ROW Name="removico" SourcePath="&lt;AI_RES_COLOR&gt;remove.ico"/>
+    <ROW Name="New" SourcePath="&lt;AI_THEMES&gt;classic\resources\New.ico"/>
+    <ROW Name="Up" SourcePath="&lt;AI_THEMES&gt;classic\resources\Up.ico"/>
+    <ROW Name="waitlogoicon" SourcePath="&lt;AI_RES_COLOR&gt;WaitLogo.ico"/>
+    <ROW Name="installlogoicon" SourcePath="&lt;AI_RES_COLOR&gt;InstallLogo.ico"/>
+    <ROW Name="exclamic" SourcePath="&lt;AI_THEMES&gt;common-res\images\exclamation.ico"/>
+    <ROW Name="whitebackground" SourcePath="&lt;AI_THEMES&gt;azure\resources\whitebackground.jpg"/>
+    <ROW Name="info" SourcePath="&lt;AI_THEMES&gt;common-res\images\info.ico"/>
+    <ROW Name="tabback" SourcePath="&lt;AI_THEMES&gt;common-res\images\tabbackground.bmp"/>
+    <ROW Name="optionslogoicon" SourcePath="&lt;AI_RES_COLOR&gt;OptionsLogo.ico"/>
+    <ROW Name="repairic" SourcePath="&lt;AI_RES_COLOR&gt;repair.ico"/>
+    <ROW Name="applogoicon" SourcePath="&lt;AI_RES_COLOR&gt;applogo.ico"/>
+    <ROW Name="completi" SourcePath="&lt;AI_RES_COLOR&gt;complete.ico"/>
+    <ROW Name="custicon" SourcePath="&lt;AI_RES_COLOR&gt;custicon.ico"/>
+    <ROW Name="insticon" SourcePath="&lt;AI_RES_COLOR&gt;insticon.ico"/>
+    <ROW Name="background" SourcePath="&lt;AI_THEME_VAR_HEAD&gt;background.jpg"/>
+    <ROW Name="rtlobackground" SourcePath="&lt;AI_THEME_VAR_HEAD&gt;rtlo-background.jpg"/>
+    <ROW Name="rtloexitbackground" SourcePath="&lt;AI_THEME_VAR&gt;nohead\rtlo-background.jpg"/>
+    <ROW Name="minbackground" SourcePath="&lt;AI_THEME_VAR_HEAD&gt;min-background.jpg"/>
+    <ROW Name="exitbackground" SourcePath="&lt;AI_THEME_VAR&gt;nohead\background.jpg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCheckBoxComponent">
+    <ROW Property="AI_LOG_CHECKBOX" Value="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ButtonText_Back" ValueLocId="Property.ButtonText_Back" Options="65536"/>
+    <ROW Property="ButtonText_Next" ValueLocId="Property.ButtonText_Next" Options="65536"/>
+    <ROW Property="DefaultUIFont" Value="DlgFont8" Type="2"/>
+    <ROW Property="DlgTitleFont" Value="{\DlgFontBold8}" Type="2"/>
+    <ROW Property="ExclamationIcon" Value="exclamic" Type="1"/>
+    <ROW Property="InfoIcon" Value="info" Type="1"/>
+    <ROW Property="TabBackground" Value="tabback" Type="1"/>
+    <ROW Property="InstallLogoIcon" Value="installlogoicon" Type="1"/>
+    <ROW Property="PrintIcon" Value="printico" Type="1"/>
+    <ROW Property="RemoveIcon" Value="removico" Type="1"/>
+    <ROW Property="UpDirIcon" Value="Up" Type="1"/>
+    <ROW Property="NewDirIcon" Value="New" Type="1"/>
+    <ROW Property="WaitLogoItem" Value="waitlogoicon" Type="1"/>
+    <ROW Property="WhiteBackround" Value="whitebackground" Type="1"/>
+    <ROW Property="AiEarlyValidate" Value="1"/>
+    <ROW Property="AI_CF_TITLE_TEXT_STYLE" Value="CfTitleFont" Type="2"/>
+    <ROW Property="OptionsLogoIcon" Value="optionslogoicon" Type="1"/>
+    <ROW Property="RepairIcon" Value="repairic" Type="1"/>
+    <ROW Property="AppLogoIcon" Value="applogoicon" Type="1"/>
+    <ROW Property="CompleteSetupIcon" Value="completi" Type="1"/>
+    <ROW Property="CustomSetupIcon" Value="custicon" Type="1"/>
+    <ROW Property="InstallerIcon" Value="insticon" Type="1"/>
+    <ROW Property="Background" Value="background" Type="1"/>
+    <ROW Property="MinBackground" Value="minbackground" Type="1"/>
+    <ROW Property="ExitBackground" Value="exitbackground" Type="1"/>
+    <ROW Property="AI_BackgroundColor" Value="lightblue"/>
+    <ROW Property="AI_FrameColor" Value="powderblue"/>
+    <ROW Property="AI_ThemeStyle" Value="head"/>
+    <ROW Property="AI_FrameBtnsColor" Value="powderblue"/>
+    <ROW Property="AI_ImagesColor" Value="powderblue"/>
+    <ROW Property="AI_LOG_CHECKBOX" Value="1" Type="4"/>
+    <ROW Property="AiStyleConditions" Value=" " Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_THEME_VAR" Path="&lt;AI_THEMES&gt;azure\resources\variations\[|AI_BackgroundColor]" Type="2" Content="0"/>
+    <ROW Name="AI_THEME_VAR_HEAD" Path="&lt;AI_THEMES&gt;azure\resources\variations\[|AI_BackgroundColor]\[|AI_ThemeStyle]" Type="2" Content="0"/>
+    <ROW Name="AI_FRAME_COLOR" Path="&lt;AI_THEMES&gt;common-res\frame\[|AI_FrameColor]" Type="2" Content="0"/>
+    <ROW Name="AI_FRAME_BTNS" Path="&lt;AI_THEMES&gt;common-res\frame\closebtn\[|AI_FrameBtnsColor]" Type="2" Content="0"/>
+    <ROW Name="AI_RES_COLOR" Path="&lt;AI_THEMES&gt;common-res\images\[|AI_ImagesColor]\default" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="BasicUIDlg" Control="Next" Type="PushButton" X="81" Y="49" Width="56" Height="17" Attributes="2" Text="[ButtonText_Next]" Order="100" TextLocId="-" Options="1"/>
+    <ROW Dialog_="BasicUIDlg" Control="Cancel" Type="PushButton" X="220" Y="49" Width="56" Height="17" Attributes="2" Text="[ButtonText_Cancel]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="BasicUIDlg" Control="Back" Type="PushButton" X="20" Y="49" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="BasicUIDlg" Control="ProgressBar" Type="ProgressBar" X="10" Y="34" Width="276" Height="11" Attributes="1" Order="400" TextLocId="Control.Text.BasicUIDlg#ProgressBar"/>
+    <ROW Dialog_="BasicUIDlg" Control="ActionText" Type="Text" X="49" Y="18" Width="237" Height="10" Attributes="3" Order="500"/>
+    <ROW Dialog_="BasicUIDlg" Control="StatusLabel" Type="Text" X="10" Y="18" Width="29" Height="10" Attributes="3" Order="600" TextLocId="Control.Text.ProgressDlg#StatusLabel"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="PathEdit" Type="PathEdit" X="130" Y="293" Width="285" Height="17" Attributes="3" Property="TARGETDIR" Order="200"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="OK" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_OK]" Order="300" TextLocId="-"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="400" TextLocId="-"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="ComboLabel" Type="Text" X="55" Y="77" Width="60" Height="11" Attributes="65539" Text="&amp;Look in:" Order="500" TextLocId="Control.Text.AdminBrowseDlg#ComboLabel"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="DirectoryCombo" Type="DirectoryCombo" X="116" Y="75" Width="243" Height="80" Attributes="458755" Property="TARGETDIR" Order="600"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="Up" Type="PushButton" X="367" Y="74" Width="19" Height="19" Attributes="3670019" Text="[UpDirIcon]" Order="700" HelpLocId="Control.Help.AdminBrowseDlg#Up"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="NewFolder" Type="PushButton" X="394" Y="74" Width="19" Height="19" Attributes="3670019" Text="[NewDirIcon]" Order="800" HelpLocId="Control.Help.AdminBrowseDlg#NewFolder"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="DirectoryList" Type="DirectoryList" X="55" Y="99" Width="360" Height="180" Attributes="7" Property="TARGETDIR" Order="900"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="PathLabel" Type="Text" X="55" Y="296" Width="75" Height="11" Attributes="65539" Text="&amp;Folder name:" Order="1000" TextLocId="Control.Text.AdminBrowseDlg#PathLabel"/>
+    <ROW Dialog_="AdminBrowseDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="65539" TextStyle="TitleFont" Order="1100" TextLocId="Control.Text.AdminBrowseDlg#Title"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control="Text" Type="Text" X="55" Y="130" Width="320" Height="11" Attributes="65539" Order="200" TextLocId="Control.Text.AdminInstallPointDlg#Text"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control="PathEdit" Type="PathEdit" X="55" Y="143" Width="360" Height="18" Attributes="3" Property="TARGETDIR" Order="300"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control="Browse" Type="PushButton" X="349" Y="169" Width="66" Height="17" Attributes="3" Text="[ButtonText_Browse]" Order="400" TextLocId="-"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="600" TextLocId="-" Options="1"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="700" TextLocId="-" Options="1"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="800" TextLocId="Azure.Control.Text.AdminInstallPointDlg#Title"/>
+    <ROW Dialog_="AdminWelcomeDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="AdminWelcomeDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="AdminWelcomeDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="AdminWelcomeDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="AdminWelcomeDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Control.Text.AdminWelcomeDlg#Title"/>
+    <ROW Dialog_="AdminWelcomeDlg" Control="Description" Type="Text" X="55" Y="130" Width="360" Height="60" Attributes="196611" Order="600" TextLocId="Control.Text.AdminWelcomeDlg#DescriptionNoClose"/>
+    <ROW Dialog_="BrowseDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="BrowseDlg" Control="PathEdit" Type="PathEdit" X="130" Y="293" Width="285" Height="18" Attributes="11" Property="_BrowseProperty" Order="200"/>
+    <ROW Dialog_="BrowseDlg" Control="OK" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_OK]" Order="300" TextLocId="-"/>
+    <ROW Dialog_="BrowseDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="400" TextLocId="-"/>
+    <ROW Dialog_="BrowseDlg" Control="ComboLabel" Type="Text" X="55" Y="77" Width="60" Height="11" Attributes="65539" Order="500" TextLocId="Control.Text.BrowseDlg#ComboLabel"/>
+    <ROW Dialog_="BrowseDlg" Control="DirectoryCombo" Type="DirectoryCombo" X="116" Y="75" Width="243" Height="80" Attributes="393227" Property="_BrowseProperty" Order="600"/>
+    <ROW Dialog_="BrowseDlg" Control="Up" Type="PushButton" X="369" Y="74" Width="19" Height="19" Attributes="3670019" Text="[UpDirIcon]" Order="700" HelpLocId="Control.Help.BrowseDlg#Up"/>
+    <ROW Dialog_="BrowseDlg" Control="NewFolder" Type="PushButton" X="396" Y="74" Width="19" Height="19" Attributes="3670019" Text="[NewDirIcon]" Order="800" HelpLocId="Control.Help.BrowseDlg#NewFolder"/>
+    <ROW Dialog_="BrowseDlg" Control="DirectoryList" Type="DirectoryList" X="55" Y="99" Width="360" Height="180" Attributes="15" Property="_BrowseProperty" Order="900"/>
+    <ROW Dialog_="BrowseDlg" Control="PathLabel" Type="Text" X="55" Y="296" Width="75" Height="11" Attributes="65539" Order="1000" TextLocId="Control.Text.BrowseDlg#PathLabel"/>
+    <ROW Dialog_="BrowseDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="20" Attributes="196611" TextStyle="TitleFont" Order="1100" TextLocId="Control.Text.BrowseDlg#Title"/>
+    <ROW Dialog_="CancelDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="300" Height="80" Attributes="1048577" Text="[WhiteBackround]" Order="100"/>
+    <ROW Dialog_="CancelDlg" Control="No" Type="PushButton" X="235" Y="90" Width="56" Height="17" Attributes="3" Text="[ButtonText_No]" Order="200" TextLocId="-"/>
+    <ROW Dialog_="CancelDlg" Control="Yes" Type="PushButton" X="175" Y="90" Width="56" Height="17" Attributes="3" Text="[ButtonText_Yes]" Order="300" TextLocId="-"/>
+    <ROW Dialog_="CancelDlg" Control="Icon" Type="Icon" X="18" Y="18" Width="36" Height="36" Attributes="7340033" Text="[InfoIcon]" Order="400" HelpLocId="Control.Help.CancelDlg#Icon"/>
+    <ROW Dialog_="CancelDlg" Control="Text" Type="Text" X="60" Y="20" Width="230" Height="50" Attributes="196611" TextStyle="BlueText" Order="500" TextLocId="Control.Text.CancelDlg#Text"/>
+    <ROW Dialog_="CancelDlg" Control="Line" Type="Line" X="0" Y="79" Width="330" Height="2" Attributes="1" Order="600"/>
+    <ROW Dialog_="CustomizeDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="CustomizeDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="CustomizeDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="CustomizeDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="CustomizeDlg" Control="Title" Type="Text" X="55" Y="23" Width="380" Height="20" Attributes="196611" Text="Installation Options" TextStyle="TitleFont" Order="500" TextLocId="Control.Text.CustomizeDlg#Title"/>
+    <ROW Dialog_="CustomizeDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[OptionsLogoIcon]" Order="600"/>
+    <ROW Dialog_="CustomizeDlg" Control="Text" Type="Text" X="55" Y="76" Width="382" Height="23" Attributes="196611" Order="700" TextLocId="Azure.Control.Text.CustomizeDlg#Text"/>
+    <ROW Dialog_="CustomizeDlg" Control="ItemDescription" Type="Text" X="56" Y="278" Width="194" Height="30" Attributes="196611" Order="800" TextLocId="Azure.Control.Text.CustomizeDlg#ItemDescription"/>
+    <ROW Dialog_="CustomizeDlg" Control="TotalSpaceText" Type="Text" X="384" Y="278" Width="51" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceRequired" Order="900" TextLocId="Azure.Control.Text.CustomizeDlg#TotalSpaceText"/>
+    <ROW Dialog_="CustomizeDlg" Control="AvailableSpaceText" Type="Text" X="365" Y="288" Width="71" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceAvailable" Order="1000" TextLocId="Azure.Control.Text.CustomizeDlg#AvailableSpaceText"/>
+    <ROW Dialog_="CustomizeDlg" Control="AvailableSpaceLabel" Type="Text" X="273" Y="288" Width="96" Height="11" Attributes="196611" Text="Space available on drive: " Order="1100" TextLocId="Azure.Control.Text.CustomizeDlg#AvailableSpaceLabel"/>
+    <ROW Dialog_="CustomizeDlg" Control="TotalSpaceLabel" Type="Text" X="273" Y="278" Width="111" Height="11" Attributes="196611" Order="1200" TextLocId="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel"/>
+    <ROW Dialog_="CustomizeDlg" Control="QuickSelectionTree" Type="QuickSelectionTree" X="55" Y="98" Width="360" Height="176" Attributes="3" Property="_BrowseProperty" Text="QuickSelectionTree" Order="1300" ExtType="QuickSelectionTree"/>
+    <ROW Dialog_="DiskCostDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="DiskCostDlg" Control="OK" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_OK]" Order="200" TextLocId="-"/>
+    <ROW Dialog_="DiskCostDlg" Control="VolumeList" Type="VolumeCostList" X="55" Y="130" Width="360" Height="180" Attributes="393223" Text="{120}{70}{70}{70}{70}" Order="300" TextLocId="Control.Text.DiskCostDlg#VolumeList"/>
+    <ROW Dialog_="DiskCostDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="20" Attributes="196611" TextStyle="TitleFont" Order="400" TextLocId="Azure.Control.Text.DiskCostDlg#Title"/>
+    <ROW Dialog_="DiskCostDlg" Control="Text" Type="Text" X="55" Y="80" Width="330" Height="40" Attributes="196611" Order="500" TextLocId="Control.Text.DiskCostDlg#Text"/>
+    <ROW Dialog_="ErrorDlg" Control="A" Type="PushButton" X="122" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="-1" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ErrorDlg" Control="C" Type="PushButton" X="122" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="-1" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ErrorDlg" Control="ErrorIcon" Type="Icon" X="15" Y="18" Width="36" Height="36" Attributes="1048577" Text="[InfoIcon]" Order="-1" HelpLocId="Control.Help.ErrorDlg#ErrorIcon" Options="1"/>
+    <ROW Dialog_="ErrorDlg" Control="ErrorText" Type="Text" X="60" Y="20" Width="230" Height="50" Attributes="196611" TextStyle="BlueText" Order="-1" TextLocId="Control.Text.ErrorDlg#ErrorText" Options="1"/>
+    <ROW Dialog_="ErrorDlg" Control="I" Type="PushButton" X="122" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_Ignore]" Order="-1" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ErrorDlg" Control="N" Type="PushButton" X="122" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_No]" Order="-1" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ErrorDlg" Control="O" Type="PushButton" X="122" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_OK]" Order="-1" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ErrorDlg" Control="R" Type="PushButton" X="122" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_Retry]" Order="-1" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ErrorDlg" Control="Y" Type="PushButton" X="122" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_Yes]" Order="-1" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ExitDialog" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[ExitBackground]" Order="100"/>
+    <ROW Dialog_="ExitDialog" Control="LaunchProdCheckBox" Type="PushButton" X="178" Y="218" Width="95" Height="26" Attributes="3" Property="RUNAPPLICATION" Order="200" TextLocId="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" Options="1"/>
+    <ROW Dialog_="ExitDialog" Control="ViewReadmeCheckBox" Type="PushButton" X="178" Y="185" Width="95" Height="26" Attributes="3" Property="VIEWREADME" Order="300" TextLocId="Azure.Control.Text.ExitDialog#ViewReadmeCheckBox" Options="1"/>
+    <ROW Dialog_="ExitDialog" Control="Finish" Type="PushButton" X="198" Y="260" Width="56" Height="17" Attributes="3" Order="400" TextLocId="Azure.Control.Text.ExitDialog#Finish" Options="1"/>
+    <ROW Dialog_="ExitDialog" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ExitDialog" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="0" Text="[ButtonText_Back]" Order="600" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ExitDialog" Control="DialogIcon" Type="Icon" X="177" Y="42" Width="96" Height="96" Attributes="1048577" Text="[AppLogoIcon]" Order="700"/>
+    <ROW Dialog_="ExitDialog" Control="DescriptionConfigured" Type="Text" X="139" Y="153" Width="220" Height="20" Attributes="196611" Order="800" TextLocId="Azure.Control.Text.ExitDialog#DescriptionConfigured"/>
+    <ROW Dialog_="ExitDialog" Control="DescriptionInstalled" Type="Text" X="138" Y="153" Width="220" Height="20" Attributes="196611" Order="900" TextLocId="Azure.Control.Text.ExitDialog#DescriptionInstalled"/>
+    <ROW Dialog_="ExitDialog" Control="HorizontalLine" Type="Line" X="193" Y="251" Width="66" Height="2" Attributes="1" Order="1000"/>
+    <ROW Dialog_="FatalError" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="FatalError" Control="Finish" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Finish]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="FatalError" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="FatalError" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="FatalError" Control="Description2" Type="Text" X="55" Y="300" Width="220" Height="20" Attributes="196611" Order="500" TextLocId="Control.Text.FatalError#Description2"/>
+    <ROW Dialog_="FatalError" Control="Description1" Type="Text" X="55" Y="110" Width="350" Height="40" Attributes="196611" Order="600" TextLocId="Control.Text.FatalError#Description1"/>
+    <ROW Dialog_="FatalError" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="700" TextLocId="Control.Text.FatalError#Title"/>
+    <ROW Dialog_="FatalError" Control="LogCheckBox" Type="CheckBox" X="55" Y="158" Width="10" Height="10" Attributes="2" Property="AI_LOG_CHECKBOX" Order="800"/>
+    <ROW Dialog_="FatalError" Control="LogCheckBoxLabel" Type="Text" X="68" Y="158" Width="75" Height="10" Attributes="65538" Property="AI_LOG_CHECKBOX_TEXT" Order="900" TextLocId="Control.Text.FatalError#LogCheckBox"/>
+    <ROW Dialog_="FilesInUse" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="FilesInUse" Control="Retry" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Retry]" Order="200" TextLocId="-"/>
+    <ROW Dialog_="FilesInUse" Control="Ignore" Type="PushButton" X="312" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Ignore]" Order="300" TextLocId="-"/>
+    <ROW Dialog_="FilesInUse" Control="Exit" Type="PushButton" X="245" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Exit]" Order="400" TextLocId="-"/>
+    <ROW Dialog_="FilesInUse" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="20" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Azure.Control.Text.FilesInUse#Title"/>
+    <ROW Dialog_="FilesInUse" Control="Text" Type="Text" X="55" Y="80" Width="360" Height="40" Attributes="196611" Order="600" TextLocId="Control.Text.FilesInUse#Text"/>
+    <ROW Dialog_="FilesInUse" Control="List" Type="ListBox" X="55" Y="130" Width="360" Height="180" Attributes="7" Property="FileInUseProcess" Order="700"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="OK" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_OK]" Order="200" TextLocId="-"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="Text" Type="Text" X="55" Y="80" Width="330" Height="25" Attributes="196611" Order="400" TextLocId="Control.Text.MsiRMFilesInUse#Text"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="List" Type="ListBox" X="55" Y="100" Width="380" Height="150" Attributes="7" Property="FileInUseProcess" Order="500"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="Options" Type="RadioButtonGroup" X="55" Y="265" Width="330" Height="48" Attributes="3" Property="AppsShutdownOption" Order="600"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="700" TextLocId="Azure.Control.Text.MsiRMFilesInUse#Title"/>
+    <ROW Dialog_="OutOfDiskDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="OutOfDiskDlg" Control="OK" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_OK]" Order="200" TextLocId="-"/>
+    <ROW Dialog_="OutOfDiskDlg" Control="VolumeList" Type="VolumeCostList" X="55" Y="130" Width="360" Height="180" Attributes="393223" Text="{120}{70}{70}{70}{70}" Order="300" TextLocId="Control.Text.OutOfDiskDlg#VolumeList"/>
+    <ROW Dialog_="OutOfDiskDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="400" TextLocId="Azure.Control.Text.OutOfDiskDlg#Title"/>
+    <ROW Dialog_="OutOfDiskDlg" Control="Text" Type="Text" X="55" Y="80" Width="360" Height="40" Attributes="196611" Order="500" TextLocId="Control.Text.OutOfDiskDlg#Text"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="OkButton" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="OK" Order="200" TextLocId="Azure.Control.Text.OutOfRbDiskDlg#OkButton"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="Text2" Type="Text" X="55" Y="120" Width="360" Height="40" Attributes="196611" Order="300" TextLocId="Control.Text.OutOfRbDiskDlg#Text2"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="Text" Type="Text" X="55" Y="80" Width="360" Height="40" Attributes="196611" Order="400" TextLocId="Control.Text.OutOfRbDiskDlg#Text"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="VolumeList" Type="VolumeCostList" X="55" Y="168" Width="360" Height="142" Attributes="4587527" Order="500" TextLocId="Control.Text.OutOfRbDiskDlg#VolumeList"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="600" TextLocId="Azure.Control.Text.OutOfRbDiskDlg#Title"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Control.Text.PatchWelcomeDlg#Title"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control="Description" Type="Text" X="55" Y="130" Width="360" Height="60" Attributes="196611" Order="600" TextLocId="Control.Text.PatchWelcomeDlg#DescriptionNoClose"/>
+    <ROW Dialog_="PrepareDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="PrepareDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="PrepareDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="2" Text="[ButtonText_Next]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="PrepareDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="PrepareDlg" Control="Title" Type="Text" X="55" Y="23" Width="378" Height="21" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Azure.Control.Text.PrepareDlg#Title"/>
+    <ROW Dialog_="PrepareDlg" Control="Description" Type="Text" X="55" Y="76" Width="329" Height="42" Attributes="196611" Order="600" TextLocId="Azure.Control.Text.PrepareDlg#Description"/>
+    <ROW Dialog_="PrepareDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[WaitLogoItem]" Order="700"/>
+    <ROW Dialog_="ProgressDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="ProgressDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ProgressDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="2" Text="[ButtonText_Next]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ProgressDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ProgressDlg" Control="Title" Type="Text" X="55" Y="23" Width="378" Height="21" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Azure.Control.Text.ProgressDlg#Title"/>
+    <ROW Dialog_="ProgressDlg" Control="ProgressBar" Type="ProgressBar" X="55" Y="160" Width="360" Height="14" Attributes="65537" Order="600" TextLocId="Control.Text.ProgressDlg#ProgressBar"/>
+    <ROW Dialog_="ProgressDlg" Control="Description" Type="Text" X="55" Y="190" Width="330" Height="11" Attributes="196611" Order="700" TextLocId="Azure.Control.Text.ProgressDlg#Description"/>
+    <ROW Dialog_="ProgressDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[InstallLogoIcon]" Order="800"/>
+    <ROW Dialog_="ProgressDlg" Control="ActionText" Type="Text" X="55" Y="135" Width="330" Height="11" Attributes="196611" Order="900"/>
+    <ROW Dialog_="ResumeDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="ResumeDlg" Control="Install" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Install]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ResumeDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ResumeDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ResumeDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Control.Text.ResumeDlg#Title"/>
+    <ROW Dialog_="ResumeDlg" Control="Description" Type="Text" X="55" Y="130" Width="360" Height="60" Attributes="196611" Order="600" TextLocId="Control.Text.ResumeDlg#DescriptionNoClose"/>
+    <ROW Dialog_="UserExit" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="UserExit" Control="Finish" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Finish]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UserExit" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UserExit" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UserExit" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Control.Text.UserExit#Title"/>
+    <ROW Dialog_="UserExit" Control="Description2" Type="Text" X="55" Y="300" Width="220" Height="20" Attributes="196611" Order="600" TextLocId="Control.Text.UserExit#Description2"/>
+    <ROW Dialog_="UserExit" Control="Description1" Type="Text" X="55" Y="110" Width="350" Height="40" Attributes="196611" Order="700" TextLocId="Control.Text.UserExit#Description1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Install" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Install]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Text" Type="Text" X="55" Y="130" Width="380" Height="40" Attributes="196611" Order="500" TextLocId="Control.Text.VerifyReadyDlg#TextNoClose"/>
+    <ROW Dialog_="VerifyReadyDlg" Control="Title" Type="Text" X="33" Y="23" Width="380" Height="40" Attributes="196611" Text="Begin installation of [ProductName]" TextStyle="TitleFont" Order="600" TextLocId="Azure.Control.Text.VerifyReadyDlg#Title"/>
+    <ROW Dialog_="WaitForCostingDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="300" Height="80" Attributes="1048577" Text="[WhiteBackround]" Order="100"/>
+    <ROW Dialog_="WaitForCostingDlg" Control="Return" Type="PushButton" X="122" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_Return]" Order="200" TextLocId="-"/>
+    <ROW Dialog_="WaitForCostingDlg" Control="Text" Type="Text" X="60" Y="20" Width="230" Height="50" Attributes="196611" TextStyle="BlueText" Order="300" TextLocId="Control.Text.WaitForCostingDlg#Text"/>
+    <ROW Dialog_="WaitForCostingDlg" Control="Icon" Type="Icon" X="18" Y="18" Width="36" Height="36" Attributes="1048577" Text="[ExclamationIcon]" Order="400" HelpLocId="Control.Help.WaitForCostingDlg#Icon"/>
+    <ROW Dialog_="WaitForCostingDlg" Control="Line" Type="Line" X="0" Y="79" Width="330" Height="2" Attributes="1" Order="500"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="ExitDialog" Control_="LaunchProdCheckBox" Action="Hide" Condition="((NOT AI_INSTALL) AND (NOT AI_PATCH)) OR ((CTRLS &lt;&gt; 2) AND (CTRLS &lt;&gt; 3))"/>
+    <ROW Dialog_="ExitDialog" Control_="ViewReadmeCheckBox" Action="Hide" Condition="((NOT AI_INSTALL) AND (NOT AI_PATCH)) OR ((CTRLS &lt;&gt; 1) AND (CTRLS &lt;&gt; 3))"/>
+    <ROW Dialog_="ExitDialog" Control_="DescriptionConfigured" Action="Hide" Condition="NOT Installed"/>
+    <ROW Dialog_="ExitDialog" Control_="DescriptionInstalled" Action="Hide" Condition="Installed"/>
+    <ROW Dialog_="FatalError" Control_="LogCheckBox" Action="Show" Condition="MsiLogFileLocation"/>
+    <ROW Dialog_="FatalError" Control_="LogCheckBoxLabel" Action="Show" Condition="MsiLogFileLocation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="BasicUIDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminBrowseDlg" Control_="Cancel" Event="EndDialog" Argument="Return" Condition="1" Ordering="200"/>
+    <ROW Dialog_="AdminBrowseDlg" Control_="Cancel" Event="Reset" Argument="0" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminBrowseDlg" Control_="NewFolder" Event="DirectoryListNew" Argument="0" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminBrowseDlg" Control_="OK" Event="EndDialog" Argument="Return" Condition="1" Ordering="200"/>
+    <ROW Dialog_="AdminBrowseDlg" Control_="OK" Event="SetTargetPath" Argument="TARGETDIR" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminBrowseDlg" Control_="Up" Event="DirectoryListUp" Argument="0" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control_="Back" Event="NewDialog" Argument="AdminWelcomeDlg" Condition="1" Ordering="200"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control_="Browse" Event="SpawnDialog" Argument="AdminBrowseDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="1" Ordering="300"/>
+    <ROW Dialog_="AdminInstallPointDlg" Control_="Next" Event="SetTargetPath" Argument="TARGETDIR" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminWelcomeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminWelcomeDlg" Control_="Next" Event="[InstallMode]" Argument="Server Image" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminWelcomeDlg" Control_="Next" Event="NewDialog" Argument="AdminInstallPointDlg" Condition="1" Ordering="300"/>
+    <ROW Dialog_="BrowseDlg" Control_="Cancel" Event="EndDialog" Argument="Return" Condition="1" Ordering="200"/>
+    <ROW Dialog_="BrowseDlg" Control_="Cancel" Event="Reset" Argument="0" Condition="1" Ordering="100"/>
+    <ROW Dialog_="BrowseDlg" Control_="NewFolder" Event="DirectoryListNew" Argument="0" Condition="1" Ordering="100"/>
+    <ROW Dialog_="BrowseDlg" Control_="OK" Event="EndDialog" Argument="Return" Condition="1" Ordering="200"/>
+    <ROW Dialog_="BrowseDlg" Control_="OK" Event="SetTargetPath" Argument="[_BrowseProperty]" Condition="1" Ordering="100"/>
+    <ROW Dialog_="BrowseDlg" Control_="Up" Event="DirectoryListUp" Argument="0" Condition="1" Ordering="100"/>
+    <ROW Dialog_="CancelDlg" Control_="No" Event="EndDialog" Argument="Return" Condition="1" Ordering="100"/>
+    <ROW Dialog_="CancelDlg" Control_="Yes" Event="EndDialog" Argument="Exit" Condition="1" Ordering="100"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="DoAction" Argument="AI_InstallModeCheck" Condition="AI_MAINT" Ordering="100"/>
+    <ROW Dialog_="DiskCostDlg" Control_="OK" Event="EndDialog" Argument="Return" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ErrorDlg" Control_="A" Event="EndDialog" Argument="ErrorAbort" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ErrorDlg" Control_="C" Event="EndDialog" Argument="ErrorCancel" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ErrorDlg" Control_="I" Event="EndDialog" Argument="ErrorIgnore" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ErrorDlg" Control_="N" Event="EndDialog" Argument="ErrorNo" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ErrorDlg" Control_="O" Event="EndDialog" Argument="ErrorOk" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ErrorDlg" Control_="R" Event="EndDialog" Argument="ErrorRetry" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ErrorDlg" Control_="Y" Event="EndDialog" Argument="ErrorYes" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ExitDialog" Control_="LaunchProdCheckBox" Event="DoAction" Argument="AI_LaunchApp" Condition="(AI_INSTALL OR AI_PATCH)" Ordering="100"/>
+    <ROW Dialog_="ExitDialog" Control_="LaunchProdCheckBox" Event="DoAction" Argument="AI_RunFinishActions" Condition="(AI_INSTALL OR AI_PATCH)" Ordering="200"/>
+    <ROW Dialog_="ExitDialog" Control_="LaunchProdCheckBox" Event="EndDialog" Argument="Return" Condition="1" Ordering="300"/>
+    <ROW Dialog_="ExitDialog" Control_="ViewReadmeCheckBox" Event="DoAction" Argument="AI_ViewReadme" Condition="(AI_INSTALL OR AI_PATCH)" Ordering="100"/>
+    <ROW Dialog_="ExitDialog" Control_="ViewReadmeCheckBox" Event="DoAction" Argument="AI_RunFinishActions" Condition="(AI_INSTALL OR AI_PATCH)" Ordering="200"/>
+    <ROW Dialog_="ExitDialog" Control_="ViewReadmeCheckBox" Event="EndDialog" Argument="Return" Condition="1" Ordering="300"/>
+    <ROW Dialog_="ExitDialog" Control_="Finish" Event="EndDialog" Argument="Return" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FatalError" Control_="Finish" Event="EndDialog" Argument="Exit" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FatalError" Control_="Finish" Event="DoAction" Argument="AI_SHOW_LOG" Condition="(MsiLogFileLocation AND AI_LOG_CHECKBOX)" Ordering="101"/>
+    <ROW Dialog_="FilesInUse" Control_="Exit" Event="EndDialog" Argument="Exit" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FilesInUse" Control_="Ignore" Event="EndDialog" Argument="Ignore" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FilesInUse" Control_="Retry" Event="EndDialog" Argument="Retry" Condition="1" Ordering="100"/>
+    <ROW Dialog_="OutOfDiskDlg" Control_="OK" Event="EndDialog" Argument="Return" Condition="1" Ordering="100"/>
+    <ROW Dialog_="OutOfRbDiskDlg" Control_="OkButton" Event="EndDialog" Argument="Return" Condition="1" Ordering="100"/>
+    <ROW Dialog_="PrepareDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ProgressDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ResumeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EnableRollback" Argument="False" Condition="OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="500"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="(OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;)" Ordering="600"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="300"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="SpawnWaitDialog" Argument="WaitForCostingDlg" Condition="CostingComplete = 1" Ordering="700"/>
+    <ROW Dialog_="UserExit" Control_="Finish" Event="EndDialog" Argument="Exit" Condition="1" Ordering="100"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="AdminInstallPointDlg" Condition="AI_ADMIN AND InstallMode = &quot;Server Image&quot;" Ordering="200"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_ADMIN AND InstallMode = &quot;Server Image&quot;" Ordering="150"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="200"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EnableRollback" Argument="False" Condition="OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="400"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="(OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;)" Ordering="500"/>
+    <ROW Dialog_="WaitForCostingDlg" Control_="Return" Event="EndDialog" Argument="Exit" Condition="1" Ordering="100"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="AI_PATCH" Ordering="100"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="ReinstallMode" Argument="ecmus" Condition="AI_PATCH" Ordering="100"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="Reinstall" Argument="All" Condition="AI_PATCH" Ordering="200"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control_="Cancel" Event="EndDialog" Argument="Exit" Condition="1" Ordering="100"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control_="OK" Event="EndDialog" Argument="Return" Condition="1" Ordering="200"/>
+    <ROW Dialog_="MsiRMFilesInUse" Control_="OK" Event="RMShutdownAndRestart" Argument="0" Condition="AppsShutdownOption = &quot;All&quot;" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="BasicUIDlg" HCentering="50" VCentering="50" Width="296" Height="71" Attributes="1" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.BasicUIDlg"/>
+    <ROW Dialog="AdminBrowseDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="OK" Control_Cancel="Cancel" TitleLocId="Dialog.AdminBrowseDlg"/>
+    <ROW Dialog="AdminInstallPointDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.AdminInstallPointDlg"/>
+    <ROW Dialog="AdminWelcomeDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.AdminWelcomeDlg"/>
+    <ROW Dialog="BrowseDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="OK" Control_Cancel="Cancel" TitleLocId="Dialog.BrowseDlg"/>
+    <ROW Dialog="CancelDlg" HCentering="50" VCentering="50" Width="300" Height="115" Attributes="3" Control_Default="No" Control_Cancel="No" TitleLocId="Dialog.CancelDlg"/>
+    <ROW Dialog="CustomizeDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="35" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.CustomizeDlg"/>
+    <ROW Dialog="DiskCostDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="OK" Control_Cancel="OK" TitleLocId="Dialog.DiskCostDlg"/>
+    <ROW Dialog="ErrorDlg" HCentering="50" VCentering="50" Width="300" Height="114" Attributes="65539" TitleLocId="Dialog.ErrorDlg"/>
+    <ROW Dialog="ExitDialog" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="LaunchProdCheckBox" Control_Cancel="Finish" TitleLocId="Dialog.ExitDialog"/>
+    <ROW Dialog="FatalError" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Finish" Control_Cancel="Finish" TitleLocId="Dialog.FatalError"/>
+    <ROW Dialog="FilesInUse" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="19" Control_Default="Retry" Control_Cancel="Retry" TitleLocId="Dialog.FilesInUse"/>
+    <ROW Dialog="OutOfDiskDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="OK" Control_Cancel="OK" TitleLocId="Dialog.OutOfDiskDlg"/>
+    <ROW Dialog="OutOfRbDiskDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="OkButton" Control_Cancel="OkButton" TitleLocId="Dialog.OutOfRbDiskDlg"/>
+    <ROW Dialog="PrepareDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="1" Title="[ProductName] [Setup]" Control_Default="Cancel" Control_Cancel="Cancel" TitleLocId="Dialog.PrepareDlg"/>
+    <ROW Dialog="ProgressDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="1" Control_Default="Cancel" Control_Cancel="Cancel" TitleLocId="Dialog.ProgressDlg"/>
+    <ROW Dialog="ResumeDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Install" Control_Cancel="Cancel" TitleLocId="Dialog.ResumeDlg"/>
+    <ROW Dialog="UserExit" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Finish" Control_Cancel="Finish" TitleLocId="Dialog.UserExit"/>
+    <ROW Dialog="VerifyReadyDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="35" Control_Default="Install" Control_Cancel="Cancel" TitleLocId="Dialog.VerifyReadyDlg"/>
+    <ROW Dialog="WaitForCostingDlg" HCentering="50" VCentering="50" Width="300" Height="115" Attributes="3" Control_Default="Return" Control_Cancel="Return" TitleLocId="Dialog.WaitForCostingDlg"/>
+    <ROW Dialog="PatchWelcomeDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.PatchWelcomeDlg"/>
+    <ROW Dialog="MsiRMFilesInUse" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="19" Control_Default="OK" Control_Cancel="Cancel" TitleLocId="Dialog.MsiRMFilesInUse"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEventMappingComponent">
+    <ROW Dialog_="BasicUIDlg" Control_="ProgressBar" Event="SetProgress" Attribute="Progress"/>
+    <ROW Dialog_="BasicUIDlg" Control_="ActionText" Event="ActionText" Attribute="Text"/>
+    <ROW Dialog_="AdminBrowseDlg" Control_="DirectoryCombo" Event="IgnoreChange" Attribute="IgnoreChange"/>
+    <ROW Dialog_="BrowseDlg" Control_="DirectoryCombo" Event="IgnoreChange" Attribute="IgnoreChange"/>
+    <ROW Dialog_="CustomizeDlg" Control_="ItemDescription" Event="SelectionDescription" Attribute="Text"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="SelectionNoItems" Attribute="Enabled"/>
+    <ROW Dialog_="ProgressDlg" Control_="ActionText" Event="ActionText" Attribute="Text"/>
+    <ROW Dialog_="ProgressDlg" Control_="ProgressBar" Event="SetProgress" Attribute="Progress"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiTextStyleComponent">
+    <ROW TextStyle="BlueText" FaceName="Verdana" Size="12" Color="10040064" StyleBits="0"/>
+    <ROW TextStyle="DlgFont8" FaceName="Tahoma" Size="8" Color="0" StyleBits="0"/>
+    <ROW TextStyle="DlgFontBold8" FaceName="Tahoma" Size="8" Color="0" StyleBits="1"/>
+    <ROW TextStyle="TitleFont" FaceName="Verdana" Size="13" Color="8847617" StyleBits="0"/>
+    <ROW TextStyle="CfTitleFont" FaceName="Tahoma" Size="8" Color="0" StyleBits="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="AppsShutdownOption" Order="1" Value="All" X="5" Y="5" Width="320" Height="20" TextLocId="RadioButton.Text.AppsShutdownOption#1"/>
+    <ROW Property="AppsShutdownOption" Order="2" Value="None" X="5" Y="25" Width="320" Height="15" TextLocId="RadioButton.Text.AppsShutdownOption#2"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="AdminRegistrationDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[DialogBitmap]" Order="100"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control="OrganizationLabel" Type="Text" X="45" Y="110" Width="360" Height="30" Attributes="65539" Order="200" TextLocId="Control.Text.AdminRegistrationDlg#OrganizationLabel"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control="OrganizationEdit" Type="Edit" X="45" Y="144" Width="360" Height="18" Attributes="3" Property="COMPANYNAME" Text="{80}" Order="300" TextLocId="Control.Text.AdminRegistrationDlg#OrganizationEdit"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control="CDKeyLabel" Type="Text" X="45" Y="169" Width="54" Height="11" Attributes="65539" Order="400" TextLocId="Control.Text.AdminRegistrationDlg#CDKeyLabel"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control="CDKeyEdit" Type="MaskedEdit" X="45" Y="182" Width="360" Height="18" Attributes="3" Property="PIDKEY" Text="[PIDTemplate]" Order="500" TextLocId="-"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control="Back" Type="PushButton" X="45" Y="328" Width="56" Height="17" Attributes="65539" Text="[ButtonText_Back]" Order="600" TextLocId="-" Options="1"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control="Next" Type="PushButton" X="350" Y="328" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="700" TextLocId="-" Options="1"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="800" TextLocId="-" Options="1"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control="Title" Type="Text" X="45" Y="17" Width="382" Height="30" Attributes="196611" TextStyle="TitleFont" Order="900" TextLocId="Control.Text.AdminRegistrationDlg#Title"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="AdminRegistrationDlg" Control_="Back" Event="NewDialog" Argument="AdminWelcomeDlg" Condition="1" Ordering="200"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control_="Next" Event="NewDialog" Argument="AdminInstallPointDlg" Condition="ProductID" Ordering="300"/>
+    <ROW Dialog_="AdminRegistrationDlg" Control_="Next" Event="ValidateProductID" Argument="0" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="AdminRegistrationDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.AdminRegistrationDlg"/>
+  </COMPONENT>
+</FRAGMENT>

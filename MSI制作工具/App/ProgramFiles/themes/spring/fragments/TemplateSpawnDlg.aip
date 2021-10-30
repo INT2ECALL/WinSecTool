@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="TemplateSpawnDlg" Control="Yes" Type="PushButton" X="91" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_Yes]" Order="100" TextLocId="-"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control="Icon" Type="Icon" X="18" Y="18" Width="36" Height="36" Attributes="1048577" Text="[InfoIcon]" Order="200"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control="Text" Type="Text" X="60" Y="20" Width="230" Height="50" Attributes="3" TextStyle="BlueText" Order="300" TextLocId="Control.Text.TemplateSpawnDlg#Text"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control="No" Type="PushButton" X="154" Y="87" Width="56" Height="17" Attributes="3" Text="[ButtonText_No]" Order="400" TextLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="TemplateSpawnDlg" Control_="No" Event="EndDialog" Argument="Return" Condition="1" Ordering="100"/>
+    <ROW Dialog_="TemplateSpawnDlg" Control_="Yes" Event="EndDialog" Argument="Return" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="TemplateSpawnDlg" HCentering="50" VCentering="50" Width="300" Height="115" Attributes="3" Title="[ProductName] [Setup]" Control_Default="Yes" Control_Cancel="No"/>
+  </COMPONENT>
+</FRAGMENT>

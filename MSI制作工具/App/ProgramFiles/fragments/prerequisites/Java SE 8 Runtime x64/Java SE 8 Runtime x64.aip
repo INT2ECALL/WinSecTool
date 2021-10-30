@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.9" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F6D8148C0594E7491C36E27FD5E9E89" DisplayName="Java SE Runtime Environment 8u171 x64" VersionMin="1.8"
+      SetupFileUrl="http://javadl.oracle.com/webapps/download/AutoDL?BundleId=233172_512cd62ec5174c3487ac17c61aaa89e8"
+      Location="1" ExactSize="71830472" MD5="0c7fe540f431566ce5bd47a276b1001e"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64, Windows Vista SP1 x64"
+      Operator="0" Options="xf" TargetName="Java SE Runtime Environment?jre-8u171-windows-x64.exe"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F6D8148C0594E7491C36E27FD5E9E89CurrentVersion" Prereq="F6D8148C0594E7491C36E27FD5E9E89" SearchType="2"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Runtime Environment\CurrentVersion" VerMin="1.8"
+      Order="1" Property="PreReqSearch_F6D8148C0594E7491C36E27FD5E9E89"/>
+    <ROW SearchKey="F6D8148C0594E7491C36E27FD5E9E89JavaRuntimeEnvironment" Prereq="F6D8148C0594E7491C36E27FD5E9E89" SearchType="1"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Runtime Environment" VerMin="1.8.0_171"
+      Order="2" Property="PreReqSearch_1_F6D8148C0594E7491C36E27FD5E9E89"/>
+  </COMPONENT>
+</FRAGMENT>

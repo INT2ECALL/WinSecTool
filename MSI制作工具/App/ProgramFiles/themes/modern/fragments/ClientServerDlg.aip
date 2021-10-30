@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="clientic" SourcePath="&lt;AI_THEMES&gt;classic\resources\clientic.ico"/>
+    <ROW Name="serveric" SourcePath="&lt;AI_THEMES&gt;classic\resources\serveric.ico"/>
+    <ROW Name="clientserveric" SourcePath="&lt;AI_THEMES&gt;classic\resources\client-serveric.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ClientIcon" Value="clientic" Type="1"/>
+    <ROW Property="ServerIcon" Value="serveric" Type="1"/>
+    <ROW Property="ClientServerIcon" Value="clientserveric" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="ClientServerDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="568" Height="379" Attributes="1048577" Text="[ThreeColorsBackground]" Order="100"/>
+    <ROW Dialog_="ClientServerDlg" Control="Next" Type="PushButton" X="435" Y="388" Width="56" Height="17" Attributes="1" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ClientServerDlg" Control="Cancel" Type="PushButton" X="497" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ClientServerDlg" Control="Back" Type="PushButton" X="379" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ClientServerDlg" Control="Description" Type="Text" X="8" Y="90" Width="280" Height="15" Attributes="196611" Order="500" TextLocId="Control.Text.ClientServerDlg#Description"/>
+    <ROW Dialog_="ClientServerDlg" Control="Title" Type="Text" X="8" Y="70" Width="200" Height="15" Attributes="196611" TextStyle="BoldTitle" Order="600" TextLocId="Control.Text.ClientServerDlg#Title"/>
+    <ROW Dialog_="ClientServerDlg" Control="CustomText" Type="Text" X="84" Y="214" Width="170" Height="30" Attributes="196611" Order="700" TextLocId="Control.Text.ClientServerDlg#CustomText"/>
+    <ROW Dialog_="ClientServerDlg" Control="CompleteText" Type="Text" X="84" Y="267" Width="170" Height="20" Attributes="196611" Order="800" TextLocId="Control.Text.ClientServerDlg#CompleteText"/>
+    <ROW Dialog_="ClientServerDlg" Control="TypicalText" Type="Text" X="84" Y="161" Width="170" Height="20" Attributes="196611" Order="900" TextLocId="Control.Text.ClientServerDlg#TypicalText"/>
+    <ROW Dialog_="ClientServerDlg" Control="ClientLabel" Type="Text" X="84" Y="148" Width="100" Height="11" Attributes="65539" TextStyle="[DlgTitleFont]" Order="1000" TextLocId="Control.Text.ClientServerDlg#TypicalLabel"/>
+    <ROW Dialog_="ClientServerDlg" Control="ClientButton" Type="PushButton" X="28" Y="148" Width="38" Height="38" Attributes="5767171" Text="[ClientIcon]" Order="1100" Help="Client Installation|" HelpLocId="Control.Help.ClientServerDlg#TypicalButton" Options="1"/>
+    <ROW Dialog_="ClientServerDlg" Control="ServerLabel" Type="Text" X="84" Y="201" Width="100" Height="11" Attributes="65539" TextStyle="[DlgTitleFont]" Order="1200" TextLocId="Control.Text.ClientServerDlg#CustomLabel"/>
+    <ROW Dialog_="ClientServerDlg" Control="ServerButton" Type="PushButton" X="28" Y="201" Width="38" Height="38" Attributes="5767171" Text="[ServerIcon]" Order="1300" Help="Server Installation|" HelpLocId="Control.Help.ClientServerDlg#CustomButton" Options="1"/>
+    <ROW Dialog_="ClientServerDlg" Control="CompleteLabel" Type="Text" X="84" Y="254" Width="100" Height="11" Attributes="65539" TextStyle="[DlgTitleFont]" Order="1400" TextLocId="Control.Text.ClientServerDlg#CompleteLabel"/>
+    <ROW Dialog_="ClientServerDlg" Control="CompleteButton" Type="PushButton" X="28" Y="254" Width="38" Height="38" Attributes="5767171" Text="[ClientServerIcon]" Order="1500" Help="Complete Installation|" HelpLocId="Control.Help.ClientServerDlg#CompleteButton" Options="1"/>
+    <ROW Dialog_="ClientServerDlg" Control="BottomLine" Type="Line" X="0" Y="379" Width="570" Height="2" Attributes="1" Order="1600"/>
+    <ROW Dialog_="ClientServerDlg" Control="LogoIcon" Type="Icon" X="18" Y="11" Width="36" Height="36" Attributes="7340033" Text="[LogoIcon]" Order="1700"/>
+    <ROW Dialog_="ClientServerDlg" Control="AppName" Type="Text" X="62" Y="24" Width="143" Height="23" Attributes="196611" Text="[ProductName]" TextStyle="AppName" Order="1800" TextLocId="Modern.Control.Text.Dlg#AppName"/>
+    <ROW Dialog_="ClientServerDlg" Control="Manufacturer" Type="Text" X="61" Y="16" Width="300" Height="12" Attributes="196611" Text="[Manufacturer]" TextStyle="Manufacturer" Order="1900" TextLocId="Modern.Control.Text.Dlg#Manufacturer"/>
+    <ROW Dialog_="ClientServerDlg" Control="Setup" Type="Text" X="195" Y="24" Width="158" Height="23" Attributes="196611" Text="Setup" TextStyle="[AI_SetupFont]" Order="2000" TextLocId="Modern.Control.Text.Dlg#Setup"/>
+    <ROW Dialog_="ClientServerDlg" Control="CompanyLogo" Type="Bitmap" X="285" Y="104" Width="265" Height="229" Attributes="1048577" Text="[CompanyLogo]" Order="2100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="ClientServerDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ClientServerDlg" Control_="ClientButton" Event="[InstallMode]" Argument="Client" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ClientServerDlg" Control_="ServerButton" Event="[InstallMode]" Argument="Server" Condition="1" Ordering="100"/>
+    <ROW Dialog_="ClientServerDlg" Control_="CompleteButton" Event="[InstallMode]" Argument="ClientServer" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="ClientServerDlg" HCentering="50" VCentering="50" Width="568" Height="412" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.ClientServerDlg"/>
+    <ATTRIBUTE name="ExitPoints" value="ClientServerDlg#ClientButton##InstallMode = &quot;Client&quot;!ClientServerDlg#ServerButton##InstallMode = &quot;Server&quot;!ClientServerDlg#CompleteButton##InstallMode = &quot;ClientServer&quot;"/>
+  </COMPONENT>
+</FRAGMENT>

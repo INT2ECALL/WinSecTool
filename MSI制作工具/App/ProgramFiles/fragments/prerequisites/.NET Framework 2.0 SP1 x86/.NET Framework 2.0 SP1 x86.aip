@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C90CB4F4_6DDF_4BC8_BD51_BB94E65A1FE4" DisplayName=".NET Framework 2.0 SP1 x86"
+      SetupFileUrl="http://download.microsoft.com/download/0/8/c/08c19fa4-4c4f-4ffb-9d6c-150906578c9e/NetFx20SP1_x86.exe"
+      Location="1" ExactSize="24758792" MD5="c61111d7d62306b997ce7dd04898b1ca"
+      WinNTVersions="Windows Vista x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/q /norestart"
+      Operator="0" Options="y" TargetName=".NET Framework 2.0 SP1"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C90CB4F4_6DDF_4BC8_BD51_BB94E65A1FE4Install" Prereq="C90CB4F4_6DDF_4BC8_BD51_BB94E65A1FE4" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\Install" RefContent="M1"
+      Order="1" Property="PreReqSearch_C90CB4F4_6DDF_4BC8_BD51_BB94E65A1FE4"/>
+    <ROW SearchKey="C90CB4F4_6DDF_4BC8_BD51_BB94E65A1FE4SP" Prereq="C90CB4F4_6DDF_4BC8_BD51_BB94E65A1FE4" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\SP" RefContent="G0"
+      Order="2" Property="PreReqSearch_1_C90CB4F4_6DDF_4BC8_BD51_BB94E65A1FE4"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="licagreelogoicon" SourcePath="&lt;AI_THEMES&gt;common-res\images\LicAgreeLogo.png"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="LicenseAgreeLogoIcon" Value="licagreelogoicon" Type="1"/>
+    <ROW Property="LicDlgTitle" Value="Read the [Manufacturer] Licence Terms" ValueLocId="Azure.Control.Text.LicenseAgreementDlg#Title"/>
+    <ROW Property="LicDlgSubTitle" Value="To continue you must read and accept the terms of this agreement. If you do not want to accept the [Manufacturer] Licence Terms, close this window to cancel the installation." ValueLocId="Azure.Control.Text.LicenseAgreementDlg#Description"/>
+    <ROW Property="LicDlgCheckBoxText" Value="I &quot;accept the terms of this agreement." ValueLocId="Azure.Control.Text.LicenseAgreementDlg#EulaAgreeCheckBox"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control="HtmlHost" Type="HtmlHost" X="0" Y="0" Width="450" Height="360" Attributes="3" Text="file:///[&amp;lic.html.742DA8B7]" Order="100" TextLocId="-" ExtType="HtmlHost" ExtAttributes="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048576" Text="[DialogBitmap]" Order="200"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Next" Type="PushButton" X="350" Y="328" Width="56" Height="17" Attributes="2" Text="[ButtonText_Next]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Back" Type="PushButton" X="45" Y="328" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Title" Type="Text" X="45" Y="17" Width="378" Height="21" Attributes="196610" TextStyle="TitleFont" Order="600" TextLocId="Azure.Control.Text.LicenseAgreementDlg#Title"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Description" Type="Text" X="45" Y="76" Width="329" Height="42" Attributes="196610" Order="700" TextLocId="Azure.Control.Text.LicenseAgreementDlg#Description"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="45" Y="118" Width="360" Height="166" Attributes="3" Property="EulaRead" Text="&lt;AI_RES&gt;eula.rtf" Order="800"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="PrintButton" Type="PushButton" X="378" Y="76" Width="28" Height="28" Attributes="4718594" Text="[PrintIcon]" Order="900" AssociatedCtrl="AgreementText"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="EulaAgreeCheckBox" Type="CheckBox" X="45" Y="300" Width="230" Height="13" Attributes="2" Property="IAgree" Order="1000" TextLocId="Azure.Control.Text.LicenseAgreementDlg#EulaAgreeCheckBox"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Action="Disable" Condition="IAgree&lt;&gt;&quot;Yes&quot;"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Action="Default" Condition="IAgree=&quot;Yes&quot;"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Action="Enable" Condition="IAgree=&quot;Yes&quot;"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Bitmap" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="HtmlHost" Action="Hide" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Title" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Description" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="EulaAgreeCheckBox" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="PrintButton" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="LicenseAgreementDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.LicenseAgreementDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCheckBoxComponent">
+    <ROW Property="IAgree" Value="Yes"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.TempFileComponent">
+    <ROW FileId="lic.html.742DA8B7" Name="lic~1.htm|lic.html" Directory_="TempFolder\[|ProductCode]\Spring.742DA8B7" Property="Ai_LIC.HTML.742DA8B7" Options="0" Data="&lt;AI_THEMES&gt;spring\resources\html\lic.html" NoTableRefCount="true"/>
+  </COMPONENT>
+</FRAGMENT>

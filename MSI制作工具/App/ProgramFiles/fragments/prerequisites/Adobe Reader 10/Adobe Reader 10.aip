@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F5C72B1_F637_4F96_9D73_65A4C14F2022" DisplayName="Adobe Reader X" VersionMin="10.1"
+      SetupFileUrl="http://ardownload.adobe.com/pub/adobe/reader/win/10.x/10.1.4/en_US/AdbeRdr1014_en_US.exe"
+      Location="1" ExactSize="50844096" MD5="b5516233ac8eb5d0e8faff582138a455"
+      NoUiComLine="/sAll"
+      Operator="1" Options="f" TargetName="Adobe Reader"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F5C72B1_F637_4F96_9D73_65A4C14F2022UpgradeCode" Prereq="F5C72B1_F637_4F96_9D73_65A4C14F2022" SearchType="4"
+      SearchString="{A6EADE66-0000-0000-484E-7E8A45000000}" VerMin="10.1.4"
+      Order="1" Property="PreReqSearch_F5C72B1_F637_4F96_9D73_65A4C14F2022"/>
+  </COMPONENT>
+</FRAGMENT>

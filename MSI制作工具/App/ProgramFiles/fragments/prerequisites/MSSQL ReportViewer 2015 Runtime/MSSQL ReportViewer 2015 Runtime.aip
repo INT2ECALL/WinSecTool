@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="CD4A74EC3515499286E896A4AD01DA85" DisplayName="Microsoft Report Viewer 2015 Runtime" VersionMin="12.0"
+      SetupFileUrl="https://download.microsoft.com/download/A/1/2/A129F694-233C-4C7C-860F-F73139CF2E01/ENU/x86/ReportViewer.msi"
+      Location="1" ExactSize="9347072" MD5="a52f235241a570ddc0f7e72f64658d02"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista x86, Windows Server 2008 x86, Windows 7 RTM x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="f" TargetName="Microsoft Report Viewer 2015 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="CD4A74EC3515499286E896A4AD01DA85Version" Prereq="CD4A74EC3515499286E896A4AD01DA85" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server 2014 Redist\Microsoft Report Viewer 2015 Runtime\Version" VerMin="12.0.2402.15"
+      Order="1" Property="PreReqSearch_CD4A74EC3515499286E896A4AD01DA85"/>
+  </COMPONENT>
+</FRAGMENT>

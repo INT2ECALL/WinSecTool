@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="DDF6AE495A4511855F149F9C7327C8" DisplayName="Visual F# 2.0 SP1 Runtime" VersionMin="2.0"
+      SetupFileUrl="http://download.microsoft.com/download/A/7/1/A7186F15-D846-44F1-A8E1-84A290994C3B/fsharp_redist.exe"
+      Location="1" ExactSize="1214808" MD5="16e3299b9f475ff6f8f297e5e3344333"
+      NoUiComLine="/q"
+      Operator="1" Options="f" TargetName="Visual F# 2.0 SP1 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="DDF6AE495A4511855F149F9C7327C8InstallSuccess" Prereq="DDF6AE495A4511855F149F9C7327C8" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\FSharp\2.0\Runtime\v2.0\Install\InstallSuccess" VerMin="4.0.40219"
+      Order="1" Property="PreReqSearch_DDF6AE495A4511855F149F9C7327C8"/>
+    <ROW SearchKey="DDF6AE495A4511855F149F9C7327C8InstallSuccess_1" Prereq="DDF6AE495A4511855F149F9C7327C8" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\FSharp\2.0\Runtime\v4.0\Install\InstallSuccess" VerMin="4.0.40219"
+      Order="2" Property="PreReqSearch_1_DDF6AE495A4511855F149F9C7327C8"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SearchIndex version="1.0">
+  <View id="MsiPropsComponent">
+    product details
+    name version company support
+    url contact comments
+    control panel icon modify repair remove "register product"
+    software identification tag iso 19770
+    productcode upgradecode upgrade
+  </View>
+
+  <View id="MsiInstPropsComponent">
+    install parameters properties
+    installation application shortcut folders
+    32 64 bit Package
+    per user machine
+    reboots administrators "basic user interface"
+    verbose logging fast optimization restore points costing 
+    progress messages limit "basic ui"
+    "execution level" uac
+  </View>
+
+  <View id="DigCertStoreComponent">
+    digital signature files
+    PFX SPC CER PVK
+    certificates URL time stamp signtool signcode store
+    authenticode
+    LUA patch
+  </View>
+
+  <View id="UpdaterComponent">
+    advanced auto updater updates url check newer version
+    enable configure 
+    downloads deploy automatic updates 
+  </View>
+
+  <View id="MsiUpgradeComponent">
+    upgrades old products rules
+    installer versions 
+    application  installed  computer    
+    upgrades code order "side by side" upgrading "older installs"
+  </View>
+
+  <View id="SerValComponent">
+    licensing  validate  serial number 
+    trial period license keys registration algorithm server 
+    RSA generator black list expiration limited 
+    validation period secure security protect copy theft protection trialware pidkey
+    SKU stock keeping unit
+  </View>
+
+  <View id="PreReqComponent">
+    prerequisites
+    software download install conditions
+    requirement required predefined
+    runtime jre java directx net framework microsoft office activesync wmdc
+    adobe internet explorer msxml silverlight sql visual basic studio 
+    windows installer powershell windows media format runtime 
+    management framework xna vsto "report viewer" large repository lzma
+    chained packages
+    additional Windows Installer packages
+    third party prerequisites requirements msi bundle
+    nested "embedded chainers"
+    "windows features"
+    "windows optional features"
+    "server roles"
+    "roles"
+  </View>
+
+  <View id="MsiLaunchConditionsComponent">
+    launch install conditions 
+    system windows versions minimum memory resolution color quality internet 
+    connection virtual machine net xna explorer IIS directx java SQL ActiveSync
+    Office interop SharePoint custom adobe VSTO PIA "older OS" "older OSes"
+    9x 95 98 "98 SE" Millenium OSR 7 Vista XP 2000 NT Server x64 x86 32 bit
+  </View>
+
+  <View id="MsiMergeModsComponent">
+    merge modules include visual studio 
+    configure configurable msm runtimes third party
+  </View>
+
+  <View id="MsiFilesComponent">
+    files folders shortcuts INI URL XML text update library libraries windows 7
+    operations removal remove duplication duplicate copy move 
+    source path attributes digitally signature version font self register registration permissions
+    uninstall cleanup synchronization import temporary
+    "auto register files" ocx dll dependency "extract registration" txt
+    sharing hash "add file"
+  </View>
+
+  <View id="MsiJavaComponent">
+    java products applications
+    class path native launcher
+    VM parameters
+    MAC OS X package
+    java wrappers virtual machines jvm macosx jre classpath jar bundle pack200
+    "java service" tomcat jrockit bundling bundle "splash screen" "single instance"
+    "64 bit launcher"
+  </View>
+
+  <View id="MsiRegsComponent">
+    registry key entry entries values remove removal string integer binary import export REG classes root machine
+    permissions
+    operations import cleanup
+  </View>
+
+  <View id="MsiExtComponent">
+    file associations extensions progid verb default programs
+    description icon command MIME type arguments 
+    application capabilities 
+  </View>
+
+  <View id="MsiAssemblyComponent">
+    windows assemblies assembly manifest private GAC .NET win32 native images attributes 
+  </View>
+
+  <View id="MsiDriverPackagesComponent">
+    device drivers installation PnP
+    kernel inf
+  </View>
+  
+  <View id="MsiServInstComponent">
+    services install control configure failure operations 
+    type start automatic disabled error win32 load order group dependecies dependency arguments account 
+    actions stop delete parameters
+    settings manager SCM 
+    reboot
+  </View>
+  
+  <View id="TilesComponent">
+    tile tiles foreground text background color logo
+  </View>
+  
+  <View id="MsiOrgComponent">
+    organization package features components resources 
+    GUID condition conditional level
+    attributes transitive overwrite optional reference count 64 bit permanent
+    additional space reserve local source 
+    qualified groups qualifier
+    isolated 
+    organize tree INSTALLLEVEL locally 
+    advertise
+  </View>
+  
+  <View id="MsiMediaComponent">
+    media output package folder file setup
+    compression settings archive
+    multiple builds project
+    CAB/LZMA multiple volumes cd dvd disc 
+    MSI codepage
+    EXE bootstrapper MD5 integrity level metadata
+    pre post build events command run file 
+    code page UTF unicode
+    content mac macosx "multiple install" online
+    "multiple targets"
+    appv app-v
+    appx
+    "desktop bridge"
+    UWP
+    UWA
+    nano server
+    centennial converter
+    universal "universal windows application"
+    "application virtualization" "AES encryption"
+    thinapp vmware summary
+    VM
+    virtual machine
+    run
+    build
+  </View>
+
+  <View id="MultipleInstancesComponent">
+    multiple instances
+  </View>
+  
+  <View id="SccmComponent">
+    sccm definition 
+  </View>
+  
+  <View id="AutorunComponent">
+    CD DVD autorun launcher installer commands autoplay
+  </View>
+  
+  <View id="ActSyncAppComponent">
+    ActiveSync mobile applications groups registered
+    Windows CE application manager install cab wince
+  </View>
+
+  <View id="MsiThemeComponent">
+    package UI themes installer enhanced user interfaces
+    dialog images stretch
+    text styles font color sizes face name aero glass
+    appearance aspect visual look feel 
+    "enhanced user interface" ui banners
+    air azure classic graphite modern spring
+  </View>
+
+  <View id="MsiInstallUISequenceComponent">
+    bootstrapper options pages UI banner image level
+    dialogs installer editor
+    control init properties events conditions widgets 
+    predefined progress modal sequence administrative toolbox
+    preparedlg welcomedlg folderdlg verifyreadydlg progressdlg exitdialog 
+    exitdlg dialog maintenancewelcomedlg maintenancetypedlg customizedlg 
+    verify dlg verifyreadydlg patchwelcomedlg resumedlg adminwelcomedlg 
+    admininstallpointdlg adminbrowsedlg browsedlg canceldlg customizedlg 
+    diskcostdlg errordlg fatalerror filesinuse msirmfilesinuse outofdiskdlg 
+    outofrbdiskdlg userexit waitforcostingdlg EULA license uninstall
+    banners repository billboard print "collect user info" html UI
+  </View>
+
+  <View id="BackgroundImagesComponent">
+    slideshow images installation background 
+  </View>
+
+  <View id="DictionaryComponent">
+    languages multilingual translations dictionary dictionaries 
+    internationalization i18n localization l10n "multi lingual"
+    languages dialog 
+  </View>
+
+  <View id="MsiEnvComponent">
+    environment variables system create append replace modify 
+  </View>
+
+  <View id="ScheduledTasksComponent">
+    scheduled tasks windows run command import triggers
+  </View>
+
+  <View id="CPLAppletComponent">
+    control panel applets 
+  </View>
+
+  <View id="GameUxComponent">
+    games explorer 
+    ratings developers publishers genres
+    content art
+    Windows Media Center
+  </View>
+
+  <View id="FirewallExceptionComponent">
+    Windows Firewall network profiles TCP UDP UPnP ICMP
+    program port rules exceptions
+    global options
+    rules incoming outgoing
+  </View>
+
+  <View id="UserAccountsComponent">
+    users groups accounts
+    permissions entities personas
+  </View>
+
+  <View id="MsiClassComponent">
+    class DCOM COM+ register local inproc server progid handler argument 
+    appid distributed interfaces
+    type library language version 
+  </View>
+
+  <View id="WebApplicationsComponent">
+    Internet Information Services IIS
+    web sites virtual directories applications pool servers https ssl mime ftp
+    asp websites "web application" "application pool" extensions .NET mappings MIME headers authentication
+  </View>
+
+  <View id="MsiOdbcDataSrcComponent">
+    odbc driver translator "data source" attributes
+    system user
+    database 
+  </View>
+
+  <View id="SqlConnectionComponent">
+    SQL scripts executed install MS-SQL server MSDE sqlite mysql Postgre Oracle
+    databases transactions connections catalogue fetch query SSRS deployment
+    report
+  </View>
+
+  <View id="SharePointSlnComponent">
+    SharePoint solutions deployed install deployment GAC CAS features
+  </View>
+  
+  <View id="MsiAppSearchComponent">
+    application files registry folders INI component extended custom searches test
+    configure system subkey enumeration existence
+    requirements find XML 
+  </View>
+
+  <View id="MsiInstExSeqComponent">
+    custom actions program
+    standard installation 
+    comprehensive predefined
+    ui sequence scheduling asynchronous synchronous 
+    immediate deffered rollback commit impersonation condition action data
+    function attached installed script inline visual basic VBS java script JS 64 bit
+    powershell "windows powershell"
+    
+    behavior DLL scripts uninstall rollback launch execute run bat vbscript exe
+    url detect slideshow setproperty
+    "property" oldproducts JScript "synchronous execution" "asynchronous execution"
+    deferred rollback immediate "no impersonation"  "script inline" "error message"
+    "Property Source" "EXE working Dir" "Property Set Formatted"
+    "Directory Set Formatted" "MSI Database relative package"
+    "MSI Database Product Code" "Launch File Open URL"
+    "Launch File Open URL 64 launcher" "Call function standard DLL"
+    "Call function standard DLL 64 DLL" "Resolve known folder"
+    "Add network location" "Remove network location" "net installer class action"
+    "Close application" "Detect process" "Terminate process" "detect service"
+    "check user exists" "Start image slideshow" "Stop immage slideshow"
+    "message box" "Launch File Administrator" "Test ODBC Connection"
+    "Update MSI Edit Controls" "Browse file" "Populate ComboBox" 
+    "Delete ComboBox" "Extract ComboBox Data" "Populate ListBox" 
+    "Delete ListBox" "Extract ListBox Data" "Send install information web server"
+    "Preserve Install Type older version" "Uninstall previous versions"
+    "Play audio file" sound "Check TCP Port" "Get Free TCP Port"
+  </View>
+
+  <View id="MsiDirectEditorComponent">
+    direct tables editor raw
+    MSI custom orca
+    msi diff
+    view transform
+  </View>
+
+  <View id="SilverlightSlnComponent">
+    silverlight solution "out of browser" XAP .NET
+  </View>
+  
+  <View id="AnalyticsComponent">
+    tracking analytics reports
+  </View>
+
+</SearchIndex>

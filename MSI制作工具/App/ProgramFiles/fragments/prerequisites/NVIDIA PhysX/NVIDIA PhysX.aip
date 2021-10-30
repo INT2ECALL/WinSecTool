@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C5DC01FD7DD4B1C82606DDF094DDB60" DisplayName="NVIDIA PhysX 9.15" VersionMin="9.15.0428"
+      SetupFileUrl="http://us.download.nvidia.com/Windows/9.15.0428/PhysX-9.15.0428-SystemSoftware.exe"
+      Location="1" ExactSize="23577376" MD5="1868b5900ba593264adcbc9960aab7d0"
+      Operator="1" Options="xf" TargetName="NVIDIA PhysX"/>
+    <ATTRIBUTE name="GroupName" value="Windows Drivers"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C5DC01FD7DD4B1C82606DDF094DDB60PhysXVersion" Prereq="C5DC01FD7DD4B1C82606DDF094DDB60" SearchType="9"
+      SearchString="HKLM\SOFTWARE\AGEIA Technologies\PhysX Version" RefContent="G9150427"
+      Order="1" Property="PreReqSearch_C5DC01FD7DD4B1C82606DDF094DDB60"/>
+  </COMPONENT>
+</FRAGMENT>

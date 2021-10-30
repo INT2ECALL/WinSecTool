@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D5D54AFFAD641D2B30BF3F03FA9D51C" DisplayName="MSXML 4.0 Parser SP3" VersionMin="4.30"
+      SetupFileUrl="http://download.microsoft.com/download/A/7/6/A7611FFC-4F68-4FB1-A931-95882EC013FC/msxml4-KB2758694-enu.exe"
+      Location="1" ExactSize="2066376" MD5="ef7d4f9092dbfe2460e551d7d7428ff9"
+      ComLine="/l nul"
+      BasicUiComLine="/qb /l nul"
+      NoUiComLine="/quiet /l nul"
+      Operator="1" Options="f" TargetName="MSXML 4.0 Parser SP3"/>
+    <ATTRIBUTE name="GroupName" value="Windows Core Libraries"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D5D54AFFAD641D2B30BF3F03FA9D51CSystemFoldermsxml4.dll" Prereq="D5D54AFFAD641D2B30BF3F03FA9D51C" SearchType="0"
+      SearchString="[SystemFolder]msxml4.dll" VerMin="4.30.2117.0"
+      Order="1" Property="PreReqSearch_D5D54AFFAD641D2B30BF3F03FA9D51C"/>
+  </COMPONENT>
+</FRAGMENT>

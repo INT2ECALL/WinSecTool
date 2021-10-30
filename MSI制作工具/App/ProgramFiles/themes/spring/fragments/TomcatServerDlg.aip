@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="tomcatlogoicon" SourcePath="&lt;AI_THEMES&gt;common-res\images\TomcatLogo.png"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="TomcatLogoIcon" Value="tomcatlogoicon" Type="1"/>
+    <ROW Property="TomcatDlgTitle" Value="" ValueLocId="Azure.Control.Text.TomcatServerDlg#Title"/>
+    <ROW Property="TomcatDlgHostNameLabel" Value="" ValueLocId="Control.Text.TomcatServerDlg#HostNameLabel"/>
+    <ROW Property="TomcatDlgHttpPortLabel" Value="" ValueLocId="Control.Text.TomcatServerDlg#HttpPortLabel"/>
+    <ROW Property="TomcatDlgHttpSslPortLabel" Value="" ValueLocId="Control.Text.TomcatServerDlg#HttpSslPortLabel"/>
+    <ROW Property="TomcatDlgShutdownPortLabel" Value="" ValueLocId="Control.Text.TomcatServerDlg#ShutdownPortLabel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="TomcatServerDlg" Control="HtmlHost" Type="HtmlHost" X="0" Y="0" Width="450" Height="360" Attributes="3" Text="file:///[&amp;tomcat.html.742DA8B7]" Order="100" TextLocId="-" ExtType="HtmlHost" ExtAttributes="2"/>
+    <ROW Dialog_="TomcatServerDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048576" Text="[DialogBitmap]" Order="200"/>
+    <ROW Dialog_="TomcatServerDlg" Control="Next" Type="PushButton" X="350" Y="328" Width="56" Height="17" Attributes="2" Text="[ButtonText_Next]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="TomcatServerDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="TomcatServerDlg" Control="Back" Type="PushButton" X="45" Y="328" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="TomcatServerDlg" Control="Title" Type="Text" X="45" Y="17" Width="382" Height="30" Attributes="196610" TextStyle="TitleFont" Order="600" TextLocId="Azure.Control.Text.TomcatServerDlg#Title"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HostNameLabel" Type="Text" X="45" Y="110" Width="255" Height="11" Attributes="65538" Order="700" TextLocId="Control.Text.TomcatServerDlg#HostNameLabel"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HostNameEdit" Type="Edit" X="45" Y="123" Width="360" Height="18" Attributes="2" Property="AI_TOMCAT_HOSTNAME" Text="{260}" Order="800" TextLocId="Control.Text.TomcatServerDlg#HostNameEdit"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HttpPortLabel" Type="Text" X="45" Y="151" Width="255" Height="11" Attributes="65538" Order="900" TextLocId="Control.Text.TomcatServerDlg#HttpPortLabel"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HttpPortEdit" Type="Edit" X="45" Y="164" Width="360" Height="18" Attributes="2" Property="AI_TOMCAT_HTTP_PORT" Text="{260}" Order="1000" TextLocId="Control.Text.TomcatServerDlg#HttpPortEdit"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HttpSslPortLabel" Type="Text" X="45" Y="192" Width="255" Height="11" Attributes="65538" Order="1100" TextLocId="Control.Text.TomcatServerDlg#HttpSslPortLabel"/>
+    <ROW Dialog_="TomcatServerDlg" Control="HttpSslPortEdit" Type="Edit" X="45" Y="205" Width="360" Height="18" Attributes="2" Property="AI_TOMCAT_HTTPSSL_PORT" Text="{260}" Order="1200" TextLocId="Control.Text.TomcatServerDlg#HttpSslPortEdit"/>
+    <ROW Dialog_="TomcatServerDlg" Control="ShutdownPortLabel" Type="Text" X="45" Y="233" Width="255" Height="11" Attributes="65538" Order="1300" TextLocId="Control.Text.TomcatServerDlg#ShutdownPortLabel"/>
+    <ROW Dialog_="TomcatServerDlg" Control="ShutdownPortEdit" Type="Edit" X="45" Y="246" Width="360" Height="18" Attributes="2" Property="AI_TOMCAT_SHUTDOWN_PORT" Text="{260}" Order="1400" TextLocId="Control.Text.TomcatServerDlg#ShutdownPortEdit"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="TomcatServerDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="TomcatServerDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.TomcatServerDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="TomcatServerDlg" Control_="Next" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="Back" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="HostNameEdit" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="HttpPortEdit" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="HttpSslPortEdit" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="ShutdownPortEdit" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="Title" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="HostNameLabel" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="HttpPortLabel" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="HttpSslPortLabel" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="ShutdownPortLabel" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="Bitmap" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="TomcatServerDlg" Control_="HtmlHost" Action="Hide" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.TempFileComponent">
+    <ROW FileId="tomcat.html.742DA8B7" Name="tom~1.htm|tomcat.html" Directory_="TempFolder\[|ProductCode]\Spring.742DA8B7" Property="Ai_TOMC.HTML.742DA8B7" Options="0" Data="&lt;AI_THEMES&gt;spring\resources\html\tomcat.html" NoTableRefCount="true"/>
+  </COMPONENT>
+</FRAGMENT>

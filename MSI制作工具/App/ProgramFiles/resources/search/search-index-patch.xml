@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SearchIndex version="1.0">
+
+  <View id="MspPropertiesComponent">
+    product details name version comments options patches replace
+  </View>
+  
+  <View id="PatchMetadataComponent">
+    display name information url target description classification hotfix security critical update service pack rollup removal 
+  </View>
+  
+  <View id="DigCertStoreComponent">
+    digital signature files
+    PFX SPC CER PVK
+    certificates URL time stamp signtool signcode store
+    authenticode
+  </View>
+  
+  <View id="MspImageFamiliesComponent">
+    images family families disk upgraded patch package symbols target missing match upgrade database version check relationship 
+  </View>
+  
+  <View id="PatchSequenceComponent">
+    patches sequence family families target image product code sequence supersede options
+  </View>
+  
+  <View id="MspMediaComponent">
+    package output folder file PCP adminstrative cache patch source list
+    bootstrapper name EXE icon command line 
+    pre post build events command run file
+  </View>
+
+</SearchIndex>

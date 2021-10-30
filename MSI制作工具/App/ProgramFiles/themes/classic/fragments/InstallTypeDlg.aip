@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_InstallPerUser" Value="1" Type="4"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="InstallTypeDlg" Control="TemplateDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Next" Type="PushButton" X="236" Y="243" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="100" TextLocId="-" Options="1"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Cancel" Type="PushButton" X="304" Y="243" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Back" Type="PushButton" X="180" Y="243" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="InstallTypeDlg" Control="BannerBitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="44" Attributes="1048577" Text="[BannerBitmap]" Order="400"/>
+    <ROW Dialog_="InstallTypeDlg" Control="BannerLine" Type="Line" X="0" Y="44" Width="372" Height="0" Attributes="1" Order="500"/>
+    <ROW Dialog_="InstallTypeDlg" Control="BottomLine" Type="Line" X="5" Y="234" Width="368" Height="0" Attributes="1" Order="600"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Description" Type="Text" X="25" Y="23" Width="280" Height="15" Attributes="196611" Order="700" TextLocId="Control.Text.InstallTypeDlg#Description"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Logo" Type="Text" X="4" Y="228" Width="70" Height="12" Attributes="1" Order="800" TextLocId="Control.Text.InstallTypeDlg#Logo"/>
+    <ROW Dialog_="InstallTypeDlg" Control="Title" Type="Text" X="15" Y="6" Width="200" Height="15" Attributes="196611" TextStyle="[DlgTitleFont]" Order="900" TextLocId="Control.Text.InstallTypeDlg#Title"/>
+    <ROW Dialog_="InstallTypeDlg" Control="InstallTypeText" Type="Text" X="28" Y="94" Width="332" Height="11" Attributes="196611" Property="INSTALLTYPETEXT" Order="1000" TextLocId="Control.Text.InstallTypeDlg#InstallTypeText"/>
+    <ROW Dialog_="InstallTypeDlg" Control="InstallTypeRadioButtonGroup" Type="RadioButtonGroup" X="25" Y="94" Width="329" Height="61" Attributes="3" Property="AI_InstallPerUser" Order="1100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="InstallTypeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="InstallTypeDlg" Control_="Next" Event="DoAction" Argument="AI_AuthorSinglePackage" Condition="AI_INSTALL" Ordering="100"/>
+    <ROW Dialog_="InstallTypeDlg" Control_="TemplateDlgDialogInitializer" Event="[AI_InstallPerUser]" Argument="0" Condition="1 AND (ALLUSERS=&quot;1&quot;)" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="InstallTypeDlg" HCentering="50" VCentering="50" Width="370" Height="270" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.InstallTypeDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="AI_InstallPerUser" Order="1" Value="1" X="16" Y="21" Width="292" Height="11" TextLocId="RadioButton.Text.InstallTypeDlg#1"/>
+    <ROW Property="AI_InstallPerUser" Order="2" Value="0" X="16" Y="40" Width="292" Height="11" TextLocId="RadioButton.Text.InstallTypeDlg#2"/>
+  </COMPONENT>
+</FRAGMENT>

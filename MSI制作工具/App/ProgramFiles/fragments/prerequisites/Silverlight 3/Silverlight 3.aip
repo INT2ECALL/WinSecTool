@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="BC07791E875348AF8E0C87EA5AEB7FEF" DisplayName="Silverlight 3" VersionMin="3.0"
+      SetupFileUrl="http://download.microsoft.com/download/0/C/4/0C490C52-D317-4BAF-967A-321D58E2670A/runtime/Silverlight.3.0.exe"
+      Location="1" ExactSize="4937608" MD5="6f9297dd7f6feb0289bb2641f0740402"
+      NoUiComLine="/q"
+      Operator="1" Options="f" TargetName="Silverlight 3"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="BC07791E875348AF8E0C87EA5AEB7FEFVersion" Prereq="BC07791E875348AF8E0C87EA5AEB7FEF" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Silverlight\Version" VerMin="3.0.50611.0"
+      Order="1" Property="PreReqSearch_BC07791E875348AF8E0C87EA5AEB7FEF"/>
+  </COMPONENT>
+</FRAGMENT>

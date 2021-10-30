@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C5632EF2411E864CF5A6D6479310" DisplayName="UltiDev Web Server Pro" VersionMin="2.0"
+      SetupFileUrl="http://download.ultidev.com/Products/Cassini/Pro/Build21/UltiDev.WebServer.msi"
+      Location="1" ExactSize="2402816" MD5="f1f32f86aa10a35017271e4824b1cc94"
+      NoUiComLine="/quiet"
+      Operator="1" Options="f" TargetName="UltiDev Web Server Pro?UltiDev.WebServer~2.0.21.msi"/>
+    <ATTRIBUTE name="GroupName" value="Web Server"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C5632EF2411E864CF5A6D6479310UpgradeCode" Prereq="C5632EF2411E864CF5A6D6479310" SearchType="4"
+      SearchString="{F9943FF4-9257-4EAD-8B11-B92B2CD468D0}" VerMin="2.0.21"
+      Order="1" Property="PreReqSearch_C5632EF2411E864CF5A6D6479310"/>
+  </COMPONENT>
+</FRAGMENT>

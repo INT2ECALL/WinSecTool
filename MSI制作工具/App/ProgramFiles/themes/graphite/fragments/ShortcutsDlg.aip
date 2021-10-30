@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_QUICKLAUNCH_SH" Value="1" Type="4"/>
+    <ROW Property="AI_STARTMENU_SH" Value="1" Type="4"/>
+    <ROW Property="AI_DESKTOP_SH" Value="1" Type="4"/>
+    <ROW Property="AI_STARTUP_SH" Value="1" Type="4"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCheckBoxComponent">
+    <ROW Property="AI_QUICKLAUNCH_SH" Value="1"/>
+    <ROW Property="AI_STARTMENU_SH" Value="1"/>
+    <ROW Property="AI_DESKTOP_SH" Value="1"/>
+    <ROW Property="AI_STARTUP_SH" Value="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="ShortcutsDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="525" Height="395" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="ShortcutsDlg" Control="Next" Type="PushButton" X="368" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ShortcutsDlg" Control="Cancel" Type="PushButton" X="436" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ShortcutsDlg" Control="Back" Type="PushButton" X="312" Y="372" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ShortcutsDlg" Control="DesktopShortcutsCheckBox" Type="CheckBox" X="175" Y="164" Width="162" Height="11" Attributes="3" Property="AI_DESKTOP_SH" TextStyle="Normal" Order="500" TextLocId="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" Options="1"/>
+    <ROW Dialog_="ShortcutsDlg" Control="StartmenuShortcutsCheckBox" Type="CheckBox" X="175" Y="186" Width="162" Height="11" Attributes="3" Property="AI_STARTMENU_SH" TextStyle="Normal" Order="600" TextLocId="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" Options="1"/>
+    <ROW Dialog_="ShortcutsDlg" Control="StartupShorcutsCheckBox" Type="CheckBox" X="175" Y="208" Width="162" Height="11" Attributes="3" Property="AI_STARTUP_SH" TextStyle="Normal" Order="700" TextLocId="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" Options="1"/>
+    <ROW Dialog_="ShortcutsDlg" Control="QuickLaunchShorcutsCheckBox" Type="CheckBox" X="175" Y="230" Width="162" Height="11" Attributes="3" Property="AI_QUICKLAUNCH_SH" TextStyle="Normal" Order="800" TextLocId="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" Options="1"/>
+    <ROW Dialog_="ShortcutsDlg" Control="Title" Type="Text" X="11" Y="9" Width="200" Height="15" Attributes="196611" TextStyle="Title" Order="900" TextLocId="Control.Text.ShortcutsDlg#Title"/>
+    <ROW Dialog_="ShortcutsDlg" Control="ShortcutsDlgText" Type="Text" X="175" Y="125" Width="314" Height="25" Attributes="196611" TextStyle="Normal" Order="1000" TextLocId="Control.Text.ShortcutsDlg#ShortcutsDlgText"/>
+    <ROW Dialog_="ShortcutsDlg" Control="GlobalProgress" Type="Bitmap" X="14" Y="88" Width="14" Height="86" Attributes="1048577" Text="[Collecting]" Order="1100"/>
+    <ROW Dialog_="ShortcutsDlg" Control="CollectingLabel" Type="Text" X="35" Y="90" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1200" TextLocId="Graphite.Control.Text.Dlg#CollectingLabel"/>
+    <ROW Dialog_="ShortcutsDlg" Control="PreparingLabel" Type="Text" X="35" Y="114" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1300" TextLocId="Graphite.Control.Text.Dlg#PreparingLabel"/>
+    <ROW Dialog_="ShortcutsDlg" Control="InstallingLabel" Type="Text" X="35" Y="138" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1400" TextLocId="Graphite.Control.Text.Dlg#InstallingLabel"/>
+    <ROW Dialog_="ShortcutsDlg" Control="FinalizingLabel" Type="Text" X="35" Y="162" Width="104" Height="11" Attributes="196611" TextStyle="Labels" Order="1500" TextLocId="Graphite.Control.Text.Dlg#FinalizingLabel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="ShortcutsDlg" Control_="DesktopShortcutsCheckBox" Action="Show" Condition="(Not Installed)"/>
+    <ROW Dialog_="ShortcutsDlg" Control_="StartmenuShortcutsCheckBox" Action="Show" Condition="(Not Installed)"/>
+    <ROW Dialog_="ShortcutsDlg" Control_="QuickLaunchShorcutsCheckBox" Action="Show" Condition="(Not Installed) AND (VersionNT&lt;&quot;601&quot;)"/>
+    <ROW Dialog_="ShortcutsDlg" Control_="QuickLaunchShorcutsCheckBox" Action="Hide" Condition="VersionNT&gt;=&quot;601&quot;"/>
+    <ROW Dialog_="ShortcutsDlg" Control_="StartupShorcutsCheckBox" Action="Show" Condition="(Not Installed)"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="ShortcutsDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="ShortcutsDlg" HCentering="50" VCentering="50" Width="525" Height="395" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.ShortcutsDlg"/>
+  </COMPONENT>
+</FRAGMENT>

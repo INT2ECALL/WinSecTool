@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B5018672_49EF_49D7_BE5C_B5D94D6FDEAD" DisplayName=".NET Framework 3.5 SP1 (web installer)"
+      SetupFileUrl="http://download.microsoft.com/download/0/6/1/061F001C-8752-4600-A198-53214C69B51F/dotnetfx35setup.exe"
+      Location="1" ExactSize="2959376" MD5="c626670633ddcc2a66b0d935195cf2a1"
+      WinNTVersions="Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="xy" TargetName=".NET Framework 3.5 SP1"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B5018672_49EF_49D7_BE5C_B5D94D6FDEADSP" Prereq="B5018672_49EF_49D7_BE5C_B5D94D6FDEAD" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5\SP" RefContent="M1"
+      Order="1" Property="PreReqSearch_B5018672_49EF_49D7_BE5C_B5D94D6FDEAD"/>
+    <ROW SearchKey="B5018672_49EF_49D7_BE5C_B5D94D6FDEADVersion" Prereq="B5018672_49EF_49D7_BE5C_B5D94D6FDEAD" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5\Version" VerMin="3.5.30729"
+      Order="2" Property="PreReqSearch_1_B5018672_49EF_49D7_BE5C_B5D94D6FDEAD"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="EBA7F9_8C84_48DF_9F82_451CAB3EDDDE" DisplayName="Adobe Reader 8" VersionMin="8.3"
+      SetupFileUrl="http://ardownload.adobe.com/pub/adobe/reader/win/8.x/8.3.0/en_US/AdbeRdr830_en_US.msi"
+      Location="1" ExactSize="35445760" MD5="76e0f38f830ab74d76390c7d88a69c81"
+      NoUiComLine="/quiet"
+      Operator="1" Options="f" TargetName="Adobe Reader"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="EBA7F9_8C84_48DF_9F82_451CAB3EDDDEUpgradeCode" Prereq="EBA7F9_8C84_48DF_9F82_451CAB3EDDDE" SearchType="4"
+      SearchString="{A6EADE66-0000-0000-484E-7E8A45000000}" VerMin="8.3.0"
+      Order="1" Property="PreReqSearch_EBA7F9_8C84_48DF_9F82_451CAB3EDDDE"/>
+  </COMPONENT>
+</FRAGMENT>

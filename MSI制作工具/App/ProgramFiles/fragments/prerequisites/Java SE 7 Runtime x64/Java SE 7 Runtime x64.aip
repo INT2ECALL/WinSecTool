@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C036D207A4AB3BE16366CEBCB6C6C" DisplayName="Java SE Runtime Environment 7u80 x64" VersionMin="1.7"
+      SetupFileUrl="http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html"
+      Location="2" ExactSize="0"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64, Windows Vista SP1 x64"
+      Operator="0" Options="xy"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C036D207A4AB3BE16366CEBCB6C6CCurrentVersion" Prereq="C036D207A4AB3BE16366CEBCB6C6C" SearchType="2"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Runtime Environment\CurrentVersion" VerMin="1.7"
+      Order="1" Property="PreReqSearch_C036D207A4AB3BE16366CEBCB6C6C"/>
+    <ROW SearchKey="C036D207A4AB3BE16366CEBCB6C6CJavaRuntimeEnvironment" Prereq="C036D207A4AB3BE16366CEBCB6C6C" SearchType="1"
+      SearchString="HKLM\SOFTWARE\JavaSoft\Java Runtime Environment" VerMin="1.7.0_80"
+      Order="2" Property="PreReqSearch_1_C036D207A4AB3BE16366CEBCB6C6C"/>
+  </COMPONENT>
+</FRAGMENT>

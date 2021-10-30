@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="FolderPage" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="309" Height="222" Attributes="1" Text="[BackgroundSurface]" Order="100"/>
+    <ROW Dialog_="FolderPage" Control="DefBut" Type="PushButton" X="0" Y="0" Width="0" Height="0" Attributes="2" Text="" Order="200" TextLocId="-"/>
+    <ROW Dialog_="FolderPage" Control="FolderEdit" Type="PathEdit" X="15" Y="52" Width="254" Height="20" Attributes="7" Property="APPDIR" Help="|" Order="300" HelpLocId="Control.Help.FolderDlg#FolderEdit"/>
+    <ROW Dialog_="FolderPage" Control="Text" Type="Text" X="15" Y="15" Width="278" Height="30" Attributes="196611" Order="400" TextLocId="Control.Text.FolderDlg#TextNoNext"/>
+    <ROW Dialog_="FolderPage" Control="TotalSpaceText" Type="Text" X="144" Y="81" Width="46" Height="15" Attributes="589827" Property="PrimaryVolumeSpaceRequired" Order="500" TextLocId="Azure.Control.Text.FolderDlg#TotalSpaceText"/>
+    <ROW Dialog_="FolderPage" Control="Browse" Type="ImageButton" X="273" Y="52" Width="21" Height="20" Attributes="3" Text="[browsebutton]" TextStyle="[MetroButtonText]" Order="600" HelpLocId="Control.Help.FolderDlg#Browse" ExtType="ImageButton" ExtDataLocId="Metro.Control.ExtData.WelcomeDlg.BrowseTxt"/>
+    <ROW Dialog_="FolderPage" Control="AvailableSpaceText" Type="Text" X="144" Y="96" Width="46" Height="15" Attributes="589827" Property="PrimaryVolumeSpaceAvailable" Order="700" TextLocId="Azure.Control.Text.FolderDlg#AvailableSpaceText"/>
+    <ROW Dialog_="FolderPage" Control="RemainingSpaceText" Type="Text" X="144" Y="111" Width="46" Height="15" Attributes="589827" Property="PrimaryVolumeSpaceRemaining" Order="800" TextLocId="Azure.Control.Text.FolderDlg#RemainingSpaceText"/>
+    <ROW Dialog_="FolderPage" Control="RemainingSpaceLabel" Type="Text" X="15" Y="111" Width="116" Height="15" Attributes="196611" Property="REMAINING_SPACE_LABEL_PROP" Order="900" TextLocId="Azure.Control.Text.FolderDlg#RemainingSpaceLabel"/>
+    <ROW Dialog_="FolderPage" Control="AvailableSpaceLabel" Type="Text" X="15" Y="96" Width="116" Height="15" Attributes="196611" Property="AVAILABLE_SPACE_LABEL_PROP" Order="1000" TextLocId="Azure.Control.Text.FolderDlg#AvailableSpaceLabel"/>
+    <ROW Dialog_="FolderPage" Control="TotalSpaceLabel" Type="Text" X="15" Y="81" Width="116" Height="15" Attributes="196611" Property="TOTAL_SPACE_LABEL_PROP" Order="1100" TextLocId="Azure.Control.Text.FolderDlg#TotalSpaceLabel"/>
+    <ROW Dialog_="FolderPage" Control="AdvInst" Type="Text" X="5" Y="388" Width="74" Height="15" Attributes="196611" Text="Advanced Installer" TextStyle="[BrandingStyle]" Order="1200"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="FolderPage" Control_="DefBut" Event="[AiStopPageChange]" Argument="{}" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FolderPage" Control_="DefBut" Event="EndDialog" Argument="Return" Condition="1" Ordering="200"/>
+    <ROW Dialog_="FolderPage" Control_="Browse" Event="[_BrowseProperty]" Argument="APPDIR" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FolderPage" Control_="Browse" Event="SpawnDialog" Argument="BrowseDlg" Condition="1" Ordering="200"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="FolderPage" HCentering="50" VCentering="50" Width="309" Height="222" Attributes="3" Control_Default="DefBut" Control_Cancel="DefBut" TitleLocId="Dialog.FolderPage"/>
+  </COMPONENT>
+</FRAGMENT>

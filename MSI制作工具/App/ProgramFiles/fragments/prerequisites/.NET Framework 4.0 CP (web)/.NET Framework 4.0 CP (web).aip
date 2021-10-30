@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.3" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="BC4E030260414C7084118C7E6AF7935B" DisplayName=".NET Framework 4.0 Client Profile (web installer)"
+      SetupFileUrl="http://download.microsoft.com/download/7/B/6/7B629E05-399A-4A92-B5BC-484C74B5124B/dotNetFx40_Client_setup.exe"
+      Location="1" ExactSize="887896" MD5="61446fdd76788229d3ebaeabe84df38c"
+      WinNTVersions="Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="xy" TargetName=".NET Framework 4.0"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="BC4E030260414C7084118C7E6AF7935BInstall" Prereq="BC4E030260414C7084118C7E6AF7935B" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client\Install" RefContent="M1"
+      Order="1" Property="PreReqSearch_BC4E030260414C7084118C7E6AF7935B"/>
+  </COMPONENT>
+</FRAGMENT>

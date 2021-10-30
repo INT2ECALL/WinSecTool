@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Új mappa"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Másolat %s a következőből %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Új változó"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Leírás"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Funkció"/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Új fájl"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Új kulcs"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Új szakasz"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Új érték"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Az Ön terméke"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] nem telepíthető fel, mert az Adobe Reader verziószáma kisebb, mint [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] nem telepíthető fel, mert a színmélység kisebb, mint [AI_REQUIRED_COLOR_QUALITY] bits."/>
+  <STRING id="AI.LaunchCondition.Description" value="Rendszerkövetelmények"/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] nem telepíthető fel, mert a .NET keretrendszer verziószáma kisebb, mint [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] nem telepíthető fel, mert a .NET keretrendszer verziószáma kisebb, mint [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] nem telepíthető fel, mert az Internet Explorer verziószáma kisebb, mint [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] nem telepíthető fel, mert az Internet Information Services verziószáma kisebb, mint [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] nem telepíthető a következő helyre [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] nem telepíthető a következő helyre [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] nem telepíthető a következő helyre [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] nem telepíthető a következő helyre [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] nem telepíthető a következő helyre [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] nem telepíthető a következő helyre [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] telepítéséhez rendszergazdai jogok szükségesek."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] nem telepíthető fel, mert a számítógép fizikai memóriája kevesebb, mint [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] nem telepíthető fel, mert a képernyő felbontása kisebb, mint [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] nem telepíthető fel virtuális gépen futó rendszerre."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] nem telepíthető fel, mert a Windows telepítő verziószáma kisebb, mint [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="Sajátfájl.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Ez a telepítő adatbázis tartalmazza a(z) [|ProductName] telepítéséhez szükséges adatokat."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Az Ön cége"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Beépülő modul"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Ez az adatbázis a következő komponens installációhoz szükséges adatait tartalmazza: &lt;module name&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="Az Ön alkalmazása"/>
+  <STRING id="AI.Property.DefaultValue" value="Az Ön értéke"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Ez a csomag olyan beépülő modult tartalmaz, amely az Advanced Installer próbaváltozatával készült, ezért csak kipróbálás céljából használható."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Ez a csomag az Advanced Installer egy próbaverziójával készült. Kizárólag kipróbálás céljából használhatja."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Figyelmeztetés"/>
+  <STRING id="AI.Registry.DefaultKey" value="Új kulcs"/>
+  <STRING id="AI.Registry.DefaultName" value="Új érték"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="Fajl.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="Ertek"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="SzolgaltatasNev"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="A szolgáltatás leírása"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="A szolgáltatás"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Új megosztás"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Parancsikon a Parancshoz"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Parancsikon: %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Eltávolítás"/>
+  <STRING id="AI.Verb.DefaultCommand" value="Meg&amp;nyitás"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Új fájl"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Telepítési információ"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Keresés ebben:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Tallózás a célkönyvtárhoz"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Új Mappa létrehozása|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Mappanév:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Célkönyvtár megváltoztatása"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Egy szinttel feljebb|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Kérjük, határozzon meg egy hálózati helyet a(z) [ProductName] kiszolgáló image számára"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Írjon be egy új hálózati helyet, vagy kattintson a Tallózásra"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Hálózati hely"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD &amp;Kulcs:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Kérjük, írja be a cégének adatait"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Kéjük, írja be a szervezete nevét az alábbi szövegdobozba. A(z) [ProductName] későbbi telepítéseihez ez lesz az alapbeállítás."/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Céginformáció"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="A [Wizard] létrehoz egy [ProductName] image-et a megadott hálózati helyen. Kattintson a [Text_Next]ra a folytatáshoz, vagy a Mégse gombra a [Wizard] elhagyásához."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="A(z) [ProductName] [Wizard] üdvözli Önt."/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Keresés ebben:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Tallózás a célkönyvtárhoz"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Új Mappa létrehozása|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Mappanév:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Célkönyvtár megváltoztatása"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Egy szinttel feljebb|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Információs ikon|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Biztos, hogy megszakítja a(z) [ProductName] telepítését?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Állítsa be a telepítendő funkciókat."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="Lemez &amp;használat"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Többsoros leírás az éppen kiválasztott elemről."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="A kiválasztott elem mérete"/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;A kiválasztás elérési útja&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Hely:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Kattintson az fában található ikonokra a funkciók telepítési módjának beállításához."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Egyéni telepítés"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Kiválasztások fája"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="A kiválasztott funkciók telepítéséhez szükséges lemezterület"/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Az esetlegesen megjelölt meghajtókon nincs elég terület a kiválasztott funkciók telepítéséhez. Törölhet fájlokat ezekről a meghajtókról, dönthet kevesebb funkció helyi telepítése mellett, vagy választhat más célmeghajtó(ka)t."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Szükséges lemezterület"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Információs ikon|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Információs szöveg"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="A kilépéshez kattintson a Befejezés gombra."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="[ProductName] indítása"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="A(z) [ProductName] [Wizard] befejezése."/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="A readme megtekintése"/>
+  <STRING id="Control.Text.FatalError#Description1" value="A(z) [ProductName] telepítő egy hiba folytán véget ért. Az Ön rendszere nem került módosításra. A program későbbi telepítéséhez kérjük, futtassa újra a telepítőt."/>
+  <STRING id="Control.Text.FatalError#Description2" value="A kilépéshez kattintson a Befejezés gombra."/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] idő előtt véget ért."/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Néhány frissítendő fájl használatban van."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="A következő alkalmazások olyan fájlokat használnak, amelyeket ez a telepítő frissítene. Zárja be ezeket az alkalmazásokat, majd kattintson az Újra gombra a telepítés folytatásához, vagy kattintson a Mégse gombra a kilépéshez."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Használatban lévő fájlok"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Ez az a mappa, ahova a(z) [ProductName] települni fog."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Mappa:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Ebbe a mappába való telepítéshez kattintson a &quot;[Text_Next]&quot; gombra. Másik mappa választásához írja azt be lentebb, vagy kattintson a Tallózásra."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Válassza ki a telepítési mappát"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_hu.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Kérjük, olvassa el a következő licenszszerződést figyelmesen"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Végfelhasználói licenszszerződés"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Telepítés módosítása|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Módosítás"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Lehetővé teszi a felhasználóknak, hogy megváltoztassák a funkciók telepítésének módját."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Válassza ki a végrehajtandó műveletet."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Telepítés eltávolítása|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Eltávolítás"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Eltávolítja a(z) [ProductName] terméket a számítógépről."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Telepítés javítása|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Javítás"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Helyrehozza a legutolsó telepítési állapot hibáit - javítja a hiányzó vagy hibás fájlokat, parancsikonokat, a regisztrációs adatbázis bejegyzéseit."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="A telepítés módosítása, javítása, vagy eltávolítása"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="A [Wizard] segítségével megváltoztathatja a(z) [ProductName] funkcióinak telepítési módját a számítógépen, ill. eltávolíthatja a terméket a gépről. Kattintson a [Text_Next]ra a folytatáshoz, vagy Mégse gombra a kilépéshez."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Üdvözli a(z) [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Nincs elegendő lemezterület a telepítéshez."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Az megjelölt meghajtókon nincs elég terület a kiválasztott funkciók telepítéséhez. Törölhet fájlokat ezekről a meghajtókról, dönthet kevesebb funkció helyi telepítése mellett, vagy választhat más célmeghajtó(ka)t."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Nincs szabad lemezterület."/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Nincs elegendő lemezterület a telepítéshez."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Az megjelölt meghajtókon nincs elég terület a kiválasztott funkciók telepítéséhez. Törölhet fájlokat ezekről a meghajtókról, dönthet kevesebb funkció helyi telepítése mellett, vagy választhat más célmeghajtó(ka)t."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Alternatívaként letilthatja a telepítés visszavonhatóságát. Ez tenné lehetővé a telepítőnek, hogy visszaállítsa a számítógép eredeti állapotát a telepítés megszakítása esetén. Kattintson az Igenre, ha vállalja a visszavonhatóság letiltásának kockázatait."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Nincs szabad lemezterület."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Kérjük, várjon, amíg A [Wizard] előkészíti a telepítést."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Üdvözli a(z) [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Előrehaladás kész"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Állapot:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Kérjük, várjon, amíg A [Wizard] [Progress2] [ProductName] programot. Ez néhány percet igénybe vehet."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Kérjük, olvassa el a következőket figyelmesen"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_hu.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Read me fájl"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="A [Wizard] hamarosan befejezi a(z) [ProductName] telepítését a számítógépen. Kattintson a Telepítésre a folytatáshoz, vagy a Mégse gombra a kilépéshez."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="A(z) [ProductName] [Wizard] folytatása"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Telepítés befejezése|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="Kész"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Minden programfunkció telepítésre kerül. (Ehhez szükséges a legtöbb lemezterület.)"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Egyéni telepítés|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="Egyéni"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Lehetővé teszi a felhasználóknak a telepítendő programfunkciók megválogatását és a telepítés helyét. Javasolt a haladó felhasználóknak."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Válassza ki az igényeinek legjobban megfelelő telepítési módot"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Válasszon telepítési módot"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Tipikus telepítés|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Tipikus"/>
+  <STRING id="Property.Text_Typical" value="Tipikus"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Telepíti a legszokásosabb programfunkciókat. Javasolt a legtöbb felhasználónak."/>
+  <STRING id="Control.Text.UserExit#Description1" value="A telepítő futása félbeszakadt. Az Ön rendszere nem került módosításra. Egy későbbi telepítéshez, kérjük, futtassa újra a telepítőt."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Kattintson a Befejezés gombra a kilépéshez."/>
+  <STRING id="Control.Text.UserExit#Title" value="A(z) [ProductName] [Wizard] futása félbeszakadt."/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Sorozatszám:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Kérjük, írja be a vevőinformációkat"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Felhasználói név:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Szervezet:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Vevőinformáció"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="A [Wizard] készen áll a(z) [ProductName] telepítéshez"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Kattintson a Telepítésre a kezdéshez. Ha újra át akarja nézni vagy átállítani a telepítési beállításokat, kattintson a Vissza gombra. Kilépéshez kattintson a Mégse gombra."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Telepítésre kész"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Azt választotta, hogy eltávolítja a programot a számítógépről."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Kattintson az Eltávolításra, hogy eltávolítsa a(z) [ProductName] terméket a számítógépről. Ha újra át akarja nézni vagy átállítani a telepítési beállításokat, kattintson a Vissza gombra. Kilépéshez kattintson a Mégse gombra."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="[ProductName] eltávolítása"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="A [Wizard] készen áll a(z) [ProductName] javítására."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Kattintson a Javításra, hogy megjavítsa a(z) [ProductName] terméket. Ha újra át akarja nézni vagy átállítani a telepítési beállításokat, kattintson a Vissza gombra. Kilépéshez kattintson a Mégse gombra."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="[ProductName] javítása"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Felkiáltó ikon|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Kérjük, várjon, amíg a telepítő megállapítja a szükséges lemezterület méretét."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="A [Wizard] telepíti a(z) [ProductName] terméket a számítógépen. Kattintson a [Text_Next]ra a folytatáshoz, vagy Mégse gombra a kilépéshez."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Üdvözli a(z) [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="[ProductName] társítása fájltípusokhoz"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] regisztrálja a(z) [ProductName] terméket a következő fájltípusok kezelésére: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Társítások"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Néhány frissítendő fájl jelenleg használatban van."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Jelenleg a következő alkalmazások használják a telepítő által frissíteni kívánt fájlokat."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Használatban lévő fájlok"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] javítást fog telepíteni a következőhöz: [ProductName].  Kattintson a Következő gombra a folytatáshoz vagy a Mégse gombra a kilépéshez."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Üdvözli önt a(z) [ProductName] javító [Wizard]"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Alkalmazás parancsikonok létrehozása"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Asztal"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Gyorsindítás eszköztár"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="[ProductName] parancsikonjainak létrehozása a következő helyeken:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Start menü Programok könyvtár"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Indítási könyvtár"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Parancsikonok beállítása"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Adatbázis:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="SQL kapcsolat beállítása..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC erőforrás:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Jelszó:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Port:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Szerver:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL adatbázis"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Felhasználónév:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="[ProductName] parancsikonjai ebbe a könyvtárba lesznek telepítve."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="A következő elválasztójellel adhat meg telepítési alkönyvtárat: &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Start menü Parancsikonok könyvtár:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Ha szeretné a parancsikonokat a megadott könyvtárba telepíteni, nyomja meg a &quot;Következő&quot; gombot. Más hely megadásához gépelje be az alábbbi mezőbe vagy válassza ki a legördülő listából."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Válassza ki a Start menü parancsikonokat tartalmazó könyvtárát"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Új dialógusablak leírás..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Új dialógusablak"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Új várakozási dialógus ablak"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="[ProductName] régebbi verzióinak keresése és frissítése"/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] megkeresheti a(z) [ProductName] régebbi változatait és eltávolíthatja azokat. Szeretné eltávolítani a régebbi változatokat?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] észlelte, hogy a megadott telepítési helyet a(z) [ProductName] [AI_Replaced_Versions_List] verziója is használja. Ezt a változatot el kell távolítania. Szeretné eltávolítani a régebbi változatot?"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Régebbi változatok frissítése"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Reklámozó alkalmazás"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Hely lefoglalása a Regisztrációs adatbázisban"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Szabad terület: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="Telepített alkalmazások keresése"/>
+  <STRING id="ActionText.Template.AppSearch" value="Tulajdonság: [1], Aláírás: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="Végrehajtható állományok kötése"/>
+  <STRING id="ActionText.Template.BindImage" value="Fájl: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Megfelelő termékek keresése"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Helyigény felmérése"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Helyigény felmérése"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Mappák létrehozása"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Mappa: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Parancsikonok létrehozása"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Parancsikon: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Szolgáltatások törlése"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Szolgáltatás: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Fájlmásolatok létrehozása"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Fájl: [1], Könyvtár: [9], Méret: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="Helyigény felmérése"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Kapcsolódó alkalmazások keresése"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Talált alkalmazás: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Scriptműveletek generálása a következőhöz:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Hálózati telepítőfájlok másolása"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Fájl: [1], Könyvtár: [9], Méret: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Új fájlok másolása"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Fájl: [1], Könyvtár: [9], Méret: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="ODBC komponensek telepítése"/>
+  <STRING id="ActionText.Description.InstallServices" value="Új szolgáltatások telepítése"/>
+  <STRING id="ActionText.Template.InstallServices" value="Szolgáltatás: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Rendszerkatalógus telepítése"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Fájl: [1], Tartozékok: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="A telepítő érvényesítése"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Az indítókörnyezet értékelése"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="A kapcsolódó alkalmazások funkció-állapotainak migrálása."/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Alkalmazás: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Fájlok áthelyezése"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Fájl: [1], Könyvtár: [9], Méret: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Assembly információk publikálása"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Alkalmazáskörnyezet:[1], Assembly név:[2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Assembly információk visszavétele"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Alkalmazáskörnyezet:[1], Assembly név:[2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Fájlok patchelése"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Fájl: [1], Könyvtár: [2], Méret: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Komponens-regisztrációk frissítése"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Minősített komponensek publikálása"/>
+  <STRING id="ActionText.Template.PublishComponents" value="Komponens ID: [1], Minősítő: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Termékfunkciók publikálása"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Funkció: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Termékinformáció publikálása"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Class kiszolgálók regisztrációja"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Class Id: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="COM+ alkalmazások és komponensek regisztrációja"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId: [1]{{, AppType: [2], Users: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Kiterjesztés-szerverek regisztrációja"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Kiterjesztés: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Betűtípusok regisztrációja"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Betűtípus: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="MIME információ regisztrációja"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="MIME tartalomtípus: [1], kiterjesztés: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Termék regisztrációja"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Programazonosítók regisztrációja"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Típuskönyvtárak regisztrációja"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Felhasználó regisztrációja"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Fájlmásolatok eltávolítása"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Fájl: [1], Könyvtár: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Környezeti stringek frissítése"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Név: [1], Érték: [2], Akció [3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Alkalmazások eltávolítása"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Alkalmazás: [1], Parancssor: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Fájlok eltávolítása"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Fájl: [1], Könyvtár: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Mappák eltávolítása"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Mappa: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="INI fájlbejegyzések eltávolítása"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Fájl: [1], Szakasz: [2], Kulcs: [3], Érték: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="ODBC komponensek eltávolítása"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Értékek eltávolítása a regisztrációs adatbázisból"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Kulcs: [1], Név: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Parancsikonok eltávolítása"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Parancsikon: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Megfelelő termékek keresése"/>
+  <STRING id="ActionText.Description.Rollback" value="Visszavonás:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Biztonsági másolatok eltávolítása"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Fájl: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Modulok regisztrációja"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Fájl: [1], Mappa: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Modulregisztrációk eltávolítása"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Fájl: [1], Mappa: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="ODBC könyvtárak inicializálása"/>
+  <STRING id="ActionText.Description.StartServices" value="Szolgáltatások indítása"/>
+  <STRING id="ActionText.Template.StartServices" value="Szolgáltatás: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="Szolgáltatások leállítása"/>
+  <STRING id="ActionText.Template.StopServices" value="Szolgáltatás: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Áthelyezett fájlok eltávolítása"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Fájl: [1], Könyvtár: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Minősített komponensek visszavétele"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Komponens ID: [1], Minősítő: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Termékfunkciók visszavétele"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Funkció: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Termékinformációk visszavétele"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Class kiszolgálók regisztrációjának eltávolítása"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Class Id: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="COM+ Alkalmazások és komponensek regisztrációjának eltávolítása"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Kiterjesztés-szerverek regisztrációjának eltávolítása"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Kiterjesztés: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Betűtípusok regisztrációjának eltávolítása"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Betűtípus: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="MIME infók regisztrációjának eltávolítása"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="MIME tartalomtípus: [1], kiterjesztés: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Programazonosítók regisztrációjának eltávolítása"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Típuskönyvtárak regisztrációjának eltávolítása"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Környezeti beállítások frissítése"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Name: [1], Érték: [2], Akció [3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="INI fájlok írása"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Fájl: [1], Szakasz: [2], Kulcs: [3], Érték: [4]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Regisztrációs adatbázis írása"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Kulcs: [1], Név: [2], Érték: [3]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Felhasználói fiók létrehozása a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Felhasználói csoport létrehozása a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="A kicsomagolt fájlok törlése"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Kicsomagolás az archívumból"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Windows tűzfal beállítások végrehajtása"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Felkészülés a Windows tűzfal beállítására"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Windows tűzfal beállítások végrehajtása"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Windows tűzfal beállítások visszavonása."/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Felkészülés a Windows tűzfal beállítására"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="IIS weboldalak és virtuális könyvtárak létrehozása"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Felkészülés az IIS beállítására"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="IIS weboldalak és virtuális könyvtárak eltávolítása"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="IIS beállítások visszavonása"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Felkészülés az IIS beállítására"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Felkészülés a felhasználói fiókok létrehozására a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Felkészülés a helyi számítógépen lévő könyvtárak megosztására"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Felkészülés a felhasználói csoportok létrehozására a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Felkészülés a feladatok ütemezésére a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Felhasználói fiókok eltávolítása a helyi számítógépről"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Felhasználói csoportok eltávolítása a helyi számítógépről"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Megosztások megszűntetése a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Ütemezett feladatok eltávolítása a helyi számítógépről"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Felhasználói fiókok létrehozásának visszavonása a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Felhasználói csoportok létrehozásának visszavonása a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Megosztások visszavonása a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Feladatütemezések visszavonása a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Feladatok ütemezése a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Könyvtár megosztása a helyi számítógépen"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Installációs SQL parancsfájlok végrehajtása"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Felkészülés az adatbázisok beállítására az installációs SQL parancsfájl végrehajtása érdekében"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Eltávolítási SQL parancsfájlok végrehajtása"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Visszavonási SQL parancsfájlok végrehajtása"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Felkészülés az adatbázisok beállítására az eltávolítási SQL parancsfájl végrehajtása érdekében"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Felkészülés a felhasználói fiókok eltávolítására a helyi számítógépről"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Felkészülés a felhasználói csoportok eltávolítására a helyi számítógépről"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Felkészülés a megosztások megszűtetésére a helyi számítógépről"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Felkészülés az ütemezett feladatok eltávolítására a helyi számítógépről"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="XML fájl beállítások végrehajtása"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Felkészülés az XML fájlok beállítására"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="XML fájl beállítások végrehajtása"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="XML fájl beállítások visszavonása"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Felkészülés az XML fájlok beállítására"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Fiók: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Csoport: [1]"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="A következő Windows tűzfal szabály beállítása: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="A következő Windows tűzfal szabály beállítása:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Windows tűzfal beállítások visszavonása."/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="&quot;[1]&quot; telepítése"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="&quot;[1]&quot; törlése"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Metaadatbázis beállítások visszaállítása"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Fiók: [1], Attribútumok: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Könyvtár: [1], Megosztás neve: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Csoport: [1], Attribútumok: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Feladat neve: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Fiók: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Csoport: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="Megosztás neve: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Feladat neve: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Fiók: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Csoport: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="Megosztás neve: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Feladat neve: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Feladat neve: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Könyvtár: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Kapcsolat: [1]  Parancsfájl: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Kapcsolat: [1]  Parancsfájl: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Kapcsolat: [1]  Parancsfájl: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Fiók: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Csoport: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="Megosztás neve: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="XML fájl beállítása: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="XML fájl beállítása:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="XML fájl beállítások visszavonása"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Végzetes hiba: }}"/>
+  <STRING id="Error.1" value="{{Hiba [1]. }}"/>
+  <STRING id="Error.2" value="Hiba [1]."/>
+  <STRING id="Error.4" value="Infó [1]."/>
+  <STRING id="Error.5" value="A telepítő váratlan hibába ütközött a csomag telepítése folyamán. Lehetséges, hogy a csomag hibás. A hibakód: [1]. {{Az argumentumok: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{A lemez betelt: }}"/>
+  <STRING id="Error.8" value="Akció [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Üzenettípus: [1], Argumentum: [2]"/>
+  <STRING id="Error.12" value="=== Logolás kezdete: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Logolás vége: [Date]  [Time] ==="/>
+  <STRING id="Error.14" value="Akció kezdete [Time]: [1]."/>
+  <STRING id="Error.15" value="Akció vége [Time]: [1]. Visszatérési érték [2]."/>
+  <STRING id="Error.16" value="A hátralévő idő: {[1] perc }{[2] másodperc}"/>
+  <STRING id="Error.17" value="Elfogyott a memória. Zárjon be más alkalmazásokat a folytatáshoz."/>
+  <STRING id="Error.18" value="A telepítő nem válaszol."/>
+  <STRING id="Error.19" value="A telepítő idő előtt véget ért."/>
+  <STRING id="Error.20" value="Kérjük, várjon amíg a Windows beállítja a(z) [ProductName] terméket"/>
+  <STRING id="Error.21" value="Szükséges információk gyűjtése..."/>
+  <STRING id="Error.22" value="Az alkalmazás régebbi verzióinak eltávolítása..."/>
+  <STRING id="Error.23" value="Felkészülés az alkalmazás régebbi verzióinak eltávolítására..."/>
+  <STRING id="Error.32" value="A telepítés sikeresen befejeződött{ - [ProductName]}."/>
+  <STRING id="Error.33" value="A telepítés sikertelen{ - [ProductName]}."/>
+  <STRING id="Error.1101" value="Hiba a fájl olvasása közben: [2]. {{ Rendszerhiba [3].}} Ellenőrizze, hogy a fájl létezik, és hogy hozzá tud férni."/>
+  <STRING id="Error.1301" value="Nem lehet létrehozni a fájlt: &apos;[2]&apos;. Egy könyvtár már létezik ezzel a névvel. Próbálja meg a telepítést egy másik könyvtárba."/>
+  <STRING id="Error.1302" value="Kérjük, helyezze be a lemezt: [2]"/>
+  <STRING id="Error.1303" value="A telepítőnek nincs jogosultsága a könyvtárhoz: [2]. A telepítés nem tud folytatódni. Jelentkezzen be rendszergazdaként, vagy lépjen kapcsolatba vele."/>
+  <STRING id="Error.1304" value="Hiba a fájl írásakor: [2]. Ellenőrizze, hogy van jogosultsága ehhez a könyvtárhoz."/>
+  <STRING id="Error.1305" value="Hiba a fájl olvasásakor: [2]. {{ Rendszerhiba [3].}} Ellenőrizze, hogy a fájl létezik, és hozzáférhető."/>
+  <STRING id="Error.1306" value="Egy másik alkalmazásnak kizárólagos hozzáférése van a fájlhoz: &apos;[2]&apos;. Kérjük, zárja be a többi alkalmazást, majd kattintson az Újra gombra."/>
+  <STRING id="Error.1307" value="Nincs elég szabad terület a fájl telepítéséhez: [2]. Szabadítson fel lemezterületet, majd kattintson az Újra gombra, vagy kilépéshez a Mégse gombra."/>
+  <STRING id="Error.1308" value="A forrásfájl nem található: [2]. Ellenőrizze, hogy a fájl létezik, és hozzáférhető."/>
+  <STRING id="Error.1309" value="Hiba a fájl olvasásakor: [3]. {{ Rendszerhiba [2].}} Ellenőrizze, hogy a fájl létezik, és hozzáférhető."/>
+  <STRING id="Error.1310" value="Hiba a fájl írásakor: [3]. {{ Rendszerhiba [2].}} Ellenőrizze, hogy van hozzáférése a könyvtárhoz."/>
+  <STRING id="Error.1311" value="A forrásfájl nem található{{(cabinet)}}: [2]. Ellenőrizze, hogy a fájl létezik, és hozzáférhető."/>
+  <STRING id="Error.1312" value="Nem lehet létrehozni a könyvtárat: &apos;[2]&apos;. Már van ilyen fájlnév. Kérjük, nevezze át, vagy távolítsa el a fájlt, majd kattintson az Újra gombra a folytatáshoz, vagy kilépéshez a Mégse gombra."/>
+  <STRING id="Error.1313" value="A köteg [2] jelenleg nem elérhető. Kérjük, válasszon másikat."/>
+  <STRING id="Error.1314" value="A megadott elérési út &apos;[2]&apos; jelenleg nem elérhető."/>
+  <STRING id="Error.1315" value="A megadott könyvtár nem írható: [2]."/>
+  <STRING id="Error.1316" value="Hálózati hiba történt a fájl olvasásakor: [2]"/>
+  <STRING id="Error.1317" value="Hiba történt a könyvtár létrehozásakor: [2]"/>
+  <STRING id="Error.1318" value="Hálózati hiba történt a könyvtár létrehozásakor: [2]"/>
+  <STRING id="Error.1319" value="Hálózati hiba történt a cabinet fájl megnyitásakor: [2]"/>
+  <STRING id="Error.1320" value="A megadott elérési út túl hosszú: [2]"/>
+  <STRING id="Error.1321" value="A telepítőnek nincs jogosultsága a következő fájl módosítására: [2]."/>
+  <STRING id="Error.1322" value="Az elérési út egy része hibás: &apos;[2]&apos;. Lehet hogy üres, vagy túllépi a rendszer által megengedett hosszúságot."/>
+  <STRING id="Error.1323" value="Az elérési út &apos;[2]&apos; olyan szót tartalmaz, ami nem szerepelhet elérési útban."/>
+  <STRING id="Error.1324" value="Az elérési út &apos;[2]&apos; nem megengedhető karaktert tartalmaz."/>
+  <STRING id="Error.1325" value="A(z) &apos;[2]&apos; egy nem megengedhető rövid fájlnév."/>
+  <STRING id="Error.1326" value="Hiba a fájlbiztonság lekérdezésekor: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Hibás meghajtó: [2]"/>
+  <STRING id="Error.1328" value="Hiba a fájlpatchelés közben: [2]. Valószínűleg más úton lett módosítva, és ez a patch így nem működik. [Text_Next]i információkért lépjen kapcsolatba az eladóval. {{Rendszerhiba: [3]}}"/>
+  <STRING id="Error.1329" value="Egy szükséges fájlt nem lehet telepíteni, mert a cabinet fájl [2] nincs digitálisan aláírva. Ez azt jelentheti, hogy a cabinet fájl hibás."/>
+  <STRING id="Error.1330" value="Egy szükséges fájlt nem lehet telepíteni, mert a cabinet fájl [2] nincs digitálisan aláírva. Ez azt jelentheti, hogy a cabinet fájl hibás. {{ A(z) [3] hibát a WinVerifyTrust küldte.}}"/>
+  <STRING id="Error.1331" value="CRC hiba történt a fájl másolásakor: [2]."/>
+  <STRING id="Error.1332" value="CRC hiba történt a fájl áthelyezésekor: [2]."/>
+  <STRING id="Error.1333" value="CRC hiba történt a fájl patchelésekor: [2]."/>
+  <STRING id="Error.1334" value="A fájl &apos;[2]&apos; nem telepíthető, mert nem található a cabinet fájlban: &apos;[3]&apos;. Ennek oka lehet hálózati hiba, CD-olvasási hiba, vagy ezen csomag hibája."/>
+  <STRING id="Error.1335" value="A telepítéshez szükséges cabinet fájl &apos;[2]&apos; hibás, és nem használható. Ez jelenthet hálózati problémát, CD-olvasási problémát, vagy a csomag hibáját."/>
+  <STRING id="Error.1336" value="Hiba történt egy telepítéshez szükséges ideiglenes fájl létrehozásakor. {{ Mappa: [3]. Rendszerhibakód: [2]}}"/>
+  <STRING id="Error.1401" value="Nem lehet létrehozni a kulcsot: [2]. {{ Rendszerhiba [3].}} Ellenőrizze, hogy van hozzáférése a kulcshoz, vagy lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1402" value="Nem lehet megnyitni a következő kulcsot: [2]. {{ Rendszerhiba [3].}} Ellenőrizze, hogy van elengedő jogosultsága a kulcshoz, vagy lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1403" value="Nem lehet törölni az értéket ([2]) a kulcsból ([2]). {{ Rendszerhiba [3].}} Ellenőrizze, hogy van elengedő jogosultsága a kulcshoz, vagy lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1404" value="Nem lehet törölni a következő kulcsot: [2]. {{ Rendszerhiba [3].}} Ellenőrizze, hogy van elengedő jogosultsága a kulcshoz, vagy lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1405" value="Nem lehet olvasni az értéket ([2]) a kulcsból: [2]. {{ Rendszerhiba [4].}} Ellenőrizze, hogy van elengedő jogosultsága a kulcshoz, vagy lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1406" value="Nem lehet írni egy értéket ([2]) a kulcsba: [3]. {{ Rendszerhiba [4].}} Ellenőrizze, hogy van elengedő jogosultsága a kulcshoz, vagy lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1407" value="Nem lehet olvasni az értékneveket a következő kulcsból: [2]. {{ Rendszerhiba [3].}} Ellenőrizze, hogy van elengedő jogosultsága a kulcshoz, vagy lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1408" value="Nem lehet olvasni az alkulcs neveket a következő kulcsból: [2]. {{ Rendszerhiba [3].}} Ellenőrizze, hogy van elengedő jogosultsága a kulcshoz, vagy lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1409" value="Nem lehet olvasni a biztonsági információt a következő kulcshoz: [2]. {{ Rendszerhiba [3].}} Ellenőrizze, hogy van elengedő jogosultsága a kulcshoz, vagy lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1410" value="Nem lehet megnövelni a rendelkezésre álló regisztrációs adatbázis területet. [2] KB szabad regisztrációs terület szükséges ezen alkalmazás telepítéséhez."/>
+  <STRING id="Error.1500" value="Egy másik telepítés van folyamatban. Be kell fejeznie azt a telepítést, mielőtt ezt folytathatja."/>
+  <STRING id="Error.1501" value="Hiba a biztosított adat hozzáférésekor. Kérjük, ellenőrizze, hogy a Windows Installer rendesen be van-e állítva, majd próbálja a telepítést újra."/>
+  <STRING id="Error.1502" value="A &apos;[2]&apos; felhasználó előzőleg megkezdte a(z) &apos;[3]&apos; termék telepítését. Neki újra kell kezdenie a telepítést mielőtt használni tudja azt a terméket. Az Ön aktuális telepítése most folytatódik."/>
+  <STRING id="Error.1503" value="A &apos;[2]&apos; felhasználó előzőleg megkezdte a(z) &apos;[3]&apos; termék telepítését. Neki újra kell kezdenie a telepítést mielőtt használhatja azt a terméket."/>
+  <STRING id="Error.1601" value="Elfogyott a szabad lemezterület -- kötet: &apos;[2]&apos;; szükséges terület: [3] KB; rendelkezésre álló terület: [4] KB. Szabadítson fel némi területet, és próbálja újra."/>
+  <STRING id="Error.1602" value="Biztos benne?"/>
+  <STRING id="Error.1603" value="A fájl ([2][3]) használatban van {a következő folyamat által: Név: [4], Id: [5], Ablak neve: &apos;[6]&apos;}. Zárja be azt az alkalmazást, és próbálja újra. "/>
+  <STRING id="Error.1604" value="A(z) &apos;[2]&apos; termék már telepítve van és inkompatibilis ezzel, ezért a telepítés nem folytatható."/>
+  <STRING id="Error.1605" value="Nincs elég szabad hely a köteten ([2]) a telepítés visszaállítható folytatásával. [3] KB szükséges, de csak [4] KB szabad. Kattintson a Mellőz gombra a visszaállítási információk mentése nélküli folytatáshoz. Kattintson az Újra gombra, a szabad hely ismételt ellenőrzéséhez. Kattintson a Mégse gombra a kilépéshez."/>
+  <STRING id="Error.1606" value="Nem lehet hozzáférni a hálózati helyhez: [2]."/>
+  <STRING id="Error.1607" value="A következő alkalmazásokat be kell zárni a folytatás előtt:"/>
+  <STRING id="Error.1608" value="Nem található korábban telepített megfelelő termék a számítógépen ezen termék telepítéséhez."/>
+  <STRING id="Error.1609" value="Egy hiba történt a biztonsági beállítások alkalmazásakor. [2] nem egy valós felhasználó vagy csoport. Ez lehet egy probléma a csomaggal, a domain vezérlőhöz való csatlakozással, vagy a hálózattal. Ellenőrizze a hálózati kapcsolatát, majd kattintson az Újra gombra, vagy a Mégse gombra, a kilépéshez. {{Nem található a felhasználó SID-je, rendszerhiba [3]}}"/>
+  <STRING id="Error.1701" value="A kulcs [2] nem érvényes. Ellenőrizze, hogy jó kulcsot írt-e be."/>
+  <STRING id="Error.1702" value="A telepítőnek újra kell indítania a számítógépet, mielőtt a(z) [2] konfigurációja folytatódhat. Kattintson az Igenre az újraindításhoz, vagy a Nemre, ha később akarja a gépet újraindítani."/>
+  <STRING id="Error.1703" value="A változtatások érvénybe lépéséhez újra kell indítani a gépet. Kattintson az Igenre az újraindításhoz, vagy a Nemre, ha később akarja a gépet újraindítani."/>
+  <STRING id="Error.1704" value="A(z) [2] egy telepítése jelenleg fel van függesztve. Vissza kell vonnia a telepítés által véghezvitt változtatásokat a folytatáshoz. Visszavonja ezeket a változtatásokat?"/>
+  <STRING id="Error.1705" value="Ezen termék egy előző telepítése folyamatban van. Vissza kell vonnia azon telepítést a folytatáshoz. Visszavonja?"/>
+  <STRING id="Error.1706" value="A(z) [2] termékhez egy telepítési csomag nem található. Próbálja újra a telepítést a telepítő csomag ([3]) egy érvényes másolatával."/>
+  <STRING id="Error.1707" value="A telepítés sikeresen véget ért."/>
+  <STRING id="Error.1708" value="A telepítés sikertelen."/>
+  <STRING id="Error.1709" value="Termék: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Visszaállíthatja a számítógépet az előző állapotba, vagy folytathatja később a telepítést. Vissza szeretné állítani?"/>
+  <STRING id="Error.1711" value="Hiba történt a telepítési információ lemezre írása közben. Biztosítson szabad lemezterületet, majd kattintson az Újra gombra, vagy kilépéshez a Mégse gombra."/>
+  <STRING id="Error.1712" value="A számítógép előző állapotának visszaállításához szükséges fájlok legalább egyike nem található. A visszaállítás nem lehetséges."/>
+  <STRING id="Error.1713" value="[2] nem tudja telepíteni a szükséges termékek egyikét. Lépjen kapcsolatba a technikai supporttal. {{Rendszerhiba: [3].}}"/>
+  <STRING id="Error.1714" value="[2] régebbi verzióját nem lehet eltávolítani. Lépjen kapcsolatba a technikai supporttal. {{Rendszerhiba: [3].}}"/>
+  <STRING id="Error.1715" value="Telepítve: [2]"/>
+  <STRING id="Error.1716" value="Konfigurálva: [2]"/>
+  <STRING id="Error.1717" value="Eltávolítva: [2]"/>
+  <STRING id="Error.1718" value="A fájl ([2]) visszautasítva a digitális aláírási szabályzat miatt."/>
+  <STRING id="Error.1719" value="A Windows Telepítő Szolgáltatás nem hozzáférhető. Ez akkor történhet, ha a Windowst Biztonsági üzemmódban futtatja, vagy ha a Windows Telepítő nem lett helyesen telepítve. Segítségért lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1720" value="A telepítő csomaggal probléma adódott. A telepítéshez szükséges egyik script nem futtatható. Lépjen kapcsolatba a supporttal, vagy a csomag eladójával. {{Egyedi akció ([2]) scripthiba ([3]), [4]: [5] [6]. sor, [7]. oszlop, [8] }}"/>
+  <STRING id="Error.1721" value="A telepítő csomaggal probléma adódott. A telepítéshez szükséges egyik script nem futtatható. Lépjen kapcsolatba a supporttal, vagy a csomag eladójával. {{Akció: [2], hely: [3], parancs: [4] }}"/>
+  <STRING id="Error.1722" value="A telepítő csomaggal probléma adódott. A telepítés részeként futó egyik program nem a várakozásnak megfelelően futott le. Lépjen kapcsolatba a supporttal, vagy a csomag eladójával. {{Akció: [2], hely: [3], parancs: [4]}}"/>
+  <STRING id="Error.1723" value="A telepítő csomaggal probléma adódott. Az egyik telepítéshez szükséges DLL nem volt futtatható. Lépjen kapcsolatba a supporttal, vagy a csomag eladójával. {{Akció: [2], bejegyzés: [3], könyvtár: [4]}}"/>
+  <STRING id="Error.1724" value="Az eltávolítás sikeresen véget ért."/>
+  <STRING id="Error.1725" value="Az eltávolítás sikertelen."/>
+  <STRING id="Error.1726" value="A hirdetés sikeresen véget ért."/>
+  <STRING id="Error.1727" value="A hirdetés sikertelen."/>
+  <STRING id="Error.1728" value="A beállítás sikeresen véget ért."/>
+  <STRING id="Error.1729" value="A beállítás sikertelen."/>
+  <STRING id="Error.1730" value="Csak egy Rendszergazda távolíthatja el ezt az alkalmazást. Az alkalmazás eltávolításához lépjen be Rendszergazdaként, vagy segítségért lépjen kapcsolatba a technikai supporttal."/>
+  <STRING id="Error.1801" value="Az elérési út helytelen ([2]). Kérjük, adjon meg egy helyes elérési utat."/>
+  <STRING id="Error.1802" value="Elfogyott a memória. Újbóli próbálkozás előtt zárjon be néhány más alkalmazást."/>
+  <STRING id="Error.1803" value="Nincs lemez a meghajtóban: [2]. Helyezzen be egy lemezt, majd kattintson az Újra gombra, vagy kattintson a Mégse gombra az előzőleg kiválasztott meghajtóhoz."/>
+  <STRING id="Error.1804" value="Nincs lemez a meghajtóban: [2]. Helyezzen be egy lemezt, majd kattintson az Újra gombra, vagy kattintson a Mégse gombra új meghajtó választásához."/>
+  <STRING id="Error.1805" value="A mappa nem létezik: [2]. Kérjük, írjon be egy helyes elérési utat."/>
+  <STRING id="Error.1806" value="Nincs jogosultsága ezen mappa olvasására."/>
+  <STRING id="Error.1807" value="Nem sikerült megállapítani helyes célkönyvtárat a telepítéshez."/>
+  <STRING id="Error.1901" value="Hiba a telepítési forrásadatbázis olvasásakor: [2]."/>
+  <STRING id="Error.1902" value="A [2] fájl átnevezése a következőre: [3]. A művelethez újra kell indítani a számítógépet."/>
+  <STRING id="Error.1903" value="[2] fájl törlése. A művelethez újra kell indítani a számítógépet."/>
+  <STRING id="Error.1904" value="[2] modult nem sikerült regisztrálni. HRESULT [3]. Lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1905" value="[2] modult nem sikerült kiregisztrálni. HRESULT [3]. Lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1906" value="[2] csomagot nem sikerült a gyorsítótárba helyezni. Hiba: [3]. Lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1907" value="[2] betűtípust nem lehetett regisztrálni. Ellenőrizze, hogy van jogosultsága betűtípusok telepítéséhez, valamint hogy a rendszer támogatja ezt a betűtípust."/>
+  <STRING id="Error.1908" value="[2] betűtípus eltávolítása sikertelen. Ellenőrizze, hogy van jogosultsága betűtípusok eltávolításához."/>
+  <STRING id="Error.1909" value="[2] parancsikon létrehozása sikertelen. Ellenőrizze, hogy a célkönyvtár létezik és hozzáférhető."/>
+  <STRING id="Error.1910" value="[2] parancsikon eltávolítása sikertelen. Ellenőrizze, hogy a parancsikon létezik és hozzáférhető."/>
+  <STRING id="Error.1911" value="[2] fájlhoz nem sikerült regisztrálni a típuskönyvtárat. Lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1912" value="[2] fájlhoz nem sikerült kiregisztrálni a típuskönyvtárat. Lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1913" value="Az ini fájl frissítése sikertelen: [2][3]. Ellenőrizze, hogy a fájl létezik és hozzáférhető."/>
+  <STRING id="Error.1914" value="Nem sikerült előjegyezni az újraindítás utáni fájlfelülírást ([2], [3]). Ellenőrizze, hogy jogosult a következő írására: [3]."/>
+  <STRING id="Error.1915" value="Az ODBC meghajtókezelő eltávolítása során a következő ODBC hiba lépett fel: [2]: [3]. Lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1916" value="Az ODBC meghajtókezelő telepítése során a következő ODBC hiba lépett fel: [2]: [3]. Lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1917" value="Hiba az ODBC meghajtó eltávolításakor: [4]. ODBC hiba [2]: [3]. Ellenőrizze, hogy van jogosultsága ODBC meghajtók eltávolításához."/>
+  <STRING id="Error.1918" value="Hiba az ODBC meghajtó telepítésekor: [4][5]. ODBC hiba [2]: [3]. Ellenőrizze, hogy a fájl létezik és hozzáférhető: [4][6]."/>
+  <STRING id="Error.1919" value="Hiba az ODBC adatforrás konfigurálásakor: [4][5]. ODBC hiba [2]: [3]. Ellenőrizze, hogy a fájl létezik és hozzáférhető: [4][6]."/>
+  <STRING id="Error.1920" value="A(z) &apos;[2]&apos; szolgáltatás ([3]) nem indítható. Ellenőrizze, hogy jogosult rendszerszolgáltatások indítására."/>
+  <STRING id="Error.1921" value="A(z) &apos;[2]&apos; szolgáltatás ([3]) nem leállítható. Ellenőrizze, hogy jogosult rendszerszolgáltatások leállítására."/>
+  <STRING id="Error.1922" value="A(z) &apos;[2]&apos; szolgáltatás ([3]) nem törölhető. Ellenőrizze, hogy jogosult rendszerszolgáltatások eltávolítására."/>
+  <STRING id="Error.1923" value="A(z) &apos;[2]&apos; szolgáltatás ([3]) nem telepíthető. Ellenőrizze, hogy jogosult rendszerszolgáltatások telepítésére."/>
+  <STRING id="Error.1924" value="Nem lehetett frissíteni a környezeti változót: &apos;[2]&apos;. Ellenőrizze, hogy jogosult környezeti változók megváltoztatására."/>
+  <STRING id="Error.1925" value="Nincs jogosultsága a telepítéshez valamennyi felhasználó részére. Lépjen be rendszergazdaként, majd próbálja újra."/>
+  <STRING id="Error.1926" value="A biztonsági beállítás sikertelen a fájlnál: &apos;[3]&apos;. Hiba: [2]. Ellenőrizze, hogy rendelkezik a biztonsági beállítások módosításához szükséges jogosultságokkal a fájlon."/>
+  <STRING id="Error.1927" value="A komponensszolgáltatás (COM+ 1.0) nincs telepítve a számítógépen. A telepítő enélkül nem tud sikeresen lefutni. A komponensszolgáltatás elérhető Windows 2000-en."/>
+  <STRING id="Error.1928" value="Hiba történt a COM+ alkalmazás regisztrációja közben. Lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1929" value="Hiba a COM+ alkalmazás kiregisztrációja közben. Lépjen kapcsolatba a supporttal."/>
+  <STRING id="Error.1930" value="A szolgáltatás leírása nem megváltoztatható: &apos;[2]&apos; ([3])"/>
+  <STRING id="Error.1931" value="A Windows Telepítő szolgáltatás nem tudja frissíteni a fájlt ([2]), mert a fájlt a Windows védi. Lehet, hogy frissíteni kell az operációs rendszert a program helyes működéséhez. {{Csomag verziója: [3], OS védett verzió: [4].}}"/>
+  <STRING id="Error.1932" value="A Windows Telepítő szolgáltatás nem tudja frissíteni a védett Windows fájlt: [2]. {{Csomag verzió: [3], OS védett verzió: [4], SFP hiba: [5]}}"/>
+  <STRING id="Error.1933" value="A Windows Telepítő szolgáltatás nem tudta frissíteni a védett Windows fájlok némelyikét. {{SFP hiba: [2]. A védett fájlok listája:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="A gépen a felhasználói telepítéseket a szabályzatban letiltották."/>
+  <STRING id="Error.1935" value="Hiba történt egy assembly komponens telepítésekor: [2]. HRESULT: [3]. {{assembly felület: [4], funkció: [5], assembly név: [6]}}"/>
+  <STRING id="Error.4000" value="Érvénytelen sorozatszám."/>
+  <STRING id="Error.4010" value="A(z) [ProductName] termék egy újabb verziója már telepítve van a számítógépre."/>
+  <STRING id="Error.4020" value="Hiba történt az IIS beállítása közben.&#10;Az előző beállítások visszaállításra kerülnek."/>
+  <STRING id="Error.4021" value="A következő weboldal már létezik a szerveren: &quot;[2]&quot;&#10;&#10;Szeretné kihagyni az oldalt és folytatni a telepítést?"/>
+  <STRING id="Error.4022" value="&quot;[2]&quot; nevű virtuális könyvtár már lézetik a szerver következő weboldalán: &quot;[3]&quot;.&#10;&#10;Szeretné kihagyni az virtuális könyvtárat és folytatni a telepítést?"/>
+  <STRING id="Error.4023" value="Az IIS telepített változata nem támogatott vagy az IIS nincs teljesen feltelepítve!&#10;&#10;Legalább Internet Information Services 5.0 szükséges."/>
+  <STRING id="Error.4024" value="Már fut egy ilyen szerverkapcsolattal rendelkező weboldal.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Nem sikerült a következő felhasználói fiók vagy csoport létrehozása a helyi számítógépen: &apos;[2]&apos;Hibakód: [3]. [4]"/>
+  <STRING id="Error.4102" value="A következő felhasználói fiók vagy csoport már létezik a helyi számítógépen: &apos;[2]&apos;"/>
+  <STRING id="Error.4103" value="A következő felhasználói fiókot vagy csoportot nem sikerült eltávolítani a helyi számítógépről: &apos;[2]&apos;. Hibakód: [3]."/>
+  <STRING id="Error.4104" value="A következő felhasználói fiók vagy csoport nem létezik a helyi számítógépen: &apos;[2]&apos;"/>
+  <STRING id="Error.4105" value="Hiba történt &apos;[2]&apos; megosztásakor a következő néven: &apos;[3]&apos;. Hibaleírás: [4]"/>
+  <STRING id="Error.4106" value="Hiba történt a következő ütemezett feladat létrehozásakor: &apos;[2]&apos;. Hibaleírás: [3]"/>
+  <STRING id="Error.4107" value="Hiba történt a következő ütemezett feladat eltávolításakor: &apos;[2]&apos;. Hibaleírás: [3]"/>
+  <STRING id="Error.4110" value="Nem sikerült lefoglalni a szükséges memóriát."/>
+  <STRING id="Error.4111" value="A fájl nem található: [2]."/>
+  <STRING id="Error.4112" value="A &apos;[2]&apos; fájl nem olvasható."/>
+  <STRING id="Error.4113" value="Elemzési hiba a következő fájlban: &apos;[2]&apos; sor: [3], oszlop: [4]. hibakód: [5]."/>
+  <STRING id="Error.4114" value="Nem támogatott XML kódolás."/>
+  <STRING id="Error.4115" value="Nem sikerült megnyitni a következő fájlt: [2]."/>
+  <STRING id="Error.4116" value="A &apos;[2]&apos; fájl nem írható."/>
+  <STRING id="Error.4117" value="Ismeretlen gyökérelem:&quot;[2]&quot; az XML fájlban: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="Hiba történt a Windows tűzfal beállításakor.&#10;Az előző beállítások visszaállításra kerülnek."/>
+  <STRING id="Error.4121" value="Tűzfal beállítási hiba. Az elérési út vagy fájl nem található: [2]."/>
+  <STRING id="Error.4122" value="Tűzfal beállítási hiba. Nem megfelelő port/protokoll: [2]."/>
+  <STRING id="Error.4123" value="Tűzfal beállítási hiba. Nem megfelelő hálózati érvényességi tartomány: [2]."/>
+  <STRING id="Error.4124" value="Nem sikerült az alkalmazás regisztrálása a Windows tűzfalban: [2]."/>
+  <STRING id="Error.4125" value="Nem sikerült port regisztrálása a Windows tűzfalban: [2]."/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bájt"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="A teljes funkció elérhetetlen lesz"/>
+  <STRING id="UIText.MenuAdvertise" value="A funkció telepítésre kerül, amikor kelleni fog"/>
+  <STRING id="UIText.MenuAllCD" value="A teljes funkció CD-ről fog futni"/>
+  <STRING id="UIText.MenuAllLocal" value="A teljes funkció a merevlemezről fog futni"/>
+  <STRING id="UIText.MenuAllNetwork" value="A teljes funkció a hálózatról fog futni"/>
+  <STRING id="UIText.MenuCD" value="CD-ről fog futni"/>
+  <STRING id="UIText.MenuLocal" value="Merevlemezről fog futni"/>
+  <STRING id="UIText.MenuNetwork" value="Hálózatról fog futni"/>
+  <STRING id="UIText.ScriptInProgress" value="Szükséges információk gyűjtése..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Ez a funkció nem kerül telepítésre"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Ez a funkció telepítésre kerül, amikor kelleni fog"/>
+  <STRING id="UIText.SelAbsentCD" value="Ez a funkció CD-ről fog futni"/>
+  <STRING id="UIText.SelAbsentLocal" value="Ez a funkció merevlemezről fog futni"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Ez a funkció hálózatról fog futni"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Ez a funkció nem lesz elérhető"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Települ, ha szükséges"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Ez a funkció CD-ről lesz futtatható"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Ez a funkció a helyi merevlemezre települ"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Ez a funkció a hálózatról lesz elérhető"/>
+  <STRING id="UIText.SelCDAbsent" value="Ez a funkció teljesen eltávolításra kerül, nem lesz módja CD-ről futtatni"/>
+  <STRING id="UIText.SelCDAdvertise" value="Ez a funkció CD-ről futtatás helyett települni fog, ha szükség lesz rá"/>
+  <STRING id="UIText.SelCDCD" value="Ez a funkció továbbra is CD-ről fog futni"/>
+  <STRING id="UIText.SelCDLocal" value="Ez a funkció CD-ről futtatás helyett a merevlemezre fog települni"/>
+  <STRING id="UIText.SelChildCostNeg" value="Ez a funkció [1] helyet szabadít fel a merevlemezen."/>
+  <STRING id="UIText.SelChildCostPos" value="Ez a funkció [1] helyet igényel a merevlemezen."/>
+  <STRING id="UIText.SelCostPending" value="A funkció helyigényének kiszámítása..."/>
+  <STRING id="UIText.SelLocalAbsent" value="A funkció maradéktalanul eltávolításra kerül"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Ez a funkció eltávolításra kerül a merevlemezről, de települ, ha szükség lesz rá"/>
+  <STRING id="UIText.SelLocalCD" value="Ez a funkció eltávolításra kerül a merevlemezről, de CD-ről továbbra is futtatható lesz"/>
+  <STRING id="UIText.SelLocalLocal" value="Ez a funkció a merevlemezen marad"/>
+  <STRING id="UIText.SelLocalNetwork" value="Ez a funkció eltávolításra kerül a merevlemezről, de hálózatról továbbra is futtatható lesz"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Ez a funkció teljesen eltávolításra kerül, nem lesz futtatható hálózatról sem"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Ez a funkció a hálózatról futtatás helyett települni fog, ha szükség lesz rá"/>
+  <STRING id="UIText.SelNetworkLocal" value="Ez a funkció a hálózatról futtatás helyett települni fog a merevlemezre"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Ez a funkció továbbra is hálózatról fog futni"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Ez a funkció felszabadít [1] helyet a merevlemezen. [2] alfunkciójából [3] van kiválasztva. Az alfunkciók [4] helyet szabadítanak fel a merevlemezen."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Ez a funkció felszabadít [1] helyet a merevlemezen. [2] alfunkciójából [3] van kiválasztva. Az alfunkciók [4] helyet igényelnek a merevlemezen."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Ehhez a funkcióhoz [1] hely szükséges a merevlemezen. [2] alfunkciójából [3] van kiválasztva. Az alfunkciók [4] helyet szabadítanak fel a merevlemezen."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Ehhez a funkcióhoz [1] hely szükséges a merevlemezen. [2] alfunkciójából [3] van kiválasztva. Az alfunkciók [4] helyet igényelnek a merevlemezen."/>
+  <STRING id="UIText.TimeRemaining" value="Hátralévő idő: {[1] perc}{[2] másodperc}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Rendelkezésre álló"/>
+  <STRING id="UIText.VolumeCostDifference" value="Különbség"/>
+  <STRING id="UIText.VolumeCostRequired" value="Szükséges"/>
+  <STRING id="UIText.VolumeCostSize" value="Lemezméret"/>
+  <STRING id="UIText.VolumeCostVolume" value="Kötet"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.IAgree#1" value="Elfogadom a licenszszerződésben foglaltakat"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="Nem fogadom el a licenszszerződésben foglaltakat"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Automatikusan &amp;zárja be az összes alkalmazást, és indítsa újra a gépet, ha a telepítés végzett."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="Ne&amp;zárja be az alkalmazásokat. (Újraindítás szükséges.)"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Igen, társítsa az alábbi fájltípusokat."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Ne, hagyja ki a fájltársítást."/>
+  <!-- Property table -->
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Vissza"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Vissza"/>
+  <STRING id="Property.ButtonText_Browse" value="T&amp;allózás..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Mégse"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Kilépés"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Befejezés"/>
+  <STRING id="Property.Text_Finish" value="Befejezés"/>
+  <STRING id="Property.ButtonText_Ignore" value="Mellőz"/>
+  <STRING id="Property.ButtonText_Install" value="Telepítés"/>
+  <STRING id="Property.Text_Install" value="Telepítés"/>
+  <STRING id="Property.ButtonText_Next" value="Tovább &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="Tovább"/>
+  <STRING id="Property.Text_Next" value="Tovább"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Nem"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="Eltávolít"/>
+  <STRING id="Property.ButtonText_Repair" value="Javítás"/>
+  <STRING id="Property.ButtonText_Reset" value="Alaphelyzet"/>
+  <STRING id="Property.ButtonText_Resume" value="Folytat"/>
+  <STRING id="Property.ButtonText_Retry" value="Újra"/>
+  <STRING id="Property.ButtonText_Return" value="Vissza"/>
+  <STRING id="Property.ButtonText_Yes" value="Igen"/>
+  <STRING id="Property.Text_Yes" value="Igen"/>
+  <STRING id="Property.CtrlEvtchanges" value="változtat"/>
+  <STRING id="Property.CtrlEvtChanging" value="Változtatás"/>
+  <STRING id="Property.CtrlEvtremoves" value="eltávolít"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Eltávolítás"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Javítás"/>
+  <STRING id="Property.CtrlEvtrepairs" value="javít"/>
+  <STRING id="Property.InstallModeComplete" value="Kész"/>
+  <STRING id="Property.InstallModeCustom" value="Egyéni"/>
+  <STRING id="Property.InstallModeTypical" value="Tipikus"/>
+  <STRING id="Property.Progress1" value="Telepítés"/>
+  <STRING id="Property.Progress2" value="telepíti a(z)"/>
+  <STRING id="Property.Setup" value="Telepítő"/>
+  <STRING id="Property.Wizard" value="Telepítő Varázsló"/>
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Ne, telepítse a régebbi változatok mellé."/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Igen, távolítsa el a régebbi változatokat."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Ne, csak a következő változatot távolítsa el: [AI_Replaced_Versions_List]."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Igen, távolítsa el a régebbi változatokat."/>
+</DICTIONARY>

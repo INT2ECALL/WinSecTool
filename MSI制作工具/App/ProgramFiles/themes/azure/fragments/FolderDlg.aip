@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="folderlogoicon" SourcePath="&lt;AI_RES_COLOR&gt;FolderLogo.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="FolderLogoIcon" Value="folderlogoicon" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="FolderDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="FolderDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="FolderDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="FolderDlg" Control="FolderEdit" Type="PathEdit" X="55" Y="141" Width="305" Height="18" Attributes="7" Property="APPDIR" Order="400" Help="|" HelpLocId="Control.Help.FolderDlg#FolderEdit"/>
+    <ROW Dialog_="FolderDlg" Control="Browse" Type="PushButton" X="365" Y="141" Width="70" Height="18" Attributes="3" Text="[ButtonText_Browse]" Order="500" Help="|" TextLocId="-" HelpLocId="Control.Help.FolderDlg#Browse"/>
+    <ROW Dialog_="FolderDlg" Control="Title" Type="Text" X="55" Y="23" Width="378" Height="21" Attributes="196611" TextStyle="TitleFont" Order="600" TextLocId="Azure.Control.Text.FolderDlg#Title"/>
+    <ROW Dialog_="FolderDlg" Control="Text" Type="Text" X="55" Y="76" Width="382" Height="50" Attributes="196611" Order="700" TextLocId="Control.Text.FolderDlg#Text"/>
+    <ROW Dialog_="FolderDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[FolderLogoIcon]" Order="800"/>
+    <ROW Dialog_="FolderDlg" Control="TotalSpaceText" Type="Text" X="220" Y="194" Width="120" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceRequired" Order="900" TextLocId="Azure.Control.Text.FolderDlg#TotalSpaceText"/>
+    <ROW Dialog_="FolderDlg" Control="AvailableSpaceText" Type="Text" X="220" Y="205" Width="120" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceAvailable" Order="1000" TextLocId="Azure.Control.Text.FolderDlg#AvailableSpaceText"/>
+    <ROW Dialog_="FolderDlg" Control="RemainingSpaceText" Type="Text" X="220" Y="216" Width="120" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceRemaining" Order="1100" TextLocId="Azure.Control.Text.FolderDlg#RemainingSpaceText"/>
+    <ROW Dialog_="FolderDlg" Control="RemainingSpaceLabel" Type="Text" X="55" Y="216" Width="160" Height="11" Attributes="196611" Property="REMAINING_SPACE_LABEL_PROP" Order="1200" TextLocId="Azure.Control.Text.FolderDlg#RemainingSpaceLabel"/>
+    <ROW Dialog_="FolderDlg" Control="AvailableSpaceLabel" Type="Text" X="55" Y="205" Width="160" Height="11" Attributes="196611" Property="AVAILABLE_SPACE_LABEL_PROP" Order="1300" TextLocId="Azure.Control.Text.FolderDlg#AvailableSpaceLabel"/>
+    <ROW Dialog_="FolderDlg" Control="TotalSpaceLabel" Type="Text" X="55" Y="194" Width="160" Height="11" Attributes="196611" Property="TOTAL_SPACE_LABEL_PROP" Order="1400" TextLocId="Azure.Control.Text.FolderDlg#TotalSpaceLabel"/>
+    <ROW Dialog_="FolderDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="1500" TextLocId="-" Options="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="FolderDlg" Control_="Browse" Event="[_BrowseProperty]" Argument="APPDIR" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FolderDlg" Control_="Browse" Event="SpawnDialog" Argument="BrowseDlg" Condition="1" Ordering="200"/>
+    <ROW Dialog_="FolderDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="SetTargetPath" Argument="APPDIR" Condition="1" Ordering="200"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="FolderDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="39" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.FolderDlg"/>
+  </COMPONENT>
+</FRAGMENT>

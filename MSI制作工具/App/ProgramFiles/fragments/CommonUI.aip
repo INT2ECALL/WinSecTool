@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT type="ReadOnly" RootPath=".">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="cmdlinkarrow" SourcePath="&lt;AI_RES&gt;binary\command_link.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ErrorDialog" Value="ErrorDlg" ValueLocId="-"/>
+    <ROW Property="INSTALLLEVEL" Value="3" ValueLocId="-"/>
+    <ROW Property="EnableUserControl" Value="1" ValueLocId="-"/>
+    <ROW Property="AppsShutdownOption" Value="All" ValueLocId="-"/>
+    <ROW Property="PROMPTROLLBACKCOST" Value="P" ValueLocId="-"/>
+    <ROW Property="DiskPrompt" Value="[1]" ValueLocId="-"/>
+    <ROW Property="AI_CommitButton" Value="ButtonText_Install" ValueLocId="-"/>
+    <ROW Property="ButtonText_Browse" ValueLocId="Property.ButtonText_Browse"/>
+    <ROW Property="ButtonText_Cancel" ValueLocId="Property.ButtonText_Cancel"/>
+    <ROW Property="ButtonText_Exit" ValueLocId="Property.ButtonText_Exit"/>
+    <ROW Property="ButtonText_Finish" ValueLocId="Property.ButtonText_Finish"/>
+    <ROW Property="ButtonText_Ignore" ValueLocId="Property.ButtonText_Ignore"/>
+    <ROW Property="ButtonText_Install" ValueLocId="Property.ButtonText_Install"/>
+    <ROW Property="ButtonText_No" ValueLocId="Property.ButtonText_No"/>
+    <ROW Property="ButtonText_OK" ValueLocId="Property.ButtonText_OK"/>
+    <ROW Property="ButtonText_Remove" ValueLocId="Property.ButtonText_Remove"/>
+    <ROW Property="ButtonText_Repair" ValueLocId="Property.ButtonText_Repair"/>
+    <ROW Property="ButtonText_Reset" ValueLocId="Property.ButtonText_Reset"/>
+    <ROW Property="ButtonText_Resume" ValueLocId="Property.ButtonText_Resume"/>
+    <ROW Property="ButtonText_Retry" ValueLocId="Property.ButtonText_Retry"/>
+    <ROW Property="ButtonText_Return" ValueLocId="Property.ButtonText_Return"/>
+    <ROW Property="ButtonText_Yes" ValueLocId="Property.ButtonText_Yes"/>
+    <ROW Property="ButtonText_Accept" ValueLocId="Property.ButtonText_Accept"/>
+    <ROW Property="ButtonText_Decline" ValueLocId="Property.ButtonText_Decline"/>
+    <ROW Property="CtrlEvtChanging" ValueLocId="Property.CtrlEvtChanging"/>
+    <ROW Property="CtrlEvtRemoving" ValueLocId="Property.CtrlEvtRemoving"/>
+    <ROW Property="CtrlEvtRepairing" ValueLocId="Property.CtrlEvtRepairing"/>
+    <ROW Property="CtrlEvtchanges" ValueLocId="Property.CtrlEvtchanges"/>
+    <ROW Property="CtrlEvtremoves" ValueLocId="Property.CtrlEvtremoves"/>
+    <ROW Property="CtrlEvtrepairs" ValueLocId="Property.CtrlEvtrepairs"/>
+    <ROW Property="InstallMode" ValueLocId="Property.InstallModeTypical"/>
+    <ROW Property="InstallModeComplete" ValueLocId="Property.InstallModeComplete"/>
+    <ROW Property="InstallModeCustom" ValueLocId="Property.InstallModeCustom"/>
+    <ROW Property="InstallModeTypical" ValueLocId="Property.InstallModeTypical"/>
+    <ROW Property="Setup" ValueLocId="Property.Setup"/>
+    <ROW Property="Wizard" ValueLocId="Property.Wizard"/>
+    <ROW Property="Progress1" ValueLocId="Property.Progress1"/>
+    <ROW Property="Progress2" ValueLocId="Property.Progress2"/>
+    <ROW Property="AiPrerequisitesColums" Value="PrereqLabel,PrereqReq,PrereqFound,PrereqAction" ValueLocId="-"/>
+    <ROW Property="Text_Next" ValueLocId="Property.Text_Next"/>
+    <ROW Property="Text_Install" ValueLocId="Property.Text_Install"/>
+  </COMPONENT>
+</FRAGMENT>

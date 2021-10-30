@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="ProgressPrereqDlg" Sequence="300" Condition="AI_BOOTSTRAPPER AND AI_MISSING_PREREQS" SeqType="3"/>     
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="ProgressPrereqDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="1" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="1" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="Title" Type="Text" X="55" Y="23" Width="378" Height="21" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Azure.Control.Text.ProgressDlg#Title"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="ProgressBar" Type="ProgressBar" X="55" Y="160" Width="360" Height="14" Attributes="65537" Order="600" TextLocId="Control.Text.ProgressDlg#ProgressBar"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="Description" Type="Text" X="55" Y="190" Width="330" Height="11" Attributes="196611" Order="700" TextLocId="Azure.Control.Text.ProgressPrereqDlg#Description"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[InstallLogoIcon]" Order="800"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control="ActionText" Type="Text" X="55" Y="135" Width="330" Height="11" Attributes="196611" Order="900"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="ProgressPrereqDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="ProgressPrereqDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="1" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.ProgressPrereqDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEventMappingComponent">
+    <ROW Dialog_="ProgressPrereqDlg" Control_="ProgressBar" Event="SetProgress" Attribute="Progress"/>
+    <ROW Dialog_="ProgressPrereqDlg" Control_="ActionText" Event="ActionText" Attribute="Text"/>
+  </COMPONENT>
+</FRAGMENT>

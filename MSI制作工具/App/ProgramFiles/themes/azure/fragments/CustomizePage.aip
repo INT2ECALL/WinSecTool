@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="CustomizePage" Control="Background" Type="Bitmap" X="0" Y="0" Width="416" Height="287" Attributes="1" Text="[TabBackground]" Order="100"/>
+    <ROW Dialog_="CustomizePage" Control="Description" Type="Text" X="9" Y="15" Width="314" Height="12" Attributes="196611" Order="200" TextLocId="Control.Text.CustomizeDlg#FeatsShortDescription"/>
+    <ROW Dialog_="CustomizePage" Control="Tree" Type="SelectionTree" X="9" Y="39" Width="398" Height="200" Attributes="7" Property="_BrowseProperty" Order="300" TextLocId="Control.Text.CustomizeDlg#Tree"/>
+    <ROW Dialog_="CustomizePage" Control="DefBut" Type="PushButton" X="0" Y="0" Width="0" Height="0" Attributes="2" Text="" Order="400" TextLocId="-"/>
+    <ROW Dialog_="CustomizePage" Control="ItemDescription" Type="Text" X="9" Y="245" Width="194" Height="30" Attributes="196611" Order="500" TextLocId="Azure.Control.Text.CustomizeDlg#ItemDescription"/>
+    <ROW Dialog_="CustomizePage" Control="TotalSpaceText" Type="Text" X="368" Y="245" Width="35" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceRequired" Order="600" TextLocId="Azure.Control.Text.CustomizeDlg#TotalSpaceText"/>
+    <ROW Dialog_="CustomizePage" Control="AvailableSpaceText" Type="Text" X="349" Y="256" Width="35" Height="11" Attributes="589827" Property="PrimaryVolumeSpaceAvailable" Order="700" TextLocId="Azure.Control.Text.CustomizeDlg#AvailableSpaceText"/>
+    <ROW Dialog_="CustomizePage" Control="AvailableSpaceLabel" Type="Text" X="257" Y="256" Width="96" Height="11" Attributes="196611" Text="Space available on drive: " Order="800" TextLocId="Azure.Control.Text.CustomizeDlg#AvailableSpaceLabel"/>
+    <ROW Dialog_="CustomizePage" Control="TotalSpaceLabel" Type="Text" X="257" Y="245" Width="111" Height="11" Attributes="196611" Order="900" TextLocId="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="CustomizePage" Control_="DefBut" Event="[AiStopPageChange]" Argument="{}" Condition="1" Ordering="100"/>
+    <ROW Dialog_="CustomizePage" Control_="DefBut" Event="EndDialog" Argument="Return" Condition="1" Ordering="200"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="CustomizePage" HCentering="50" VCentering="50" Width="415" Height="287" Attributes="3" Control_Default="DefBut" Control_Cancel="DefBut" TitleLocId="Dialog.CustomizePage"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEventMappingComponent">
+    <ROW Dialog_="CustomizePage" Control_="ItemDescription" Event="SelectionDescription" Attribute="Text"/>
+  </COMPONENT>
+</FRAGMENT>

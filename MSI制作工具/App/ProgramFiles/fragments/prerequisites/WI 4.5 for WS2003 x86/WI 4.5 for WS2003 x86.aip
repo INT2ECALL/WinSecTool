@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="BF783963_A874_42CF_9591_57A2F86C3B27" DisplayName="Windows Installer 4.5 for Windows Server 2003 x86" VersionMin="4.5"
+      SetupFileUrl="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/WindowsServer2003-KB942288-v4-x86.exe"
+      Location="1" ExactSize="3071512" MD5="4cf13a65c32e5b9495fc16847e2a4e56"
+      WinNTVersions="Windows XP SP3 x86, Windows Vista x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="y" TargetName="Windows Installer 4.5"/>
+    <ATTRIBUTE name="GroupName" value="Windows Installer"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="BF783963_A874_42CF_9591_57A2F86C3B27SystemFoldermsi.dll" Prereq="BF783963_A874_42CF_9591_57A2F86C3B27" SearchType="0"
+      SearchString="[SystemFolder]msi.dll" VerMin="4.5.6001.22159"
+      Order="1" Property="PreReqSearch_BF783963_A874_42CF_9591_57A2F86C3B27"/>
+  </COMPONENT>
+</FRAGMENT>

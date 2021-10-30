@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="is" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Nýr Mappa"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Afrit %s af %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Nýr Breyta"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Lýsing"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Lögun"/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Nýr skrá"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Nýr Lykill"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Nýr Hluti"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Nýr Gildi"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="villa.trjábolur"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="framleiðsla.trjábolur"/>
+  <STRING id="AI.Java.DefaultProductName" value="Þinn Vara"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] geta ekki vera setja í embætti á kerfi með Adobe Reader útgáfa lítill en [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] geta ekki vera setja í embætti á kerfi með Kölnarvatn gæði lítill en [AI_REQUIRED_COLOR_QUALITY] bits."/>
+  <STRING id="AI.LaunchCondition.Description" value="Sjósetja Ástand Lýsing"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] geta ekki vera setja í embætti á kerfi með DirectX útgáfa lítill en [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] geta ekki vera setja í embætti á kerfi með .NET Burðargrind útgáfa lítill en [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] geta ekki vera setja í embætti á kerfi með .NET Burðargrind útgáfa lítill en [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] geta ekki vera setja í embætti á kerfi með Landkönnuður útgáfa lítill en [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] geta ekki vera setja í embætti á kerfi með Upplýsingar Þjónusta útgáfa lítill en [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] geta ekki vera setja í embætti á kerfi með JRE útgáfa lítill en [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] cannot be installed on [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] cannot be installed on [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] cannot be installed on [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] cannot be installed on [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] cannot be installed on [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] þurfa stjórnar- forréttindi til setja í embætti."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] geta ekki vera setja í embætti á kerfi með minna líkamlegur minni en [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] geta ekki vera setja í embætti á kerfi með skjár einbeitni lítill en [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] geta ekki vera setja í embætti á kerfi hlaupandi á raunverulegur vél."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] geta ekki vera setja í embætti á kerfi með Gluggakista Setja í embætti útgáfa lítill en [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="Þinn Skrá.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="This setja í embætti gagnasafn innihalda the rökfræði og gögn þurfa til setja í embætti [|ProductName]."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Þinn Fyrirtæki"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Þinn Steypa saman Mát "/>
+  <STRING id="AI.Property.DefaultMsmComments" value="This gagnasafn innihalda the rökfræði og gögn þurfa til setja í embætti &lt;mát nafn&gt; hluti."/>
+  <STRING id="AI.Property.DefaultProductName" value="Þinn Umsókn"/>
+  <STRING id="AI.Property.DefaultValue" value="Þinn Gildi"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="This pakki innihalda óákveðinn greinir í ensku Steypa saman Mát hver hefur been skapa með a réttarhald útgáfa af Advanced Installer. Þú mega nota það fyrir gildismat tilgangur eini."/>
+  <STRING id="AI.Property.TrialMessageBody" value="This pakki var skapa með a réttarhald útgáfa af Advanced Installer. Þú mega nota það fyrir gildismat tilgangur eini."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Viðvörun"/>
+  <STRING id="AI.Registry.DefaultKey" value="Nýr_Lykill"/>
+  <STRING id="AI.Registry.DefaultName" value="Nýr Gildi"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="Þinn Skrá.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="ÞinnGildi"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="ÞjónustaNafn"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Þinn Þjónusta Lýsing"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Þinn Þjónusta"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Nýr Hluti"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Smákaka til Þinn Stjórn"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Smákaka til %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Uninstall"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Opinn"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Setja í embætti Upplýsingar"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Skapa A Nýr Mappa|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Upp Einn Láréttur flötur |"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Skapa A Nýr Mappa|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Upp Einn Láréttur flötur |"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Upplýsingar helgimynd|"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Upplýsingar helgimynd|"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Breyta Embættisvígsla|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Fjarlægja Embættisvígsla|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Gera við Embættisvígsla|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Heill Embættisvígsla|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Siðvenja Embættisvígsla|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Dæmigerður Embættisvígsla|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Upphrópun helgimynd|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Líta inn:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Beit til the ákvörðunarstaður mappa"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Folder Nafn:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Breyting straumur ákvörðunarstaður mappa"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Þóknast tilgreina a net staðsetning fyrir the framreiðslumaður ímynd af [ProductName] vara"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Koma inn í a nýr net staðsetning eða smellur Beit til beit til one."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Net Staðsetning"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD &amp;Lykill:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Þóknast koma inn í þinn fyrirtæki upplýsingar"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Þóknast koma inn í the nafn af þinn organization í the kassi niðri. This vilja vera notaður eins og vanræksla fyrirtæki nafn fyrir síðari embættisvígsla af [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Fyrirtæki Upplýsingar"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="The [Wizard] vilja skapa a framreiðslumaður ímynd af [ProductName], á a skilgreinanlegur net staðsetning. Smellur Næstum því halda áfram eða Hætta við til útgangur the [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Velkominn til the [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Líta inn:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Beit til the ákvörðunarstaður mappa"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Folder Nafn:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Breyting straumur ákvörðunarstaður mappa"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Ert þú viss þú vilja til hætta við [ProductName] embættisvígsla?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Velja the vegur þú vilja lögun til vera installed."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="Diskur &amp;Notkun"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Fjöltyngdur lýsing af the eins og er herkvaddur maður atriði."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="The stærð af the eins og er herkvaddur maður atriði."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;The val&apos;s gangstígur&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Staðsetning:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Smellur á the helgimynd í the tré niðri til breyting the vegur lögun vilja vera installed."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Siðvenja Skipulag"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Tré af val"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="The diskur rúm þurfa fyrir the embættisvígsla af the herkvaddur maður lögun."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="The hápunktur bindi (ef allir) gera ekki hafa nógur diskur rúm laus fyrir the eins og er herkvaddur maður lögun. Þú geta annar hvor fjarlægja sumir skrá frá the hápunktur bindi , eða velja til setja í embætti minna lögun á heimamaður ökuferð (s), eða velja ólíkur ákvörðunarstaður ökuferð (s)"/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Diskur Rúm Þörf"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Upplýsingar texti"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Smellur the Ljúka við hnappur til útgangur the [Wizard]."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Sjósetja [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Endalok the [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Útsýni lesa skrá"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Félagi [ProductName] með skrá tegund."/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Töframaður] vilja skrá [ProductName] til handleika the hópur stuðningsmanna skrá tegund: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Skrá Félag"/>
+  <STRING id="Control.Text.FatalError#Description1" value="[ProductName] skipulag ended of snemma því af óákveðinn greinir í ensku villa. Þinn kerfi hefur ekki been ákvæðisorð. Til setja í embætti this program á a seinna tími , þóknast hlaupa the embættisvígsla aftur."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Smellur the Ljúka við hnappur til útgangur the [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] ended of snemma"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Sumir skrá þessi þörf til vera endurnýja ert eins og er í use."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value=" The hópur stuðningsmanna umsókn ert using skrá þessi þörf til vera endurnýja við this skipulag. Þú geta annar hvor loka the umsókn og þá smellur Rekja , eða smellur Hunsa svo þessi the setja í embætti halda áfram the embættisvígsla og skipta um þessir skrá hvenær þinn kerfi ræsa á ný."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Skrá í Nota"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="This er the mappa hvar [ProductName] vilja vera installed."/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Mappa:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Til setja í embætti í this mappa, smellur &quot;Næstum því&quot;. setja í embætti til a ólíkur mappa , koma inn í það niðri eða smellur &quot;Beit&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Velja Embættisvígsla Mappa"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_is.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Þóknast lesa the hópur stuðningsmanna leyfisveitandi samkomulag vandlega"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Endir-Notandi Leyfisveitandi Samkomulag"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Breyta"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Leyfa notandi til breyting the vegur lögun ert installed."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Velja the gangur þú vilja til framkvæma."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Fjarlægja"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Fjarlægja [ProductName] frá þinn tölva."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Re&amp;pair"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Gera við villa í the nýlegur embættisvígsla ástand fastur sem vantar eða siðspilltur skrá , smákaka og skrásetning entries."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Breyta , Gera við eða Fjarlægja embættisvígsla"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="The [Wizard] vilja leyfa þú til breyting the vegur [ProductName] lögun ert setja í embætti á þinn tölva eða jafnvel til fjarlægja [ProductName] frá þinn tölva. Smellur Næstum því halda áfram eða Hætta við til útgangur the [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Velkominn til the [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Sumir skrá þessi þörf til vera endurnýja ert eins og er í use."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="The hópur stuðningsmanna umsókn ert using skrá þessi þörf til vera endurnýja við this skipulag."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Skrá í Nota"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Diskur rúm þurfa fyrir the embættisvígsla vera meiri en laus diskur rúm."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="The hápunktur bindi gera ekki hafa nógur diskur rúm laus fyrir the eins og er herkvaddur maður lögun. Þú geta annar hvor fjarlægja sumir skrá frá the hápunktur bindi , eða velja til setja í embætti minna lögun á heimamaður ökuferð (s), eða velja ólíkur ákvörðunarstaður ökuferð (s)"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Út af Diskur Rúm"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Diskur rúm þurfa fyrir the embættisvígsla vera meiri en laus diskur rúm."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="The hápunktur bindi gera ekki hafa nógur diskur rúm laus fyrir the eins og er herkvaddur maður lögun. Þú geta annar hvor fjarlægja sumir skrá frá the hápunktur bindi , eða velja til setja í embætti minna lögun á heimamaður ökuferð (s), eða velja ólíkur ákvörðunarstaður ökuferð (s)."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Val , þú mega velja til gera óvinnufæran the setja í embætti rollback virkni. This leyfa the setja í embætti til skila aftur þinn tölva&apos;s frumeintak ástand öxl the embættisvígsla vera trufla í allir vegur. Smellur Já ef þú vilja til taka the hætta á til gera óvinnufæran rollback."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Út af Diskur Rúm"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="The [Wizard] vilja setja í embætti the Pjatla fyrir [ProductName] á þinn tölva. Smellur Næstum því halda áfram eða Hætta við til útgangur the Pjatla [Wizard]."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Velkominn til [ProductName] Pjatla [Wizard]"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Þóknast bíða á meðan the [Wizard] undirbúa til fylgja þú í gegnum the embættisvígsla."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Velkominn til [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Framfarir "/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Staða:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Þóknast bíða á meðan the [Wizard] [Progress2] [ProductName]. This mega taka nokkrir mínúta."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Þóknast lesa the hópur stuðningsmanna texti vandlega"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_is.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Lesa mig skrá"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="The [Wizard] vilja heill the embættisvígsla af [ProductName] á þinn tölva. Smellur Setja í embætti til halda áfram eða Hætta við til útgangur the [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Byrja aftur á the [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="C&amp;omplete"/>
+  <STRING id="Property.Text_Complete" value="Complete"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Allur program lögun vilja vera setja í embætti. ( þurfa diskur rúm )"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="C&amp;ustom"/>
+  <STRING id="Property.Text_Custom" value="Custom"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Leyfa notandi til velja hver program lögun vilja vera setja í embætti og hvar þeir vilja vera setja í embætti. Mæla með fyrir háþróaður notandi."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Velja the skipulag tegund þessi bestur föt þinn af nauðsyn"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Velja Skipulag Tegund"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Dæmigerður"/>
+  <STRING id="Property.Text_Typical" value="Dæmigerður"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Setja í embætti the sameiginlegur program lögun. Mæla með fyrir notandi."/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Skapa umsókn smákaka"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Skrifborð"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Fljótur Sjósetja tækjastika"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Skapa smákaka fyrir [ProductName] í the hópur stuðningsmanna staðsetning:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Byrjun Matseðill Programs mappa"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Gangsetning mappa"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Stilla Smákaka"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Gagnasafn:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Stilla SQL Tengsl..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC Úrræði:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Lykilorð:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Höfn:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Framreiðslumaður:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL Gagnasafn"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Notandi nafn:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="This er the mappa hvar [ProductName] smákaka vilja vera installed."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Í röð til setja í embætti í a subfolder , auka við the subfolder nafn , aðskilinn við a &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Byrjun Matseðill Smákaka Mappa:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Til setja í embætti smákaka í this mappa , smellur &quot;Næstum því&quot;. setja í embætti til a ólíkur mappa , koma inn í það niðri eða velja einn frá the greiða box."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Velja the Byrjun Matseðill Smákaka Mappa"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Nýr Valmynd Lýsing..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Nýr Valmynd"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Nýr Spawn (Wait) Valmynd"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Leita og uppfærsla gamall útgáfa af [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] geta leita að gamall útgáfa af [ProductName] og fjarlægja þá. Gera þú vilja til fjarlægja þessir útgáfa?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] had uppgötva þessi þú velja óákveðinn greinir í ensku setja í embætti staðsetning hver er einnig notaður við the [AI_Replaced_Versions_List] útgáfa af [ProductName]. This útgáfa verða vera uninstalled. Gera þú einnig vilja til fjarlægja allir annar gamall útgáfa?"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Uppfærsla Gamall Útgáfa"/>
+  <STRING id="Control.Text.UserExit#Description1" value="[ProductName] skipulag var trufla. Þinn kerfi hefur ekki been ákvæðisorð. Til setja í embætti this program á a seinna tími , þóknast hlaupa the embættisvígsla aftur."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Smellur the Ljúka við hnappur til útgangur the [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName] [Wizard] var trufla"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Raðnúmer:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Þóknast koma inn í þinn viðskiptavinur upplýsingar"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Notandi Nafn:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Organization:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Viðskiptavinur Upplýsingar"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="The [Wizard] er tilbúinn til byrja the [ProductName] embættisvígsla"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Smellur Setja í embætti til byrja the embættisvígsla. Ef þú vilja til rifja upp eða breyting allir af þinn embættisvígsla stilling , smellur Bak. Smellur Hætta við til útgangur the töframaður."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Tilbúinn til Setja í embætti"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Þú hafa útvalinn til fjarlægja the program frá þinn tölva."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Smellur Fjarlægja til fjarlægja [ProductName] frá þinn tölva. Ef þú vilja til rifja upp eða breyting allir af þinn embættisvígsla stilling , smellur Bak. Smellur Hætta við til útgangur the töframaður."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Fjarlægja [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="The [Wizard] er tilbúinn til byrja the gera við af [ProductName]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Smellur Fara til gera við the embættisvígsla af [ProductName]. Ef þú vilja til rifja upp eða breyting allir af þinn embættisvígsla stilling , smellur Bak. Smellur Hætta við til útgangur the töframaður."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Gera við [ProductName]"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Þóknast bíða á meðan the setja í embætti fullgerður löghyggja þinn diskur rúm þörf."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="The [Wizard] vilja setja í embætti [ProductName] á þinn tölva. Smellur Næstum því halda áfram eða Hætta við til útgangur the [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Velkominn til [ProductName] [Wizard]"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Auglýsingar umsókn"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Kreatín notandi reikningur á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Kreatín notandi hópur á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Brottfelling skrá þykkni frá skjalasafn"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Útdráttur skrá frá skjalasafn"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Kreatín IIS Vefur Staður og Raunverulegur Framkvæmdarstjóra-"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Kynslóð aðgerð til stilla Upplýsingar Þjónusta"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Færanlegur IIS Vefur Staður og Raunverulegur Framkvæmdarstjóra-"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Veltingur bak IIS stelling"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Kynslóð aðgerð til stilla Upplýsingar Þjónusta"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Kynslóð aðgerð til skapa notandi reikningur á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Kynslóð aðgerð til hluti mappa á the heimamaður tölva:"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Kynslóð aðgerð til skapa notandi hópur á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Kynslóð aðgerð til tímaáætlun verkefni á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Færanlegur notandi reikningur frá the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Færanlegur notandi hópur frá the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Færanlegur mappa hluti frá the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Færanlegur tímaáætlun verkefni frá the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Veltingur bak the sköpun af notandi reikningur á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Veltingur bak the sköpun af notandi hópur á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Veltingur bak the mappa hluti á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Veltingur bak tímaáætlun verkefni á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Tímaáætlun verkefni á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Hluti mappa á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Framkvæmd setja í embætti SQL skrifletur"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Kynslóð aðgerð til stilla gagnasafn fyrir setja í embætti SQL skrifletur framkvæmd"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Framkvæmd uninstall SQL skrifletur"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Framkvæmd rollback SQL skrifletur"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Kynslóð aðgerð til stilla gagnasafn fyrir uninstall SQL skrifletur framkvæmd"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Kynslóð aðgerð til fjarlægja notandi reikningur á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Kynslóð aðgerð til fjarlægja notandi hópur á the heimamaður tölva"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Kynslóð aðgerð til fjarlægja mappa hluti frá the heimamaður tölva:"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Kynslóð aðgerð til fjarlægja tímaáætlun verkefni frá the heimamaður tölva:"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Úthlutun skrásetning rúm"/>
+  <STRING id="ActionText.Description.AppSearch" value="Rannsakandi fyrir setja í embætti umsókn"/>
+  <STRING id="ActionText.Description.BindImage" value="Bókband executables"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Rannsakandi fyrir vera hæfur vara"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Computing rúm þörf"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Computing rúm þörf"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Kreatín mappa"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Kreatín smákaka"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Brottfelling þjónusta"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Kreatín afrit skrá"/>
+  <STRING id="ActionText.Description.FileCost" value="Computing rúm þörf"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Rannsakandi fyrir skyldur umsókn"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Kynslóð skrifletur gangur fyrir aðgerð:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Afritari net setja í embætti skrá"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Afritari nýr skrá"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Installing ODBC hluti"/>
+  <STRING id="ActionText.Description.InstallServices" value="Installing nýr þjónusta"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Installing kerfi verðlisti"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Löggilding setja í embætti"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Gildismat sjósetja ástand"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Flutningur lögun stjórnvitringur frá skyldur umsókn"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Áhrifamikill skrá"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Útgáfa samkoma upplýsingar"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Óútgefinn samkoma upplýsingar"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Pjatla skrá"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Endurnýja hluti skráning"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Útgáfa Hæfur Hluti"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Útgáfa Vara Lögun"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Útgáfa vara upplýsingar"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Skrá Tegund framreiðslumaður"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Skrá COM+ Umsókn og Hluti"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Skrá eftirnafn framreiðslumaður"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Skrá skírnarfontur"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Skrá MIME upplýsa"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Skrá vara"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Skrá program heiti"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Skrá tegund bókavörður"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Skrá notandi"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Færanlegur afrit skrá"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Endurnýja umhverfi band"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Færanlegur umsókn"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Færanlegur skrá"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Færanlegur mappa"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Færanlegur INI skrá entries"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Færanlegur ODBC hluti"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Færanlegur kerfi skrásetning gildi"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Færanlegur smákaka"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Rannsakandi fyrir vera hæfur vara"/>
+  <STRING id="ActionText.Description.Rollback" value="Veltingur bak aðgerð"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Færanlegur varabúnaður skrá"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Skrá mát"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Unregistering mát"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Initializing ODBC framkvæmdarstjóra-"/>
+  <STRING id="ActionText.Description.StartServices" value="Byrjun þjónusta"/>
+  <STRING id="ActionText.Description.StopServices" value="Stífla þjónusta"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Færanlegur hrærður skrá"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Óútgefinn Hæfur Hluti"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Óútgefinn Vara Lögun"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Óútgefinn vara upplýsingar"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Unregister Tegund framreiðslumaður"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Unregistering COM+ Umsókn og Hluti"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Unregistering eftirnafn framreiðslumaður"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Unregistering skírnarfontur"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Unregistering MIME upplýsa"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Unregistering program heiti "/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Unregistering tegund bókavörður"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Endurnýja umhverfi band"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Skriftir INI skrá gildi"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Skriftir kerfi skrásetning gildi"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Reikningur: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Reikningur: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Installing &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Færanlegur &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Restoring efnaskipta- stelling"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Reikningur: [1], Eiginleiki: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Mappa: [1], ShareName: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Reikningur: [1], Eiginleiki: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Verkefni Nafn: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Reikningur: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Reikningur: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="ShareName: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Verkefni Nafn: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Reikningur: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Reikningur: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="ShareName: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Verkefni Nafn: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Verkefni Nafn: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Mappa: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Tengsl: [1]  Skrifletur: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Tengsl: [1]  Skrifletur: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Tengsl: [1]  Skrifletur: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Reikningur: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Reikningur: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="ShareName: [1]"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Frjáls rúm: [1]"/>
+  <STRING id="ActionText.Template.AppSearch" value="Eign: [1], Undirskrift: [2]"/>
+  <STRING id="ActionText.Template.BindImage" value="Skrá: [1]"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Mappa: [1]"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Smákaka: [1]"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Þjónusta: [1]"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Skrá: [1],  Skrá: [9],  Stærð: [6]"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Stofna umsókn: [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Skrá: [1],  Skrá: [9],  Stærð: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Skrá: [1],  Skrá: [9],  Stærð: [6]"/>
+  <STRING id="ActionText.Template.InstallServices" value="Þjónusta: [2]"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Skrá: [1],  Ósjálfstæði: [2]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Umsókn: [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Skrá: [1],  Skrá: [9],  Stærð: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Umsókn Samhengi:[1], Samkoma Nafn:[2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Umsókn Samhengi:[1], Samkoma Nafn:[2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Skrá: [1],  Skrá: [2],  Stærð: [3]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="Hluti Persónuskilríki: [1], Ákvæðisorð: [2]"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Lögun: [1]"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Tegund Persónuskilríki: [1]"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId: [1]{{, AppType: [2], Notandi: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Eftirnafn: [1]"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Skírnarfontur: [1]"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="MIME Innihald Tegund: [1], Eftirnafn: [2]"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Skrá: [1], Skrá: [9]"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Nafn: [1], Gildi: [2], Aðgerð [3]"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Umsókn: [1], Stjórn lína: [2]"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Skrá: [1], Skrá: [9]"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Mappa: [1]"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Skrá: [1],  Hluti: [2],  Lykill: [3], Gildi: [4]"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Lykill: [1], Nafn: [2]"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Smákaka: [1]"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Skrá: [1]"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Skrá: [1], Mappa: [2]"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Skrá: [1], Mappa: [2]"/>
+  <STRING id="ActionText.Template.StartServices" value="Þjónusta: [1]"/>
+  <STRING id="ActionText.Template.StopServices" value="Þjónusta: [1]"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Skrá: [1], Skrá: [9]"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Hluti Persónuskilríki: [1], Ákvæðisorð: [2]"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Lögun: [1]"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Tegund Persónuskilríki: [1]"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Eftirnafn: [1]"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Skírnarfontur: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="MIME Innihald Tegund: [1], Eftirnafn: [2]"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Nafn: [1], Gildi: [2], Aðgerð [3]"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Skrá: [1],  Hluti: [2],  Lykill: [3], Gildi: [4]"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Lykill: [1], Nafn: [2], Gildi: [3]"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Banvænn villa: }}"/>
+  <STRING id="Error.1" value="{{ Villa [1]. }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Skilaboð tegund: [1], Rifrildi: [2]"/>
+  <STRING id="Error.1101" value="Villa lestur frá skrá: [2]. {{ Kerfi villa [3].}} Sanna þessi the skrá vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.12" value="=== Skógarhögg ræsir: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Skógarhögg tappi: [Date]  [Time] ==="/>
+  <STRING id="Error.1301" value="Geta ekki skapa the skrá &apos;[2]&apos;.  A skrá með this nafn þegar vera til. Hætta við the setja í embætti og reyna installing til a ólíkur staðsetning."/>
+  <STRING id="Error.1302" value="Þóknast bæta inn í the diskur: [2]"/>
+  <STRING id="Error.1303" value="The setja í embætti hefur ónógur forréttindi til aðgangur this skrá: [2]. The embættisvígsla geta ekki halda áfram. Tengja eins og stjórnandi eða snerting þinn kerfi stjórnandi."/>
+  <STRING id="Error.1304" value="Villa skriftir til skrá: [2]. Sanna þessi þú hafa aðgangur til þessi skrá."/>
+  <STRING id="Error.1305" value="Villa lestur frá skrá [2]. {{ Kerfi villa [3].}} Sanna þessi the skrá vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.1306" value="Annar umsókn hefur einkaviðtal aðgangur til the skrá &apos;[2]&apos;.  Þóknast leggja niður allur annar umsókn , þá smellur Rekja."/>
+  <STRING id="Error.1307" value="There er ekki nógur diskur rúm til setja í embætti this skrá: [2]. Frjáls sumir diskur rúm og smellur Rekja , eða smellur Hætta við til útgangur."/>
+  <STRING id="Error.1308" value="Uppspretta skrá ekki stofna: [2]. Sanna þessi the skrá vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.1309" value="Villa lestur frá skrá: [3]. {{ Kerfi villa [2].}} Sanna þessi the skrá vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.1310" value="Villa skriftir til skrá: [3]. {{ Kerfi villa [2].}} Sanna þessi þú hafa aðgangur til þessi skrá."/>
+  <STRING id="Error.1311" value="Uppspretta skrá ekki stofna{{(skápur)}}: [2]. Sanna þessi the skrá vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.1312" value="Geta ekki skapa the skrá &apos;[2]&apos;.  A skrá með this nafn þegar vera til. Þóknast gefa nýtt nafn eða fjarlægja the skrá og smellur rekja , eða smellur Hætta við til útgangur."/>
+  <STRING id="Error.1313" value="The bindi [2] er eins og er ófáanlegur. Þóknast velja annar."/>
+  <STRING id="Error.1314" value="The skilgreinanlegur gangstígur &apos;[2]&apos; er ófáanlegur."/>
+  <STRING id="Error.1315" value="Ófær til skrifa til the skilgreinanlegur mappa: [2]."/>
+  <STRING id="Error.1316" value="A net villa viðburður á meðan tilraun til lesa frá the skrá: [2]"/>
+  <STRING id="Error.1317" value="Óákveðinn greinir í ensku villa viðburður á meðan tilraun til skapa the skrá: [2]"/>
+  <STRING id="Error.1318" value="A net villa viðburður á meðan tilraun til skapa the skrá: [2]"/>
+  <STRING id="Error.1319" value="A net villa viðburður á meðan tilraun til opinn the uppspretta skrá skápur: [2]"/>
+  <STRING id="Error.1320" value="The skilgreinanlegur gangstígur er of langur: [2]"/>
+  <STRING id="Error.1321" value="The Setja í embætti hefur ónógur forréttindi til breyta this skrá: [2]."/>
+  <STRING id="Error.1322" value="A hluti af the mappa gangstígur &apos;[2]&apos; er öryrki. Það er annar hvor tómur eða vera meiri en the lengd leyfa við the kerfi."/>
+  <STRING id="Error.1323" value="The mappa gangstígur &apos;[2]&apos; innihalda orð þessi ert ekki í gildi í mappa gangstígur."/>
+  <STRING id="Error.1324" value="The mappa gangstígur &apos;[2]&apos; innihalda óákveðinn greinir í ensku öryrki eðli."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; er ekki a í gildi stuttur skrá nafn."/>
+  <STRING id="Error.1326" value="Villa getting skrá öryggi: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Öryrki Ökuferð: [2]"/>
+  <STRING id="Error.1328" value="Villa sækja um pjatla til skrá [2]. Það hefur sennilega been endurnýja við annar leið , og geta neitun langlífi vera ákvæðisorð við this pjatla. Fyrir fleiri upplýsingar snerting þinn pjatla smásali. {{Kerfi Villa: [3]}}"/>
+  <STRING id="Error.1329" value="A skrá þessi er þurfa geta ekki vera setja í embætti því the skápur skrá [2] er ekki stafrænn innsigli. This mega benda á þessi the skápur skrá er siðspilltur."/>
+  <STRING id="Error.1330" value="A skrá þessi er þurfa geta ekki vera setja í embætti því the skápur skrá [2] hefur óákveðinn greinir í ensku öryrki stafrænn undirskrift. This mega benda á þessi the skápur skrá er siðspilltur {{ Villa [3] var koma aftur við WinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="Mislukkaður til réttur eftirlíking [2] skrá: CRC villa."/>
+  <STRING id="Error.1332" value="Mislukkaður til réttur hreyfa [2] skrá: CRC villa."/>
+  <STRING id="Error.1333" value="Mislukkaður til réttur pjatla [2] skrá: CRC villa."/>
+  <STRING id="Error.1334" value="The skrá &apos;[2]&apos; geta ekki vera setja í embætti því the skrá geta ekki vera stofna í skápur skrá &apos;[3]&apos;. This benda á a net villa , óákveðinn greinir í ensku villa lestur frá the - Lesminni , eða a vandamál með this pakki."/>
+  <STRING id="Error.1335" value="The skápur skrá &apos;[2]&apos; þurfa fyrir this embættisvígsla er siðspilltur og geta ekki vera notaður. This benda á a net villa , óákveðinn greinir í ensku villa lestur frá the - Lesminni , eða a vandamál með this pakki."/>
+  <STRING id="Error.1336" value="There var óákveðinn greinir í ensku villa kreatín a tímabundinn skrá þessi er þörf til heill this embættisvígsla {{ Mappa : [3]. Kerfi villa merkjamál : [2]}}"/>
+  <STRING id="Error.14" value="Aðgerð byrjun [Time]: [1]."/>
+  <STRING id="Error.1401" value="ekki skapa lykill : [2]. {{ Kerfi villa [3].}} Sanna þessi þú hafa nógur aðgangur til þessi lykill , eða snerting þinn styðja starfslið. "/>
+  <STRING id="Error.1402" value="ekki opinn lykill : [2]. {{ Kerfi villa [3].}} Sanna þessi þú hafa nógur aðgangur til þessi lykill , eða snerting þinn styðja starfslið. "/>
+  <STRING id="Error.1403" value="ekki fella brott gildi [2] frá lykill [3]. {{ Kerfi villa [4].}} Sanna þessi þú hafa nógur aðgangur til þessi lykill , eða snerting þinn styðja starfslið. "/>
+  <STRING id="Error.1404" value="ekki eyðingarlykill [2]. {{ Kerfi villa [3].}} Sanna þessi þú hafa nógur aðgangur til þessi lykill , eða snerting þinn styðja starfslið. "/>
+  <STRING id="Error.1405" value="ekki lesa gildi [2] frá lykill [3]. {{ Kerfi villa [4].}} Sanna þessi þú hafa nógur aðgangur til þessi lykill , eða snerting þinn styðja starfslið. "/>
+  <STRING id="Error.1406" value="ekki skrifa gildi [2] til lykill [3]. {{ Kerfi villa [4].}} Sanna þessi þú hafa nógur aðgangur til þessi lykill , eða snerting þinn styðja starfslið."/>
+  <STRING id="Error.1407" value="ekki fá gildi nafni fyrir lykill [2]. {{ Kerfi villa [3].}} Sanna þessi þú hafa nógur aðgangur til þessi lykill , eða snerting þinn styðja starfslið."/>
+  <STRING id="Error.1408" value="ekki fá koma í staðinn fyrir einhvern lykill nafni fyrir lykill [2]. {{ Kerfi villa [3]}} Sanna þessi þú hafa nógur aðgangur til þessi lykill , eða snerting þinn styðja starfslið."/>
+  <STRING id="Error.1409" value="ekki lesa öryggi upplýsingar fyrir lykill [2]. {{ Kerfi villa [3].}} Sanna þessi þú hafa nógur aðgangur til þessi lykill , eða snerting þinn styðja starfslið."/>
+  <STRING id="Error.1410" value="ekki auka the laus skrásetning rúm. [2] KB af frjáls skrásetning rúm er þurfa fyrir the embættisvígsla af this umsókn."/>
+  <STRING id="Error.15" value="Aðgerð ended [Time]: [1]. Koma aftur gildi [2]."/>
+  <STRING id="Error.1500" value="Annar embættisvígsla er í framfarir. Þú verða heill þessi embættisvígsla áður stöðugur this one."/>
+  <STRING id="Error.1501" value="Villa aðgangur öruggur gögn. Þóknast tryggja the Gluggakista Setja í embætti er stilla almennilega og reyna the setja í embætti aftur"/>
+  <STRING id="Error.1502" value="Notandi &apos;[2]&apos; hefur fyrr byrja óákveðinn greinir í ensku setja í embætti fyrir vara &apos;[3]&apos;.   ; Þessi notandi vilja þörf til hlaupa þessi setja í embætti aftur áður þeir geta nota þessi vara. Þinn straumur setja í embætti vilja nú halda áfram."/>
+  <STRING id="Error.1503" value="Notandi &apos;[2]&apos; hefur fyrr byrja óákveðinn greinir í ensku setja í embætti fyrir vara &apos;[3]&apos;.  Þessi notandi vilja þörf til hlaupa þessi setja í embætti aftur áður þeir geta nota þessi vara."/>
+  <STRING id="Error.16" value="Tími eftirliggjandi : {[1] mínúta }{[2] annars flokks varningur}"/>
+  <STRING id="Error.1601" value="Út af diskur rúm -- Bindi: &apos;[2]&apos;; þurfa rúm: [3] KB; laus rúm: [4] KB.  Frjáls sumir diskur rúm og rekja."/>
+  <STRING id="Error.1602" value="Ert þú viss þú vilja til hætta við?"/>
+  <STRING id="Error.1603" value="The skrá [2][3] er tilvera held í use{við the hópur stuðningsmanna aðferð: nafn: [4], Persónuskilríki: [5], Gluggi Titill: &apos;[6]&apos;}.  Loka þessi umsókn og rekja."/>
+  <STRING id="Error.1604" value="The vara &apos;[2]&apos; er þegar setja í embætti , sem koma má í veg fyrir eða afstýra the embættisvígsla af this vara. The tveir vara ert ósættanlegur."/>
+  <STRING id="Error.1605" value="There er ekki nógur diskur rúm á the bindi &apos;[2]&apos; til halda áfram the setja í embætti með bati gera kleift. [3] KB ert þurfa, en eini [4] KB ert laus. Smellur Hunsa til halda áfram the setja í embætti án sparnaður bati upplýsingar , smellur Rekja til stöðva fyrir laus rúm aftur , eða smellur Hætta við til hætta the embættisvígsla."/>
+  <STRING id="Error.1606" value="ekki aðgangur net staðsetning [2]."/>
+  <STRING id="Error.1607" value="The hópur stuðningsmanna umsókn öxl vera loka áður stöðugur the setja í embætti:"/>
+  <STRING id="Error.1608" value="ekki finna allir fyrr setja í embætti eftirlátur vara á the vél fyrir installing this vara."/>
+  <STRING id="Error.1609" value="Óákveðinn greinir í ensku villa viðburður á meðan sækja um öryggi stilling. [2] er ekki a í gildi notandi eða hópur. This vera a vandamál með the pakki , eða a vandamál bullustöng til a ríki stjórnandi á the net. Stöðva þinn net tengsl og smellur Rekja , eða Hætta við til endir the setja í embætti.       {{Ófær til staðgreina the notandi&apos;s SID, kerfi villa [3]}}"/>
+  <STRING id="Error.17" value="Út af minni. Leggja niður annar umsókn áður retrying."/>
+  <STRING id="Error.1701" value="The lykill [2] er ekki í gildi. Sanna þessi þú koma inn í the réttur lykill."/>
+  <STRING id="Error.1702" value="The setja í embætti verða ræsa á ný þinn kerfi áður stelling af [2] geta halda áfram. Smellur Já til ræsa á ný nú eða Neitun ef þú áætlun til með höndunum ræsa á ný seinna."/>
+  <STRING id="Error.1703" value="Þú verða ræsa á ný þinn kerfi fyrir the stelling breyting til [2] til taka áhrif. Smellur Já til ræsa á ný nú eða Neitun ef þú áætlun til með höndunum ræsa á ný seinna."/>
+  <STRING id="Error.1704" value="Óákveðinn greinir í ensku embættisvígsla fyrir [2] er eins og er sokkaband. Þú verða losa the breyting við þessi embættisvígsla til halda áfram. Gera þú vilja til losa þessir breyting?"/>
+  <STRING id="Error.1705" value="A fyrri embættisvígsla fyrir this vara er í framfarir. Þú verða losa the breyting við þessi embættisvígsla til halda áfram. Gera þú vilja til losa þessir breyting?"/>
+  <STRING id="Error.1706" value="Óákveðinn greinir í ensku embættisvígsla pakki fyrir the vara [2] geta ekki vera stofna. Reyna the embættisvígsla aftur using a í gildi eftirlíking af the embættisvígsla pakki &apos;[3]&apos;."/>
+  <STRING id="Error.1707" value="Embættisvígsla heill giftusamlega."/>
+  <STRING id="Error.1708" value="Embættisvígsla mislukkaður."/>
+  <STRING id="Error.1709" value="Vara: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Þú mega annar hvor skila aftur þinn tölva til þess fyrri ástand eða halda áfram the setja í embætti seinna. Vildi þú eins og til skila aftur?"/>
+  <STRING id="Error.1711" value="Óákveðinn greinir í ensku villa viðburður á meðan skriftir embættisvígsla upplýsingar til diskur. Stöðva til tryggja nógur diskur rúm er laus , og smellur Rekja , eða Hætta við til endir the setja í embætti"/>
+  <STRING id="Error.1712" value="Einn eða fleiri af the skrá þurfa til skila aftur þinn tölva til þess fyrri ástand ) ekki vera stofna. Endursmíði vilja ekki vera mögulegur"/>
+  <STRING id="Error.1713" value="[2] geta ekki setja í embætti einn af þess þurfa vara. Snerting þinn tæknilegur styðja hópur.  {{Kerfi Villa: [3].}}"/>
+  <STRING id="Error.1714" value="The gamall útgáfa af [2] geta ekki vera fjarri. Snerting þinn tæknilegur styðja hópur.  {{Kerfi Villa [3].}}"/>
+  <STRING id="Error.1715" value="Setja í embætti [2]"/>
+  <STRING id="Error.1716" value="Stilla [2]"/>
+  <STRING id="Error.1717" value="Fjarri [2]"/>
+  <STRING id="Error.1718" value="Skrá [2] var hafna við stafrænn undirskrift stefna."/>
+  <STRING id="Error.1719" value="The Gluggakista Setja í embætti Þjónusta ) ekki vera aðgangur. This geta eiga sér stað ef þú ert hlaupandi Gluggakista í öruggur háttur , eða ef the Gluggakista Setja í embætti er ekki réttur setja í embætti. Snerting þinn styðja starfslið fyrir aðstoð"/>
+  <STRING id="Error.1720" value="There er a vandamál með this Gluggakista Setja í embætti pakki. A skrifletur þurfa fyrir this setja í embætti til heill ) ekki vera hlaupa. Snerting þinn styðja starfslið eða pakki smásali.  {{Custom action [2] script error [3], [4]: [5] Line [6], Column [7], [8] }}"/>
+  <STRING id="Error.1721" value="There er a vandamál með this Gluggakista Setja í embætti pakki. A program þurfa fyrir this setja í embætti til heill ) ekki vera hlaupa. Snerting þinn styðja starfslið eða pakki smásali. {{ Aðgerð [2], staðsetning : [3], stjórn : [4]}}"/>
+  <STRING id="Error.1722" value="There er a vandamál með this Gluggakista Setja í embætti pakki. A program hlaupa eins og hluti af the skipulag did ekki ljúka við eins og væntanlegur. Snerting þinn styðja starfslið eða pakki smásali.  {{ Aðgerð [2], staðsetning : [3], stjórn : [4]}}"/>
+  <STRING id="Error.1723" value="There er a vandamál með this Gluggakista Setja í embætti pakki. A DLL þurfa fyrir this setja í embætti til heill ) ekki vera hlaupa. Snerting þinn styðja starfslið eða pakki smásali.  {{ Aðgerð [2], innganga : [3], bókasafn : [4]}}"/>
+  <STRING id="Error.1724" value="Flutningur heill giftusamlega."/>
+  <STRING id="Error.1725" value="Flutningur mislukkaður."/>
+  <STRING id="Error.1726" value="Auglýsing heill giftusamlega"/>
+  <STRING id="Error.1727" value="Auglýsing mislukkaður."/>
+  <STRING id="Error.1728" value="Stelling heill giftusamlega."/>
+  <STRING id="Error.1729" value="Stelling mislukkaður"/>
+  <STRING id="Error.1730" value="Þú verða vera óákveðinn greinir í ensku Stjórnandi til fjarlægja this umsókn. Til fjarlægja this umsókn , þú geta tengja eins og óákveðinn greinir í ensku Stjórnandi , eða snerting þinn tæknilegur styðja hópur fyrir aðstoð."/>
+  <STRING id="Error.18" value="Setja í embætti er neitun langlífi responding."/>
+  <STRING id="Error.1801" value="The gangstígur [2] er ekki í gildi. Þóknast tilgreina a í gildi gangstígur."/>
+  <STRING id="Error.1802" value="Út af minni. Leggja niður annar umsókn áður retrying."/>
+  <STRING id="Error.1803" value="There er neitun diskur í ökuferð [2]. Þóknast bæta inn í einn og smellur Rekja , eða smellur Hætta við til svíkja til the fyrr herkvaddur maður bindi."/>
+  <STRING id="Error.1804" value="There er neitun diskur í ökuferð [2]. Þóknast bæta inn í einn og smellur Rekja , eða smellur Hætta við til koma aftur til the beit valmynd og velja a ólíkur bindi."/>
+  <STRING id="Error.1805" value="The mappa [2] hjartarskinn ekki vera til. Þóknast koma inn í a gangstígur til óákveðinn greinir í ensku það sem til er mappa."/>
+  <STRING id="Error.1806" value="Þú hafa ónógur forréttindi til lesa this mappa."/>
+  <STRING id="Error.1807" value="A í gildi ákvörðunarstaður mappa fyrir the setja í embætti ) ekki vera ákveðinn."/>
+  <STRING id="Error.19" value="Setja í embætti tappi of snemma"/>
+  <STRING id="Error.1901" value="Villa tilraun til lesa frá the uppspretta setja í embætti gagnasafn: [2]."/>
+  <STRING id="Error.1902" value="Tímaáætlun endurfæddur gangur : Gefa nýtt nafn skrá [2] til [3]. Verða endurfæddur til heill gangur."/>
+  <STRING id="Error.1903" value="Tímaáætlun endurfæddur gangur : Brottfelling skrá [2]. Verða endurfæddur til heill gangur."/>
+  <STRING id="Error.1904" value="Mát [2] mislukkaður til skrá. HRESULT [3]. Snerting þinn styðja starfslið."/>
+  <STRING id="Error.1905" value="Mát [2] mislukkaður til unregister. HRESULT [3]. Snerting þinn styðja starfslið."/>
+  <STRING id="Error.1906" value="Mislukkaður til felustaður pakki [2]. villa: [3]. Snerting þinn styðja starfslið."/>
+  <STRING id="Error.1907" value=") ekki skrá skírnarfontur [2]. Sanna þessi þú hafa nógur leyfi til setja í embætti skírnarfontur , og þessi the kerfi styðja this skírnarfontur."/>
+  <STRING id="Error.1908" value=") ekki unregister skírnarfontur [2]. Sanna þessi þú þessi þú hafa nógur leyfi til fjarlægja skírnarfontur."/>
+  <STRING id="Error.1909" value=") ekki skapa Smákaka [2]. Sanna þessi the ákvörðunarstaður mappa vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.1910" value=") ekki fjarlægja Smákaka [2]. Sanna þessi the smákaka skrá vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.1911" value=") ekki skrá tegund bókasafn fyrir skrá [2]. Snerting þinn styðja starfslið"/>
+  <STRING id="Error.1912" value=") ekki unregister tegund bókasafn fyrir skrá [2]. Snerting þinn styðja starfslið."/>
+  <STRING id="Error.1913" value=") ekki endurnýja the ini skrá [2][3]. Sanna þessi the skrá vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.1914" value=") ekki tímaáætlun skrá [2] til skipta um skrá [3] á endurfæddur. Sanna þessi þú hafa skrifa leyfi til skrá [3]."/>
+  <STRING id="Error.1915" value="Villa færanlegur ODBC bílstjóri framkvæmdastjóri ODBC villa [2]): [3]. Snerting þinn styðja starfslið."/>
+  <STRING id="Error.1916" value="Villa installing ODBC bílstjóri framkvæmdastjóri ODBC villa [2]): [3]. Snerting þinn styðja starfslið."/>
+  <STRING id="Error.1917" value="Villa færanlegur ODBC bílstjóri: [4], ODBC villa [2]: [3]. Sanna þessi þú hafa nógur forréttindi til fjarlægja ODBC bílstjóri."/>
+  <STRING id="Error.1918" value="Villa installing ODBC bílstjóri: [4][5], ODBC villa [2]: [3]. Sanna þessi the skrá [4][6] vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.1919" value="Villa configuring ODBC gögn uppspretta: [4][5], ODBC villa [2]: [3]. Sanna þessi the skrá [4][6] vera til og þessi þú geta aðgangur it."/>
+  <STRING id="Error.1920" value="Þjónusta &apos;[2]&apos; ([3]) mislukkaður til byrjun.  Sanna þessi þú hafa nógur forréttindi til byrjun kerfi þjónusta."/>
+  <STRING id="Error.1921" value="Þjónusta &apos;[2]&apos; ([3]) ) ekki vera tappi.  Sanna þessi þú hafa nógur forréttindi til stöðva kerfi þjónusta."/>
+  <STRING id="Error.1922" value="Þjónusta &apos;[2]&apos; ([3]) ) ekki vera fella brott.  Sanna þessi þú hafa nógur forréttindi til fjarlægja kerfi þjónusta."/>
+  <STRING id="Error.1923" value="Þjónusta &apos;[2]&apos; ([3]) ) ekki vera setja í embætti.  Sanna þessi þú hafa nógur forréttindi til setja í embætti kerfi þjónusta."/>
+  <STRING id="Error.1924" value="Sanna þessi þú hafa nógur forréttindi til byrjun kerfi þjónusta &apos;[2]&apos;. Sanna þessi þú hafa nógur forréttindi til breyta umhverfi breyta."/>
+  <STRING id="Error.1925" value="Þú gera ekki hafa nógur forréttindi til heill this embættisvígsla fyrir allur notandi af the vél. Tengja eins og stjórnandi og þá rekja this embættisvígsla."/>
+  <STRING id="Error.1926" value=") ekki setja skrá öryggi fyrir skrá &apos;[3]&apos;. Villa : [2]. Sanna þessi þú hafa nógur forréttindi til breyta the öryggi leyfi fyrir this skrá."/>
+  <STRING id="Error.1927" value="Hluti Þjónusta (COM+ 1.0) ert ekki setja í embætti á this tölva. This embættisvígsla þurfa Hluti Þjónusta í röð til heill giftusamlega. Hluti Þjónusta ert laus á Gluggakista 2000."/>
+  <STRING id="Error.1928" value="Villa skrá COM+ Umsókn. Snerting þinn styðja starfslið fyrir fleiri upplýsingar."/>
+  <STRING id="Error.1929" value="Villa unregistering COM+ Umsókn. Snerting þinn styðja starfslið fyrir fleiri upplýsingar."/>
+  <STRING id="Error.1930" value="The lýsing fyrir þjónusta &apos;[2]&apos; ([3]) ) ekki vera breyting."/>
+  <STRING id="Error.1931" value="The Gluggakista Setja í embætti þjónusta geta ekki endurnýja the kerfi skrá [2] því the skrá er vernda við Gluggakista. Þú mega þörf til endurnýja þinn stýrikerfi fyrir this program til vinna réttur. {{Pakki útgáfa: [3] OS Vernda útgáfa: [4]}}"/>
+  <STRING id="Error.1932" value="The Gluggakista Setja í embætti þjónusta geta ekki endurnýja the vernda Gluggakista skrá [2]. {{Pakki útgáfa: [3], OS Vernda útgáfa: [4], SFP Villa: [5]}}"/>
+  <STRING id="Error.1933" value="The Gluggakista Setja í embætti þjónusta geta ekki endurnýja einn eða fleiri vernda Gluggakista skrá. {{SFP Villa: [2]. Listi af vernda skrá :\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Notandi embættisvígsla ert fatlaður um stefna á the vél."/>
+  <STRING id="Error.1935" value="Óákveðinn greinir í ensku villa eiga sér stað á meðan the embættisvígsla af samkoma hluti [2]. HRESULT: [3]. {{samkoma tengi: [4], virka: [5], samkoma nafn: [6]}}"/>
+  <STRING id="Error.2" value="Viðvörun [1]."/>
+  <STRING id="Error.20" value="Þóknast bíða á meðan Gluggakista stilla [ProductName]"/>
+  <STRING id="Error.21" value="Samkoma þurfa upplýsingar..."/>
+  <STRING id="Error.22" value="Færanlegur gamall útgáfa af this umsókn..."/>
+  <STRING id="Error.23" value="Preparing til fjarlægja gamall útgáfa af this umsókn..."/>
+  <STRING id="Error.32" value="{[ProductName] }Skipulag heill giftusamlega."/>
+  <STRING id="Error.33" value="{[ProductName] }Skipulag mislukkaður."/>
+  <STRING id="Error.4" value="Upplýsa [1]. "/>
+  <STRING id="Error.4000" value="Öryrki framhaldssaga tala."/>
+  <STRING id="Error.4010" value="A fleiri nýlegur útgáfa af [ProductName] er þegar setja í embætti á this tölva."/>
+  <STRING id="Error.4020" value="There var óákveðinn greinir í ensku villa á meðan the IIS stelling process.&#10;Your frumeintak IIS stelling vilja vera skila aftur."/>
+  <STRING id="Error.4021" value="Vefur Staður &quot;[2]&quot; þegar vera til á this framreiðslumaður.&#10;&#10;þú vilja til sleppa this vefur staður og halda áfram the embættisvígsla?"/>
+  <STRING id="Error.4022" value="Raunverulegur Skrá &quot;[2]&quot; á Vefur Staður &quot;[3]&quot; þegar vera til á this framreiðslumaður.&#10;&#10;Gera þú vilja til sleppa this raunverulegur skrá og halda áfram the embættisvígsla?"/>
+  <STRING id="Error.4023" value="This útgáfa af IIS er ekki stuðningsmaður eða IIS er ekki fullkomlega setja í embætti !&#10;&#10;Þú þörf Upplýsingar Þjónusta 5.0 eða yfir."/>
+  <STRING id="Error.4024" value="A Vefur Staður með the sami Framreiðslumaður Bókband er þegar ræsir.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Ófær til skapa notandi reikningur eða hópur &apos;[2]&apos; á the heimamaður vél. Villa Merkjamál: [3]. [4]"/>
+  <STRING id="Error.4102" value="Notandi reikningur eða hópur &apos;[2]&apos; þegar vera til á the heimamaður vél."/>
+  <STRING id="Error.4103" value="Ófær til fjarlægja notandi reikningur eða hópur &apos;[2]&apos; á the heimamaður vél. Villa Merkjamál: [3]."/>
+  <STRING id="Error.4104" value="Notandi reikningur eða hópur &apos;[2]&apos; hjartarskinn ekki vera til á the heimamaður vél."/>
+  <STRING id="Error.4105" value="Óákveðinn greinir í ensku villa var fundur á meðan hlutdeild &apos;[2]&apos; undir nafn: &apos;[3]&apos;. Villa lýsing: [4]"/>
+  <STRING id="Error.4106" value="Óákveðinn greinir í ensku villa var fundur á meðan kreatín a tímaáætlun verkefni: &apos;[2]&apos;. Villa lýsing: [3]"/>
+  <STRING id="Error.4107" value="Óákveðinn greinir í ensku villa var fundur á meðan færanlegur a tímaáætlun verkefni: &apos;[2]&apos;. Villa lýsing: [3]"/>
+  <STRING id="Error.5" value="The setja í embætti hefur fundur óákveðinn greinir í ensku óvæntur villa installing this pakki. This mega benda á a vandamál með this pakki. The villa merkjamál er [1]. {{The rifrildi ert: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Diskur fullur: }}"/>
+  <STRING id="Error.8" value="Aðgerð [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bæti"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Allur lögun vilja vera ófáanlegur"/>
+  <STRING id="UIText.MenuAdvertise" value="Lögun vilja vera setja í embætti hvenær þurfa"/>
+  <STRING id="UIText.MenuAllCD" value="Allur lögun vilja vera setja í embætti til hlaupa frá"/>
+  <STRING id="UIText.MenuAllLocal" value="Allur lögun vilja vera setja í embætti á heimamaður harður ökuferð"/>
+  <STRING id="UIText.MenuAllNetwork" value="Allur lögun vilja vera setja í embætti til hlaupa frá net"/>
+  <STRING id="UIText.MenuCD" value="Vilja vera setja í embætti til hlaupa frá"/>
+  <STRING id="UIText.MenuLocal" value="Vilja vera setja í embætti á heimamaður harður ökuferð"/>
+  <STRING id="UIText.MenuNetwork" value="Vilja vera setja í embætti til hlaupa frá net"/>
+  <STRING id="UIText.ScriptInProgress" value="Samkoma þurfa upplýsingar..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="This lögun vilja vera enn uninstalled"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="This lögun vilja vera hefjast handa vera setja í embætti hvenær þurfa"/>
+  <STRING id="UIText.SelAbsentCD" value="This lögun vilja vera setja í embætti til hlaupa frá"/>
+  <STRING id="UIText.SelAbsentLocal" value="This lögun vilja vera setja í embætti á the heimamaður harður ökuferð"/>
+  <STRING id="UIText.SelAbsentNetwork" value="This lögun vilja vera setja í embætti til hlaupa frá the net"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="This lögun vilja verða ófáanlegur"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Vilja vera setja í embætti hvenær þurfa"/>
+  <STRING id="UIText.SelAdvertiseCD" value="This lögun vilja vera laus til hlaupa frá"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="This lögun vilja vera setja í embætti á þinn heimamaður harður ökuferð"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="This lögun vilja vera laus til hlaupa frá the net"/>
+  <STRING id="UIText.SelCDAbsent" value="This lögun vilja vera uninstalled fullkomlega, þú vilja ekki&apos; vera fær til hlaupa það frá"/>
+  <STRING id="UIText.SelCDAdvertise" value="This lögun vilja breyting frá hlaupa frá ástand til hefjast handa vera setja í embætti hvenær þurfa"/>
+  <STRING id="UIText.SelCDCD" value="This lögun vilja vera enn til vera hlaupa frá"/>
+  <STRING id="UIText.SelCDLocal" value="This lögun vilja breyting frá hlaupa frá ástand til vera setja í embætti á the heimamaður harður ökuferð"/>
+  <STRING id="UIText.SelChildCostNeg" value="This lögun frjáls upp [1] á þinn harður ökuferð."/>
+  <STRING id="UIText.SelChildCostPos" value="This lögun þurfa [1] á þinn harður ökuferð."/>
+  <STRING id="UIText.SelCostPending" value="Compiling kostnaður fyrir this lögun..."/>
+  <STRING id="UIText.SelLocalAbsent" value="This lögun vilja vera fullkomlega fjarri"/>
+  <STRING id="UIText.SelLocalAdvertise" value="This lögun vilja vera fjarri frá þinn heimamaður harður ökuferð , en vilja vera hefjast handa vera setja í embætti hvenær þurfa"/>
+  <STRING id="UIText.SelLocalCD" value="This lögun vilja vera fjarri frá þinn heimamaður harður ökuferð , en vilja vera enn laus til hlaupa frá"/>
+  <STRING id="UIText.SelLocalLocal" value="This lögun vilja vera enn á þú heimamaður harður ökuferð"/>
+  <STRING id="UIText.SelLocalNetwork" value="This lögun vilja vera fjarri frá þinn heimamaður harður ökuferð , en vilja vera enn laus til hlaupa frá the net"/>
+  <STRING id="UIText.SelNetworkAbsent" value="This lögun vilja vera uninstalled fullkomlega, þú vilja ekki&apos; vera fær til hlaupa það frá the net"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="This lögun vilja breyting frá hlaupa frá net ástand til hefjast handa vera setja í embætti hvenær þurfa"/>
+  <STRING id="UIText.SelNetworkLocal" value="This lögun vilja breyting frá hlaupa frá net ástand til vera setja í embætti á the heimamaður harður ökuferð"/>
+  <STRING id="UIText.SelNetworkNetwork" value="This lögun vilja vera enn til vera hlaupa frá the net"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="This lögun frjáls upp [1] á þinn harður ökuferð. Það hefur [2] af [3] subfeatures herkvaddur maður. The subfeatures frjáls upp [4] á þinn harður ökuferð."/>
+  <STRING id="UIText.SelParentCostNegPos" value="This lögun frjáls upp [1] á þinn harður ökuferð. Það hefur [2] af [3] subfeatures herkvaddur maður. The subfeatures þurfa [4] á þinn harður ökuferð."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="This lögun þurfa [1] á þinn harður ökuferð. Það hefur [2] af [3] subfeatures herkvaddur maður. The subfeatures frjáls upp [4] á þinn harður ökuferð."/>
+  <STRING id="UIText.SelParentCostPosPos" value="This lögun þurfa [1] á þinn harður ökuferð. Það hefur [2] af [3] subfeatures herkvaddur maður. The subfeatures þurfa [4] á þinn harður ökuferð."/>
+  <STRING id="UIText.TimeRemaining" value="Tími eftirliggjandi: {[1] mínúta }{[2] annars flokks varningur}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Laus"/>
+  <STRING id="UIText.VolumeCostDifference" value="Mismunur"/>
+  <STRING id="UIText.VolumeCostRequired" value="Þurfa"/>
+  <STRING id="UIText.VolumeCostSize" value="Diskur Stærð"/>
+  <STRING id="UIText.VolumeCostVolume" value="Bindi"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Á sjálfvirkan hátt &amp;loka umsókn og tilraun til ræsa á ný þá eftir á skipulag er heill."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="Gera &amp;ekki loka umsókn. (A Endurfæddur vilja vera þurfa.)"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Já , skrá til handleika þessir skrá tegund"/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Neitun , sleppa skrá félag"/>
+  <STRING id="RadioButton.Text.IAgree#1" value="ÉG &amp;þiggja the skilmálar í the Leyfisveitandi Samkomulag"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="ÉG &amp;gera ekki þiggja the skilmálar í the Leyfisveitandi Samkomulag"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Neitun , setja í embætti hlið við halda með annar útgáfa."/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Já , fjarlægja gamall útgáfa."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Neitun uninstall eini the [AI_Replaced_Versions_List] útgáfa."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Já , fjarlægja allur gamall útgáfa."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Bak"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Bak"/>
+  <STRING id="Property.ButtonText_Browse" value="Br&amp;owse..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Hætta við"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Útgangur"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Ljúka við"/>
+  <STRING id="Property.Text_Finish" value="Ljúka við"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Hunsa"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Setja í embætti"/>
+  <STRING id="Property.Text_Install" value="Setja í embætti"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Næstur &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Næstur"/>
+  <STRING id="Property.Text_Next" value="Næstur"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Neitun"/>
+  <STRING id="Property.ButtonText_OK" value="Allt í lagi"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Fjarlægja"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Gera við"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Endurstilla"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Byrja aftur á"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Rekja"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Koma aftur"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Já"/>
+  <STRING id="Property.Text_Yes" value="Já"/>
+  <STRING id="Property.CtrlEvtchanges" value="breyting"/>
+  <STRING id="Property.CtrlEvtChanging" value="Breyting"/>
+  <STRING id="Property.CtrlEvtremoves" value="fjarlægja"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Færanlegur"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Gera við"/>
+  <STRING id="Property.CtrlEvtrepairs" value="gera við"/>
+  <STRING id="Property.InstallModeComplete" value="Heill"/>
+  <STRING id="Property.InstallModeCustom" value="Siðvenja"/>
+  <STRING id="Property.InstallModeTypical" value="Dæmigerður"/>
+  <STRING id="Property.Progress1" value="Installing"/>
+  <STRING id="Property.Progress2" value="setja í embætti"/>
+  <STRING id="Property.Setup" value="Skipulag"/>
+  <STRING id="Property.Wizard" value="Skipulag Töframaður"/>
+</DICTIONARY>

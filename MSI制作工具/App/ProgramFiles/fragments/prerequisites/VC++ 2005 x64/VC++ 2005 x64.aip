@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D340485F164D422688F7F84480CBA514" DisplayName="Visual C++ 2005 x64" VersionMin="8.0"
+      SetupFileUrl="http://download.microsoft.com/download/9/1/4/914851c6-9141-443b-bdb4-8bad3a57bea9/vcredist_x64.exe"
+      Location="1" ExactSize="4286744" MD5="524da2fb61a1361e77704e9466bcd74e"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      NoUiComLine="/q"
+      Operator="1" Options="xf" TargetName="Visual C++ 2005"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D340485F164D422688F7F84480CBA514Install" Prereq="D340485F164D422688F7F84480CBA514" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033\Install" RefContent="M1"
+      Order="1" Property="PreReqSearch_D340485F164D422688F7F84480CBA514"/>
+  </COMPONENT>
+</FRAGMENT>

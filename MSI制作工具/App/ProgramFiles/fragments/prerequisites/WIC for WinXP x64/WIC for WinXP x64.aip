@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="BA57544483D4039A1BF076986D819F0" DisplayName="Windows Imaging Component for Windows XP/Server 2003 x64" VersionMin="6.0"
+      SetupFileUrl="http://download.microsoft.com/download/6/4/5/645FED5F-A6E7-44D9-9D10-FE83348796B0/wic_x64_enu.exe"
+      Location="1" ExactSize="1911592" MD5="2eb787be1deb373efc259d1f42146419"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xf" TargetName="Windows Imaging Component"/>
+    <ATTRIBUTE name="GroupName" value="Windows Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="BA57544483D4039A1BF076986D819F0SystemFolderWindowsCodecs.dll" Prereq="BA57544483D4039A1BF076986D819F0" SearchType="0"
+      SearchString="[SystemFolder]WindowsCodecs.dll" VerMin="6.0.5840.16388"
+      Order="1" Property="PreReqSearch_BA57544483D4039A1BF076986D819F0"/>
+  </COMPONENT>
+</FRAGMENT>

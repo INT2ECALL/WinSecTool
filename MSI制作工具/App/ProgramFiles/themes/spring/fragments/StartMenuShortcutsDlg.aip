@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="startmenushortcutlogoicon" SourcePath="&lt;AI_THEMES&gt;common-res\images\StartMenuLogo.png"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiComboBoxComponent">
+    <ROW Property="AI_SH_DIR" Order="1" Value="[ProductName]" Text="[ProductName]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="StartMenuShortcutDlgLogoIcon" Value="startmenushortcutlogoicon" Type="1"/>
+    <ROW Property="StartMenuShortcutDlgTitle" Value="" ValueLocId="Azure.Control.Text.StartMenuShortcutsDlg#Title"/>
+    <ROW Property="StartMenuShortcutDlgSubTitle" Value="" ValueLocId="Control.Text.StartMenuShortcutsDlg#Description"/>
+    <ROW Property="StartMenuShortcutDlgShDirText" Value="" ValueLocId="Control.Text.StartMenuShortcutsDlg#ShDirText"/>
+    <ROW Property="StartMenuShortcutDlgShDirLabel" Value="" ValueLocId="Control.Text.StartMenuShortcutsDlg#ShDirLabel"/>
+    <ROW Property="StartMenuShortcutDlgInfoText" Value="" ValueLocId="Control.Text.StartMenuShortcutsDlg#InfoText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="ShDirDialogInit" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="HtmlHost" Type="HtmlHost" X="0" Y="0" Width="450" Height="360" Attributes="3" Text="file:///[&amp;startmenushortcut.html.742DA8B7]" Order="100" TextLocId="-" ExtType="HtmlHost" ExtAttributes="2"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048576" Text="[DialogBitmap]" Order="200"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="Next" Type="PushButton" X="350" Y="328" Width="56" Height="17" Attributes="2" Text="[ButtonText_Next]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="Back" Type="PushButton" X="45" Y="328" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Order="500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="Title" Type="Text" X="45" Y="17" Width="380" Height="40" Attributes="196610" TextStyle="TitleFont" Order="600" TextLocId="Azure.Control.Text.StartMenuShortcutsDlg#Title"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="ShDirText" Type="Text" X="45" Y="100" Width="360" Height="43" Attributes="65538" Order="700" TextLocId="Control.Text.StartMenuShortcutsDlg#ShDirText"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="ShDirLabel" Type="Text" X="45" Y="151" Width="279" Height="11" Attributes="65538" Order="800" TextLocId="Control.Text.StartMenuShortcutsDlg#ShDirLabel"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="ShDirComboBox" Type="ComboBox" X="45" Y="164" Width="360" Height="80" Attributes="65539" Property="AI_SH_DIR" Text="{260}" Order="900" TextLocId="Control.Text.StartMenuShortcutsDlg#ShDirComboBox"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control="InfoText" Type="Text" X="86" Y="210" Width="327" Height="90" Attributes="65538" Order="1000" TextLocId="Control.Text.StartMenuShortcutsDlg#InfoText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="ShDirDialogInit" Event="DoAction" Argument="AI_LoadShortcutDirs" Condition="1 AND NOT AI_SH_INITED" Ordering="200"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="Next" Event="[SHORTCUTDIR]" Argument="[ProgramMenuFolder][AI_SH_DIR]" Condition="AI_INSTALL" Ordering="100"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="ShDirDialogInit" Event="[AI_SH_INITED]" Argument="1" Condition="1 AND NOT AI_SH_INITED" Ordering="300"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="ShDirDialogInit" Event="[AI_SH_DIR]" Argument="[ProductName]" Condition="1 AND NOT AI_SH_INITED" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="StartMenuShortcutsDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.StartMenuShortcutsDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="InfoText" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="Title" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="ShDirText" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="ShDirLabel" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="Bitmap" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="HtmlHost" Action="Hide" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="Next" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+    <ROW Dialog_="StartMenuShortcutsDlg" Control_="Back" Action="Show" Condition="(NOT AIEXTERNALUI) OR (AI_IE_Ver &lt; &quot;06&quot;)"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.TempFileComponent">
+    <ROW FileId="startmenushortcut.html.742DA8B7" Name="star~1.htm|startmenushortcut.html" Directory_="TempFolder\[|ProductCode]\Spring.742DA8B7" Property="Ai_STARTMENUSHORTCUT.HTML.742DA8B7" Options="0" Data="&lt;AI_THEMES&gt;spring\resources\html\startmenushortcut.html" NoTableRefCount="true"/>
+    <ROW FileId="info.png.742DA8B7" Name="info.png" Directory_="TempFolder\[|ProductCode]\Spring.742DA8B7" Property="Ai_INFO.PNG.742DA8B7" Options="0" Data="&lt;AI_THEMES&gt;spring\resources\html\info.png" NoTableRefCount="true"/>
+  </COMPONENT>
+</FRAGMENT>

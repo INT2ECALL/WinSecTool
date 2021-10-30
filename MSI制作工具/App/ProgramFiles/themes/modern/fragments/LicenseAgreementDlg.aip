@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="IAgree" Value="No" Type="4"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control="Background" Type="Bitmap" X="0" Y="0" Width="568" Height="379" Attributes="1048577" Text="[ThreeColorsBackground]" Order="100"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Next" Type="PushButton" X="435" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Cancel" Type="PushButton" X="497" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="275" Y="122" Width="281" Height="117" Attributes="7" Order="400" TextLocId="Control.Text.LicenseAgreementDlg#AgreementText"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Buttons" Type="RadioButtonGroup" X="275" Y="289" Width="281" Height="40" Attributes="3" Property="IAgree" Order="500"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Back" Type="PushButton" X="379" Y="388" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="600" TextLocId="-" Options="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="LogoIcon" Type="Icon" X="18" Y="11" Width="36" Height="36" Attributes="7340033" Text="[LogoIcon]" Order="700"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="AppName" Type="Text" X="62" Y="24" Width="143" Height="23" Attributes="196611" TextStyle="AppName" Order="800" TextLocId="Modern.Control.Text.Dlg#AppName"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Manufacturer" Type="Text" X="61" Y="16" Width="300" Height="12" Attributes="196611" TextStyle="Manufacturer" Order="900" TextLocId="Modern.Control.Text.Dlg#Manufacturer"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="Setup" Type="Text" X="195" Y="24" Width="158" Height="23" Attributes="196611" TextStyle="[AI_SetupFont]" Order="1000" TextLocId="Modern.Control.Text.Dlg#Setup"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementLabel" Type="Text" X="275" Y="83" Width="281" Height="32" Attributes="196611" Order="1100" TextLocId="Modern.Control.Text.LicenseAgreementDlg#AgreementLabel"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="ButtonsLabel" Type="Text" X="275" Y="269" Width="278" Height="11" Attributes="196611" Order="1200" TextLocId="Modern.Control.Text.LicenseAgreementDlg#ButtonLabel"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="PrintButton" Type="PushButton" X="500" Y="247" Width="56" Height="17" Attributes="3" Order="1300" TextLocId="Modern.Control.Text.LicenseAgreementDlg#PrintButton" AssociatedCtrl="AgreementText"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="BottomLine" Type="Line" X="0" Y="379" Width="568" Height="1" Attributes="1" Order="1400"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Action="Disable" Condition="IAgree &lt;&gt; &quot;Yes&quot;"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Action="Enable" Condition="IAgree = &quot;Yes&quot;"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="LicenseAgreementDlg" HCentering="50" VCentering="50" Width="568" Height="412" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.LicenseAgreementDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="IAgree" Order="1" Value="Yes" X="5" Y="2" Width="268" Height="15" TextStyle="Bold" TextLocId="RadioButton.Text.IAgree#1"/>
+    <ROW Property="IAgree" Order="2" Value="No" X="5" Y="22" Width="268" Height="15" TextStyle="Bold" TextLocId="RadioButton.Text.IAgree#2"/>
+  </COMPONENT>
+</FRAGMENT>

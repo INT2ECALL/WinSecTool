@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C49_E141_464F_BA06_579198CB3688" DisplayName="Visual C++ 2008 x86" VersionMin="9.0"
+      SetupFileUrl="http://download.microsoft.com/download/d/1/0/d10d210e-e0ad-4010-b547-bc5e395ef691/vcredist_x86.exe"
+      Location="1" ExactSize="4209160" MD5="c0622ed3b105ac0e4c99e45db43f9589"
+      NoUiComLine="/q"
+      Operator="1" Options="f" TargetName="Visual C++ 2008"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C49_E141_464F_BA06_579198CB3688Install" Prereq="C49_E141_464F_BA06_579198CB3688" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\9.0\RED\1033\Install" RefContent="M1"
+      Order="1" Property="PreReqSearch_C49_E141_464F_BA06_579198CB3688"/>
+  </COMPONENT>
+</FRAGMENT>

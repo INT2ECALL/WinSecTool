@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="ADCDB4C_AFEB_4F3D_A1D0_2B0D48C0458C" DisplayName="Visual C++ 2008 SP1 x86 (MFC Security Update)" VersionMin="9.0"
+      SetupFileUrl="http://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe"
+      Location="1" ExactSize="4479832" MD5="35da2bf2befd998980a495b6f4f55e60"
+      NoUiComLine="/q"
+      Operator="1" Options="f" TargetName="Visual C++ 2008 SP1"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="ADCDB4C_AFEB_4F3D_A1D0_2B0D48C0458CVersion" Prereq="ADCDB4C_AFEB_4F3D_A1D0_2B0D48C0458C" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\9.0\RED\1033\Version" VerMin="30729.6161"
+      Order="1" Property="PreReqSearch_ADCDB4C_AFEB_4F3D_A1D0_2B0D48C0458C"/>
+  </COMPONENT>
+</FRAGMENT>

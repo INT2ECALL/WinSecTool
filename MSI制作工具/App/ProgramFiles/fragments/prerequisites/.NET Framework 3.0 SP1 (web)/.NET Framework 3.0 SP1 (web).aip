@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="EB15E07_B780_4A68_ABE7_29672D8A3B4A" DisplayName=".NET Framework 3.0 SP1 (web installer)"
+      SetupFileUrl="http://download.microsoft.com/download/4/9/0/49001df1-af88-4a4d-b10f-2d5e3a8ea5f3/dotnetfx30SP1setup.exe"
+      Location="1" ExactSize="2518032" MD5="2204e159dafcab482e93fecb374761ef"
+      WinNTVersions="Windows Vista x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q /norestart"
+      Operator="0" Options="xy" TargetName=".NET Framework 3.0 SP1"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="EB15E07_B780_4A68_ABE7_29672D8A3B4AInstallSuccess" Prereq="EB15E07_B780_4A68_ABE7_29672D8A3B4A" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\InstallSuccess" RefContent="M1"
+      Order="1" Property="PreReqSearch_EB15E07_B780_4A68_ABE7_29672D8A3B4A"/>
+    <ROW SearchKey="EB15E07_B780_4A68_ABE7_29672D8A3B4ASP" Prereq="EB15E07_B780_4A68_ABE7_29672D8A3B4A" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\SP" RefContent="G0"
+      Order="2" Property="PreReqSearch_1_EB15E07_B780_4A68_ABE7_29672D8A3B4A"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="sr_SP_Latin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bitni"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Nova omotnica"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Duplikat %s od %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Nova promenljiva"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Opis"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Instalaciona opcija"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Igranje"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Podrška"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Vaš opis igre [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Nova datoteka"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Nov ključ"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Nova sekcija"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Nova vrednost"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="greska.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="izlaz.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Naziv vašeg proizvoda"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] se ne može instalirati na sistemima sa verzijom Adobe Reader-a manjom od [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName] se ne može instalirati na sistemima bez [AI_REQUIRED_ACTIVESYNC_DISPLAY] ili novije verzije."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] se ne može instalirati na sistemima sa kvalitetom boje manjim od [AI_REQUIRED_COLOR_QUALITY] bita."/>
+  <STRING id="AI.LaunchCondition.Description" value="Opis uslova za pokretanje instalacije"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] se ne može instalirati na sistemima sa verzijom DirectX-a manjom od [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] se ne može instalirati na sistemima sa verzijom .NET Framework-a manjom od [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] se ne može instalirati na sistemima sa verzijom .NET Core-a manjom od [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] se ne može instalirati na sistemima sa verzijom Internet Explorer-a manjom od [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] se ne može instalirati na sistemima sa verzijom Internet Information Services manjom od [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] zahteva uspostavljenu Internet vezu zbog instalacije. Molimo proverite vašu mrežnu konfiguraciju i podešenost proksija."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] se ne može instalirati na sistemima sa JDK verzijom manjom od [AI_REQUIRED_JDK_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] se ne može instalirati na sistemima sa verzijom JRE-a manjom od [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] se ne može instalirati na [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] se ne može instalirati na [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] se ne može instalirati na [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] se ne može instalirati na [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] se ne može instalirati na [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] se ne može instalirati na [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="[ProductName] se ne može instarirati na sistemima bez [AI_REQUIRED_OFFICE_APPNAME]."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] se ne može instalirati na sistemima bez [AI_REQUIRED_OFFICE_APPNAME] 2003."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName] se ne može instalirati na sistemima bez [AI_REQUIRED_OFFICE_APPNAME] 2007."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] za svoju instalaciju zahteva administratorski nivo ovlašćenja."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] se ne može instalirati na sistemima sa fizičkom memorijom manjom od [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] se ne može instalirati na sistemima sa rezolucijom ekrana manjom od [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName] se ne može instalirati na sistemima bez [AI_REQUIRED_SQLCOMPACT_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName] se ne može instalirati na sistemima bez [AI_REQUIRED_SQLEXPRESS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] se ne može instalirati na sistemima koji se izvršavaju na virtualnim mašinama."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] se ne može instalirati na sistemima sa verzijom Windows Installer-a manjom od [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName] se ne može instalirati na sistemima sa XNA Framework verzijom manjom od [AI_REQUIRED_XNA_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="VasaDatoteka.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Ova instalatorska baza sadrži logiku i podatke neophodne za instalaciju [|ProductName]."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Naziv vaše firme"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Naziv vašeg Merge modula"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Ova baza podataka sadrži logiku i podatke neophodne za instalaciju &lt;ime modula&gt; komponente."/>
+  <STRING id="AI.Property.DefaultProductName" value="Naziv vašeg programa"/>
+  <STRING id="AI.Property.DefaultValue" value="Vrednost"/>
+  <STRING id="AI.Property.FindExeTitle" value="Odaberite instalacioni paket za [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Ovaj paket sadrži Merge modul koji je kreiran sa probnom verzijom Advanced Installer-a. Možete ga upotrebiti samo za isprobavanje."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Ovaj paket sadrži Merge modul koji je kreiran sa probnom verzijom Advanced Installer-a. Možete ga upotrebiti samo za isprobavanje."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Upozorenje"/>
+  <STRING id="AI.Registry.DefaultKey" value="Nov_kljuc"/>
+  <STRING id="AI.Registry.DefaultName" value="Nova vrednost"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="VasaDatoteka.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="VašaVrednost"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="NazivServisa"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Opis vašeg servisa"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Naziv vašeg servisa"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Nova deljena omotnica"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Prečica na VašuKomandu"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Prečica na %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Deinstalacija"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Otvori"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Nova datoteka"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Informacije o instalatoru"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LogonInformationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Kreiraj novu omotnicu|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Pomeri se na nivo iznad|"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Kreiraj novu omotnicu|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Pomeri se na nivo iznad|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Informaciona ikonica|"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Informaciona ikonica|"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Izmeni instalaciju|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Ukloni instalaciju|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Popravi instalaciju|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Kompletiraj instalaciju|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Korisnička instalacija|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Tipična instalacija|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Ikonica sa uskličnikom|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="Pog&amp;ledaj u:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Prelistavanje odredišne omotnice"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="Naziv omotnice (&amp;f):"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Izmena tekuće odredišne omotnice"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Navedite mrežnu lokaciju za sliku [ProductName] proizvoda na serveru"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="Un&amp;esite novu mrežnu lokaciju ili kliknite na Prelistavanje da odaberete neku."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Mrežna lokacija"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD &amp;Ključ:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Unesite informacije o vašoj firmi"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="Unesite naziv vaše organizacije u donje &amp;polje. On će biti korišćen kao podrazumevani naziv  firme u narednim instalacijama [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Informacije o firmi"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard] će kreirati sliku [ProductName] na serveru, na navedenoj mrežnoj lokaciji. Kliknite [Text_Next] ili Otkaži da izađete iz [Wizard]-a"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Dobrodošli u [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="Pog&amp;ledaj u:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Prelistaj odredišnu omotnicu"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="Naziv omotnice (&amp;f):"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Izmena tekuće odredišne omotnice"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Da li ste sigurni da želite da poništite instalaciju [ProductName]-a?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Odabir načina na koji želite da instalirate instalacione opcije"/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="&amp;Utrošak diska"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Višelinijski opis tekuće selektovane stavke."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Veličina tekuće selektovane stavke."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Putanja selekcije&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Lokacija:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Kliknite na ikonice u donjoj strukturi da izmenite način na koji će instalacione opcije biti instalirane."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Korisničko podešavanje"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Hijerarhija selekcija"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Prostor na disku neophodan za instalaciju odabranih instalacionih opcija. "/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Osvetljeni logički diskovi (ako ih ima) nemaju dovoljno slobodnog prostora za trenutno odabrane instalacione opcije. Možete da uklonite neke od datoteka sa osvetljenih logičkih diskova, ili možete da instalirate manje instalacionih opcija na lokalne diskove, ili možete da odaberete neke druge odredišne diskove."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Zahtev za zauzeće prostora na disku"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Informacioni tekst"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Pritisnite dugme Završi da izađete iz [Wizard]-a."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Pokreni [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Završetak [ProductName] [Wizard]-a"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Pogledajte datoteku sa obaveštenjem"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Pridruživanje [ProductName]-a tipovima datoteka."/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] će registrovati [ProductName] u upravljanju sledećim tipovima datoteka: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Pridruživanje tipova datoteka"/>
+  <STRING id="Control.Text.FatalError#Description1" value="Konfigurisanje [ProductName]-a završilo se preuranjeno zbog greške. Vaš sistem nije izmenjen. Ako želite da ovaj program instalirate, pokrenite ponovo instalaciju."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Kliknite dugme Završi da izađete iz [Wizard]-a."/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] je prevremeno završen."/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Neke datoteke koje zahtevaju ažiriranje su trenutno u upotrebi."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Sledeći programi koriste datoteke koje ovo podešavanje mora da ažurira. Možete zatvoriti ove programe i onda kliknite na dugme Ponovi, ili možete kliknuti na Zanemari da bi instalacija produžila i zamenila ove datoteke kada se vaš sistem ponovo pokrene."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Programi u upotrebi"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Ovo je omotnica gde će se instalirati [ProductName]."/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="Omotnica (&amp;f):"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Za instalaciju u ovu omotnicu, kliknite &quot;[Text_Next]&quot;. Za instalaciju u neku drugu omotnicu, unesite je dole ili kliknite &quot;Prelistaj&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Odabir instalacione omotnice"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_sr_SP_Latin.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Pročitajte pažljivo sledeći ugovor o licenci"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Ugovor o licenci s krajnjim korisnikom"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="Iz&amp;mena"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Dozvoljava korisnicima da izmene način instalacije instalacionih opcija"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Odabir operacije koju želite da obavite."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="Ukloni (&amp;R)"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Uklanjanje [ProductName]-a sa vašeg računara."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="&amp;Popravka"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Uklanjanje grešaka iz najskorijeg instalacionog stanja - popravka nedostajućih ili oštećenih datoteka, popravka prečica i popravka stavki registry baze."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Izmena, popravka ili uklanjanje instalacije"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] će vam omogućiti da promenite način na koji su [ProductName]-ove instalacione opcije instalirane ili da čak uklonite [ProductName] sa vašeg računara.  Kliknite [Text_Next] da nastavite ili Otkaži da izađete iz [Wizard]-a."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Dobrodošli u [ProductName]-ov [Wizard]"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Neke datoteke koje je neophodno ažurirati nalaze se već u upotrebi."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Sledeći programi koriste datoteke koje ovo podešavanje mora da ažurira."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Datoteke u upotrebi"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Prostor na disku neophodan za ovu instalaciju prevazilazi raspoloživi prostor diska."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Osvetljeni logički diskovi nemaju dovoljno prostora za trenutno odabrane instalacione opcije. Možete izbrisati neke datoteke sa osvetljenih diskova, ili možete instalirati manje instalacionih opcija na lokalni disk (diskove), ili možete odabrati neki drugi odredišni disk (diskove)."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Na disku nema dovoljno prostora"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Prostor na disku koji je neophodan za instalaciju prevazi raspoloživi prostor na disku."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Osvetljeni logički diskovi nemaju dovoljno prostora za trenutno odabrane instalacione opcije. Možete izbrisati neke datoteke sa osvetljenih diskova, ili možete instalirati manje instalacionih opcija na lokalni disk (diskove), ili možete odabrati neki drugi odredišni disk (diskove)."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Opciono možete onemogućiti instalatorsku mogućnost vraćanja ranijeg stanja.  Na ovaj način instalacija može da vrati vaš računar u originalno stanje ako iz bilo kog razloga dođe do njenog prekida. Kliknite Da ako želite da preuzmete rizik da onemogućite ovo vraćanje ranijeg stanja."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Nema dovoljno prostora na disku"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] će instalirati Zakrpu za [ProductName] na vašem računaru.  Kliknite [Text_Next] da nastavite ili Otkaži da odustanete od [Wizard]-ove zakrpa."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Dobrodošli u [ProductName]-ov [Wizard] zakrpe"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Sačekajte dok se [Wizard] priprema da vas provede kroz ovu instalaciju."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Dobrodošli u [ProductName]-ov [Wizard]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Pokazivač napredovanja"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Status:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Sačekate [Wizard] [Progress2] [ProductName].  Ovo može da potraje nekoliko minuta."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Pažljivo pročitajte sledeći tekst"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_sr_SP_Latin.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Datoteka sa obaveštenjem"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard] će obaviti instalaciju [ProductName]-a na vašem računaru.  Kliknite Instaliraj za nastavak ili Otkaži da napustite [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Nastavak [ProductName]-ovog [Wizard]-a"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="Završetak (&amp;o)"/>
+  <STRING id="Property.Text_Complete" value="Završetak"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Biće instalirane sve programske opcije.  (Ovo uzrokuje najveći utrošak diska)"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="Prilagođenje (&amp;u)"/>
+  <STRING id="Property.Text_Custom" value="Prilagođenje"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Omogućava korisnicima da odaberu programske opcije za instalaciju i odredište ovih instalacija. Preporučuje se naprednim korisnicima."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Odaberite tip podešavanja koji vam najbolje odgovara"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Odabir tipa podešavanja"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Tipično"/>
+  <STRING id="Property.Text_Typical" value="Tipično"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Instaliranje najčešćih programskih opcija. Preporučuje se za većinu korisnika."/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Kreiranje programskih prečica"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Radna površina"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Traka sa alatkama za brzo pokretanje"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Kreiraj prečice za [ProductName] na sledećim lokacijama:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Programska omotnica Start menija"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Startup omotnica"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Podešavanje prečica"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Baza podataka:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Konfigurisanje SQL veze..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC resurs:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Lozinka:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Port:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Server:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL baza podataka"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Korisničko ime:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Ovo je omotnica gde će [ProductName]-ove prečice biti instalirane."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Za instalaciju u podomotnicu, dodajte naziv podomotnice, razdvojen kosom crtom &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="Omotnica za prečice &amp;Start menija:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Za instalaciju prečice u ovoj omotnici, kliknite &quot;[Text_Next]&quot;. Ako instalirate u drugu omotnicu, navedite je ispod ili odaberite jednu iz kombinovane liste."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Odabir omotnice za prečice Start menija"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Opis novog dijaloga..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Nov dijalog"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Nov dijalog potomak (čeka se na njegov završetak)"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Pretraživanje i nadogradnja starijih verzija [ProductName]-a."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] može da pretražuje starije verzije [ProductName]-a i da ih ukloni. Da li želite da uklonite ove verzije?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] je utvrdio da ste odabrali instalacionu lokaciju koju takođe koristi [AI_Replaced_Versions_List] verzija [ProductName]-a. Ova verzija mora biti deinstalirana. Da li takođe želite da uklonite sve ostale stare verzije?"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Nadogradnja starijih verzija"/>
+  <STRING id="Control.Text.UserExit#Description1" value="Prekinuto je podešavanje [ProductName]-a. Vaš sistem nije izmenjen. Za kasniju instalaciju ovog programa pokrenite ponovo instalacioni postupak."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Kliknite na Završi da napustite [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName]-ov [Wizard] je prekinut"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Serijski broj:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Unesite informacije o kupcu"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="Ime korisnika (&amp;U):"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Organizacija:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Informacije o kupcu"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] je spreman da počne [ProductName] instalaciju"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Kliknite Instaliraj da počnete instalaciju. Ako želite da pregledate ili izmenite neko od vaših instalacionih podešavanja, kliknite Nazad. Kliknite Otkaži da napustite čarobnjak."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Spreman za instalaciju"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Odabrali ste uklanjanje programa s vašeg računara."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Kliknite Ukloni da uklonite [ProductName] s vašeg računara. Ako želite da pogledate ili izmenite neki od instalacionih parametara, kliknite Nazad. Kliknite Otkaži da napustite čarobnjaka."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Uklanjanje [ProductName]-a"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard] je spreman da oporavi [ProductName]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Kliknite Popravi da oporavite [ProductName]-ovu instalaciju.  Ako želite da pogledate ili izmenite neki od instalacionih parametara, kliknite Nazad. Kliknite Otkaži da napustite čarobnjaka."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Oporavak [ProductName]-a"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Sačekajte dok instalator završi određivanje potrebnog utroška diska."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard] će instalirati [ProductName] na vašem računaru. Kliknite [Text_Next] da nastavite ili Otkaži da napustite [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Dobrodošli u [ProductName]-ov [Wizard]"/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="Odaberite tip instalacije."/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="Instalacija [ProductName] za:"/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="Tip instalacije:"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="Opis novog dijaloga..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="Nov dijalog"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="Završetak instalacije|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="Serverska instalacija|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="Klijentska instalacija|"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="K&amp;ompletno"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="Instaliranje klijentske i serverske konfiguracije."/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="&amp;Server"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="Instaliranje serverske konfiguracije."/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="Odabir tipa instalacije koja najbolje odgovara vašim potrebama"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="Odabiranje tipa instalacije"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="Klijent (&amp;c)"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="Instaliranje klijentske konfiguracije."/>
+  <STRING id="Control.Text.LogonInformationDlg#Description" value="Navedite informaciju o korisničkom nalogu"/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#DomainLabel" value="&amp;Domen:"/>
+  <STRING id="Control.Text.LogonInformationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#NameLabel" value="Korisničko ime (&amp;u)"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordEdit" value="{80}"/>
+  <STRING id="Control.Text.LogonInformationDlg#PasswordLabel" value="Lozinka (&amp;p)"/>
+  <STRING id="Control.Text.LogonInformationDlg#Title" value="Informacije o prijavljivanju"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="Konfigurišite Tomcat serverske atribute"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="Ime matičnog računara:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="Broj HTTP porta:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="Broj HTTP SSL porta:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="Broj porta za isključivanje:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="Atributi Tomcat servera"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Description" value="Odaberite preduslove koje želite da instalirate."/>
+  <STRING id="Control.Text.PrerequisitesDlg#Title" value="Preduslovi"/>
+  <!-- Azure Theme strings -->
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ClientCommand" value="Klijent"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#CompleteCommand" value="Kompletno"/>
+  <STRING id="Azure.Control.ExtData.ClientServerDlg#ServerCommand" value="Server"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#ModifyCommand" value="Dodaj ili ukloni instalacionu opciju"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RemoveCommand" value="Ukloni"/>
+  <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RepairCommand" value="Popravka"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CompleteCommand" value="К&amp;омплетно"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#CustomCommand" value="Prilagodi"/>
+  <STRING id="Azure.Control.ExtData.SetupTypeDlg#TypicalCommand" value="&amp;Tipično"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ClientCommand" value="Instaliraj klijentsku konfiguraciju.|"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#CompleteCommand" value="Instaliraj klijentsku i serversku konfiguraciju|"/>
+  <STRING id="Azure.Control.Help.ClientServerDlg#ServerCommand" value="Instaliraj serversku konfiguraciju.|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#ModifyCommand" value="Izmeni instalacione opcije.|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RemoveCommand" value="Ukloni [ProductName] iz računara.|"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RepairCommand" value="Ukloni greške u najskorijem instalacionom stanju.|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CompleteCommand" value="Počni instalaciju svih opcija.|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#CustomCommand" value="Odaberi opcije za instalaciju.|"/>
+  <STRING id="Azure.Control.Help.SetupTypeDlg#TypicalCommand" value="Počni instalaciju podrazumevanih opcija.|"/>
+  <STRING id="Azure.Control.Text.AdminInstallPointDlg#Title" value="Odaberi mrežnu lokaciju za serversku sliku [ProductName] proizvoda"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceLabel" value="Raspoloživ prostor na disk jedinici:"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#ItemDescription" value="Višelinijski opis trenuto selektovane stavke."/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#Text" value="Odaberi opcije [ProductName] za instalaciju"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel" value="Ukupna veličina zahtevanog prostora na disk jedinici:"/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.DiskCostDlg#Title" value="Zahtevani prostor na disku za odabrane instalacione opcije"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionConfigured" value="[ProductName] je uspešno konfigurisan."/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionInstalled" value="[ProductName] je uspešno instaliran."/>
+  <STRING id="Azure.Control.Text.ExitDialog#Finish" value="Zatvori (&amp;c)"/>
+  <STRING id="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" value="Pokreni [ProductName]"/>
+  <STRING id="Azure.Control.Text.ExitDialog#ViewReadmeCheckBox" value="Pogledaj Datoteku sa obaveštenjem"/>
+  <STRING id="Azure.Control.Text.ExtRegDlg#Title" value="Pridruži [ProductName] tipovima datoteka"/>
+  <STRING id="Azure.Control.Text.FilesInUse#Title" value="Neke datoteke koje je potrebno izmeniti trenutno su u upotrebi"/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceLabel" value="Raspoloživ prostor na disk jedinici:"/>
+  <STRING id="Azure.Control.Text.FolderDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#ContinueButton" value="Nastavi (&amp;c)"/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceLabel" value="Slobodan prostor preostao na disk jedinici: "/>
+  <STRING id="Azure.Control.Text.FolderDlg#RemainingSpaceText" value="[PrimaryVolumeSpaceRemaining]"/>
+  <STRING id="Azure.Control.Text.FolderDlg#Title" value="Odaberite lokaciju datoteke"/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceLabel" value="Ukupan prostor zahtevan na disk jedinici:"/>
+  <STRING id="Azure.Control.Text.FolderDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
+  <STRING id="Azure.Control.Text.InstallTypeDlg#Title" value="Vrsta [ProductName] instalacije"/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Description" value="Za nastavak morate pročitati i prihvatiti uslove u ovom sporazumu. Ako ne želite da prihvatite uslove [Manufacturer] licence, zatvorite ovaj prozor, čime poništavate instalaciju."/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#EulaAgreeCheckBox" value="Prihv&amp;atam uslove ovog sporazuma."/>
+  <STRING id="Azure.Control.Text.LicenseAgreementDlg#Title" value="Pročitaj Uslove [Manufacturer] licence"/>
+  <STRING id="Azure.Control.Text.LogonInformationDlg#Title" value="Informacije o korisničkom nalogu"/>
+  <STRING id="Azure.Control.Text.MaintenanceTypeDlg#Title" value="Izmenite instalaciju [ProductName]"/>
+  <STRING id="Azure.Control.Text.MsiRMFilesInUse#Title" value="Neke datoteke koje je potrebno izmeniti trenutno su u upotrebi"/>
+  <STRING id="Azure.Control.Text.OutOfDiskDlg#Title" value="Instalacija zahteva prostor na disku koji je veći od raspoloživog prostora."/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#OkButton" value="Prihvati"/>
+  <STRING id="Azure.Control.Text.OutOfRbDiskDlg#Title" value="Instalacija zahteva prostor na disku koji je veći od raspoloživog prostora."/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Description" value="Sačekajte dok se [Wizard] pripremi da vas sprovede kroz instalacioni postupak."/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Title" value="Pripremanje [ProductName] [Wizard]"/>
+  <STRING id="Azure.Control.Text.PrerequisitesDlg#Title" value="Odabir instalacije neophodnih preduslova"/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Description" value="[Progress1] [ProductName]"/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Title" value="Napredovanje instalacije"/>
+  <STRING id="Azure.Control.Text.ReadmeDlg#Title" value="Pročitajte pažljivo sledeći tekst"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Customize" value="Odaberite opcije za instalaciju.|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Description" value="Odaberite "/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#InstallNow" value="Počni instalaciju podrazumevanih opcija.|"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Title" value="Odabir željene instalacije"/>
+  <STRING id="Azure.Control.Text.ShortcutsDlg#Title" value="Kreiranje prečice za aplikaciju"/>
+  <STRING id="Azure.Control.Text.SQLConnectionDlg#Title" value="Konfigurisanje SQL veze"/>
+  <STRING id="Azure.Control.Text.StartMenuShortcutsDlg#Title" value="Odabir direktorijuma za prečice Start menija"/>
+  <STRING id="Azure.Control.Text.TomcatServerDlg#Title" value="Konfigurisanje atributa Tomcat servera"/>
+  <STRING id="Azure.Control.Text.UpgradeDlg#Title" value="Pronađi i nadogradi starije verzije [ProductName]"/>
+  <STRING id="Azure.Control.Text.UserRegistrationDlg#Title" value="Unesi svoje korisničke informacije"/>
+  <STRING id="Azure.Control.Text.VerifyReadyDlg#Title" value="Početak instalacije [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRemoveDlg#Title" value="Početak uklanjanja [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRepairDlg#Title" value="Početak popravke [ProductName]"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#ContinueButton" value="Nastavi (&amp;c)"/>
+  <STRING id="Property.Text_Continue" value="Nastavi"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Description" value="Za nastavak morate da pročitate i prihvatite uslove ovog sporazuma. Ako ne želite da prihvatite [Manufacturer] licencne uslove, zatvorite ovaj prozor, čime poništavate instalaciju."/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#EulaAgreeCheckBox" value="Prihv&amp;atam uslove ovog sporazuma."/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Title" value="Dobrodošli u [ProductName] [Wizard]"/>
+  <!-- Graphite Theme strings -->
+  <STRING id="Graphite.Control.Text.AdminInstallPointDlg#Title" value="[ProductName] serverska slika mrežne lokacije"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Description" value="Odaberite programske osobenosti koje želite da instalirate."/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#SpaceRequiredLabel" value="Prostor potreban za odabrane komponente:"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Title" value="Korisničko postavljanje"/>
+  <STRING id="Graphite.Control.Text.Dlg#CollectingLabel" value="Prikupljanje informacija"/>
+  <STRING id="Graphite.Control.Text.Dlg#FinalizingLabel" value="Završavanje instalacije"/>
+  <STRING id="Graphite.Control.Text.Dlg#InstallingLabel" value="Instaliranje"/>
+  <STRING id="Graphite.Control.Text.Dlg#PreparingLabel" value="Priprema instalacije"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Intro" value="[ProductName] je uspešno instaliran."/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Title" value="[ProductName] postavljanje uspešno izvršeno"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description1" value="[ProductName] postavljanje završilo se preuranjeno zbog greške. Vaš sistem nije izmenjen. Za kasniju instalaciju ovog programa molimo pokrenite ponovo instalaciju."/>
+  <STRING id="Graphite.Control.Text.FatalError#Description2" value="Kliknite &quot;Završetak&quot; dugme da izađete iz [Wizard]-a."/>
+  <STRING id="Graphite.Control.Text.FatalError#Title" value="[ProductName] postavljanje prekinuto"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#AvailableSpaceLabel" value="Dostupan prostor na disku:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Description" value="Za instalaciju ove omotnice, kliknite &quot;[Text_Next]&quot;"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Intro" value="Ovo je omotnica gde će [ProductName] biti instaliran."/>
+  <STRING id="Graphite.Control.Text.FolderDlg#RemainingSpaceLabel" value="Preostali prostor na disku:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#SpaceRequiredLabel" value="Potreban prostor:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Title" value="Instalaciona omotnica"/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Description" value="Pročitajte pažljivo sledeći Sporazum o licenci."/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Title" value="Sporazum o licenci za krajnjeg korisnika"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#ChangeText" value="Izmena stanja tekuće instalacije - dodajte ili uklonite programske osobenosti."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Description" value="Odaberite uslužnu operaciju koju želite da izvršite i kliknite &quot;[Text_Next]&quot;."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Intro" value="Dobrodošli u Čarobnjak za održavanje [ProductName]"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RemoveText" value="Uklanja [ProductName] sa vašeg računara."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RepairText" value="Popravka grešaka u najskorijem instalacionom stanju - popravlja nedostajuće ili oštećene datoteke, prečice i stavke Registry baze."/>
+  <STRING id="Graphite.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] će vam dopustiti da izmenite način na koji se [ProductName] osobenosti instaliraju na vašem računaru ili čak da ukloni [ProductName] sa vašeg računara. Kliknite &quot;[Text_Next]&quot; za nastavak ili &quot;Otkaži&quot; da napustite [Wizard]."/>
+  <STRING id="Graphite.Control.Text.MsiRMFilesInUse#Description" value="Neke datoteke koje treba da budu ažurirane trenutno su u upotrebi"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Intro" value="Dobrodošli u čarobnjak za Doradu postavljanja [ProductName]-a"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Title" value="Dobrodošli u Postavljanje dorade [ProductName]-a"/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Description" value="Sačekajte dok se [Wizard] pripremi da vas vodi kroz instalaciju."/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Title" value="Priprema [ProductName] postavljanja"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Description" value="Odaberite koje preduslove želite da instalirate."/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}Ime,Zahtevano,Nađeno,Akcija"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Title" value="Preduslovi"/>
+  <STRING id="Graphite.Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Description" value="Pročitaje pažljivo sledeći tekst."/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Title" value="Informacije ReadMe"/>
+  <STRING id="Graphite.Control.Text.ResumeDlg#Title" value="Ponovno podašavanje [ProductName]"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Description" value="Odaberite vrstu podešavanja koja odgovara vašim potrebama."/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Title" value="Podešavanje tipa"/>
+  <STRING id="Graphite.Control.Text.SQLConnectionDlg#Title" value="Konfigurisanje SQL baze podataka"/>
+  <STRING id="Graphite.Control.Text.TomcatServerDlg#Title" value="Konfiguracija Tomcat serverskih obeležja"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description1" value="[ProductName] podešavanje je prekinut.o Vaš sistem nije izmenjen. Za kasniju instalaciju ovog programa, pokrenite ponovo instalaciju."/>
+  <STRING id="Graphite.Control.Text.UserExit#Description2" value="Kliknite &quot;Završetak&quot; dugme za izlazak iz [Wizard]-a."/>
+  <STRING id="Graphite.Control.Text.UserExit#Title" value="[ProductName] podešavanje je prekinuto"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Description" value="Kliknite &quot;Instaliraj&quot; da počnete instalaciju.  Ako želite da pregledate ili izmenite neko od instalacionih podešavanja, kliknite &quot;Nazad&quot;.  Kliknite &quot;Odustani&quot; da napustite čarobnjak."/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Intro" value="[Wizard] je spreman da počne [ProductName] instalaciju."/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Title" value="Spreman za insalaciju"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Description" value="Kliknite &quot;Ukloni&quot; da uklonite [ProductName] sa vašeg računara. Ako želite da pregledate ili promenite neko od vaših instalacionih podešavanja, kliknite &quot;Nazad&quot;.  Kliknite &quot;Otkaži&quot; da napustite čarobnjaka."/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Intro" value="[Wizard] je spreman da počne uklanjanje [ProductName]"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Title" value="Spreman za uklanjanje"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Description" value="Kliknite &quot;Ukloni&quot; da uklonite instalaciju [ProductName]. Ako želite da pregledate ili promenite neko od vaših instalacionih podešavanja, kliknite &quot;Nazad&quot;.  Kliknite &quot;Otkaži&quot; da napustite čarobnjaka."/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Intro" value="[Wizard] je spreman da počne popravku [ProductName]-a."/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Title" value="Spreman za popravku"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Description" value="[Wizard] će instalirati [ProductName] na vašem računaru.  Kliknite &quot;[Text_Next]&quot; za nastavak."/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Intro" value="Dobrodošli u Čarobnjak za podešavanje [ProductName]-a"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Title" value="Dobrodošli u podešavanje [ProductName]-a"/>
+  <STRING id="Graphite.MaintenanceTypeDlg#Title" value="Dobrodošli u Održavanje [ProductName]-a"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Complete" value="Završetak"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Custom" value="Korisnički"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Typical" value="Tipičan"/>
+  <!-- Modern Theme strings -->
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#AddRemoveButton" value="Izmenite koje osobenosti su instalirane ili uklonite određene osobenosti.|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RemoveButton" value="Uklonite [ProductName] sa vašeg računara.|"/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RepairButton" value="Uklanja greške iz najskorijeg instalacionog stanja - popravlja nedostajuće ili oštećene datoteke, prečice i stavke Registry baze.|."/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CompleteInstallButton" value="Sve programske osobenosti će biti instalirane. (Zahteva najviše prostora na disku)|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#CustomInstallButton" value="Dopušta korisnicima da odaberu koje programske osobenosti će biti instalirane i gde će biti instalirane. Preporučuje se za napredne korisnike.|"/>
+  <STRING id="Modern.Control.Help.SetupTypeDlg#TypicalInstallButton" value="Instalira najčešće programske osobenosti. Preporučuje se za većinu korisnika.|"/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#BottomNote" value="Kliknite &quot;[Text_Next]&quot; za nastavak."/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#Description" value="[Wizard] će kreirati serversku sliku [ProductName]-a, na navedenoj mrežnoj lokaciji."/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#Browse" value="Prelistavanje..."/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#FeatureDescriptionLabel" value="Opis osobenosti:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#InstallPathLabel" value="Instalaciona putanja &amp;proizvoda:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#SelectionTreeLabel" value="Odaberite osobenost za instalaciju:"/>
+  <STRING id="Modern.Control.Text.CustomizeDlg#VolumeCostListLabel" value="Zahtevani prostor na disku:"/>
+  <STRING id="Modern.Control.Text.Dlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.Dlg#Manufacturer" value="[Manufacturer]"/>
+  <STRING id="Modern.Control.Text.Dlg#Setup" value="Podešavanje"/>
+  <STRING id="Modern.Control.Text.FatalError#Description" value="Podešavanje [ProductName]-a završilo se preuranjeno zbog greške. Vaš sistem nije izmenjen. Za kasniju instalaciju ovog programa, pokrenite ponovo ovu instalaciju."/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#AgreementLabel" value="Proverite da ste pažljivo pročitali i razumeli sva prava i ograničenja opisana u uslovima ovog sporazuma. Morate prihvatiti uslove sporazuma da bi ste mogli da instalirate ovaj softver."/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#ButtonLabel" value="Pritisnite dugme Page Down da vidite ostatak teksta."/>
+  <STRING id="Modern.Control.Text.LicenseAgreementDlg#PrintButton" value="Štampaj"/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#BottomNote" value="Kliknite &quot;[Text_Next]&quot; za nastavak."/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] će dopustiti da promenite način na koji su osobenosti [ProductName]-a instalirane na vašem računaru ili čak da uklonite [ProductName] sa vašeg računara."/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Description" value="[Wizard] će instalirati doradu za [ProductName] na vašem računaru. Kliknite &quot;[Text_Next]&quot; za nastavak ili &quot;Otkaži&quot; da napustite [Wizard] dorade."/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Title" value="Dobrodošli na [ProductName]-ov doradni [Wizard]"/>
+  <STRING id="Modern.Control.Text.PrepareDlg#Description" value="Sačekajte dok se [Wizard] pripremi da vas provede kroz instalaciju."/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Description" value="Odaberite preduslove koje želite da instalirate."/>
+  <STRING id="Modern.Control.Text.PrerequisitesDlg#Title" value="Preduslovi"/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Description" value="Pročitajte pažljivo sledeći tekst."/>
+  <STRING id="Modern.Control.Text.ReadmeDlg#Title" value="Datoteka PročitajMe"/>
+  <STRING id="Modern.Control.Text.ResumeDlg#BottomNote" value="Kliknite &quot;Instaliraj&quot; za nastavak ili &quot;Otkaži&quot; da napustite [Wizard]."/>
+  <STRING id="Modern.Control.Text.ResumeDlg#Description" value="[Wizard] će završiti instalaciju [ProductName]-a na vašem računaru."/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#BrowseButton" value="Prelistavanje..."/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#PathLabel" value="Instalaciona putanja &amp;proizvoda:"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#Title" value="Odaberite osobenosti za instalaciju:"/>
+  <STRING id="Modern.Control.Text.SetupTypeDlg#VolumeCostListLabel" value="Zahtevi za prostor na disku:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Description" value="Kreiranje aplikacijskih prečica."/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#ShortcutsLabel" value="Kreiranje prečica za [ProductName] na sledećim lokacijama:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#Title" value="Konfigurisanje prečica"/>
+  <STRING id="Modern.Control.Text.SQLConnectionDlg#Description" value="Konfigurisanje SQL veze."/>
+  <STRING id="Modern.Control.Text.TomcatServerDlg#Description" value="Postavite konfiguraciju Tomcat serverskih obeležja."/>
+  <STRING id="Modern.Control.Text.UserExit#BottomNote" value="Kliknite dugme &quot;Završetak&quot; da napustite [Wizard]."/>
+  <STRING id="Modern.Control.Text.UserExit#Description" value="Postavljanje [ProductName]-a je prekinuto. Vaš sistem nije izmenje. Za kasniju instalaciju ovog programa, pokrenite ponovo ovu instalaciju."/>
+  <STRING id="Modern.Control.Text.UserRegistrationDlg#Description" value="Unesite vašu korisničku informaciju."/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#BottomNote" value="Kliknite &quot;Instaliraj&quot; da počnete instalaciju. Ako želite da pregledate ili promenite neku od instalacionih postavki, kliknite &quot;Nazad&quot;.  Kliknite &quot;Otkaži&quot; da napustite čarobnjak."/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Description" value="[Wizard] je spreman da počne [ProductName] instalaciju."/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Title" value="Spreman za instalaciju"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#BottomNote" value="Kliknite &quot;Ukloni&quot; da uklonite [ProductName] sa vašeg računara. Ako želite da pregledate ili izmenite neku od instalacionih postavki, kliknite &quot;Nazad&quot;.  Kliknite &quot;Otkaži&quot; da napustite čarobnjak."/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Description" value="Odabrali ste da uklonite program sa vašeg računara."/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Title" value="Uklanjanje [ProductName]"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#BottomNote" value="Kliknite &quot;Popravi&quot; da popravite instalaciju [ProductName].  Ako želite da pregledate ili izmenite neku od instalacionih postavki kliknite &quot;Nazad&quot;.  Kliknite &quot;Otkaži &quot; da napustite čarobnjak."/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Description" value="[Wizard] je spreman da počne popravku [ProductName]-a"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Title" value="Popravljanje [ProductName]"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#BottomNote" value="Kliknite &quot;[Text_Next]&quot; za nastavak."/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Description" value="[Wizard] će instalirati [ProductName] na vašem računaru."/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Title" value="Dobrodošli u [ProductName] [Wizard]"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Registrovanje programa u sistemu"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Kreiranje korisničkog naloga na lokalnom računaru"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Kreiranje korisničke grupe na lokalnom računaru"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Brisanje datoteka dobijenih iz arhive"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Dobijanje datoteka iz arhive"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Izvršavanje Windows Firewall konfiguracija"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Generisanje akcija za konfigurisanje Windows Firewall-a"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Izvršavanje Windows Firewall konfiguracija"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Vraćanje Windows Firewall konfiguracija u ranije stanje."/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Generisanje akcija za konfigurisanje Windows Firewall-a"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Kreiranje IIS veb lokacije i Virtualnih omotnica"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Generisanje akcija za konfiguraciju Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Uklanjanje IIS veb lokacije i Virtualnih omotnica"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Vraćanje IIS konfiguracije u ranije stanje"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Generisanje akcija za konfiguraciju Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Generisanje akcija za kreiranje korisničkih naloga na lokalnom računaru"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Generisanje akcija za deljenje omotnica na lokalnom računaru:"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Generisanje akcija za kreiranje korisničkih grupa na lokalnom računaru."/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Generisanje akcija za planiranje procesa na lokalnom računaru:"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Uklanjanje korisničkog naloga sa lokalnog računara"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Uklanjanje korisničke grupe sa lokalnog računara"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Uklanjanje deljene omotnice sa lokalnog računara"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Uklanjanje planiranog procesa sa lokalnog računara"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Vraćanje kreiranih korisničkih naloga na lokalnom računaru u ranije stanje"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Vraćanje kreiranih korisničkih grupa na lokalnom računaru u ranije stanje"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Vraćanje deljenih omotnica na lokalnom računaru u ranije stanje"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Vraćanje deljenih procesa na lokalnom računaru u ranije stanje"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Planiranje procesa na lokalnom računaru"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Deljena omotnica na lokalnom računaru"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Izvršavanje instaliranih SQL komandnih datoteka"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Generisanje akcija za konfigurisanje baza podataka zbog instalacije izvršavanja SQL komandnih datoteka"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Izvršavanje deinstaliranja SQL komandnih datoteka"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Izvršavanje vraćanja stanja zbog SQL komandnih datoteka"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Generisanje akcija za konfigurisanje baza podataka da se deinstalira izvršenje SQL komandnih datoteka"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Generisanje akcija za uklanjanje korisničkih naloga sa lokalnog računara"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Generisanje akcija za uklanjanje korisničkih grupa na lokalnom računaru"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Generisanje akcija za uklanjanje deljene omotnice sa lokalnog računara:"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Generisanje akcija za uklanjanje deljenih procesa sa lokalnog računara"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Izvršavanje konfigurisanja XML datoteke"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Generisanje akcija za konfiguraciju XML datoteka"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Izvršavanje konfigurisanja XML datoteke"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Vraćanje konfigurisanja XML datoteke u ranije stanje"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Generisanje akcija za konfiguraciju XML datoteka"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Dodela prostora u Registry bazi"/>
+  <STRING id="ActionText.Description.AppSearch" value="Pretraživanje instaliranih programa"/>
+  <STRING id="ActionText.Description.BindImage" value="Uvezivanje izvršnih programa"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Traženje odgovarajućih proizvoda"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Proračun neophodnog prostora"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Proračun neophodnog prostora"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Kreiranje omotnica"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Kreiranje prečica"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Brisanje servisa"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Kreiranje datoteka duplikata"/>
+  <STRING id="ActionText.Description.FileCost" value="Proračun neophodnog prostora"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Traženje srodnih programa"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Generisanje operacija komandnih datoteka za akciju:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Kopiranje mrežnih instalacionih datoteka"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Kopiranje novih datoteka"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Instalacija ODBC komponenata"/>
+  <STRING id="ActionText.Description.InstallServices" value="Instalacija novih servisa"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Instalacija sistemskog kataloga"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Provera ispravnosti instalacije"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Procena uslova za pokretanje"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Prenos stanja Instalacione opcije iz srodnih programa"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Pomeranje datoteka"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Objava informacija o prikupljenom"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Uklanjanje objavljenih informacija o prikupljenom"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Izmena sadržaja datoteka"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Ažuriranje registracije komponenata"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Objava Kvalifikovanih komponenata"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Objava Instalacione opcije proizvoda"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Objava informacija o proizvodu"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Registracija Servera klasa"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Registracija COM+ programa i komponenata"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Registracija servera ekstenzija"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Registracija fontova"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Registracija MIME informacija"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Registracija proizvoda"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Registracija programskih identifikatora"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Registracija biblioteka tipova"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Registracija korisnika"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Uklanjanje duplih datoteka"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Ažuriranje znakovnih nizova okruženja"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Uklanjanje programa"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Uklanjanje datoteka"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Uklanjanje omotnica"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Uklanjanje stavki iz INI datoteka"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Uklanjanje ODBC komponenata"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Uklanjanje vrednosti iz sistemske baze Registry"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Uklanjanje prečica"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Traženje odgovarajućih proizvoda"/>
+  <STRING id="ActionText.Description.Rollback" value="Vraćanje akcije u prethodno stanje:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Uklanjanje rezervnih datoteka"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Registracija modula"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Brisanje registacije modula"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Inicijalizacija ODBC omotnica"/>
+  <STRING id="ActionText.Description.StartServices" value="Startovanje servisa"/>
+  <STRING id="ActionText.Description.StopServices" value="Zaustavljanje servisa"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Uklanjanje pomeranih datoteka"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Brisanje objave o Kvalifikovanim komponentama"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Brisanje objave o Instalacionim opcijama proizvoda"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Brisanje objave o proizvodnim informacijama"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Brisanje registracije o Serverima klasa"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Brisanje registracije COM+ programa i komponenata"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Brisanje registracije o serverima ekstenzija"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Brisanje registracija fontova"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Brisanje registracije MIME informacija"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Brisanje registracije programskih identifikatora"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Brisanje registracije biblioteka tipova"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Ažuriranje nizova znakova okruženja"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Upis vrednosti u INI datoteke"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Upis vrednosti u sistemsku bazu Registry"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Nalog: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Nalog: [1]"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Konfiguracija Windows Firewall pravila: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Konfiguracija Windows Firewall pravila:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Vraćanje konfiguracije Windows Firewall-a u ranije stanje"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Instalacija &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Uklanjanje &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Vraćanje konfiguracije metabaze."/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Nalog: [1], Obeležja: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Omotnica: [1], DeljenoIme: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Nalog: [1], Obeležja: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Naziv procesa: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Nalog: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Nalog: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="NazivDeljeneOmotnice: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Naziv procesa: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Nalog: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Nalog: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="NazivDeljeneOmotnice: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Naziv procesa: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Naziv procesa: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Omotnica: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Veza: [1]  Komandna datoteka: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Veza: [1]  Komandna datoteka: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Veza: [1]  Komandna datoteka: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Nalog: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Nalog: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="NazivDeljeneOmotnice: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Konfigurisanje XML datoteke: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Konfigurisanje XML datoteke:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Vraćanje konfiguracije XML datoteke u ranije stanje."/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Raspoloživ prostor: [1]"/>
+  <STRING id="ActionText.Template.AppSearch" value="Svojstvo: [1], Potpis: [2]"/>
+  <STRING id="ActionText.Template.BindImage" value="Datoteka: [1]"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Omotnica: [1]"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Prečica: [1]"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Servis: [1]"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Datoteka: [1],  Omotnica: [9],  Veličina: [6]"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Pronađen program: [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Datoteka: [1], Omotnica: [9], Veličina: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Datoteka: [1],  Omotnica: [9],  Veličina: [6]"/>
+  <STRING id="ActionText.Template.InstallServices" value="Servis: [2]"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Datoteka: [1],  Zavisni: [2]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Program: [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Datoteka: [1],  Omotnica: [9],  Veličina: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Programski kontekst:[1], Naziv sklopa:[2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Programski kontekst:[1], Naziv sklopa:[2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Datoteka: [1],  Omotnica: [2],  Veličina: [3]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="ID komponente: [1], Kvalifikator: [2]"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Instalaciona opcija: [1]"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Id klase: [1]"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="ProgId: [1]{{, ProgTip: [2], Korisnici: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Proširenje: [1]"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Font: [1]"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Tip MIME sadržaja: [1], Proširenje: [2]"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="BibID: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Datoteka: [1], Omotnica: [9]"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Naziv: [1], Vrednost: [2], Akcija[3]"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Program: [1], Komandna linija: [2]"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Datoteka: [1], Omotnica: [9]"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Omotnica: [1]"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Datoteka: [1],  Sekcija: [2],  Ključ: [3], Vrednost: [4]"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Kluč: [1], Naziv: [2]"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Prečica: [1]"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Datoteka: [1]"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Datoteka: [1], Omotnica: [2]"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Datoteka: [1], Omotnica: [2]"/>
+  <STRING id="ActionText.Template.StartServices" value="Servis: [1]"/>
+  <STRING id="ActionText.Template.StopServices" value="Servis: [1]"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Datoteka: [1], Omotnica: [9]"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="ID komponente: [1], Kvalifikator: [2]"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Instalaciona opcija: [1]"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Id klase: [1]"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="ProgId: [1]{{, ProgTip: [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Proširenje: [1]"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Font: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Tip MIME sadržaja: [1], Proširenje: [2]"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="IDBib: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Naziv: [1], Vrednost: [2], Akcija[3]"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Datoteka: [1],  Sekcija: [2],  Ključ: [3], Vrednost: [4]"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Ključ: [1], Naziv: [2], Vrednost: [3]"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Konfigurisanje Pretraživača igara"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Generisanje akcija za konfigurisanje Pretraživača igara"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Konfigurisanje Pretraživača igara"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Vraćanje Pretraživača igara u pređašnje stanje."/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Generisanje akcija za konfigurisanje Pretraživača igara"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Izvršavanje uslužnih SQL komandnih datoteka."/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Konfigurisanje igre: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Uklanjanje igre: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Vraćanje konfiguracije Pretraživača igara u pređašnje stanje."/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Veza: [1]  Komandna datoteka: [2]"/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="Izvršavanje operacija brisanja datoteka."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="Izvršavanje operacija brisanja datoteka."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="Generisanje akcija za brisanje datoteka."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="Uklanjanje stavki iz Registry baze."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="Izvršavanje operacija uklanjanja u Registry bazi."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="Generisanje akcija za uklanjanje stavki iz Registry baze."/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="Registracija mobilnih aplikacija pomoću Windows CE Application Manager-a"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="Obrada registracionih podataka Windows CE Application Manager-a (faza 2)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="Obrada registracionih podataka Windows CE Application Manager-a (faza 1)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="Pokretanje Windows CE Application Manager-a da konfiguriše instalirane aplikacije"/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="Preuzimanje neophodnih aplikacija"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="Izdvajanje neophodnih aplikacija"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="Instalacija neophodnih aplikacija"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="Provera preduslova"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="Uklanjanje datoteke: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="Uklanjanje datoteke: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="Uklanjanje stavke Registry baze: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="Uklanjanje stavke Registry baze: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="Preuzimanje [1]{[2] završeno}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="Izdvajanje [1]{[2] završeno}"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="Instalacija [1]{[2] završeno}"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="[1] neispravno instaliranih."/>
+  <STRING id="ActionText.Description.AI_InstallLibraries" value="Instalacija Windows biblioteka"/>
+  <STRING id="ActionText.Description.AI_RollbackLibraries" value="Vraćanje instalacije Windows biblioteka u staro stanje"/>
+  <STRING id="ActionText.Description.AI_UninstallLibraries" value="Deinstalacija Windows biblioteka"/>
+  <STRING id="ActionText.Template.AI_InstallLibraries" value="Instalacija [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackLibraries" value="Vraćanje u staro stanje [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallLibraries" value="Deinstalacija [1]"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Neotklonjiva greška: }}"/>
+  <STRING id="Error.1" value="{{Greška [1]. }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Tip poruke: [1], Argument: [2]"/>
+  <STRING id="Error.1101" value="Greška pri čitanju datoteke: [2]. {{ Sistemska greška [3].}}  Proverite da ova datoteka postoji i da joj možete pristupiti."/>
+  <STRING id="Error.12" value="=== Početak evidentiranja: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Završetak evidentiranja: [Date]  [Time] ==="/>
+  <STRING id="Error.1301" value="Ne mogu da kreiram datoteku &apos;[2]&apos;.  Omotnica sa ovim nazivom već postoji. Otkažite ovu instalaciju i pokušajte da instalirate na neku drugu lokaciju."/>
+  <STRING id="Error.1302" value="Ubacite disk: [2]"/>
+  <STRING id="Error.1303" value="Instalator ima nedovoljni nivo ovlašćenja za pristup ovoj omotnici: [2].  Instalacija se ne može nastaviti. Prijavite se kao administrator ili kontaktirajte vašeg sistemskog administratora."/>
+  <STRING id="Error.1304" value="Greška pri upusu u datoteku: [2]. Proverite da li imate pristup omotnici."/>
+  <STRING id="Error.1305" value="Greška pri čitanju datoteke [2]. {{Sistemska greška [3].}} Proverite da datoteka postoji i da imate pravo da joj pristupite."/>
+  <STRING id="Error.1306" value="Drugi program ima ekskluzivni pristup datoteci &apos;[2]&apos;. Zatvorite sve druge programe pa onda kliknite Pokušaj ponovo"/>
+  <STRING id="Error.1307" value="Nema dovoljno slobodnog prostora na disku za instalaciju ove datoteke: [2]. Oslobodite nešto prostora na disku i kliknite Pokušaj ponovo, ili kliknite Otkaži za izlaz."/>
+  <STRING id="Error.1308" value="Izvorna datoteka nije pronađena: [2]. Proverite da postoji datoteka i da joj možete pristupiti."/>
+  <STRING id="Error.1309" value="Greška u čitanju datoteke: [3]. {{ Sistemska greška [2].}} Proverite da postoji datoteka i da joj možete pristupiti."/>
+  <STRING id="Error.1310" value="Greška u čitanju datoteke: [3]. {{ Sistemska greška [2].}}  Proverite da imate pristup toj omotnici."/>
+  <STRING id="Error.1311" value="Izvorna datoteka nije pronađena {{(kabinet)}}: [2]. Proverite da postoji datoteka i da joj možete pristupiti."/>
+  <STRING id="Error.1312" value="Ne može se kreirati omotnica &apos;[2]&apos;. Datoteka sa ovim nazivom već postoji. Preimenujte ili uklonite tu datoteku i kliknite Pokušaj ponovo, ili klikni Otkaži za izlaz."/>
+  <STRING id="Error.1313" value="Logički disk [2] je trenutno nedostupan. Odaberite neki drugi."/>
+  <STRING id="Error.1314" value="Navedena putanja &apos;[2]&apos; nije dostupna."/>
+  <STRING id="Error.1315" value="Nije moguć upis u navedenoj omotnici: [2]."/>
+  <STRING id="Error.1316" value="Došlo je do mrežne greške u pokušaju da se čita iz datoteke: [2]"/>
+  <STRING id="Error.1317" value="Došlo je do greške u pokušaju da se kreira omotnica: [2]"/>
+  <STRING id="Error.1318" value="Došlo je do mrežne greške u pokušaju da se kreira omotnica[2]"/>
+  <STRING id="Error.1319" value="Došlo je do mrežne greške u pokušaju da se otvori izvorna kabinetska datoteka: [2]"/>
+  <STRING id="Error.1320" value="Navedena putanja je predugačka: [2]"/>
+  <STRING id="Error.1321" value="Instalator nema dovoljni nivo ovlašćenja da bi izmenio ovu datoteku: [2]."/>
+  <STRING id="Error.1322" value="Deo putanje omotnice &apos;[2]&apos; je neispravan.  On je ili prazan ili prevazilazi dužinu dopuštenu ovim sistemom."/>
+  <STRING id="Error.1323" value="Putanja omotnice &apos;[2]&apos; sadrži reči nedopuštene u putanjama omotnice."/>
+  <STRING id="Error.1324" value="Putanja omotnice &apos;[2]&apos; sadrži nedopušteni znak."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; je neispravan oblik kratkog naziva datoteke."/>
+  <STRING id="Error.1326" value="Greška u dobijanju bezbenosnih podataka o datoteci: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Neispravna disk jedinica: [2]"/>
+  <STRING id="Error.1328" value="Greška u primeni zakrpe na datoteci [2].  Datoteka je verovatno na neki drugi način ažurirana, pa zato ne može da se izmeni ovom zakrpom.  Za više inormacija kontaktirajte proizvođača zakrpe.  {{Sistemska greška: [3]}}"/>
+  <STRING id="Error.1329" value="Nije mogla da se instalira neophodna datoteka zato što kabinetska datoteka [2] nije digitalno potpisana.  Ovo bi moglo da znači da je kabinetska datoteka oštećena."/>
+  <STRING id="Error.1330" value="Neophodna datoteka se ne može instalirati zato što kabinetska datoteka [2] ima neispravan digitalni potpis.  Ovo bi moglo da znači da je kabinetska datoteka oštećena.{{ WinVerifyTrust je vratio grešku [3].}}"/>
+  <STRING id="Error.1331" value="Kopiranje datoteke [2] nije ispravno urađeno: CRC greška."/>
+  <STRING id="Error.1332" value="Pomeranje datoteke [2] nije ispravno urađeno: CRC greška."/>
+  <STRING id="Error.1333" value="Krpljenje datoteke [2] nije ispravno urađeno: CRC greška."/>
+  <STRING id="Error.1334" value="Datoteka &apos;[2]&apos; se ne može instalirati zato što se ne može naći u kabinetskoj datoteci &apos;[3]&apos;. Ovo bi mogla da bude mrežna greška, greška u čitanju CD-ROM-a, ili je neki problem sa ovim paketom."/>
+  <STRING id="Error.1335" value="Kabinetska datoteka &apos;[2]&apos; neophodna za ovu instalaciju je oštećena ili neupotrebljiva. Ovo bi mogla da bude mrežna greška, greška u čitanju CD-ROM-a, ili je neki problem sa ovim paketom"/>
+  <STRING id="Error.1336" value="Došlo je do greške u kreiranju privremene datoteke neophodne za kompletiranje ove instalacije.{{  Omotnica: [3]. Oznaka sistemske greške: [2]}}"/>
+  <STRING id="Error.14" value="Akcija počela [Time]: [1]."/>
+  <STRING id="Error.1401" value="Nije se mogao kreirati ključ: [2]. {{ Sistemska greška [3].}}  Proverite da li imate adekvatan pristup tom ključu, ili kontaktirajte vaše saradnike za podršku."/>
+  <STRING id="Error.1402" value="Ključ se nije mogao otvoriti: [2]. {{ Sistemska greška [3].}}  Proverite da li imate adekvatan pristup tom ključu, ili kontaktirajte vaše saradnike za podršku."/>
+  <STRING id="Error.1403" value="Ne može se izbrisati vrednost [2] iz ključa [3]. {{ Sistemska greška [4].}}  Proverite da li imate adekvatan pristup tom ključu, ili kontaktirajte vaše saradnike za podršku."/>
+  <STRING id="Error.1404" value="Ne može se obrisati ključ [2]. {{ Sistemska greška [3].}} Proverite da li imate adekvatan pristup tom ključu, ili kontaktirajte vaše saradnike za podršku."/>
+  <STRING id="Error.1405" value="Ne može se pročitati vrednost [2] iz ključa [3]. {{ Sistemska greška [4].}} Proverite da li imate adekvatan pristup tom ključu, ili kontaktirajte vaše saradnike za podršku."/>
+  <STRING id="Error.1406" value="Ne može se upisati vrednost [2] u ključ [3]. {{ Sistemska greška [4].}}  Proverite da li imate adekvatan pristup tom ključu, ili kontaktirajte vaše saradnike za podršku."/>
+  <STRING id="Error.1407" value="Ne može se dobiti naziv vrednosti za ključ [2]. {{ Sistemska greška [3].}}  Proverite da li imate adekvatan pristup tom ključu, ili kontaktirajte vaše saradnike za podršku."/>
+  <STRING id="Error.1408" value="Ne može se dobiti naziv podključa za ključ [2]. {{ Sistemska greška [3].}}  Proverite da li imate adekvatan pristup tom ključu, ili kontaktirajte vaše saradnike za podršku."/>
+  <STRING id="Error.1409" value="Ne može se pročitati informacija o zaštiti za ključ [2]. {{ Sistemska greška [3].}}  Proverite da li imate adekvatan pristup tom ključu, ili kontaktirajte vaše saradnike za podršku."/>
+  <STRING id="Error.1410" value="Ne može se uvećati raspoloživi prostor Registry baze. [2] KB slobodnog prostora Registy baze je neophodan za instalaciju ovog programa."/>
+  <STRING id="Error.15" value="Akcija je završena [Time]: [1]. Vraćena vrednost [2]."/>
+  <STRING id="Error.1500" value="Druga instalacija je u toku. Morate završiti tu instalaciju pre nego što nastavite sa ovom."/>
+  <STRING id="Error.1501" value="Greška u pristupu zaštićenim podacima. Proverite da je Windows Installer ispravno podešen i pokušajte ponovo ovu instalaciju."/>
+  <STRING id="Error.1502" value="Korisnik &apos;[2]&apos; je ranije pokrenuo instalaciju proizvoda &apos;[3]&apos;.  Taj korisnik treba da pokrene tu instalaciju ponovo da bi mogao da koristi taj proizvod. Vaša tekuća instalacija će se nastaviti."/>
+  <STRING id="Error.1503" value="Korisnik &apos;[2]&apos; je ranije pokrenuo instalaciju proizvoda &apos;[3]&apos;.  Taj korisnik treba da pokrene tu instalaciju ponovo da bi mogao da koristi taj proizvod. Vaša tekuća instalacija će se nastaviti."/>
+  <STRING id="Error.16" value="Preostalo vreme: {[1] minuta }{[2] sekundi}"/>
+  <STRING id="Error.1601" value="Nedovoljan prostor na disku -- Logički disk: &apos;[2]&apos;; treba prostora: [3] KB; raspoloživi prostor: [4] KB.  Oslobodite nešto prostora na disku i pokušajte ponovo."/>
+  <STRING id="Error.1602" value="Da li ste sigurni da želite da odustanete?"/>
+  <STRING id="Error.1603" value="Datoteku [2][3] koriste{ sledeći procesi: Naziv: [4], Id: [5], Naslov prozora: &apos;[6]&apos;}.  Zatvorite taj program i pokušajte ponovo."/>
+  <STRING id="Error.1604" value="Proizvod &apos;[2]&apos; je već instaliran. Ova dva proizvoda nisu kompatibilni."/>
+  <STRING id="Error.1605" value="Nema dovоljno prostora na logičkom disku &apos;[2]&apos; za nastavak instalacije sa mogućim vraćanjem na staro stanje. [3] KB je neophodno, ali је samo [4] KB raspoloživо. Kliknite Zanemari da nastavite instalaciju bez čuvanja informacija za oporavak stanja, ili kliknite Pokušaj ponovo da proverite ponovo raspoloživi prostor, ili kliknite Otkaži da napustite instalaciju."/>
+  <STRING id="Error.1606" value="Ne može se pristupiti mrežnoj lokaciji [2]."/>
+  <STRING id="Error.1607" value="Sledeći programi treba da se zatvore pre no što se nastavi sa instalacijom:"/>
+  <STRING id="Error.1608" value="Ne mogu se pronaći bilo koji odgovarajući instalirani proizvodi na ovoj mašini da bi se instalirao ovaj proizvod."/>
+  <STRING id="Error.1609" value="Desila se greška u primeni bezbednosnih podešavanja. [2] nije ispravan korisnik niti grupa. Ovo bi mogao da bude problem sa paketom, ili je neki problem u vezi sa domenskim upravljačem na mreži. Proverite vašu mrežnu vezu i kliknite Pokušaj ponovo, ili Otkaži da završite instalaciju.       {{Ne može se locirati korisnikov SID, sistemska greška [3]}}"/>
+  <STRING id="Error.17" value="Nedovoljno memorije za rad. Isključite ostale programe pre ponovnog pokušaja."/>
+  <STRING id="Error.1701" value="Ključ [2] je neispravan.  Proverite da li ste uneli ispravan ključ."/>
+  <STRING id="Error.1702" value="Instalator mora da ponovo pokrene vaš sistem pre nego što se nastavi konfigurisanje [2].  Kliknite Da da sada izvršite ponovno pokretanje ili Ne ako planirate da kasnije sami ponovo pokrenete sistem."/>
+  <STRING id="Error.1703" value="Morate ponovo da pokrenete vaš sistem da bi konfiguracione izmene učinjene nad [2] bile aktivirane. Kliknite Da da sada izvršite ponovno pokretanje ili Ne ako planirate da kasnije sami ponovo pokrenete sistem."/>
+  <STRING id="Error.1704" value="Instalacija [2] je trenutno obustavljena.  Za nastavak morate da uklonite izmene koje je ta instalacija učinila.  Da li želite da uklonite te izmene?"/>
+  <STRING id="Error.1705" value="U toku je ranija instalacija ovog proizvoda. Za nastavak morate da uklonite izmene koje je ta instalacija učinila.  Da li želite da uklonite te izmene?"/>
+  <STRING id="Error.1706" value="Ne može se pronaći instalacioni paket proizvoda [2]. Pokušajte ovu instalaciju ponovo korišćenjem ispravne kopije instalacionog paketa &apos;[3]&apos;."/>
+  <STRING id="Error.1707" value="Uspešan završetak instalacije."/>
+  <STRING id="Error.1708" value="Neuspešna instalacija."/>
+  <STRING id="Error.1709" value="Proizvod: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Možete da vratite vaš računar u njegovo ranije stanje ili da kasnije nastavite instalaciju. Da li želite da vratite ranije stanje?"/>
+  <STRING id="Error.1711" value="Tokom upisa instalacionih informacija na disk dogodila se greška.  Proverite da imate dovoljno raspoloživog prostora na disku i kliknite Pokušaj ponovo, ili kliknite Otkaži da završite instalaciju."/>
+  <STRING id="Error.1712" value="Jedna ili više datoteka neophodnih za povratak vašeg računara u njegovo pređašnje stanje nije nađena.  Povratak u pređašnje stanje nije moguć."/>
+  <STRING id="Error.1713" value="[2] ne može da instalira jedan od svojih neophodnih proizvoda. Kontaktirajte vašu grupu za tehničku podršku.  {{Sistemska greška: [3].}}"/>
+  <STRING id="Error.1714" value="Starija verzija [2] se ne može ukloniti.  Kontaktirajte vašu grupu za tehničku podršku.  {{Sistemska greška [3].}}"/>
+  <STRING id="Error.1715" value="Instaliran [2]"/>
+  <STRING id="Error.1716" value="Konfigurisan [2]"/>
+  <STRING id="Error.1717" value="Uklonjen [2]"/>
+  <STRING id="Error.1718" value="Pravilnik o digitalnim potpisima odbio je datoteku [2]."/>
+  <STRING id="Error.1719" value="Servis Windows Installer-a je nedostupan. Ovo se može desiti ako radite u bezbednom režimu Windows-a, ili ako Windows Installer nije ispravno istaliran. Kontaktirajte vašu grupu za tehničku podršku."/>
+  <STRING id="Error.1720" value="Postoji problem u vezi sa ovim Windows Installer paketom. Neophodna komandna datoteka za kompletiranje ove instalacije ne može da se izvršava. Kontaktirajte vašu grupu za tehničku podršku ili isporučioca paketa.  {{Korisnička akcija [2]  greška komandne datoteke [3], [4]: [5] Linija [6], Kolona [7], [8] }}"/>
+  <STRING id="Error.1721" value="Postoji problem u vezi sa ovim Windows Installer paketom. Jedan od programa neophodnih za kompletiranje ove instalacije ne može da se izvrši. Kontaktirajte vašu grupu za tehničku podršku. {{Akcija: [2], lokacija: [3], komanda: [4] }}"/>
+  <STRING id="Error.1722" value="Postoji problem u vezi sa ovim Windows Installer paketom. Jedan od programa koji radi kao deo ovog podešavanja nije završio svoj rad na očekivan način. Kontaktirajte vašu grupu za tehničku podršku.  {{Akcija [2], lokacija: [3], komanda: [4] }}"/>
+  <STRING id="Error.1723" value="Postoji problem u vezi sa ovim Windows Installer paketom. DLL neophodan za kompletiranje ove instalacije ne može da se izvrši. Kontaktirajte vašu grupu za tehničku podršku ili isporučioca paketa.  {{Akcija [2], stavka: [3], biblioteka: [4] }}"/>
+  <STRING id="Error.1724" value="Uklanjanje je uspešno završeno."/>
+  <STRING id="Error.1725" value="Uklanjanje nije uspelo."/>
+  <STRING id="Error.1726" value="Oglašavanje je uspešno završeno."/>
+  <STRING id="Error.1727" value="Oglašavanje nije uspelo."/>
+  <STRING id="Error.1728" value="Konfigurisanje je uspešno izvršeno."/>
+  <STRING id="Error.1729" value="Konfigurisanje nije uspelo."/>
+  <STRING id="Error.1730" value="Morate biti Administrator da bi ste uklonili ovaj program. Za uklanjanje ovog programa, možete se prijaviti kao Administrator, ili kontaktirajte vašu grupu za tehničku podršku za pomoć."/>
+  <STRING id="Error.18" value="Instalator se više ne odaziva."/>
+  <STRING id="Error.1801" value="Putanja [2] nije ispravna.  Navedite ispravnu putanju."/>
+  <STRING id="Error.1802" value="Nedovoljno memorije za rad. Isključite druge programe pre nego što ponovo pokušate."/>
+  <STRING id="Error.1803" value="Nije nađen disk u disk jedinici [2]. Stavite ga i kliknite Pokušaj ponovo, ili kliknite Otkaži da se vratite nazad na prethodno izabrani logički disk."/>
+  <STRING id="Error.1804" value="Nije nađen disk u disk jedinici [2]. Stavite ga i kliknite Pokušaj ponovo, ili kliknite Otkaži da se vratite u dijalog za prelistavanje i selektujete neki drugi logički disk."/>
+  <STRING id="Error.1805" value="Omotnica [2] ne postoji.  Unesite putanju na neku postojeću omotnicu."/>
+  <STRING id="Error.1806" value="Nemate dovoljni nivo ovlašćenja za čitanje ove omotnice."/>
+  <STRING id="Error.1807" value="Ne može se odrediti ispravna odredišna omotnica za instalaciju."/>
+  <STRING id="Error.19" value="Instalаtor se preuranjeno zaustavio."/>
+  <STRING id="Error.1901" value="Greška u pokušaju čitanja izvоrne instalacione baze podataka: [2]."/>
+  <STRING id="Error.1902" value="Operacija planiranja ponovnog pokretanja sistema: Preimenovanje datoteke [2] u [3]. Sistem se mora ponovo pokrenuti da bi se završila operacija."/>
+  <STRING id="Error.1903" value="Operacija planiranja ponovnog pokretanja sistema: Brisanje datoteke [2]. Sistem se mora ponovo pokrenuti da bi se završila operacija."/>
+  <STRING id="Error.1904" value="Modul [2] nije uspeo da se registruje.  HRESULT [3].  Kontaktirajte vašu tehničku podršku."/>
+  <STRING id="Error.1905" value="Modul [2] nije uspeo da izbriše svoju registraciju.  HRESULT [3].  Kontaktirajte vašu tehničku podršku."/>
+  <STRING id="Error.1906" value="Neuspelo keširanje paketa[2]. Greška: [3]. Kontaktirajte vašu tehničku podršku."/>
+  <STRING id="Error.1907" value="Neuspela registracija fonta[2].  Proverite da li imate dovoljna prava za instalaciju fontova, kao i da li sistem podržava ovaj font."/>
+  <STRING id="Error.1908" value="Neuspelo brisanje registracije fonta [2]. Proverite da li imate dovoljna prava da uklanjate fontove."/>
+  <STRING id="Error.1909" value="Neuspelo kreiranje prečice [2]. Proverite da odredišna omotnica postoji i da joj možete pristupati."/>
+  <STRING id="Error.1910" value="Neuspelo uklanjanje prečice [2]. Proverite da datoteka prečice postoji i da joj možete pristupati."/>
+  <STRING id="Error.1911" value="Neuspelo registrovanje tipa biblioteke za datoteku [2].  Kontaktirajte vašu tehničku podršku."/>
+  <STRING id="Error.1912" value="Neuspelo brisanje registracije tipa biblioteke za datoteku [2].  Kontaktirajte vašu tehničku podršku."/>
+  <STRING id="Error.1913" value="Neuspelo ažuriranje ini datoteke [2][3].  Proverite da li datoteka postoji i da li joj možete pristupiti."/>
+  <STRING id="Error.1914" value="Neuspelo planiranje da datoteka [2] zameni datoteku [3] prilikom ponovnog pokretanja sistema.  Proverite da li imate pravo upisa u datoteku [3]."/>
+  <STRING id="Error.1915" value="Greška u uklanjanju Programa za upravljanje ODBC pogonskim programima, ODBC greška [2]: [3]. Kontaktirajte vašu tehničku podršku."/>
+  <STRING id="Error.1916" value="Greška u instalaciji Programa za upravljanje ODBC pogonskim programima, ODBC greška [2]: [3]. Kontaktirajte vašu tehničku podršku."/>
+  <STRING id="Error.1917" value="Greška u uklanjanju ODBC pogonskog programa: [4], ODBC greška [2]: [3]. Proverite da li imate dovoljni nivo ovlašćenja za uklanjanje ODBC pogonskih programa."/>
+  <STRING id="Error.1918" value="Greška u instalaciji ODBC pogonskog programa: [4][5], ODBC greška [2]: [3]. Proverite da li datoteka [4][6] postoji i da li imate pravo pristupa do nje."/>
+  <STRING id="Error.1919" value="Greška u konfiguraciji ODBC izvora podataka: [4][5], ODBC greška [2]: [3]. Proverite da li datoteka [4][6] postoji i da li imate pravo pristupa do nje."/>
+  <STRING id="Error.1920" value="Servis &apos;[2]&apos; ([3]) neuspešno startovan.  Proverite da li imate dovoljni nivo ovlašćenja za startovanje sistemskih servisa."/>
+  <STRING id="Error.1921" value="Servis &apos;[2]&apos; ([3]) se ne može zaustaviti.  Proverite da li imate dovoljni nivo ovlašćenja da zaustavljate sistemske servise."/>
+  <STRING id="Error.1922" value="Servis &apos;[2]&apos; ([3]) se ne može izbrisati.  Proverite da li imate dovoljni nivo ovlašćenja da zaustavljate sistemske servise."/>
+  <STRING id="Error.1923" value="Servis &apos;[2]&apos; ([3]) se ne može instalirati.  Proverite da li imate dovoljni nivo ovlašćenja da instalirate sistemske servise."/>
+  <STRING id="Error.1924" value="Neuspelo ažuriranje sistemske promenljive &apos;[2]&apos;.  Proverite da li imate dovoljni nivo ovlašćenja da menjate sistemske promenljive."/>
+  <STRING id="Error.1925" value="Nemate dovoljni nivo ovlašćenja da završite ovu instalaciju za sve korisnike računara.  Prijavite se kao administrator i onda ponovo pokušajte ovu instalaciju."/>
+  <STRING id="Error.1926" value="Ne može se podesiti zaštita datoteke &apos;[3]&apos;. Greška: [2].  Proverite da li imate dovoljni nivo ovlašćenja da izmenite bezbednosne dozvole za ovu datoteku."/>
+  <STRING id="Error.1927" value="Servisi komponenata (COM+ 1.0) nisu instalirani na ovom računaru.  Ova instalacija zahteva Servise komponenata da bi se uspešno obavila.  Servisi komponenata dostupni su na Winodws 2000."/>
+  <STRING id="Error.1928" value="Greška tokom registrovanja COM+ programa.  Kontaktirajte vaš tim za podršku za više informacija."/>
+  <STRING id="Error.1929" value="Greška tokom brisanja registracije COM+ programa.  Kontaktirajte vaš tim za podršku za više informacija."/>
+  <STRING id="Error.1930" value="Nije se mogao izmeniti opis servisa &apos;[2]&apos; ([3])."/>
+  <STRING id="Error.1931" value="Servis Windows Installer-a ne može da ažurira sistemsku datoteku [2] zato što Windows štiti ovu datoteku.  Možda ćete morati da ažurirate vaš operativni sistem da bi ovaj program ispravno radio. {{Verzija paketa: [3], OS zaštićena verzija: [4]}}"/>
+  <STRING id="Error.1932" value="Servis Windows Installer-a ne može da ažurira zaštićenu Windows datoteku [2]. {{Verzija paketa: [3], OS zaštićena verzija: [4], SFP greška: [5]}}"/>
+  <STRING id="Error.1933" value="Servis Windows Installer-a ne može da ažurira jednu ili više Windows datoteka. {{SFP greška: [2].  Spisak zaštićenih datoteka:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Pravilnik mašine onemogućuje korisničke instalacije."/>
+  <STRING id="Error.1935" value="Greška tokom instalacije komponente sklopa [2]. HRESULT: [3]. {{interfejs sklopa: [4], funkcija: [5], naziv sklopa: [6]}}"/>
+  <STRING id="Error.2" value="Upozorenje [1]. "/>
+  <STRING id="Error.20" value="Sačekajte dok Windows konfiguriše [ProductName]"/>
+  <STRING id="Error.21" value="Prikupljanje neophodnih informacija..."/>
+  <STRING id="Error.22" value="Uklanjanje starijih verzija ovog programa..."/>
+  <STRING id="Error.23" value="Priprema za uklanjanje starijih verzija ovog programa..."/>
+  <STRING id="Error.32" value="{[ProductName] }podešavanje je uspešno završeno."/>
+  <STRING id="Error.33" value="{[ProductName] } podešavanje nije uspelo."/>
+  <STRING id="Error.4" value="Informacija [1]. "/>
+  <STRING id="Error.4000" value="Netačan serijski broj."/>
+  <STRING id="Error.4010" value="Novija verzija [ProductName] je već instalirana na ovom računaru."/>
+  <STRING id="Error.4020" value="Došlo je do greške u IIS konfiguracionom procesu.&#10;Vaša originalna IIS konfiguracija će biti vraćena u staro stanje."/>
+  <STRING id="Error.4021" value="Veb lokacija &quot;[2]&quot; već postoji na ovom serveru.&#10;&#10;Da li želite da preskočite ovu veb lokaciju i nastavite sa instalacijom?"/>
+  <STRING id="Error.4022" value="Virtuelna omotnica &quot;[2]&quot; na veb lokaciji &quot;[3]&quot; već postoji na ovom serveru.&#10;&#10;Da li želite da preskočite ovu virtuelnu omotnicu i da nastavite sa instalacijom?"/>
+  <STRING id="Error.4023" value="Ova verzija IIS-a nije podržana ili IIS nije u potpunosti instaliran !&#10;&#10;Potreban vam je Internet Information Services 5.0 ili kasniji."/>
+  <STRING id="Error.4024" value="Veb lokacija sa istim Serverskim vezama je već startovana.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Ne može se kreirati korisnički nalog ili grupa &apos;[2]&apos; na lokalnoj mašini. Kod greške: [3]. [4]"/>
+  <STRING id="Error.4102" value="Korisnički nalog ili grupa &apos;[2]&apos; već postoji na lokalnoj mašini."/>
+  <STRING id="Error.4103" value="Ne može se ukloniti korisnički nalog ili grupa &apos;[2]&apos; na lokalnoj mašini. Kod greške: [3]."/>
+  <STRING id="Error.4104" value="Korisnički nalog &apos;[2]&apos; ne postoji na lokalnoj mašini."/>
+  <STRING id="Error.4105" value="Pronađena je greška tokom deljenja &apos;[2]&apos; pod imenom: &apos;[3]&apos;. Opis greške: [4]"/>
+  <STRING id="Error.4106" value="Pronađena je greška tokom kreiranja planiranog posla: &apos;[2]&apos;. Opis greške: [3]"/>
+  <STRING id="Error.4107" value="Pronađena je greška tokom uklanjanja planiranog posla: &apos;[2]&apos;. Opis greške: [3]"/>
+  <STRING id="Error.4110" value="Ne može se dodeliti memorija."/>
+  <STRING id="Error.4111" value="Nije nađena datoteka: [2]."/>
+  <STRING id="Error.4112" value="Datoteka &apos;[2]&apos; se ne može pročitati."/>
+  <STRING id="Error.4113" value="Greška u analizi datoteke: &apos;[2]&apos; u liniji: [3], koloni: [4]. KodGreške: [5]."/>
+  <STRING id="Error.4114" value="Nepodržani XML kodni raspored."/>
+  <STRING id="Error.4115" value="Greška u otvaranju datoteke: [2]."/>
+  <STRING id="Error.4116" value="Ne može se upisati u datoteku &apos;[2]&apos; ."/>
+  <STRING id="Error.4117" value="Neočekivan osnovni element: &quot;[2]&quot; u XML datoteci: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="Greška tokom procesa konfigurisanja Windows Firewall-a.&#10;Vaša početna Firewall konfiguracija će biti vraćena u prethodno stanje."/>
+  <STRING id="Error.4121" value="Neispravna putanja slike Firewall procesa, ili datoteka nije nađena: [2]."/>
+  <STRING id="Error.4122" value="Neispravan Firewall port/protokol: [2]."/>
+  <STRING id="Error.4123" value="Neispravan opseg Firewall mreže: [2]."/>
+  <STRING id="Error.4124" value="Greška u registrovanju programa Windows Firewall-om: [2]."/>
+  <STRING id="Error.4125" value="Greška u registrovanju porta Windows Firewall-om: [2]."/>
+  <STRING id="Error.5" value="Instalator je pronašao neočekivanu grešku tokom instalacije ovog paketa. Ovo ukazuje da možda postoji problem u ovom paketu. Kod greške je [1]. {{Argumenti su: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Pun disk: }}"/>
+  <STRING id="Error.8" value="Akcija [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.4130" value="Došlo je do pojave greške u procesu konfigurisanja Pretraživača igara."/>
+  <STRING id="Error.4131" value="Roditeljske kontrole vam ne dozvoljavaju igranje igre: [2]."/>
+  <STRING id="Error.4140" value="Pojavila se greška za vreme izvršavanja SQL komandne datoteke."/>
+  <STRING id="Error.4141" value="ODBC greška: [2] ([3])."/>
+  <STRING id="Error.4142" value="ODBC veza: isteklo je predviđeno vreme."/>
+  <STRING id="Error.4143" value="Greška u analizi SQL skripta: neispravna sintaksa."/>
+  <STRING id="Error.4001" value="Neuspela provera serijskog broja."/>
+  <STRING id="Error.4025" value="Skup aplikacija &quot;[2]&quot; već postoji na ovom serveru. &#10;&#10;Da li želite da preskočite konfiguraciju ovog skupa aplikacija i nastavite sa instalacijom?"/>
+  <STRING id="Error.4150" value="Unutrašnja greška u CallStdFcn."/>
+  <STRING id="Error.4151" value="Funkcija &apos;[2]&apos; nije nađena u DLL-u &apos;[3]&apos;."/>
+  <STRING id="Error.4152" value="Da li želite da uklonite podešavanja i privremene datoteke [ProductName]?"/>
+  <STRING id="Error.4153" value="[2] obavezni moduli nisu ispravno instalirani."/>
+  <STRING id="Error.4154" value="Obavezni modul [2] nije ispravno instaliran. Nastavak instalacije [ProductName]?"/>
+  <STRING id="Error.4155" value="Neuspelo čitanje datoteke [2]: CRC greška."/>
+  <STRING id="Error.4156" value="Neuspelo čitanje datoteke [2]: CRC greška. Nastavak instalacije [ProductName]?"/>
+   <STRING id="Error.1936" value="Došlo je do greške tokom instalacije assembly &apos;[6]&apos;. Assembly nije precizno imenovan ili nije označen minimalnom dužinom ključa. HRESULT: [3]. {{interfejs modula: [4], funkcija: [5], komponenta: [2]}}"/>
+  <STRING id="Error.1937" value="Došlo je do greške tokom instalacije sklopa &apos;[6]&apos;. Potpis ili katalog nisu prošli proveru ili nisu ispravni. HRESULT: [3]. {{interfejs modula: [4], funkcija: [5], komponenta: [2]}}"/>
+  <STRING id="Error.1938" value="Došlo je do greške tokom instalacije sklopa &apos;[6]&apos;. Jedan ili više modula sklopa nisu nađeni. HRESULT: [3]. {{interfejs modula: [4], funkcija: [5], komponenta: [2]}}"/>
+  <STRING id="Error.1939" value="Servis &apos;[2]&apos; ([3]) se nije mogao konfigurisati. Moguće je da postoji problem sa paketom ili sa vašim ovlašćenjima. Proverite da li imate odgovarajuća ovlašćenja za konfigurisanje sistemskih servisa."/>
+  <STRING id="Error.1940" value="Servis &apos;[2]&apos; ([3]) se nije mogao konfigurisati. Konfigurisanje servisa podržano je samo na Windows Vista/Server 2008 ili novijem sistemu."/>
+  <STRING id="Error.1941" value="LockPermissions i MsiLockPermissionsEx tabele nađene su u ovom paketu. Samo jedan od njih bi trebao da bude prisutan. To je problematično kod ovog paketa."/>
+  <STRING id="Error.1942" value="Više uslova (&apos;[2]&apos; i &apos;[3]&apos;) ima tačan ishod tokom instaliranja Object [4] (iz tabele [5]). To bi moglo biti problematično kod ovog paketa."/>
+  <STRING id="Error.1943" value="Za SDDL niz &apos;[2]&apos; za objekat [3](u tabeli [4]) nije mogao da se pronađe odgovarajući Security Descriptor."/>
+  <STRING id="Error.1944" value="Ne može se uspostaviti bezbednost za servis &apos;[3]&apos;. Greška: [2]. Proverite da li imate potrebna ovlašćenja da menjate bezbednosna ovlašćenja za ovaj servis."/>
+  <STRING id="Error.1945" value="Nemate dovoljna ovlašćenja da završite ponovno oglašavanje ovog proizvoda. Ponovno oglašavanje zahteva uvodni postupak pozivom MsiAdvertiseScript API iz lokalnog sistemskog naloga"/>
+  <STRING id="Error.1946" value="Svojstvo &apos;[2]&apos; ne može da se postavi za prečicu &apos;[3]&apos;.{{ HRESULT [4].}}"/>
+  <STRING id="Error.2101" value="Prečice nisu podržane operativnim sistemom."/>
+  <STRING id="Error.2102" value="Neispravna .ini aktivnost: [2]"/>
+  <STRING id="Error.2103" value="Ne može se odrediti putanja za direktorijum [2] interpretatora komandi"/>
+  <STRING id="Error.2104" value="Upis u .ini datoteku: [3]: Sistemska greška: [2]."/>
+  <STRING id="Error.2105" value="Neuspelo kreiranje prečice [3]. Sistemska greška: [2]."/>
+  <STRING id="Error.2106" value="Brisanje prečice [3] neuspleo. Sistemska greška: [2]."/>
+  <STRING id="Error.2107" value="Greška [3] pri registraciji biblioteke tipova [2]."/>
+  <STRING id="Error.2108" value="Greška [3] prilikom brisanja registracije biblioteke tipova [2]."/>
+  <STRING id="Error.2109" value="Nedostaje sekcija u .ini akciji."/>
+  <STRING id="Error.2110" value="Nedostaje ključ u .ini akciji."/>
+  <STRING id="Error.2111" value="Neuspela detekcija aplikacija koje se izvršavaju, neuspelo dobijanje podataka o performansama. Registrovana operacija vratila: [2]"/>
+  <STRING id="Error.2112" value="Neuspela detekcija aplikacija koje se izvršavaju, neuspelo dobijanje indeksa performansi. Registrovana operacija vratila: [2]"/>
+  <STRING id="Error.2113" value="Neuspela detekcija aplikacija koje se izvršavaju."/>
+  <STRING id="Error.2200" value="Baza podataka: [2]. Neuspelo kreiranje objekta u bazi podataka, mod = [3]."/>
+  <STRING id="Error.2201" value="Baza podataka: [2]. Početne operacije nisu uspele, nedovoljno memorije."/>
+  <STRING id="Error.2202" value="Baza podataka: [2]. Nije uspeo pristup podacima, nedovoljno memorije."/>
+  <STRING id="Error.2203" value="Baza podataka: [2]. Ne može se otvoriti datoteka baze podataka. Sistemska greška [3]."/>
+  <STRING id="Error.2204" value="Baza podataka: [2]. Tabela već postoji: [3]."/>
+  <STRING id="Error.2205" value="Baza podataka: [2]. Tabela ne postoji: [3]."/>
+  <STRING id="Error.2206" value="Baza podataka: [2]. Tabela ne može da se ukloni: [3]."/>
+  <STRING id="Error.2207" value="Baza podataka: [2]. Nepoštovanje namene."/>
+  <STRING id="Error.2208" value="Baza podataka: [2]. Nedovoljni parametri za Execute."/>
+  <STRING id="Error.2209" value="Baza podataka: [2]. Kurzor nije u ispravnom stanju."/>
+  <STRING id="Error.2210" value="Baza podataka: [2]. Neispravan tip podataka za izmenu u koloni [3]."/>
+  <STRING id="Error.2211" value="Baza podataka: [2]. Nije moguće kreirati tabelu [3] u bazi podataka."/>
+  <STRING id="Error.2212" value="Baza podataka: [2]. Baza podataka nije u stanju mogućeg upisa."/>
+  <STRING id="Error.2213" value="Baza podataka: [2]. Greška u pamćenju tabela baze podataka."/>
+  <STRING id="Error.2214" value="Baza podataka: [2]. Greška pri upisu eksportne datoteke: [3]."/>
+  <STRING id="Error.2215" value="Baza podataka: [2]. Import datoteka se ne može otvoriti: [3]."/>
+  <STRING id="Error.2216" value="Baza podataka: [2]. Greška u formatu importne datoteke: [3], linija [4]"/>
+  <STRING id="Error.2217" value="Baza podataka: [2]. Loše stanje u CreateOutputDatabase [3]."/>
+  <STRING id="Error.2218" value="Baza podataka: [2]. Nedostaje ime tabele."/>
+  <STRING id="Error.2219" value="Baza podataka: [2]. Neispravan format baze podataka Installer."/>
+  <STRING id="Error.2220" value="Baza podataka: [2]. Neispravan red/polje podataka."/>
+  <STRING id="Error.2221" value="Baza podataka: [2]. Konflikt u kodnoj stranici import datoteke: [3]."/>
+  <STRING id="Error.2222" value="Baza podataka: [2]. Transformacija ili utapanje kodne stranice [3] različito je od kodne stranice [4] baze podataka."/>
+  <STRING id="Error.2223" value="Baza podataka: [2]. Baze podataka su iste. Transformacije nisu generisane."/>
+  <STRING id="Error.2224" value="Baza podataka: [2]. GenerateTransform: baza podataka oštećena. Tabela: [3]."/>
+  <STRING id="Error.2225" value="Baza podataka: [2]. Transformacija: ne može se transformisati privremena tabela. Tabela: [3]."/>
+  <STRING id="Error.2226" value="Baza podataka: [2]. Transformacija nije uspela."/>
+  <STRING id="Error.2227" value="Baza podataka: [2]. Neispravan identifikator &apos;[3]&apos; u SQL upitu: [4]."/>
+  <STRING id="Error.2228" value="Baza podataka: [2]. Nepoznata tabela &apos;[3]&apos; u SQL upitu: [4]."/>
+  <STRING id="Error.2229" value="Baza podataka: [2]. Ne može se učitati tabela &apos;[3]&apos; u SQL upitu: [4]."/>
+  <STRING id="Error.2230" value="Baza podataka: [2]. Ponovljena tabela &apos;[3]&apos; u SQL upitu: [4]."/>
+  <STRING id="Error.2231" value="Baza podataka: [2]. Nedostaje &apos;)&apos; u SQL upitu: [3]."/>
+  <STRING id="Error.2232" value="Baza podataka: [2]. Neočekivani simbol &apos;[3]&apos; u SQL upitu: [4]."/>
+  <STRING id="Error.2233" value="Baza podataka: [2]. Nema kolona u SELECT delu SQL upita: [3]."/>
+  <STRING id="Error.2234" value="Baza podataka: [2]. Nema kolona u ORDER BY delu SQL upita: [3]."/>
+  <STRING id="Error.2235" value="Baza podataka: [2]. Kolona &apos;[3]&apos; nije prisutna ili neodređena u SQL upitu: [4]."/>
+  <STRING id="Error.2236" value="Baza podataka: [2]. Neispravan operator &apos;[3]&apos; u SQL upitu: [4]."/>
+  <STRING id="Error.2237" value="Baza podataka: [2]. Nije ispravan ili nedostaje string za upit [3]."/>
+  <STRING id="Error.2238" value="Baza podataka: [2]. Nedostaje FROM deo iz SQL upita: [3]."/>
+  <STRING id="Error.2239" value="Baza podataka: [2]. Nedovoljno vrednosti u INSERT SQL komandi."/>
+  <STRING id="Error.2240" value="Baza podataka: [2]. Nedostaju kolone za izmenu u UPDATE SQL komandi."/>
+  <STRING id="Error.2241" value="Baza podataka: [2]. Nedostaju kolone za ubacivanje u INSERT SQL komandi."/>
+  <STRING id="Error.2242" value="Baza podataka: [2]. Kolona &apos;[3]&apos; se ponovila."/>
+  <STRING id="Error.2243" value="Baza podataka: [2]. Nisu definisane primarne kolone za kreiranje tabele."/>
+  <STRING id="Error.2244" value="Baza podataka: [2]. Neispravna oznaka tipa &apos;[3]&apos; u SQL upitu [4]."/>
+  <STRING id="Error.2245" value="IStorage::Stat nije uspela i vratila je grešku [3]."/>
+  <STRING id="Error.2246" value="Baza podataka: [2]. Neispravan format Installer transformacije."/>
+  <STRING id="Error.2247" value="Baza podataka: [2] Transform stream greška u čitanju/upisu."/>
+  <STRING id="Error.2248" value="Baza podataka: [2] GenerateTransform/Merge: tip kolone u baznoj tabeli ne odgovara referentnoj tabeli. Tabela: [3] Kol #: [4]."/>
+  <STRING id="Error.2249" value="Baza podataka: [2] GenerateTransform: U baznoj tabeli je više kolona nego u referentnoj tabeli. Tabela: [3]."/>
+  <STRING id="Error.2250" value="Baza podataka: [2] Transform: ne može se dodati već postojeći red. Tabela: [3]."/>
+  <STRING id="Error.2251" value="Baza podataka: [2] Transform: ne može se obrisati red koji ne postoji. Tabela: [3]."/>
+  <STRING id="Error.2252" value="Baza podataka: [2] Transform: ne može se dodati postojeća tabela. Tabela: [3]."/>
+  <STRING id="Error.2253" value="Baza podataka: [2] Transform: ne može se obrisati nepostojeća tabela. table: [3]."/>
+  <STRING id="Error.2254" value="Baza podataka: [2] Transform ne može se izmeniti nepostojeći red. Tabela: [3]."/>
+  <STRING id="Error.2255" value="Baza podataka: [2] Transform: kolona sa ovim imenom već postoji. Tabela: [3] Kol: [4]."/>
+  <STRING id="Error.2256" value="Baza podataka: [2] GenerateTransform/Merge: broj primarnih ključeva bazne tabele ne odgovara refentnoj tabeli. Tabela: [3]. "/>
+  <STRING id="Error.2257" value="Baza podataka: [2]. Pokušaj izmene tabele koja je samo za čitanje: [3]."/>
+  <STRING id="Error.2258" value="Baza podataka: [2]. Neodgovarajući tip parametra: [3]."/>
+  <STRING id="Error.2259" value="Baza podataka: [2] Neuspela izmena tabele(a)"/>
+  <STRING id="Error.2260" value="Storage CopyTo nije uspeo. Sistemska greška: [3]."/>
+  <STRING id="Error.2261" value="Ne može se ukloniti tok [2]. Sistemska greška: [3]."/>
+  <STRING id="Error.2262" value="Tok ne postoji: [2]. Sistemska greška: [3]."/>
+  <STRING id="Error.2263" value="Ne može se otvoriti tok [2]. Sistemska greška: [3]."/>
+  <STRING id="Error.2264" value="Ne može se ukloniti tok [2]. Sistemska greška: [3]."/>
+  <STRING id="Error.2265" value="Ne može se izvršiti commit operacija spremišta. Sistemska greška: [3]."/>
+  <STRING id="Error.2266" value="Ne može se izvršiti vraćanje spremišta u pređašnje stanje. Sistemska greška: [3]."/>
+  <STRING id="Error.2267" value="Nije izvodljivo brisanje spremišta [2]. Sistemska greška: [3]."/>
+  <STRING id="Error.2268" value="Baza podataka: [2]. Stapanje: ima sukobljenih stapanja kod [3] tabele."/>
+  <STRING id="Error.2269" value="Baza podataka: [2]. Stapanje: broj kolona različit u &apos;[3]&apos; tabeli dve baze podataka."/>
+  <STRING id="Error.2270" value="Baza podataka: [2]. GenerateTranform/Merge: ime kolone u baznoj tabeli ne slaže se sa referentnom tabelom. Tabela: [3] Kol #: [4]."/>
+  <STRING id="Error.2271" value="SummaryInformation upis transformacije neuspešan."/>
+  <STRING id="Error.2272" value="Baza podataka: [2]. MergeDatabase neće upisivati izmene zato što je baza podataka otvorena samo za čitanje."/>
+  <STRING id="Error.2273" value="Baza podataka: [2]. MergeDatabase: "/>
+  <STRING id="Error.2274" value="Baza podataka: [2]. MergeDatabase: ne mogu se upisati greške u Error tabelu. Ovo može da bude zbog ne-nulte kolone u predefinisanoj Error tabeli."/>
+  <STRING id="Error.2275" value="Baza podataka: [2]. Navedena Modify [3] operacija neprimerena za join tabele."/>
+  <STRING id="Error.2276" value="Baza podataka: [2]. Kodna stranica [3] nije sistemski podržana."/>
+  <STRING id="Error.2277" value="Baza podataka: [2]. Neuspelo pamćenje tabele [3]."/>
+  <STRING id="Error.2278" value="Baza podataka: [2]. Prevaziđena granica od 32 izraza u WHERE uslovu SQL upita: [3]."/>
+  <STRING id="Error.2279" value="Baza podataka: [2] Transform: previše kolona u baznoj tabeli [3]."/>
+  <STRING id="Error.2280" value="Baza podataka: [2]. Ne može se kreirati kolona [3] za tabelu [4]."/>
+  <STRING id="Error.2281" value="Ne može se preimenovati tok [2]. Sistemska greška: [3]."/>
+  <STRING id="Error.2282" value="Neispravno ime toka [2]."/>
+  <STRING id="Error.2302" value="Upozorenje iz programa za doradu: do sada izmenjeno [2] bajtova"/>
+  <STRING id="Error.2303" value="Greška u dobijanju informacije o logičkom disku. GetLastError: [2]."/>
+  <STRING id="Error.2304" value="Greška pri nalaženju slobodnog prostora na disku. GetLastError: [2]. Logički disk: [3]."/>
+  <STRING id="Error.2305" value="Greška prilikom čekanja na nit programa za doradu. GetLastError: [2]."/>
+  <STRING id="Error.2306" value="Ne može se kreirati nit programa za doradu. GetLastError: [2]."/>
+  <STRING id="Error.2307" value="Ime izvorne datoteke je prazno."/>
+  <STRING id="Error.2308" value="Ime odredišne datoteke je prazno."/>
+  <STRING id="Error.2309" value="Pokušaj dorade datoteke [2] kada je dorada u toku."/>
+  <STRING id="Error.2310" value="Pokušaj nastavljanja dorade kada je dorada u toku."/>
+  <STRING id="Error.2315" value="Nedostaje separator dorade: [2]."/>
+  <STRING id="Error.2318" value="Datoteka ne postoji: [2]."/>
+  <STRING id="Error.2319" value="Greška u postavljanju atributa datoteke: [3] GetLastError: [2]."/>
+  <STRING id="Error.2320" value="Datoteka nije za upis: [2]."/>
+  <STRING id="Error.2321" value="Grešla u kreiranju datoteke: [2]."/>
+  <STRING id="Error.2322" value="Korisnik poništio."/>
+  <STRING id="Error.2323" value="Neispravan atribut datoteke."/>
+  <STRING id="Error.2324" value="Ne može se otvoriti datoteka: [3] GetLastError: [2]."/>
+  <STRING id="Error.2325" value="Ne može se dobiti vreme za datoteku: [3] GetLastError: [2]."/>
+  <STRING id="Error.2326" value="Greška u FileToDosDateTime."/>
+  <STRING id="Error.2327" value="Ne može se ukloniti omotnica: [3] GetLastError: [2]."/>
+  <STRING id="Error.2328" value="Greška prilikom nalaženja informacije o verziji datoteke: [2]"/>
+  <STRING id="Error.2329" value="Greška u brisanju datoteke: [3]. GetLastError: [2]."/>
+  <STRING id="Error.2330" value="Greška prilikom nalaženja atributa datoteke: [3]. GetLastError: [2]."/>
+  <STRING id="Error.2331" value="Greška učitavanja biblioteke [2] ili nalaženja ulazne tačke [3]."/>
+  <STRING id="Error.2332" value="Greška u dobijanju atributa datoteke. GetLastError: [2]."/>
+  <STRING id="Error.2333" value="Greška postavljanja atributa datoteke. GetLastError: [2]."/>
+  <STRING id="Error.2334" value="Greška u pretvaranju vremena datoteke [3] u lokalno vreme. GetLastError: [2]."/>
+  <STRING id="Error.2335" value="Putanja: [2] nije roditeljska za [3]."/>
+  <STRING id="Error.2336" value="Greška u kreiranju temp datoteke na putanji: [3]. GetLastError: [2]."/>
+  <STRING id="Error.2337" value="Ne može se zatvoriti datoteka: [3]. GetLastError: [2]."/>
+  <STRING id="Error.2338" value="Ne može se ažurirati resurs za datoteku: [3] GetLastError: [2]."/>
+  <STRING id="Error.2339" value="Ne može se podesiti vreme datoteke za datoteku: [3] GetLastError: [2]."/>
+  <STRING id="Error.2340" value="Ne može se ažurirati resurs za datoteku: [3], nedostaje resurs."/>
+  <STRING id="Error.2341" value="Ne može se ažurirati resurs za datoteku: [3], resurs je preveliki."/>
+  <STRING id="Error.2342" value="Ne može se ažurirati resurs za datoteku: [3] GetLastError: [2]."/>
+  <STRING id="Error.2343" value="Navedena putanja je prazna."/>
+  <STRING id="Error.2344" value="Ne može se naći zahtevana datoteka  IMAGEHLP.DLL da proveri datoteku:[2]."/>
+  <STRING id="Error.2345" value="[2]: datoteka ne sadrži ispravnu vrednost kontrolnog zbira."/>
+  <STRING id="Error.2347" value="Ignorisanje korisnika."/>
+  <STRING id="Error.2348" value="Greška u pokušaju čitanja kabinet toka."/>
+  <STRING id="Error.2349" value="Kopija ponovo otpočela sa različitim informacijama."/>
+  <STRING id="Error.2350" value="FDI serverska greška"/>
+  <STRING id="Error.2351" value="Ključ datoteke &apos;[2]&apos; nije nađen u kabinetu &apos;[3]&apos;. Instalacija ne može da nastavi."/>
+  <STRING id="Error.2352" value="Kabinetski server datoteka ne može se postaviti u početno stanje. Moguće je da nedostaje zahtevana datoteka &apos;CABINET.DLL&apos; "/>
+  <STRING id="Error.2353" value="Nije kabinet."/>
+  <STRING id="Error.2354" value="Ne može se upravljati kabinetom."/>
+  <STRING id="Error.2355" value="Oštećen kabinet."/>
+  <STRING id="Error.2356" value="Ne može se pronaći kabinet u toku: [2]."/>
+  <STRING id="Error.2357" value="Ne mogu se postaviti atributi."/>
+  <STRING id="Error.2358" value="Greška u određivanju da li je datoteka u upotrei: [3]. GetLastError: [2]."/>
+  <STRING id="Error.2359" value="Ne može se kreirati odredišna datoekeka - moguće je da je datoteka u upotrebi."/>
+  <STRING id="Error.2360" value="Korak u pokazatelju napredovanja."/>
+  <STRING id="Error.2361" value="Potreban je sledeći kabinet."/>
+  <STRING id="Error.2362" value="Nije pronađen direktorijum: [2]."/>
+  <STRING id="Error.2363" value="Ne mogu se izbrojati poddirektorijumi za direktorijum: [2]."/>
+  <STRING id="Error.2364" value="Loša nabrojiva konstanta u pozivu CreateCopier."/>
+  <STRING id="Error.2365" value="Ne može BindImage exe datoteka [2]."/>
+  <STRING id="Error.2366" value="Korisnički otkaz."/>
+  <STRING id="Error.2367" value="Korisnik je odustao."/>
+  <STRING id="Error.2368" value="Ne može se dobiti informacija o mrežnom resursu. Greška [2], mrežna putanja [3]. Šira informacija o grešci: mrežni davalac usluga [5], kod greške [4], opis greške [6]."/>
+  <STRING id="Error.2370" value="Pogrešna vrednost CRC kontrolnog zbira za [2] datoteku.{ Njeno zaglavlje navodi [3] za kontrolnu sumu, a njena računska vrednost je [4].}"/>
+  <STRING id="Error.2371" value="Ne može se primeniti program za doradu na datoteku [2]. GetLastError: [3]."/>
+  <STRING id="Error.2372" value="Datoteka programa za doradu [2] je oštećena ili nije u ispravnom formatu. Pokušaj da se doradi datoteka [3]. GetLastError: [4]."/>
+  <STRING id="Error.2373" value="Datoteka [2] nije ispravna datoteka za doradu."/>
+  <STRING id="Error.2374" value="Datoteka [2] nije ispravna odredišna datoteka za datoteku za doradu [3]."/>
+  <STRING id="Error.2375" value="Nepoznata greška u doradi: [2]."/>
+  <STRING id="Error.2376" value="Nije nađen kabinet."/>
+  <STRING id="Error.2379" value="Greška u otvaranju datoteke za čitanje: [3]. GetLastError: [2]."/>
+  <STRING id="Error.2380" value="Greška u otvaranju datoteke za upis: [3]. GetLastError: [2]."/>
+  <STRING id="Error.2381" value="Omotnica ne postoji: [2]."/>
+  <STRING id="Error.2382" value="Logička disk jedinica nije spremna: [2]."/>
+  <STRING id="Error.2401" value="Pokušaj izvršenja 64-bitne operacije u Registry bazi na 32-bitnom operativnom sistemu za ključ [2]."/>
+  <STRING id="Error.2402" value="Nedovoljno memorije."/>
+  <STRING id="Error.2501" value="Ne može se kreirati "/>
+  <STRING id="Error.2502" value="Pozvan InstallFinalize kada instalacija nije u toku."/>
+  <STRING id="Error.2503" value="Pozvan RunScript kada se selektovano ne odvija."/>
+  <STRING id="Error.2601" value="Neispravna vrednost svojstva [2]: &apos;[3]&apos;"/>
+  <STRING id="Error.2602" value="Stavka &apos;[3]&apos; tabele [2] nema pridruženu stavku u Media tabeli."/>
+  <STRING id="Error.2603" value="Duplirano ime tabele [2]"/>
+  <STRING id="Error.2604" value="[2] svojstvo nije definisano."/>
+  <STRING id="Error.2605" value="Ne može se pronaći server [2] u [3] ili [4]."/>
+  <STRING id="Error.2606" value="Vrednost svojstva [2] nije ispravna potpuna putanja: &apos;[3]&apos;."/>
+  <STRING id="Error.2607" value="Tabela Media nije nađena ili je prazna (zahteva se za instalaciju datoteka)."/>
+  <STRING id="Error.2608" value="Ne može se kreirati zaštitni deskriptor za objekat.  Greška: &apos;[2]&apos;."/>
+  <STRING id="Error.2609" value="Pokušaj prenosa parametara proizvoda pre početnog postavljanja."/>
+  <STRING id="Error.2611" value="Datoteka [2] je označena kao sažeta, ali pridružena medijska stavka ne navodi kabinet."/>
+  <STRING id="Error.2612" value="Tok nije nađen u &apos;[2]&apos; koloni. Primarni ključ: &apos;[3]&apos;."/>
+  <STRING id="Error.2613" value="Akcija RemoveExistingProducts netačno raspoređena."/>
+  <STRING id="Error.2614" value="Ne može se pristupiti objektu IStorage iz instalacionog paketa."/>
+  <STRING id="Error.2615" value="Preskače se brisanje registracije Module [2] zbog greške u rezoluciji izvorne putanje."/>
+  <STRING id="Error.2616" value="Nedostaje roditelj pridružene datoteke [2]."/>
+  <STRING id="Error.2617" value="Deljena komponenta [2] nije pronađena u Component tabeli."/>
+  <STRING id="Error.2618" value="Izolovana aplikacijska komponenta [2] nije pronađena u Component tabeli."/>
+  <STRING id="Error.2619" value="Izolovane komponente [2], [3] nisu deo iste osobenosti."/>
+  <STRING id="Error.2620" value="Key datoteka izolovane aplikacijske komponente [2] nije u File tabeli."/>
+  <STRING id="Error.2621" value="DLL resurs ili ID resurs informacije o prečici [2] je neispravno podešen."/>
+  <STRING id="Error.2701" value="Dubina osobenosti prevazilazi dopuštenu dubinu drveta od [2] nivoa."/>
+  <STRING id="Error.2702" value="Zapis ([2]) iz Feature tabele ukazuje na nepostojeći roditelj u Attributes polju."/>
+  <STRING id="Error.2703" value="Ime svojstva korena izvorišne putanje nije definisano: [2]"/>
+  <STRING id="Error.2704" value="Svojstvo Root omotnice nije definisano: [2]"/>
+  <STRING id="Error.2705" value="Neispravna tabela: [2]; Ne može se povezati kao drvo."/>
+  <STRING id="Error.2706" value="Izvorišne putanje nisu kreirane. U Directory tabeli za stavku [2] ne postoji putanja."/>
+  <STRING id="Error.2707" value="Ciljne putanje nisu kreirane. U Directory tabeli za stavku [2] ne postoji putanja."/>
+  <STRING id="Error.2708" value="Nisu nađene stavke u tabeli datoteka."/>
+  <STRING id="Error.2709" value="Navedeno Component ime (&apos;[2]&apos;) nije nađeno u Component tabeli."/>
+  <STRING id="Error.2710" value="Registrovano &apos;Select&apos; stanje nije važeće za ovu Komponentu."/>
+  <STRING id="Error.2711" value="Navedeno Feature ime (&apos;[2]&apos;) nije nađeno u Feature tabeli."/>
+  <STRING id="Error.2712" value="Neispravna povratna vrednost iz ne-modalnog dijaloga: [3], u akciji [2]."/>
+  <STRING id="Error.2713" value="Null vrednost u koloni sa zabranom null vrednosti (&apos;[2]&apos; u &apos;[3]&apos; kolona &apos;[4]&apos; tabele."/>
+  <STRING id="Error.2714" value="Neispravna vrednost za podrazumevao ime omotnice: [2]."/>
+  <STRING id="Error.2715" value="Navedeni File ključ (&apos;[2]&apos;) nije nađen u File tabeli."/>
+  <STRING id="Error.2716" value="Ne može se kreirati slučano ime podkomponente za komponentu &apos;[2]&apos;."/>
+  <STRING id="Error.2717" value="Loš uslov za akciju ili greška u pozivu korisničke akcije &apos;[2]&apos;."/>
+  <STRING id="Error.2718" value="Nedostaje ime paketa za produktni kod &apos;[2]&apos;."/>
+  <STRING id="Error.2719" value="Ni UNC ni putanja slova logičkog diska nije nađena u izvoru &apos;[2]&apos;."/>
+  <STRING id="Error.2720" value="Greška u otvaranju "/>
+  <STRING id="Error.2721" value="Korisnička akcija [2] nije nađena u toku Binary tabele."/>
+  <STRING id="Error.2722" value="Korisnička akcija [2] nije nađena u File tabeli."/>
+  <STRING id="Error.2723" value="Korisnička akcija [2] navodi nepodržani tip."/>
+  <STRING id="Error.2724" value="Oznaka &apos;[2]&apos; logičkog diska na mediju sa koga radite ne odgovara oznaci &apos;[3]&apos; datoj u Media tabeli. Ovo je dopušteno jedino ako imate samo 1 stavku u vašoj Media tabeli."/>
+  <STRING id="Error.2725" value="Neispravne tabele baze podataka"/>
+  <STRING id="Error.2726" value="Akcija nije nađena: [2]."/>
+  <STRING id="Error.2727" value="Stavka omotnice &apos;[2]&apos; "/>
+  <STRING id="Error.2728" value="Greška u definiciji tabele: [2]"/>
+  <STRING id="Error.2729" value="Instalacioni mehanizam nije postavljen u početno stanje."/>
+  <STRING id="Error.2730" value="Neodgovarajuća vrednost u bazi podataka. Tabela: &apos;[2]&apos;; Primarni ključ: &apos;[3]&apos;; Kolona: &apos;[4]&apos;"/>
+  <STRING id="Error.2731" value="Selection Manager nije postavljen u početno stanje."/>
+  <STRING id="Error.2732" value="Directory Manager nije postavljen u početno stanje."/>
+  <STRING id="Error.2733" value="Loš strani ključ (&apos;[2]&apos;) u  &apos;[3]&apos; koloni tabele &apos;[4]&apos;."/>
+  <STRING id="Error.2734" value="Neispravan "/>
+  <STRING id="Error.2735" value="Korisnička akcija &apos;[2]&apos; uzrokovala je neobrađeni izuzetak i zaustavljena je. Ovo može biti rezultat unutrašnje greške u korisničkoj akciji, kao što je prekršaj pristupa."/>
+  <STRING id="Error.2736" value="Generisanje privremene datoteke korisničke akcije nije uspelo: [2]."/>
+  <STRING id="Error.2737" value="Ne može se pristupiti korisničkoj akciji [2], stavka [3], biblioteka [4]"/>
+  <STRING id="Error.2738" value="Ne može se pristputi izvršnom VBScript za korisničku akciju [2]."/>
+  <STRING id="Error.2739" value="Ne može se pristupiti izvršnom JScript za korisničku akciju [2]."/>
+  <STRING id="Error.2740" value="Korisnička akcija [2] komandna datoteka [3], [4]: [5] Linija [6], Kolona [7], [8]."/>
+  <STRING id="Error.2741" value="Konfiguraciona informacija za produkt [2] je oštećena. Neispravna informacija: [2]."/>
+  <STRING id="Error.2742" value="Prenos u server neuspešan: [2]."/>
+  <STRING id="Error.2743" value="Ne može se izvršiti korisnička akcija [2], lokacija: [3], komanda: [4]."/>
+  <STRING id="Error.2744" value="EXE nije uspeo u pozivu korisničke akcije [2], lokacija: [3], komanda: [4]."/>
+  <STRING id="Error.2745" value="Transformacija [2] neispravna za paket [3]. Očekivani jezik [4], nađeni jezik [5]."/>
+  <STRING id="Error.2746" value="Transformacija [2] neispravna za paket [3]. Očekivan produkt [4], nađeni produkt [5]."/>
+  <STRING id="Error.2747" value="Transformacija [2] neispravna za paket [3]. Očekivana verzija produkta &lt; [4], nađena produktna verzija [5]."/>
+  <STRING id="Error.2748" value="Transformacija [2] neispravna za paket [3]. Očekivana verzija produkta &lt; = [4], nađena verzija produkta [5]."/>
+  <STRING id="Error.2749" value="Transformacija [2] neispravna za paket [3]. Očekivana produktna verzija == [4], nađena produktna verzija [5]."/>
+  <STRING id="Error.2751" value="Transformacija [2] neispravna za paket [3]. Očekivana produktna verzija &gt; [4], nađena produktna verzija [5]."/>
+  <STRING id="Error.2752" value="Ne može se otvoriti transformacija [2] sačuvana kao dete-spremište paketa [4]."/>
+  <STRING id="Error.2753" value="Datoteka &apos;[2]&apos; nije označena za instalaciju."/>
+  <STRING id="Error.2754" value="Datoteka &apos;[2]&apos; nije isprvna datoteka za doradu."/>
+  <STRING id="Error.2755" value="Server je vratio neočekivanu grešku [2] pokušavajući da instalira paket [3]."/>
+  <STRING id="Error.2756" value="Svojstvo &apos;[2]&apos; korišćeno je kao svojstvo omotnice u jednoj ili više tabela, ali nikakva vrednost nije dodeljena."/>
+  <STRING id="Error.2757" value="Ne može se kreirati sumarna informacija za transformaciju [2]."/>
+  <STRING id="Error.2758" value="Transformacija [2] ne sadrži MSI verziju."/>
+  <STRING id="Error.2759" value="Transformacija [2] verzije [3] nije usaglasiva sa mehanizmom; Min: [4], Maks: [5]."/>
+  <STRING id="Error.2760" value="Transformacija [2] neispravna za paket [3]. Očekivani kod nadogradnje [4], nađen [5]."/>
+  <STRING id="Error.2761" value="Transakcija ne može da otpočne. Opšti muteks nije postavljen u ispravno početno stanje."/>
+  <STRING id="Error.2762" value="Ne može se upisati zapis komandne datoteke. Transakcija nije počela."/>
+  <STRING id="Error.2763" value="Ne može se pokrenuti komandna datoteka. Transakcija nije počela."/>
+  <STRING id="Error.2765" value="Assembly ime nedostaje iz AssemblyName tabele : Komponenta: [4]."/>
+  <STRING id="Error.2766" value="Datoteka [2] nije ispravna MSI prihvatna datoteka."/>
+  <STRING id="Error.2767" value="Nema više podataka{ tokom nabrajanja [2]}."/>
+  <STRING id="Error.2768" value="Transformacija u doradnom paketu nije ispravna."/>
+  <STRING id="Error.2769" value="Korisnička akcija [2] nije zatvorila [3] MSIHANDLE-ova"/>
+  <STRING id="Error.2770" value="Omotnica [2] iz priručne memorije nije definisana u unutrašnjoj priručnoj memoriji tabele omotnica."/>
+  <STRING id="Error.2771" value="Nedostaje komponenta osobenosti za nadogradnju [2]"/>
+  <STRING id="Error.2772" value="Nova osobenost [2] za nadogradnju mora biti rubna osobenost."/>
+  <STRING id="Error.2801" value="Nepoznata poruka -- tip [2]. Nije preduzeta nikakva aktivnost."/>
+  <STRING id="Error.2802" value="Nije nađen izdavač za događaj [2]."/>
+  <STRING id="Error.2803" value="Dijalog pregled nije našao zapis za dijalog [2]."/>
+  <STRING id="Error.2804" value="Tokom aktivacije kontrole [3] na dijalogu [2] CMsiDialog nije uspeo da proračuna uslov [3]."/>
+  <STRING id="Error.2806" value="Dijalog [2] nije uspeo da proračuna uslov [3]."/>
+  <STRING id="Error.2807" value="Nije prepoznata akcija [2]."/>
+  <STRING id="Error.2808" value="Podrazumevano dugme loše definisano na dijalogu [2]."/>
+  <STRING id="Error.2809" value="Na dijalogu [2] pokazivači sledeće kontrole ne čine krug. Postoji pokazivač od [3] do [4], ali nema sledećeg pokazivača."/>
+  <STRING id="Error.2810" value="Na dijalogu [2] pokazivači sledeće kontrole ne čine krug. Postoji pokazivač i od [3] i od [5] do [4]."/>
+  <STRING id="Error.2811" value="Na dijalogu [2] kontrola [3] mora da postane tekuća, ali ona to ne može."/>
+  <STRING id="Error.2812" value="Događaj [2] nije prepoznat."/>
+  <STRING id="Error.2813" value="Događaj EndDialog je pozvan sa argumentom [2], ali dijalog ima roditelja"/>
+  <STRING id="Error.2814" value="Na dijalogu [2] kontrola [3] imenuje nepostojeću kontrolu [4] kao sledeću kontrolu."/>
+  <STRING id="Error.2815" value="Tabela ControlCondition ima red bez uslova za dijalog [2]."/>
+  <STRING id="Error.2816" value="Tabela EventMapping odnosi se na neispravnu kontrolu [4] na dijalogu [2] za događaj [3]."/>
+  <STRING id="Error.2817" value="Događaj [2] nije uspeo da postavi obeležje za kontrolu [4] na dijalogu [3]."/>
+  <STRING id="Error.2818" value="U tabeli ControlEvent EndDialog ima neprepoznati argument [2]."/>
+  <STRING id="Error.2819" value="Kontrola [3] u dijalogu [2] treba da ima svojstvo povezano sa njom."/>
+  <STRING id="Error.2820" value="Pokušaj da se postavi početno stanje procedure za obradu koja je već postavljena u početno stanje."/>
+  <STRING id="Error.2821" value="Pokušaj da se postavi u početno stanje dijalog koji je već postavljen u početno stanje: [2]."/>
+  <STRING id="Error.2822" value="Ni jedan metod ne može se pozvati na dijalogu [2] dok se ne dodaju sve kontrole."/>
+  <STRING id="Error.2823" value="Pokušaj da se postavi u početno stanje kontrola koja je već postavljena u početno stanje: [3] na dijalogu [2]."/>
+  <STRING id="Error.2824" value="Obeležje [3] dijaloga treba zapis sa najmanje [2] polja."/>
+  <STRING id="Error.2825" value="Kontrolno obeležje [3] treba zapis sa najmanje [2] polja."/>
+  <STRING id="Error.2826" value="Kontrola [3] na dijalogu [2] proširena je izvan granica dijaloga [4] za [5] tačaka."/>
+  <STRING id="Error.2827" value="Dugme [4] na grupi [3] radio dugmadi na dijalogu [2] prošireno je izvan granica grupe [5] za [6] tačaka."/>
+  <STRING id="Error.2828" value="Pokušaj da se ukloni kontrola [3] sa dijaloga [2], ali ta kontrola nije deo tog dijaloga."/>
+  <STRING id="Error.2829" value="Pokušaj da se koristi dijalog koji nije postavljen u početno stanje."/>
+  <STRING id="Error.2830" value="Pokušaj da se koristi kontrola dijaloga [2] koja nije postavljena u početno stanje."/>
+  <STRING id="Error.2831" value="Kontrola [3] na dijalogu [2] ne podržava [5] obeležje [4]."/>
+  <STRING id="Error.2832" value="Dijalog [2] ne podržava obeležje [3]."/>
+  <STRING id="Error.2833" value="Kontrola [4] na dijalogu [3] ignoriše poruku [2]."/>
+  <STRING id="Error.2834" value="Sledeći pokazivači na dijalog [2] ne čine jednu petlju."/>
+  <STRING id="Error.2835" value="Kontrola [2] nije nađena na dijalogu [3]."/>
+  <STRING id="Error.2836" value="Kontrola [3] na dijalogu [2] ne može da postanje tekuća."/>
+  <STRING id="Error.2837" value="Kontrola [3] na dijalogu [2] želi da winproc vrati [4]."/>
+  <STRING id="Error.2838" value="Stavka [2] u tabeli selekcija ima samu sebe kao roditelja."/>
+  <STRING id="Error.2839" value="Postavljanje svojstva [2] neuspešno."/>
+  <STRING id="Error.2840" value="Neslaganje imena dijaloga greške. "/>
+  <STRING id="Error.2841" value="OK dugme nije nađeno u dijalogu greške."/>
+  <STRING id="Error.2842" value="U error dijalogu nije nađeno tekstualno polje."/>
+  <STRING id="Error.2843" value="Obeležje ErrorString nije podržano u standardnim dijalozima."/>
+  <STRING id="Error.2844" value="Ne može se izvršiti dijalog greške ako Errorstring nije postavljen."/>
+  <STRING id="Error.2845" value="Ukupna širina dugmadi prevazilazi veličinu dijaloga greške."/>
+  <STRING id="Error.2846" value="SetFocus nije pronašao zahtevanu kontrolu na dijalogu greške."/>
+  <STRING id="Error.2847" value="Kontrola [3] na dijalogu [2] ima podešene i ikonicu i stil bit mape."/>
+  <STRING id="Error.2848" value="Pokušano postavljanje kontrole [3] kao podrazumevanog dugmeta na dijalogu [2], ali ta kontrola ne postoji."/>
+  <STRING id="Error.2849" value="Kontrola [3] na dijalogu [2] je nekog tipa koji ne može biti celobrojno izražen."/>
+  <STRING id="Error.2850" value="Tip logičkog diska nije prepoznat."/>
+  <STRING id="Error.2851" value="Podaci za ikonicu [2] nisu ispravni."/>
+  <STRING id="Error.2852" value="Najmanje jedna kontrola mora biti dodata u dijalog [2] pre nego što se dijalog upotrebi."/>
+  <STRING id="Error.2853" value="Dijalog [2] je ne-modalni dijalog. Izvršni metod ne bi trebao da se poziva za njega."/>
+  <STRING id="Error.2854" value="Na dijalogu [2] kontrola [3] je označena kao prva aktivna kontrola, ali takve kontrole nema."/>
+  <STRING id="Error.2855" value="Grupa [3] radio dugmadi na dijalogu [2] ima manje od 2 dugmeta."/>
+  <STRING id="Error.2856" value="Kreiranje druge kopije dijaloga [2]."/>
+  <STRING id="Error.2857" value="Omotnica [2] je pomenuta u tabeli selekcija ali nije nađena."/>
+  <STRING id="Error.2858" value="Podaci za bit mapu [2] nisu ispravni."/>
+  <STRING id="Error.2859" value="Poruka greške u testiranju."/>
+  <STRING id="Error.2860" value="Cancel dugme je loše definisano u dijalogu [2]."/>
+  <STRING id="Error.2861" value="Sledeći pokazivači za radio dugmad na dijalogu [2] kontrole [3] ne čine ciklus."/>
+  <STRING id="Error.2862" value="Obeležja kontrole [3] na dijalogu [2] ne definiše ispravnu veličinu ikonice. Postavite veličinu na 16."/>
+  <STRING id="Error.2863" value="Kontrola [3] na dijalogu [2] treba ikonicu [4] dimenzija [5]x[5], ali ta veličina nije dostupna. Učitavanje prve dostupne veličine."/>
+  <STRING id="Error.2864" value="U kontroli [3] u dijalogu [2] dogodio se događaj prelistavanja, ali za sadašnji trenutni izbor nema omotnice koja se može konfigurisati."/>
+  <STRING id="Error.2865" value="Kontrola [3] na reklamnoj tabli [2] prevazilazi granice reklamne table [4] za [5] tačaka."/>
+  <STRING id="Error.2866" value="Nije dopušteno da dijalog [2] vrati argument [3]."/>
+  <STRING id="Error.2867" value="Svojstvo greške u dijalogu nije postavljeno."/>
+  <STRING id="Error.2868" value="[2] dijalog greške nema postavljen bit stila greške."/>
+  <STRING id="Error.2869" value="Dijalog [2] nema postavljen bit stila greške, ali on nije dijalog greške."/>
+  <STRING id="Error.2870" value="Pomoćni znakovni niz [4] za kontrolu [3] u dijalogu [2] ne sadrži razdvojni karakter."/>
+  <STRING id="Error.2871" value="[2] tabela je zastarela: [3]."/>
+  <STRING id="Error.2872" value="Argument kontrolnog događaja CheckPath je neispravan."/>
+  <STRING id="Error.2873" value="Kontrola [3] u dijalogu [2] ima neispravnu granicu dužine znakovnog niza: [4]"/>
+  <STRING id="Error.2874" value="Izmena fonta teksta u [2] nije uspela."/>
+  <STRING id="Error.2875" value="Izmena boje teksta u [2] nije uspela."/>
+  <STRING id="Error.2876" value="U dijalogu [2] kontrola [3] je morala da odseče znakovni niz: [4]"/>
+  <STRING id="Error.2877" value="Binarni podaci [2] nisu nađeni"/>
+  <STRING id="Error.2878" value="Kontrola [3] u dijalogu [2] ima moguću vrednost: [4]. Ova vrednost je neispravna ili je duplikat."/>
+  <STRING id="Error.2879" value="U dijalogu [2] kontrola [3] ne može da raščlani znakovni niz maske: [4]"/>
+  <STRING id="Error.2880" value="Ne izvršava se ostatak kontrolnih događaja."/>
+  <STRING id="Error.2881" value="Postavljanje početne vrednosti CMsiHandler nije uspelo."/>
+  <STRING id="Error.2882" value="Nije uspela registracija klase dijalog prozora."/>
+  <STRING id="Error.2883" value="CreateNewDialog nije uspeo za dijalog [2]."/>
+  <STRING id="Error.2884" value="Nije uspelo kreiranje prozora za dijalog [2]."/>
+  <STRING id="Error.2885" value="Nije uspelo kreiranje kontrole [3] u dijalogu [2]."/>
+  <STRING id="Error.2886" value="Kreiranje [2] tabele nije uspelo."/>
+  <STRING id="Error.2887" value="Kreiranje kurzora na tabelu [2] nije uspelo"/>
+  <STRING id="Error.2888" value="Izvršavanje [2] prikaza nije uspelo."/>
+  <STRING id="Error.2889" value="Kreiranje prozora za kontrolu [3] u dijalogu [2] nije uspelo."/>
+  <STRING id="Error.2890" value="Procedura za obradu nije uspela da kreira dijalog i postavi njegovu početnu vrednost."/>
+  <STRING id="Error.2891" value="Nije uspelo ukidanje prozora za dijalog [2]."/>
+  <STRING id="Error.2892" value="[2] je isključivo celobrojna kontrola, [3] nije ispravna celobrojna vrednost."/>
+  <STRING id="Error.2893" value="Kontrola [3] u dijalogu [2] može da prihvati vrednosti svojstva koji su dugački do [5] znakova. Vrednost [4] prevazilazi ovu granicu i zato je odsečena."/>
+  <STRING id="Error.2894" value="Učitavanje RICHED20.DLL nije uspelo. GetLastError() je vratio: [2]."/>
+  <STRING id="Error.2895" value="Oslobađanje RICHED20.DLL nije uspelo. GetLastError() je vratio: [2]."/>
+  <STRING id="Error.2896" value="Izvršavanje akcije [2] nije uspelo."/>
+  <STRING id="Error.2897" value="Nije uspelo kreiranje bilo kog [2] pisma na ovom sistemu."/>
+  <STRING id="Error.2898" value="Sistem je kreirao &apos;[3]&apos; pismo za [2] stil teksta u [4] nizu znakova."/>
+  <STRING id="Error.2899" value="Nije uspelo kreiranje [2] stila teksta. GetLastError() je vratio: [3]."/>
+  <STRING id="Error.2901" value="Loš parametar operacije [2]: Parametar [3]."/>
+  <STRING id="Error.2902" value="Operacija [2] pozvana je van reda."/>
+  <STRING id="Error.2903" value="Datoteka [2] nedostaje."/>
+  <STRING id="Error.2904" value="Ne može BindImage datoteke [2]."/>
+  <STRING id="Error.2905" value="Ne može se čitati zapis iz komandne datoteke [2]."/>
+  <STRING id="Error.2906" value="Nedostaje zaglavlje u komandnoj datoteci [2]."/>
+  <STRING id="Error.2907" value="Ne može se kreirati zaštićen zaštitni deskriptor. Greška: [2]."/>
+  <STRING id="Error.2908" value="Ne može se registrovati komponenta [2]."/>
+  <STRING id="Error.2909" value="Ne može se izbrisati registracija komponente [2]."/>
+  <STRING id="Error.2910" value="Ne može se odrediti korisnički ID zaštite."/>
+  <STRING id="Error.2911" value="Ne može se ukloniti omotnica [2]."/>
+  <STRING id="Error.2912" value="Ne može se isplanirati datoteka [2] za uklanjanje ili ponovno pokretanje."/>
+  <STRING id="Error.2919" value="Kabinet nije naznačen za sažetu datoteku: [2]."/>
+  <STRING id="Error.2920" value="Izvorišna omotnica nije naznačena za datoteku [2]."/>
+  <STRING id="Error.2924" value="Verzija komandne datoteke [2] nije podržana. Verzija komandne datoteke: [3], minimalna verzija: [4], maksimalna verzija: [5]."/>
+  <STRING id="Error.2927" value="ShellFolder id [2] nije ispravan."/>
+  <STRING id="Error.2928" value="Prevaziđen je maksimalan broj izvora. Preskače se izvor &apos;[2]&apos;."/>
+  <STRING id="Error.2929" value="Ne može se odrediti koren izdavača. Greška: [2]."/>
+  <STRING id="Error.2932" value="Ne može se kreirati datoteka [2] iz podataka komandne datoteke. Greška: [3]."/>
+  <STRING id="Error.2933" value="Ne može se postaviti početna vrednost komandne datoteke [2] za vraćanje u staro stanje."/>
+  <STRING id="Error.2934" value="Ne može se zaštititi transformacija [2]. Greška [3]."/>
+  <STRING id="Error.2935" value="Ne može se skinuti zaštita sa transformacije [2]. Greška [3]."/>
+  <STRING id="Error.2936" value="Ne može se naći transformacija [2]."/>
+  <STRING id="Error.2937" value="Windows Installer ne može da instalira zaštitni katalog sistemske datoteke. Katalog: [2], Greška: [3]."/>
+  <STRING id="Error.2938" value="Windows Installer ne može da dobije zaštitni katalog sistemske datoteke iz priručne memorije. Katalog: [2], Greška: [3]."/>
+  <STRING id="Error.2939" value="Windows Installer ne može da obriše zaštitni katalog sistemske datoteke iz priručne memorije. Katalog: [2], Greška: [3]."/>
+  <STRING id="Error.2940" value="Directory Manager nije dostupan za tumačenje putanje."/>
+  <STRING id="Error.2941" value="Ne može se izračunati CRC datoteke [2]."/>
+  <STRING id="Error.2942" value="BindImage akcija se ne može izvršiti na [2] datoteci."/>
+  <STRING id="Error.2943" value="Verzija Windows-a ne podržava primenu 64-bitnih paketa. Komandna datoteka [2] je za 64-bitne paket."/>
+  <STRING id="Error.2944" value="GetProductAssignementType nije uspeo."/>
+  <STRING id="Error.2945" value="Instalacija ComPlus App [2] nije uspela sa greškom [3]."/>
+  <STRING id="Error.3001" value="Dorada u ovoj listi sadrži neispravnu informaciju o redosledu: [2][3][4][5][6][7][8][9][10][11][12][13][14][15][16]."/>
+  <STRING id="Error.3002" value="Dorada [2] sadrži neispravnu informaciju o redosledu."/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bajtovi"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Celokupna opcija će biti nedostupna"/>
+  <STRING id="UIText.MenuAdvertise" value="Opcija će biti instalirana po potrebi"/>
+  <STRING id="UIText.MenuAllCD" value="Cela opcija će biti instalirana tako da se izvršava sa CD-a"/>
+  <STRING id="UIText.MenuAllLocal" value="Cela opcija će biti instalirana na lokalni čvrsti disk"/>
+  <STRING id="UIText.MenuAllNetwork" value="Cela opcija će biti instalirana da se izvršava sa mreže"/>
+  <STRING id="UIText.MenuCD" value="Biće instalirano da se izvršava sa CD-a"/>
+  <STRING id="UIText.MenuLocal" value="Biće instalirano na lokalni čvrsti disk"/>
+  <STRING id="UIText.MenuNetwork" value="Biće instalirano da se izvršava sa mreže"/>
+  <STRING id="UIText.ScriptInProgress" value="Prikupljanje neoophodnih informacija..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Ova opcija će ostati neinstalirana"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Ova opcija će biti postavljena da se instalira po potrebi"/>
+  <STRING id="UIText.SelAbsentCD" value="Ova opcija će biti instalirana da se izvršava sa CD-a"/>
+  <STRING id="UIText.SelAbsentLocal" value="Ova opcija će biti instalirana na lokalnom čvrstom disku"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Ova opcija će biti instalirana da se izvršava sa mreže"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Ova opcija će biti nedostupna"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Biće instalirano po potrebi"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Ova opcija će biti dostupna da se izvršava sa CD-a"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Ova opcija će biti instalirana na vašem lokalnom čvrstom disku"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Ova opcija će biti dostupna da se izvršava sa mreže"/>
+  <STRING id="UIText.SelCDAbsent" value="Ova opcija će biti instalirana u celini, nećete moći da je izvršavate sa CD-a"/>
+  <STRING id="UIText.SelCDAdvertise" value="Ova opcija će promeniti stanje umesto da se izvršava sa CD-a da se instalira po potrebi"/>
+  <STRING id="UIText.SelCDCD" value="Ova opcija će ostati da se izvršava sa CD-a"/>
+  <STRING id="UIText.SelCDLocal" value="Ova opcija će promeniti stanje umesto da se izvršava sa CD-a da se instalira na lokalni čvrsti disk"/>
+  <STRING id="UIText.SelChildCostNeg" value="Ova opcija oslobađa [1] na vašem čvrstom disku."/>
+  <STRING id="UIText.SelChildCostPos" value="Ova opcija zahteva [1] na vašem čvrstom disku."/>
+  <STRING id="UIText.SelCostPending" value="Računanje utroška za ovu opciju..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Ova opcija će biti potpuno uklonjena"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Ova opcija će biti uklonjena sa vašeg čvrstog diska, ali će biti postavljena da se instalira po potrebi"/>
+  <STRING id="UIText.SelLocalCD" value="Ova opcija će biti uklonjena sa vašeg lokalnog čvrstog diska, ali će ipak biti dostupna da se izvršava sa CD-a"/>
+  <STRING id="UIText.SelLocalLocal" value="Ova opcija će ostati na vašem čvrstom disku"/>
+  <STRING id="UIText.SelLocalNetwork" value="Ova opcija će biti uklonjena sa vašeg čvrstog diska, ali će ipak biti dostupna da se izvršava sa mreže"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Ova opcija će biti deinstalirana u potpunosti, nećete moći da je izvršavate sa mreže"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Ova opcija će izmeniti svoje stanje od izvršavanja sa mreže na stanje instalacije po potrebi"/>
+  <STRING id="UIText.SelNetworkLocal" value="Ova opcija će izmeniti svoje stanje od izvršavanja sa mreže na stanje instalacije na lokalnom čvrstom disku"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Ova opcija će ostati da se izvršava sa mreže"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Ova opcija oslobađa [1] na vašem čvrstom disku. Ona ima [2] od [3] odabranih opcija. Ove podopcije oslobađaju [4] na vašem čvrstom disku."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Ova opcija oslobađa [1] na vašem čvrstom disku. Ona ima [2] [3] odabranih podopcija. Ove podopcije zahtevaju [4] na vašem čvrstom disku."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Ova opcija zahteva [1] na vašem čvrstom disku. Ona ima [2] od [3] selektovane podopcije. Ove podopcije oslobađaju [4] na vašem čvrstom disku."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Ova opcija [1] na vašem čvrstom disku. Ona ima [2] od [3] selektovane podopcije. Ove podopcije zahtevaju [4] na vašem čvrstom disku."/>
+  <STRING id="UIText.TimeRemaining" value="Preostalo vreme: {[1] minuta }{[2] sekundi}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Raspoloživo"/>
+  <STRING id="UIText.VolumeCostDifference" value="Razlika"/>
+  <STRING id="UIText.VolumeCostRequired" value="Neophodno"/>
+  <STRING id="UIText.VolumeCostSize" value="Veličina diska"/>
+  <STRING id="UIText.VolumeCostVolume" value="Logički disk"/>
+  <STRING id="UIText.HttpPostMsg" value="Slanje prikupljenih podataka..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.ODBCTestMsg" value="Molimo sačekajte da se testira veza..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Traženje SQL servera na mreži..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="Povezivanje na server baze u toku ..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.BrowseFolderLocation" value="Lokacija"/>
+  <STRING id="UIText.BrowseFolderName" value="Naziv omotnice:"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="Selektovana omotnica"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="Nedovoljan prostor"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="Instalacione disk jedinice"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="Nekorišćene disk jedinice"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;Greška u učitavanju resursa:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="Instalacija"/>
+  <STRING id="UIText.PrereqInstalled" value="Instaliran"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="Mora se instalirati"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] ili niži}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] ili viši}"/>
+  <STRING id="UIText.PrereqSkipAction" value="Preskoči"/>
+  <STRING id="UIText.Warning" value="Upozorenje"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Automatski zatvori programe i pokušaj da ih ponovo pokreneš posle završetka podešavanja (&amp;c)."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="&amp;Nemoj da zatvaraš programe. (Biće neophodno ponovno pokretanje sistema.)"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="Da, registrujte da bi rukovali tim tipovima datoteka (&amp;Y)."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Ne, preskočite asociranje datoteka."/>
+  <STRING id="RadioButton.Text.IAgree#1" value="J&amp;a prihvatam uslove Sporazuma o licenci"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="Ja &amp;dakle ne prihvatam uslove Sporazuma o licenci"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="Samo za mene ([LogonUser])"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="Svi (svi korisnici)"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Modify" value="Izmeni"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Remove" value="Ukloni"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Repair" value="Popravi"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Ne, instaliraj ravnopravno uz ostale verzije."/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="Da, ukloni ranije verzije (&amp;Y)."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Ne, deinstaliraj samo [AI_Replaced_Versions_List] verziju."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="Da, ukloni sve starije vezije (&amp;Y)."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; Nazad (&amp;B)"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="Nazad (&amp;B)"/>
+  <STRING id="Property.ButtonText_Browse" value="Prelistavanje (&amp;o)..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Otkaži"/>
+  <STRING id="Property.ButtonText_Exit" value="Izlaz (&amp;E)"/>
+  <STRING id="Property.ButtonText_Finish" value="Završi (&amp;F)"/>
+  <STRING id="Property.Text_Finish" value="Završi"/>
+  <STRING id="Property.ButtonText_Ignore" value="Zanemar&amp;i"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Instaliraj"/>
+  <STRING id="Property.Text_Install" value="Instaliraj"/>
+  <STRING id="Property.ButtonText_Next" value="Dalje (&amp;N) &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="Dalje (&amp;N)"/>
+  <STRING id="Property.Text_Next" value="Dalje (N)"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Ne"/>
+  <STRING id="Property.ButtonText_OK" value="Prihvati"/>
+  <STRING id="Property.ButtonText_Remove" value="Ukloni (&amp;R)"/>
+  <STRING id="Property.ButtonText_Repair" value="Pop&amp;ravi"/>
+  <STRING id="Property.ButtonText_Reset" value="Ponovo pok&amp;reni"/>
+  <STRING id="Property.ButtonText_Resume" value="Nastavi (&amp;R)"/>
+  <STRING id="Property.ButtonText_Retry" value="Pokušaj ponovo (&amp;R)"/>
+  <STRING id="Property.ButtonText_Return" value="Pov&amp;ratak"/>
+  <STRING id="Property.ButtonText_Yes" value="Da (&amp;Y)"/>
+  <STRING id="Property.CtrlEvtchanges" value="menja"/>
+  <STRING id="Property.CtrlEvtChanging" value="Izmena"/>
+  <STRING id="Property.CtrlEvtremoves" value="uklanja"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Uklanjanje"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Popravak"/>
+  <STRING id="Property.CtrlEvtrepairs" value="popravlja"/>
+  <STRING id="Property.InstallModeComplete" value="Završeno"/>
+  <STRING id="Property.InstallModeCustom" value="Korisnički"/>
+  <STRING id="Property.InstallModeTypical" value="Tipična instalacija"/>
+  <STRING id="Property.Progress1" value="Instaliranje"/>
+  <STRING id="Property.Progress2" value="instalira"/>
+  <STRING id="Property.Setup" value="podešavanje"/>
+  <STRING id="Property.Wizard" value="Čarobnjak za podešavanje"/>
+  <!-- Trialware Settings table -->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Kupovanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Da li želite da otvorite stranicu %TrialName% za kupovanje?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Neispravan ključ za registraciju"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="Neispravan ključ za registraciju."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% isprobavanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Pritisnite &quot;Finish&quot; dugme da proverite ključ i da nastavite."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Unesite sve linije dobijenog registarskog ključa."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Registracija"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Kupovanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Posetite %TrialName% stranicu za kupovanje da bi dobili licencu"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="Isteklo je vreme isprobavanja za %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="Isteklo je %Quantity% dana za isprobavanje. Ako želite da nastavite da koristite %TrialName% morate da kupite licencu i registrujete aplikaciju"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="Prevaziđen je broj od %Quantity% dozvoljenih korišćenja. Ako želite da nastavite da koristite %TrialName% morate da kupite licencu i registrujete aplikaciju."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Dobro došli na isprobavanje %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Registracija"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Unesite registracioni ključ"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Probanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Isteklo"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Kupovanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Posetite %TrialName% stranicu za kupovanje da bi dobili licencu"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="%TrialName% isprobavanje (preostalo još %TrialLeft% dana)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="%TrialName% isprobavanje (preostalo još %TrialLeft% pokušaja)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="Vi koristite probnu verziju %TrialName% od [|Manufacturer]-a. Imate još %TrialLeft% preostalih dana."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="Vi koristite probnu verziju %TrialName% od [|Manufacturer]. Imate još %TrialLeft% preostalih pokušaja."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Dobro došli u %TrialName% isprobavanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Registracija"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Unesite registarski ključ"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Isprobavanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Nastavak isprobavanja %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=Trial Extension Request&amp;body=Dobar dan,%%0A%%0AŽelim da zatražim kod za produžetak perioda isprobavanja %TrialName%.%%0A%%0AZahvalan,%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="%TrialName% Isprobavanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="Nastavak"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="Zahtev za produženje perioda isprobavanja."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="Pritisnite &quot;Nastavak&quot; dugme da da potvrdite kod i da nastavite isprobavanje."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="Unesite kod koji ste primili za nastavak perioda isprobavanja."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="Produženje perioda isprobavanja"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="Probni periodi su istekli."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="Nije vam dozvoljeno da produžite probni period više od %Quantity% %TrialMU%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="Nastavak"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="%TrialName% registrovan"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="Hvala na registraciji %TrialName%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="Registracija uspešna"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="Kupovina"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="Posetite stranicu %TrialName% da kupite licencu"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="Istekao period isprobavanja"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="Vaš period isprobavanja od %Quantity% dana je istekao. Ako želite da nastavite korišćenje %TrialName% morate da zahtevate produžetak perioda isprobavanja ili da kupite licencu i tako registrujete aplikaciju."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="Vaših %Quantity% isprobavanja je isteklo. Ako želite da nastavite korišćenje %TrialName% neophodno je da zahtevate produžetak perioda isprobavanja ili da kupite licencu i tako registrujete aplikaciju."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="Dobrodošli u %TrialName% isprobavanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="Registracija"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="Unesite registracioni ključ"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="Isprobavanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="Produžetak perioda isprobavanja %TrialName% "/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value="%TrialName% registrovan"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="Hvala na registaciji %TrialName%."/>
+  <STRING id="TrialwareSettings.alltrials#ContactReqLicenseCompId#Cmd" value="mailto:%LicReqContact%?subject=License Request Code: %CompId%&amp;body=Dobar dan,%%0A%%0AŽelim da naručim %TrialName% licencu korišćenjem sledećeg koda za zahtev: %CompId% %%0A%%0AZahvalan,%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error1" value="Vaša registraciona dozvola je istekla."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error2" value="Ova verzija %TrialName% nije pokrivena vašim planom licencnog održavanja."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#Error3" value="Vaša %TrialName% licenca je istekla."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#DlgCaption" value="%TrialName% isprobavanje"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#FinishCaption" value="Nastavak"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#LinkCaption" value="Zahtev za licencom (kod zahteva: %CompId%="/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#Msg2Caption" value="Pritisnite &quot;Nastavi&quot; dugme da proverite ključ i nastavite."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#MsgCaption" value="Unesite sve linije registrarskog ključa koje ste primili."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#PageHeader" value="Registracija"/>
+</DICTIONARY>

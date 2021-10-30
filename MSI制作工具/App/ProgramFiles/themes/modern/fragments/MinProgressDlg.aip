@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="MinProgressDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="568" Height="75" Attributes="1048577" Text="[MinBackground]" Control_Next="Back" Order="100"/>
+    <ROW Dialog_="MinProgressDlg" Control="Back" Type="PushButton" X="353" Y="52" Width="56" Height="17" Attributes="2" Text="[ButtonText_Back]" Control_Next="Next" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MinProgressDlg" Control="Next" Type="PushButton" X="413" Y="52" Width="56" Height="17" Attributes="2" Text="[ButtonText_Next]" Control_Next="Cancel" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MinProgressDlg" Control="Cancel" Type="PushButton" X="487" Y="52" Width="56" Height="17" Attributes="3" Text="[ButtonText_Cancel]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="MinProgressDlg" Control="ProgressBar" Type="ProgressBar" X="25" Y="30" Width="518" Height="14" Attributes="65537" Text="Progress done" Control_Next="ActionText" Order="500" TextLocId="Control.Text.ProgressDlg#ProgressBar"/>
+    <ROW Dialog_="MinProgressDlg" Control="ActionText" Type="Text" X="25" Y="15" Width="518" Height="11" Attributes="196611" Control_Next="Bitmap" Order="600"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="MinProgressDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="MinProgressDlg" HCentering="50" VCentering="50" Width="568" Height="75" Attributes="1" Title="[ProductName] [Setup]" Control_First="Bitmap" Control_Default="Cancel" Control_Cancel="Cancel" TitleLocId="Dialog.ProgressDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEventMappingComponent">
+    <ROW Dialog_="MinProgressDlg" Control_="ActionText" Event="ActionText" Attribute="Text"/>
+    <ROW Dialog_="MinProgressDlg" Control_="ProgressBar" Event="SetProgress" Attribute="Progress"/>
+  </COMPONENT>
+</FRAGMENT>

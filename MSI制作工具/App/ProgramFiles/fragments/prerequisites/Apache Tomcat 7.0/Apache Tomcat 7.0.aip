@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="15.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D3B7B8FB475E8EED0D9EE3DEB3DC" DisplayName="Apache Tomcat 7.0.90" VersionMin="7.0"
+      SetupFileUrl="http://www.us.apache.org/dist/tomcat/tomcat-7/v7.0.90/bin/apache-tomcat-7.0.90.exe"
+      Location="1" ExactSize="9289196" MD5="8efe63fbec56da047389523c77654ef6"
+      NoUiComLine="/S"
+      Operator="1" Options="xf" TargetName="Apache Tomcat"/>
+    <ATTRIBUTE name="GroupName" value="Web Server"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D3B7B8FB475E8EED0D9EE3DEB3DCVersion" Prereq="D3B7B8FB475E8EED0D9EE3DEB3DC" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Apache Software Foundation\Tomcat\7.0\Tomcat7\Version" VerMin="7.0.90"
+      Order="1" Property="PreReqSearch_D3B7B8FB475E8EED0D9EE3DEB3DC"/>
+  </COMPONENT>
+</FRAGMENT>

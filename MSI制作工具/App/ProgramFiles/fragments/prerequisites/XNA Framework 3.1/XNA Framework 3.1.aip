@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="AD1B210E_3B82_4BF7_8949_544FC6EA5471" DisplayName="XNA Framework 3.1" VersionMin="3.1"
+      SetupFileUrl="http://download.microsoft.com/download/5/9/1/5912526C-B950-4662-99B6-119A83E60E5C/xnafx31_redist.msi"
+      Location="1" ExactSize="7671808" MD5="52873853e4981d5b9147c93472bb4ee7"
+      NoUiComLine="/quiet"
+      Operator="1" Options="f" TargetName="XNA Framework 3.1"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Games"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="AD1B210E_3B82_4BF7_8949_544FC6EA5471ProductVersion" Prereq="AD1B210E_3B82_4BF7_8949_544FC6EA5471" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\XNA\Framework\v3.1\ProductVersion" VerMin="3.1.10527.0"
+      Order="1" Property="PreReqSearch_AD1B210E_3B82_4BF7_8949_544FC6EA5471"/>
+  </COMPONENT>
+</FRAGMENT>

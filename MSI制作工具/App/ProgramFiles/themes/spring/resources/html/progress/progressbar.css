@@ -1,0 +1,19 @@
+/* Progressbar
+----------------------------------*/
+.ui-progressbar
+{
+    height: 20px;
+    text-align: left;
+    margin-top: 70px;
+    border: 1px solid #aaaaaa/*{borderColorContent}*/;
+    background: url(progressbar-bg.png) repeat-x;
+}
+.ui-progressbar .ui-progressbar-value
+{
+    margin: -1px;
+    height: 20px;
+    background-image: url(bar-bg.gif);
+    border: 1px solid #aaaaaa
+}
+
+

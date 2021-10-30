@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="CB5C615EC734473C935D2F8F6349EBE6" DisplayName="Windows Management Framework BITS 2.0 for Windows Server 2003 x86" VersionMin="2.0"
+      SetupFileUrl="http://download.microsoft.com/download/1/d/e/1dec9a84-78b3-46d0-82cc-68f43202f0d6/WindowsServer2003-KB842773-x86-enu.exe"
+      Location="1" ExactSize="721136" MD5="1ba053e87079d7f4a9d31d6158686371"
+      WinNTVersions="Windows XP SP3 x86, Windows Vista x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="y" TargetName="Windows Management Framework BITS 2.0"/>
+    <ATTRIBUTE name="GroupName" value="Windows Management Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="CB5C615EC734473C935D2F8F6349EBE6SystemFolderQMgr.dll" Prereq="CB5C615EC734473C935D2F8F6349EBE6" SearchType="0"
+      SearchString="[SystemFolder]QMgr.dll" VerMin="6.6"
+      Order="1" Property="PreReqSearch_CB5C615EC734473C935D2F8F6349EBE6"/>
+    <ROW SearchKey="CB5C615EC734473C935D2F8F6349EBE6QMgr.dll" Prereq="CB5C615EC734473C935D2F8F6349EBE6" SearchType="0"
+      SearchString="[SystemFolder]Bits\QMgr.dll" VerMin="6.6"
+      Order="2" Property="PreReqSearch_1_CB5C615EC734473C935D2F8F6349EBE6"/>
+  </COMPONENT>
+</FRAGMENT>

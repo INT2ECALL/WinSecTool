@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="el" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32 bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Νέος φάκελος"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Αντιγραφή %s από %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Νέα μεταβλητή"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Περιγραφή"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Δυνατότητα"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Αναπαραγωγή"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Υποστήριξη"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Η περιγραφή σας για το [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Νέο αρχείο"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Νέο κλειδί"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Νέα ενότητα"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Νέα τιμή"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Το προϊόν σας"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="Δεν είναι δυνατή η εγκατάσταση του [ProductName] σε συστήματα με έκδοση του Adobe Reader παλαιότερη της [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε συστήματα που δεν διαθέτουν [AI_REQUIRED_ACTIVESYNC_DISPLAY] ή νεότερη έκδοση."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="Το [ProductName] μπορεί να εγκατασταθεί σε συστήματα με ποιότητα χρώματος κάτω των [AI_REQUIRED_COLOR_QUALITY] bit."/>
+  <STRING id="AI.LaunchCondition.Description" value="Περιγραφή συνθήκης εκκίνησης"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="Δεν είναι δυνατή η εγκατάσταση του [ProductName] σε συστήματα με έκδοση του DirectX παλαιότερη της [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="Το [ProductName] μπορεί να εγκατασταθεί σε συστήματα με έκδοση .NET Framework παλαιότερη της [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="Το [ProductName] μπορεί να εγκατασταθεί σε συστήματα με έκδοση .NET Core παλαιότερη της [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="Το [ProductName] μπορεί να εγκατασταθεί σε συστήματα με έκδοση Internet Explorer παλαιότερη της [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="Το [ProductName] μπορεί να εγκατασταθεί σε συστήματα με έκδοση Internet Information Services παλαιότερη της [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="Το [ProductName] απαιτεί ενεργή σύνδεση στο Internet για την εγκατάσταση. Ελέγξτε τη διαμόρφωση του δικτύου και τις ρυθμίσεις του διακομιστή μεσολάβησης."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε συστήματα με έκδοση του JDK παλαιότερη από [AI_REQUIRED_JDK_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="Δεν είναι δυνατή η εγκατάσταση του [ProductName] σε συστήματα με έκδοση του JRE παλαιότερη της [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε συστήματα που δεν διαθέτουν [AI_REQUIRED_OFFICE_APPNAME]."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε συστήματα που δεν διαθέτουν [AI_REQUIRED_OFFICE_APPNAME] 2003."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε συστήματα που δεν διαθέτουν [AI_REQUIRED_OFFICE_APPNAME] 2007."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="Η εγκατάσταση του [ProductName] απαιτεί δικαιώματα διαχειριστή."/>
+  <STRING id="AI.LaunchCondition.RAM" value="Το [ProductName] μπορεί να εγκατασταθεί σε συστήματα με φυσική μνήμη κάτω των [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="Το [ProductName] μπορεί να εγκατασταθεί σε συστήματα με ανάλυση οθόνης μικρότερη από [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε συστήματα που δεν διαθέτουν [AI_REQUIRED_SQLCOMPACT_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε συστήματα που δεν διαθέτουν [AI_REQUIRED_SQLEXPRESS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.VM" value="Το [ProductName] μπορεί να εγκατασταθεί σε συστήματα που εκτελούνται σε εικονικούς υπολογιστές."/>
+  <STRING id="AI.LaunchCondition.WI" value="Αδύνατη η εγκατάσταση του [ProductName] σε συστήματα με έκδοση του προγράμματος εγκατάστασης των Windows προγενέστερη της [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="Το [ProductName] δεν μπορεί να εγκατασταθεί σε συστήματα με έκδοση του ΧΝΑ Framework παλαιότερη από [AI_REQUIRED_XNA_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="YourFile.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Αυτή η βάση δεδομένων του προγράμματος εγκατάστασης περιέχει τη λογική και τα δεδομένα που απαιτούνται για την εγκατάσταση του &lt;product name&gt;."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Η εταιρία σας"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Η μονάδα συγχώνευσης"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Αυτή η βάση δεδομένων περιέχει τη λογική και τα δεδομένα που απαιτούνται για την εγκατάσταση του στοιχείου &lt;module name&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="Η εφαρμογή σας"/>
+  <STRING id="AI.Property.DefaultValue" value="Η τιμή σας"/>
+  <STRING id="AI.Property.FindExeTitle" value="Επιλέξτε πακέτο εγκατάστασης για το [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Αυτό το πακέτο περιέχει μια μονάδα συγχώνευσης που δημιουργήθηκε με δοκιμαστική έκδοση του Προγράμματος εγκατάστασης για προχωρημένους. Μπορείτε να το χρησιμοποιήσετε μόνο για σκοπούς αξιολόγησης."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Αυτό το πακέτο δημιουργήθηκε με δοκιμαστική έκδοση του Προγράμματος εγκατάστασης για προχωρημένους. Μπορείτε να το χρησιμοποιήσετε μόνο για σκοπούς αξιολόγησης."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Προειδοποίηση"/>
+  <STRING id="AI.Registry.DefaultKey" value="New_Key"/>
+  <STRING id="AI.Registry.DefaultName" value="Νέα τιμή"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="YourFile.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="YourValue"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="ServiceName"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Η περιγραφή της υπηρεσίας σας"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Η υπηρεσία σας"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Νέο κοινόχρηστο στοιχείο"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Συντόμευση για το YourCommand"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Συντόμευση σε %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Κατάργηση εγκατάστασης"/>
+  <STRING id="AI.Verb.DefaultCommand" value="Ά&amp;νοιγμα"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Νέο αρχείο"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.BrowseDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.CancelDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ErrorDlg" value="Πληροφορίες προγράμματος εγκατάστασης"/>
+  <STRING id="Dialog.ExitDialog" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.FatalError" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.FilesInUse" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.FolderDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.PrepareDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ProgressDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ResumeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.UserExit" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.TemplateDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[Setup] [ProductName]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Αναζήτηση σε:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Αναζήτηση στο φάκελο προορισμού"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Δημιουργία νέου φακέλου|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="Ό&amp;νομα φακέλου:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Αλλαγή τρέχοντος φακέλου προορισμού"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Ένα επίπεδο πάνω|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Προσδιορίστε μια θέση δικτύου για το αντίγραφο διακομιστή του προϊόντος [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Εισαγάγετε μια νέα θέση δικτύου ή κάντε κλικ στο «Αναζήτηση» για να αναζητήσετε μία."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Θέση δικτύου"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="&amp;Κλειδί CD:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Εισαγάγετε τα στοιχεία της εταιρίας σας"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Εισαγάγετε το όνομα του οργανισμού σας στο παρακάτω πλαίσιο.  Αυτό το όνομα θα χρησιμοποιηθεί ως το προεπιλεγμένο όνομα εταιρίας για επακόλουθες εγκαταστάσεις του [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Στοιχεία εταιρίας"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="Ο [Wizard] θα δημιουργήσει ένα αντίγραφο διακομιστή του [ProductName], σε μια καθορισμένη θέση δικτύου.  Κάντε κλικ στο &quot;[Text_Next]&quot; για να συνεχίσετε ή στο &quot;Άκυρο&quot; για να κλείσετε το πρόγραμμα &quot;[Wizard]&quot;."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Καλωσορίσατε στο πρόγραμμα &quot;[Wizard]&quot; για το [ProductName]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Αναζήτηση σε:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Αναζήτηση στο φάκελο προορισμού"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Δημιουργία νέου φακέλου|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="Ό&amp;νομα φακέλου:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Αλλαγή τρέχοντος φακέλου προορισμού"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Ένα επίπεδο πάνω|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Εικονίδιο πληροφοριών|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Είστε σίγουροι ότι θέλετε να ακυρώσετε την εγκατάσταση του [ProductName];"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Επιλέξτε τον τρόπο εγκατάστασης των δυνατοτήτων."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="Χρήση &amp;δίσκου"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Περιγραφή πολλών γραμμών του τρέχοντος επιλεγμένου στοιχείου."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Το μέγεθος του τρέχοντος επιλεγμένου στοιχείου."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Τη διαδρομή της επιλογής&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Θέση:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Κάντε κλικ στα εικονίδια στο παρακάτω δέντρο για να αλλάξετε τον τρόπο εγκατάστασης των χαρακτηριστικών."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Προσαρμοσμένη εγκατάσταση"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Δέντρο επιλογών"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Ο χώρος δίσκου που απαιτείται για την εγκατάσταση των επιλεγμένων χαρακτηριστικών."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Οι επισημασμένοι τόμοι (εάν υπάρχουν) δεν διαθέτουν αρκετό χώρο για τις τρέχουσες επιλεγμένες δυνατότητες.  Μπορείτε να καταργήσετε μερικά αρχεία από τους επισημασμένους τόμους ή να επιλέξτε την εγκατάσταση λιγότερων δυνατοτήτων στην τοπική μονάδα ή να επιλέξετε διαφορετικές μονάδες προορισμού."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Απαιτήσεις χώρου στο δίσκο"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Εικονίδιο πληροφοριών|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Κείμενο πληροφοριών"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Κάντε κλικ στο κουμπί &quot;Τέλος&quot; για να κλείσετε το πρόγραμμα &quot;[Wizard]&quot;."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Εκκίνηση του [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Ολοκλήρωση του προγράμματος &quot;[Wizard]&quot; για το [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Προβολή αρχείου readme"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="Ο [Wizard] θα καταχωρήσει το [ProductName] ώστε να χειρίζεται τους παρακάτω τύπους αρχείων: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Συσχετισμός του [ProductName] με τύπους αρχείων."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Συσχετισμοί αρχείων"/>
+  <STRING id="Control.Text.FatalError#Description1" value="Η εγκατάσταση του [ProductName] τερματίστηκε πρόωρα εξαιτίας σφάλματος.  Το σύστημά σας δεν τροποποιήθηκε.  Για να εγκαταστήσετε το πρόγραμμα αργότερα, εκτελέστε και πάλι την εγκατάσταση."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Κάντε κλικ στο κουμπί &quot;Τέλος&quot; για να κλείσετε το πρόγραμμα &quot;[Wizard]&quot;."/>
+  <STRING id="Control.Text.FatalError#Title" value="Ο [Wizard] του [ProductName] τερματίστηκε πρόωρα"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Μερικά αρχεία που πρέπει να ενημερωθούν χρησιμοποιούνται."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Οι παρακάτω εφαρμογές χρησιμοποιούν αρχεία που πρέπει να ενημερωθούν από την εγκατάσταση αυτή. Μπορείτε να κλείσετε τις εφαρμογές και να κάνετε κλικ στο &quot;Επανάληψη&quot; ή να κάνετε κλικ στο &quot;Παράβλεψη&quot; ώστε το πρόγραμμα εγκατάστασης να συνεχίσει την εγκατάσταση και να αντικαταστήσετε αυτά τα αρχεία κατά την επανεκκίνηση του συστήματος."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Αρχεία που χρησιμοποιούνται"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Αυτός είναι ο φάκελος όπου το [ProductName] θα εγκατασταθεί."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Φάκελος:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Για εγκατάσταση σε αυτόν το φάκελο κάντε κλικ στο &quot;[Text_Next]&quot;. Για εγκατάστασης σε διαφορετικό φάκελο, εισαγάγετε το φάκελο παρακάτω ή κάντε κλικ στο &quot;Αναζήτηση&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Επιλογή φακέλου εγκατάστασης"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_el.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Διαβάστε προσεκτικά την παρακάτω άδεια χρήσης"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Άδεια Χρήσης Τελικού Χρήστη"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Τροποποίηση εγκατάστασης|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Τροποποίηση"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Επιτρέπει στους χρήστες να αλλάξουν τον τρόπο εγκατάστασης των δυνατοτήτων."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Επιλέξτε τη λειτουργία που θέλετε να εκτελέσετε."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Κατάργηση εγκατάστασης|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Κατάργηση"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Καταργεί το [ProductName] από τον υπολογιστή σας."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Επιδιόρθωση εγκατάστασης|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="&amp;Επιδιόρθωση"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Επιδιορθώνει σφάλματα στην πιο πρόσφατη κατάσταση εγκατάστασης – διορθώνει αρχεία που λείπουν ή είναι κατεστραμμένα, συντομεύσεις και καταχωρίσεις μητρώου."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Τροποποίηση, επιδιόρθωση ή κατάργηση εγκατάστασης"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="Ο [Wizard] σας επιτρέπει να αλλάξετε τον τρόπο εγκατάστασης των χαρακτηριστικών του [ProductName] στον υπολογιστή σας ή και να καταργήσετε το [ProductName] από τον υπολογιστή σας.  Κάντε κλικ στο &quot;[Text_Next]&quot; για να συνεχίσετε ή στο &quot;Άκυρο&quot; για να κλείσετε το πρόγραμμα &quot;[Wizard]&quot;."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Καλωσορίσατε στο πρόγραμμα &quot;[Wizard]&quot; για το [ProductName]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Ο χώρος δίσκου που απαιτείται για την εγκατάσταση υπερβαίνει το διαθέσιμο χώρο."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Οι επισημασμένοι τόμοι δεν διαθέτουν αρκετό χώρο για τις τρέχουσες επιλεγμένες δυνατότητες.  Μπορείτε να καταργήσετε μερικά αρχεία από τους επισημασμένους τόμους ή να επιλέξτε την εγκατάσταση λιγότερων δυνατοτήτων στην τοπική μονάδα ή να επιλέξετε διαφορετικές μονάδες προορισμού."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Ανεπαρκής χώρος στο δίσκο"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Ο χώρος δίσκου που απαιτείται για την εγκατάσταση υπερβαίνει το διαθέσιμο χώρο."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Οι επισημασμένοι τόμοι δεν διαθέτουν αρκετό χώρο για τις τρέχουσες επιλεγμένες δυνατότητες.  Μπορείτε να καταργήσετε μερικά αρχεία από τους επισημασμένους τόμους ή να επιλέξτε την εγκατάσταση λιγότερων δυνατοτήτων στην τοπική μονάδα ή να επιλέξετε διαφορετικές μονάδες προορισμού."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Εναλλακτικά, μπορείτε να επιλέξετε την απενεργοποίηση της λειτουργικότητας επαναφοράς του προγράμματος εγκατάστασης.  Αυτό επιτρέπει στο πρόγραμμα εγκατάστασης την επαναφορά στην αρχική κατάσταση του υπολογιστή στην περίπτωση διακοπής της εγκατάστασης.  Κάντε κλικ στο &quot;Ναι&quot; εάν θέλετε να διακινδυνέψετε την απενεργοποίηση της επαναφοράς."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Ανεπαρκής χώρος στο δίσκο"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Περιμένετε όσο ο [Wizard] προετοιμάζεται να σας καθοδηγήσει κατά την εγκατάσταση."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Καλωσορίσατε στο πρόγραμμα &quot;[Wizard]&quot; για το [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Πρόοδος"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Κατάσταση:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Περιμένετε όσο ο [Wizard] [Progress2] το [ProductName].  Αυτό ενδέχεται να διαρκέσει αρκετά λεπτά."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Διαβάστε προσεκτικά το παρακάτω κείμενο"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_el.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Αρχείο Readme"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="Ο [Wizard] θα ολοκληρώσει την εγκατάσταση του [ProductName] στον υπολογιστή σας.  Κάντε κλικ στο &quot;Εγκατάσταση&quot; για να συνεχίσετε ή στο &quot;Άκυρο&quot; για να κλείσετε το πρόγραμμα &quot;[Wizard]&quot;."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Συνέχιση του προγράμματος &quot;[Wizard]&quot; για το [ProductName]"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Πλήρης εγκατάσταση|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="&amp;Πλήρης"/>
+  <STRING id="Property.Text_Complete" value="Πλήρης"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Θα εγκατασταθούν όλες οι δυνατότητες του προγράμματος.  (Απαιτεί τον περισσότερο χώρο στο δίσκο)"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Προσαρμοσμένη εγκατάσταση|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="Π&amp;ροσαρμοσμένη"/>
+  <STRING id="Property.Text_Custom" value="Προσαρμοσμένη"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Επιτρέπει στους χρήστες να επιλέξουν ποιες δυνατότητες του προγράμματος θα εγκατασταθούν και σε ποια θέση. Προτείνεται για προχωρημένους χρήστες."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Επιλέξτε τον τύπο εγκατάστασης που είναι κατάλληλος για τις ανάγκες σας"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Επιλογή τύπου εγκατάστασης"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Τυπική εγκατάσταση|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Τυπική"/>
+  <STRING id="Property.Text_Typical" value="Τυπική"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Εγκαθιστά τις πιο συνηθισμένες δυνατότητες του προγράμματος. Προτείνεται για τους περισσότερους χρήστες."/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="Ο [Wizard] μπορεί να αναζητήσει προηγούμενες εκδόσεις του [ProductName] και να τις καταργήσει. Θέλετε να καταργήσετε αυτές τις εκδόσεις;"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="Ο [Wizard] εντόπισε ότι επιλέξατε θέση εγκατάστασης που χρησιμοποιείται και από την έκδοση [AI_Replaced_Versions_List] του [ProductName]. Η εγκατάσταση αυτής της έκδοσης αυτή πρέπει να καταργηθεί. Θέλετε να καταργήσετε και τυχόν παλαιότερες εκδόσεις;"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Αναζήτηση και αναβάθμιση παλαιότερων εκδόσεων του [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Αναβάθμιση παλαιότερων εκδόσεων"/>
+  <STRING id="Control.Text.UserExit#Description1" value="Η εγκατάσταση του [ProductName] διακόπηκε.  Το σύστημά σας δεν τροποποιήθηκε.  Για να εγκαταστήσετε το πρόγραμμα αργότερα, εκτελέστε και πάλι την εγκατάσταση."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Κάντε κλικ στο κουμπί &quot;Τέλος&quot; για να κλείσετε το πρόγραμμα &quot;[Wizard]&quot;."/>
+  <STRING id="Control.Text.UserExit#Title" value="Ο [Wizard] για το [ProductName] διακόπηκε"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Αριθμός σειράς:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Εισαγάγετε τα στοιχεία πελάτη"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="Ό&amp;νομα χρήστη:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Οργανισμός:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Στοιχεία πελάτη"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="Ο [Wizard] είναι έτοιμος να ξεκινήσει την εγκατάσταση τύπου &quot;[ProductName]&quot;"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Κάντε κλικ στο &quot;Εγκατάσταση&quot; για να ξεκινήσετε την εγκατάσταση.  Εάν θέλετε να αναθεωρήσετε ή αλλάξετε οποιαδήποτε από τις ρυθμίσεις εγκατάστασης, κάντε κλικ στο &quot;Πίσω&quot;.  Κάντε κλικ στο &quot;Άκυρο&quot; για να κλείσετε τον Οδηγό."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Έτοιμο για εγκατάσταση"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Επιλέξατε την κατάργηση του προγράμματος από τον υπολογιστή σας."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Κάντε κλικ στο &quot;Κατάργηση&quot; για να καταργήσετε το [ProductName] από τον υπολογιστή σας.  Εάν θέλετε να αναθεωρήσετε ή αλλάξετε οποιαδήποτε από τις ρυθμίσεις εγκατάστασης, κάντε κλικ στο &quot;Πίσω&quot;.  Κάντε κλικ στο &quot;Άκυρο&quot; για να κλείσετε τον Οδηγό."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Κατάργηση του [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="Ο [Wizard] είναι έτοιμος να ξεκινήσει την επιδιόρθωση του [ProductName]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Κάντε κλικ στο &quot;Επιδιόρθωση&quot; για να επιδιορθώσετε την εγκατάσταση του [ProductName].  Εάν θέλετε να αναθεωρήσετε ή αλλάξετε οποιαδήποτε από τις ρυθμίσεις εγκατάστασης, κάντε κλικ στο &quot;Πίσω&quot;.  Κάντε κλικ στο &quot;Άκυρο&quot; για να κλείσετε τον Οδηγό."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Επιδιόρθωση του [ProductName]"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Εικονίδιο θαυμαστικού|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Περιμένετε όσο το πρόγραμμα εγκατάστασης ολοκληρώνει τον προσδιορισμό των απαιτήσεων σε χώρο δίσκου."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="Ο [Wizard] θα εγκαταστήσει το [ProductName] στον υπολογιστή σας.  Κάντε κλικ στο &quot;[Text_Next]&quot; για να συνεχίσετε ή στο &quot;Άκυρο&quot; για να κλείσετε το πρόγραμμα &quot;[Wizard]&quot;."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Καλωσορίσατε στο πρόγραμμα &quot;[Wizard]&quot; για το [ProductName]"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="Ο [Wizard] θα εγκαταστήσει την ενημέρωση κώδικα για το [ProductName] στον υπολογιστή σας.  Κάντε κλικ στο &quot;[Text_Next]&quot; για να συνεχίσετε ή στο &quot;Άκυρο&quot; για να κλείσετε το πρόγραμμα &quot;[Wizard]&quot; για την ενημέρωση κώδικα."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Καλωσορίσατε στο πρόγραμμα &quot;[Wizard]&quot; της ενημέρωσης κώδικα για το [ProductName]"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Περιγραφή νέου διαλόγου..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Νέος διάλογος"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Νέος διάλογος αναμονής"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Κάποια αρχεία, που πρέπει να ενημερωθούν, χρησιμοποιούνται."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Οι παρακάτω εφαρμογές χρησιμοποιούν αρχεία που πρέπει να ενημερωθούν από αυτό το πρόγραμμα εγκατάστασης."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Αρχεία που χρησιμοποιούνται"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Δημιουργία συντομεύσεων εφαρμογών"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Επιφάνεια εργασίας"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Γραμμή εργαλείων Quick Launch"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Δημιουργία συντομεύσεων για το [ProductName] στις παρακάτω τοποθεσίες:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Φάκελος προγραμμάτων μενού έναρξης"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Φάκελος εκκίνησης"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Διαμόρφωση συντομεύσεων"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Βάση δεδομένων:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Διαμόρφωση σύνδεσης SQL..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="Πόρος ODBC:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Κωδικός πρόσβασης:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Θύρα:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Διακομιστής:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="Βάση δεδομένων SQL:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Όνομα χρήστη:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Αυτός είναι ο φάκελος στον οποίο θα εγκατασταθούν οι συντομεύσεις του [ProductName]."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Προκειμένου να γίνει εγκατάσταση σε υποφάκελο, προσαρτήστε το όνομα του υποφακέλου, διαχωρίζοντάς το με &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Φάκελος συντομεύσεων μενού έναρξης:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Για να εγκαταστήσετε συντομεύσεις σε αυτό το φάκελο, κάντε κλικ στο κουμπί &quot;[Text_Next]&quot;. Για να κάνετε εγκατάσταση σε άλλο φάκελο, εισάγετέ τον παρακάτω ή επιλέξτε έναν από το σύνθετο πλαίσιο."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Επιλέξτε τον φάκελο συντομεύσεων μενού έναρξης"/>
+  <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="Πλήρης εγκατάσταση|"/>
+  <STRING id="Control.Help.ClientServerDlg#CustomButton" value="Εγκατάσταση διακομιστή|"/>
+  <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="Εγκατάσταση υπολογιστή-πελάτη|"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteLabel" value="Π&amp;λήρης"/>
+  <STRING id="Control.Text.ClientServerDlg#CompleteText" value="Εγκαθιστά τόσο τη διαμόρφωση υπολογιστή-πελάτη, όσο και τη διαμόρφωση διακομιστή."/>
+  <STRING id="Control.Text.ClientServerDlg#CustomLabel" value="&amp;Διακομιστής"/>
+  <STRING id="Control.Text.ClientServerDlg#CustomText" value="Εγκαθιστά τη διαμόρφωση διακομιστή."/>
+  <STRING id="Control.Text.ClientServerDlg#Description" value="Επιλέξτε τον τύπο εγκατάστασης που ανταποκρίνεται στις ανάγκες σας"/>
+  <STRING id="Control.Text.ClientServerDlg#Logo" value="Πρόγραμμα εγκατάστασης για προχωρημένους"/>
+  <STRING id="Control.Text.ClientServerDlg#Title" value="Επιλογή τύπου εγκατάστασης"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalLabel" value="&amp;Υπολογιστής-πελάτης"/>
+  <STRING id="Control.Text.ClientServerDlg#TypicalText" value="Εγκαθιστά τη διαμόρφωση υπολογιστή-πελάτη."/>
+  <STRING id="Control.Text.InstallTypeDlg#Description" value="Επιλέξτε τύπο εγκατάστασης."/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="Εγκατάσταση του [ProductName] για:"/>
+  <STRING id="Control.Text.InstallTypeDlg#Logo" value="Πρόγραμμα εγκατάστασης για προχωρημένους"/>
+  <STRING id="Control.Text.InstallTypeDlg#Title" value="Τύπος εγκατάστασης"/>
+  <STRING id="Control.Text.TemplateSeqDlg#Description" value="Περιγραφή νέου διαλόγου..."/>
+  <STRING id="Control.Text.TemplateSeqDlg#Title" value="Νέος διάλογος"/>
+  <STRING id="Control.Text.TomcatServerDlg#Description" value="Διαμορφώστε τα χαρακτηριστικά του διακομιστή Tomcat"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HostNameLabel" value="Όνομα κεντρικού υπολογιστή:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpPortLabel" value="Αριθμός θύρας HTTP:"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#HttpSslPortLabel" value="Αριθμός θύρας HTTP SSL:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Logo" value="Πρόγραμμα εγκατάστασης για προχωρημένους"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortEdit" value="{260}"/>
+  <STRING id="Control.Text.TomcatServerDlg#ShutdownPortLabel" value="Αριθμός θύρας απενεργοποίησης:"/>
+  <STRING id="Control.Text.TomcatServerDlg#Title" value="Χαρακτηριστικά διακομιστή Tomcat"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Κοινοποίηση εφαρμογής"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Εκχώρηση χώρου στο μητρώο"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Ελεύθερος χώρος: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="Αναζήτηση εγκατεστημένων εφαρμογών"/>
+  <STRING id="ActionText.Template.AppSearch" value="Ιδιότητα: [1], Υπογραφή: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="Σύνδεση εκτελέσιμων αρχείων"/>
+  <STRING id="ActionText.Template.BindImage" value="Αρχείο: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Αναζήτηση για κατάλληλα προϊόντα"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Υπολογισμός απαιτούμενου χώρου"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Υπολογισμός απαιτούμενου χώρου"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Δημιουργία φακέλων"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Φάκελος: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Δημιουργία συντομεύσεων"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Συντόμευση: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Διαγραφή υπηρεσιών"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Υπηρεσία: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Δημιουργία διπλών αρχείων"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Αρχείο: [1],  Κατάλογος: [9],  Μέγεθος: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="Υπολογισμός απαιτούμενου χώρου"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Αναζήτηση σχετικών εφαρμογών"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Βρέθηκε η εφαρμογή: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Δημιουργία λειτουργιών δέσμης ενεργειών για την ενέργεια:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Αντιγραφή αρχείων εγκατάστασης δικτύου"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Αρχείο: [1],  Κατάλογος: [9],  Μέγεθος: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Αντιγραφή νέων αρχείων"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Αρχείο: [1],  Κατάλογος: [9],  Μέγεθος: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Εγκατάσταση στοιχείων ODBC"/>
+  <STRING id="ActionText.Description.InstallServices" value="Εγκατάσταση νέων υπηρεσιών"/>
+  <STRING id="ActionText.Template.InstallServices" value="Υπηρεσία: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Εγκατάσταση καταλόγου συστήματος"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Αρχείο: [1],  Εξαρτήσεις: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Επικύρωση εγκατάστασης"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Αξιολόγηση συνθηκών εκκίνησης"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Μετεγκατάσταση καταστάσεων λειτουργιών από σχετικές εφαρμογές"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Εφαρμογή: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Μετακίνηση αρχείων"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Αρχείο: [1],  Κατάλογος: [9],  Μέγεθος: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Δημοσίευση πληροφοριών συναρμολόγησης"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Περιβάλλον εφαρμογής:[1], Όνομα συναρμολόγησης:[2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Κατάργηση δημοσίευσης πληροφοριών συναρμολόγησης"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Περιβάλλον εφαρμογής:[1], Όνομα συναρμολόγησης:[2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Ενημέρωση κώδικα αρχείων"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Αρχείο: [1],  Κατάλογος: [2],  Μέγεθος: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Ενημέρωση καταχώρησης στοιχείου"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Δημοσίευση κατάλληλων στοιχείων"/>
+  <STRING id="ActionText.Template.PublishComponents" value="Αναγνωριστικό στοιχείου: [1], Προσδιοριστικό: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Δημοσίευση δυνατοτήτων προϊόντος"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Δυνατότητα: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Δημοσίευση πληροφοριών προϊόντος"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Καταχώρηση διακομιστών κλάσης"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Αναγνωριστικό κλάσης: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Καταχώρηση εφαρμογών και στοιχείων COM+"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="Αναγνωριστικό εφαρμογής: [1]{{, Τύπος εφαρμογής: [2], Χρήστες: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Καταχώρηση διακομιστών επεκτάσεων"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Επέκταση: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Καταχώρηση γραμματοσειρών"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Γραμματοσειρά: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Καταχώρηση πληροφοριών MIME"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Τύπος περιεχομένων MIME: [1], Επέκταση: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Δήλωση προϊόντος"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Καταχώρηση αναγνωριστικών προγράμματος"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="Αναγνωριστικό προγράμματος: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Καταχώρηση βιβλιοθηκών τύπων"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="Αναγνωριστικό βιβλιοθήκης: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Καταχώρηση χρήστη"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Κατάργηση διπλών αρχείων"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Αρχείο: [1],  Κατάλογος: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Ενημέρωση συμβολοσειρών περιβάλλοντος"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Όνομα: [1], Τιμή: [2], Ενέργεια [3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Κατάργηση εφαρμογών"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Εφαρμογή: [1], Γραμμή εντολής: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Κατάργηση αρχείων"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Αρχείο: [1],  Κατάλογος: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Κατάργηση φακέλων"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Φάκελος: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Κατάργηση καταχωρήσεων αρχείων INI"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Αρχείο: [1],  Ενότητα: [2],  Κλειδί: [3], Τιμή: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Κατάργηση στοιχείων ODBC"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Κατάργηση τιμών μητρώου συστήματος"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Κλειδί: [1], Όνομα: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Κατάργηση συντομεύσεων"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Συντόμευση: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Αναζήτηση για κατάλληλα προϊόντα"/>
+  <STRING id="ActionText.Description.Rollback" value="Επαναφορά ενέργειας:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Κατάργηση αρχείων αντιγράφων ασφαλείας"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Αρχείο: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Καταχώρηση λειτουργικών μονάδων"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Αρχείο: [1], Φάκελος: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Κατάργηση καταχώρησης λειτουργικών μονάδων"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Αρχείο: [1], Φάκελος: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Προετοιμασία καταλόγων ODBC"/>
+  <STRING id="ActionText.Description.StartServices" value="Εκκίνηση υπηρεσιών"/>
+  <STRING id="ActionText.Template.StartServices" value="Υπηρεσία: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="Διακοπή υπηρεσιών"/>
+  <STRING id="ActionText.Template.StopServices" value="Υπηρεσία: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Κατάργηση αρχείων που έχουν μετακινηθεί"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Αρχείο: [1],  Κατάλογος: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Κατάργηση δημοσίευσης κατάλληλων στοιχείων"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Αναγνωριστικό στοιχείου: [1], Προσδιοριστικό: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Κατάργηση δημοσίευσης δυνατοτήτων προϊόντος"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Δυνατότητα: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Κατάργηση δημοσίευσης πληροφοριών προϊόντος"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Κατάργηση καταχώρησης διακομιστών κλάσης"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Αναγνωριστικό κλάσης: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Κατάργηση καταχώρησης εφαρμογών και στοιχείων COM+"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="Αναγνωριστικό εφαρμογής: [1]{{, Τύπος εφαρμογής: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Κατάργηση καταχώρησης διακομιστών επεκτάσεων"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Επέκταση: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Κατάργηση καταχώρησης γραμματοσειρών"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Γραμματοσειρά: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Κατάργηση καταχώρησης πληροφοριών MIME"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Τύπος περιεχομένων MIME: [1], Επέκταση: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Κατάργηση καταχώρησης αναγνωριστικών προγράμματος"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="Αναγνωριστικό προγράμματος: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Κατάργηση καταχώρησης βιβλιοθηκών τύπων"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="Αναγνωριστικό βιβλιοθήκης: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Ενημέρωση συμβολοσειρών περιβάλλοντος"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Όνομα: [1], Τιμή: [2], Ενέργεια [3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Εγγραφή τιμών αρχείων INI"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Αρχείο: [1],  Ενότητα: [2],  Κλειδί: [3], Τιμή: [4]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Εγγραφή τιμών μητρώου συστήματος"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Κλειδί: [1], Όνομα: [2], Τιμή: [3]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Δημιουργία λογαριασμού χρήστη στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Δημιουργία ομάδας χρηστών στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Διαγραφή αρχείων που εξάχθηκαν από αρχειοθέτηση"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Εξαγωγή αρχείων από αρχειοθέτηση"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Δημιουργία τοποθεσιών Web και εικονικών καταλόγων IIS"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Παραγωγή ενεργειών για διαμόρφωση του Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Κατάργηση τοποθεσιών Web και εικονικών καταλόγων IIS"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Επαναφορά διαμόρφωσης IIS"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Παραγωγή ενεργειών για διαμόρφωση του προγράμματος Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Παραγωγή ενεργειών για δημιουργία λογαριασμών χρηστών στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Παραγωγή ενεργειών για δημιουργία ομάδων χρηστών στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Κατάργηση λογαριασμού χρήστη από τον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Κατάργηση ομάδας χρηστών από τον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Επαναφορά της δημιουργίας λογαριασμών χρηστών στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Επαναφορά της δημιουργίας ομάδων χρηστών στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Εκτέλεση δεσμών ενεργειών εγκατάστασης SQL"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Παραγωγή ενεργειών για τη διαμόρφωση βάσεων δεδομένων για την εκτέλεση δέσμης ενεργειών εγκατάστασης SQL"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Εκτέλεση δεσμών ενεργειών κατάργησης εγκατάστασης SQL"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Εκτέλεση δεσμών ενεργειών επαναφοράς SQL"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Παραγωγή ενεργειών για τη διαμόρφωση βάσεων δεδομένων για την εκτέλεση δέσμης ενεργειών κατάργησης εγκατάστασης SQL"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Παραγωγή ενεργειών για την κατάργηση λογαριασμών χρηστών από τον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Παραγωγή ενεργειών για την κατάργηση ομάδων χρηστών από τον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Λογαριασμός: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Λογαριασμός: [1]"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Εγκατάσταση του &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Κατάργηση του &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Επαναφορά διαμόρφωσης μετα-βάσης."/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Λογαριασμός: [1], Χαρακτηριστικά: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Λογαριασμός: [1], Χαρακτηριστικά: [2]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Λογαριασμός: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Λογαριασμός: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Λογαριασμός: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Λογαριασμός: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Σύνδεση: [1]  Δέσμη ενεργειών: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Σύνδεση: [1]  Δέσμη ενεργειών: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Σύνδεση: [1]  Δέσμη ενεργειών: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Λογαριασμός: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Λογαριασμός: [1]"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Εκτέλεση διαμορφώσεων του τείχους προστασίας των Windows"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Παραγωγή ενεργειών για τη διαμόρφωση του τείχους προστασίας των Windows"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Εκτέλεση διαμορφώσεων του τείχους προστασίας των Windows"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Επαναφορά διαμορφώσεων του τείχους προστασίας των Windows."/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Παραγωγή ενεργειών για τη διαμόρφωση του τείχους προστασίας των Windows"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Εκτέλεση διαμορφώσεων της εξερεύνησης παιχνιδιών"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Παραγωγή ενεργειών για τη διαμόρφωση της εξερεύνησης παιχνιδιών"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Εκτέλεση διαμορφώσεων της εξερεύνησης παιχνιδιών"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Επαναφορά διαμορφώσεων της εξερεύνησης παιχνιδιών."/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Παραγωγή ενεργειών για τη διαμόρφωση της εξερεύνησης παιχνιδιών"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Παραγωγή ενεργειών για την κοινή χρήση φακέλων στον τοπικό υπολογιστή:"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Παραγωγή ενεργειών για τον προγραμματισμό εργασιών στον τοπικό υπολογιστή:"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Κατάργηση κοινής χρήσης φακέλου από τον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Κατάργηση προγραμματισμένης εργασίας από τον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Επαναφορά κοινής χρήσης φακέλου στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Επαναφορά προγραμματισμένης εργασίας στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Προγραμματισμός εργασίας στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Κοινή χρήση φακέλου στον τοπικό υπολογιστή"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Εκτέλεση δεσμών ενεργειών συντήρησης SQL"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Παραγωγή ενεργειών για την κατάργηση κοινής χρήσης φακέλου από τον τοπικό υπολογιστή:"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Παραγωγή ενεργειών για την κατάργηση προγραμματισμένων εργασιών από τον τοπικό υπολογιστή:"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Εκτέλεση διαμορφώσεων αρχείων XML"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Παραγωγή ενεργειών για τη διαμόρφωση αρχείων XML"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Εκτέλεση διαμορφώσεων αρχείων XML"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Επαναφορά διαμορφώσεων αρχείου XML."/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Παραγωγή ενεργειών για τη διαμόρφωση αρχείων XML"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Διαμόρφωση κανόνα του τείχους προστασίας των Windows: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Διαμόρφωση κανόνα του τείχους προστασίας των Windows:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Επαναφορά διαμορφώσεων του τείχους προστασίας των Windows."/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Διαμόρφωση παιχνιδιού: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Κατάργηση παιχνιδιού: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Επαναφορά διαμορφώσεων της εξερεύνησης παιχνιδιών."/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Φάκελος: [1], κοινόχρηστο όνομα: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Όνομα εργασίας: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="Κοινόχρηστο όνομα: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Όνομα εργασίας: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="Κοινόχρηστο όνομα: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Όνομα εργασίας: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Όνομα εργασίας: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Φάκελος: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Σύνδεση: [1]  Δέσμη ενεργειών: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="Κοινόχρηστο όνομα: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Διαμόρφωση αρχείου XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Διαμόρφωση αρχείου XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Επαναφορά διαμορφώσεων αρχείου XML."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesCommit" value="Εκτέλεση ενεργειών διαγραφής αρχείων."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesDeferred" value="Εκτέλεση ενεργειών διαγραφής αρχείων."/>
+  <STRING id="ActionText.Description.AI_AiRemoveFilesImmediate" value="Δημιουργία ενεργειών για τη διαγραφή αρχείων."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsCommit" value="Εκτέλεση ενεργειών διαγραφής μητρώου."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsDeferred" value="Εκτέλεση ενεργειών διαγραφής μητρώου."/>
+  <STRING id="ActionText.Description.AI_AiRemoveRegsImmediate" value="Δημιουργία ενεργειών για τη διαγραφή καταχωρίσεων μητρώου."/>
+  <STRING id="ActionText.Description.AI_CEAppMgrLaunch" value="Εγγραφή εφαρμογών φορητών συσκευών στη Διαχείριση Εφαρμογών των Windows CE"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrPrepare" value="Επεξεργασία δεδομένων εγγραφών της Διαχείρισης Εφαρμογών των Windows CE (στάδιο 2)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrProcessPaths" value="Επεξεργασία δεδομένων εγγραφών της Διαχείρισης Εφαρμογών των Windows CE (στάδιο 1)"/>
+  <STRING id="ActionText.Description.AI_CEAppMgrUninst" value="Εκκίνηση της Διαχείρισης Εφαρμογών των Windows CE για διαμόρφωση των εγκατεστημένων εφαρμογών"/>
+  <STRING id="ActionText.Description.AI_DownloadPrereq" value="Λήψη προαπαιτούμενου λογισμικού"/>
+  <STRING id="ActionText.Description.AI_ExtractPrereq" value="Εξαγωγή προαπαιτούμενου λογισμικού"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="Εγκατάσταση προαπαιτούμενου λογισμικού"/>
+  <STRING id="ActionText.Description.AI_VerifyPrereq" value="Επιβεβαίωση προαπαιτούμενων"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesCommit" value="Διαγραφή αρχείου: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveFilesDeferred" value="Διαγραφή αρχείου: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsCommit" value="Διαγραφή καταχώρισης μητρώου: [1]"/>
+  <STRING id="ActionText.Template.AI_AiRemoveRegsDeferred" value="Διαγραφή καταχώρισης μητρώου: [1]"/>
+  <STRING id="ActionText.Template.AI_DownloadPrereq" value="Γίνεται λήψη του [1]{[2] ολοκληρώθηκε}"/>
+  <STRING id="ActionText.Template.AI_ExtractPrereq" value="Γίνεται εξαγωγή του [1]{[2] ολοκληρώθηκε}"/>
+  <STRING id="ActionText.Template.AI_InstallPrerequisite" value="Γίνεται εγκατάσταση του [1]{[2] ολοκληρώθηκε}"/>
+  <STRING id="ActionText.Template.AI_VerifyPrereq" value="Το [1] δεν εγκαταστάθηκε σωστά."/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Ανεπανόρθωτο σφάλμα: }}"/>
+  <STRING id="Error.1" value="{{Σφάλμα [1]. }}"/>
+  <STRING id="Error.2" value="Προειδοποίηση [1]. "/>
+  <STRING id="Error.4" value="Πληροφορίες [1]. "/>
+  <STRING id="Error.5" value="Το πρόγραμμα εγκατάστασης συνάντησε ένα μη αναμενόμενο σφάλμα κατά την εγκατάσταση αυτού του πακέτου. Αυτό ενδέχεται να υποδεικνύει ένα πρόβλημα με αυτό το πακέτο. Ο κωδικός σφάλματος είναι [1]. {{Τα ορίσματα είναι: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Ο δίσκος είναι γεμάτος: }}"/>
+  <STRING id="Error.8" value="Ενέργεια [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Τύπος μηνύματος: [1], Όρισμα: [2]"/>
+  <STRING id="Error.12" value="=== Έναρξη καταγραφής: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Διακοπή καταγραφής: [Date]  [Time] ==="/>
+  <STRING id="Error.14" value="Έναρξη ενέργειας [Time]: [1]."/>
+  <STRING id="Error.15" value="Η ενέργεια τερματίστηκε [Time]: [1]. Τιμή επιστροφής [2]."/>
+  <STRING id="Error.16" value="Χρόνος που υπολείπεται: {[1] λεπτά }{[2] δευτερόλεπτα}"/>
+  <STRING id="Error.17" value="Η μνήμη δεν επαρκεί. Τερματίστε τις άλλες εφαρμογές πριν να προσπαθήσετε ξανά."/>
+  <STRING id="Error.18" value="Το πρόγραμμα εγκατάστασης δεν ανταποκρίνεται πλέον."/>
+  <STRING id="Error.19" value="Το πρόγραμμα εγκατάστασης τερματίστηκε πρόωρα."/>
+  <STRING id="Error.20" value="Περιμένετε όσο τα Windows ρυθμίζουν τις παραμέτρους του [ProductName]"/>
+  <STRING id="Error.21" value="Συγκέντρωση απαιτούμενων πληροφοριών..."/>
+  <STRING id="Error.22" value="Κατάργηση παλαιότερων εκδόσεων αυτής της εφαρμογής.."/>
+  <STRING id="Error.23" value="Προετοιμασία για την κατάργηση παλαιότερων εκδόσεων αυτής της εφαρμογής..."/>
+  <STRING id="Error.32" value="Η εγκατάσταση του {[ProductName] }ολοκληρώθηκε με επιτυχία."/>
+  <STRING id="Error.33" value="Η εγκατάσταση του {[ProductName] }απέτυχε."/>
+  <STRING id="Error.1101" value="Σφάλμα κατά την ανάγνωση από το αρχείο: [2]. {{ Σφάλμα συστήματος [3].}}  Βεβαιωθείτε ότι το αρχείο υπάρχει και ότι έχετε πρόσβαση σε αυτό."/>
+  <STRING id="Error.1301" value="Δεν είναι δυνατή η δημιουργία του αρχείου &quot;[2]&quot;.  Υπάρχει ήδη ένας κατάλογος με αυτό το όνομα.  Ακυρώστε την εγκατάσταση και δοκιμάστε να το εγκαταστήσετε σε μια άλλη θέση."/>
+  <STRING id="Error.1302" value="Τοποθετήστε τη δισκέτα: [2]"/>
+  <STRING id="Error.1303" value="Το πρόγραμμα εγκατάστασης δεν διαθέτει επαρκή δικαιώματα πρόσβασης σε αυτόν τον κατάλογο: [2].  Δεν είναι δυνατό να συνεχιστεί η εγκατάσταση.  Συνδεθείτε ως διαχειριστής ή επικοινωνήστε με το διαχειριστή του συστήματός σας."/>
+  <STRING id="Error.1304" value="Παρουσιάστηκε σφάλμα κατά την εγγραφή στο αρχείο: [2].  Βεβαιωθείτε ότι έχετε πρόσβαση σε αυτόν τον κατάλογο."/>
+  <STRING id="Error.1305" value="Σφάλμα κατά την ανάγνωση από το αρχείο: [2].  {{ Σφάλμα συστήματος [3].}} Βεβαιωθείτε ότι το αρχείο υπάρχει και ότι έχετε πρόσβαση σε αυτό."/>
+  <STRING id="Error.1306" value="Μια άλλη εφαρμογή έχει αποκλειστικά δικαιώματα πρόσβασης στο αρχείο &quot;[2]&quot;.  Τερματίστε όλες τις άλλες εφαρμογές και κάντε κλικ στο κουμπί &quot;Επανάληψη&quot;."/>
+  <STRING id="Error.1307" value="Δεν υπάρχει αρκετός χώρος στο δίσκο για την εγκατάσταση του αρχείου: [2].  Αποδεσμεύστε χώρο στο δίσκο και κάντε κλικ στο κουμπί &quot;Επανάληψη&quot; ή κάντε κλικ στο κουμπί &quot;Άκυρο&quot; για έξοδο."/>
+  <STRING id="Error.1308" value="Το αρχείο προέλευσης δεν βρέθηκε: [2].  Βεβαιωθείτε ότι το αρχείο υπάρχει και ότι έχετε πρόσβαση σε αυτό."/>
+  <STRING id="Error.1309" value="Σφάλμα κατά την ανάγνωση από το αρχείο: [3]. {{ Σφάλμα συστήματος [2].}}  Βεβαιωθείτε ότι το αρχείο υπάρχει και ότι έχετε πρόσβαση σε αυτό."/>
+  <STRING id="Error.1310" value="Παρουσιάστηκε σφάλμα κατά την εγγραφή στο αρχείο: [3]. {{ Σφάλμα συστήματος [2].}}  Βεβαιωθείτε ότι έχετε πρόσβαση σε αυτόν τον κατάλογο."/>
+  <STRING id="Error.1311" value="Το αρχείο προέλευσης δεν βρέθηκε{{(αρχειοθήκη)}}: [2].  Βεβαιωθείτε ότι το αρχείο υπάρχει και ότι έχετε πρόσβαση σε αυτό."/>
+  <STRING id="Error.1312" value="Δεν είναι δυνατή η δημιουργία του καταλόγου &quot;[2]&quot;.  Υπάρχει ήδη ένα αρχείο με αυτό το όνομα.  Μετονομάστε ή καταργήστε το αρχείο και κάντε κλικ στο κουμπί &quot;Επανάληψη&quot; ή κάντε κλικ στο κουμπί &quot;Άκυρο&quot; για έξοδο."/>
+  <STRING id="Error.1313" value="Ο τόμος [2] δεν είναι διαθέσιμος αυτήν τη στιγμή.  Επιλέξτε έναν άλλον τόμο."/>
+  <STRING id="Error.1314" value="Η καθορισμένη διαδρομή &quot;[2]&quot; δεν είναι διαθέσιμη."/>
+  <STRING id="Error.1315" value="Αδύνατη η εγγραφή στον καθορισμένο φάκελο: [2]."/>
+  <STRING id="Error.1316" value="Παρουσιάστηκε σφάλμα δικτύου κατά την προσπάθεια ανάγνωσης από το αρχείο:"/>
+  <STRING id="Error.1317" value="Παρουσιάστηκε σφάλμα κατά την προσπάθεια δημιουργίας του καταλόγου: [2]"/>
+  <STRING id="Error.1318" value="Παρουσιάστηκε σφάλμα δικτύου κατά την προσπάθεια δημιουργίας του καταλόγου: [2]"/>
+  <STRING id="Error.1319" value="Παρουσιάστηκε σφάλμα δικτύου κατά την προσπάθεια ανοίγματος της αρχειοθήκης του αρχείου προέλευσης: [2]"/>
+  <STRING id="Error.1320" value="Η καθορισμένη διαδρομή είναι υπερβολικά μεγάλη: [2]"/>
+  <STRING id="Error.1321" value="Το πρόγραμμα εγκατάστασης δεν διαθέτει επαρκή δικαιώματα τροποποίησης του αρχείου: [2]."/>
+  <STRING id="Error.1322" value="Ένα τμήμα της διαδρομής &quot;[2]&quot; του φακέλου δεν είναι έγκυρο.  Είτε είναι κενό είτε υπερβαίνει το μήκος που επιτρέπεται από το σύστημα."/>
+  <STRING id="Error.1323" value="Η διαδρομή &quot;[2]&quot; του φακέλου περιέχει λέξεις που δεν είναι έγκυρες σε διαδρομές φακέλων."/>
+  <STRING id="Error.1324" value="Η διαδρομή &quot;[2]&quot; του φακέλου περιέχει έναν μη έγκυρο χαρακτήρα."/>
+  <STRING id="Error.1325" value="Το &quot;[2]&quot; δεν είναι έγκυρο μικρό όνομα αρχείου."/>
+  <STRING id="Error.1326" value="Παρουσιάστηκε σφάλμα κατά τη λήψη ασφαλείας αρχείου: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Η μονάδα δίσκου δεν είναι έγκυρη: [2]"/>
+  <STRING id="Error.1328" value="Παρουσιάστηκε σφάλμα κατά την εφαρμογή της ενημέρωσης κώδικα στο αρχείο [2].  Πιθανόν να έχει ενημερωθεί από άλλα μέσα και να μην είναι δυνατή η τροποποίησή του από αυτήν την ενημέρωση κώδικα.  Για περισσότερες πληροφορίες, επικοινωνήστε με τον κατασκευαστή της ενημέρωσης κώδικα.  {{Σφάλμα συστήματος: [3]}}"/>
+  <STRING id="Error.1329" value="Ένα απαιτούμενο αρχείο δεν μπορεί να εγκατασταθεί γιατί το αρχείο αρχειοθήκης [2] δεν έχει υπογραφεί ψηφιακά.  Αυτό ενδέχεται να υποδεικνύει ότι το αρχείο αρχειοθήκης είναι κατεστραμμένο."/>
+  <STRING id="Error.1330" value="Ένα απαιτούμενο αρχείο δεν μπορεί να εγκατασταθεί γιατί το αρχείο αρχειοθήκης [2] δεν έχει έγκυρη ψηφιακή υπογραφή.  Αυτό ενδέχεται να υποδεικνύει ότι το αρχείο αρχειοθήκης είναι κατεστραμμένο.{{  Το WinVerifyTrust επέστρεψε το σφάλμα [3].}}"/>
+  <STRING id="Error.1331" value="Η σωστή αντιγραφή του αρχείου [2] απέτυχε: Σφάλμα CRC."/>
+  <STRING id="Error.1332" value="Η σωστή μετακίνηση του αρχείου [2] απέτυχε: Σφάλμα CRC."/>
+  <STRING id="Error.1333" value="Η σωστή ενημέρωση κώδικα του αρχείου [2] απέτυχε: Σφάλμα CRC."/>
+  <STRING id="Error.1334" value="Το αρχείο &quot;[2]&quot; δεν μπορεί να εγκατασταθεί γιατί το αρχείο δεν μπορεί να βρεθεί στο αρχείο αρχειοθήκης &quot;[3]&quot;. Αυτό ενδέχεται να υποδεικνύει σφάλμα δικτύου, σφάλμα ανάγνωσης από το CD-ROM ή πρόβλημα με αυτό το πακέτο."/>
+  <STRING id="Error.1335" value="Το αρχείο αρχειοθήκης &quot;[2]&quot; που απαιτείται για αυτήν την εγκατάσταση είναι κατεστραμμένο και δεν μπορεί να χρησιμοποιηθεί. Αυτό ενδέχεται να υποδεικνύει σφάλμα δικτύου, σφάλμα ανάγνωσης από το CD-ROM ή πρόβλημα με αυτό το πακέτο."/>
+  <STRING id="Error.1336" value="Παρουσιάστηκε σφάλμα κατά τη δημιουργία προσωρινού αρχείου που χρειάζεται για την ολοκλήρωση αυτής της εγκατάστασης.{{  Φάκελος: [3]. Κωδικός σφάλματος συστήματος: [2]}}"/>
+  <STRING id="Error.1401" value="Αδύνατη η δημιουργία κλειδιού: [2]. {{ Σφάλμα συστήματος [3].}}  Βεβαιωθείτε ότι έχετε τα απαραίτητα δικαιώματα πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό της υπηρεσίας υποστήριξης. "/>
+  <STRING id="Error.1402" value="Αδύνατο το άνοιγμα του κλειδιού: [2]. {{ Σφάλμα συστήματος [3].}}  Βεβαιωθείτε ότι έχετε τα απαραίτητα δικαιώματα πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό της υπηρεσίας υποστήριξης. "/>
+  <STRING id="Error.1403" value="Δεν ήταν δυνατή η διαγραφή της τιμής [2] από το κλειδί [3]. {{ Σφάλμα συστήματος [4].}}  Βεβαιωθείτε ότι έχετε τα απαραίτητα δικαιώματα πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό της υπηρεσίας υποστήριξης. "/>
+  <STRING id="Error.1404" value="Αδύνατη η διαγραφή του κλειδιού [2]. {{ Σφάλμα συστήματος [3].}}  Βεβαιωθείτε ότι έχετε τα απαραίτητα δικαιώματα πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό της υπηρεσίας υποστήριξης. "/>
+  <STRING id="Error.1405" value="Δεν ήταν δυνατή η ανάγνωση της τιμής [2] από το κλειδί [3]. {{ Σφάλμα συστήματος [4].}}  Βεβαιωθείτε ότι έχετε τα απαραίτητα δικαιώματα πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό της υπηρεσίας υποστήριξης. "/>
+  <STRING id="Error.1406" value="Δεν ήταν δυνατή η εγγραφή της τιμής [2] από το κλειδί [3]. {{ Σφάλμα συστήματος [4].}}  Βεβαιωθείτε ότι έχετε τα απαραίτητα δικαιώματα πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό της υπηρεσίας υποστήριξης."/>
+  <STRING id="Error.1407" value="Δεν ήταν δυνατή η λήψη ονομάτων τιμών για το κλειδί [2]. {{ Σφάλμα συστήματος [3].}}  Βεβαιωθείτε ότι έχετε τα απαραίτητα δικαιώματα πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό της υπηρεσίας υποστήριξης."/>
+  <STRING id="Error.1408" value="Δεν ήταν δυνατή η λήψη ονομάτων τιμών για το κλειδί [2]. {{ Σφάλμα συστήματος [3].}}  Βεβαιωθείτε ότι έχετε τα απαραίτητα δικαιώματα πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό της υπηρεσίας υποστήριξης."/>
+  <STRING id="Error.1409" value="Δεν ήταν δυνατή η ανάγνωση πληροφοριών ασφαλείας για το κλειδί [2]. {{ Σφάλμα συστήματος [3].}}  Βεβαιωθείτε ότι έχετε τα απαραίτητα δικαιώματα πρόσβασης σε αυτό το κλειδί ή επικοινωνήστε με το προσωπικό της υπηρεσίας υποστήριξης."/>
+  <STRING id="Error.1410" value="Δεν ήταν δυνατή η αύξηση του διαθέσιμου χώρου του μητρώου. Απαιτούνται [2] KB ελεύθερου χώρου στο μητρώο για την εγκατάσταση αυτής της εφαρμογής."/>
+  <STRING id="Error.1500" value="Μια άλλη εγκατάσταση είναι σε εξέλιξη. Ολοκληρώστε την εγκατάσταση που βρίσκεται σε εξέλιξη πριν να συνεχίσετε με αυτήν την εγκατάσταση."/>
+  <STRING id="Error.1501" value="Παρουσιάστηκε σφάλμα κατά την πρόσβαση σε ασφαλή δεδομένα. Βεβαιωθείτε ότι οι παράμετροι του προγράμματος εγκατάστασης των Windows έχουν ρυθμιστεί σωστά και επιχειρήστε πάλι την εγκατάσταση."/>
+  <STRING id="Error.1502" value="Ο χρήστης &quot;[2]&quot; έχει ήδη ξεκινήσει μια εγκατάσταση για το προϊόν &quot;[3]&quot;.  Αυτός ο χρήστης χρειάζεται να εκτελέσει πάλι αυτήν την εγκατάσταση για να χρησιμοποιήσει το προϊόν.  Η τρέχουσα εγκατάστασή σας θα συνεχιστεί τώρα."/>
+  <STRING id="Error.1503" value="Ο χρήστης &quot;[2]&quot; έχει ήδη ξεκινήσει μια εγκατάσταση για το προϊόν &quot;[3]&quot;.  Αυτός ο χρήστης χρειάζεται να εκτελέσει πάλι αυτήν την εγκατάσταση για να χρησιμοποιήσει το προϊόν."/>
+  <STRING id="Error.1601" value="Εξαντλήθηκε ο ελεύθερος χώρος στη μονάδα δίσκου -- Τόμος: &quot;[2]&quot;, απαιτούμενος χώρος: [3] KB, διαθέσιμος χώρος: [4] KB.  Ελευθερώστε χώρο στο δίσκο και ξαναπροσπαθήστε."/>
+  <STRING id="Error.1602" value="Είστε σίγουροι ότι θέλετε να ακυρώσετε;"/>
+  <STRING id="Error.1603" value="Το αρχείο [2][3] χρησιμοποιείται{ από την ακόλουθη διαδικασία: Όνομα: [4], Αναγνωριστικό: [5], Τίτλος παραθύρου: &quot;[6]&quot;}.  Κλείστε αυτήν την εφαρμογή και προσπαθήστε ξανά."/>
+  <STRING id="Error.1604" value="Το προϊόν &quot;[2]&quot; είναι ήδη εγκατεστημένο, γεγονός που αποτρέπει την εγκατάσταση αυτού του προϊόντος.  Τα δύο προϊόντα δεν είναι συμβατά."/>
+  <STRING id="Error.1605" value="Δεν υπάρχει αρκετός χώρος δίσκου στον τόμο &quot;[2]&quot; για να συνεχίσετε την εγκατάσταση με τη δυνατότητα επαναφοράς ενεργοποιημένη. Απαιτούνται [3] KB αλλά είναι διαθέσιμα μόνο [4] KB. Κάντε κλικ στο &quot;Παράβλεψη&quot; για να συνεχίσετε την εγκατάσταση χωρίς πληροφορίες επαναφοράς, κάντε κλικ στο &quot;Επανάληψη&quot; για να ελέγξετε και πάλι το διαθέσιμο χώρο ή κάντε κλικ στο &quot;Άκυρο&quot; για να κλείσετε την εγκατάσταση."/>
+  <STRING id="Error.1606" value="Δεν ήταν δυνατή η πρόσβαση στη θέση [2] στο δίκτυο."/>
+  <STRING id="Error.1607" value="Για να συνεχιστεί η εγκατάσταση, πρέπει να τερματιστούν οι παρακάτω εφαρμογές:"/>
+  <STRING id="Error.1608" value="Δεν ήταν δυνατή η εύρεση συμβατών προϊόντων που έχουν ήδη εγκατασταθεί στον υπολογιστή για την εγκατάσταση αυτού του προϊόντος."/>
+  <STRING id="Error.1609" value="Παρουσιάστηκε σφάλμα κατά την εφαρμογή των ρυθμίσεων ασφαλείας. Το &quot;[2]&quot; δεν είναι έγκυρος χρήστης ή ομάδα. Αυτό ενδέχεται να οφείλεται σε πρόβλημα με το πακέτο ή σε πρόβλημα σύνδεσης σε ελεγκτή τομέων στο δίκτυο. Ελέγξτε τη σύνδεση δικτύου και κάντε κλικ στο &quot;Επανάληψη&quot; ή στο &quot;Άκυρο&quot; για να τερματίσετε την εγκατάσταση.       {{Δεν ήταν δυνατός ο εντοπισμός του αναγνωριστικού SID του χρήστη, σφάλμα συστήματος [3]}}"/>
+  <STRING id="Error.1701" value="Το κλειδί [2] δεν είναι έγκυρο.  Βεβαιωθείτε ότι εισαγάγατε το σωστό κλειδί."/>
+  <STRING id="Error.1702" value="Το πρόγραμμα εγκατάστασης πρέπει να επανεκκινήσει το σύστημά σας για να συνεχιστεί η ρύθμιση των παραμέτρων του [2].  Κάντε κλικ στο κουμπί &quot;Ναι&quot; για να γίνει επανεκκίνηση τώρα ή στο κουμπί &quot;Όχι&quot; εάν θέλετε να κάνετε επανεκκίνηση αργότερα."/>
+  <STRING id="Error.1703" value="Πρέπει να κάνετε επανεκκίνηση του συστήματός σας για να ενεργοποιηθούν οι αλλαγές που έγιναν στις ρυθμίσεις των παραμέτρων του [2]. Κάντε κλικ στο κουμπί &quot;Ναι&quot; για να γίνει επανεκκίνηση τώρα ή στο κουμπί &quot;Όχι&quot; εάν θέλετε να κάνετε επανεκκίνηση αργότερα."/>
+  <STRING id="Error.1704" value="Η εγκατάσταση του [2] έχει ανασταλεί προς το παρόν.  Πρέπει να αναιρέσετε τις αλλαγές που έγιναν από αυτήν την εγκατάσταση για να συνεχίσετε.  Θέλετε να αναιρέσετε αυτές τις αλλαγές;"/>
+  <STRING id="Error.1705" value="Μια προηγούμενη εγκατάσταση για αυτό το προϊόν βρίσκεται σε εξέλιξη.  Πρέπει να αναιρέσετε τις αλλαγές που έγιναν από αυτήν την εγκατάσταση για να συνεχίσετε.  Θέλετε να αναιρέσετε αυτές τις αλλαγές;"/>
+  <STRING id="Error.1706" value="Δεν είναι δυνατή η εύρεση πακέτου εγκατάστασης για το προϊόν [2]. Προσπαθήστε να κάνετε την εγκατάσταση πάλι χρησιμοποιώντας ένα έγκυρο αντίγραφο του πακέτου εγκατάστασης &quot;[3]&quot;."/>
+  <STRING id="Error.1707" value="Η λειτουργία της εγκατάστασης ολοκληρώθηκε με επιτυχία."/>
+  <STRING id="Error.1708" value="Η λειτουργία της εγκατάστασης απέτυχε."/>
+  <STRING id="Error.1709" value="Προϊόν: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Μπορείτε να επαναφέρετε τον υπολογιστή σας στην προηγούμενή του κατάσταση ή να συνεχίσετε την εγκατάσταση αργότερα. Θέλετε να γίνει επαναφορά;"/>
+  <STRING id="Error.1711" value="Παρουσιάστηκε σφάλμα κατά την εγγραφή των πληροφοριών εγκατάστασης στο δίσκο.  Βεβαιωθείτε ότι υπάρχει αρκετός διαθέσιμος χώρος στο δίσκο και κάντε κλικ στο κουμπί &quot;Επανάληψη&quot; ή στο κουμπί &quot;Άκυρο&quot; για να τερματίσετε την εγκατάσταση."/>
+  <STRING id="Error.1712" value="Ένα ή περισσότερα από τα αρχεία που απαιτούνται για την επαναφορά του υπολογιστή σας στην προηγούμενη κατάστασή του δεν ήταν δυνατό να βρεθεί.  Η επαναφορά δεν είναι δυνατή."/>
+  <STRING id="Error.1713" value="Το πρόγραμμα [2] δεν είναι δυνατό να εγκαταστήσει ένα από τα απαιτούμενα προϊόντα. Επικοινωνήστε με την ομάδα τεχνικής υποστήριξης.  {{Σφάλμα συστήματος: [3].}}"/>
+  <STRING id="Error.1714" value="Η παλαιότερη έκδοση του προγράμματος [2] δεν είναι δυνατό να καταργηθεί.  Επικοινωνήστε με την ομάδα τεχνικής υποστήριξης.  {{Σφάλμα συστήματος [3].}}"/>
+  <STRING id="Error.1715" value="Έγινε εγκατάσταση του [2]"/>
+  <STRING id="Error.1716" value="Έγινε ρύθμιση παραμέτρων του [2]"/>
+  <STRING id="Error.1717" value="Έγινε κατάργηση του [2]"/>
+  <STRING id="Error.1718" value="Το αρχείο [2] απορρίφθηκε από την πολιτική ψηφιακών υπογραφών."/>
+  <STRING id="Error.1719" value="Δεν ήταν δυνατή η πρόσβαση στην υπηρεσία του προγράμματος εγκατάστασης των Windows. Αυτό μπορεί να συμβεί εάν εκτελείτε τα Windows σε ασφαλή λειτουργία ή το πρόγραμμα εγκατάστασης των Windows δεν έχει εγκατασταθεί σωστά. Επικοινωνήστε με το προσωπικό υποστήριξης για βοήθεια."/>
+  <STRING id="Error.1720" value="Υπάρχει πρόβλημα με αυτό το πακέτο προγράμματος εγκατάστασης των Windows. Δεν ήταν δυνατή η εκτέλεσης μιας δέσμης ενεργειών απαιτούμενης για την ολοκλήρωση της εγκατάστασης. Επικοινωνήστε με το προσωπικό υποστήριξης ή τον προμηθευτή του πακέτου.  {{Προσαρμοσμένη ενέργεια [2], σφάλμα δέσμης ενεργειών [3], [4]: [5] Γραμμή [6], Στήλη [7], [8] }}"/>
+  <STRING id="Error.1721" value="Υπάρχει πρόβλημα με αυτό το πακέτο προγράμματος εγκατάστασης των Windows. Δεν ήταν δυνατή η εκτέλεση ενός προγράμματος απαιτούμενου για την ολοκλήρωση της εγκατάστασης. Επικοινωνήστε με το προσωπικό υποστήριξης ή τον προμηθευτή του πακέτου. {{Ενέργεια: [2], θέση: [3], εντολή: [4] }}"/>
+  <STRING id="Error.1722" value="Υπάρχει πρόβλημα με αυτό το πακέτο προγράμματος εγκατάστασης των Windows. Ένα πρόγραμμα που εκτελέστηκε ως τμήμα της εγκατάστασης δεν ολοκληρώθηκε όπως αναμενόταν. Επικοινωνήστε με το προσωπικό υποστήριξης ή τον προμηθευτή του πακέτου.  {{Ενέργεια [2], θέση: [3], εντολή: [4] }}"/>
+  <STRING id="Error.1723" value="Υπάρχει πρόβλημα με αυτό το πακέτο προγράμματος εγκατάστασης των Windows. Δεν ήταν δυνατή η εκτέλεση ενός DLL απαιτούμενου για την ολοκλήρωση της εγκατάστασης. Επικοινωνήστε με το προσωπικό υποστήριξης ή τον προμηθευτή του πακέτου.  {{Ενέργεια [2], καταχώριση: [3], βιβλιοθήκη: [4] }}"/>
+  <STRING id="Error.1724" value="Η κατάργηση ολοκληρώθηκε με επιτυχία."/>
+  <STRING id="Error.1725" value="Η κατάργηση απέτυχε."/>
+  <STRING id="Error.1726" value="Η κοινοποίηση ολοκληρώθηκε με επιτυχία."/>
+  <STRING id="Error.1727" value="Η κοινοποίηση απέτυχε."/>
+  <STRING id="Error.1728" value="Η ρύθμιση παραμέτρων ολοκληρώθηκε με επιτυχία."/>
+  <STRING id="Error.1729" value="Η ρύθμιση παραμέτρων απέτυχε."/>
+  <STRING id="Error.1730" value="Θα πρέπει να είστε διαχειριστής για να καταργήσετε αυτήν την εφαρμογή. Για να καταργήσετε αυτήν την εφαρμογή, μπορείτε να συνδεθείτε ως διαχειριστής ή επικοινωνήστε με την ομάδα τεχνικής υποστήριξης για βοήθεια."/>
+  <STRING id="Error.1801" value="Η διαδρομή [2] δεν είναι έγκυρη.  Καθορίστε μια έγκυρη διαδρομή."/>
+  <STRING id="Error.1802" value="Η μνήμη δεν επαρκεί. Τερματίστε τις άλλες εφαρμογές πριν να προσπαθήσετε ξανά."/>
+  <STRING id="Error.1803" value="Δεν υπάρχει δισκέτα στη μονάδα [2]. Τοποθετήστε μια δισκέτα και κάντε κλικ στο κουμπί &quot;Επανάληψη&quot; ή κάντε κλικ στο κουμπί &quot;Άκυρο&quot; για να επιστρέψετε στον τόμο που είχε επιλεγεί προηγουμένως."/>
+  <STRING id="Error.1804" value="Δεν υπάρχει δισκέτα στη μονάδα [2]. Τοποθετήστε μια δισκέτα και κάντε κλικ στο κουμπί &quot;Επανάληψη&quot; ή κάντε κλικ στο κουμπί &quot;Άκυρο&quot; για να επιστρέψετε στο παράθυρο διαλόγου &quot;Αναζήτηση&quot; και να επιλέξετε έναν άλλον τόμο."/>
+  <STRING id="Error.1805" value="Ο φάκελος [2] δεν υπάρχει.  Πληκτρολογήστε μια διαδρομή προς ένα φάκελο που υπάρχει."/>
+  <STRING id="Error.1806" value="Δεν έχετε επαρκή δικαιώματα για την ανάγνωση αυτού του φακέλου."/>
+  <STRING id="Error.1807" value="Δεν ήταν δυνατόν να καθοριστεί έγκυρος φάκελος προορισμού για την εγκατάσταση."/>
+  <STRING id="Error.1901" value="Παρουσιάστηκε σφάλμα κατά την προσπάθεια ανάγνωσης από τη βάση δεδομένων εγκατάστασης προέλευσης: [2]."/>
+  <STRING id="Error.1902" value="Προγραμματισμός λειτουργίας επανεκκίνησης: Μετονομασία αρχείου [2] σε [3]. Πρέπει να γίνει επανεκκίνηση για να ολοκληρωθεί η λειτουργία."/>
+  <STRING id="Error.1903" value="Προγραμματισμός λειτουργίας επανεκκίνησης: Διαγραφή αρχείου [2]. Πρέπει να γίνει επανεκκίνηση για να ολοκληρωθεί η λειτουργία."/>
+  <STRING id="Error.1904" value="Δεν ήταν δυνατή η καταχώρηση της λειτουργικής μονάδας [2].  HRESULT [3].  Επικοινωνήστε με το προσωπικό υποστήριξης."/>
+  <STRING id="Error.1905" value="Δεν ήταν δυνατή η κατάργηση της καταχώρησης της λειτουργικής μονάδας [2].  HRESULT [3].  Επικοινωνήστε με το προσωπικό υποστήριξης."/>
+  <STRING id="Error.1906" value="Η αποθήκευση του πακέτου [2] στη μνήμη cache απέτυχε. Σφάλμα: [3]. Επικοινωνήστε με το προσωπικό υποστήριξης."/>
+  <STRING id="Error.1907" value="Δεν ήταν δυνατή η καταχώρηση της γραμματοσειράς [2].  Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την εγκατάσταση γραμματοσειρών και ότι το σύστημα υποστηρίζει αυτήν τη γραμματοσειρά."/>
+  <STRING id="Error.1908" value="Δεν ήταν δυνατή η κατάργηση της καταχώρησης της γραμματοσειράς [2]. Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την κατάργηση γραμματοσειρών."/>
+  <STRING id="Error.1909" value="Δεν ήταν δυνατή η δημιουργία της συντόμευσης [2]. Βεβαιωθείτε ότι ο φάκελος προορισμού υπάρχει και ότι έχετε πρόσβαση σε αυτόν."/>
+  <STRING id="Error.1910" value="Δεν ήταν δυνατή η κατάργηση της συντόμευσης [2]. Βεβαιωθείτε ότι το αρχείο συντόμευσης υπάρχει και ότι έχετε πρόσβαση σε αυτό."/>
+  <STRING id="Error.1911" value="Δεν ήταν δυνατή η καταχώρηση της βιβλιοθήκης τύπων για το αρχείο [2].  Επικοινωνήστε με το προσωπικό υποστήριξης."/>
+  <STRING id="Error.1912" value="Δεν ήταν δυνατή η κατάργηση της καταχώρησης της βιβλιοθήκης τύπων για το αρχείο [2].  Επικοινωνήστε με το προσωπικό υποστήριξης."/>
+  <STRING id="Error.1913" value="Δεν ήταν δυνατή η ενημέρωση του αρχείου ini [2][3].  Βεβαιωθείτε ότι το αρχείο υπάρχει και ότι έχετε πρόσβαση σε αυτό."/>
+  <STRING id="Error.1914" value="Δεν ήταν δυνατό να προγραμματιστεί η αντικατάσταση του αρχείου [3] από το αρχείο [2] με την επανεκκίνηση του υπολογιστή.  Βεβαιωθείτε ότι έχετε δικαιώματα εγγραφής στο αρχείο [3]."/>
+  <STRING id="Error.1915" value="Παρουσιάστηκε σφάλμα κατά την κατάργηση της διαχείρισης προγραμμάτων οδήγησης ODBC, σφάλμα ODBC [2]: [3]. Επικοινωνήστε με το προσωπικό υποστήριξης."/>
+  <STRING id="Error.1916" value="Παρουσιάστηκε σφάλμα κατά την εγκατάσταση της διαχείρισης προγραμμάτων οδήγησης ODBC, σφάλμα ODBC [2]: [3]. Επικοινωνήστε με το προσωπικό υποστήριξης."/>
+  <STRING id="Error.1917" value="Παρουσιάστηκε σφάλμα κατά την κατάργηση του προγράμματος οδήγησης ODBC: [4], σφάλμα ODBC [2]: [3]. Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την κατάργηση προγραμμάτων οδήγησης ODBC."/>
+  <STRING id="Error.1918" value="Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του προγράμματος οδήγησης ODBC: [4][5], σφάλμα ODBC [2]: [3]. Βεβαιωθείτε ότι το αρχείο [4][6] υπάρχει και ότι έχετε πρόσβαση σε αυτό."/>
+  <STRING id="Error.1919" value="Παρουσιάστηκε σφάλμα κατά τη ρύθμιση των παραμέτρων του αρχείου προέλευσης δεδομένων ODBC: [4][5], σφάλμα ODBC [2]: [3]. Βεβαιωθείτε ότι το αρχείο [4][6] υπάρχει και ότι έχετε πρόσβαση σε αυτό."/>
+  <STRING id="Error.1920" value="Η εκκίνηση της υπηρεσίας &quot;[2]&quot; ([3]) απέτυχε.  Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την εκκίνηση υπηρεσιών συστήματος."/>
+  <STRING id="Error.1921" value="Δεν ήταν δυνατή η διακοπή της υπηρεσίας &quot;[2]&quot; ([3]).  Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για τη διακοπή υπηρεσιών συστήματος."/>
+  <STRING id="Error.1922" value="Δεν ήταν δυνατή η διαγραφή της υπηρεσίας &quot;[2]&quot; ([3]).  Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την κατάργηση υπηρεσιών συστήματος."/>
+  <STRING id="Error.1923" value="Δεν ήταν δυνατή η εγκατάσταση της υπηρεσίας &quot;[2]&quot; ([3]).  Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την εγκατάσταση υπηρεσιών συστήματος."/>
+  <STRING id="Error.1924" value="Δεν ήταν δυνατή η ενημέρωση της μεταβλητής περιβάλλοντος &quot;[2]&quot;.  Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την τροποποίηση μεταβλητών περιβάλλοντος."/>
+  <STRING id="Error.1925" value="Δεν έχετε επαρκή δικαιώματα για την ολοκλήρωση αυτής της εγκατάστασης για όλους τους χρήστες του υπολογιστή.  Συνδεθείτε ως διαχειριστής και επαναλάβετε αυτήν την εγκατάσταση."/>
+  <STRING id="Error.1926" value="Δεν ήταν δυνατό να οριστεί ασφάλεια αρχείου για το αρχείο &quot;[3]&quot;. Σφάλμα: [2].  Βεβαιωθείτε ότι έχετε επαρκή δικαιώματα για την τροποποίηση των δικαιωμάτων ασφαλείας για αυτό το αρχείο."/>
+  <STRING id="Error.1927" value="Το Component Services (COM+ 1.0) δεν είναι εγκατεστημένο σε αυτόν τον υπολογιστή.  Αυτή η εγκατάσταση απαιτεί το Component Services για να ολοκληρωθεί με επιτυχία.  Το Component Services είναι διαθέσιμο στα Windows 2000."/>
+  <STRING id="Error.1928" value="Παρουσιάστηκε σφάλμα κατά την καταχώρηση της εφαρμογής COM+ στο μητρώο.  Για περισσότερες πληροφορίες, επικοινωνήστε με το προσωπικό υποστήριξης."/>
+  <STRING id="Error.1929" value="Παρουσιάστηκε σφάλμα κατά την κατάργηση της καταχώρησης της εφαρμογής COM+ στο μητρώο.  Για περισσότερες πληροφορίες, επικοινωνήστε με το προσωπικό υποστήριξης."/>
+  <STRING id="Error.1930" value="Δεν ήταν δυνατό να γίνει αλλαγή της περιγραφής για την υπηρεσία &quot;[2]&quot; ([3])."/>
+  <STRING id="Error.1931" value="Η υπηρεσία του προγράμματος εγκατάστασης των Windows Installer δεν μπορεί να ενημερώσει το αρχείο συστήματος [2] γιατί το αρχείο προστατεύεται από τα Windows.  Για σωστή λειτουργία, ενδέχεται να χρειαστεί ενημέρωση του λειτουργικού συστήματος. {{Έκδοση πακέτου: [3], Προστατευμένη έκδοση ΛΣ: [4]}}"/>
+  <STRING id="Error.1932" value="Η υπηρεσία του προγράμματος εγκατάστασης των Windows δεν μπορεί να ενημερώσει το προστατευμένο αρχείο Windows [2]. {{Έκδοση πακέτου: [3], Προστατευμένη έκδοση ΛΣ: [4], Σφάλμα SFP: [5]}}"/>
+  <STRING id="Error.1933" value="Η υπηρεσία του προγράμματος εγκατάστασης των Windows δεν μπορεί να ενημερώσει ένα ή περισσότερα προστατευμένα αρχεία Windows. {{Σφάλμα SFP: [2].  Λίστα προστατευμένων αρχείων:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Οι εγκαταστάσεις από χρήστες είναι απενεργοποιημένες μέσω πολιτικής σε αυτόν τον υπολογιστή."/>
+  <STRING id="Error.1935" value="Παρουσιάστηκε σφάλμα κατά την εγκατάσταση στοιχείου συναρμολόγησης [2]. HRESULT: [3]. {{διασύνδεση συναρμολόγησης: [4], λειτουργία: [5], όνομα συναρμολόγησης: [6]}}"/>
+  <STRING id="Error.4000" value="Μη έγκυρος αριθμός σειράς."/>
+  <STRING id="Error.4010" value="Υπάρχει ήδη πιο πρόσφατη έκδοση του [ProductName] εγκατεστημένη σε αυτόν τον υπολογιστή."/>
+  <STRING id="Error.4020" value="Παρουσιάστηκε σφάλμα κατά τη διαδικασία ρύθμισης παραμέτρων του IIS. Θα γίνει ανάκτηση της αρχικής ρύθμισης παραμέτρων του IIS."/>
+  <STRING id="Error.4021" value="Η τοποθεσία Web [1] υπάρχει ήδη σε αυτόν το διακομιστή."/>
+  <STRING id="Error.4022" value="Ο εικονικός κατάλογος [1] στην τοποθεσία web [2] υπάρχει ήδη σε αυτόν το διακομιστή."/>
+  <STRING id="Error.4023" value="Αυτή η έκδοση του IIS δεν υποστηρίζεται ή το IIS δεν είναι πλήρως μεταφρασμένο !&#10;&#10;Απαιτείται Internet Information Services 5.0 ή νεότερης έκδοσης."/>
+  <STRING id="Error.4024" value="Έχει ήδη εκκινηθεί τοποθεσία web με τις ίδιες συνδέσεις διακομιστή.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Δεν είναι δυνατή η δημιουργία λογαριασμού ή ομάδας χρηστών &apos;[2]&apos; στον τοπικό υπολογιστή. Κωδικός σφάλματος: [3]. [4]"/>
+  <STRING id="Error.4102" value="Υπάρχει ήδη λογαριασμός ή ομάδα χρηστών &apos;[2]&apos; στον τοπικό υπολογιστή."/>
+  <STRING id="Error.4103" value="Δεν είναι δυνατή η κατάργηση λογαριασμού ή ομάδας χρηστών &apos;[2]&apos; στον τοπικό υπολογιστή. Κωδικός σφάλματος: [3]."/>
+  <STRING id="Error.4104" value="Δεν υπάρχει λογαριασμός ή ομάδα χρηστών &apos;[2]&apos; στον τοπικό υπολογιστή."/>
+  <STRING id="Error.4105" value="Παρουσιάστηκε σφάλμα κατά την κοινή χρήση του &apos;[2]&apos; με την ονομασία: &apos;[3]&apos;. Περιγραφή σφάλματος: [4]"/>
+  <STRING id="Error.4106" value="Παρουσιάστηκε σφάλμα κατά τη δημιουργία προγραμματισμένης εργασίας: &apos;[2]&apos;. Περιγραφή σφάλματος: [3]"/>
+  <STRING id="Error.4107" value="Παρουσιάστηκε σφάλμα κατά την κατάργηση προγραμματισμένης εργασίας: &apos;[2]&apos;. Περιγραφή σφάλματος: [3]"/>
+  <STRING id="Error.4110" value="Δεν ήταν δυνατή η εκχώρηση μνήμης."/>
+  <STRING id="Error.4111" value="Δεν βρέθηκε το αρχείο: [2]."/>
+  <STRING id="Error.4112" value="Δεν ήταν δυνατή η ανάγνωση του αρχείου &apos;[2]&apos;."/>
+  <STRING id="Error.4113" value="Σφάλμα ανάλυσης στο αρχείο: &apos;[2]&apos; στη γραμμή: [3], στήλη: [4]. Κωδικός σφάματος: [5]."/>
+  <STRING id="Error.4114" value="Μη υποστηριζόμενη κωδικοποίηση αρχείου XML."/>
+  <STRING id="Error.4115" value="Σφάλμα στο άνοιγμα του αρχείου: [2]."/>
+  <STRING id="Error.4116" value="Δεν ήταν δυνατή η εγγραφή του αρχείου &apos;[2]&apos;."/>
+  <STRING id="Error.4117" value="Μη αναμενόμενο ριζικό στοιχείο: &quot;[2]&quot; στο αρχείο XML: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="Παρουσιάστηκε σφάλμα κατά τη διαδικασία διαμόρφωσης του τείχους προστασίας των Windows.&#10; Θα γίνει επαναφορά της αρχικής διαμόρφωσης του τείχους προστασίας."/>
+  <STRING id="Error.4121" value="Μη έγκυρη διαδρομή εικόνας διαδικασίας του τείχους προστασίας ή αποτυχία εύρεσης αρχείου: [2]."/>
+  <STRING id="Error.4122" value="Μη έγκυρη θύρα/πρωτόκολλο τείχους προστασίας: [2]."/>
+  <STRING id="Error.4123" value="Μη έγκυρο εύρος δικτύου τείχους προστασίας: [2]."/>
+  <STRING id="Error.4124" value="Παρουσιάστηκε σφάλμα κατά την καταχώριση της εφαρμογής στο τείχος προστασίας των Windows: [2]."/>
+  <STRING id="Error.4125" value="Παρουσιάστηκε σφάλμα κατά την καταχώριση της θύρας στο τείχος προστασίας των Windows: [2]."/>
+  <STRING id="Error.4130" value="Παρουσιάστηκε σφάλμα κατά τη διαδικασία διαμόρφωσης της εξερεύνησης παιχνιδιών."/>
+  <STRING id="Error.4131" value="Γονικοί έλεγχοι αποτρέπουν την αναπαραγωγή του παιχνιδιού: [2]."/>
+  <STRING id="Error.4140" value="Παρουσιάστηκε σφάλμα κατά τη διαδικασία εκτέλεσης δέσμης ενεργειών SQL."/>
+  <STRING id="Error.4141" value="Σφάλμα ODBC: [2] ([3])."/>
+  <STRING id="Error.4142" value="Σύνδεση ODBC: υπέρβαση χρονικού ορίου."/>
+  <STRING id="Error.4143" value="Σφάλμα ανάλυσης δέσμης ενεργειών SQL: μη έγκυρη σύνταξη."/>
+  <STRING id="Error.4001" value="Η επιβεβαίωση του σειριακού αριθμού δεν ήταν δυνατή."/>
+  <STRING id="Error.4025" value="Υπάρχει ήδη χώρος συγκέντρωσης εφαρμογών &quot;[2]&quot; σε αυτόν το διακομιστή.&#10;&#10;Θέλετε να παραλείψετε τη διαμόρφωση αυτού του χώρου συγκέντρωσης εφαρμογών και να συνεχίσετε την εγκατάσταση;"/>
+  <STRING id="Error.4150" value="Εσωτερικό σφάλμα στο CallStdFcn."/>
+  <STRING id="Error.4151" value="Η λειτουργία &apos;[2]&apos; δεν βρέθηκε στο DLL &apos;[3]&apos;."/>
+  <STRING id="Error.4152" value="Θέλετε να διαγράψετε τις ρυθμίσεις και τα προσωρινά αρχεία του [ProductName];"/>
+  <STRING id="Error.4153" value="Το υποχρεωτικό προαπαιτούμενο [2] δεν εγκαταστάθηκε σωστά."/>
+  <STRING id="Error.4154" value="Το προαπαιτούμενο [2] δεν εγκαταστάθηκε σωστά. Να συνεχιστεί η εγκατάσταση του [ProductName];"/>
+  <STRING id="Error.4155" value="Η λήψη του αρχείου [2] δεν έγινε σωστά: Σφάλμα CRC."/>
+  <STRING id="Error.4156" value="Η λήψη του αρχείου [2] δεν έγινε σωστά: Σφάλμα CRC. Να συνεχιστεί η εγκατάσταση του [ProductName];"/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="byte"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Δεν θα είναι διαθέσιμη η πλήρης δυνατότητα"/>
+  <STRING id="UIText.MenuAdvertise" value="Η δυνατότητα θα εγκατασταθεί όταν ζητηθεί"/>
+  <STRING id="UIText.MenuAllCD" value="Η πλήρης δυνατότητα θα εγκατασταθεί για εκτέλεση από το CD"/>
+  <STRING id="UIText.MenuAllLocal" value="Η πλήρης δυνατότητα θα εγκατασταθεί στον τοπικό σκληρό δίσκο"/>
+  <STRING id="UIText.MenuAllNetwork" value="Η πλήρης δυνατότητα θα εγκατασταθεί για εκτέλεση από το δίκτυο"/>
+  <STRING id="UIText.MenuCD" value="Θα εγκατασταθεί για εκτέλεση από το CD"/>
+  <STRING id="UIText.MenuLocal" value="Θα εγκατασταθεί στον τοπικό σκληρό δίσκο"/>
+  <STRING id="UIText.MenuNetwork" value="Θα εγκατασταθεί για εκτέλεση από το δίκτυο"/>
+  <STRING id="UIText.ScriptInProgress" value="Συγκέντρωση απαιτούμενων πληροφοριών..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Αυτή η δυνατότητα θα παραμείνει μη εγκατεστημένη"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Αυτή η δυνατότητα θα ρυθμιστεί να εγκατασταθεί όταν ζητηθεί"/>
+  <STRING id="UIText.SelAbsentCD" value="Αυτή η δυνατότητα θα εγκατασταθεί για εκτέλεση από το CD"/>
+  <STRING id="UIText.SelAbsentLocal" value="Αυτή η δυνατότητα θα εγκατασταθεί στον τοπικό σκληρό δίσκο"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Αυτή η δυνατότητα θα εγκατασταθεί για εκτέλεση από το δίκτυο"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Αυτή η δυνατότητα δεν θα είναι πλέον διαθέσιμη"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Θα εγκατασταθεί όταν ζητηθεί"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Αυτή η δυνατότητα θα είναι διαθέσιμη για εκτέλεση από το CD"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Αυτή η δυνατότητα θα εγκατασταθεί στον τοπικό σκληρό δίσκο"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Αυτή η δυνατότητα θα είναι διαθέσιμη για εκτέλεση από το δίκτυο"/>
+  <STRING id="UIText.SelCDAbsent" value="Η εγκατάσταση αυτής της δυνατότητας θα καταργηθεί εντελώς, δεν θα μπορείτε να εκτελείτε τη δυνατότητα από το CD"/>
+  <STRING id="UIText.SelCDAdvertise" value="Ο τρόπος εκτέλεσης αυτής της δυνατότητας θα αλλάξει και αντί να εκτελείται από το CD, η δυνατότητα θα ρυθμιστεί να εγκατασταθεί όταν ζητηθεί"/>
+  <STRING id="UIText.SelCDCD" value="Αυτή η δυνατότητα θα συνεχίσει να εκτελείται από το CD"/>
+  <STRING id="UIText.SelCDLocal" value="Ο τρόπος εκτέλεσης αυτής της δυνατότητας θα αλλάξει και αντί να εκτελείται από το CD, η δυνατότητα θα εγκατασταθεί στον τοπικό σκληρό δίσκο"/>
+  <STRING id="UIText.SelChildCostNeg" value="Αυτή η δυνατότητα αποδεσμεύει έως [1] από τον σκληρό δίσκο."/>
+  <STRING id="UIText.SelChildCostPos" value="Αυτή η δυνατότητα απαιτεί [1] στον σκληρό σας δίσκο."/>
+  <STRING id="UIText.SelCostPending" value="Υπολογισμός απαιτούμενου χώρου για αυτήν τη δυνατότητα..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Αυτή η δυνατότητα θα καταργηθεί τελείως"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Αυτή η δυνατότητα θα καταργηθεί από τον τοπικό σκληρό σας δίσκο, αλλά θα ρυθμιστεί να εγκατασταθεί όταν ζητηθεί"/>
+  <STRING id="UIText.SelLocalCD" value="Αυτή η δυνατότητα θα καταργηθεί από τον τοπικό σκληρό δίσκο, αλλά θα παραμείνει διαθέσιμη για εκτέλεση από το CD"/>
+  <STRING id="UIText.SelLocalLocal" value="Αυτή η δυνατότητα θα παραμείνει στον τοπικό σκληρό δίσκο"/>
+  <STRING id="UIText.SelLocalNetwork" value="Αυτή η δυνατότητα θα καταργηθεί από τον τοπικό σκληρό δίσκο, αλλά θα παραμείνει διαθέσιμη για εκτέλεση από το δίκτυο"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Η εγκατάσταση αυτής της δυνατότητας θα καταργηθεί εντελώς, δεν θα μπορείτε να εκτελείτε τη δυνατότητα από το δίκτυο"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Ο τρόπος εκτέλεσης αυτής της δυνατότητας θα αλλάξει και αντί να εκτελείται από το δίκτυο, η δυνατότητα θα ρυθμιστεί να εγκατασταθεί όταν ζητηθεί"/>
+  <STRING id="UIText.SelNetworkLocal" value="Ο τρόπος εκτέλεσης αυτής της δυνατότητας θα αλλάξει και αντί να εκτελείται από το δίκτυο, η δυνατότητα θα εγκατασταθεί στον τοπικό σκληρό δίσκο"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Αυτή η δυνατότητα θα συνεχίσει να εκτελείται από το δίκτυο"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Αυτή η δυνατότητα αποδεσμεύει έως [1] από τον σκληρό δίσκο. Οι [2] από τις [3] δευτερεύουσες δυνατότητές της είναι επιλεγμένες. Οι δευτερεύουσες δυνατότητες αποδεσμεύουν έως [4] από τον σκληρό δίσκο."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Αυτή η δυνατότητα αποδεσμεύει έως [1] από τον σκληρό δίσκο. Οι [2] από τις [3] δευτερεύουσες δυνατότητές της είναι επιλεγμένες. Οι δευτερεύουσες δυνατότητες απαιτούν [4] στον σκληρό δίσκο."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Αυτή η δυνατότητα απαιτεί [1] στον σκληρό σας δίσκο. Οι [2] από τις [3] δευτερεύουσες δυνατότητές της είναι επιλεγμένες. Οι δευτερεύουσες δυνατότητες αποδεσμεύουν έως [4] από τον σκληρό δίσκο."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Αυτή η δυνατότητα απαιτεί [1] στον σκληρό σας δίσκο. Οι [2] από τις [3] δευτερεύουσες δυνατότητές της είναι επιλεγμένες. Οι δευτερεύουσες δυνατότητες απαιτούν [4] στον σκληρό δίσκο."/>
+  <STRING id="UIText.TimeRemaining" value="Χρόνος που υπολείπεται: {[1] λεπτά }{[2] δευτερόλεπτα}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Διαθέσιμος"/>
+  <STRING id="UIText.VolumeCostDifference" value="Διαφορά"/>
+  <STRING id="UIText.VolumeCostRequired" value="Απαιτούμενος"/>
+  <STRING id="UIText.VolumeCostSize" value="Μέγεθος δίσκου"/>
+  <STRING id="UIText.VolumeCostVolume" value="Τόμος"/>
+  <STRING id="UIText.HttpPostMsg" value="Αποστολή συλλεγμένων δεδομένων..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.ODBCTestMsg" value="Περιμένετε ενώ γίνεται έλεγχος της σύνδεσης..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Αναζήτηση διακομιστών SQL στο δίκτυο..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.BrowseFolderLocation" value="Θέση"/>
+  <STRING id="UIText.BrowseFolderName" value="Όνομα φακέλου:"/>
+  <STRING id="UIText.BrowseFolderSelectFolder" value="Επιλογή φακέλου"/>
+  <STRING id="UIText.HtmlHostNavError" value="&lt;body&gt;&lt;h3 style=&quot;color:darkred;&quot;&gt;Σφάλμα φόρτωσης πόρου:&lt;/h3&gt;&lt;p style=&quot;white-space:nowrap&quot;&gt;&quot;[1]&quot;&lt;/p&gt;&lt;/body&gt;"/>
+  <STRING id="UIText.PrereqAction" value="[6]"/>
+  <STRING id="UIText.PrereqFound" value="[4]"/>
+  <STRING id="UIText.PrereqInstallAction" value="Εγκατάσταση"/>
+  <STRING id="UIText.PrereqInstalled" value="Εγκαταστάθηκε"/>
+  <STRING id="UIText.PrereqLabel" value="[1]"/>
+  <STRING id="UIText.PrereqMandatoryInstallAction" value="Πρέπει να γίνει εγκατάσταση"/>
+  <STRING id="UIText.PrereqReq" value="{[2] - [3]}"/>
+  <STRING id="UIText.PrereqReqExact" value="[2]"/>
+  <STRING id="UIText.PrereqReqMaxOnly" value="{[3] ή παλαιότερη έκδοση}"/>
+  <STRING id="UIText.PrereqReqMinOnly" value="{[2] ή νεότερη έκδοση}"/>
+  <STRING id="UIText.PrereqSkipAction" value="Παράλειψη"/>
+  <STRING id="UIText.SQLShowDatabasesMsg" value="Σύνδεση με διακομιστή βάσης δεδομένων..."/>
+  <STRING id="UIText.SQLShowDatabasesTitle" value="ODBC"/>
+  <STRING id="UIText.VolumeCostBadGroup" value="Ανεπαρκής χώρος"/>
+  <STRING id="UIText.VolumeCostDrivesGroup" value="Μονάδες δίσκου εγκατάστασης"/>
+  <STRING id="UIText.VolumeCostOthersGroup" value="Αχρησιμοποίητες μονάδες δίσκου"/>
+  <STRING id="UIText.Warning" value="Προειδοποίηση"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.IAgree#1" value="&amp;Αποδέχομαι τους όρους της Άδειας Χρήσης"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="&amp;Δεν αποδέχομαι τους όρους της Άδειας Χρήσης"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Ναι, να γίνει καταχώριση για το χειρισμό αυτών των τύπων αρχείων."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="Ό&amp;χι, παράβλεψη συσχέτισης αρχείων."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Αυτόματος &amp;τερματισμός εφαρμογών και προσπάθεια επανεκκίνησής τους μετά την ολοκλήρωση της εγκατάστασης."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="Να μην &amp;τερματιστούν οι εφαρμογές. (Θα χρειαστεί επανεκκίνηση.)"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#1" value="Μόνο για μένα ([LogonUser])"/>
+  <STRING id="RadioButton.Text.InstallTypeDlg#2" value="Όλοι (όλοι οι χρήστες)"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Ναι, κατάργηση παλαιότερων εκδόσεων."/>
+  <STRING id="Property.AI_Upgrade_Question_No" value="Ό&amp;χι, εγκατάσταση παράλληλα με άλλες εκδόσεις."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Ναι, κατάργηση όλων των παλαιότερων εκδόσεων."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="Ό&amp;χι, κατάργηση εγκατάστασης μόνο της έκδοσης [AI_Replaced_Versions_List]."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Πίσω"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Πίσω"/>
+  <STRING id="Property.ButtonText_Browse" value="Ανα&amp;ζήτηση..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Άκυρο"/>
+  <STRING id="Property.ButtonText_Exit" value="Έ&amp;ξοδος"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Τέλος"/>
+  <STRING id="Property.Text_Finish" value="Τέλος"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Παράβλεψη"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Εγκατάσταση"/>
+  <STRING id="Property.Text_Install" value="Εγκατάσταση"/>
+  <STRING id="Property.ButtonText_Next" value="Επό&amp;μενο &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="Επό&amp;μενο"/>
+  <STRING id="Property.Text_Next" value="Επόμενο"/>
+  <STRING id="Property.ButtonText_No" value="Ό&amp;χι"/>
+  <STRING id="Property.ButtonText_OK" value="OK    "/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Κατάργηση"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Επιδιόρθωση"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Επαναφορά"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Συνέχεια"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Επανάληψη"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Επιστροφή"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Ναι"/>
+  <STRING id="Property.Text_Yes" value="Ναι"/>
+  <STRING id="Property.CtrlEvtchanges" value="αλλάζει"/>
+  <STRING id="Property.CtrlEvtChanging" value="Αλλαγή"/>
+  <STRING id="Property.CtrlEvtremoves" value="καταργεί"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Κατάργηση"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Επιδιόρθωση"/>
+  <STRING id="Property.CtrlEvtrepairs" value="επιδιορθώνει"/>
+  <STRING id="Property.InstallModeComplete" value="Πλήρης"/>
+  <STRING id="Property.InstallModeCustom" value="Προσαρμοσμένη"/>
+  <STRING id="Property.InstallModeTypical" value="Τυπική"/>
+  <STRING id="Property.Progress1" value="Εγκατάσταση"/>
+  <STRING id="Property.Progress2" value="εγκαθιστά"/>
+  <STRING id="Property.Setup" value="Εγκατάσταση"/>
+  <STRING id="Property.Wizard" value="Οδηγός εγκατάστασης"/>
+  <!-- Trialware Settings table -->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Αγορά"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Θέλετε να μεταβείτε στη σελίδα αγοράς του %TrialName%;"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Μη έγκυρο κλειδί δήλωσης"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="Το κλειδί δήλωσης δεν είναι έγκυρο."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="Δοκιμή %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Πατήστε το κουμπί &quot;Τέλος&quot; για να επαληθεύσετε το κλειδί και να συνεχίσετε."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Εισαγάγετε όλες τις γραμμές του κλειδιού δήλωσης που έχετε λάβει."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Δήλωση"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Αγορά"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Επισκεφτείτε τη σελίδα αγοράς του %TrialName% για να λάβετε άδεια χρήσης"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="Λήξη δοκιμής του %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="Η δοκιμή %Quantity% ημερών έχει λήξει. Εάν θέλετε να συνεχίσετε τη χρήση του %TrialName%, πρέπει να προμηθευτείτε άδεια χρήσης και να δηλώσετε την εφαρμογή."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="Η δοκιμή %Quantity% εκτελέσεων έχει λήξει. Εάν θέλετε να συνεχίσετε τη χρήση του %TrialName%, πρέπει να προμηθευτείτε άδεια χρήσης και να δηλώσετε την εφαρμογή."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Καλωσορίσατε στη δοκιμή του %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Δήλωση"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Εισαγάγετε το κλειδί δήλωσης"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Δοκιμή"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Λήξη"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Αγορά"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Επισκεφτείτε τη σελίδα αγοράς του %TrialName% για να λάβετε άδεια χρήσης"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="Δοκιμή του %TrialName% (Απομένουν %TrialLeft% ημέρες)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="Δοκιμή του %TrialName% (Απομένουν %TrialLeft% εκτελέσεις)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="Χρησιμοποιείτε τη δοκιμαστική έκδοση του %TrialName% από την [|Manufacturer]. Απομένουν %TrialLeft% ημέρες."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="Χρησιμοποιείτε τη δοκιμαστική έκδοση του %TrialName% από την [|Manufacturer]. Απομένουν %TrialLeft% εκτελέσεις."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Καλωσορίσατε στη δοκιμή του %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Δήλωση"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Εισαγάγετε το κλειδί δήλωσης"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Δοκιμή"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Συνέχιση δοκιμής του %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#ExtendContact#Cmd" value="mailto:%TrialExtendContact%?subject=Αίτημα επέκτασης δοκιμής&amp;body=Γεια σας,%%0A%%0AΘα ήθελα να ζητήσω έναν κωδικό για την επέκταση της δοκιμαστικής περιόδου του %TrialName%.%%0A%%0AΣας ευχαριστώ,%%0A"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption" value="Δοκιμή %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption" value="Συνέχεια"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption" value="Αίτημα επέκτασης δοκιμής"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption" value="Πατήστε το κουμπί &quot;Συνέχεια&quot; για να επικυρώσετε τον κωδικό και να συνεχίσετε τη δοκιμή."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption" value="Πληκτρολογήστε τον κωδικό που λάβατε για την επέκταση της δοκιμαστικής περιόδου."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader" value="Επέκταση δοκιμής"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption" value="Υπέρβαση επεκτάσεων δοκιμής"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption" value="Δεν επιτρέπεται να επεκτείνετε τη δοκιμαστική περίοδο πάνω από %Quantity% %TrialMU%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption" value="Συνέχεια"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption" value="Έγινε δήλωση του %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption" value="Σας ευχαριστούμε για τη δήλωση του %TrialName%."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader" value="Επιτυχής δήλωση"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption" value="Αγορά"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote" value="Επισκεφτείτε τη σελίδα αγοράς του %TrialName% για να λάβετε άδεια χρήσης"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption" value="Λήξη δοκιμής του %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays" value="Η δοκιμή %Quantity%  ημερών έχει λήξει. Εάν θέλετε να συνεχίσετε να χρησιμοποιείτε το %TrialName%, πρέπει να ζητήσετε επέκταση της δοκιμαστικής περιόδου ή να αγοράσετε μια άδεια χρήσης και να δηλώσετε την εφαρμογή."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns" value="Η δοκιμή %Quantity% ημερών έχει λήξει. Εάν θέλετε να συνεχίσετε να χρησιμοποιείτε το %TrialName%, πρέπει να ζητήσετε επέκταση της δοκιμαστικής περιόδου ή να αγοράσετε μια άδεια χρήσης και να δηλώσετε την εφαρμογή."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader" value="Καλωσορίσατε στη δοκιμή του %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption" value="Δήλωση"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote" value="Εισαγωγή κλειδιού δήλωσης"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption" value="Επέκταση δοκιμής"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote" value="Επέκταση δοκιμαστικής περιόδου του %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption" value="Έγινε δήλωση του %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption" value="Σας ευχαριστούμε για τη δήλωση του %TrialName%."/>
+</DICTIONARY>

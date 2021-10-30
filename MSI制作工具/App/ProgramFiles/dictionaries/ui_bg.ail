@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DICTIONARY type="singlelanguage" lang="bg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Нова папка"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Дублиране %s от %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Нова променлива"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Описание"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Функция"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Стартиране"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Поддръжка"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Вашето описание за [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Нов файл"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Нов ключ"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Нов раздел"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Нова стойност"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Вашият продукт"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] не може да се инсталира на системи с версия на Adobe Reader под [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] не може да се инсталира на система с качество на цвета под [AI_REQUIRED_COLOR_QUALITY] бита."/>
+  <STRING id="AI.LaunchCondition.Description" value="Стартиране на описание на условие"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] не може да се инсталира на системи с версия на DirectX под [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] не може да се инсталира на системи с версия на .NET Framework под [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] не може да се инсталира на системи с версия на .NET Core под [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] не може да се инсталира на системи с версия на Internet Explorer под [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] не може да се инсталира на системи с версия на Internet Information Services под [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] изисква активна Интернет връзка, за да се инсталира. Моля, проверете мрежовата си конфигурация и настройките за прокси."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] не може да се инсталира на системи с версия на JDK под [AI_REQUIRED_JDK_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] не може да се инсталира на системи с версия на JRE под [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] не може да бъде инсталирана на [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] не може да бъде инсталирана на [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] не може да бъде инсталирана на [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] не може да бъде инсталирана на [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] не може да бъде инсталирана на [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] не може да бъде инсталирана на [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] не може да се инсталира на системи без [AI_REQUIRED_OFFICE_APPNAME] 2003."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName] не може да се инсталира на системи без [AI_REQUIRED_OFFICE_APPNAME] 2007."/>
+  <STRING id="AI.LaunchCondition.Office2010" value="[ProductName] не може да се инсталира на системи без [AI_REQUIRED_OFFICE_APPNAME] 2010."/>
+  <STRING id="AI.LaunchCondition.Office2013" value="[ProductName] не може да се инсталира на системи без [AI_REQUIRED_OFFICE_APPNAME] 2013."/>
+  <STRING id="AI.LaunchCondition.Office2016" value="[ProductName] не може да се инсталира на системи без [AI_REQUIRED_OFFICE_APPNAME] 2016."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="Инсталацията на [ProductName] изисква административни права."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] не може да се инсталира на системи с физическа памет по-малко от [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] не може да се инсталира на системи с резолюция на екрана под [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] не може да се инсталира на системи, които работят на виртуални машини."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] не може да се инсталира на системи с версия на Windows Installer под [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="YourFile.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Базата данни на инсталационната програма съдържа логиката и данните, необходими за инсталиране на [|ProductName]."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Вашата компания"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Вашият модул за сливане"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Тази база данни съдържа логиката и данните, необходими за инсталиране на компонента &lt;module name&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="Вашето приложение"/>
+  <STRING id="AI.Property.DefaultValue" value="Вашата стойност"/>
+  <STRING id="AI.Property.FindExeTitle" value="Изберете инсталационния пакет за [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Този пакет съдържа Модул за сливане, който е бил създаден с пробна версия на Advanced Installer. Можете да го използвате само за оценъчни цели."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Този пакет е бил създаден с пробна версия на Advanced Installer. Можете да го използвате само за оценъчни цели."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Предупреждение"/>
+  <STRING id="AI.Registry.DefaultKey" value="Нов_Ключ"/>
+  <STRING id="AI.Registry.DefaultName" value="Нова стойност"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="ВашиятФайл.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="ВашатаСтойност"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="ИмеНаУслуга"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Описание на вашата услуга"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Вашата услуга"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Нов дял"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Пряк път до ВашатаКоманда"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Пряк път до %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Деинсталиране"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Отвори"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Нов файл"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Информация за инсталационна програма"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Търси в:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Посочете целевата папка"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Създаване на нова папка|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="Име на &amp;папка:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Промяна на текуща целева папка"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Едно ниво нагоре|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Моля, посочете мрежова локация за сървъра с имидж-файл на продукта [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Въведете нова мрежова локация или кликнете &quot;Разлистване&quot;, за да посочите такава."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Мрежова локация"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD &amp;ключ:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Моля, въведете информация за своята компания"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Моля, въведете името на своята организация в долното поле.  То ще се използва като име на компания по подразбиране при следващи инсталации на [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Информация за компания"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard] ще създаде сървърен имидж-файл на [ProductName] в посочена от вас мрежова локация.  Кликнете &quot;[Text_Next]&quot;, за да продължите, или &quot;Отказ&quot;, за да затворите [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Добре дошли в [Wizard] на [ProductName]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Търси в:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Посочете целевата папка"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Създаване на нова папка|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="Име на &amp;папка:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Промяна на текуща целева папка"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Едно ниво нагоре|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Информационна икона|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Наистина ли желаете да отмените инсталацията на [ProductName]?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Изберете начина, по който желаете да се инсталират функциите."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="Използване на &amp;диска"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Многоредово описание на текущо избрания елемент."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Размерът на текущо избрания елемент."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Пътеката до селекцията&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Локация:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Кликвайте върху иконите в дървовидната структура отдолу, за да променяте начина, по който ще се инсталират функциите."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Ръчна настройка"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Дървовидна структура с варианти"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Място на диска, необходимо за инсталиране на избраните функции."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Посочените томове (ако има такива) не разполагат с достатъчно свободно пространство за текущо избраните функции.  Можете или да премахнете някои файлове от посочените томове, или да изберете да инсталирате по-малко функции на локалните устройства, или пък да изберете различни целеви устройства."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Изисквания за дисково пространство"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Информационна икона|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Информационен текст"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Кликнете бутона &quot;Край&quot;, за да затворите [Wizard]."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Стартиране на [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Приключване на [Wizard] на [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Вижте файла &quot;прочети ме&quot;"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] ще регистрира [ProductName] така, че да отваря следните типове файлове: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Свързване на [ProductName] със съответните видове файлове."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Файлови асоциации"/>
+  <STRING id="Control.Text.FatalError#Description1" value="Инсталацията на [ProductName] бе прекратена преждевременно поради грешка.  Системата ви не беше променена по никакъв начин.  За да инсталирате програмата друг път, моля, стартирайте инсталацията отново."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Кликнете бутона &quot;Край&quot;, за да затворите [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="[Wizard] на [ProductName] бе прекратен преждевременно"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Някои файлове, които трябва да се актуализират, в момента се използват."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Следните приложения използват файлове, които тази инсталационна програма трябва да отвори. Можете или да затворите приложенията и да натиснете &quot;Опитай пак&quot;, или да кликнете &quot;Игнорирай&quot; - така инсталацията ще продължи и файловете ще бъдат презаписани от инсталационната програма, след като рестартирате системата си."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Използвани файлове"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Това е папката, където ще се инсталира [ProductName]."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Папка:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="За да инсталирате в тази папка, кликнете &quot;[Text_Next]&quot;. За да инсталирате в друга папка, въведете пътя до нея отдолу или кликнете &quot;Разлистване&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Изберете папка за инсталация"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Моля, прочетете внимателно следното лицензно споразумение"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Лицензно споразумение с крайния потребител"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Модифициране на инсталация|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Модифициране"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Позволява на потребителите да променят начина, по който се инсталират функциите."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Изберете операцията, която желаете да се извърши."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Премахване на инсталация|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Премахване"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Премахва [ProductName] от компютъра ви."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Поправка на инсталация|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Поп&amp;равка"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Поправя грешките в последното инсталирано състояние - поправя липсващи или повредени файлове, преки пътища и данни в регистъра."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Модифициране, Поправка или Премахване на инсталация"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] ще ви позволи да промените начина, по който функциите на [ProductName] се инсталират на компютъра ви, или дори да премахнете [ProductName] от компютъра си.  Кликнете &quot;[Text_Next]&quot;, за да продължите, или &quot;Отказ&quot;, за да затворите [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Добре дошли в [Wizard] на [ProductName] "/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Необходимото за инсталация дисково пространство надхвърля свободното дисково пространство."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Посочените томове не разполагат с достатъчно свободно пространство за текущо избраните функции.  Можете или да премахнете някои файлове от посочените томове, или да изберете да инсталирате по-малко функции на локалните устройства, или пък да изберете различни целеви устройства."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Няма достатъчно дисково пространство"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Необходимото за инсталация дисково пространство надхвърля свободното дисково пространство."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Посочените томове не разполагат с достатъчно свободно пространство за текущо избраните функции.  Можете или да премахнете някои файлове от посочените томове, или да изберете да инсталирате по-малко функции на локалните устройства, или пък да изберете различни целеви устройства."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Като алтернатива можете да изберете да деактивирате функцията за отмяна на инсталационната програма.  Тя позволява на инсталационната програма да възстанови първоначалното състояние на компютъра ви в случай, че инсталацията бъде прекъсната по някакъв начин.  Кликнете &quot;Да&quot;, ако желаете да поемете риска и да деактивирате опцията за отмяна на инсталация."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Няма достатъчно дисково пространство"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Моля, изчакайте, докато [Wizard] се подготвя да ви насочва по време на инсталацията."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Добре дошли в [Wizard] на [ProductName] "/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Постигнат прогрес"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Статус:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Моля, изчакайте, докато [Wizard] [Progress2] [ProductName].  Това може да отнеме няколко минути."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Моля, прочетете внимателно следния текст"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Файл &quot;прочети ме&quot;"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard] ще приключи инсталацията на [ProductName] на вашия компютър.  Кликнете &quot;Инсталиране&quot;, за да продължите, или &quot;Отказ&quot;, за да затворите [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Възобновяване на [Wizard] на [ProductName] "/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Пълна инсталация|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="П&amp;риключени"/>
+  <STRING id="Property.Text_Complete" value="Приключени"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Ще бъдат инсталирани всички програмни функции.  (Изисква най-много дисково пространство)"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Ръчна инсталация|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="Ръ&amp;чна"/>
+  <STRING id="Property.Text_Custom" value="Ръчна"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Позволява на потребителите да избират кои програмни функции да се инсталират и къде да бъдат инсталирани. Препоръчва се за напреднали потребители."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Изберете типа инсталация, който най-добре отговаря на вашите необходимости"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Изберете тип инсталация"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Типична инсталация|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Типична"/>
+  <STRING id="Property.Text_Typical" value="Типична"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Инсталира най-често използваните програмни функции. Препоръчва се за повечето потребители."/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] може да потърси за по-стари версии на [ProductName] и да ги премахне. Желаете ли да премахнете тези версии?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] засече, че сте избрали локация за инсталиране, която се използва и от версията [AI_Replaced_Versions_List] на [ProductName]. Тази версия трябва да се деинсталира. Желаете ли да премахнете и другите по-стари версии?"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Търсене и ъпгрейд на по-стари версии на [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Ъпгрейд на по-стари версии"/>
+  <STRING id="Control.Text.UserExit#Description1" value="Инсталацията на [ProductName] беше прекъсната.  Системата ви не беше променена по никакъв начин.  За да инсталирате програмата друг път, моля, стартирайте инсталацията отново."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Кликнете бутона &quot;Край&quot;, за да затворите [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="[Wizard] на [ProductName] беше прекъснат"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Сериен номер:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Моля, въведете информация за своя клиент"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Потребителско име:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Организация:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Информация за клиент"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] е готов да започне инсталацията на [ProductName]"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Кликнете &quot;Инсталиране&quot;, за да започнете инсталацията.  Ако желаете да прегледате или промените някои от настройките за инсталацията, кликнете &quot;Назад&quot;.  Кликнете &quot;Отказ&quot;, за да затворите съветника."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Готов за инсталация"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Избрахте да премахнете програмата от компютъра си."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Кликнете &quot;Премахване&quot;, за да премахнете [ProductName] от своя компютъра.  Ако желаете да прегледате или промените някои от настройките за инсталация, кликнете &quot;Назад&quot;.  Кликнете &quot;Отказ&quot;, за да затворите съветника."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Премахване на [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard] е готов да започне поправката на [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Кликнете &quot;Поправка&quot;, за да поправите инсталацията на [ProductName].  Ако желаете да прегледате или промените някои от настройките за инсталация, кликнете &quot;Назад&quot;.  Кликнете &quot;Отказ&quot;, за да затворите съветника."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Поправка на [ProductName]"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Удивителна икона|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Моля, изчакайте, докато инсталационната програма изчисли изискванията за дисково пространство."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard] ще инсталира [ProductName] на вашия компютър.  Кликнете &quot;[Text_Next]&quot;, за да продължите, или &quot;Отказ&quot;, за да затворите [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Добре дошли в [Wizard] на [ProductName] "/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] ще инсталира коригиращия файл за [ProductName] на вашия компютър. Кликнете &quot;[Text_Next]&quot;, за да продължите, или &quot;Отказ&quot;, за да затворите [Wizard] за коригиращ файл."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Добре дошли в [Wizard] за коригиращ файл на [ProductName] "/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Конфигуриране на преки пътища"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Създай преки пътища за приложението"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Създай преки пътища за [ProductName] на следните места:"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Десктоп"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Папка &quot;Програми&quot; в Старт менюто"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Quick Launch toolbar"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Стартова папка"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="Папка с преки пътища в &amp;Старт меню:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="За да инсталирате преки пътища в тази папка, кликнете &quot;[Text_Next]&quot;. За да инсталирате в друга папка, въведете името й отдолу или изберете някоя от комбинирания прозорец."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Това е папката, в която ще се инсталират преките пътища за [ProductName]."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Изберете папка за преки пътища в Старт меню"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="За да инсталирате в подпапка, допишете името на подпапката, разделено от името на папката-майка с &quot;\&quot;."/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="База данни:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC ресурс:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Парола:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Порт:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Сървър:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Потребителско име:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Конфигуриране на SQL връзка..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL база данни"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Описание на нов диалог..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Нов диалог"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Нов диалог за появяване(изчакване)"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Някои файлове, които трябва да се актуализират, в момента се използват."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Следните приложения използват файлове, които тази инсталационна програма трябва да отвори."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Използвани файлове"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Рекламиране на приложение"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Заделяне на място в регистъра"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Свободно пространство: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="Търсене на инсталирани приложения"/>
+  <STRING id="ActionText.Template.AppSearch" value="Свойство: [1], Подпис: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="Прикрепяне на изпълними файлове"/>
+  <STRING id="ActionText.Template.BindImage" value="Файл: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Търсене на квалифициращи се продукти"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Изчисляване на изисквания за пространство"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Изчисляване на изисквания за пространство"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Създаване на папки"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Папка: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Създаване на преки пътища"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Пряк път: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Изтриване на услуги"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Услуга: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Създаване на дублиращи файлове"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Файл: [1],  Директория: [9],  Размер: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="Изчисляване на изисквания за пространство"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Търсене на свързани приложения"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Намерено приложение: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Генериране на скриптови операции за действие:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Копиране на файлове за мрежова инсталация"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Файл: [1],  Директория: [9],  Размер: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Копиране на нови файлове"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Файл: [1],  Директория: [9],  Размер: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Инсталиране на ODBC компоненти"/>
+  <STRING id="ActionText.Description.InstallServices" value="Инсталиране на нови услуги"/>
+  <STRING id="ActionText.Template.InstallServices" value="Услуга: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Инсталиране на системен каталог"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Файл: [1],  Зависимости: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Валидиране на инсталация"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Оценяване на условия за стартиране"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Мигриране на състояния на функции от свързани приложения"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Приложение: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Преместване на файлове"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Файл: [1],  Директория: [9],  Размер: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Публикуване на събирателна информация"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Контекст на приложение:[1], Събирателно име:[2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Депубликуване на събирателна информация"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Контекст на приложение:[1], Събирателно име:[2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Коригиране на файлове"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Файл: [1],  Директория: [2],  Размер: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Актуализиране на регистрация на компоненти"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Публикуване на квалифицирани компоненти"/>
+  <STRING id="ActionText.Template.PublishComponents" value="ID на компонент: [1], Условие: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Публикуване на продуктови функции"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Функция: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Публикуване на информация за продукт"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Регистриране на клас-сървъри"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Id на клас: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Регистриране на COM+ приложения и компоненти"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId: [1]{{, AppType: [2], Потребители: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Регистриране на сървъри за разширение"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Разширение: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Регистриране на шрифтове"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Шрифт: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Регистриране на MIME информация"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Тип MIME съдържание: [1], Разширение: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Регистриране на продукт"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Регистриране на програмни идентификатори"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Регистриране на типови библиотеки"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Регистриране на потребител"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Премахване на дублирани файлове"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Файл: [1], Директория: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Актуализиране на низове за среда"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Име: [1], Стойност: [2], Действие [3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Премахване на приложения"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Приложение: [1], Команден ред: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Премахване на файлове"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Файл: [1], Директория: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Премахване на папки"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Папка: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Премахване на данни от INI файлове"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Файл: [1],  Раздел: [2],  Ключ: [3], Стойност: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Премахване на ODBC компоненти"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Премахване на стойности от системния регистър"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Ключ: [1], Име: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Премахване на преки пътища"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Пряк път: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Търсене на квалифициращи се продукти"/>
+  <STRING id="ActionText.Description.Rollback" value="Отмяна на действие:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Премахване на резервни файлове"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Файл: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Регистриране на модули"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Файл: [1],  Папка: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Дерегистриране на модули"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Файл: [1],  Папка: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Инициализиране на ODBC директории"/>
+  <STRING id="ActionText.Description.StartServices" value="Стартиране на услуги"/>
+  <STRING id="ActionText.Template.StartServices" value="Услуга: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="Прекратяване на услуги"/>
+  <STRING id="ActionText.Template.StopServices" value="Услуга: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Премахване на преместени файлове"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Файл: [1], Директория: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Депубликуване на квалифицирани компоненти"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="ID на компонент: [1], Условие: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Депубликуване на продуктови функции"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Функция: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Депубликуване на информация за продукт"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Дерегистриране на клас-сървъри"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Id на клас: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Дерегистриране на COM+ приложения и компоненти"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Дерегистриране на сървъри за разширение"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Разширение: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Дерегистриране на шрифтове"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Шрифт: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Дерегистриране на MIME информация"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Тип MIME съдържание: [1], Разширение: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Дерегистриране на програмни идентификатори"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Дерегистриране на типови библиотеки"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Актуализиране на низове за среда"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Име: [1], Стойност: [2], Действие [3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Записване на стойности от INI файлове"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Файл: [1],  Раздел: [2],  Ключ: [3], Стойност: [4]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Записване на стойности в системния регистър"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Ключ: [1], Име: [2], Стойност: [3]"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Генериране на действия за създаване на потребителски акаунти на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Акаунт: [1], Атрибути: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Създаване на потребителски акаунт на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Акаунт: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Премахване на потребителски акаунт от локалния компютър"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Акаунт: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Отмяна на създаването потребителски акаунти на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Акаунт: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Генериране на действия за премахване на потребителски акаунти от локалния компютър"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Акаунт: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Генериране на действия за създаване на потребителски групи на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Акаунт: [1], Атрибути: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Създаване на потребителска група на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Акаунт: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Премахване на потребителска група от локалния компютър"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Акаунт: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Отмяна на създаването на потребителски групи на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Акаунт: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Генериране на действия за премахване на потребителски групи от локалния компютър"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Акаунт: [1]"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Извличане на файлове от архив"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Изтриване на файловете, извлечени от архив"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Генериране на действия за конфигуриране на бази данни за извършване на инсталационни SQL скриптове"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Генериране на действия за конфигуриране на бази данни за извършване на деинсталационни SQL скриптове"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Извършване на инсталационни SQL скриптове"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Връзка: [1]  Скрипт: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Извършване на поддръжни SQL скриптове"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Връзка: [1]  Скрипт: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Извършване на деинсталационни SQL скриптове"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Връзка: [1]  Скрипт: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Извършване на отмяна на SQL скриптове"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Връзка: [1]  Скрипт: [2]"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Генериране на действия за конфигуриране на Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Генериране на действия за конфигуриране на Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Конфигуриране на Internet Information Services"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Инсталиране на &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Конфигуриране на Internet Information Services"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Премахване на &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Отмяна на конфигурация на IIS"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Възстановяване на конфигурация на метабаза."/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Генериране на действия за конфигуриране на XML файлове"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Генериране на действия за конфигуриране на XML файлове"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Извършване на XML файлови конфигурации"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Конфигуриране на XML файл: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Извършване на XML файлови конфигурации"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Конфигуриране на XML файл: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Отмяна на XML файлови конфигурации."/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Отмяна на XML файлови конфигурации."/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Генериране на действия за конфигуриране на защитна стена на Windows"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Генериране на действия за конфигуриране на защитна стена на Windows"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Извършване на конфигурации на защитна стена на Windows"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Конфигуриране на правило на защитна стена на Windows: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Извършване на конфигурации на защитна стена на Windows"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Конфигуриране на правило на защитна стена на Windows: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Отмяна на конфигурациите на защитна стена на Windows."/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Отмяна на конфигурации на защитна стена на Windows."/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Генериране на действия за конфигуриране на Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Генериране на действия за конфигуриране на Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Извършване на конфигурации на Games Explorer"/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Конфигуриране на игра: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Извършване на конфигурации на Games Explorer"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Премахване на игра: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Отмяна на конфигурации на Games Explorer."/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Отмяна на конфигурации на Games Explorer."/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Генериране на действия за споделяне на папки на локалния компютър:"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Папка: [1], СподеленоИме: [2]"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Споделяне на папка на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Папка: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Премахване на споделяне на папки от локалния компютър"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="СподеленоИме: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Отмяна на споделяне на папки на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="СподеленоИме: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Генериране на действия за премахване на споделяне на папки от локалния компютър:"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="СподеленоИме: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Генериране на действия за насрочване на задачи на локалния компютър:"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Име на задача: [1]"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Насрочване на задача на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Име на задача: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Премахване на насрочена задача от локалния компютър"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Име на задача: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Отмяна на насрочена задача на локалния компютър"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Име на задача: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Генериране на действия за премахване на насрочени задачи от локалния компютър:"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Фатална грешка: }}"/>
+  <STRING id="Error.1" value="{{Грешка [1]. }}"/>
+  <STRING id="Error.2" value="Предупреждение [1]. "/>
+  <STRING id="Error.4" value="Инфо [1]. "/>
+  <STRING id="Error.5" value="Инсталационната програма откри неочаквана грешка при инсталирането на този пакет. Това може да включва и проблем със самия пакет. Кодът на грешката е [1]. {{Аргументите са: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Дискът е пълен: }}"/>
+  <STRING id="Error.8" value="Действие [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Тип съобщение: [1], Аргумент: [2]"/>
+  <STRING id="Error.12" value="=== Лог-записът стартиран: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Лог-записът прекратен: [Date]  [Time] ==="/>
+  <STRING id="Error.14" value="Старт на действие [Time]: [1]."/>
+  <STRING id="Error.15" value="Край на действие [Time]: [1]. Върната стойност [2]."/>
+  <STRING id="Error.16" value="Оставащо време: {[1] минути }{[2] секунди}"/>
+  <STRING id="Error.17" value="Недостатъчно памет. Затворете другите приложения, преди да опитвате пак."/>
+  <STRING id="Error.18" value="Инсталационната програма спря да отговаря."/>
+  <STRING id="Error.19" value="Инсталационната програма бе прекратена предварително."/>
+  <STRING id="Error.20" value="Моля, изчакайте, докато Windows конфигурира [ProductName]"/>
+  <STRING id="Error.21" value="Събиране на необходимата информация..."/>
+  <STRING id="Error.22" value="Премахване на по-старите версии на това приложение..."/>
+  <STRING id="Error.23" value="Подготовка за премахване на по-старите версии на това приложение..."/>
+  <STRING id="Error.32" value="Инсталацията на {[ProductName] } приключи успешно."/>
+  <STRING id="Error.33" value="Инсталацията на {[ProductName] } бе неуспешна."/>
+  <STRING id="Error.1101" value="Грешка при четене от файл: [2]. {{ Системна грешка [3].}}  Проверете дали файла съществува и дали имате достъп до него."/>
+  <STRING id="Error.1301" value="Невъзможно създаването на файл '[2]'.  Вече съществува директория с такова име.  Отменете инсталацията и се опитайте да инсталирате на друго място."/>
+  <STRING id="Error.1302" value="Моля, поставете диска: [2]"/>
+  <STRING id="Error.1303" value="Инсталационната програма няма достатъчни права за достъп до тази директория: [2].  Инсталацията не може да продължи.  Влезте като администратор или се свържете със системния администратор."/>
+  <STRING id="Error.1304" value="Грешка при запис във файл: [2].  Проверете дали имате достъп до тази директория."/>
+  <STRING id="Error.1305" value="Грешка при четене от файл: [2]. {{ Системна грешка [3].}}  Проверете дали файла съществува и дали имате достъп до него."/>
+  <STRING id="Error.1306" value="Друго приложение има ексклузивен достъп до файла '[2]'.  Моля, затворете всички други приложения и кликнете &quot;Опитай пак&quot;."/>
+  <STRING id="Error.1307" value="Няма достатъчно дисково пространство за инсталирането на този файл: [2].  Освободете дисково пространство и кликнете &quot;Опитай пак&quot; или кликнете &quot;Отказ&quot;, за да излезете."/>
+  <STRING id="Error.1308" value="Не е намерен файлът-източник: [2].  Проверете дали файла съществува и дали имате достъп до него."/>
+  <STRING id="Error.1309" value="Грешка при четене от файл: [3]. {{ Системна грешка [2].}}  Проверете дали файла съществува и дали имате достъп до него."/>
+  <STRING id="Error.1310" value="Грешка при запис във файл: [3]. {{ Системна грешка [2].}}  Проверете дали имате достъп до тази директория."/>
+  <STRING id="Error.1311" value="Файлът-източник не е намерен{{(cabinet)}}: [2].  Проверете дали файла съществува и дали имате достъп до него."/>
+  <STRING id="Error.1312" value="Невъзможно създаването на директория '[2]'.  Вече съществува файл с такова име.  Моля, преименувайте или премахнете файла и кликнете &quot;Опитай пак&quot; или кликнете &quot;Отказ&quot;, за да излезете."/>
+  <STRING id="Error.1313" value="Томът [2] в момента не е достъпен.  Моля, изберете друг."/>
+  <STRING id="Error.1314" value="Посочената пътека '[2]' не е достъпна."/>
+  <STRING id="Error.1315" value="Невъзможен записът в посочената папка: [2]."/>
+  <STRING id="Error.1316" value="Възникна мрежова грешка при опита за четене от файл: [2]"/>
+  <STRING id="Error.1317" value="Възникна грешка при опита за създаване на директория: [2]"/>
+  <STRING id="Error.1318" value="Възникна мрежова грешка при опита за създаване на директория: [2]"/>
+  <STRING id="Error.1319" value="Възникна мрежова грешка при опита за отваряне на архивен файл-източник: [2]"/>
+  <STRING id="Error.1320" value="Посочената пътека е прекалено дълга: [2]"/>
+  <STRING id="Error.1321" value="Инсталационната програма няма достатъчни права да модифицира този файл: [2]."/>
+  <STRING id="Error.1322" value="Част от пътеката до папка '[2]' е невалидна.  Тя или е празна, или надвишава дължината, позволена от системата."/>
+  <STRING id="Error.1323" value="Пътеката до папка '[2]' съдържа думи, които не са валидни за пътека до папка."/>
+  <STRING id="Error.1324" value="Пътеката до папка '[2]' съдържа невалиден знак."/>
+  <STRING id="Error.1325" value="'[2]' не е валидно кратко име на файл."/>
+  <STRING id="Error.1326" value="Грешка със сигурност на файл: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Невалидно устройство: [2]"/>
+  <STRING id="Error.1328" value="Грешка при прилагане на корекция към файл [2].  Вероятно файлът е бил актуализиран по друг начин и вече не може да се модифицира с тази корекция.  За повече информация се свържете с дистрибутора на корекцията.  {{Системна грешка: [3]}}"/>
+  <STRING id="Error.1329" value="Необходим файл не може да бъде инсталиран, защото архивният файл [2] не е подписан цифрово.  Това може да означава, че архивният файл е повреден."/>
+  <STRING id="Error.1330" value="Необходим файл не може да бъде инсталиран, защото архивният файл [2] има невалиден цифров подпис.  Това може да означава, че архивният файл е повреден.{{  Грешка [3] бе върната от WinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="Неуспешно правилно копиране на файл [2]: CRC грешка."/>
+  <STRING id="Error.1332" value="Неуспешно правилно преместване на файл [2]: CRC грешка."/>
+  <STRING id="Error.1333" value="Неуспешно правилно коригиране на файл [2]: CRC грешка."/>
+  <STRING id="Error.1334" value="Файлът '[2]' не може да се инсталира, защото не може да бъде намерен в архивен файл '[3]'. Това може да означава, че има мрежова грешка, грешка при четене от CD-ROM, или пък проблем с този пакет."/>
+  <STRING id="Error.1335" value="Архивният файл '[2]', необходим за тази инсталация, е повреден и не може да се използва. Това може да означава, че има мрежова грешка, грешка при четене от CD-ROM, или пък проблем с този пакет."/>
+  <STRING id="Error.1336" value="Възникна грешка при създаването на временен файл, необходим за приключването на тази инсталация.{{  Папка: [3]. Код на системна грешка: [2]}}"/>
+  <STRING id="Error.1401" value="Не може да се създаде ключ: [2]. {{ Системна грешка [3].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете с персонала за поддръжка. "/>
+  <STRING id="Error.1402" value="Не може да се отвори ключ: [2]. {{ Системна грешка [3].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете с персонала за поддръжка. "/>
+  <STRING id="Error.1403" value="Не може да се изтрие стойност [2] от ключ [3]. {{ Системна грешка [4].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете с персонала за поддръжка. "/>
+  <STRING id="Error.1404" value="Не може да се изтрие ключ: [2]. {{ Системна грешка [3].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете с персонала за поддръжка. "/>
+  <STRING id="Error.1405" value="Не може да се прочете стойност [2] от ключ [3]. {{ Системна грешка [4].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете с персонала за поддръжка. "/>
+  <STRING id="Error.1406" value="Не може да се запише стойност [2] в ключ [3]. {{ Системна грешка [4].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете с персонала за поддръжка."/>
+  <STRING id="Error.1407" value="Не могат да се извлекат имена на стойности от ключ [2]. {{ Системна грешка [3].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете с персонала за поддръжка."/>
+  <STRING id="Error.1408" value="Не могат да се извлекат имена на подключове от ключ [2]. {{ Системна грешка [3].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете с персонала за поддръжка."/>
+  <STRING id="Error.1409" value="Не може да се прочете информация за сигурност от ключ [2]. {{ Системна грешка [3].}}  Проверете дали имате достатъчен достъп до този ключ или се свържете с персонала за поддръжка."/>
+  <STRING id="Error.1410" value="Не може да се увеличи достъпното пространство в регистъра. За инсталирането на това приложение са необходими [2] KB свободно пространство в регистъра."/>
+  <STRING id="Error.1500" value="В момента тече друга инсталация. Трябва да приключите другата инсталация, преди да продължите с тази."/>
+  <STRING id="Error.1501" value="Грешка при достъп до защитени данни. Моля, проверете дали Windows Installer е конфигуриран правилно и опитайте инсталацията отново."/>
+  <STRING id="Error.1502" value="Потребител '[2]' преди е инициирал инсталация на продукта '[3]'.  Потребителят ще трябва да завърши онази инсталация, преди да може да използва продукта.  Сега текущата ви инсталация ще продължи."/>
+  <STRING id="Error.1503" value="Потребител '[2]' преди е инициирал инсталация на продукта '[3]'.  Потребителят ще трябва да завърши онази инсталация, преди да може да използва продукта."/>
+  <STRING id="Error.1601" value="Няма достатъчно дисково пространство -- Том: '[2]'; необходимо пространство: [3] KB; налично пространство: [4] KB.  Освободете дисково пространство и опитайте отново."/>
+  <STRING id="Error.1602" value="Наистина ли желаете да отмените?"/>
+  <STRING id="Error.1603" value="Файлът [2][3] се използва { от следния процес: Име: [4], Id: [5], Заглавие на прозорец: '[6]'}.  Затворете това приложение и опитайте отново."/>
+  <STRING id="Error.1604" value="Продуктът '[2]' вече е инсталиран, което пречи на инсталирането на този продукт.  Двата продукта са несъвместими."/>
+  <STRING id="Error.1605" value="Няма достатъчно дисково пространство на том '[2]', за да се продължи инсталацията с активирано възстановяване. Необходими са [3] KB, а има налични само [4] KB. Кликнете &quot;Игнорирай&quot;, за да продължите инсталацията, без да запазвате информация за възстановяване, кликнете &quot;Опитай пак&quot;, за да проверите отново за свободно пространство, или кликнете &quot;Отказ&quot;, за да затворите инсталационната програма."/>
+  <STRING id="Error.1606" value="Няма достъп до мрежова локация [2]."/>
+  <STRING id="Error.1607" value="Следните приложения трябва да се затворят, преди инсталацията да продължи:"/>
+  <STRING id="Error.1608" value="Не бяха намерени предишно инсталирани съвместими продукти на машината за инсталиране на този продукт."/>
+  <STRING id="Error.1609" value="Възникна грешка при прилагането на настройките за сигурност. [2] не е валиден потребител или група. Това може да е проблем с пакета или проблем при връзката с контролер на домейн в мрежата. Проверете мрежовата си връзка и кликнете &quot;Опитай пак&quot; или &quot;Отказ&quot;, за да прекратите инсталацията.       {{Не може да се открие SID на потребител, системна грешка [3]}}"/>
+  <STRING id="Error.1701" value="Ключът [2] не е валиден.  Проверете дали сте въвели правилния ключ."/>
+  <STRING id="Error.1702" value="Инсталационната програма трябва да рестартира системата ви, преди конфигурацията на [2] да продължи.  Кликнете &quot;Да&quot;, за да рестартирате сега, или &quot;Не&quot;, ако планирате да рестартирате по-късно."/>
+  <STRING id="Error.1703" value="Трябва да рестартирате системата, за да влязат в сила конфигурационните промени на [2]. Кликнете &quot;Да&quot;, за да рестартирате сега, или &quot;Не&quot;, ако планирате да рестартирате по-късно."/>
+  <STRING id="Error.1704" value="В момента има временно прекъсната инсталация на [2].  Трябва да отмените промените, направени от тази инсталация, преди да продължите.  Желаете ли да отмените тези промени?"/>
+  <STRING id="Error.1705" value="В момента протича предишна инсталация на този продукт.  Трябва да отмените промените, направени от тази инсталация, преди да продължите.  Желаете ли да отмените тези промени?"/>
+  <STRING id="Error.1706" value="Не може да се намери инсталационен пакет за продукта [2]. Опитайте инсталацията отново с валидно копие на инсталационния пакет '[3]'."/>
+  <STRING id="Error.1707" value="Инсталацията приключи успешно."/>
+  <STRING id="Error.1708" value="Инсталацията беше неуспешна."/>
+  <STRING id="Error.1709" value="Продукт: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Можете или да възстановите компютъра си в състоянието му от преди инсталацията, или да продължите инсталацията по-късно. Желаете ли да възстановите компютъра?"/>
+  <STRING id="Error.1711" value="Възникна грешка при записването на инсталационна информация на диск.  Проверете дали има достатъчно дисково пространство и кликнете &quot;Опитай пак&quot;, или пък кликнете &quot;Отказ&quot;, за да прекратите инсталацията."/>
+  <STRING id="Error.1712" value="Един или повече от файловете, необходими за възстановяване на компютъра ви в предишното му състояние, не могат да бъдат намерени.  Възстановяването е невъзможно."/>
+  <STRING id="Error.1713" value="[2] не може да инсталира един от необходимите си продукти. Свържете се със своята група за техническа поддръжка.  {{Системна грешка: [3].}}"/>
+  <STRING id="Error.1714" value="По-старата версия на [2] не може да се премахне.  Свържете се със своята група за техническа поддръжка.  {{Системна грешка [3].}}"/>
+  <STRING id="Error.1715" value="[2] инсталиран"/>
+  <STRING id="Error.1716" value="[2] конфигуриран"/>
+  <STRING id="Error.1717" value="[2] премахнат"/>
+  <STRING id="Error.1718" value="Файлът [2] беше отхвърлен от правилата за цифрови подписи."/>
+  <STRING id="Error.1719" value="Няма достъп до услугата Windows Installer. Това може да се случи, ако сте стартирали Windows в безопасен режим или ако Windows Installer не е бил инсталиран правилно. Потърсете помощ от персонала за поддръжка."/>
+  <STRING id="Error.1720" value="Има проблем с този пакет за Windows Installer. Някой скрипт, необходим за приключването на тази инсталация, не може да се изпълни. Свържете се с персонала за поддръжка или дистрибутора на пакета.  {{Действие [2] грешка в скрипт [3], [4]: [5] ред [6], колона [7], [8] }}"/>
+  <STRING id="Error.1721" value="Има проблем с този пакет за Windows Installer. Някоя програма, необходима за приключването на тази инсталация, не може да се стартира. Свържете се с персонала за поддръжка или дистрибутора на пакета. {{Действие: [2], локация: [3], команда: [4] }}"/>
+  <STRING id="Error.1722" value="Има проблем с този пакет за Windows Installer. Някоя програма, която се стартира като част от инсталацията, не е приключила по очаквания начин. Свържете се с персонала за поддръжка или дистрибутора на пакета.  {{Действие: [2], локация: [3], команда: [4] }}"/>
+  <STRING id="Error.1723" value="Има проблем с този пакет за Windows Installer. Някой DLL файл, необходим за приключването на тази инсталация, не може да се изпълни. Свържете се с персонала за поддръжка или дистрибутора на пакета.  {{Действие: [2], данни: [3], библиотека: [4] }}"/>
+  <STRING id="Error.1724" value="Премахването приключи успешно."/>
+  <STRING id="Error.1725" value="Премахването неуспешно."/>
+  <STRING id="Error.1726" value="Рекламирането приключи успешно."/>
+  <STRING id="Error.1727" value="Рекламирането приключи неуспешно."/>
+  <STRING id="Error.1728" value="Конфигурирането приключи успешно."/>
+  <STRING id="Error.1729" value="Конфигурирането приключи неуспешно."/>
+  <STRING id="Error.1730" value="Трябва да сте администратор, за да премахнете това приложение. За да премахнете това приложение, можете да влезете като администратор, или да поискате помощ от групата за техническа поддръжка."/>
+  <STRING id="Error.1801" value="Пътеката [2] не е валидна.  Моля, посочете валидна пътека."/>
+  <STRING id="Error.1802" value="Недостатъчно памет. Затворете другите приложения, преди да опитвате пак."/>
+  <STRING id="Error.1803" value="В устройство [2] няма диск. Моля, поставете диск и кликнете &quot;Опитай пак&quot;, или кликнете &quot;Отказ&quot;, за да се върнете към тома, избран преди това."/>
+  <STRING id="Error.1804" value="В устройство [2] няма диск. Моля, поставете диск и кликнете &quot;Опитай пак&quot;, или кликнете &quot;Отказ&quot;, за да се върнете към диалога за избор и да посочите друг том."/>
+  <STRING id="Error.1805" value="Папката [2] не съществува.  Моля, въведете пътека до съществуваща папка."/>
+  <STRING id="Error.1806" value="Нямате достатъчни привилегии за четене на тази папка."/>
+  <STRING id="Error.1807" value="Не може да се открие валидна целева папка за инсталиране."/>
+  <STRING id="Error.1901" value="Грешка при опит за четене от базата данни-източник за инсталация: [2]."/>
+  <STRING id="Error.1902" value="Насрочване на операция за рестартиране: Преименуване на файл [2] на [3]. Системата трябва да се рестартира, за да приключи операцията."/>
+  <STRING id="Error.1903" value="Насрочване на операция за рестартиране: Изтриване на файл [2]. Системата трябва да се рестартира, за да приключи операцията."/>
+  <STRING id="Error.1904" value="Модулът [2] не беше регистриран успешно.  HRESULT [3].  Свържете се с персонала за поддръжка."/>
+  <STRING id="Error.1905" value="Модулът [2] не беше дерегистриран успешно.  HRESULT [3].  Свържете се с персонала за поддръжка."/>
+  <STRING id="Error.1906" value="Каширането на пакет [2] неуспешно. Грешка: [3]. Свържете се с персонала за поддръжка."/>
+  <STRING id="Error.1907" value="Регистрирането на шрифт [2] неуспешно.  Проверете дали имате достатъчни права за инсталиране на шрифтове и дали системата поддържа този шрифт."/>
+  <STRING id="Error.1908" value="Дерегистрирането на шрифт [2] неуспешно. Проверете дали имате достатъчни права за премахване на шрифтове."/>
+  <STRING id="Error.1909" value="Създаването на Пряк път [2] неуспешно. Проверете дали целевата папка съществува и дали имате достъп до нея."/>
+  <STRING id="Error.1910" value="Премахването на Пряк път [2] неуспешно. Проверете дали прекият път съществува и дали имате достъп до него."/>
+  <STRING id="Error.1911" value="Регистрирането на типова библиотека за файла [2] неуспешно.  Свържете се с персонала за поддръжка."/>
+  <STRING id="Error.1912" value="Дерегистрирането на типова библиотека за файла [2] неуспешно.  Свържете се с персонала за поддръжка."/>
+  <STRING id="Error.1913" value="Актуализирането на ini файл [2][3] неуспешно.  Проверете дали файла съществува и дали имате достъп до него."/>
+  <STRING id="Error.1914" value="Насрочването на замяна на файл [3] с файл [2] след рестартиране неуспешно.  Проверете дали имате права за запис във файла [3]."/>
+  <STRING id="Error.1915" value="Грешка при премахване на мениджър на ODBC драйвер, ODBC грешка [2]: [3]. Свържете се с персонала за поддръжка."/>
+  <STRING id="Error.1916" value="Грешка при инсталиране на мениджър на ODBC драйвер, ODBC грешка [2]: [3]. Свържете се с персонала за поддръжка."/>
+  <STRING id="Error.1917" value="Грешка при премахване на мениджър на ODBC драйвер: [4], ODBC грешка [2]: [3]. Проверете дали имате достатъчни права за премахване на ODBC драйвери."/>
+  <STRING id="Error.1918" value="Грешка при инсталиране на ODBC драйвер: [4][5], ODBC грешка [2]: [3]. Проверете дали файла [4][6] съществува и дали имате достъп до него."/>
+  <STRING id="Error.1919" value="Грешка при конфигуриране на ODBC източник на данни: [4][5], ODBC грешка [2]: [3]. Проверете дали файла [4][6] съществува и дали имате достъп до него."/>
+  <STRING id="Error.1920" value="Услугата '[2]' ([3]) не може да се стартира.  Проверете дали имате достатъчни права за стартиране на системни услуги."/>
+  <STRING id="Error.1921" value="Услугата '[2]' ([3]) не може да се прекрати.  Проверете дали имате достатъчни права за прекратяване на системни услуги."/>
+  <STRING id="Error.1922" value="Услугата '[2]' ([3]) не може да се изтрие.  Проверете дали имате достатъчни права за премахване на системни услуги."/>
+  <STRING id="Error.1923" value="Услугата '[2]' ([3]) не може да се инсталира.  Проверете дали имате достатъчни права за инсталиране на системни услуги."/>
+  <STRING id="Error.1924" value="Обновяването на променливата за среда '[2]' неуспешно.  Проверете дали имате достатъчни права за модифициране на променливи за среда."/>
+  <STRING id="Error.1925" value="Нямате достатъчно права, за да приключите тази инсталация за всички потребители на тази машина.  Влезте в системата като администратор и опитайте инсталацията отново."/>
+  <STRING id="Error.1926" value="Нагласянето на сигурност за файла '[3]' неуспешно. Грешка: [2].  Проверете дали имате достатъчни права, за да модифицирате правата за сигурност за този файл."/>
+  <STRING id="Error.1927" value="Component Services (COM+ 1.0) не са инсталирани на този компютър.  Тази инсталация изисква Component Services, за да може да приключи успешно.  Component Services са достъпни в Windows 2000."/>
+  <STRING id="Error.1928" value="Грешка при регистриране на приложение COM+.  Потърсете повече информация от персонала за поддръжка."/>
+  <STRING id="Error.1929" value="Грешка при дерегистриране на приложение COM+.  Потърсете повече информация от персонала за поддръжка."/>
+  <STRING id="Error.1930" value="Описанието за услуга '[2]' ([3]) не може да се промени."/>
+  <STRING id="Error.1931" value="Услугата Windows Installer не може да актуализира системния файл [2], защото този файл е защитен от Windows.  Може да се наложи да актуализирате операционната си система, за да може програмата да работи нормално. {{Пакет версия: [3], Версия на защитен от ОС файл: [4]}}"/>
+  <STRING id="Error.1932" value="Услугата Windows Installer не може да актуализира защитения от Windows файл [2]. {{Пакет версия: [3], Версия на защитен от ОС файл: [4], SFP грешка: [5]}}"/>
+  <STRING id="Error.1933" value="Услугата Windows Installer не може да актуализира един или повече защитени от Windows файлове. {{SFP Грешка: [2].  Списък на защитените файлове:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Потребителските инсталации са забранени на тази машина."/>
+  <STRING id="Error.1935" value="Възникна грешка при инсталацията на компонента [2]. HRESULT: [3]. {{асемблен интерфейс: [4], функция: [5], асемблено име: [6]}}"/>
+  <STRING id="Error.4000" value="Невалиден сериен номер."/>
+  <STRING id="Error.4010" value="На този компютър вече е инсталирана по-нова версия на [ProductName]."/>
+  <STRING id="Error.4020" value="Възникна грешка в процеса на конфигурация на IIS&#10;Вашата оригинална IIS конфигурация ще бъде възстановена."/>
+  <STRING id="Error.4021" value="Уебсайтът “[2]” вече съществува на този сървър&#10;&#10;Желаете ли да прескочите този уебсайт и да продължите с инсталацията?"/>
+  <STRING id="Error.4022" value="Виртуалната директория “[2]” в уебсайта “[3]” вече съществува на този сървър.&#10;&#10;Желаете ли да прескочите тази виртуална директория и да продължите с инсталацията?"/>
+  <STRING id="Error.4023" value="Тази версия на IIS не се поддържа или IIS не е инсталиран напълно!&#10;&#10;Имате нужда от Internet Information Services 5.0 или по-нова версия."/>
+  <STRING id="Error.4024" value="Вече е стартиран уебсайт със същите данни за сървър.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Създаването на потребителски акаунт или група '[2]' на локалната машина невъзможно. Код за грешка: [3]. [4]"/>
+  <STRING id="Error.4102" value="Потребителският акаунт или група '[2]' вече съществува на локалната машина."/>
+  <STRING id="Error.4103" value="Премахването на потребителски акаунт или група '[2]' от локалната машина невъзможно. Код за грешка: [3]."/>
+  <STRING id="Error.4104" value="Потребителският акаунт или група '[2]' не съществува на локалната машина."/>
+  <STRING id="Error.4105" value="Възникна грешка при споделянето на '[2]' под име: '[3]'. Описание на грешка: [4]."/>
+  <STRING id="Error.4106" value="Възникна грешка при създаване на насрочена задача: '[2]'. Описание на грешка: [3]."/>
+  <STRING id="Error.4107" value="Възникна грешка при премахване на насрочена задача: '[2]'. Описание на грешка: [3]."/>
+  <STRING id="Error.4110" value="Заделянето на памет невъзможно."/>
+  <STRING id="Error.4111" value="Файлът не е намерен: [2]."/>
+  <STRING id="Error.4112" value="Файлът '[2]' не може да бъде прочетен."/>
+  <STRING id="Error.4113" value="Грешка при разбор на файл: '[2]' на ред: [3], колона: [4]. КодГрешка: [5]."/>
+  <STRING id="Error.4114" value="Неподдържано кодиране на XML файл."/>
+  <STRING id="Error.4115" value="Грешка при отваряне на файл: [2]."/>
+  <STRING id="Error.4116" value="Файлът '[2]' не може да бъде записан."/>
+  <STRING id="Error.4117" value="Неочакван базов елемент: &quot;[2]&quot; в XML файл: '[3]'."/>
+  <STRING id="Error.4120" value="Възникна грешка по време на процеса на конфигуриране на защитната стена на Windows.&#10;Ще бъде възстановена оригиналната конфигурация на защитната ви стена."/>
+  <STRING id="Error.4121" value="Невалидна пътека към имидж файл за обработка на защитна стена, или файлът не е намерен: [2]."/>
+  <STRING id="Error.4122" value="Невалиден порт/протокол на защитна стена: [2]."/>
+  <STRING id="Error.4123" value="Невалиден мрежов диапазон на защитна стена: [2]."/>
+  <STRING id="Error.4124" value="Възникна грешка при регистрирането на приложението със защитната стена на Windows: [2]."/>
+  <STRING id="Error.4125" value="Възникна грешка при регистрирането на порт със защитната стена на Windows: [2]."/>
+  <STRING id="Error.4130" value="Възникна грешка по време на процеса за конфигуриране на Game Explorer."/>
+  <STRING id="Error.4131" value="Родителският контрол ви пречи да играете играта: [2]."/>
+  <STRING id="Error.4140" value="Възникна грешка по време на процеса за изпълнение на SQL скрипт."/>
+  <STRING id="Error.4141" value="ODBC грешка: [2] ([3])."/>
+  <STRING id="Error.4142" value="ODBC връзка: таймаутът е надхвърлен."/>
+  <STRING id="Error.4143" value="Грешка при разбор на SQL скрипт: невалиден синтаксис."/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="байта"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Цялата функция ще бъде недостъпна"/>
+  <STRING id="UIText.MenuAdvertise" value="Функцията ще се инсталира при необходимост"/>
+  <STRING id="UIText.MenuAllCD" value="Цялата функция ще бъде инсталирана така, че да се стартира със CD"/>
+  <STRING id="UIText.MenuAllLocal" value="Цялата функция ще се инсталира на локалния твърд диск"/>
+  <STRING id="UIText.MenuAllNetwork" value="Цялата функция ще се инсталира така, че да се стартира от мрежа"/>
+  <STRING id="UIText.MenuCD" value="Ще се инсталира за стартиране със CD"/>
+  <STRING id="UIText.MenuLocal" value="Ще се инсталира на локален твърд диск"/>
+  <STRING id="UIText.MenuNetwork" value="Ще се инсталира за стартиране от мрежа"/>
+  <STRING id="UIText.ScriptInProgress" value="Събиране на необходимата информация..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Тази функция няма да се инсталира"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Тази функция ще се инсталира при необходимост"/>
+  <STRING id="UIText.SelAbsentCD" value="Тази функция ще се инсталира да стартира със CD"/>
+  <STRING id="UIText.SelAbsentLocal" value="Тази функция ще се инсталира на локалния твърд диск"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Тази функция ще се инсталира да стартира от мрежа"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Тази функиця ще остане недостъпна"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Ще се инсталира при необходимост"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Тази функция ще може да стартира със CD"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Тази функция ще се инсталира на локалния твърд диск"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Тази функция ще може да се стартира от мрежа"/>
+  <STRING id="UIText.SelCDAbsent" value="Тази функция ще бъде деинсталирана напълно, няма да можете да я стартирате със CD"/>
+  <STRING id="UIText.SelCDAdvertise" value="Тази функция ще премине от състояние за стартиране със CD до инсталиране при необходимост"/>
+  <STRING id="UIText.SelCDCD" value="Тази функция ще остане да се стартира със CD"/>
+  <STRING id="UIText.SelCDLocal" value="Тази функция ще премине от състояние на стартиране със CD към инсталиране на локалния твърд диск"/>
+  <STRING id="UIText.SelChildCostNeg" value="Тази функция освобождава [1] на твърдия ви диск."/>
+  <STRING id="UIText.SelChildCostPos" value="Тази функция изисква [1] на твърдия ви диск."/>
+  <STRING id="UIText.SelCostPending" value="Компилиране на разходи за тази функция..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Тази функция ще бъде премахната изцяло"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Тази функция ще бъде премахната от локалния твърд диск, но ще се инсталира при необходимост"/>
+  <STRING id="UIText.SelLocalCD" value="Тази функция ще бъде премахната от локалния твърд диск, но ще може да се стартира със CD"/>
+  <STRING id="UIText.SelLocalLocal" value="Тази функция ще остане на локалния ви твърд диск"/>
+  <STRING id="UIText.SelLocalNetwork" value="Тази функция ще бъде премахната от вашия локален твърд диск, но ще може да се стартира от мрежата"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Тази функция ще бъде деинсталирана напълно, няма да можете да я стартирате от мрежата"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Тази функция ще премине от състояние за стартиране от мрежа до инсталиране при необходимост"/>
+  <STRING id="UIText.SelNetworkLocal" value="Тази функция ще премине от състояние на стартиране от мрежа към инсталиране на локалния твърд диск"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Тази функция ще остане да се стартира от мрежата"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Тази функция освобождава [1] на твърдия ви диск. Избрани са [2] от [3] нейни подфункции. Тази подфункция освобождава [4] на твърдия ви диск."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Тази функция освобождава [1] на твърдия ви диск. Избрани са [2] от [3] нейни подфункции. Тази подфункция изисква [4] на твърдия ви диск."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Тази функция изисква [1] на твърдия ви диск. Избрани са [2] от [3] нейни подфункции. Тези подфункции освобождават [4] на твърдия ви диск."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Тази функция изисква [1] на твърдия ви диск. Избрани са [2] от [3] нейни подфункции. Тази подфункция изисква [4] на твърдия ви диск."/>
+  <STRING id="UIText.TimeRemaining" value="Оставащо време: {[1] минути }{[2] секунди}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Достъпни"/>
+  <STRING id="UIText.VolumeCostDifference" value="Разлика"/>
+  <STRING id="UIText.VolumeCostRequired" value="Изисквани"/>
+  <STRING id="UIText.VolumeCostSize" value="Размер на диска"/>
+  <STRING id="UIText.VolumeCostVolume" value="Том"/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.ODBCTestMsg" value="Моля, изчакайте, докато връзката се изпробва..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Търсене на SQL сървъри в мрежата..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.HttpPostMsg" value="Изпращане на събрани данни..."/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.IAgree#1" value="&amp;Приемам условията на Лицензното споразумение"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="&amp;Не приемам условията в лицензното споразумение"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="Да, &amp;регистрирай работата с тези видове файлове."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="Не, &amp;прескочи асоциирането с файлове."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Автоматично &amp;затвори приложенията и се опитай да ги рестартираш, когато инсталацията приключи."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="&amp;Не затваряй приложенията. (Ще бъде необходимо рестартиране.)"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="Да, &amp;премахни по-старите версии."/>
+  <STRING id="Property.AI_Upgrade_Question_No" value="Не, &amp;инсталирай паралелно с другите версии."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="Да, &amp;премахни всички по-стари версии."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="Не, &amp;деинсталирай само версията [AI_Replaced_Versions_List]."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; На&amp;зад"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="На&amp;зад"/>
+  <STRING id="Property.ButtonText_Browse" value="Раз&amp;листване..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Отказ"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Изход"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Край"/>
+  <STRING id="Property.Text_Finish" value="Край"/>
+  <STRING id="Property.ButtonText_Ignore" value="И&amp;гнорирай"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Инсталирай"/>
+  <STRING id="Property.Text_Install" value="Инсталирай"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Напред &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Напред"/>
+  <STRING id="Property.Text_Next" value="Напред"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Не"/>
+  <STRING id="Property.ButtonText_OK" value="ОК"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Премахване"/>
+  <STRING id="Property.ButtonText_Repair" value="Поп&amp;равка"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Нулиране"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Възобновяване"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Опитай пак"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Върни"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Да"/>
+  <STRING id="Property.Text_Yes" value="Да"/>
+  <STRING id="Property.CtrlEvtchanges" value="променя"/>
+  <STRING id="Property.CtrlEvtChanging" value="Променяне"/>
+  <STRING id="Property.CtrlEvtremoves" value="премахва"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Премахване"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Поправяне"/>
+  <STRING id="Property.CtrlEvtrepairs" value="поправя"/>
+  <STRING id="Property.InstallModeComplete" value="Пълна"/>
+  <STRING id="Property.InstallModeCustom" value="Ръчна"/>
+  <STRING id="Property.InstallModeTypical" value="Типична"/>
+  <STRING id="Property.Progress1" value="Инсталиране"/>
+  <STRING id="Property.Progress2" value="инсталира"/>
+  <STRING id="Property.Setup" value="Инсталация"/>
+  <STRING id="Property.Wizard" value="Съветник за инсталация"/>
+  <!-- Trialware Settings table-->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Купи"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Желаете ли да отворите страницата за покупка на %TrialName%?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Невалиден регистрационен ключ"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="Регистрационният ключ е невалиден."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="Пробен период на %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Натиснете бутона &quot;Край&quot;, за да валидирате ключа и да продължите."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Моля, въведете всички редове от получения регистрационен ключ."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Регистрация"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Купи"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Посетете страницата за покупка на %TrialName%, за да се сдобиете с лиценз"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="Пробният период на %TrialName% изтече"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="Вашият %Quantity%-дневен пробен период изтече. Ако желаете да продължите да използвате %TrialName%, трябва да закупите лиценз и да регистрирате приложението."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="Вашият пробен период от %Quantity% стартирания изтече. Ако желаете да продължите да използвате %TrialName%, трябва да закупите лиценз и да регистрирате приложението."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Добре дошли в пробния период на %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Регистриране"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Въведете регистрационен ключ"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Изпробвай"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Изтекъл"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Купи"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Посетете страницата за покупка на %TrialName%, за да се сдобиете с лиценз"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="Пробен период на %TrialName% (остават %TrialLeft% дни)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="Пробен период на %TrialName% (остават %TrialLeft% стартирания)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="Вие използвате пробната версия на %TrialName% от [|Manufacturer]. Остават ви %TrialLeft% дни."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="Вие използвате пробната версия на %TrialName% от [|Manufacturer]. Остават ви %TrialLeft% стартирания."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Добре дошли в пробния период на %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Регистриране"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Въведете регистрационен ключ"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Изпробвай"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Продължи пробния период на %TrialName%"/>
+</DICTIONARY>

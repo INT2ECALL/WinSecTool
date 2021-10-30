@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.5" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B98C99972403D961902A9E323C4B9" DisplayName="MySQL Server 5.5.53 x86" VersionMin="5.5"
+      SetupFileUrl="http://dev.mysql.com/get/Downloads/MySQL-5.5/mysql-5.5.53-win32.msi"
+      Location="1" ExactSize="41164800" MD5="1e24d0f1b29219045ae05df100e0c07e"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="f" TargetName="MySQL Server 5.5"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B98C99972403D961902A9E323C4B9Version" Prereq="B98C99972403D961902A9E323C4B9" SearchType="2"
+      SearchString="HKLM\SOFTWARE\MySQL AB\MySQL Server 5.5\Version" VerMin="5.5.53"
+      Order="1" Property="PreReqSearch_B98C99972403D961902A9E323C4B9"/>
+  </COMPONENT>
+</FRAGMENT>

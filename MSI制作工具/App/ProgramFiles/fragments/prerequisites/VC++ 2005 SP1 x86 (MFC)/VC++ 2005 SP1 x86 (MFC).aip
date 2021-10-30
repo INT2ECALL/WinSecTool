@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F477261_82C3_4613_8028_BC4B6AA8AD37" DisplayName="Visual C++ 2005 SP1 x86 (MFC Security Update)" VersionMin="8.0"
+      SetupFileUrl="http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.exe"
+      Location="1" ExactSize="2707352" MD5="ce2922f83fb4b170affce0ea448b107b"
+      NoUiComLine="/q"
+      Operator="0" Options="f" TargetName="Visual C++ 2005 SP1"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F477261_82C3_4613_8028_BC4B6AA8AD37Install" Prereq="F477261_82C3_4613_8028_BC4B6AA8AD37" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033\Install" RefContent="M1"
+      Order="1" Property="PreReqSearch_F477261_82C3_4613_8028_BC4B6AA8AD37"/>
+    <ROW SearchKey="F477261_82C3_4613_8028_BC4B6AA8AD37SP" Prereq="F477261_82C3_4613_8028_BC4B6AA8AD37" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\8.0\RED\1033\SP" RefContent="M1"
+      Order="2" Property="PreReqSearch_1_F477261_82C3_4613_8028_BC4B6AA8AD37"/>
+  </COMPONENT>
+</FRAGMENT>

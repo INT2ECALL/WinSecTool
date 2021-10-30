@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="upgradelogoicon" SourcePath="&lt;AI_RES_COLOR&gt;UpgradeLogo.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_Upgrade_Question_Yes" ValueLocId="Property.AI_Upgrade_Question_Yes" Type="4"/>
+    <ROW Property="AI_Upgrade_Question_No" ValueLocId="Property.AI_Upgrade_Question_No" Type="4"/>
+    <ROW Property="AI_Upgrade_Replace_Question_Yes" ValueLocId="Property.AI_Upgrade_Replace_Question_Yes" Type="4"/>
+    <ROW Property="AI_Upgrade_Replace_Question_No" ValueLocId="Property.AI_Upgrade_Replace_Question_No" Type="4"/>
+    <ROW Property="UpgradeLogoIcon" Value="upgradelogoicon" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="UpgradeDlg" Control_="Question" Action="Hide" Condition="AI_REPLACE_PRODUCTS"/>
+    <ROW Dialog_="UpgradeDlg" Control_="QuestionReplace" Action="Hide" Condition="NOT AI_REPLACE_PRODUCTS"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="UpgradeDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="UpgradeDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UpgradeDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UpgradeDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="UpgradeDlg" Control="Title" Type="Text" X="55" Y="23" Width="380" Height="40" Attributes="196611" Text="Search and upgrade older versions of [ProductName]" TextStyle="TitleFont" Order="500" TextLocId="Azure.Control.Text.UpgradeDlg#Title"/>
+    <ROW Dialog_="UpgradeDlg" Control="Question" Type="Text" X="60" Y="107" Width="360" Height="30" Attributes="196611" Text="The [Wizard] can search for older versions of [ProductName] and remove them. Do you want to remove those versions?" Order="600" TextLocId="Control.Text.UpgradeDlg#Question"/>
+    <ROW Dialog_="UpgradeDlg" Control="QuestionReplace" Type="Text" X="61" Y="107" Width="314" Height="30" Attributes="196611" Order="700" TextLocId="Control.Text.UpgradeDlg#QuestionReplace"/>
+    <ROW Dialog_="UpgradeDlg" Control="Buttons" Type="RadioButtonGroup" X="70" Y="142" Width="330" Height="40" Attributes="3" Property="AI_UPGRADE" Order="800"/>
+    <ROW Dialog_="UpgradeDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[UpgradeLogoIcon]" Order="900"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="UpgradeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="UpgradeDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.UpgradeDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="AI_UPGRADE" Order="1" Value="Yes" X="5" Y="0" Width="250" Height="15" Text="[AI_Upgrade_Question_Yes]" TextStyle="DlgFont8" TextLocId="-"/>
+    <ROW Property="AI_UPGRADE" Order="2" Value="No" X="5" Y="20" Width="250" Height="15" Text="[AI_Upgrade_Question_No]" TextStyle="DlgFont8" TextLocId="-"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.3" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D8446AF6_A84B_40ED_93E6_8FEA95829A1E" DisplayName="Visual Studio Tools for Office 2.0 Runtime" VersionMin="8.0"
+      SetupFileUrl="http://download.microsoft.com/download/c/2/1/c21c3b6b-0f45-42fb-91e1-f064d1d5f659/vstor.exe"
+      Location="1" ExactSize="1352184" MD5="91310591171e16c07e3cd07c09da2a59"
+      WinNTVersions="Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/q"
+      Operator="0" Options="f" TargetName="VSTO 2.0 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D8446AF6_A84B_40ED_93E6_8FEA95829A1EInstall" Prereq="D8446AF6_A84B_40ED_93E6_8FEA95829A1E" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\VSTO Runtime Setup\v2.0.50727\Install" RefContent="M1"
+      Order="1" Property="PreReqSearch_D8446AF6_A84B_40ED_93E6_8FEA95829A1E"/>
+    <ROW SearchKey="D8446AF6_A84B_40ED_93E6_8FEA95829A1EUpdate" Prereq="D8446AF6_A84B_40ED_93E6_8FEA95829A1E" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\VSTO Runtime Setup\v2.0.50727\Update" RefContent="M3"
+      Order="2" Property="PreReqSearch_1_D8446AF6_A84B_40ED_93E6_8FEA95829A1E"/>
+  </COMPONENT>
+</FRAGMENT>

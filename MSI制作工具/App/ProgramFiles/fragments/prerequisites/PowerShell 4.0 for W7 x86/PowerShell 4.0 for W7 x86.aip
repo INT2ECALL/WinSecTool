@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="ECAE0BA4172918D571118A0CD2F" DisplayName="PowerShell 4.0 for Windows 7 x86" VersionMin="4.0"
+      SetupFileUrl="http://download.microsoft.com/download/3/D/6/3D61D262-8549-4769-A660-230B67E15B25/Windows6.1-KB2819745-x86-MultiPkg.msu"
+      Location="1" ExactSize="14736102" MD5="680a8b76da952df2308335ed128e2bbe"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista x86, Windows Server 2008 x86, Windows 7 RTM x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="y" TargetName="PowerShell 4.0"/>
+    <ATTRIBUTE name="GroupName" value="Windows Management Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="ECAE0BA4172918D571118A0CD2FPowerShellVersion" Prereq="ECAE0BA4172918D571118A0CD2F" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine\PowerShellVersion" VerMin="4.0"
+      Order="1" Property="PreReqSearch_ECAE0BA4172918D571118A0CD2F"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="E1F6EB5E_F84F_4E25_BA49_6DFFF987C29D" DisplayName=".NET Framework 2.0 x86"
+      SetupFileUrl="http://download.microsoft.com/download/5/6/7/567758a3-759e-473e-bf8f-52154438565a/dotnetfx.exe"
+      Location="1" ExactSize="23510720" MD5="93a13358898a54643adbca67d1533462"
+      WinNTVersions="Windows Vista x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/q:a /c:&quot;install /l /q&quot;"
+      Operator="0" Options="y" TargetName=".NET Framework 2.0"/>
+    <ATTRIBUTE name="GroupName" value=".NET Framework"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="E1F6EB5E_F84F_4E25_BA49_6DFFF987C29DInstall" Prereq="E1F6EB5E_F84F_4E25_BA49_6DFFF987C29D" SearchType="9"
+      SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\Install" RefContent="M1"
+      Order="1" Property="PreReqSearch_E1F6EB5E_F84F_4E25_BA49_6DFFF987C29D"/>
+  </COMPONENT>
+</FRAGMENT>

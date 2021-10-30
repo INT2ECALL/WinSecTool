@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="FB2798DB8076434CB146DC1597758130" DisplayName="Microsoft System CLR Types for SQL Server 2012 SP3 x64" VersionMin="11.3"
+      SetupFileUrl="https://download.microsoft.com/download/3/6/1/3610D28C-D02D-4663-A850-CB77A24A5361/ENU/x64/SQLSysClrTypes.msi"
+      Location="1" ExactSize="2531328" MD5="df24325ae8b0b9bce86009502c82ea51"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64, Windows Vista SP1 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="fx" TargetName="Microsoft System CLR Types for SQL Server 2012?SQLSysClrTypes_x64.msi"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="FB2798DB8076434CB146DC1597758130Version" Prereq="FB2798DB8076434CB146DC1597758130" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server 2012 Redist\SQL Server System CLR Types\CurrentVersion\Version" VerMin="11.3.6020.0"
+      Order="1" Property="PreReqSearch_FB2798DB8076434CB146DC1597758130"/>
+  </COMPONENT>
+</FRAGMENT>

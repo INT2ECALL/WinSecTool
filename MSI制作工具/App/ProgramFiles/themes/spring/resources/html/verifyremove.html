@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Dialog</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="varstyle.css" media="screen" />
+
+  <script type="text/javascript" src="jquery-1.3.2.js"></script>
+
+  <script type="text/javascript" src="common.js"></script>
+
+  <script type="text/javascript">
+    //hook the window load event ("event" argument will be automatically populated by standard browsers)
+    $(document).ready(function() {
+
+      /* START XXX */
+
+      InitPage();
+      UpdateBackGroundInd("DialogBitmap", 'main');
+      UpdateBackGroundInd("InstallLogoIcon", 'logo');
+
+      ResolveTag("p");
+      ResolveTag("h1"); ResolveTag("span");
+
+      var a = ['leftBtnA', 'leftBtnSpan', 'rightBtnA', 'rightBtnSpan', 'cancelBtnA', 'cancelBtnSpan'];
+      UpdateBackGroundIndVec("BannerBitmap", a);
+      ShowFooter();
+
+      /* END XXX */
+
+    });
+
+    function ActionText(aText) {
+      document.getElementById('actiontext').innerHTML = aText;
+    }
+    function ActionData(aData) {
+      document.getElementById('actiondata').innerHTML = aData;
+    }
+  </script>
+
+  <!--[if IE 6]>
+	<script src="pngfix/DD_belatedPNG_0.0.8a.js"></script>
+	<script>
+	  if(screen.deviceXDPI == 96) DD_belatedPNG.fix('img,#logoBig,#logo');
+	</script>
+	<![endif]-->
+</head>
+<body>
+  <!-- Background will be changed at load with the one specified in Binary... this default value is used for openning the HTML in other browser aka debugging -->
+  <div id="main" style="background-image: url(../background.jpg);">
+    <div id="header">
+      <div id="logo" style="background-image: url(../InstallLogo.png);">
+      </div>
+      <h1 formatted="twice" keepamp="true" style="visibility: hidden">
+        [VerifyRemoveDlgTitle]</h1>
+      <div class="clear">
+      </div>
+
+      <script type="text/javascript">
+        AdvinstTextMark();
+      </script>
+
+    </div>
+    <div id="content">
+      <p class="description" id="desc" formatted="twice" keepamp="true" style="visibility: hidden">
+        [VerifyRemoveDlgDescription]</p>
+    </div>
+    <div id="footer" style="visibility: hidden">
+      <div class="button-group">
+        <div id="leftBtnDiv" style="background-image: url(../button.bmp);" class="buttonwrapper">
+          <a id="leftBtnA" style="background-image: url(../button.bmp);" onclick="external.MsiPublishEvents('Back');"
+            href="#"><b>
+              <img src="back.png" width="16" height="16" />
+            </b><span id="leftBtnSpan" style="background-image: url(../button.bmp);" formatted="noarrow">
+              [ButtonText_Back]</span> </a>
+        </div>
+        <div id="rightBtnDiv" style="background-image: url(../button.bmp);" class="buttonwrapper buttonwrapper-right">
+          <a id="rightBtnA" style="background-image: url(../button.bmp);" onclick="external.MsiPublishEvents('Remove');"
+            href="#"><b>
+              <img src="next.png" width="16" height="16" />
+            </b><span id="rightBtnSpan" style="background-image: url(../button.bmp);" formatted="noarrow">
+              [ButtonText_Remove]</span> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

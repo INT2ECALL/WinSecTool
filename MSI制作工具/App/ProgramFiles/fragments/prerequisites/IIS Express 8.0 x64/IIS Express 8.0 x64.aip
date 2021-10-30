@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="BCF262C2C6C42B5BF1CEBF790F55C07" DisplayName="IIS Express 8.0 x64" VersionMin="8.0"
+      SetupFileUrl="http://download.microsoft.com/download/1/6/3/163BBBDE-5523-416D-A293-EA0492020E4A/iisexpress_8_0_RTM_x64_en-US.msi"
+      Location="1" ExactSize="6635520" MD5="2473bb5146e3317a616011c636549db6"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xf" TargetName="IIS Express 8.0"/>
+    <ATTRIBUTE name="GroupName" value="Web Server"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="BCF262C2C6C42B5BF1CEBF790F55C07Version" Prereq="BCF262C2C6C42B5BF1CEBF790F55C07" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\IISExpress\8.0\Version" VerMin="8.0.1557"
+      Order="1" Property="PreReqSearch_BCF262C2C6C42B5BF1CEBF790F55C07"/>
+  </COMPONENT>
+</FRAGMENT>

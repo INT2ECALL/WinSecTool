@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="nb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Ny mappe"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Duplikat %s av %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Ny variabel"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Beskrivelse"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Funksjon"/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Ny fil"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Ny nøkkel"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Ny seksjon"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Ny verdi"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Ditt produkt"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] kan ikke bli installert på system med versjoner av Adobe Reader lavere enn [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] kan ikke bli installert på system med lavere fargekvalitet enn [AI_REQUIRED_COLOR_QUALITY] bitar."/>
+  <STRING id="AI.LaunchCondition.Description" value="Start bindingsbeskrivelse"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] kan ikke bli installert på system med versjoner av DirectX lavere enn [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] kan ikke bli installert på system med versjoner av .NET Framework lavere enn [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] kan ikke bli installert på system med versjoner av .NET Core lavere enn [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] kan ikke bli installert på system med Internet Explorer-versjoner lavere enn [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] kan ikke bli installert på system med versjoner av Internet Information Services lavere enn [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] kan ikke bli installert på system med versjoner av JRE lavere enn [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] kan ikke bli installert på [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] kan ikke bli installert på [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] kan ikke bli installert på [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] kan ikke bli installert på [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] kan ikke bli installert på [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] kan ikke bli installert på [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] krever administrative rettigheter for å bli installert."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] kan ikke bli installert på system med mindre fysisk minne enn [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] kan ikke bli installert på system med skjermoppløsning lavere enn [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] kan ikke bli installert på system som kjører på virtuelle maskiner."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] kan ikke bli installert på systemer med Windows Installer lavere enn [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="YourFile.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Denne installasjonsdatabasen inneholder logikk og data som er nødvendig for å installere [|ProductName]."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Ditt firma"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Din kombinasjonsmodul"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Denne databasen inneholder struktur og data som er nødvendig for å installere komponenten &lt;module name&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="Ditt program"/>
+  <STRING id="AI.Property.DefaultValue" value="Din verdi"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Denne pakken inneholder en kombinasjonsmodul som har blitt laget med en prøveversjon av Advanced Installer. Du kan bare bruke den til evalueringsformål."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Denne pakken ble laget med en prøveversjon av Advanced Installer. Du kan kun bruke den til evalueringsformål."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Advarsel"/>
+  <STRING id="AI.Registry.DefaultKey" value="Ny_nøkkel"/>
+  <STRING id="AI.Registry.DefaultName" value="Ny verdi"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="DinFil.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="DinVerdi"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="TjenesteNavn"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Beskrivelse av tjenesten"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Din tjeneste"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Ny Share"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Snarvei til Din kommando"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Snarvei til"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Avinstaller"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Åpne"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Ny fil"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.BrowseDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.CancelDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.ErrorDlg" value="Installer informasjon"/>
+  <STRING id="Dialog.ExitDialog" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.FatalError" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.FilesInUse" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.FolderDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[Setup] for [ProductName]"/>
+  <STRING id="Dialog.PrepareDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.ProgressDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.ResumeDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.UserExit" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.TemplateDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[Setup] av [ProductName]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Søk i:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Bla frem til ønsket mappe"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Lag en ny mappe|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Navn på mappe:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Endre ønsket mappe"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Opp et nivå|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Angi en lokasjon på nettverket for installasjonsfiler til [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Angi en nettverkslokasjon eller trykk Bla gjennom for å finne en."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Nettverkslokasjon"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="CD &amp;nøkkel:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Angi ditt firmanavn"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Angi navnet på din organisasjon i feltet under. Det vil bli brukt som standard firmanavn i etterfølgende installasjoner av [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Firmainformasjon"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="Denne [Wizard] vil lage installasjonsfiler av [ProductName], på angitt nettverkslokasjon.  Trykk [Text_Next] for å fortsette eller Avbryt for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Velkommen til [Wizard] for [ProductName]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Søk i:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Bla frem mappelokasjon"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Lage en ny mappe|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Mappe navn:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Endre nåværende mappelokasjon"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Opp et nivå|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Informasjonssymbol|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Er du sikker på at du vil avbryte [ProductName] installasjonen?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Velg måten du vil at funksjoner skal installeres."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="&amp;Disk bruk"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Flerlinjebeskrivelse av valgte element."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Størrelse av valgte element."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Sti til valget&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Lokasjon:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Trykk på symbolene i treet under for å endre måten funksjonene vil bli installert."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Tilpassetoppsett"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Tre med valg"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Nødvendig diskplass for installasjon av valgte funksjoner."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="De valgte volumene (hvis noen) har ikke nok diskplass for valgte funksjoner. Du kan enten fjerne noen filer fra valgte volumer, eller velge å installere funksjoner til lokale drev, eller velge andre destinasjonsdrev."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Nødvendig diskplass"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Informasjonssymbol|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Informasjonstekst"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Trykk Fullfør-knappen for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Start [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Fullfører [Wizard] for [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Se på lesmeg-filen"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Tilknytt [ProductName] til filtyper."/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="Nå vil [Wizard] registrere [ProductName] for å håndtere følgende filtyper: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Filtilknytning"/>
+  <STRING id="Control.Text.FatalError#Description1" value="[ProductName] installasjon ble avsluttet for tidlig på grunn av en feil.  Ditt system har ikke blitt endret. For å installere dette programmet på et senere tidspunkt, kjør installasjonen igjen."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Trykk på Fullfør-knappen for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] avsluttet for tidlig"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Noen filer som har behov for oppdatering er i bruk."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Følgende programmer har filer i bruk som har behov for oppdatering av dette oppsettet. Avslutt programmene og trykk Gjenta for å fortsette installasjonen eller Avbryt for å avslutte den."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Filer i bruk"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Dette er mappen hvor [ProductName] vil bli installert."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Mappe:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="For å installere i denne mappen, trykk &quot;[Text_Next]&quot;. For å installere i en annen mappe, skriv inn nedenfor eller trykk &quot;Bla gjennom&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Velg installasjonsmappe"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_nb.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Vennligst les følgende lisensavtale nøye."/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Lisensavtale for sluttbruker."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Endre installasjon|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Endre"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Tillater brukere å endre måten funksjoner blir installert."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Velg operasjonen du ønsker utført."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Fjern installasjon|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Fjern"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Fjerner [ProductName] fra din datamaskin."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Reparer installasjon|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Re&amp;parer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Reparerer feil i siste installasjonstilstand - fikser manglende eller ødelagte filer, snarveier og registeroppføringer."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Endre, reparere eller fjerne installasjonen"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="Denne [Wizard] gjør det mulig for deg å endre måten [ProductName] sine funksjoner er installert på din datamaskin eller fjerne [ProductName] helt.  Trykk [Text_Next] for å fortsette eller Avbryt for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Velkommen til [Wizard] for [ProductName]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Nødvendig diskplass for installasjonen overgår det som er ledig."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="De merkede volumer har ikke nok diskplass for valgte funksjoner.  Du kan enten fjerne noen filer fra merkede volumer, eller velge å installere mindre funksjoner til lokale drev, eller velge andre destinasjonsdrev."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Ikke mer diskplass"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Nødvendig diskplass for installasjon overgår det som er tilgjengelig."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="De merkede volumer har ikke nok diskplass for valgte funksjoner. Du kan enten fjerne noen filer fra merkede volumer, eller velge å installere mindre funksjoner til lokale drev, eller velge andre destinasjonsdrev."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Alternativt kan du velge å slå av installererens rulle-tilbake-funksjonalitet. Dette tillater installasjonsprogrammet å gjenopprette din datamaskins opprinnelige tilstand om installasjonen skulle bli avbrutt.  Trykk Ja om du ønsker å ta risikoen ved å slå av rulle-tilbake."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Ikke mer diskplass"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] vil installere oppgraderingspakke for [ProductName] på maskinen din. Trykk [Text_Next] for å  forsette eller Avbryt for å avslutte [Wizard] for oppgradering."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Velkommen til [Wizard] for oppdatering av [ProductName]"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Vennligst vent mens [Wizard] gjør klart til å vise deg gjennom installasjonen."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Velkommen til [Wizard] for [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Fremdrift ferdig"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Status:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Vennligst vent mens [Wizard] [Progress2] [ProductName]. Dette kan ta flere minutter."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Vennligst les påfølgende tekst nøye"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_nb.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Lesmeg fil"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="Nå vil [Wizard] gjøre ferdig installasjonen av [ProductName] på din datamaskin.  Trykk Installere for å fortsette eller Avbryt for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Fortsetter [Wizard] for [ProductName]"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Fullstendig installasjon|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="F&amp;ullstendig"/>
+  <STRING id="Property.Text_Complete" value="Fullstendig"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Alle programfunksjoner vil bli installert.  (Krever mest diskplass)"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Tilpasset installasjon|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="T&amp;ilpasset"/>
+  <STRING id="Property.Text_Custom" value="Tilpasset"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Gir brukere muligheten å velge hvilke programfunksjoner som blir installert og hvor de skal installeres. Anbefales for erfarne brukere."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Velg oppsettype som best passer dine behov"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Velg oppsettype"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Vanlig installasjon|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Vanlig"/>
+  <STRING id="Property.Text_Typical" value="Vanlig"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Installerer de mest vanlige programfunksjoner. Anbefalt for de fleste brukere."/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Søk etter og oppgrader eldre versjoner av [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Avansert installasjon"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] kan søke etter eldre versjoner av [ProductName] og fjerne dem. Ønsker du å fjerne disse versjonene?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] har oppdaget at du valgte å installere til ei mappe som også blir brukt av versjon [AI_Replaced_Versions_List] av [ProductName]. Ønsker du også å fjerne alle andre gamle versjoner?"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Oppgrader gamle versjoner"/>
+  <STRING id="Control.Text.UserExit#Description1" value="[ProductName] installasjon ble avbrutt.  Ditt system har ikke blitt endret. For å installere dette programmet på et senere tidspunkt, kjør installasjonen igjen."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Trykk Fullfør-knappen for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="[Wizard] for [ProductName] ble avbrutt"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Serienummer:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Vennligst skriv inn din kundeinformasjon"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Brukernavn:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Organisasjon:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Kundeinformasjon"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="Nå er [Wizard] klar til å starte [ProductName] installasjon"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Trykk Installere for å starte installasjonen.  Hvis du ønsker å gå gjennom noen av dine valg, trykk Tilbake.  Trykk Avbryt for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Klar for installering"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Du har valgt å fjerne programmet fra din datamaskin."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Trykk Fjerne for å fjerne [ProductName] fra din datamaskin.  Hvis du vil se gjennom eller endre noen av valgene, trykk Tilbake.  Trykk Avbryt for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Fjern [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="Nå er [Wizard] klar til å begynne reparasjon av [ProductName]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Trykk Reparer for å reparere installasjonen av [ProductName].  Hvis du ønsker å gå gjennom noen av dine valg, trykk Tilbake.  Trykk Avbryt for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Reparer [ProductName]"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Utropssymbol|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Vennligst vent mens installasjonsprogrammet kalkulerer behov for diskplass."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="Nå vil [Wizard] installere [ProductName] på din datamaskin.  Trykk [Text_Next] for å fortsette eller Avbryt for å avslutte [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Velkommen til [Wizard] for [ProductName]"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Konfigurer Snarveier"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Lag snarveier for applikasjonen"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Lag snarvei for [ProductName] på følgende steder:"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Skrivebord"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Startmeny programmappe"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Hurtigstart linje"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Oppstartsmappe"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Startmeny snarveismappe:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="For å installere snarveier i denne mappen, klikk på &quot;[Text_Next]&quot;. For å installere i en annen mappe, skriv inn nedenfor, eller velg en mappe fra kombinasjons boksen."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Dette er mappen hvor [ProductName] snarveier vil bli installert."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Velg Startmeny snarveismappen"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="For å installere i en undermappe, legg til undermappens navn, separert med en &quot;\&quot;."/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Database:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC ressurs:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Passord:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Port:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Server:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Brukernavn:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Konfigurer SQL tilgang..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL database"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Ny dialog beskrivelse..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Ny dialog"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Generer ny(Vent) dialog"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Enkelte filer som trengs å oppdatere er i bruk."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Følgende program bruker filer som trengs å oppdateres av denne installasjonen."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Filer er i bruk"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Noen filer som trenger å bli oppdatert er i bruk."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Følgende programmer bruker filer som trenger å bli oppdatert i denne installasjonen."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Filer i bruk"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Lager snarveier for programmene"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Skrivebord"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Verktøylinje for hurtigstart"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Lager snarveier for [ProductName] på følgende steder:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Programmappe på Startmeny"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Oppstartsmappe"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Konfigurerer snarveier"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Database:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Konfigurerer SQL-tilkobling..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="ODBC-ressurs:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Passord:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Port:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Server:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="SQL-database"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Brukernavn:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Dette er mappa der snarveier for [ProductName] blir installert."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="For å installere i en undermappe, legg til navn på undermappen, adskilt av en &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="Mappe for snarveier på &amp;Startmeny:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="For å installere snarveier i denne mappen, klikk &quot;Next&quot;. For å installere i en annen mappe, skriv inn navn på denne under eller velg en fra kombinasjonsboksen."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Velg mappe for snarveier på Startmeny:"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Beskrivelse av ny dialogboks..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Ny dialogboks"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Ny Spawn(Wait) Dialog"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Annonserer program"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Tildeler plass i register"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Ledig plass: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="Søker etter installerte programmer"/>
+  <STRING id="ActionText.Template.AppSearch" value="Egenskap: [1], Signatur: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="Tilknytter kjørbare enheter"/>
+  <STRING id="ActionText.Template.BindImage" value="Fil: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Søker etter kvalifiserte produkter"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Regner ut nødvendig plass"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Regner ut nødvendig plass"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Lager mapper"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Mappe: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Lager snarveier"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Snarvei: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Sletter tjenester"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Tjeneste: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Lager duplikat filer"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Fil: [1],  Katalog: [9],  Størrelse: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="Regner ut nødvendig plass"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Søker etter relaterte programmer"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Fant program: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Genererer skriptoperasjoner for handling:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Kopierer filer for nettverksinstallasjon"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Fil: [1], Katalog: [9], Størrelse: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Kopierer nye filer"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Fil: [1],  Katalog: [9],  Størrelse: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Installerer ODBC komponenter"/>
+  <STRING id="ActionText.Description.InstallServices" value="Installerer nye tjenester"/>
+  <STRING id="ActionText.Template.InstallServices" value="Tjeneste: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Installerer systemkatalog"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Fil: [1],  Bindinger: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Validerer installasjon"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Evaluerer startforhold"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Migrerer funksjontilstander for beslektede programmer"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Program: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Flytter filer"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Fil: [1],  Katalog: [9],  Størrelse: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Publiserer monteringsinformasjon"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Programkontekst:[1], Monteringsnavn:[2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Avpubliserer monteringsinformasjon"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Programkontekst:[1], Monteringsnavn:[2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Fikser filer"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Fil: [1],  Katalog: [2],  Størrelse: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Oppdaterer komponentregistrering"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Publiserer kvalifiserte komponenter"/>
+  <STRING id="ActionText.Template.PublishComponents" value="Komponent ID: [1], Kvalifiserer: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Publiserer produktfunksjoner"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Funksjon: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Publiserer produktinformasjon"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Registrerer klassetjenere"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Klasse Id: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Registrerer COM+ programmer og komponenter"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="AppId: [1]{{, AppType: [2], Brukere: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Registrerer utvidelsestjenester"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Utvidelse: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Registrerer skrifter"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Skrift: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Registrerer MIME informasjon"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="MIME innholdstype: [1], Utvidelse: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Registrerer produkt"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Registrerer programidentifikatorer"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Registrerer typebiblioteker"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Registrerer bruker"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Fjerner dupliserte filer"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Fil: [1], Katalog: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Oppdaterer miljøstrenger"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Navn: [1], Verdi: [2], Handling [3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Fjerner programmer"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Program: [1], Kommandolinje: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Fjerner filer"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Fil: [1], Katalog: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Fjerner mapper"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Mappe: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Fjerner oppføringer i INI filer"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Fil: [1],  Seksjon: [2],  Nøkler: [3], Verdi: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Fjerner ODBC komponenter"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Fjerner verdier i systemregister"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Nøkkel: [1], Navn: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Fjerner snarveier"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Snarvei: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Søker etter kvalifiserte produkter"/>
+  <STRING id="ActionText.Description.Rollback" value="Ruller tilbake handling:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Fjerner backup-filer"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Fil: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Registrerer moduler"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Fil: [1], Mappe: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Avregistrerer moduler"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Fil: [1], Mappe: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Klargjør ODBC-kataloger"/>
+  <STRING id="ActionText.Description.StartServices" value="Starter tjenester"/>
+  <STRING id="ActionText.Template.StartServices" value="Tjeneste: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="Stopper tjenester"/>
+  <STRING id="ActionText.Template.StopServices" value="Tjeneste: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Fjerner flyttede filer"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Fil: [1], Katalog: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Avpubliserer kvalifiserte komponenter"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Komponent ID: [1], Kvalifiserer: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Avpubliserer produktfunksjoner"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Funksjon: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Avpubliserer produktinformasjon"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Avregistrerer klassetjenester"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Klasse Id: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Avregistrerer COM+ programmer og komponenter"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="AppId: [1]{{, AppType: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Avregistrerer utvidelsestjenester"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Utvidelse: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Avregistrerer skrifter"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Skrift: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Avregistrerer MIME informasjon"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="MIME innholdstype: [1], Utvidelse: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Avregistrerer programidentifikatorer"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="ProgId: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Avregistrerer typebiblioteker"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="LibID: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Oppdaterer miljøstrenger"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Navn: [1], Verdi: [2], Handling [3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Skriver verdier til INI filer"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Fil: [1],  Seksjon: [2],  Nøkkel: [3], Verdi: [4]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Skriver verdier til systemregister"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Nøkkel: [1], Navn: [2], Verdi: [3]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Oppretter brukerkonto på lokal maskin"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Oppretter brukergruppe på lokal maskin"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Sletter filer som er hentet fra arkivet"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Henter filer fra arkivet"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Konfigurerer Windows brannmur"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Forbereder konfigurering av Windows brannmur"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Konfigurerer Windows brannmur"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Setter tilbake konfigurering av Windows brannmur."/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Forbereder konfigurering av Windows brannmur"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Oppretter IIS nettsteder og virtuelle mapper"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Forbereder konfigurering av Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Fjerner IIS nettsteder og virtuelle mapper"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Setter tilbake konfigurering av IIS"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Forbereder konfigurering av Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Forbereder oppretting av brukerkontoer på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Forbereder deling av mapper på den lokale maskinen:"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Forbereder oppretting av brukergrupper på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Forbereder oppgaveplan på den lokale maskinen:"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Fjerner brukerkonto på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Fjerner brukergruppe på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Fjerner mappedeling på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Fjerner planlagt oppgave på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Setter tilbake oppretting av brukerkontoer på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Setter tilbake oppretting av brukergrupper på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Setter tilbake mappedeling på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Setter tilbake planlagte oppgaver på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Planlegger oppgaver på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Deler mappe på den lokale maskinen"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Kjører SQL installasjonsskript"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Forbereder konfigurering av databaser for å kjøre installasjon av SQL script"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Kjører SQL avinstallasjonsskript"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Kjører SQL-skript for tilbakesetting"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Forbereder konfigurering av databaser for å kjøre avinstallasjon av SQL script"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Forbereder fjerning av brukerkontoer på den lokale maskinen."/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Forbereder fjerning av brukergrupper på den lokale maskinen."/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Forbereder fjerning av mappedeling på den lokale maskinen."/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Forbereder fjerning av planlagte oppgaver på den lokale maskinen."/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Konfigurerer XML-fil"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Forbereder konfigurering av XML-filer"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Konfigurerer XML-fil"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Tilbakestiller konfigurerer av XML-filer."/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Forbereder konfigurering av XML-filer"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Konfigurerer regler for Windows-brannmur: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Konfigurerer regler for Windows-brannmur:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Tilbakestiller konfigurering av Windows-brannmur."/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Installerer &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Fjerner &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Gjenoppretter metabasekonfigurasjon."/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Konto: [1], Egenskaper: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Mappe: [1], Navn på share: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Mappe: [1], Egenskaper: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Oppgavenavn: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="Navn på share: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Oppgavenavn: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="Navn på nettverksstasjon: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Oppgavenavn: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Oppgavenavn: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Mappe: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Tilkobling: [1]  Skript: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Tilkobling: [1]  Skript: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Tilkobling: [1]  Skript: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Konto: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="Navn på nettverksstasjon: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Konfigurerer XML-fil: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Konfigurerer XML-fil:  &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Tilbakestiller konfigurering av XML-fil"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Fatal feil: }}"/>
+  <STRING id="Error.1" value="{{Feil [1]. }}"/>
+  <STRING id="Error.2" value="Advarsel [1]."/>
+  <STRING id="Error.4" value="Informasjon [1]."/>
+  <STRING id="Error.5" value="Installasjonsprogrammet har støtt på en uventet feil under installeringen av denne pakken. Dette kan indikere et problem med pakken. Feilkoden er [1]. {{Argumentene er: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Disk full: }}"/>
+  <STRING id="Error.8" value="Handling [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Beskjed type: [1], Argument: [2]"/>
+  <STRING id="Error.12" value="=== Logging startet: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Logging stoppet: [Date]  [Time] ==="/>
+  <STRING id="Error.14" value="Handling startet [Time]: [1]."/>
+  <STRING id="Error.15" value="Handling stoppet [Time]: [1]. Returverdi [2]."/>
+  <STRING id="Error.16" value="Gjenværende tid: {[1] minutter }{[2] sekunder}"/>
+  <STRING id="Error.17" value="Ikke nok minne. Lukk andre programmer før du prøver igjen."/>
+  <STRING id="Error.18" value="Installasjonsprogrammet svarer ikke mer."/>
+  <STRING id="Error.19" value="Installasjonsprogrammet stoppet for tidlig."/>
+  <STRING id="Error.20" value="Vennligst vent mens Windows konfigurerer [ProductName]"/>
+  <STRING id="Error.21" value="Samler nødvendig informasjon..."/>
+  <STRING id="Error.22" value="Fjerner gamle versjoner av dette programmet..."/>
+  <STRING id="Error.23" value="Klargjør fjerning av gamle versjoner av dette programmet..."/>
+  <STRING id="Error.32" value="Installasjonen av {[ProductName] }er fullført og godkjent."/>
+  <STRING id="Error.33" value="Installasjonen av {[ProductName] }feilet."/>
+  <STRING id="Error.1101" value="Feil under lesing fra fil: [2]. {{ System feil [3].}}  Sjekk at filen eksisterer og at du har tilgang til den."/>
+  <STRING id="Error.1301" value="Kan ikke opprette filen &apos;[2]&apos;.  En katalog med dette navnet eksisterer allerede.  Avbryt installeringen og prøv å installere til en annen lokasjon."/>
+  <STRING id="Error.1302" value="Vennligst sett inn følgende disk: [2]"/>
+  <STRING id="Error.1303" value="Installasjonsprogrammet har ikke nok rettigheter for tilgang til denne katalogen: [2].  Installasjonen kan ikke forsette.  Logge på som en administrator eller kontakt din systemadministrator."/>
+  <STRING id="Error.1304" value="Feil under skriving til fil: [2].  Sjekk at du har tilgang til katalogen."/>
+  <STRING id="Error.1305" value="Feil under lesing fra fil [2]. {{ System feil [3].}} Sjekk at filen eksisterer og at du har tilgang til den."/>
+  <STRING id="Error.1306" value="Et annet program har eksklusiv tilgang til denne filen &apos;[2]&apos;.  Vennligst lukk alle andre programmer, trykk så Gjenta."/>
+  <STRING id="Error.1307" value="Det er ikke nok diskplass for å installere denne filen: [2].  Frigi diskplass og trykk Gjenta, eller trykk Avbryt for å avslutte."/>
+  <STRING id="Error.1308" value="Kildefil ikke funnet: [2].  Sjekk at filen eksisterer og at du har tilgang til den."/>
+  <STRING id="Error.1309" value="Feil under lesing fra fil: [3]. {{ System feil [2].}}  Sjekk at filen eksisterer og at du har tilgang til den."/>
+  <STRING id="Error.1310" value="Feil under skriving til fil: [3]. {{ System feil [2].}}  Sjekk at du har tilgang til denne katalogen."/>
+  <STRING id="Error.1311" value="Kildefil ikke funnet{{(cabinet)}}: [2].  Sjekk at filen eksisterer og at du har tilgang til den."/>
+  <STRING id="Error.1312" value="Kan ikke opprette katalogen &apos;[2]&apos;.  En fil med dette navnet eksisterer allerede.  Vennligst gi nytt navn eller fjern filen og trykk Gjenta, eller trykk Avbryt for å avslutte."/>
+  <STRING id="Error.1313" value="Volum [2] er for øyeblikket utilgjengelig.  Vennligst velg et annet."/>
+  <STRING id="Error.1314" value="Angitt sti &apos;[2]&apos; er utilgjengelig."/>
+  <STRING id="Error.1315" value="Klarer ikke å skrive til angitt mappe: [2]."/>
+  <STRING id="Error.1316" value="En nettverksfeil oppstod under forsøk på å lese fra filen: [2]"/>
+  <STRING id="Error.1317" value="En feil oppstod under forsøk på å opprette katalogen: [2]"/>
+  <STRING id="Error.1318" value="En nettverksfeil oppstod under forsøk på å opprette katalogen: [2]"/>
+  <STRING id="Error.1319" value="En nettverksfeil oppstod under forsøk på å åpne kildefilbibliotek: [2]"/>
+  <STRING id="Error.1320" value="Angitt sti er for lang: [2]"/>
+  <STRING id="Error.1321" value="Installasjonsprogrammet har ikke nok rettigheter for å endre filen: [2]."/>
+  <STRING id="Error.1322" value="En del av mappe stien &apos;[2]&apos; er ugyldig.  Den er enten tom eller overskrider lengden som er tillatt av systemet."/>
+  <STRING id="Error.1323" value="Mappe stien &apos;[2]&apos; inneholder ord som ikke er gyldig i en mappe sti."/>
+  <STRING id="Error.1324" value="Mappe stien &apos;[2]&apos; inneholder ugyldige tegn."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; er ikke et gyldig kort filnavn."/>
+  <STRING id="Error.1326" value="Feil når vi henter inn filsikkerhet: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Ugyldig drev: [2]"/>
+  <STRING id="Error.1328" value="Feil når vi legger fiks på fil [2].  Den har antakelig blitt oppdatert med andre midler, og kan ikke lenger bli endret av denne fiksen.  For mer informasjon kontakt leverandør av fiksen  {{System feil: [3]}}"/>
+  <STRING id="Error.1329" value="En fil som kreves kan ikke bli installert fordi filbiblioteket [2] ikke er digitalt signert.  Dette kan indikere at filbiblioteket er korrupt."/>
+  <STRING id="Error.1330" value="En fil som kreves kan ikke bli installert fordi filbiblioteket [2] har en ugyldig digital signatur.  Dette kan indikere at filbiblioteket er korrupt.{{  Feil [3] ble returnert av WinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="Fikk ikke kopiert [2] filen riktig: CRC feil."/>
+  <STRING id="Error.1332" value="Fikk ikke flyttet [2] filen riktig: CRC feil."/>
+  <STRING id="Error.1333" value="Fikk ikke fikset [2] filen riktig: CRC feil."/>
+  <STRING id="Error.1334" value="Filen &apos;[2]&apos; kan ikke bli installert fordi filen ikke blir funnet i filbiblioteket &apos;[3]&apos;. Dette kan indikere en nettverksfeil, en feil under lesing fra CD-ROM, eller et problem med denne pakken."/>
+  <STRING id="Error.1335" value="Filbiblioteket &apos;[2]&apos; som er nødvendig for denne installasjonen er korrupt og kan ikke brukes. Dette kan indikere en nettverksfeil, en feil under lesing fra CD-ROM, eller et problem med denne pakken."/>
+  <STRING id="Error.1336" value="Det oppstod en feil ved opprettelse av en temporær fil som er nødvendig for å fullføre installasjonen.{{  Mappe: [3]. System feil kode: [2]}}"/>
+  <STRING id="Error.1401" value="Kunne ikke opprette nøkkel: [2]. {{ System feil [3].}}  Bekreft at du har nok tilgang til nøkkelen, eller kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1402" value="Kunne ikke åpne nøkkel: [2]. {{ System feil [3].}}  Bekreft at du har nok tilgang til nøkkelen, eller kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1403" value="Kunne ikke slette verdi [2] fra nøkkel [3]. {{ System feil [4].}}  Bekreft at du har nok tilgang til nøkkelen, eller kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1404" value="Kunne ikke slette nøkkel [2]. {{ System feil [3].}}  Bekreft at du har nok tilgang til nøkkelen, eller kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1405" value="Kunne ikke lese verdi [2] fra nøkkel [3]. {{ System feil [4].}}  Bekreft at du har nok tilgang til nøkkelen, eller kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1406" value="Kunne ikke skrive verdi [2] til nøkkel [3]. {{ System feil [4].}}  Bekreft at du har nok tilgang til nøkkelen, eller kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1407" value="Kunne ikke få tak i verdi navnene for nøkkel [2]. {{ System feil [3].}} Bekreft at du har nok tilgang til nøkkelen, eller kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1408" value="Kunne ikke få tak i navn på undernøkler for nøkkelen [2]. {{ System feil [3].}} Bekreft at du har nok tilgang til nøkkelen, eller kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1409" value="Kunne ikke lese sikkerhetsinformasjon for nøkkel [2]. {{ System feil [3].}}  Bekreft at du har nok tilgang til nøkkelen, eller kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1410" value="Kunne ikke øke tilgjengelig registerplass. Det er behov for [2] KB mer registerplass for at installasjonen av dette programmet."/>
+  <STRING id="Error.1500" value="En annen installasjon er i gang. Du må fullføre den installasjonen før du fortsetter med denne."/>
+  <STRING id="Error.1501" value="Feil under tilgang til sikrede data. Vennligst sjekk at Windows Installer er konfigurert riktig og prøv installasjonen igjen."/>
+  <STRING id="Error.1502" value="Bruker &apos;[2]&apos; har tidligere satt i gang en installasjon for produktet &apos;[3]&apos;.  Den brukeren trenger å kjøre installasjonen igjen før de kan bruke det produktet.  Din nåværende installasjon vil nå fortsette."/>
+  <STRING id="Error.1503" value="Bruker &apos;[2]&apos; har tidligere satt i gang en installasjon for produktet &apos;[3]&apos;.  Den brukeren trenger å kjøre installasjonen igjen før de kan bruke det produktet."/>
+  <STRING id="Error.1601" value="Ikke nok diskplass -- Volum: &apos;[2]&apos;; nødvendig plass: [3] KB; tilgjengelig plass: [4] KB.  Frigi diskplass og prøv igjen."/>
+  <STRING id="Error.1602" value="Er du sikker at du vil avbryte?"/>
+  <STRING id="Error.1603" value="Filen [2][3] er i bruk{ av følgende prosess: Navn: [4], Id: [5], Vindu tittel: &apos;[6]&apos;}.  Avslutt aktuelt program og prøv igjen."/>
+  <STRING id="Error.1604" value="Produktet &apos;[2]&apos; er allerede installert, den forhindrer installasjonen av dette produktet.  Disse to produktene er ikke kompatible."/>
+  <STRING id="Error.1605" value="Det er ikke nok diskplass på volum &apos;[2]&apos; for å fortsette installasjonen med gjenoppretting aktivert. Det er behov for [3] KB, men bare [4] er tilgjengelig. Trykk Ignorere for å fortsette installasjonen uten å lagre gjenopprettingsinformasjon, trykk Gjenta for å sjekke for tilgjengelig plass igjen, eller trykk Avbryt for å avslutte installasjonen."/>
+  <STRING id="Error.1606" value="Fikk ikke tilgang til nettverkslokasjon [2]."/>
+  <STRING id="Error.1607" value="Følgende programmer bør avsluttes før denne installasjonen fortsetter:"/>
+  <STRING id="Error.1608" value="Kunne ikke finne noen tidligere tilfredsstillende produkter installert på maskinen for installasjon av dette produktet."/>
+  <STRING id="Error.1609" value="En feil oppstod under påføring av sikkerhetsinstillinger. [2] er ikke en gyldig bruker eller gruppe. Dette kan være et problem med pakken, eller et problem med tilkobling til en domene kontroller på nettverket. Sjekk nettverkstilkoblingen og trykk Gjenta, eller Avbryt for å avslutte installasjonen. {{Kunne ikke finne brukerens SID, system feil [3]}}"/>
+  <STRING id="Error.1701" value="Nøkkelen [2] er ikke gyldig.  Sjekk at du skrev inn riktig nøkkel."/>
+  <STRING id="Error.1702" value="Installasjonsprogrammet må starte om systemet før konfigurasjonen av [2] kan fortsette.  Trykk Ja for å starte om nå eller Nei hvis du planlegger å manuelt starte om senere."/>
+  <STRING id="Error.1703" value="Du må starte om systemet før konfigurasjonsendringer utført på [2] begynner å virke. Trykk Ja for å starte om nå eller Nei hvis du planlegger å manuelt stare om senere."/>
+  <STRING id="Error.1704" value="En installasjon for [2] er for øyeblikket satt på pause.  Du må angre endringer gjort av den installasjonen for å fortsette.  Vil du angre endringene?"/>
+  <STRING id="Error.1705" value="En tidligere installasjon for dette produktet er i gang.  Du må angre endringer gjort av den installasjonen for å fortsette.  Vil du andre endringene?"/>
+  <STRING id="Error.1706" value="En installasjonspakke for produktet [2] kan ikke lokaliseres. Prøv installasjonen igjen, men med en gyldig kopi av installasjonspakken &apos;[3]&apos;."/>
+  <STRING id="Error.1707" value="Vellykket installasjon utført."/>
+  <STRING id="Error.1708" value="Installasjon feilet."/>
+  <STRING id="Error.1709" value="Produkt: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Du må enten rulle tilbake din datamaskin til sin tidligere tilstand eller fortsette installasjonen senere. Vil du rulle tilbake?"/>
+  <STRING id="Error.1711" value="En feil oppstod når installasjonsinformasjon skulle skrives til disk.  Sjekk at du har nok diskplass tilgjengelig, og trykk Gjenta, eller Avbryt for å avslutte installasjonen."/>
+  <STRING id="Error.1712" value="En eller flere av filene som er nødvendige for å rulle tilbake din datamaskin til sin tidligere tilstand kunne ikke lokaliseres.  Det er ikke mulig å rulle tilbake."/>
+  <STRING id="Error.1713" value="[2] kan ikke installere en av sine nødvendige produkter. Kontakt din tekniske støttegruppe.  {{System feil: [3].}}"/>
+  <STRING id="Error.1714" value="Den eldre versjonen av [2] kan ikke fjernes.  Kontakt din tekniske støttegruppe.  {{System feil [3].}}"/>
+  <STRING id="Error.1715" value="Installert [2]"/>
+  <STRING id="Error.1716" value="Konfigurert [2]"/>
+  <STRING id="Error.1717" value="Fjernet [2]"/>
+  <STRING id="Error.1718" value="Fil [2] ble avslått av den digitale signaturpolicyen"/>
+  <STRING id="Error.1719" value="Fikk ikke tilgang til Windows Installer-tjenesten. Dette kan skje hvis du kjører Windows i sikker modus, eller hvis Windows Installer ikke er riktig installert. Kontakt ditt systemstøttepersonale for hjelp."/>
+  <STRING id="Error.1720" value="Det er et problem med denne Windows Installer-pakken. Et skript som er nødvendig for å ferdigstille denne installasjonen kunne ikke kjøre. Kontakt ditt systemstøttepersonale eller leverandør av pakken.  {{Tilpasset handling [2] Skript feil [3], [4]: [5] Linje [6], Kolonne [7], [8] }}"/>
+  <STRING id="Error.1721" value="Det er et problem med denne Windows Installer-pakken. Et program nødvendig for å fullføre denne installasjonen kunne ikke kjøre. Kontakt ditt systemstøttepersonale eller leverandør av pakken. {{Handling: [2], lokasjon: [3], kommando: [4] }}"/>
+  <STRING id="Error.1722" value="Det er et problem med denne Windows Installer-pakken. Et program som kjørte som en del av oppsettet fullførte ikke som ventet. Kontakt ditt systemstøttepersonale eller leverandør av pakken.  {{Handling [2], lokasjon: [3], kommando: [4] }}"/>
+  <STRING id="Error.1723" value="Det er et problem med denne Windows Installer-pakken. En DLL som er nødvendig for å ferdigstille denne installasjonen kunne ikke kjøre. Kontakt ditt systemstøttepersonale eller leverandør av pakken.  {{Handling [2], oppføring: [3], bibliotek: [4] }}"/>
+  <STRING id="Error.1724" value="Vellykket fjerning utført."/>
+  <STRING id="Error.1725" value="Fjerning feilet."/>
+  <STRING id="Error.1726" value="Vellykket annonsering utført."/>
+  <STRING id="Error.1727" value="Annonsering feilet."/>
+  <STRING id="Error.1728" value="Vellykket konfigurasjon utført."/>
+  <STRING id="Error.1729" value="Konfigurasjon feilet."/>
+  <STRING id="Error.1730" value="Du må være en Administrator for å fjerne dette programmet. For å fjerne dette programmet, logg på som en Administrator, eller kontakt ditt systemstøttepersonale for hjelp."/>
+  <STRING id="Error.1801" value="Stien [2] er ikke gyldig.  Vennligst angi en gyldig sti."/>
+  <STRING id="Error.1802" value="Ikke nok minne. Lukk andre programmer før du prøver igjen."/>
+  <STRING id="Error.1803" value="Det er ikke noen disk i drev [2]. Vennligst sett inn en og trykk Gjenta, eller trykk Avbryt og gå tilbake til tidligere valgt volum."/>
+  <STRING id="Error.1804" value="Det er ikke noen disk i drev [2]. Vennligst sett inn en og trykk Gjenta, eller trykk Avbryt for å returnere til bla gjennom dialog&apos;en og velg et annet volum."/>
+  <STRING id="Error.1805" value="Mappen [2] eksisterer ikke.  Vennligst skriv inn en sti til en eksisterende mappe."/>
+  <STRING id="Error.1806" value="Du har ikke rettigheter nok til å lese denne mappen."/>
+  <STRING id="Error.1807" value="Et gyldig bestemmelsessted for installasjonen kunne ikke bli funnet."/>
+  <STRING id="Error.1901" value="Feil under forsøk på å lese fra kilden til installasjonsdatabasen: [2]."/>
+  <STRING id="Error.1902" value="Setter opp starte på nytt operasjon: Skifter navn på fil [2] til [3]. Må starte på nytt for å fullføre operasjonen."/>
+  <STRING id="Error.1903" value="Setter opp starte på nytt operasjon: Sletter fil [2]. Må starte på nytt for å fullføre operasjonen."/>
+  <STRING id="Error.1904" value="Modul [2] feilet under registrering.  HRESULT [3].  Kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1905" value="Modul [2] feilet under avregistrering.  HRESULT [3].  Kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1906" value="Hurtigbuffer feilet for pakke [2]. Feil: [3]. Kontakt ditt systemstøttepersonale."/>
+  <STRING id="Error.1907" value="Kunne ikke registrere skrift [2].  Bekreft at du har nok rettigheter til å installere skrifter, og at systemet supporterer denne skriften."/>
+  <STRING id="Error.1908" value="Kunne ikke avregistrere skrift [2]. Bekreft at du har nok rettigheter til å fjerne skrifter."/>
+  <STRING id="Error.1909" value="Kunne ikke lage snarvei [2]. Sjekk at bestemmelsessted eksisterer og at du har tilgang."/>
+  <STRING id="Error.1910" value="Kunne ikke fjerne snarvei [2]. Sjekk at snarveifilen eksisterer og at du har tilgang."/>
+  <STRING id="Error.1911" value="Kunne ikke registrere typebibliotek for fil [2].  Kontakt ditt systemstøttepersonale ."/>
+  <STRING id="Error.1912" value="Kunne ikke avregistrere type biblioteket for fil [2].  Kontakt ditt systemstøttepersonale ."/>
+  <STRING id="Error.1913" value="Kunne ikke oppdatere ini-filen [2][3].  Bekreft at filen eksisterer og at du har tilgang."/>
+  <STRING id="Error.1914" value="Kunne ikke planlegge at fil [2] skal erstatte fil [3] etter neste oppstart.  Sjekk at du har skriverettigheter til fil [3]."/>
+  <STRING id="Error.1915" value="Feil under fjerning av ODBC driver-behandler, ODBC-feil [2]: [3]. Kontakt ditt systemstøttepersonale ."/>
+  <STRING id="Error.1916" value="Feil under installasjon av ODBC driver-behandler, ODBC-feil [2]: [3]. Kontakt ditt systemstøttepersonale ."/>
+  <STRING id="Error.1917" value="Feil under fjerning av ODBC driver: [4], ODBC-feil [2]: [3]. Bekreft at du har nok rettigheter til å fjerne ODBC drivere."/>
+  <STRING id="Error.1918" value="Feil under installering av ODBC-driver: [4][5], ODBC feil [2]: [3]. Bekreft at filen [4][6] eksisterer og at du har tilgang til den."/>
+  <STRING id="Error.1919" value="Feil under konfigurering av ODBC-data kilde: [4][5], ODBC feil [2]: [3]. Bekreft at filen [4][6] eksisterer og at du har tilgang til den."/>
+  <STRING id="Error.1920" value="Tjeneste &apos;[2]&apos; ([3]) feilet under oppstart.  Bekreft at du har nok rettigheter til å starte systemtjenester."/>
+  <STRING id="Error.1921" value="Tjeneste &apos;[2]&apos; ([3]) kunne ikke bli stoppet.  Bekreft at du har nok rettigheter til å stoppe systemtjenester."/>
+  <STRING id="Error.1922" value="Tjeneste &apos;[2]&apos; ([3]) kunne ikke fjernes.  Bekreft at du har nok rettigheter til å fjerne systemtjenester."/>
+  <STRING id="Error.1923" value="Tjeneste &apos;[2]&apos; ([3]) kunne ikke installeres.  Bekreft at du har nok rettigheter til å installere systemtjenester."/>
+  <STRING id="Error.1924" value="Kunne ikke oppdatere miljø variabel &apos;[2]&apos;.  Bekreft at du har nok rettigheter til å endre miljøvariabler."/>
+  <STRING id="Error.1925" value="Du har ikke nok rettigheter til å fullføre denne installasjonen for alle brukere av maskinen.  Logg på som administrator og prøv installasjonen om igjen."/>
+  <STRING id="Error.1926" value="Kunne ikke sette filrettigheter for filen &apos;[3]&apos;. Feil: [2].  Bekreft at du har nok rettigheter til å endre sikkerhetstilganger for denne filen."/>
+  <STRING id="Error.1927" value="Komponenttjenester (COM+ 1.0) er ikke installert på denne datamaskinen.  Denne installasjon har behov for Komponenttjenester for å fullføre vellykket.  Komponenttjenester er tilgjengelig på Windows 2000."/>
+  <STRING id="Error.1928" value="Feil under registrering av COM+ program.  Kontakt ditt systemstøttepersonale  for mer informasjon."/>
+  <STRING id="Error.1929" value="Feil under avregistrering av COM+ program.  Kontakt ditt systemstøttepersonale  for mer informasjon."/>
+  <STRING id="Error.1930" value="Beskrivelsen for tjeneste &apos;[2]&apos; ([3]) kunne ikke endres."/>
+  <STRING id="Error.1931" value="Windows Installer-tjenesten kunne ikke oppdatere systemfil [2] fordi filen er beskyttet av Windows.  Du må muligens oppdatere operativsystemet for at dette programmet skal virke korrekt. {{Pakke versjon: [3], OS beskyttet versjon: [4]}}"/>
+  <STRING id="Error.1932" value="Windows Installer tjenesten kunne ikke oppdatere beskyttet Windows fil [2]. {{Pakke versjon: [3], OS beskyttet versjon: [4], SFP feil: [5]}}"/>
+  <STRING id="Error.1933" value="Windows Installer-tjenesten kunne ikke oppdatere en eller flere beskyttede Windows filer. {{SFP feil: [2].  Liste over beskyttede filer:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Bruker installasjoner er slått av via policyen på maskinen."/>
+  <STRING id="Error.1935" value="En feil oppstod under installering av monteringskomponent [2]. HRESULT: [3]. {{monteringsgrensesnitt: [4], funksjon: [5], monteringsnavn: [6]}}"/>
+  <STRING id="Error.4000" value="Ugyldig serienummer."/>
+  <STRING id="Error.4010" value="En nyere versjon av [ProductName] er allerede installert på denne datamaskinen."/>
+  <STRING id="Error.4020" value="Det oppstod en feil i IIS konfigurasjonsprosess. Originalkonfigurasjonen din av IIS blir gjenoppretta."/>
+  <STRING id="Error.4021" value="Nettstedet [1] finnes allerede på denne serveren. Ønsker du å hoppe over dette nettstedet og fortsette installasjonen?"/>
+  <STRING id="Error.4022" value="Virtuell mappe [1] på nettstedet [2] finnes allerede på denne serveren. Ønsker du å hoppe over denne virtuelle mappen og fortsette installasjonen?"/>
+  <STRING id="Error.4023" value="Denne versjonen av IIS er ikke støttet eller IIS er ikke fullt installert !&#10;&#10; Du trenger Internet Information Services 5.0 eller høyere."/>
+  <STRING id="Error.4024" value="En webside med de samme serverbindingene er allerede startet.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Er ikke i stand til å lage brukerkonto eller gruppe &apos;[2]&apos; på den lokale maskinen. Feilkode: [3]. [4]"/>
+  <STRING id="Error.4102" value="Brukerkonto eller gruppe &apos;[2]&apos; finnes alt på den lokale maskinen."/>
+  <STRING id="Error.4103" value="Er ikke i stand til å fjerne brukerkonto eller gruppe &apos;[2]&apos; på den lokale maskinen. Feilkode: [3]."/>
+  <STRING id="Error.4104" value="Brukerkonto eller gruppe &apos;[2]&apos; finnes ikke på den lokale maskinen."/>
+  <STRING id="Error.4105" value="En feil oppstod ved deling av &apos;[2]&apos; med navnet: &apos;[3]&apos;. Feilmelding: [4]"/>
+  <STRING id="Error.4106" value="En feil oppstod når en prøvde å definere en planlagt oppgave: &apos;[2]&apos;. Feilmelding: [3]"/>
+  <STRING id="Error.4107" value="En feil oppstod når en prøvde å fjerne en planlagt oppgave: &apos;[2]&apos;. Feilmelding: [3]"/>
+  <STRING id="Error.4110" value="Kunne ikke allokere minne."/>
+  <STRING id="Error.4111" value="Finner ikke filen: [2]."/>
+  <STRING id="Error.4112" value="Kan ikke lese filen &apos;[2]&apos; ."/>
+  <STRING id="Error.4113" value="Parsingfeil i filen: &apos;[2]&apos; i linje: [3], kolonne: [4]. ErrorCode: [5]."/>
+  <STRING id="Error.4114" value="Koding på XML filen er ikke støttet."/>
+  <STRING id="Error.4115" value="Feil ved åpning av fil: [2]."/>
+  <STRING id="Error.4116" value="Kunne ikke skrive til filen &apos;[2]&apos;."/>
+  <STRING id="Error.4117" value="Uventet rotelement: &quot;[2]&quot; i XML-fil: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="Der oppstod en feil i prosessen som konfiguerer Windows-brannmuren. &#10;Din opprinnelige brannmurkonfigurering blir gjenopprettet.."/>
+  <STRING id="Error.4121" value="Ugyldig sti til ikon for brannmurprosessen, eller fila finnes ikke: [2]."/>
+  <STRING id="Error.4122" value="Ugyldig port/protokoll for brannmuren: [2]."/>
+  <STRING id="Error.4123" value="Ugyldig nettverksområde for brannmur: [2]."/>
+  <STRING id="Error.4124" value="Det oppstod en feil ved registrering av programmet med Windows-brannmuren: [2]."/>
+  <STRING id="Error.4125" value="Det oppstod en feil ved registrering av porten med Windows-brannmuren: [2]."/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bytes"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Hele funksjonen vil være utilgjengelig"/>
+  <STRING id="UIText.MenuAdvertise" value="Funksjon vil bli installert etter behov"/>
+  <STRING id="UIText.MenuAllCD" value="Hele funksjonen vil bli installert for å kjøre fra CD"/>
+  <STRING id="UIText.MenuAllLocal" value="Hele funksjonen vil bli installert på lokal disk"/>
+  <STRING id="UIText.MenuAllNetwork" value="Hele funksjonen vil bli installert for å kjøre fra nettverk"/>
+  <STRING id="UIText.MenuCD" value="Vil bli installert for å kjøre fra CD"/>
+  <STRING id="UIText.MenuLocal" value="Vil bli installert på lokal disk"/>
+  <STRING id="UIText.MenuNetwork" value="Vil bli installert for å kjøre fra nettverk"/>
+  <STRING id="UIText.ScriptInProgress" value="Henter inn nødvendig informasjon..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Denne funksjonen vil forbli avinstallert"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Denne funksjonen vil bli installert etter behov"/>
+  <STRING id="UIText.SelAbsentCD" value="Denne funksjonen vil bli installert for å kjøre fra CD"/>
+  <STRING id="UIText.SelAbsentLocal" value="Denne funksjonen vil bli installert på lokal disk"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Denne funksjonen vil bli installert for å bli kjørt fra nettverk"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Denne funksjonen vil bli utilgjengelig"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Vil bli installert etter behov"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Denne funksjonen vil bli tilgjengelig for å kjøre fra CD"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Denne funksjonen vil bli installert på din lokale disk"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Denne funksjonen vil bli tilgjengelig for å kjøre fra nettverk"/>
+  <STRING id="UIText.SelCDAbsent" value="Denne funksjonen vil bli avinstallert fullstendig, du vil ikke ha mulighet til å kjøre den fra CD"/>
+  <STRING id="UIText.SelCDAdvertise" value="Denne funksjonen vil endres fra å kjøre fra CD til å bli installert etter behov"/>
+  <STRING id="UIText.SelCDCD" value="Denne funksjonen vil forbli kjøre fra CD"/>
+  <STRING id="UIText.SelCDLocal" value="Denne funksjonen vil endres fra å kjøre fra CD til å bli installert på lokal disk"/>
+  <STRING id="UIText.SelChildCostNeg" value="Denne funksjonen frigir [1] på din disk."/>
+  <STRING id="UIText.SelChildCostPos" value="Denne funksjonen behøver [1] på din disk."/>
+  <STRING id="UIText.SelCostPending" value="Kompilerer kostnad for denne funksjon..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Denne funksjonen vil bli fullstendig fjernet"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Denne funksjonen vil bli fjernet fra din lokale disk, men vil bli installert etter behov"/>
+  <STRING id="UIText.SelLocalCD" value="Denne funksjonen vil bli fjernet fra din lokale disk, men vil bli tilgjengelig å kjøre fra CD"/>
+  <STRING id="UIText.SelLocalLocal" value="Denne funksjonen vil forbli på din lokale disk"/>
+  <STRING id="UIText.SelLocalNetwork" value="Denne funksjonen vil bli fjernet fra din lokale disk, men vil bli tilgjengelig å kjøre fra nettverk"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Denne funksjonen vil bli fullstendig avinstallert, du vil ikke ha mulighet å kjøre den fra nettverk"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Denne funksjonen vil endres fra å kjøre fra nettverk til å bli installert etter behov"/>
+  <STRING id="UIText.SelNetworkLocal" value="Denne funksjonen vil endres fra å kjøre fra nettverk til å bli installert på din lokale disk"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Denne funksjonen vil forbli kjørt fra nettverket"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Denne funksjonen frigir [1] på din disk. Den har [2] av [3] underfunksjoner valgt. Underfunksjoner frigir [4] på din disk."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Denne funksjonen frigir [1] på din disk. Den har [2] av [3] underfunksjoner valgt. Underfunksjonene har behov for [4] på din disk."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Denne funksjonen frigir [1] på din disk. Den har [2] av [3] underfunksjoner valgt. Underfunksjonene frigir [4] på din disk."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Denne funksjonen har behov for [1] på din disk. Den har [2] av [3] underfunksjoner valgt. Underfunksjonene har behov for [4] på din disk."/>
+  <STRING id="UIText.TimeRemaining" value="Gjenværende tid: {[1] minutter }{[2] sekunder}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Tilgjengelig"/>
+  <STRING id="UIText.VolumeCostDifference" value="Differanse"/>
+  <STRING id="UIText.VolumeCostRequired" value="Nødvendig"/>
+  <STRING id="UIText.VolumeCostSize" value="Diskstørrelse"/>
+  <STRING id="UIText.VolumeCostVolume" value="Volum"/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Ja, registrer for å håndtere disse filtypene."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="&amp;Nei, hopp over filtilknytning."/>
+  <STRING id="RadioButton.Text.IAgree#1" value="Jeg &amp;aksepterer vilkårene i lisensavtalen"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="Jeg aksepterer &amp;ikke vilkårene i lisensavtalen"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Automatisk &amp;lukk programmene og prøv å starte dem etter at installasjonen er ferdig."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="&amp;Ikke lukk programmene. (Det blir behov for å starte på nytt.)"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Nei, installer i tillegg til andre versjoner."/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Ja, fjern gamle versjoner."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Nei, avinstaller bare versjon [AI_Replaced_Versions_List]."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Ja, fjern alle gamle versjoner."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; Til&amp;bake"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="Til&amp;bake"/>
+  <STRING id="Property.ButtonText_Browse" value="Bla gjenn&amp;om..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Avbryt"/>
+  <STRING id="Property.ButtonText_Exit" value="Avslutt&amp;e"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Fullfør"/>
+  <STRING id="Property.Text_Finish" value="Fullfør"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Ignorere"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Installere"/>
+  <STRING id="Property.Text_Install" value="Installere"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Neste &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Neste"/>
+  <STRING id="Property.Text_Next" value="Neste"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Nei"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="Fje&amp;rne"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Reparer"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Tilbakestill"/>
+  <STRING id="Property.ButtonText_Resume" value="Fo&amp;rtsette"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Gjenta"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Retur"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Ja"/>
+  <STRING id="Property.Text_Yes" value="Ja"/>
+  <STRING id="Property.CtrlEvtchanges" value="endrer"/>
+  <STRING id="Property.CtrlEvtChanging" value="Endrer"/>
+  <STRING id="Property.CtrlEvtremoves" value="fjerner"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Fjerner"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Reparerer"/>
+  <STRING id="Property.CtrlEvtrepairs" value="reparerer"/>
+  <STRING id="Property.InstallModeComplete" value="Fullstendig"/>
+  <STRING id="Property.InstallModeCustom" value="Tilpasset"/>
+  <STRING id="Property.InstallModeTypical" value="Vanlig"/>
+  <STRING id="Property.Progress1" value="Installerer"/>
+  <STRING id="Property.Progress2" value="installerer"/>
+  <STRING id="Property.Setup" value="Installasjon"/>
+  <STRING id="Property.Wizard" value="installasjonsveiviseren"/>
+</DICTIONARY>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="9.3" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="OptionalFeatsDlg" Control="Cancel" Type="ImageButton" X="163" Y="359" Width="78" Height="28" Attributes="2" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="100" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]" ExtDataLocId="-"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="345" Height="400" Attributes="1" Text="[Background]" Order="200"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="Next" Type="ImageButton" X="251" Y="359" Width="78" Height="28" Attributes="3" Text="[NextCancelButtons]" TextStyle="[MetroButtonText]" Order="300" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Next]" ExtDataLocId="-"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="Back" Type="ImageButton" X="17" Y="359" Width="78" Height="28" Attributes="3" Text="[BackButton]" TextStyle="[MetroButtonText]" Order="400" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Back]" ExtDataLocId="-"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="SubTitle" Type="Text" X="17" Y="105" Width="312" Height="18" Attributes="196611" TextStyle="[SubTitleStyle]" Order="500" TextLocId="Control.Text.OptionalFeatsDlg#Title"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="ProductNameTitle" Type="Text" X="83" Y="21" Width="245" Height="50" Attributes="196611" TextStyle="[ProductNameForSplash]" Order="600" TextLocId="Metro.Control.Text.ProductName"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="CompanyText" Type="Text" X="83" Y="16" Width="191" Height="12" Attributes="196611" TextStyle="[ManufacturerFont]" Order="700" TextLocId="Metro.Control.Text.Manufacturer"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="ProductLogo" Type="Bitmap" X="17" Y="5" Width="59" Height="63" Attributes="1" Text="[AppLogoIcon]" Order="800"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="AdvInst" Type="Text" X="5" Y="388" Width="74" Height="11" Attributes="196611" Text="Advanced Installer" TextStyle="[BrandingStyle]" Order="900"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="QuickSelectionList" Type="QuickSelectionList" X="17" Y="128" Width="310" Height="165" Attributes="6291459" Property="QuickSelectionListProp" Text="QuickSelectionList" Order="700" ExtType="QuickSelectionList" ExtAttributes="2"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="TotalSpaceText" Type="Text" X="204" Y="330" Width="122" Height="22" Attributes="589891" Property="PrimaryVolumeSpaceRequired" Text="[PrimaryVolumeSpaceRequired]" Order="1100" TextLocId="Azure.Control.Text.CustomizeDlg#TotalSpaceText"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="TotalSpaceLabel" Type="Text" X="17" Y="330" Width="188" Height="22" Attributes="196611" Text="Total space required on drive: " Order="1200" TextLocId="Azure.Control.Text.CustomizeDlg#TotalSpaceLabel"/>
+    <ROW Dialog_="OptionalFeatsDlg" Control="SelectAllCheckbox" Type="ImageCheckBox" X="17" Y="300" Width="311" Height="20" Attributes="3" Property="SelectAllChechBox" Text="[checkbox]" Order="1300" ExtType="ImageCheckBox" ExtData="" ExtDataLocId="Control.Text.SelectAll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="OptionalFeatsDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="OptionalFeatsDlg" HCentering="50" VCentering="50" Width="345" Height="400" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.OptionalFeatsDlg"/>
+  </COMPONENT>
+    <COMPONENT cid="caphyon.advinst.msicomp.MsiEventMappingComponent">
+    <ROW Dialog_="OptionalFeatsDlg" Control_="SelectAllCheckbox" Event="AiAllItemsChecked" Attribute="Text"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCheckBoxComponent">
+    <ROW Property="SelectAllChechBox" Value="0"/>
+  </COMPONENT>
+</FRAGMENT>

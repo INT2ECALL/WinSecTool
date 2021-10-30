@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" RootPath=".">
+  <COMPONENT cid="caphyon.advinst.msicomp.MspPropertiesComponent">
+    <ROW Name="ListOfTargetProductCodes" Value="*"/>
+    <ROW Name="PatchSourceList" Value="PatchSourceList"/>
+    <ROW Name="AllowProductCodeMismatches" Value="1"/>
+    <ROW Name="AllowProductVersionMajorMismatches" Value="1"/>
+    <ROW Name="SEQUENCE_DATA_GENERATION_DISABLED" Value="1"/>
+    <ATTRIBUTE name="Author" value="Your Company"/>
+    <ATTRIBUTE name="Comments" value="This patch contains the logic and data required to modify &lt;product name&gt;."/>
+    <ATTRIBUTE name="Subject" value="Your Application"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PatchMetadataComponent">
+    <ROW Property="AllowRemoval" Value="0"/>
+    <ROW Property="DisplayName" Value="Your Patch display name"/>
+    <ROW Property="Classification" Value="Update"/>
+    <ROW Property="Description" Value="Your Patch description"/>
+    <ROW Property="TargetProductName" Value="Your Product"/>
+    <ROW Property="MoreInfoURL" Value="http://www.example.com"/>
+  </COMPONENT>
+</DOCUMENT>

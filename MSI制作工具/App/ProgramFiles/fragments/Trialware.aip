@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.TrialwareComponent">
+    <ROW TrialwareName="alltrials"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.TrialwareSettingsComponent">
+    <ROW Trialware="alltrials" Section="TrialPage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="DlgOpt" Value="caption:DlgCaption%TrialMU% x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="AeroDlgOpt" Value="caption:DlgCaption%TrialMU% x:0 y:0 w:300 h:130"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="Ctrls" Value="Logo HeadXp MsgXp TryXp RegisterXp BuyXp Cancel"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="AeroCtrls" Value="Msg Try Register Buy Cancel"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:105"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="Msg" Value="type:130 id:333 caption:MsgCaption%TrialMU% flags:1342242848 styleEx:32 x:7 y:7 w:250 h:35"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="Try" Value="type:128 id:102 caption:TryCaption flags:1342275598 x:24 y:30 w:220 h:38 exit image:TryNote"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="Register" Value="type:128 id:121 caption:RegisterCaption flags:1342275598 x:24 y:71 w:220 h:38 popup:%RegisterPage% image:RegisterNote"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="Buy" Value="type:128 id:5 caption:BuyCaption flags:1342275598 x:24 y:112 w:220 h:38 popup:BuyUrl image:BuyNote"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="Cancel" Value="type:128 id:16 flags:1342177280 exit"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="HeadXp" Value="type:130 id:333 caption:PageHeader flags:1342177280 x:120 y:20 w:175 h:40 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption%TrialMU% flags:1342177280 x:120 y:70 w:175 h:40"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="TryXp" Value="type:128 id:102 caption:TryCaption flags:1342242816 x:240 y:100 w:55 h:15 exit"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="RegisterXp" Value="type:128 id:101 caption:RegisterCaption flags:1342242817 x:240 y:120 w:55 h:15 popup:%RegisterPage%"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="BuyXp" Value="type:128 id:5 caption:BuyCaption flags:1342242816 x:240 y:140 w:55 h:15 popup:BuyDlg"/>
+    <ROW Trialware="alltrials" Section="TrialPage" Key="Font" Value="caption:Verdana flags:1 x:12"/>
+    <ROW Trialware="alltrials" Section="Trial" Key="PeriodMeasureUnitStr" Value="Days"/>
+    <ROW Trialware="alltrials" Section="Trial" Key="NoOfUsagesMeasureUnitStr" Value="Runs"/>
+    <ROW Trialware="alltrials" Section="Trial" Key="DlgAppearBasedOn" Value="runs"/>
+    <ROW Trialware="alltrials" Section="Trial" Key="NoOfMaxExtension" Value="3"/>    
+    
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="DlgOpt" Value="caption:DlgCaption x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="AeroDlgOpt" Value="caption:DlgCaption x:0 y:0 w:300 h:150"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Ctrls" Value="Logo Header HeaderLine MsgXp EditXp Msg2Xp Finish Cancel"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="AeroCtrls" Value="Msg Edit Msg2 Finish Cancel"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:106"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Header" Value="type:130 id:33 caption:PageHeader flags:1342177280 x:15 y:7 w:100 h:10 styleEx:32 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="HeaderLine" Value="type:130 id:444 caption:PageHeader flags:1342181648 styleEx:131072 x:0 y:39 w:500 h:2"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:30 y:60 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="EditXp" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:30 y:80 w:284 h:50"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Msg2Xp" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:30 y:150 w:284 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Msg" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:20 y:20 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Edit" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:20 y:40 w:250 h:50"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Msg2" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:20 y:110 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Finish" Value="type:128 id:4 caption:FinishCaption flags:1484783744 popup:%PostRegisterPage% exit:101"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Cancel" Value="type:128 id:16 flags:1350566016 x:110 y:60 w:55 h:15 exit"/>
+    <ROW Trialware="alltrials" Section="RegisterOnlinePage" Key="Font" Value="flags:1 x:8 caption:Tahoma "/>  
+    
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="DlgOpt" Value="caption:DlgCaption x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="AeroDlgOpt" Value="caption:DlgCaption x:0 y:0 w:300 h:150"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Ctrls" Value="Logo Header HeaderLine MsgXp EditXp Msg2Xp Finish Cancel"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="AeroCtrls" Value="Msg Edit Msg2 Finish Cancel"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:106"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Header" Value="type:130 id:33 caption:PageHeader flags:1342177280 x:15 y:7 w:100 h:10 styleEx:32 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="HeaderLine" Value="type:130 id:444 caption:PageHeader flags:1342181648 styleEx:131072 x:0 y:39 w:500 h:2"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:30 y:60 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="EditXp" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:30 y:80 w:284 h:50"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Msg2Xp" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:30 y:150 w:284 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Msg" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:20 y:20 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Edit" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:20 y:40 w:250 h:50"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Msg2" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:20 y:110 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Finish" Value="type:128 id:4 caption:FinishCaption flags:1484783744 popup:%PostRegisterPage% exit:101"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Cancel" Value="type:128 id:16 flags:1350566016 x:110 y:60 w:55 h:15 exit"/>
+    <ROW Trialware="alltrials" Section="RegisterPage" Key="Font" Value="flags:1 x:8 caption:Tahoma "/>    
+    
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="DlgOpt" Value="caption:DlgCaption x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="AeroDlgOpt" Value="caption:DlgCaption x:0 y:0 w:300 h:150"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Ctrls" Value="Logo Header HeaderLine MsgXp EditXp Msg2Xp Finish Cancel LinkXp"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="AeroCtrls" Value="Msg Edit Msg2 Finish Cancel Link"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:106"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Header" Value="type:130 id:33 caption:PageHeader flags:1342177280 x:15 y:7 w:100 h:10 styleEx:32 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="HeaderLine" Value="type:130 id:444 caption:PageHeader flags:1342181648 styleEx:131072 x:0 y:39 w:500 h:2"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:30 y:50 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="EditXp" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:30 y:80 w:284 h:20"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Msg2Xp" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:30 y:120 w:284 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Msg" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:20 y:20 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Edit" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:20 y:40 w:250 h:20"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Msg2" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:20 y:90 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Finish" Value="type:128 id:4 caption:FinishCaption flags:1484783744 popup:%PostRegisterPage% exit:101"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Cancel" Value="type:128 id:16 flags:1350566016 x:110 y:60 w:55 h:15 exit"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Font" Value="flags:1 x:8 caption:Tahoma "/>    
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="Link" Value="type:130 id:500 caption:LinkCaption flags:1342177280 x:20 y:140 w:250 h:10 popup:RegisterCompIdPage"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdOnlinePage" Key="LinkXp" Value="type:130 id:500 caption:LinkCaption flags:1342177280 x:30 y:170 w:250 h:10 popup:RegisterCompIdPage"/>
+    
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="DlgOpt" Value="caption:DlgCaption x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="AeroDlgOpt" Value="caption:DlgCaption x:0 y:0 w:300 h:150"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Ctrls" Value="Logo Header HeaderLine MsgXp EditXp Msg2Xp Finish Cancel LinkXp"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="AeroCtrls" Value="Msg Edit Msg2 Finish Cancel Link"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:106"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Header" Value="type:130 id:33 caption:PageHeader flags:1342177280 x:15 y:7 w:100 h:10 styleEx:32 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="HeaderLine" Value="type:130 id:444 caption:PageHeader flags:1342181648 styleEx:131072 x:0 y:39 w:500 h:2"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:30 y:60 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="EditXp" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:30 y:80 w:284 h:50"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Msg2Xp" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:30 y:150 w:284 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Msg" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:20 y:20 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Edit" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:20 y:40 w:250 h:50"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Msg2" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:20 y:110 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Finish" Value="type:128 id:4 caption:FinishCaption flags:1484783744 popup:%PostRegisterPage% exit:101"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Cancel" Value="type:128 id:16 flags:1350566016 x:110 y:60 w:55 h:15 exit"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Font" Value="flags:1 x:8 caption:Tahoma "/>    
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="Link" Value="type:130 id:500 caption:LinkCaption flags:1342177280 x:20 y:2 w:250 h:10 popup:ContactReqLicenseCompId"/>
+    <ROW Trialware="alltrials" Section="RegisterCompIdPage" Key="LinkXp" Value="type:130 id:500 caption:LinkCaption flags:1342177280 x:30 y:50 w:250 h:10 popup:ContactReqLicenseCompId"/>
+    
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="DlgOpt" Value="caption:DlgCaption x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="AeroDlgOpt" Value="caption:DlgCaption x:0 y:0 w:300 h:150"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="Ctrls" Value="Logo Header HeaderLine MsgXp Finish Cancel"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="AeroCtrls" Value="Msg Finish Cancel"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:106"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="Header" Value="type:130 id:33 caption:PageHeader flags:1342177280 x:15 y:7 w:100 h:10 styleEx:32 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="HeaderLine" Value="type:130 id:444 caption:PageHeader flags:1342181648 styleEx:131072 x:0 y:39 w:500 h:2"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:30 y:60 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="Msg" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:20 y:20 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="Finish" Value="type:128 id:4 caption:FinishCaption flags:1350566016 exit:101"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="Cancel" Value="type:128 id:16 flags:1484783744 x:110 y:60 w:55 h:15 exit"/>
+    <ROW Trialware="alltrials" Section="RegisterThankYouPage" Key="Font" Value="flags:1 x:8 caption:Tahoma"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="DlgOpt" Value="caption:DlgCaption x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="AeroDlgOpt" Value="caption:DlgCaption x:0 y:0 w:300 h:150"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="Ctrls" Value="Logo Header HeaderLine MsgXp Finish Cancel"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="AeroCtrls" Value="Msg Finish Cancel"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:106"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="Header" Value="type:130 id:33 caption:PageHeader flags:1342177280 x:15 y:7 w:100 h:10 styleEx:32 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="HeaderLine" Value="type:130 id:444 caption:PageHeader flags:1342181648 styleEx:131072 x:0 y:39 w:500 h:2"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:30 y:60 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="Msg" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:20 y:20 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="Finish" Value="type:128 id:4 flags:1350566016 exit:101"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="Cancel" Value="type:128 id:16 flags:1484783744 x:110 y:60 w:55 h:15 exit"/>
+    <ROW Trialware="alltrials" Section="ElevatedPrivilegesPage" Key="Font" Value="flags:1 x:8 caption:Tahoma"/>    
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="DlgOpt" Value="caption:DlgCaption x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="AeroDlgOpt" Value="caption:DlgCaption x:0 y:0 w:300 h:130"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="Ctrls" Value="Logo HeadXp MsgXp TryXp RegisterXp BuyXp Cancel"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="AeroCtrls" Value="Msg Register Try Buy Cancel"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:105"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="Msg" Value="type:130 id:333 caption:MsgCaption%TrialMU% flags:1342242848 styleEx:32 x:7 y:7 w:250 h:35"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="Try" Value="type:128 id:102 caption:TryCaption flags:1476493326 x:24 y:30 w:180 h:38 image:TryNote"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="Register" Value="type:128 id:101 caption:RegisterCaption flags:1342275598 x:24 y:71 w:220 h:38 popup:%RegisterPage% image:RegisterNote"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="Buy" Value="type:128 id:5 caption:BuyCaption flags:1342275598 x:24 y:112 w:220 h:38 popup:BuyUrl image:BuyNote"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="Cancel" Value="type:128 id:16 flags:1342177280 exit"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="HeadXp" Value="type:130 id:333 caption:PageHeader flags:1342177280 x:120 y:20 w:175 h:40 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption%TrialMU% flags:1342177280 x:120 y:70 w:175 h:40"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="TryXp" Value="type:128 id:102 caption:TryCaption flags:1476395009 x:240 y:100 w:55 h:15"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="RegisterXp" Value="type:128 id:101 caption:RegisterCaption flags:1342242817 x:240 y:120 w:55 h:15 popup:%RegisterPage%"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="BuyXp" Value="type:128 id:5 caption:BuyCaption flags:1342242816 x:240 y:140 w:55 h:15 popup:BuyDlg"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredPage" Key="Font" Value="caption:Verdana flags:1 x:12"/>
+    <ROW Trialware="alltrials" Section="InvalidSerialDlg" Key="DlgOpt" Value="caption:DlgCaption flags:16"/>
+    <ROW Trialware="alltrials" Section="OnlineRegistrationErrorDlg" Key="DlgOpt" Value="caption:DlgCaption flags:16"/>
+    <ROW Trialware="alltrials" Section="ValidSerialDlg" Key="DlgOpt" Value="caption:DlgCaption flags:0"/>
+    <ROW Trialware="alltrials" Section="ExtExceededDlg" Key="DlgOpt" Value="caption:DlgCaption flags:16"/>
+    <ROW Trialware="alltrials" Section="BuyDlg" Key="DlgOpt" Value="caption:DlgCaption flags:36"/>
+    <ROW Trialware="alltrials" Section="BuyDlg" Key="Ctrls" Value="Ok"/>
+    <ROW Trialware="alltrials" Section="BuyDlg" Key="Ok" Value="type:128 id:6 popup:BuyUrl"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="DlgOpt" Value="caption:DlgCaption x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="AeroDlgOpt" Value="caption:DlgCaption x:0 y:0 w:300 h:130"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="Ctrls" Value="Logo HeadXp MsgXp TryXp RegisterXp BuyXp Cancel"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="AeroCtrls" Value="Msg Try Register Buy Cancel"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:105"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="Msg" Value="type:130 id:333 caption:MsgCaption%TrialMU% flags:1342242848 styleEx:32 x:7 y:7 w:280 h:35"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="Try" Value="type:128 id:102 caption:TryCaption flags:1342275598 x:24 y:30 w:220 h:38 popup:ExtendTrialPage image:TryNote"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="Register" Value="type:128 id:101 caption:RegisterCaption flags:1342275598 x:24 y:71 w:220 h:38 popup:%RegisterPage% image:RegisterNote"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="Buy" Value="type:128 id:5 caption:BuyCaption flags:1342275598 x:24 y:112 w:220 h:38 popup:BuyUrl image:BuyNote"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="Cancel" Value="type:128 id:16 flags:1342177280 exit"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="HeadXp" Value="type:130 id:333 caption:PageHeader flags:1342177280 x:120 y:20 w:175 h:40 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption%TrialMU% flags:1342177280 x:120 y:70 w:175 h:40"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="TryXp" Value="type:128 id:102 caption:TryCaption flags:1342242816 x:240 y:100 w:55 h:15 popup:ExtendTrialPage"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="RegisterXp" Value="type:128 id:101 caption:RegisterCaption flags:1342242817 x:240 y:120 w:55 h:15 popup:%RegisterPage%"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="BuyXp" Value="type:128 id:5 caption:BuyCaption flags:1342242816 x:240 y:140 w:55 h:15 popup:BuyDlg"/>
+    <ROW Trialware="alltrials" Section="TrialExpiredExtPage" Key="Font" Value="caption:Verdana flags:1 x:12"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Page" Value="true"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="DlgOpt" Value="caption:DlgCaption x:0 y:0 w:314 h:172"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="AeroDlgOpt" Value="caption:DlgCaption x:0 y:0 w:300 h:150"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Ctrls" Value="Logo Header HeaderLine MsgXp EditXp Msg2Xp Finish Cancel LinkXp"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="AeroCtrls" Value="Msg Edit Msg2 Finish Cancel Link"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Logo" Value="type:130 id:85 flags:1342177280 x:0 y:0 w:80 h:80 image:106"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Header" Value="type:130 id:33 caption:PageHeader flags:1342177280 x:15 y:7 w:100 h:10 styleEx:32 secondaryFont"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="HeaderLine" Value="type:130 id:444 caption:PageHeader flags:1342181648 styleEx:131072 x:0 y:39 w:500 h:2"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="MsgXp" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:30 y:60 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="EditXp" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:30 y:80 w:284 h:50"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Msg2Xp" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:30 y:150 w:284 h:15"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Msg" Value="type:130 id:3 caption:MsgCaption flags:1342177280 x:20 y:20 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Edit" Value="type:129 id:100 caption:EditCaption flags:1350631748 x:20 y:40 w:250 h:50"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Msg2" Value="type:130 id:322 caption:Msg2Caption flags:1342177280 x:20 y:110 w:250 h:15"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Finish" Value="type:128 id:4 caption:FinishCaption flags:1484783744 exit:102"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Cancel" Value="type:128 id:16 flags:1350566016 x:110 y:60 w:55 h:15 exit"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Link" Value="type:130 id:500 caption:LinkCaption flags:1342177280 x:20 y:2 w:150 h:10 popup:%ExtendContactAction%"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="LinkXp" Value="type:130 id:500 caption:LinkCaption flags:1342177280 x:30 y:50 w:150 h:10 popup:%ExtendContactAction%"/>
+    <ROW Trialware="alltrials" Section="ExtendTrialPage" Key="Font" Value="flags:1 x:8 caption:Tahoma "/>
+    <ROW Trialware="alltrials" Section="Properties" Key="PostRegisterPage" Value="RegisterThankYouPage"/>
+    <ROW Trialware="alltrials" Section="Properties" Key="RegisterPage" Value="RegisterPage"/>
+    <ROW Trialware="alltrials" Section="Properties" Key="PostRegisterPopUpDlg" Value="none"/>
+    <ROW Trialware="alltrials" Section="Properties" Key="ExtendContactAction" Value="ExtendContact"/>
+    <ROW Trialware="alltrials" Section="Properties" Key="TrialExtendContact" Value="support@example.com"/>
+    <ROW Trialware="alltrials" Section="Properties" Key="BuildDate" Value=""/>
+    <ROW Trialware="alltrials" Section="Properties" Key="LicReqContact" Value="support@example.com"/>
+    <ROW Trialware="alltrials" Section="Properties" Key="MsgServiceUnavailable" Value="The online registration service is unavailable." ValueLocId="TrialwareSettings.alltrials#Properties#MsgServiceUnavailable"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="InvalidSerialDlg#MsgCaption" Value="The registration key is invalid. %LastErrorMsg%" ValueLocId="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="InvalidSerialDlg#DlgCaption" Value="Invalid Registration Key" ValueLocId="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="OnlineRegistrationErrorDlg#MsgCaption" Value="%LastErrorMsg%" ValueLocId="TrialwareSettings.alltrials#Strings#OnlineRegistrationErrorDlg#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="OnlineRegistrationErrorDlg#DlgCaption" Value="Online Registration Failed" ValueLocId="TrialwareSettings.alltrials#Strings#OnlineRegistrationErrorDlg#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="BuyDlg#MsgCaption" Value="Would you like to open the %TrialName% purchase page?" ValueLocId="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="BuyDlg#DlgCaption" Value="Buy" ValueLocId="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdOnlinePage#DlgCaption" Value="%TrialName% Trial" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdOnlinePage#PageHeader" Value="Registration" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdOnlinePage#MsgCaption" Value="Please enter your license ID for online registration." ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdOnlinePage#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdOnlinePage#Msg2Caption" Value="Press the &quot;Register&quot; button to download your license and continue." ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdOnlinePage#Msg2Caption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdOnlinePage#FinishCaption" Value="Register" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterOnlinePage#FinishCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdOnlinePage#LinkCaption" Value="Register without Internet Connection" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdOnlinePage#LinkCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdPage#DlgCaption" Value="%TrialName% Trial" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdPage#PageHeader" Value="Registration" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdPage#MsgCaption" Value="Please enter all the lines of the registration key you have received." ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdPage#Msg2Caption" Value="Press the &quot;Continue&quot; button to validate the key and continue." ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#Msg2Caption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdPage#FinishCaption" Value="Continue" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#FinishCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterCompIdPage#LinkCaption" Value="Request license (request code: %CompId%)" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#LinkCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterOnlinePage#DlgCaption" Value="%TrialName% Trial" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterOnlinePage#PageHeader" Value="Registration" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterOnlinePage#MsgCaption" Value="Please enter your license ID for online registration" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterOnlinePage#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterOnlinePage#Msg2Caption" Value="Press the &quot;Register&quot; button to validate your license and continue." ValueLocId="TrialwareSettings.alltrials#Strings#RegisterOnlinePage#Msg2Caption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterOnlinePage#FinishCaption" Value="Register" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterOnlinePage#FinishCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterPage#DlgCaption" Value="%TrialName% Trial" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterPage#PageHeader" Value="Registration" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterPage#MsgCaption" Value="Please enter all the lines of the registration key you have received." ValueLocId="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterPage#Msg2Caption" Value="Press the &quot;Continue&quot; button to validate the key and continue." ValueLocId="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterPage#FinishCaption" Value="Continue" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterPage#FinishCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#DlgCaption" Value="%TrialName% Trial Expired" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#PageHeader" Value="Welcome to the %TrialName% Trial" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#MsgCaptionDays" Value="Your %Quantity% days trial has expired. If you want to continue using %TrialName% you must purchase a license and register the application." ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#MsgCaptionRuns" Value="Your %Quantity% runs trial has expired. If you want to continue using %TrialName% you must purchase a license and register the application." ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#TryCaption" Value="Try" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#RegisterCaption" Value="Register" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#BuyCaption" Value="Buy" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#TryNote" Value="Expired" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#RegisterNote" Value="Enter registration key" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredPage#BuyNote" Value="Visit %TrialName% purchase page to aquire a license" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#DlgCaptionDays" Value="%TrialName% Trial (%TrialLeft% days left)" ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#DlgCaptionRuns" Value="%TrialName% Trial (%TrialLeft% runs left)" ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#PageHeader" Value="Welcome to the %TrialName% Trial" ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#MsgCaptionDays" Value="You are using the trial version of %TrialName% from [|Manufacturer]. You have %TrialLeft% days left." ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#MsgCaptionRuns" Value="You are using the trial version of %TrialName% from [|Manufacturer]. You have %TrialLeft% runs left." ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#TryCaption" Value="Try" ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#RegisterCaption" Value="Register" ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#BuyCaption" Value="Buy" ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#TryNote" Value="Continue trial of %TrialName%" ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#TryNote"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#RegisterNote" Value="Enter registration key" ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialPage#BuyNote" Value="Visit %TrialName% purchase page to aquire a license" ValueLocId="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote"/><ROW Trialware="alltrials" Section="Strings" Key="ValidSerialDlg#MsgCaption" Value="Thank you for registering %TrialName%." ValueLocId="TrialwareSettings.alltrials#Strings#ValidSerialDlg#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ValidSerialDlg#DlgCaption" Value="%TrialName% Registered" ValueLocId="TrialwareSettings.alltrials#Strings#ValidSerialDlg#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterThankYouPage#DlgCaption" Value="%TrialName% Registered" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterThankYouPage#PageHeader" Value="Registration Successfully " ValueLocId="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterThankYouPage#MsgCaption" Value="Thank you for registering %TrialName%." ValueLocId="TrialwareSettings.alltrials#Strings#RegisterThankYouPage#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="RegisterThankYouPage#FinishCaption" Value="Continue" ValueLocId="TrialwareSettings.alltrials#Strings#RegisterCompIdPage#FinishCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ElevatedPrivilegesPage#DlgCaption" Value="Warning" ValueLocId="TrialwareSettings.alltrials#Strings#ElevatedPrivilegesPage#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ElevatedPrivilegesPage#PageHeader" Value="Warning" ValueLocId="TrialwareSettings.alltrials#Strings#ElevatedPrivilegesPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ElevatedPrivilegesPage#MsgCaption" Value="The application is running without elevated privileges. In order to register please close and restart it using the option 'Run as Administrator'" ValueLocId="TrialwareSettings.alltrials#Strings#ElevatedPrivilegesPage#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#DlgCaption" Value="%TrialName% Trial Expired" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#PageHeader" Value="Welcome to %TrialName% Trial" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#MsgCaptionDays" Value="Your %Quantity% days trial has expired. If you want to continue using %TrialName% you must request a trial extension or purchase a license and register the application." ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionDays"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#MsgCaptionRuns" Value="Your %Quantity% runs trial has expired. If you want to continue using %TrialName% you must request a trial extension or purchase a license and register the application." ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#MsgCaptionRuns"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#TryCaption" Value="Extend Trial" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#RegisterCaption" Value="Register" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#BuyCaption" Value="Buy" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#TryNote" Value="Extend %TrialName% trial period" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#TryNote"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#RegisterNote" Value="Enter registration key" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#RegisterNote"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="TrialExpiredExtPage#BuyNote" Value="Visit %TrialName% purchase page to aquire a license" ValueLocId="TrialwareSettings.alltrials#Strings#TrialExpiredExtPage#BuyNote"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ExtendTrialPage#DlgCaption" Value="%TrialName% Trial" ValueLocId="TrialwareSettings.alltrials#Strings#ExtendTrialPage#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ExtendTrialPage#PageHeader" Value="Extend Trial" ValueLocId="TrialwareSettings.alltrials#Strings#ExtendTrialPage#PageHeader"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ExtendTrialPage#MsgCaption" Value="Please enter the code you have received to extend the trial period." ValueLocId="TrialwareSettings.alltrials#Strings#ExtendTrialPage#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ExtendTrialPage#Msg2Caption" Value="Press the &quot;Continue&quot; button to validate the code and continue trial." ValueLocId="TrialwareSettings.alltrials#Strings#ExtendTrialPage#Msg2Caption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ExtendTrialPage#FinishCaption" Value="Continue" ValueLocId="TrialwareSettings.alltrials#Strings#ExtendTrialPage#FinishCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ExtendTrialPage#LinkCaption" Value="Request trial extension" ValueLocId="TrialwareSettings.alltrials#Strings#ExtendTrialPage#LinkCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ExtExceededDlg#MsgCaption" Value="You are not allowed to extend the trial period to more than %Quantity% %TrialMU%." ValueLocId="TrialwareSettings.alltrials#Strings#ExtExceededDlg#MsgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="ExtExceededDlg#DlgCaption" Value="Trial Extensions Exceeded" ValueLocId="TrialwareSettings.alltrials#Strings#ExtExceededDlg#DlgCaption"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="Error1" Value="Your registration license has expired." ValueLocId="TrialwareSettings.alltrials#Strings#Error1"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="Error2" Value="This version of %TrialName% is not covered by you license maintainance plan." ValueLocId="TrialwareSettings.alltrials#Strings#Error2"/>
+    <ROW Trialware="alltrials" Section="Strings" Key="Error3" Value="Your %TrialName% license has expired." ValueLocId="TrialwareSettings.alltrials#Strings#Error3"/>
+    <ROW Trialware="alltrials" Section="ExtendContact" Key="Page" Value="open"/>
+    <ROW Trialware="alltrials" Section="ExtendContact" Key="Cmd" Value="mailto:%TrialExtendContact%?subject=Trial Extension Request&amp;body=Hi,%%0A%%0AI would like to request a trial period extension code for %TrialName%.%%0A%%0AThank you,%%0A" ValueLocId="TrialwareSettings.alltrials#ExtendContact#Cmd"/>
+    <ROW Trialware="alltrials" Section="ExtendContactUrl" Key="Page" Value="url"/>
+    <ROW Trialware="alltrials" Section="ExtendContactUrl" Key="Cmd" Value="%TrialExtendContact%"/>
+    <ROW Trialware="alltrials" Section="ContactReqLicenseCompId" Key="Page" Value="open"/>
+    <ROW Trialware="alltrials" Section="ContactReqLicenseCompId" Key="Cmd" Value="mailto:%LicReqContact%?subject=License Request Code: %CompId%&amp;body=Hi,%%0A%%0AI would like to request a %TrialName% license using the following request code: %CompId% %%0A%%0AThank you,%%0A" ValueLocId="TrialwareSettings.alltrials#ContactReqLicenseCompId#Cmd"/>
+  </COMPONENT>
+</FRAGMENT>

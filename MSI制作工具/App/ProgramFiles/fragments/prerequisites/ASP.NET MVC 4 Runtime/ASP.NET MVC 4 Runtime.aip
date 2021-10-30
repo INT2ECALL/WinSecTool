@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="CEA1EA8F997C4428A8F4E9C851020995" DisplayName="ASP.NET MVC 4 Runtime" VersionMin="4"
+      SetupFileUrl="http://download.microsoft.com/download/2/F/6/2F63CCD8-9288-4CC8-B58C-81D109F8F5A3/AspNetMVC4Setup.exe"
+      Location="1" ExactSize="37684848" MD5="c71157d9b3a4105b2d3c5a968d0ced0a"
+      WinNTVersions="Windows Vista RTM x86"
+      WinNT64Versions="Windows Vista RTM x64"
+      NoUiComLine="/q"
+      Operator="0" Options="f" TargetName="ASP.NET MVC 4 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="CEA1EA8F997C4428A8F4E9C851020995InstallPath" Prereq="CEA1EA8F997C4428A8F4E9C851020995" SearchType="7"
+      SearchString="HKLM\SOFTWARE\Microsoft\ASP.NET MVC 4\Runtime\InstallPath"
+      Order="1" Property="PreReqSearch_CEA1EA8F997C4428A8F4E9C851020995"/>
+    <ROW SearchKey="CEA1EA8F997C4428A8F4E9C851020995System.Web.Mvc.dll" Prereq="CEA1EA8F997C4428A8F4E9C851020995" SearchType="0"
+      SearchString="[ProgramFilesFolder]Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" VerMin="4.0.20710.0"
+      Order="2" Property="PreReqSearch_1_CEA1EA8F997C4428A8F4E9C851020995"/>
+  </COMPONENT>
+</FRAGMENT>

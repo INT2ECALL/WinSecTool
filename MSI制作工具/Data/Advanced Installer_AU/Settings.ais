@@ -1,0 +1,5 @@
+[Settings]
+License Registration Mode = 1
+License Server = 127.0.0.1
+License Server Proxy = 127.0.0.1
+License Next Update Check = 9999999999 99999999

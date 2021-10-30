@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT type="Advanced Installer" RootPath=".">
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericPropertyComponent">
+    <ROW Name="Author" Value="Your Company"/>
+    <ROW Name="Version" Value="1.0.0"/>
+    <ROW Name="VsixLanguage" Value="en-US"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsixSupportedProductComponent">
+    <ROW Name="Pro" Version="11.0" MaxVersion="15.0" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsixReferencesComponent">
+    <ROW Id="Microsoft.Framework.NDP" Name="Microsoft .NET Framework" MinVersion="4.5" Flags="2" />
+    <ROW Id="Microsoft.VisualStudio.Component.CoreEditor" Name="Visual Studio core editor" MinVersion="15.0" MaxVersion="16" Type="1" Flags="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsixContentComponent">
+    <ATTRIBUTE name="OutputFileName" value=".vsix"/>
+  </COMPONENT>
+</DOCUMENT>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="CE6A2D55BB654A48ADDB534115E9C322" DisplayName="MSXML 6.0 Parser SP2 x64" VersionMin="6.20"
+      SetupFileUrl="http://download.microsoft.com/download/2/7/5/2753aabc-24de-41be-a05b-d41fc76f3aad/msxml6-KB954459-enu-amd64.exe"
+      Location="1" ExactSize="1851912" MD5="2f3f762b499ecb01c7dae0d2a9272f1d"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xf" TargetName="MSXML 6.0 Parser SP2"/>
+    <ATTRIBUTE name="GroupName" value="Windows Core Libraries"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="CE6A2D55BB654A48ADDB534115E9C322SystemFoldermsxml6.dll" Prereq="CE6A2D55BB654A48ADDB534115E9C322" SearchType="0"
+      SearchString="[SystemFolder]msxml6.dll" VerMin="6.20.1099.0"
+      Order="1" Property="PreReqSearch_CE6A2D55BB654A48ADDB534115E9C322"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="extreglogoicon" SourcePath="&lt;AI_THEMES&gt;common-res\images\ExtRegLogo.ico"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ExtRegLogoIcon" Value="extreglogoicon" Type="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="ExtRegDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="ExtRegDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ExtRegDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ExtRegDlg" Control="Buttons" Type="RadioButtonGroup" X="55" Y="155" Width="330" Height="40" Attributes="3" Property="AI_EXTREG" Order="400"/>
+    <ROW Dialog_="ExtRegDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Back]" Order="500" TextLocId="-" Options="1"/>
+    <ROW Dialog_="ExtRegDlg" Control="ExtList" Type="Text" X="55" Y="130" Width="314" Height="30" Attributes="196611" Order="600" TextLocId="Control.Text.ExtRegDlg#ExtList"/>
+    <ROW Dialog_="ExtRegDlg" Control="Title" Type="Text" X="55" Y="23" Width="380" Height="40" Attributes="196611" TextStyle="TitleFont" Order="700" TextLocId="Azure.Control.Text.ExtRegDlg#Title"/>
+    <ROW Dialog_="ExtRegDlg" Control="TitleIcon" Type="Icon" X="10" Y="10" Width="36" Height="36" Attributes="7340033" Text="[ExtRegLogoIcon]" Order="800"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="ExtRegDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="ExtRegDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.ExtRegDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRadioButtonComponent">
+    <ROW Property="AI_EXTREG" Order="1" Value="Yes" X="5" Y="0" Width="250" Height="15" TextStyle="DlgFont8" TextLocId="RadioButton.Text.ExtReg#1"/>
+    <ROW Property="AI_EXTREG" Order="2" Value="No" X="5" Y="20" Width="250" Height="15" TextStyle="DlgFont8" TextLocId="RadioButton.Text.ExtReg#2"/>
+  </COMPONENT>
+</FRAGMENT>

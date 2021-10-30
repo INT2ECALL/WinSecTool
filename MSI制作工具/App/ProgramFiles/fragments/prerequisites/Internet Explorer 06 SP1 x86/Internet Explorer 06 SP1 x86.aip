@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B35CD4C_56B1_4838_BF7E_E660CE091FA8" DisplayName="Internet Explorer 6 SP1 x86" VersionMin="6.0"
+      SetupFileUrl="http://download.microsoft.com/download/ie6sp1/finrel/6_sp1/W98NT42KMeXP/EN-US/ie6setup.exe"
+      Location="1" ExactSize="491768" MD5="34429b572e1ff3ebcba8090c811ae8f1"
+      WinNTVersions="Windows Server 2003 SP2 x86, Windows Vista x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/q:a /r:n"
+      Operator="1" Options="y" TargetName="Internet Explorer 6"/>
+    <ATTRIBUTE name="GroupName" value="Internet Explorer"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B35CD4C_56B1_4838_BF7E_E660CE091FA8SystemFolderwininet.dll" Prereq="B35CD4C_56B1_4838_BF7E_E660CE091FA8" SearchType="0"
+      SearchString="[SystemFolder]wininet.dll" VerMin="6.0"
+      Order="1" Property="PreReqSearch_B35CD4C_56B1_4838_BF7E_E660CE091FA8"/>
+  </COMPONENT>
+</FRAGMENT>

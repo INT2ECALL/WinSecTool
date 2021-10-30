@@ -1,0 +1,361 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+a img
+{
+  border: none;	
+}
+
+.clear
+{
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.center-inline
+{
+  text-align: center !important;
+}
+/********/
+
+#main
+{
+  width: 600px;
+  height: 480px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+/********/
+
+div#footer
+{
+  height:70px;
+  position: absolute;
+  bottom: 0;
+  width: 600px;
+}
+/********/
+div#header
+{
+  height: 65px;
+  width: 600px;
+  position: relative;
+}
+
+div#logo
+{
+  height: 70px;
+  width: 60px;
+  float: left;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+h1
+{
+  font: normal 17px/65px 'Segoe UI', 'Trebuchet MS', Arial;
+  float: left;
+  margin: 0;
+  color: #323232;
+}
+
+/********/
+
+div#content
+{
+  height: 345px;
+  width: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+div.central {
+position: absolute;
+left: 0%;
+width: 100%;
+}
+
+div.aditional-info
+{
+  position: absolute;
+  bottom: 10px;
+}
+
+div.aditional-info p
+{
+  font-size: 12px;
+  color: #777777;
+  font-weight: normal;
+  padding: 5px 0 0 0;
+}
+/********/
+
+p.description
+{
+  font: normal 12px 'Segoe UI', 'Trebuchet MS', Arial;
+  color: #575757;
+  text-align: justify;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.myEdit
+{
+  font: normal 14px 'Segoe UI', 'Trebuchet MS', Arial;
+  color: black;
+  text-align: justify;
+  margin: 0;
+  padding: -1px 0 0 0;
+}
+
+.myBtn
+{
+  font: normal 14px 'Segoe UI', 'Trebuchet MS', Arial;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: -1px 0 0 0;
+}
+/********/
+
+a#print
+{
+  display: block;
+  height: 24px;
+  width: 24px;
+  background: url(print.png) no-repeat;
+  position: absolute;
+  top: 62px;
+  right: 0;
+}
+
+a#print:hover
+{
+  background: url(print.png) no-repeat 0 -24px;
+}
+
+div#logoBig
+{
+  height: 128px;
+  width: 128px;
+  margin: 85px auto 0 auto;
+  background-repeat: no-repeat;
+}
+/********/
+
+div.button-group
+{
+  width: 480px;
+  margin: 20px auto 0 auto;
+}
+
+div.button-group  div.cancel
+{
+  padding-left: 20px;
+}
+
+.buttonwrapper-right
+ {
+  float: right !important;
+}
+
+.buttonwrapper a, .buttonwrapper-disabled a
+{
+  background: url(../banner.gif) no-repeat top left;
+  float: left;
+  font: bold 13px/28px 'Trebuchet MS', Helvetica, sans-serif;
+  height: 38px;
+  padding-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  /*color: #323232;*/
+  color: white;
+}
+
+.buttonwrapper a:hover
+{
+  background-position: left -38px;
+}
+
+.buttonwrapper a:active
+{
+  background-position: left -76px;
+}
+
+.buttonwrapper a span, .buttonwrapper-disabled a span
+{
+  background: url(../banner.gif) no-repeat right -152px;
+  display: block;
+  padding: 4px 12px 6px 22px;
+}
+
+.buttonwrapper a:hover span
+{
+  background-position: right -190px;
+}
+
+.buttonwrapper a:active span
+{
+  background-position: right -228px;
+}
+
+.buttonwrapper a b img
+{
+  float: left;
+  margin-top: 10px;
+}
+
+.buttonwrapper-disabled a, .buttonwrapper-disabled a:hover, .buttonwrapper-disabled a:active
+{
+  color: #b8b8b8;
+  cursor: default;
+  background-position: left -114px;
+}
+
+.buttonwrapper-disabled a span, .buttonwrapper-disabled a:hover span, .buttonwrapper-disabled a:active span
+{
+  background-position: right -266px;
+}
+
+/*Large button*/
+.button-large
+{
+  margin: 10px auto;
+  height: 55px;
+  width: 275px;
+  position: relative;
+  top: 75px;
+}
+
+.button-large img
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.button-large a
+{
+  float: left;
+  font: bold 0.8em 'Segoe UI', 'Trebuchet MS', Arial;
+  height: 57px;
+  padding-left: 58px;
+  text-decoration: none;
+  background: url(button-large-bg.png) no-repeat top left;  
+}
+
+.button-large a span b
+{
+  display: block;
+  color: #787878;
+  font: normal 0.8em Verdana, sans-serif;
+}
+
+.button-large a, .button-large a:visited, .button-large a:active
+{
+  color: #4e4e4e;
+}
+
+.button-large a:hover
+{
+  background-position: left -57px;
+  text-decoration: none;
+}
+
+.button-large a span
+{
+  background: url(button-large-bg.png) no-repeat right top;
+  display: block;
+  padding: 12px 12px 11px 5px;
+  width: 200px;
+  cursor: pointer;
+  position: relative;
+  left: 5px;
+}
+
+.button-large a:hover span
+{
+  background-position: right -57px;
+}
+
+.description
+{
+  font: normal 12px 'Segoe UI', 'Trebuchet MS', Arial;
+  color: #777777;
+}
+
+.langtext
+{
+  font: normal 12px 'Segoe UI', 'Trebuchet MS', Arial;
+  color: #777777;
+  position: relative; 
+  left: 72px;
+  top: 55px;
+}
+
+div.central input.myEdit
+{
+  border: 1px solid #b3b3b3;
+  margin: 7px 0 7px 0;
+  padding-bottom: 3px;
+  cursor: text;
+  height: 18px;
+  width: 99%;
+}
+
+div.aditional-info label
+{
+  font: normal 12px 'Segoe UI', 'Trebuchet MS', Arial;
+  color: #777777;
+}
+
+a
+{
+  color: #0645AD;
+  font: normal 12px 'Segoe UI', 'Trebuchet MS', Arial;
+  text-align: justify;
+}
+
+a:hover
+{
+  color: #3366BB;
+}
+
+input[type=text]:disabled {
+    background: #F9F9F9;
+}
+
+.editComboBox
+{
+  position:relative;
+  width:339px;
+  height:25px;
+  border:0;
+  padding:0; 
+  margin:7px 0 7px 0;
+}
+
+.editComboBox .comboBox
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:339px;
+  height:24px;
+  line-height:20px;
+  margin:0;
+  padding:0;
+}
+
+.editComboBox .editBox
+{
+  position:absolute;
+  top:1px;
+  left:1px;
+}

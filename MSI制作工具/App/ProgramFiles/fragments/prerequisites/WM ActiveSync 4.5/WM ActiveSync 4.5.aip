@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B138911_7CF9_468E_94C5_726DA3FA01EF" DisplayName="ActiveSync 4.5" VersionMin="4.5"
+      SetupFileUrl="http://download.microsoft.com/download/5/4/6/5467c040-a935-4987-aa30-5dcbc36a57db/setup.msi"
+      Location="1" ExactSize="7886336" MD5="2650ecd7e231c0149fb4821136b5bb98"
+      WinNTVersions="Windows Vista x86, Windows Server 2008 x86, Windows 7 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xf" TargetName="ActiveSync 4.5"/>
+    <ATTRIBUTE name="GroupName" value="Windows Drivers"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B138911_7CF9_468E_94C5_726DA3FA01EFSystemFolderrapi.dll" Prereq="B138911_7CF9_468E_94C5_726DA3FA01EF" SearchType="0"
+      SearchString="[SystemFolder]rapi.dll" VerMin="4.5.5096"
+      Order="1" Property="PreReqSearch_B138911_7CF9_468E_94C5_726DA3FA01EF"/>
+  </COMPONENT>
+</FRAGMENT>

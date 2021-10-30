@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.3" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="BE67510_E45F_4FDC_9305_99FB6F87FDC8" DisplayName="Office 2003 Primary Interop Assemblies" VersionMin="11.0"
+      SetupFileUrl="http://www.microsoft.com/en-us/download/details.aspx?id=20923"
+      Location="2" ExactSize="0"
+      WinNTVersions="Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      Operator="1" Options="y"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Office"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="BE67510_E45F_4FDC_9305_99FB6F87FDC8UpgradeCode" Prereq="BE67510_E45F_4FDC_9305_99FB6F87FDC8" SearchType="4"
+      SearchString="{01490000-6000-11D3-8CFE-0050048383C9}" VerMin="11.0.6553.0"
+      Order="1" Property="PreReqSearch_BE67510_E45F_4FDC_9305_99FB6F87FDC8"/>
+  </COMPONENT>
+</FRAGMENT>

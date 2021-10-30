@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://schemas.microsoft.com/appx/appinstaller/2018"
+  xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
+  xmlns:s3="http://schemas.microsoft.com/appx/appinstaller/2018"
+  xmlns:t="http://schemas.microsoft.com/appx/manifest/types">
+
+  <xs:import namespace="http://schemas.microsoft.com/appx/manifest/types"/>
+
+  <xs:element name="AppInstaller">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="1">
+          <xs:element name="MainPackage" type="CT_Package"/>
+          <xs:element name="MainBundle" type="CT_Bundle"/>
+        </xs:choice>
+        <xs:element name="OptionalPackages" type="CT_PackageOrBundleList" minOccurs="0" maxOccurs="1" />
+        <xs:element name="RelatedPackages" type="CT_PackageOrBundleList" minOccurs="0" maxOccurs="1" />
+        <xs:element name="Dependencies" type="CT_PackageOrBundleList" minOccurs="0" maxOccurs="1" />
+        <xs:element name="UpdateSettings" type="CT_UpdateSettings" minOccurs="0" maxOccurs="1" />
+      </xs:sequence>
+      <xs:attribute name="Uri" type="t:ST_URI" use="required" />
+      <xs:attribute name="Version" type="t:ST_VersionQuad" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="CT_PackageOrBundleList">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="10000">
+        <xs:element name="Package" type="CT_Package"/>
+        <xs:element name="Bundle" type="CT_Bundle"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:attributeGroup name="AttributesForPackageOrBundle">
+    <xs:attribute name="Name" type="t:ST_PackageName" use="required"/>
+    <xs:attribute name="Publisher" type="t:ST_Publisher_2010_v2" use="required"/>
+    <xs:attribute name="Version" type="t:ST_VersionQuad" use="required"/>
+    <xs:attribute name="Uri" type="t:ST_URI" use="required"/>
+  </xs:attributeGroup>
+
+  <xs:attributeGroup name="AttributesForPackageOnly">
+    <xs:attribute name="ProcessorArchitecture" type="t:ST_Architecture" use="optional"/>
+    <xs:attribute name="ResourceId" type="t:ST_ResourceId" use="optional"/>
+  </xs:attributeGroup>
+
+  <xs:complexType name="CT_Package">
+    <xs:attributeGroup ref="AttributesForPackageOrBundle"/>
+    <xs:attributeGroup ref="AttributesForPackageOnly"/>
+  </xs:complexType>
+
+  <xs:complexType name="CT_Bundle">
+    <xs:attributeGroup ref="AttributesForPackageOrBundle"/>
+  </xs:complexType>
+
+  <xs:complexType name="CT_UpdateSettings">
+    <xs:sequence>
+      <xs:element name="OnLaunch" type="CT_OnLaunch" minOccurs="0" maxOccurs="1" />
+      <xs:element name="AutomaticBackgroundTask" type="CT_AutomaticBackgroundTask" minOccurs="0" maxOccurs="1" />
+      <xs:element name="ForceUpdateFromAnyVersion" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:attributeGroup name="AttributesForOnLaunch">
+    <xs:attribute name="ShowPrompt" type="xs:boolean" use="optional" />
+    <xs:attribute name="UpdateBlocksActivation" type="xs:boolean" use="optional" />
+    <xs:attribute name="HoursBetweenUpdateChecks" type="xs:unsignedByte" use="optional" default="24" />
+  </xs:attributeGroup>
+
+  <xs:complexType name="CT_OnLaunch">
+    <xs:attributeGroup ref="AttributesForOnLaunch"/>
+  </xs:complexType>
+  
+  <xs:complexType name="CT_AutomaticBackgroundTask"/>
+</xs:schema>

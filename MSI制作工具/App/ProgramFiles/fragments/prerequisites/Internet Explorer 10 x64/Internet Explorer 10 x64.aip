@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="A021C37FC784EE0BD0D35B7F4EDEDAB" DisplayName="Internet Explorer 10 x64" VersionMin="10.0"
+      SetupFileUrl="http://download.microsoft.com/download/C/E/0/CE0AB8AE-E6B7-43F7-9290-F8EB0EA54FB5/IE10-Windows6.1-x64-en-us.exe"
+      Location="1" ExactSize="44335120" MD5="7ca1f1f4ab4e9599e2fa79d2684562da"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xy" TargetName="Internet Explorer 10"/>
+    <ATTRIBUTE name="GroupName" value="Internet Explorer"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="A021C37FC784EE0BD0D35B7F4EDEDABSystemFolderwininet.dll" Prereq="A021C37FC784EE0BD0D35B7F4EDEDAB" SearchType="0"
+      SearchString="[SystemFolder]wininet.dll" VerMin="10.0.9200.16750"
+      Order="1" Property="PreReqSearch_A021C37FC784EE0BD0D35B7F4EDEDAB"/>
+  </COMPONENT>
+</FRAGMENT>

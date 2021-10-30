@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D0D4C58C7F84C3EBF7D16463129B492" DisplayName="Games for Windows Marketplace Client" VersionMin="3.5"
+      SetupFileUrl="http://download.gfwl.xboxlive.com/content/gfwl-public/redists/production/gfwlivesetup.exe"
+      Location="1" ExactSize="642712" MD5="0e20d50b6ad6229520911b203deeef36"
+      Operator="1" Options="y" TargetName="Games for Windows Marketplace Client"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Games"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D0D4C58C7F84C3EBF7D16463129B492GFWLClient.exe" Prereq="D0D4C58C7F84C3EBF7D16463129B492" SearchType="0"
+      SearchString="[ProgramFilesFolder]Microsoft Games for Windows - LIVE\Client\GFWLClient.exe" VerMin="3.5.67"
+      Order="1" Property="PreReqSearch_D0D4C58C7F84C3EBF7D16463129B492"/>
+  </COMPONENT>
+</FRAGMENT>

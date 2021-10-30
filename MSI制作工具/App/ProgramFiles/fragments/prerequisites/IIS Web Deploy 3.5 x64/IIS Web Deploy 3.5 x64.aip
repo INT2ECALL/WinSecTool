@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B509B920457D9352C09A70855B5F" DisplayName="IIS Web Deploy 3.5 x64" VersionMin="9.0"
+      SetupFileUrl="http://download.microsoft.com/download/D/4/4/D446D154-2232-49A1-9D64-F5A9429913A4/WebDeploy_amd64_en-US.msi"
+      Location="1" ExactSize="6139904" MD5="024ec4ee9708585ac1b6b0cf55fd0946"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows Vista RTM x64"
+      NoUiComLine="/quiet ADDLOCAL=ALL"
+      Operator="1" Options="xf" TargetName="IIS Web Deploy 3.5"/>
+    <ATTRIBUTE name="GroupName" value="Web Server"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B509B920457D9352C09A70855B5FVersion" Prereq="B509B920457D9352C09A70855B5F" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\3\Version" VerMin="9.0.1764.0"
+      Order="1" Property="PreReqSearch_B509B920457D9352C09A70855B5F"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FeatureBundle IsServer="false" WinBuild="7601" WinMajor="6" WinMinor="1" WinServicePack="1">
+  <Feature Description="Help content customization for Corporation" DisplayName="" Name="CorporationHelpCustomization"/>
+  <Feature Description="Program your application to serve HTTP requests by using core IIS functionality." DisplayName="Internet Information Services Hostable Web Core" Name="IIS-HostableWebCore"/>
+  <Feature Description="Internet Information Services provides support for Web and FTP servers, along with support for ASP.NET web sites, dynamic content such as Classic ASP and CGI, and local and remote management." DisplayName="Internet Information Services" Name="IIS-WebServerRole">
+    <Feature Description="Enable your server to transfer files by using the FTP protocol." DisplayName="FTP Server" Name="IIS-FTPServer">
+      <Feature Description="Customize FTP publishing by writing your own software extensions." DisplayName="FTP Extensibility" Name="IIS-FTPExtensibility">
+        <Dependency Name="IIS-FTPSvc"/>
+      </Feature>
+      <Feature Description="Enable FTP publishing on a Web server." DisplayName="FTP Service" Name="IIS-FTPSvc"/>
+    </Feature>
+    <Feature Description="Installs the IIS World Wide Web Services. Provides support for HTML web sites and optional support for ASP.NET, Classic ASP, and web server extensions." DisplayName="World Wide Web Services" Name="IIS-WebServer">
+      <Feature Description="Install Web server application development features" DisplayName="Application Development Features" Name="IIS-ApplicationDevelopment">
+        <Feature Description="Enable your Web server to host Classic ASP applications" DisplayName="ASP" Name="IIS-ASP">
+          <Dependency Name="IIS-RequestFiltering"/>
+          <Dependency Name="IIS-ISAPIExtensions"/>
+        </Feature>
+        <Feature Description="Enable your Web server to host ASP.NET applications" DisplayName="ASP.NET" Name="IIS-ASPNET">
+          <Dependency Name="IIS-DefaultDocument"/>
+          <Dependency Name="IIS-ISAPIFilter"/>
+          <Dependency Name="IIS-ISAPIExtensions"/>
+          <Dependency Name="IIS-NetFxExtensibility"/>
+        </Feature>
+        <Feature Description="Enable support for CGI executables" DisplayName="CGI" Name="IIS-CGI"/>
+        <Feature Description="Allow ISAPI extensions to handle client requests" DisplayName="ISAPI Extensions" Name="IIS-ISAPIExtensions"/>
+        <Feature Description="Allow ISAPI filters to modify Web server behavior" DisplayName="ISAPI Filters" Name="IIS-ISAPIFilter"/>
+        <Feature Description="Enable your Web server to host .NET Framework applications" DisplayName=".NET Extensibility" Name="IIS-NetFxExtensibility">
+          <Dependency Name="IIS-RequestFiltering"/>
+        </Feature>
+        <Feature Description="Serve .stm, .shtm, and .shtml files from a Web site" DisplayName="Server-Side Includes" Name="IIS-ServerSideIncludes"/>
+      </Feature>
+      <Feature Description="Installs support for Web server content such as HTML and image files." DisplayName="Common HTTP Features" Name="IIS-CommonHttpFeatures">
+        <Feature Description="Allows you to specify a default file to be loaded when users do not specify a file in a request URL" DisplayName="Default Document" Name="IIS-DefaultDocument"/>
+        <Feature Description="Allow clients to see the contents of a directory on your Web server" DisplayName="Directory Browsing" Name="IIS-DirectoryBrowsing"/>
+        <Feature Description="Allows you to customize the error messages returned to clients" DisplayName="HTTP Errors" Name="IIS-HttpErrors"/>
+        <Feature Description="Redirect client requests to a specific destination" DisplayName="HTTP Redirection" Name="IIS-HttpRedirect"/>
+        <Feature Description="Serve .htm, .html, and image files from a Web site" DisplayName="Static Content" Name="IIS-StaticContent"/>
+        <Feature Description="Publish and manage files on a Web server by using the HTTP protocol." DisplayName="WebDAV Publishing" Name="IIS-WebDAV">
+          <Dependency Name="IIS-StaticContent"/>
+        </Feature>
+      </Feature>
+      <Feature Description="Enables you to monitor and manage server, site, and application health" DisplayName="Health and Diagnostics" Name="IIS-HealthAndDiagnostics">
+        <Feature Description="Enable support for custom logging for Web servers, sites, and applications" DisplayName="Custom Logging" Name="IIS-CustomLogging"/>
+        <Feature Description="Enables logging of Web site activity for this server" DisplayName="HTTP Logging" Name="IIS-HttpLogging"/>
+        <Feature Description="Enable tracing for ASP.NET applications and failed requests" DisplayName="Tracing" Name="IIS-HttpTracing"/>
+        <Feature Description="Install IIS logging tools and scripts" DisplayName="Logging Tools" Name="IIS-LoggingLibraries"/>
+        <Feature Description="Enable support for logging to an ODBC-compliant database." DisplayName="ODBC Logging" Name="IIS-ODBCLogging"/>
+        <Feature Description="Monitor server, site, and application health" DisplayName="Request Monitor" Name="IIS-RequestMonitor"/>
+      </Feature>
+      <Feature Description="Install performance features" DisplayName="Performance Features" Name="IIS-Performance">
+        <Feature Description="Compress dynamic content before returning it to client" DisplayName="Dynamic Content Compression" Name="IIS-HttpCompressionDynamic"/>
+        <Feature Description="Compress static content before returning it to a client" DisplayName="Static Content Compression" Name="IIS-HttpCompressionStatic"/>
+      </Feature>
+      <Feature Description="Enable additional security features to secure servers, sites, applications, vdirs, and files" DisplayName="Security" Name="IIS-Security">
+        <Feature Description="Require a valid Windows user name and password for connection." DisplayName="Basic Authentication" Name="IIS-BasicAuthentication"/>
+        <Feature Description="Authenticate client certificates with Active Directory accounts." DisplayName="Client Certificate Mapping Authentication" Name="IIS-ClientCertificateMappingAuthentication"/>
+        <Feature Description="Authenticate clients by sending a password hash to a Windows domain controller." DisplayName="Digest Authentication" Name="IIS-DigestAuthentication"/>
+        <Feature Description="Map client certificates 1-to-1 or many-to-1 to a Windows security identity." DisplayName="IIS Client Certificate Mapping Authentication" Name="IIS-IISCertificateMappingAuthentication"/>
+        <Feature Description="Allow or deny content access based on IP address or domain name." DisplayName="IP Security" Name="IIS-IPSecurity"/>
+        <Feature Description="Configure rules to block selected client requests." DisplayName="Request Filtering" Name="IIS-RequestFiltering"/>
+        <Feature Description="Authorize client access to the URLs that comprise a Web application." DisplayName="URL Authorization" Name="IIS-URLAuthorization"/>
+        <Feature Description="Authenticate clients by using NTLM or Kerberos." DisplayName="Windows Authentication" Name="IIS-WindowsAuthentication"/>
+      </Feature>
+    </Feature>
+    <Feature Description="Install Web management console and tools" DisplayName="Web Management Tools" Name="IIS-WebServerManagementTools">
+      <Feature Description="Allows you to use existing IIS 6.0 APIs and scripts to manage this IIS web server" DisplayName="IIS 6 Management Compatibility" Name="IIS-IIS6ManagementCompatibility">
+        <Feature Description="Install IIS 6.0 configuration scripts" DisplayName="IIS 6 Scripting Tools" Name="IIS-LegacyScripts">
+          <Dependency Name="IIS-Metabase"/>
+          <Dependency Name="IIS-WMICompatibility"/>
+        </Feature>
+        <Feature Description="Install the IIS 6.0 Management Console. Provides support for administration of remote IIS 6.0 servers from this computer." DisplayName="IIS 6 Management Console" Name="IIS-LegacySnapIn">
+          <Dependency Name="IIS-Metabase"/>
+        </Feature>
+        <Feature Description="Install IIS metabase and compatibility layer to allow metabase calls to interact with the new IIS configuration store" DisplayName="IIS Metabase and IIS 6 configuration compatibility" Name="IIS-Metabase"/>
+        <Feature Description="Install IIS 6.0 WMI scripting interfaces" DisplayName="IIS 6 WMI Compatibility" Name="IIS-WMICompatibility"/>
+      </Feature>
+      <Feature Description="Install Web server Management Console which supports management of local and remote Web servers." DisplayName="IIS Management Console" Name="IIS-ManagementConsole"/>
+      <Feature Description="Manage a local Web server with IIS configuration scripts" DisplayName="IIS Management Scripts and Tools" Name="IIS-ManagementScriptingTools"/>
+      <Feature Description="Allow the web server to be managed remotely from another computer via the Web server Management Console" DisplayName="IIS Management Service" Name="IIS-ManagementService"/>
+    </Feature>
+  </Feature>
+  <Feature Description="Standard inbox games." DisplayName="Games" Name="InboxGames">
+    <Feature Description="Chess Titans" DisplayName="Chess Titans" Name="Chess"/>
+    <Feature Description="FreeCell" DisplayName="FreeCell" Name="FreeCell"/>
+    <Feature Description="Hearts" DisplayName="Hearts" Name="Hearts"/>
+    <Feature Description="Internet Games" DisplayName="Internet Games" Name="Internet Games">
+      <Feature Description="Internet Backgammon" DisplayName="Internet Backgammon" Name="Internet Backgammon"/>
+      <Feature Description="Internet Checkers" DisplayName="Internet Checkers" Name="Internet Checkers"/>
+      <Feature Description="Internet Spades" DisplayName="Internet Spades" Name="Internet Spades"/>
+    </Feature>
+    <Feature Description="Minesweeper" DisplayName="Minesweeper" Name="Minesweeper"/>
+    <Feature Description="More Games" DisplayName="More Games" Name="More Games"/>
+    <Feature Description="Purble Place" DisplayName="Purble Place" Name="PurblePlace"/>
+    <Feature Description="Mahjong Titans" DisplayName="Mahjong Titans" Name="Shanghai"/>
+    <Feature Description="Solitaire" DisplayName="Solitaire" Name="Solitaire"/>
+    <Feature Description="Spider Solitaire" DisplayName="Spider Solitaire" Name="SpiderSolitaire"/>
+  </Feature>
+  <Feature Description="Turns the indexing service that was available in previous versions of Windows on or off." DisplayName="Indexing Service" Name="Indexing-Service-Package"/>
+  <Feature Description="Finds and displays information and Web sites on the Internet." DisplayName="Internet Explorer x64" Name="Internet-Explorer-Optional-amd64"/>
+  <Feature Description="Finds and displays information and Web sites on the Internet." DisplayName="Internet Explorer x86" Name="Internet-Explorer-Optional-x86"/>
+  <Feature Description="Microsoft Message Queue (MSMQ) Server." DisplayName="Microsoft Message Queue (MSMQ) Server" Name="MSMQ-Container">
+    <Feature Description="The DCOM proxy feature enables MSMQ applications to use MSMQ DCOM API to connect to a remote MSMQ Server." DisplayName="MSMQ DCOM Proxy" Name="MSMQ-DCOMProxy"/>
+    <Feature Description="This feature installs the core components of MSMQ which enables you to perform basic Message queuing functions. This feature is a minimum requirement." DisplayName="Microsoft Message Queue (MSMQ) Server Core" Name="MSMQ-Server">
+      <Feature Description="Active Directory Domain Services Integration feature enables publishing of queue properties to Active Directory Domain Services, out-of-the-box authentication and encryption of messages using certificates registered in Active Directory Domain Services, and routing of messages across Windows sites. This feature becomes operational only when the computer joins a domain." DisplayName="MSMQ Active Directory Domain Services Integration" Name="MSMQ-ADIntegration"/>
+      <Feature Description="The HTTP Support feature allows you to expose a queue to the internet such that applications can send messages to the queue using HTTP protocol. This feature requires Internet Information Server." DisplayName="MSMQ HTTP Support" Name="MSMQ-HTTP">
+        <Dependency Name="IIS-StaticContent"/>
+        <Dependency Name="IIS-DefaultDocument"/>
+        <Dependency Name="IIS-DirectoryBrowsing"/>
+        <Dependency Name="IIS-HttpErrors"/>
+        <Dependency Name="IIS-HttpRedirect"/>
+        <Dependency Name="IIS-NetFxExtensibility"/>
+        <Dependency Name="IIS-HttpLogging"/>
+        <Dependency Name="IIS-LoggingLibraries"/>
+        <Dependency Name="IIS-RequestMonitor"/>
+        <Dependency Name="IIS-HttpTracing"/>
+        <Dependency Name="IIS-HttpCompressionStatic"/>
+        <Dependency Name="IIS-ManagementConsole"/>
+        <Dependency Name="IIS-ISAPIExtensions"/>
+        <Dependency Name="IIS-Metabase"/>
+      </Feature>
+      <Feature Description="The Multicast support feature enables you to send messages to a Multicast IPAdress. Queues can be associated with a Multicast IPAddress. Messages sent to a Multicast IPAddress will be delivered to the queues that are associated with that IPAddress." DisplayName="Multicasting Support" Name="MSMQ-Multicast"/>
+      <Feature Description="Message Queue Triggers enables the invocation of a COM component or an executable depending on the filters that you define for the incoming messages in a given queue." DisplayName="MSMQ Triggers" Name="MSMQ-Triggers"/>
+    </Feature>
+  </Feature>
+  <Feature Description="Computes and transfers the differences between two objects over a network using minimal bandwidth." DisplayName="Remote Differential Compression" Name="MSRDC-Infrastructure"/>
+  <Feature Description="Controls media features, such as Windows Media Player, Windows Media Center, and Windows DVD Maker." DisplayName="Media Features" Name="MediaPlayback">
+    <Feature Description="Windows Media Center" DisplayName="Windows Media Center" Name="MediaCenter">
+      <Dependency Name="WindowsMediaPlayer"/>
+    </Feature>
+    <Feature Description="Video DVD creation wizard" DisplayName="Windows DVD Maker" Name="OpticalMediaDisc"/>
+    <Feature DisplayName="Windows Media Player" Name="WindowsMediaPlayer" RequiresRestart="Yes" Description="Play audio and video files on your local machine and on the Internet."/>
+  </Feature>
+  <Feature Description="Microsoft .NET Framework 3.5.1" DisplayName="Microsoft .NET Framework 3.5.1" Name="NetFx3" IsIndependent="Yes">
+    <Feature Description="Windows Communication Foundation HTTP Activation" DisplayName="Windows Communication Foundation HTTP Activation" Name="WCF-HTTP-Activation">
+      <Dependency Name="IIS-NetFxExtensibility"/>
+      <Dependency Name="WAS-ProcessModel"/>
+      <Dependency Name="WAS-NetFxEnvironment"/>
+      <Dependency Name="WAS-ConfigurationAPI"/>
+    </Feature>
+    <Feature Description="Windows Communication Foundation Non-HTTP Activation" DisplayName="Windows Communication Foundation Non-HTTP Activation" Name="WCF-NonHTTP-Activation">
+      <Dependency Name="WAS-ProcessModel"/>
+      <Dependency Name="WAS-NetFxEnvironment"/>
+      <Dependency Name="WAS-ConfigurationAPI"/>
+    </Feature>
+  </Feature>
+  <Feature Description="Help content customization for OEM" DisplayName="" Name="OEMHelpCustomization"/>
+  <Feature Description="Enable print, fax, and scan tasks on this computer" DisplayName="Print and Document Services" Name="Printing-Foundation-Features">
+    <Feature Description="Enable fax and scan tasks on this computer" DisplayName="Windows Fax and Scan" Name="FaxServicesClientPackage"/>
+    <Feature Description="Enables clients to use HTTP to connect to printers on Web print servers" DisplayName="Internet Printing Client" Name="Printing-Foundation-InternetPrinting-Client"/>
+    <Feature Description="Makes your Windows computer work as a Line Printer Daemon (LPD) and Remote Line Printer client" DisplayName="LPD Print Service" Name="Printing-Foundation-LPDPrintService"/>
+    <Feature Description="Enables clients to print to TCP/IP printers connected to a Unix (or VAX) server" DisplayName="LPR Port Monitor" Name="Printing-Foundation-LPRPortMonitor"/>
+    <Feature Description="Manages distributed scanners, scan processes, and scan servers" DisplayName="Scan Management" Name="ScanManagementConsole"/>
+  </Feature>
+  <Feature Description="Enables printing to XPS documents" DisplayName="XPS Services" Name="Printing-XPSServices-Features"/>
+  <Feature Description="Listens for route updates sent by routers that use the Routing Information Protocol version 1 (RIPv1)" DisplayName="RIP Listener" Name="RasRip"/>
+  <Feature Description="This feature includes Simple Network Management Protocol agents that monitor the activity in network devices and report to the network console workstation" DisplayName="Simple Network Management Protocol (SNMP)" Name="SNMP">
+    <Feature Description="The SNMP WMI Provider enables WMI clients to  consume SNMP information through the CIM model as implemented by WMI" DisplayName="WMI SNMP Provider" Name="WMISnmpProvider"/>
+  </Feature>
+  <Feature Description="Subsystem for UNIX-based Applications (SUA) is a source-compatibility subsystem for compiling and running custom UNIX-based applications and scripts on a computer running Windows operating system." DisplayName="Subsystem for UNIX-based Applications" Name="SUA"/>
+  <Feature Description="Provides content indexing, property caching, and search results for files, e-mail, and other content." DisplayName="Windows Search" Name="SearchEngine-Client-Package"/>
+  <Feature Description="Allows you to access files using the Network File System (NFS) protocol." DisplayName="Services for NFS" Name="ServicesForNFS-ClientOnly">
+    <Feature Description="Enables this computer to gain access to files on UNIX-based computers" DisplayName="Client for NFS" Name="ClientForNFS-Infrastructure"/>
+    <Feature Description="Tools for managing Services for NFS on local and remote computers" DisplayName="Administrative Tools" Name="NFS-Administration"/>
+  </Feature>
+  <Feature Description="Install Simple TCPIP services" DisplayName="Simple TCPIP services (i.e. echo, daytime etc)" Name="SimpleTCP"/>
+  <Feature Description="Transfer files using the Trivial File Transfer Protocol" DisplayName="TFTP Client" Name="TFTP"/>
+  <Feature Description="Enables the indexing and searching of Tagged Image File Format (TIFF) files using Optical Character Recognition (OCR)." DisplayName="Windows TIFF IFilter" Name="TIFFIFilter"/>
+  <Feature Description="Adds or removes Tablet PC Input Panel, Windows Journal, Math Input Panel, and other handwriting recognition features." DisplayName="Tablet PC Components" Name="TabletPCOC"/>
+  <Feature Description="Connect to remote computers by using the Telnet protocol" DisplayName="Telnet Client" Name="TelnetClient"/>
+  <Feature Description="Allow others to connect to your computer by using the Telnet protocol" DisplayName="Telnet Server" Name="TelnetServer"/>
+  <Feature Description="Install Windows Process Activation Service" DisplayName="Windows Process Activation Service" Name="WAS-WindowsActivationService">
+    <Feature Description="Install managed code configuration APIs" DisplayName="Configuration APIs" Name="WAS-ConfigurationAPI"/>
+    <Feature Description="Install the .NET Environment for supporting managed code activation" DisplayName=".NET Environment" Name="WAS-NetFxEnvironment"/>
+    <Feature Description="Install Process Model for the Windows Process Activation Service" DisplayName="Process Model" Name="WAS-ProcessModel"/>
+  </Feature>
+  <Feature Description="Allows you to display gadgets on your desktop." DisplayName="Windows Gadget Platform" Name="WindowsGadgetPlatform"/>
+  <Feature Description="Allows you to read, copy, print, sign, and set permissions for XPS documents" DisplayName="XPS Viewer" Name="Xps-Foundation-Xps-Viewer"/>
+  <Feature Description="Remote Server Administration Tools includes snap-ins and command-line tools for remotely managing roles and features. Requires prior installation of Windows RSAT prerequisite." DisplayName="Remote Server Administration Tools" Name="RemoteServerAdministrationTools">
+    <Feature Description="Feature Administration Tools includes snap-ins and command-line tools for remotely managing features." DisplayName="Feature Administration Tools" Name="RemoteServerAdministrationTools-Features">
+      <Feature Description="The BitLocker Active Directory Recovery Password Viewer helps to locate BitLocker Drive Encryption recovery passwords in Active Directory Domain Services (AD DS)." DisplayName="BitLocker Password Recovery Viewer" Name="RemoteServerAdministrationTools-Features-BitLocker"/>
+      <Feature Description="Failover Clustering Tools includes Failover Cluster Manager and Failover Cluster PowerShell Management." DisplayName="Failover Clustering Tools" Name="RemoteServerAdministrationTools-Features-Clustering">
+        <Dependency Name="RemoteServerAdministrationTools-Roles-FileServices-Dfs"/>
+        <Dependency Name="RemoteServerAdministrationTools-Roles-FileServices-StorageMgmt"/>
+      </Feature>
+      <Feature Description="Group Policy Management Tools includes Group Policy Management Console, Group Policy Management Editor, and Group Policy Starter GPO Editor." DisplayName="Group Policy Management Tools" Name="RemoteServerAdministrationTools-Features-GP"/>
+      <Feature Description="Network Load Balancing Tools includes the Network Load Balancing Manager snap-in, and the nlb.exe and wlbs.exe command-line tools." DisplayName="Network Load Balancing Tools" Name="RemoteServerAdministrationTools-Features-LoadBalancing"/>
+      <Feature Description="SMTP Server Tools includes the Simple Mail Transfer Protocol (SMTP) snap-in." DisplayName="SMTP Server Tools" Name="RemoteServerAdministrationTools-Features-SmtpServer">
+        <Dependency Name="IIS-LegacySnapIn"/>
+        <Dependency Name="IIS-IIS6ManagementCompatibility"/>
+        <Dependency Name="IIS-Metabase"/>
+      </Feature>
+      <Feature Description="Storage Explorer Tools includes the Storage Explorer snap-in." DisplayName="Storage Explorer Tools" Name="RemoteServerAdministrationTools-Features-StorageExplorer"/>
+      <Feature Description="Storage Manager for SANs Tools includes the Storage Manager for SANs snap-in, and the ProvisionStorage.exe command-line tool." DisplayName="Storage Manager for SANs Tools" Name="RemoteServerAdministrationTools-Features-StorageManager">
+        <Dependency Name="RemoteServerAdministrationTools-Roles-FileServices-StorageMgmt"/>
+      </Feature>
+      <Feature Description="Windows System Resource Manager Tools includes the Windows System Resource Manager snap-in and the wsrmc.exe command-line tool." DisplayName="Windows System Resource Manager Tools" Name="RemoteServerAdministrationTools-Features-Wsrm"/>
+    </Feature>
+    <Feature Description="Role Administration Tools includes snap-ins and command-line tools for remotely managing roles." DisplayName="Role Administration Tools" Name="RemoteServerAdministrationTools-Roles">
+      <Feature Description="Active Directory Domain Services (AD DS) and Active Directory Lightweight Directory Services (AD LDS) Tools includes snap-ins and command-line tools for remotely managing AD DS and AD LDS." DisplayName="AD DS and AD LDS Tools" Name="RemoteServerAdministrationTools-Roles-AD">
+        <Feature Description="Active Directory Domain Services Tools (AD DS) includes snap-ins and command-line tools for remotely managing AD DS." DisplayName="AD DS Tools" Name="RemoteServerAdministrationTools-Roles-AD-DS">
+          <Feature Description="Active Directory Administrative Center is an enhanced Active Directory management console featuring a rich graphical user interface (GUI)." DisplayName="Active Directory Administrative Center" Name="RemoteServerAdministrationTools-Roles-AD-DS-AdministrativeCenter">
+            <Dependency Name="RemoteServerAdministrationTools-Roles-AD-DS-SnapIns"/>
+            <Dependency Name="RemoteServerAdministrationTools-Roles-AD-Powershell"/>
+          </Feature>
+          <Feature Description="Server for Network Information Services (NIS) Tools includes an extension to the Active Directory Users and Computers snap-in and the ypclear.exe command-line tool." DisplayName="Server for NIS Tools" Name="RemoteServerAdministrationTools-Roles-AD-DS-NIS"/>
+          <Feature Description="Active Directory Domain Services (AD DS) Snap-ins and Command-line Tools includes snap-ins and command-line tools for remotely managing AD DS." DisplayName="AD DS Snap-ins and Command-line Tools" Name="RemoteServerAdministrationTools-Roles-AD-DS-SnapIns"/>
+        </Feature>
+        <Feature Description="Active Directory Lightweight Directory Services (AD LDS) Tools includes snap-ins and command-line tools for remotely managing AD LDS." DisplayName="AD LDS Snap-ins and Command-line Tools" Name="RemoteServerAdministrationTools-Roles-AD-LDS"/>
+        <Feature Description="Active Directory Module for Windows PowerShell provides a centralized experience for administering directory service objects." DisplayName="Active Directory Module for Windows PowerShell" Name="RemoteServerAdministrationTools-Roles-AD-Powershell"/>
+      </Feature>
+      <Feature Description="Active Directory Certificate Services Tools includes the Certification Authority, Certificate Templates, Enterprise PKI, and Online Responder Management snap-ins." DisplayName="Active Directory Certificate Services Tools" Name="RemoteServerAdministrationTools-Roles-CertificateServices">
+        <Feature Description="Certification Authority Tools includes the Certification Authority, Certificate Templates, and the Enterprise PKI snap-ins." DisplayName="Certification Authority Tools" Name="RemoteServerAdministrationTools-Roles-CertificateServices-CA"/>
+        <Feature Description="Online Responder Tools includes the Online Responder Management snap-in." DisplayName="Online Responder Tools" Name="RemoteServerAdministrationTools-Roles-CertificateServices-OnlineResponder"/>
+      </Feature>
+      <Feature Description="DHCP Server Tools includes the DHCP Management Console and netsh command-line tool." DisplayName="DHCP Server Tools" Name="RemoteServerAdministrationTools-Roles-DHCP"/>
+      <Feature Description="DNS Server Tools includes the DNS Manager snap-in and dnscmd.exe command-line tool." DisplayName="DNS Server Tools" Name="RemoteServerAdministrationTools-Roles-DNS"/>
+      <Feature Description="File Services Tools includes snap-ins and command-line tools for remotely managing file servers." DisplayName="File Services Tools" Name="RemoteServerAdministrationTools-Roles-FileServices">
+        <Feature Description="Distributed File System Tools includes the DFS Management snap-in, and the dfsradmin.exe, dfsrdiag.exe, dfscmd.exe, dfsdiag.exe, and dfsutil.exe command-line tools." DisplayName="Distributed File System Tools" Name="RemoteServerAdministrationTools-Roles-FileServices-Dfs"/>
+        <Feature Description="File Server Resource Manager Tools includes the File Server Resource Manager snap-in, and the dirquota.exe, filescrn.exe and storrept.exe command-line tools." DisplayName="File Server Resource Manager Tools" Name="RemoteServerAdministrationTools-Roles-FileServices-Fsrm"/>
+        <Feature Description="Share and Storage Management Tools includes the Share and Storage Management snap-in." DisplayName="Share and Storage Management Tools" Name="RemoteServerAdministrationTools-Roles-FileServices-StorageMgmt"/>
+      </Feature>
+      <Feature Description="Hyper-V Tools includes the Hyper-V Manager snap-in and the Virtual Machine Connection remote access tool." DisplayName="Hyper-V Tools" Name="RemoteServerAdministrationTools-Roles-HyperV"/>
+      <Feature Description="Remote Desktop Services Tools includes the Remote Desktop Services Manager and Remote Desktops snap-ins." DisplayName="Remote Desktop Services Tools" Name="RemoteServerAdministrationTools-Roles-RDS"/>
+    </Feature>
+    <Feature Description="Server Manager includes the Server Manager console." DisplayName="Server Manager" Name="RemoteServerAdministrationTools-ServerManager"/>
+  </Feature>
+</FeatureBundle>

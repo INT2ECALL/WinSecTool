@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">    
+    <ROW Action="PreparePrereqDlg" Sequence="150" Condition="AI_BOOTSTRAPPER" SeqType="3"/>  
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">   
+    <ROW Dialog_="PreparePrereqDlg" Control="Cancel" Type="PushButton" X="304" Y="235" Width="50" Height="17" Attributes="2" Text="[ButtonText_Cancel]" Order="400" TextLocId="-"/>
+    <ROW Dialog_="PreparePrereqDlg" Control="Next" Type="PushButton" X="249" Y="235" Width="50" Height="17" Attributes="0" Text="[ButtonText_Next]" Order="500" TextLocId="-"/>
+    <ROW Dialog_="PreparePrereqDlg" Control="Back" Type="PushButton" X="189" Y="235" Width="48" Height="17" Attributes="0" Text="[ButtonText_Back]" Order="600" TextLocId="-"/>
+    <ROW Dialog_="PreparePrereqDlg" Control="IntroManufacturer" Type="Text" X="16" Y="116" Width="338" Height="24" Attributes="196611" TextStyle="Manufacturer" Order="700" TextLocId="Modern.Control.Text.Dlg#Manufacturer"/>
+    <ROW Dialog_="PreparePrereqDlg" Control="IntroProductName" Type="Text" X="16" Y="140" Width="338" Height="33" Attributes="196611" TextStyle="ProductName" Order="800" TextLocId="Modern.Control.Text.Dlg#AppName"/>
+    <ROW Dialog_="PreparePrereqDlg" Control="ActionText" Type="Text" X="30" Y="168" Width="305" Height="20" Attributes="196611" Order="900"/>
+    <ROW Dialog_="PreparePrereqDlg" Control="Description" Type="Text" X="7" Y="281" Width="210" Height="11" Attributes="196611" TextStyle="ImageButton" Order="1000" TextLocId="Air.Control.Text.PrepareDlg#Description"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="PreparePrereqDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>    
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="PreparePrereqDlg" HCentering="50" VCentering="50" Width="370" Height="304" Attributes="1" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.PreparePrereqDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEventMappingComponent">
+    <ROW Dialog_="PreparePrereqDlg" Control_="ActionText" Event="ActionText" Attribute="Text"/>
+  </COMPONENT>  
+</FRAGMENT>

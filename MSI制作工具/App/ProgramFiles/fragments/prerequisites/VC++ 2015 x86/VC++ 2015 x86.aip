@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D7E473DF14F3E98497864847195F2" DisplayName="Visual C++ Redistributable for Visual Studio 2015 Update 3 x86" VersionMin="14.0"
+      SetupFileUrl="http://download.microsoft.com/download/6/D/F/6DF3FF94-F7F9-4F0B-838C-A328D1A7D0EE/vc_redist.x86.exe"
+      Location="1" ExactSize="14458272" MD5="1b3d24a3e9c99e63391a53b9e5be5356"
+      WinNTVersions="Windows Vista RTM x86, Windows Vista SP1 x86, Windows 7 RTM x86"
+      WinNT64Versions="Windows Vista RTM x64, Windows Vista SP1 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64"
+      NoUiComLine="/q /norestart"
+      Operator="0" Options="f" TargetName="Visual C++ Redistributable for Visual Studio 2015?vc2015u3_redist_x86.exe"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D7E473DF14F3E98497864847195F2Version" Prereq="D7E473DF14F3E98497864847195F2" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeMinimum\Version" VerMin="14.0.24212"
+      Order="1" Property="PreReqSearch_D7E473DF14F3E98497864847195F2"/>
+    <ROW SearchKey="D7E473DF14F3E98497864847195F2SystemFoldermsvcp140.dll" Prereq="D7E473DF14F3E98497864847195F2" SearchType="0"
+      SearchString="[SystemFolder]msvcp140.dll" VerMin="14.0.24212"
+      Order="2" Property="PreReqSearch_1_D7E473DF14F3E98497864847195F2"/>
+    <ROW SearchKey="D7E473DF14F3E98497864847195F2SystemFoldervcruntime140.dll" Prereq="D7E473DF14F3E98497864847195F2" SearchType="0"
+      SearchString="[SystemFolder]vcruntime140.dll" VerMin="14.0.24212"
+      Order="3" Property="PreReqSearch_2_D7E473DF14F3E98497864847195F2"/>
+  </COMPONENT>
+</FRAGMENT>

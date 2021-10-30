@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B6FBF6979285455486B7C8B4E3AEC51C" DisplayName="DirectX 11.0 Runtime x64" VersionMin="11.0"
+      SetupFileUrl="http://download.microsoft.com/download/8/8/8/8880BE12-D67C-47AE-A6CD-4A532A48EAB8/Windows6.0-KB971512-x64.msu"
+      Location="1" ExactSize="9848595" MD5="de9e22c4d3f6700a5641d580d2dd308a"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64, Windows Vista SP1 x64, Windows 7 x64, Windows Server 2008 R2 x64, Windows 8 x64, Windows Server 2012 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xy" TargetName="DirectX 11.0 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Games"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B6FBF6979285455486B7C8B4E3AEC51CSystemFolderd3d11.dll" Prereq="B6FBF6979285455486B7C8B4E3AEC51C" SearchType="0"
+      SearchString="[SystemFolder]d3d11.dll" VerMin="7.0.6002.18107"
+      Order="1" Property="PreReqSearch_B6FBF6979285455486B7C8B4E3AEC51C"/>
+  </COMPONENT>
+</FRAGMENT>

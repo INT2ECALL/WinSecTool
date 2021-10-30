@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.5" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="C1EC5C144577825FE7C469CC3B46" DisplayName="Apache Tomcat 6.0.48" VersionMin="6.0"
+      SetupFileUrl="http://www.us.apache.org/dist/tomcat/tomcat-6/v6.0.48/bin/apache-tomcat-6.0.48.exe"
+      Location="1" ExactSize="7442877" MD5="c18b1e2d3f3caf1e6f981d4937404349"
+      NoUiComLine="/S"
+      Operator="1" Options="xf" TargetName="Apache Tomcat"/>
+    <ATTRIBUTE name="GroupName" value="Web Server"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="C1EC5C144577825FE7C469CC3B46Version" Prereq="C1EC5C144577825FE7C469CC3B46" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Apache Software Foundation\Tomcat\6.0\Tomcat6\Version" VerMin="6.0.48"
+      Order="1" Property="PreReqSearch_C1EC5C144577825FE7C469CC3B46"/>
+  </COMPONENT>
+</FRAGMENT>

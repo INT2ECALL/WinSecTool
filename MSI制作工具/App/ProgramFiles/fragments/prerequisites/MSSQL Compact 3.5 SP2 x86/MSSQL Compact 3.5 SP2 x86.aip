@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.3" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F46BC734_5C84_4146_80EE_8145B78281FA" DisplayName="SQL Server Compact 3.5 SP2 32-bit" VersionMin="3.5"
+      SetupFileUrl="http://download.microsoft.com/download/E/C/1/EC1B2340-67A0-4B87-85F0-74D987A27160/SSCERuntime-ENU.exe"
+      WinNTVersions="Windows 10 x86"
+      WinNT64Versions="Windows 10 x64, Windows Server 2016 x64"
+      Location="1" ExactSize="0"
+      NoUiComLine="/quiet"
+      Operator="1" Options="f" TargetName="SQL Server Compact 3.5 SP2"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F46BC734_5C84_4146_80EE_8145B78281FAVersion" Prereq="F46BC734_5C84_4146_80EE_8145B78281FA" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server Compact Edition\v3.5\Version" VerMin="3.5.8080.0"
+      Order="1" Property="PreReqSearch_F46BC734_5C84_4146_80EE_8145B78281FA"/>
+  </COMPONENT>
+</FRAGMENT>

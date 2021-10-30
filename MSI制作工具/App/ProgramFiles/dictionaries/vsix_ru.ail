@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="ru" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!--Обновления редактора по умолчанию-->
+  <STRING id="AI.AI_GenericProperty.DefaultName" value="ваше приложение"/>
+  <STRING id="AI.AI_GenericProperty.DefaultDescription" value="описание вашего приложения."/>
+</DICTIONARY>

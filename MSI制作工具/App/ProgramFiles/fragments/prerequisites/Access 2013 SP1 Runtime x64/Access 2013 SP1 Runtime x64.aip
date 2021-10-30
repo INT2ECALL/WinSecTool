@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="BF8BEBF91F3460BB7216B4742B9ADDF" DisplayName="Access 2013 SP1 Runtime x64" VersionMin="15.0"
+      SetupFileUrl="http://download.microsoft.com/download/5/E/A/5EA6017B-E7FE-40CA-8C3E-57387259F3BF/AccessRuntime_x64_en-us.exe"
+      Location="1" ExactSize="298473328" MD5="b12f8a55f1b530013e25b65269a5934d"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows Server 2008 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="xf" TargetName="Access 2013 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Office"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="BF8BEBF91F3460BB7216B4742B9ADDFMSACCESS.EXE" Prereq="BF8BEBF91F3460BB7216B4742B9ADDF" SearchType="0"
+      SearchString="[ProgramFiles64Folder]Microsoft Office\Office15\MSACCESS.EXE" VerMin="15.0.4569.1503"
+      Order="1" Property="PreReqSearch_BF8BEBF91F3460BB7216B4742B9ADDF"/>
+  </COMPONENT>
+</FRAGMENT>

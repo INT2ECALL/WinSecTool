@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DICTIONARY type="singlelanguage" lang="id" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Folder Baru"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Duplika %s dari %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Variabel Baru"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Deskripsi"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Fitur"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Putar"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Mendukung"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Deskripsi Anda untuk [|CurrentGame]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Berkas baru"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Kunci Baru"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Bagian Baru"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Nilai Baru"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Produk Anda"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] tidak dapat diinstal pada sistem dengan versi Adobe Reader lebih kecil dari [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] tidak dapat diinstal pada sistem dengan kualitas warna lebih kecil dari [AI_REQUIRED_COLOR_QUALITY] bit."/>
+  <STRING id="AI.LaunchCondition.Description" value="Luncurkan Deskripsi Kondisi"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] tidak dapat diinstal pada sistem dengan versi DirectX lebih kecil dari [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] tidak dapat diinstal pada sistem dengan versi .NET Framework lebih kecil dari [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] tidak dapat diinstal pada sistem dengan versi .NET Core lebih kecil dari [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] tidak dapat diinstal pada sistem dengan versi Internet Explorer lebih kecil dari [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] tidak dapat diinstal pada sistem dengan versi Internet Information Services lebih kecil dari [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] membutuhkan koneksi Internet aktif untuk instalasi. Silakan periksa konfigurasi jaringan dan setelan proxy Anda."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] tidak dapat diinstal pada sistem dengan versi JRE lebih kecil dari [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] tidak dapat diinstal di [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] tidak dapat diinstal di [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] tidak dapat diinstal di [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] tidak dapat diinstal di [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] tidak dapat diinstal di [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] tidak dapat diinstal di [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName] tidak dapat diinstal pada sistem tanpa [AI_REQUIRED_OFFICE_APPNAME] 2007."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="Penginstalan [ProductName] membutuhkan hak administrator."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] tidak dapat diinstal pada sistem dengan memori fisik kurang dari [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] tidak dapat diinstal pada sistem dengan resolusi layar kurang dari  [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] tidak dapat diinstal pada sistem yang berjalan pada mesin virtual."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] tidak dapat diinstal pada sistem dengan versi Windows Installer lebih kecil dari [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="YourFile.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="Basis data penginstal ini berisi logika dan data yang dibutuhkan untuk menginstal  [|ProductName]."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Perusahaan Anda"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Modul Gabung Anda"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="Basis data ini berisi logika dan data yang dibutuhkan untuk menginstal komponen &lt;nama modul&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="Aplikasi Anda"/>
+  <STRING id="AI.Property.DefaultValue" value="Nilai Anda"/>
+  <STRING id="AI.Property.FindExeTitle" value="Pilih paket instalasi untuk [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Paket ini berisi Modul Gabung yang telah dibuat dengan versi uji coba Advanced Installer. Anda dapat menggunakannya untuk dievaluasi saja."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Paket ini dibuat dengan versi uji coba Advanced Installer. Anda hanya dapat menggunakannya untuk evaluasi."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Peringatan"/>
+  <STRING id="AI.Registry.DefaultKey" value="Kunci_Baru"/>
+  <STRING id="AI.Registry.DefaultName" value="Nilai Baru"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="YourFile.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="NilaiAnda"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="NamaLayanan"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="Deskripsi Layanan Anda"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Layanan Anda"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Bagi Pakai Baru"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Pintasan ke PerintahAnda"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Pintasan ke %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Hapus instalasi"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Buka"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Berkas baru"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ErrorDlg" value="Informasi Penginstal"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Cari:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Jelajahi ke folder tujuan"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Buat Folder Baru|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Nama folder:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Ubah folder tujuan yang sekarang"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Ke Atas Satu Tingkat|"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Tentukan lokasi jaringan untuk gambar server produk [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Masukkan lokasi jaringan baru atau klik &quot;Jelajah&quot; untuk menjelajahi tujuan."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Lokasi Jaringan"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="&amp;Kunci CD:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Masukkan informasi perusahaan Anda"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Silakan masukkan nama perusahaan Anda dalam kotak di bawah ini.  Nama ini akan digunakan sebagai nama perusahaan bawaan untuk instalasi [ProductName] selanjutnya:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Informasi Perusahaan"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="[Wizard] akan membuat gambar server [ProductName], di lokasi jaringan yang ditentukan.  Klik &quot;[Text_Next]&quot; untuk melanjutkan atau &quot;Batal&quot; untuk keluar dari [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Selamat Datang di [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Cari:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Jelajahi ke folder tujuan"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Buat Folder Baru|"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Nama folder:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Ubah folder tujuan yang sekarang"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Ke Atas Satu Tingkat|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Ikon Informasi|"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Apakah Anda yakin ingin membatalkan instalasi [ProductName]?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Pilih cara penginstalan fitur."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="&amp;Penggunaan Diska"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Deskripsi multibaris butir yang terpilih saat ini."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Ukuran butir yang terpilih saat ini."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Jalur pilihan&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Lokasi:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Klik ikon pada pohon berikut untuk mengubah cara penginstalan fitur."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Pengesetan Kustom"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Pohon pilihan"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Ruang diska yang diperlukan untuk instalasi fitur-fitur terpilih."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Volume yang disorot (jika ada) tidak memiliki cukup ruang diska untuk fitur-fitur terpilih saat ini.  Anda dapat menghapus beberapa berkas dari volume yang disorot, atau memutuskan untuk menginstal lebih sedikit fitur ke drive lokal, atau memilih drive tujuan berbeda."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Persyaratan Ruang Diska"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Ikon Informasi|"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Teks informasi"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Klik tombol &quot;Selesai&quot; untuk keluar [Wizard]."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Luncurkan [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Menyelesaikan [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Lihat berkas readme"/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] akan mendaftarkan [ProductName] untuk menangani tipe berkas berikut ini: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Hubungkan [ProductName] dengan tipe berkas."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Hubungan Berkas"/>
+  <STRING id="Control.Text.FatalError#Description1" value="Pengesetan [ProductName] berakhir sebelum waktunya karena terjadi kesalahan.  Sistem Anda belum diubah.  Untuk menginstal program ini nanti, jalankan kembali instalasi."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Klik tombol &quot;Selesai&quot; untuk keluar [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] berakhir sebelum waktunya"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Beberapa berkas yang perlu diperbarui saat ini sedang dipakai."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="Aplikasi berikut ini sedang menggunakan berkas-berkas yang harus diperbarui dengan pengesetan ini. Anda dapat menutup aplikasi tersebut kemudian klik &quot;Coba Lagi&quot;, atau klik &quot;Abaikan&quot; sehingga penginstal melanjutkan instalasi dan mengganti berkas tersebut ketika sistem Anda dihidupkan ulang."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Berkas sedang Digunakan"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Ini adalah folder dimana [ProductName] akan diinstal."/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Folder:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Untuk menginstal folder ini, klik &quot;[Text_Next]&quot;. Untuk menginstal ke folder berbeda, masukkan di bawah atau klik &quot;Jelajah&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Pilih Folder Instalasi"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Silakan membaca perjanjian lisensi berikut dengan seksama"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Perjanjian Lisensi Pengguna-Akhir"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Ubah Instalasi|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Ubah"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Membolehkan pengguna mengubah cara penginstalan fitur."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Pilih operasi yang ingin Anda jalankan."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Hapus Instalasi|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Hapus"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Menghapus [ProductName] dari komputer Anda."/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Perbaiki Instalasi|"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Per&amp;baiki"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Memperbaiki kesalahan dalam kondisi instalasi terakhir - memperbaiki berkas, pintasan dan entri registri yang hilang atau korup."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Ubah, Perbaiki atau Hapus instalasi"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="[Wizard] membolehkan Anda mengubah cara instalasi fitur [ProductName] di komputer atau bahkan membolehkan Anda menghapus [ProductName] dari komputer.  Klik &quot;[Text_Next]&quot; untuk melanjutkan atau &quot;Batal&quot; untuk keluar dari [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Selamat Datang di [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="Ruang diska yang dibutuhkan untuk instalasi ini melampaui ruang diska yang tersedia."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Volume yang disorot tidak memiliki cukup ruang diska untuk fitur-fitur terpilih saat ini.  Anda dapat menghapus beberapa berkas dari volume yang disorot, atau memutuskan untuk menginstal lebih sedikit fitur ke drive lokal, atau memilih drive tujuan berbeda."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Ruang Diska Tidak Cukup"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="Ruang diska yang dibutuhkan untuk instalasi ini melampaui ruang diska yang tersedia."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Volume yang disorot tidak memiliki cukup ruang diska untuk fitur-fitur terpilih saat ini.  Anda dapat menghapus beberapa berkas dari volume yang disorot, atau memutuskan untuk menginstal lebih sedikit fitur ke drive lokal, atau memilih drive tujuan berbeda."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Atau, Anda dapat mematikan fungsi pembatalan penginstal.  Dengan cara ini penginstal akan memulihkan kondisi asli komputer Anda kalau instalasi terganggu karena satu sebab.  Klik &quot;Ya&quot; jika Anda ingin mematikan pembatalan penginstal."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Ruang Diska Tidak Cukup"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Tunggu selama [Wizard] mempersiapkan diri untuk membimbing Anda melakukan instalasi."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Selamat Datang di [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Sedang berlangsung selesai"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Status:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Tunggu selama [Wizard] [Progress2] [ProductName].  Proses ini mungkin memerlukan waktu beberapa menit."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Bacalah teks berikut ini dengan seksama"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Berkas Read me"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="[Wizard] akan menyelesaikan instalasi [ProductName] di komputer Anda.  Klik &quot;Instal&quot; untuk melanjutkan atau &quot;Batal&quot; untuk keluar dari [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Memulihkan [Wizard] [ProductName]"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Selesaikan Instalasi|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="S&amp;elesai"/>
+  <STRING id="Property.Text_Complete" value="Selesai"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Semua fitur program akan diinstal.  (Memerlukan ruang diska yang besar)"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Instalasi Kustom|"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="K&amp;ustom"/>
+  <STRING id="Property.Text_Custom" value="Kustom"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Membolehkan pengguna memilih figur program mana yang akan diinstal dan dimana akan diinstal. Direkomendasikan untuk pengguna mahir."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Pilih tipe pengesetan yang paling sesuai dengan kebutuhan Anda"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Pilih Tipe Pengesetan"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Instalasi Tipikal|"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Tipikal"/>
+  <STRING id="Property.Text_Typical" value="Tipikal"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Instal fitur program yang paling umum. Direkomendasikan untuk pengguna kebanyakan."/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] dapat mencari [ProductName] versi lama kemudian menghapusnya. Apakah Anda ingin menghapus versi lama ini?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] telah mendeteksi bahwa Anda memilih lokasi instalasi yang juga digunakan oleh [ProductName] versi [AI_Replaced_Versions_List]. Versi ini harus dihapus instalasinya. Apakah Anda ingin menghapus versi lama yang lain?"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Cari dan upgrade [ProductName] versi lama."/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Upgrade Versi Lama"/>
+  <STRING id="Control.Text.UserExit#Description1" value="Pengesetan [ProductName] terganggu.  Sistem Anda belum diubah.  Untuk menginstal program ini nanti, jalankan kembali instalasi."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Klik tombol &quot;Selesai&quot; untuk keluar [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="[Wizard] [ProductName] terganggu"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Nomor Seri:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Masukkan informasi konsumen Anda"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="Nama &amp;Pengguna:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="P&amp;erusahaan:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Informasi Konsumen"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="[Wizard] sudah siap untuk mulai menginstal [ProductName]"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Klik &quot;Instal&quot; untuk memulai instalasi.  Jika ingin memeriksa atau mengubah salah satu setelan instalasi Anda, klik &quot;Kembali&quot;.  Klik &quot;Batal&quot; untuk keluar wizard."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Siap menginstal"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Anda telah memutuskan untuk menghapus program ini dari komputer."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Klik &quot;Hapus&quot; untuk menghapus [ProductName] dari komputer Anda.  Jika ingin memeriksa atau mengubah salah satu setelan instalasi Anda, klik &quot;Kembali&quot;.  Klik &quot;Batal&quot; untuk keluar wizard."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Hapus [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="[Wizard] sudah siap untuk mulai menginstal [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Klik &quot;Perbaiki&quot; untuk memperbaiki instalasi [ProductName].  Jika ingin memeriksa atau mengubah salah satu setelan instalasi Anda, klik &quot;Kembali&quot;.  Klik &quot;Batal&quot; untuk keluar wizard."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Perbaiki [ProductName]"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Ikon tanda seru|"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Tunggu selama penginstal selesai menentukan kebutuhan ruang diska Anda."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="[Wizard] akan menginstal [ProductName] di komputer Anda.  Klik &quot;[Text_Next]&quot; untuk melanjutkan atau &quot;Batal&quot; untuk keluar dari [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Selamat Datang di [Wizard] [ProductName]"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="[Wizard] akan menginstal Patch untuk [ProductName] di komputer Anda. Klik &quot;[Text_Next]&quot; untuk melanjutkan atau &quot;Batal&quot; untuk keluar dari [Wizard] Patch."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Selamat Datang di [Wizard] Patch [ProductName] "/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Konfigurasikan Pintasan"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Buat pintasan aplikasi"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Buat pintasan untuk [ProductName] di lokasi berikut:"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Desktop"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Folder Program Menu Mulai"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Quick Launch toolbar"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Folder mulai"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="Folder Pintasan Menu &amp;Mulai:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Untuk menginstal pintasan dalam folder ini, klik &quot;[Text_Next]&quot;. Untuk menginstal ke dalam folder berbeda, masukkan di bawah atau pilih salah satu folder dari kotak kombo."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Ini adalah folder dimana pintasan [ProductName] akan diinstal."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Pilih Folder Pintasan Menu Mulai"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Untuk menginstal di dalam sub-folder, tambahkan nama sub-folder, dipisah tanda &quot;\&quot;."/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Basis data:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="Sumberdaya ODBC:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Sandi:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Port:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Server:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Nama pengguna:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Mengonfigurasi Sambungan SQL..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="Basis data SQL"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Deskripsi Dialog Baru..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Penginstal Lanjut"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Dialog Baru"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Dialog Spawn(Tunggu) Baru"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Beberapa berkas yang perlu diperbarui saat ini sedang dipakai."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="Aplikasi berikut ini sedang menggunakan berkas-berkas yang harus diperbarui dengan pengesetan ini."/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Berkas sedang Digunakan"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Penginstal Lanjut"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Mengiklankan aplikasi"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="Mengalokasikan ruang registri"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Ruang bebas: [1]"/>
+  <STRING id="ActionText.Description.AppSearch" value="Mencari aplikasi yang diinstal"/>
+  <STRING id="ActionText.Template.AppSearch" value="Properti: [1], Tanda tangan: [2]"/>
+  <STRING id="ActionText.Description.BindImage" value="Pemberkasan berkas-berkas yang bisa dieksekusi"/>
+  <STRING id="ActionText.Template.BindImage" value="Berkas: [1]"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Mencari produk yang memenuhi syarat"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Menghitung kebutuhan ruang"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Menghitung kebutuhan ruang"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Membuat folder"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Folder: [1]"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Membuat pintasan"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Pintasan: [1]"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Menghapus layanan"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Layanan: [1]"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Membuat berkas duplikat"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Berkas: [1],  Directori: [9],  Ukuran: [6]"/>
+  <STRING id="ActionText.Description.FileCost" value="Menghitung kebutuhan ruang"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Mencari aplikasi terkait"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Menemukan aplikasi: [1]"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Menghasilkan operasi skrip untuk tindakan:"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Menyalin berkas instalasi jaringan"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Berkas: [1],  Directori: [9], Ukuran: [6]"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Menyalin berkas baru"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Berkas: [1],  Directori: [9], Ukuran: [6]"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Menginstal komponen ODBC"/>
+  <STRING id="ActionText.Description.InstallServices" value="Menginstal layanan baru"/>
+  <STRING id="ActionText.Template.InstallServices" value="Layanan: [2]"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Menginstal katalog sistem"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Berkas: [1],  Dependensi: [2]"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Memvalidasi instalasi"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Mengevaluasi kondisi peluncuran"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Memindahkan keadaan fitur dari aplikasi terkait"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Aplikasi: [1]"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Memindahkan berkas"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Berkas: [1],  Directori: [9], Ukuran: [6]"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Menerbitkan informasi susunan"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Konteks Aplikasi:[1], Nama Susunan:[2]"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Membatalkan penerbitan informasi susunan"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Konteks Aplikasi:[1], Nama Susunan:[2]"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Melakukan patching pada berkas"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Berkas: [1],  Direktori: [2],  Ukuran: [3]"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Memutakhirkan pendaftaran komponen"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Menerbitkan Komponen yang Memenuhi Syarat"/>
+  <STRING id="ActionText.Template.PublishComponents" value="ID Komponen: [1], Pengualifikasi: [2]"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Menerbitkan Fitur Produk"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Fitur: [1]"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Menerbitkan informasi produk"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Mendaftarkan server Kelas"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Id Kelas: [1]"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Mendaftarkan Aplikasi dan Komponen COM+"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="IdApI: [1]{{, TipeApl: [2], Pengguna: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Mendaftarkan server ekstensi"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Ekstensi: [1]"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Mendaftarkan font"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Font: [1]"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Mendaftarkan info MIME"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Tipe Konten MIME: [1], Ekstensi: [2]"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Mendaftarkan produk"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Mendaftarkan pengidentifikasi program"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="IdProg: [1]"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Mendaftarkan pustaka tipe"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="IDLib: [1]"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Mendaftarkan pengguna"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Menghapus berkas duplikat"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Berkas: [1], Direktori: [9]"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Memutakhirkan untaian lingkungan"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Nama: [1], Nilai: [2], Tindakan[3]"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Menghapus aplikasi"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Aplikasi: [1], Baris perintah: [2]"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Menghapus berkas"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Berkas: [1], Direktori: [9]"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Menghapus folder"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Folder: [1]"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Menghapus  entri berkas INI"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Berkas: [1],  Bagian: [2],  Kunci: [3], Nilai: [4]"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Menghapus komponen ODBC"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Menghapus nilai registri sistem"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Kunci: [1], Nama: [2]"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Menghapus pintasan"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Pintasan: [1]"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Mencari produk yang memenuhi syarat"/>
+  <STRING id="ActionText.Description.Rollback" value="Membatalkan tindakan:"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Menghapus berkas cadangan"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Berkas: [1]"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Mendaftarkan modul"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Berkas: [1], Folder: [2]"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Membatalkan pendaftaran modul"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Berkas: [1], Folder: [2]"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Menginisialisasi direktori ODBC "/>
+  <STRING id="ActionText.Description.StartServices" value="Memulai layanan"/>
+  <STRING id="ActionText.Template.StartServices" value="Layanan: [1]"/>
+  <STRING id="ActionText.Description.StopServices" value="Menghentikan layanan"/>
+  <STRING id="ActionText.Template.StopServices" value="Layanan: [1]"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Menghapus berkas yang dipindahkan"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Berkas: [1], Direktori: [9]"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Menghapus Pendaftaran Komponen yang Memenuhi Syarat"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="ID Komponen: [1], Pengualifikasi: [2]"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Menghapus Pendaftaran Fitur Produk"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Fitur: [1]"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Menghapus Pendaftaran informasi produk"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Menghapus pendaftaran server Kelas"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Id Kelas: [1]"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Menghapus Pendaftaran Aplikasi dan Komponen COM+"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="IdApl: [1]{{, TipeApl: [2]}}"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Menghapus Pendaftaran server ekstensi"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Ekstensi: [1]"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Menghapus Pendaftaran font"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Font: [1]"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Menghapus Pendaftaran info MIME"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Tipe Konten MIME: [1], Ekstensi: [2]"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Menghapus Pendaftaran pengidentifikasi program"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="IdProg: [1]"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Menghapus Pendaftaran pustaka tipe"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="IDLib: [1]"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Memutakhirkan untaian lingkungan"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Nama: [1], Nilai: [2], Tindakan[3]"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Menulis nilai berkas INI"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Berkas: [1],  Bagian: [2],  Kunci: [3], Nilai: [4]"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Menulis nilai registri sistem"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Key: [1], Name: [2], Value: [3]"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Menghasilkan tindakan untuk membuat akun pengguna di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Akun: [1], Atribut: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Membuat akun pengguna di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Akun: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Menghapus akun pengguna dari komputer lokal"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Akun: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Membatalkan pembuatan akun pengguna di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Akun: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Menghasilkan tindakan untuk menghapus akun pengguna di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Akun: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Menghasilkan tindakan untuk membuat grup pengguna di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Akun: [1], Atribut: [2]"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Membuat grup pengguna di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Akun: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Menghapus grup pengguna dari komputer lokal"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Akun: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Membatalkan pembuatan grup pengguna di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Akun: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Menghasilkan tindakan untuk menghapus grup pengguna di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Akun: [1]"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Mengekstrak berkas dari arsip"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Menghapus berkas yang diekstrak dari arsip"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Menghasilkan tindakan untuk mengonfigurasi basis data untuk eksekusi skrip SQL instalasi"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Menghasilkan tindakan untuk mengonfigurasi basis data untuk eksekusi skrip SQL penghapusan instalasi"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Mengeksekusi skrip SQL instalasi"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Koneksi: [1]  Skrip: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Mengeksekusi skrip SQL "/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Koneksi: [1]  Skrip: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Mengeksekusi skrip SQL penghapusan instalasi"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Koneksi: [1]  Skrip: [2]"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Mengeksekusi skrip SQL pembatalan"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Koneksi: [1]  Skrip: [2]"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Menghasilkan tindakan untuk mengonfigurasi Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Menghasilkan tindakan untuk mengonfigurasi Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Mengonfigurasi Internet Information Services"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Menginstal &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Mengonfigurasi Internet Information Services"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Menghapus &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Membatalkan konfigurasi IIS"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Memulihkan konfigurasi metabase."/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Menghasilkan tindakan untuk mengonfigurasi berkas XML"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Menghasilkan tindakan untuk mengonfigurasi berkas XML"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Mengeksekusi konfigurasi berkas XML"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Mengonfigurasi berkas XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Mengeksekusi konfigurasi berkas XML"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Mengonfigurasi berkas XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Membatalkan konfigurasi berkas XML."/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Membatalkan konfigurasi berkas XML."/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Menghasilkan tindakan untuk mengonfigurasi Windows Firewall"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Menghasilkan tindakan untuk mengonfigurasi Windows Firewall"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Mengeksekusi konfigurasi Windows Firewall "/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Mengonfigurasi kaidah Windows Firewall: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Mengeksekusi konfigurasi Windows Firewall "/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Mengonfigurasi kaidah Windows Firewall: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Membatalkan konfigurasi Windows Firewall."/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Membatalkan konfigurasi Windows Firewall."/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Menghasilkan tindakan untuk mengonfigurasi Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Menghasilkan tindakan untuk mengonfigurasi Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Mengeksekusi konfigurasi Games Explorer"/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Mengonfigurasi permainan: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Mengeksekusi konfigurasi Games Explorer"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Menghapus permainan: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Membatalkan konfigurasi Games Explorer."/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Membatalkan konfigurasi Games Explorer."/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Menghasilkan tindakan untuk berbagi pakai folder di komputer lokal:"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Folder: [1], NamaBagi Pakai: [2]"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Berbagi pakai folder di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Folder: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Menghapus bagi pakai folder dari komputer lokal"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="NamaBagi Pakai: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Membatalkan bagi pakai folder di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="NamaBagi Pakai: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Menghasilkan tindakan untuk menghapus bagi pakai folder dari komputer lokal:"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="NamaBagi Pakai: [1]"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Menghasilkan tindakan untuk menjadwalkan tugas di komputer lokal:"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Nama Tugas: [1]"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Menjadwal tugas di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Nama Tugas: [1]"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Menghapus tugas terjadwal dari komputer lokal"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Nama Tugas: [1]"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Membatalkan tugas terjadwal di komputer lokal"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Nama Tugas: [1]"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Menghasilkan tindakan untuk menghapus tugas terjadwal dari komputer lokal:"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Kesalahan fatal: }}&lt;FONT CHANGE: face=&quot;Courier New&quot;&gt;"/>
+  <STRING id="Error.1" value="{{Kesalahan[1]. }}&lt;FONT CHANGE: face=&quot;Courier New&quot;&gt;"/>
+  <STRING id="Error.2" value="Peringatan[1]. "/>
+  <STRING id="Error.4" value="Info [1]. "/>
+  <STRING id="Error.5" value="Penginstal mengalami kesalahan tak terduga saat menginstal paket ini. Ini kemungkinan menunjukkan adanya masalah dengan paket ini. Kode kesalahannya adalah [1]. {{Argumennya adalah: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Diska penuh: }}&lt;FONT CHANGE: face=&quot;Courier New&quot;&gt;"/>
+  <STRING id="Error.8" value="Aksi [Waktu]: [1]. [2]"/>
+  <STRING id="Error.9" value="NamaProduk"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Tipe pesan: [1], Argumen: [2]"/>
+  <STRING id="Error.12" value="=== Pencatatan dimulai: [Tanggal]  [Waktu] ==="/>
+  <STRING id="Error.13" value="=== Pencatatan diakhiri : [Tanggal]  [Waktu] ==="/>
+  <STRING id="Error.14" value="Aksi dimulai [Waktu]: [1]."/>
+  <STRING id="Error.15" value="Aksi berakhir [Waktu]: [1]. Nilai kembalian [2]."/>
+  <STRING id="Error.16" value="Sisa waktu: {[1] menit }{[2] detik}"/>
+  <STRING id="Error.17" value="Memori tidak cukup. Matikan aplikasi lain sebelum mencoba lagi."/>
+  <STRING id="Error.18" value="Penginstal tidak lagi memberikan respons."/>
+  <STRING id="Error.19" value="Penginstal berhenti sebelum waktunya."/>
+  <STRING id="Error.20" value="Harap tunggu sementara Windows sedang mengonfigurasi [ProductName]"/>
+  <STRING id="Error.21" value="Mengumpulkan informasi yang dibutuhkan..."/>
+  <STRING id="Error.22" value="Menghapus versi lama aplikasi ini..."/>
+  <STRING id="Error.23" value="Persiapan menghapus versi lama aplikasi ini..."/>
+  <STRING id="Error.32" value="{[ProductName] }Pengesetan berhasil.&lt;FONT CHANGE: face=&quot;Courier New&quot;&gt;"/>
+  <STRING id="Error.33" value="{[ProductName] }Pengesetan gagal.&lt;FONT CHANGE: face=&quot;Courier New&quot;&gt;"/>
+  <STRING id="Error.1101" value="Kesalahan membaca berkas: [2]. {{ Kesalahan sistem [3].}}  Periksa apakah berkas tersebut ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1301" value="Tidak dapat membuat berkas '[2]'.  Direktori dengan nama ini sudah ada.  Batalkan instalasi dan coba instal lagi ke lokasi yang lain."/>
+  <STRING id="Error.1302" value="Masukkan diska: [2]"/>
+  <STRING id="Error.1303" value="Penginstal tidak memiliki hak untuk mengakses direktori ini: [2].  Instalasi tidak dapat dilanjutkan.  Masuklah sebagai administrator atau hubungi administrator sistem Anda."/>
+  <STRING id="Error.1304" value="Kesalahan menulisi berkas: [2].  Periksa apakah Anda memiliki akses ke direktori tersebut."/>
+  <STRING id="Error.1305" value="Kesalahan membaca berkas: [2]. {{ Kesalahan sistem [3].}}  Periksa apakah berkas tersebut ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1306" value="Aplikasi lain memiliki akses eksklusif ke berkas '[2]'.  Matikan semua aplikasi lainnya, lalu klik &quot;Coba Lagi&quot;."/>
+  <STRING id="Error.1307" value="Tidak tersedia cukup ruang diska untuk menginstal berkas ini: [2].  Bebaskan sebagian ruang diska, lalu klik &quot;Coba Lagi&quot;, atau klik &quot;Batal&quot; untuk keluar."/>
+  <STRING id="Error.1308" value="Berkas sumber tidak ditemukan: [2].  Periksa apakah berkas ini ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1309" value="Kesalahan membaca berkas: [3]. {{ Kesalahan sistem [3].}}  Periksa apakah berkas tersebut ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1310" value="Kesalahan menulisi berkas: [2]. {{ Kesalahan sistem [2].}}  Periksa apakah Anda memiliki akses ke direktori tersebut."/>
+  <STRING id="Error.1311" value="Berkas sumber tidak ditemukan{{(kabinet)}}:: [2].  Periksa apakah berkas ini ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1312" value="Tidak dapat membuat direktori '[2]'.  Berkas dengan nama ini sudah ada.  Namai ulang atau hapus berkas tersebut kemudian klik &quot;Coba Lagi&quot;, atau klik &quot;Batal&quot; untuk keluar."/>
+  <STRING id="Error.1313" value="Volume [2] saat ini tidak tersedia.  Silakan pilih yang lain."/>
+  <STRING id="Error.1314" value="Jalur yang ditentukan '[2]' tidak tersedia."/>
+  <STRING id="Error.1315" value="Tidak dapat menulis ke folder yang ditentukan: [2]."/>
+  <STRING id="Error.1316" value="Terjadi kesalahan jaringan ketika coba membaca berkas: [2]"/>
+  <STRING id="Error.1317" value="Terjadi kesalahan ketika coba membuat direktori: [2]"/>
+  <STRING id="Error.1318" value="Terjadi kesalahan jaringan ketika coba membuat direktori: [2]"/>
+  <STRING id="Error.1319" value="Terjadi kesalahan jaringan ketika coba membuka kabinet berkas sumber: [2]"/>
+  <STRING id="Error.1320" value="Jalur yang ditentukan terlalu panjang: [2]"/>
+  <STRING id="Error.1321" value="Penginstal tidak memiliki cukup hak untuk memodifikasi berkas ini: [2]."/>
+  <STRING id="Error.1322" value="Sebagian jalur folder '[2]' yang tidak sah.  Jalur folder tersebut kemungkinan kosong atau melampaui panjang yang diperkenankan sistem."/>
+  <STRING id="Error.1323" value="Jalur folder '[2]' memuat kata yang tidak sah untuk jalur folder."/>
+  <STRING id="Error.1324" value="Jalur folder '[2]' memuat karakter yang tidak sah."/>
+  <STRING id="Error.1325" value="'[2]' bukan nama singkat berkas yang sah."/>
+  <STRING id="Error.1326" value="Kesalahan memperoleh keamanan berkas: [3] GetLastError: [2]"/>
+  <STRING id="Error.1327" value="Drive Tidak Sah: [2]"/>
+  <STRING id="Error.1328" value="Kesalahan menerapkan patch ke berkas [2].  Berkas ini kemungkinan telah diperbarui dengan cara lain, dan tidak dapat diubah lagi oleh patch ini.  Untuk informasi lebih lanjut, hubungi vendor patch Anda.  {{Kesalahan Sistem: [3]}}"/>
+  <STRING id="Error.1329" value="Berkas yang diperlukan tidak dapat diinstal karena berkas kabinetnya [2] tidak ditandatangani secara digital.  Ini kemungkinan menunjukkan berkas kabinet korup."/>
+  <STRING id="Error.1330" value="Berkas yang diperlukan tidak dapat diinstal karena berkas kabinetnya [2] tidak memiliki tanda tangan digital yang sah.  Ini kemungkinan menunjukkan berkas kabinet tersebut korup.{{  Kesalahan [3] dikembalikan oleh WinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="Gagal menyalin berkas [2] dengan benar: kesalahan CRC."/>
+  <STRING id="Error.1332" value="Gagal memindahkan berkas [2] dengan benar: kesalahan CRC."/>
+  <STRING id="Error.1333" value="Gagal melakukan patching berkas [2] dengan benar: kesalahan CRC."/>
+  <STRING id="Error.1334" value="Berkas '[2]' tidak dapat diinstal karena berkas tersebut tidak dapat ditemukan dalam berkas kabinet'[3]'. Ini kemungkinan menunjukkan kesalahan jaringan, kesalahan membaca CD-ROM, atau masalah pada paket ini."/>
+  <STRING id="Error.1335" value="Berkas kabinet '[2]' yang diperlukan untuk instalasi ini korup sehingga tidak dapat digunakan. Ini kemungkinan menunjukkan kesalahan jaringan, kesalahan membaca CD-ROM, atau masalah pada paket ini."/>
+  <STRING id="Error.1336" value="Terdapat kesalahan membuat berkas sementara yang diperlukan untuk menyelesaikan instalasi ini.{{  Folder: [3]. Kode kesalahan sistem: [2]}}"/>
+  <STRING id="Error.1401" value="Tidak dapat membuat kunci: [2]. {{ Kesalahan sistem [3].}}  Periksa apakah Anda memiliki cukup akses ke kunci tersebut, atau hubungi personel pendukung. "/>
+  <STRING id="Error.1402" value="Tidak dapat membuka kunci: [2]. {{ Kesalahan sistem [3].}}  Periksa apakah Anda memiliki cukup akses ke kunci tersebut, atau hubungi personel pendukung. "/>
+  <STRING id="Error.1403" value="Tidak dapat menghapus nilai [2] dari kunci [3]. {{ Kesalahan sistem [4].}}  Periksa apakah Anda memiliki cukup akses ke kunci tersebut, atau hubungi personel pendukung. "/>
+  <STRING id="Error.1404" value="Tidak dapat menghapus kunci: [2]. {{ Kesalahan sistem [3].}}  Periksa apakah Anda memiliki cukup akses ke kunci tersebut, atau hubungi personel pendukung. "/>
+  <STRING id="Error.1405" value="Tidak dapat menghapus nilai [2] dari kunci [3]. {{ Kesalahan sistem [4].}}  Periksa apakah Anda memiliki cukup akses ke kunci tersebut, atau hubungi personel pendukung. "/>
+  <STRING id="Error.1406" value="Tidak dapat menuliskan nilai [2] ke kunci [3]. {{ Kesalahan sistem [4].}}  Periksa apakah Anda memiliki cukup akses ke kunci tersebut, atau hubungi personel pendukung."/>
+  <STRING id="Error.1407" value="Tidak dapat memperoleh nama nilai untuk kunci [2]. {{ Kesalahan sistem [3].}}  Periksa apakah Anda memiliki cukup akses ke kunci tersebut, atau hubungi personel pendukung."/>
+  <STRING id="Error.1408" value="Tidak dapat memperoleh nama nilai untuk kunci [2]. {{ Kesalahan sistem [3].}}  Periksa apakah Anda memiliki cukup akses ke kunci tersebut, atau hubungi personel pendukung."/>
+  <STRING id="Error.1409" value="Tidak dapat membaca informasi keamanan untuk kunci [2]. {{ Kesalahan sistem [3].}}  Periksa apakah Anda memiliki cukup akses ke kunci tersebut, atau hubungi personel pendukung."/>
+  <STRING id="Error.1410" value="Tidak dapat menambah ruang registri yang tersedia. Diperlukan ruang registri bebas sebesar [2] KB untuk menginstal aplikasi ini."/>
+  <STRING id="Error.1500" value="Proses instalasi lain sedang berlangsung. Anda harus menyelesaikan instalasi tersebut sebelum melanjutkan instalasi ini."/>
+  <STRING id="Error.1501" value="Kesalahan mengakses data aman. Pastikan bahwa penginstal Windows dikonfigurasi dengan benar dan coba instal kembali."/>
+  <STRING id="Error.1502" value="Pengguna '[2]' pernah memulai instalasi untuk produk '[3]'.  Pengguna ini perlu menginstal ulang sebelum dapat menggunakan produk tersebut.  Instalasi Anda akan dilanjutkan sekarang."/>
+  <STRING id="Error.1503" value="Pengguna '[2]' pernah memulai instalasi untuk produk '[3]'.  Pengguna ini perlu menginstal ulang sebelum dapat menggunakan produk tersebut."/>
+  <STRING id="Error.1601" value="Ruang diska tidak mencukupi -- Volume: '[2]'; ruang diska yang dibutuhkan: [3] KB; ruang diska yang tersedia: [4] KB.  Bebaskan sebagian ruang diska kemudian coba lagi."/>
+  <STRING id="Error.1602" value="Yakin ingin batal?"/>
+  <STRING id="Error.1603" value="Berkas [2][3] sedang digunakan{ oleh proses berikut ini: Nama: [4], Id: [5], Judul Jendela: '[6]'}.  Tutup aplikasi ini dan coba lagi."/>
+  <STRING id="Error.1604" value="Produk '[2]' sudah terinstal, sehingga produk ini tidak dapat diinstal.  Kedua produk tidak kompatibel."/>
+  <STRING id="Error.1605" value="Tidak tersedia cukup ruang diska pada volume '[2]' untuk melanjutkan instalasi dengan pemulihan diaktifkan. Diperlukan [3] KB, tetapi hanya tersedia [4] KB. Klik &quot;Abaikan&quot; untuk melanjutkan instalasi tanpa menyimpan informasi pemulihan, klik &quot;Coba Lagi&quot; untuk memeriksa apakah sudah tersedia cukup ruang, atau klik &quot;Batal&quot; untuk keluar dari instalasi."/>
+  <STRING id="Error.1606" value="Tidak dapat mengakses lokasi jaringan [2]."/>
+  <STRING id="Error.1607" value="Aplikasi berikut ini harus ditutup sebelum meneruskan instalasi:"/>
+  <STRING id="Error.1608" value="Tidak dapat menemukan produk terinstal yang diperlukan untuk menginstal produk ini."/>
+  <STRING id="Error.1609" value="Terjadi kesalahan saat menerapkan setelan keamanan. [2] bukan pengguna atau grup yang sah. Ini mungkin masalah pada paketnya, atau masalah yang berkaitan dengan pengendali domain pada jaringan. Periksa koneksi jaringan Anda kemudian klik &quot;Coba Lagi&quot;, atau &quot;Batal&quot; untuk mengakhiri instalasi.       {{Tidak dapat menemukan SID pengguna, kesalahan sistem [3]}}"/>
+  <STRING id="Error.1701" value="Kunci [2] tidak sah.  Periksa apakah Anda memasukkan kunci yang benar."/>
+  <STRING id="Error.1702" value="Penginstal harus menghidupkan ulang sistem sebelum dapat melanjutkan konfigurasi [2].  Klik &quot;Ya&quot; untuk menghidupkan ulang sekarang atau &quot;Tidak&quot; jika ingin menghidupkan ulang secara manual nanti."/>
+  <STRING id="Error.1703" value="Anda harus menghidupkan ulang sistem agar perubahan konfigurasi yang dilakukan pada [2] mulai berlaku. Klik &quot;Ya&quot; untuk menghidupkan ulang sekarang atau &quot;Tidak&quot; jika ingin menghidupkan ulang secara manual nanti."/>
+  <STRING id="Error.1704" value="Instalasi untuk [2] saat ini ditangguhkan.  Anda harus membatalkan perubahan yang dilakukan instalasi tersebut agar dapat melanjutkan.  Batalkan perubahan?"/>
+  <STRING id="Error.1705" value="Ada instalasi untuk produk ini yang sedang berlangsung.  Anda harus membatalkan perubahan yang dilakukan instalasi tersebut agar dapat melanjutkan.  Batalkan perubahan?"/>
+  <STRING id="Error.1706" value="Paket instalasi untuk produk [2] tidak dapat ditemukan. Coba instal lagi dengan menggunakan salinan paket instalasi yang sah '[3]'."/>
+  <STRING id="Error.1707" value="Instalasi berhasil."/>
+  <STRING id="Error.1708" value="Instalasi gagal."/>
+  <STRING id="Error.1709" value="Produk: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Anda dapat memulihkan komputer ke kondisi sebelumnya atau melanjutkan instalasi nanti. Memulihkan ke kondisi sebelumnya?"/>
+  <STRING id="Error.1711" value="Terjadi kesalahan saat menuliskan informasi instalasi ke diska.  Periksa apakah tersedia cukup ruang diska, lalu klik &quot;Coba Lagi&quot;, atau &quot;Batal&quot; untuk membatalkan instalasi."/>
+  <STRING id="Error.1712" value="Satu atau beberapa berkas yang diperlukan untuk memulihkan komputer ke keadaan sebelumnya tidak ditemukan.  Pemulihan tidak dapat dilakukan."/>
+  <STRING id="Error.1713" value="[2] tidak dapat menginstal salah satu produknya yang diperlukan. Hubungi grup dukungan teknis Anda.  {{Kesalahan Sistem: [3].}}"/>
+  <STRING id="Error.1714" value="[2] versi lama tidak dapat dihapus.  Hubungi grup dukungan teknis Anda.  {{Kesalahan Sistem: [3].}}"/>
+  <STRING id="Error.1715" value="Terinstal [2]"/>
+  <STRING id="Error.1716" value="Dikonfigurasi [2]"/>
+  <STRING id="Error.1717" value="Dihapus [2]"/>
+  <STRING id="Error.1718" value="Berkas [2] ditolak oleh kebijakan tanda tangan digital."/>
+  <STRING id="Error.1719" value="Layanan Penginstal Windows tidak dapat diakses. Ini dapat terjadi jika Anda menjalankan Windows dalam moda aman, atau jika Penginstal Windows tidak diinstal dengan benar. Hubungi personel pendukung untuk mendapatkan bantuan."/>
+  <STRING id="Error.1720" value="Ada masalah dengan paket Penginstal Windows ini. Skrip yang diperlukan untuk menyelesaikan instalasi ini tidak dapat dijalankan. Hubungi personel pendukung atau vendor paket Anda.  Kesalahan skrip {{Aksi kustom[2] [3], [4]: [5] Baris [6], Kolom [7], [8] }}"/>
+  <STRING id="Error.1721" value="Ada masalah dengan paket Penginstal Windows ini. Program yang diperlukan untuk menyelesaikan instalasi ini tidak dapat dijalankan. Hubungi personel pendukung atau vendor paket Anda. {{Aksi: [2], lokasi: [3], perintah: [4] }}"/>
+  <STRING id="Error.1722" value="Ada masalah dengan paket Penginstal Windows ini. Program yang dijalankan sebagai bagian dari pengesetan ini tidak dapat selesai sebagaimana mestinya. Hubungi personel pendukung atau vendor paket Anda.  {{Aksi [2], lokasi: [3], perintah: [4] }}"/>
+  <STRING id="Error.1723" value="Ada masalah dengan paket Penginstal Windows ini. DLL yang diperlukan untuk menyelesaikan instalasi ini tidak dapat dijalankan. Hubungi personel pendukung atau vendor paket Anda.  {{Aksi [2], entri: [3], pustaka: [4] }}"/>
+  <STRING id="Error.1724" value="Penghapusan berhasil."/>
+  <STRING id="Error.1725" value="Penghapusan gagal."/>
+  <STRING id="Error.1726" value="Iklan berhasil."/>
+  <STRING id="Error.1727" value="Iklan gagal."/>
+  <STRING id="Error.1728" value="Konfigurasi berhasil."/>
+  <STRING id="Error.1729" value="Konfigurasi gagal."/>
+  <STRING id="Error.1730" value="Anda harus menjadi Administrator untuk menghapus aplikasi ini. Untuk menghapus aplikasi ini, Anda dapat masuk sebagai Administrator, atau hubungi kelompok pendukung teknis Anda untuk mendapatkan bantuan."/>
+  <STRING id="Error.1801" value="Kunci [2] tidak sah.  Tentukan jalur yang sah."/>
+  <STRING id="Error.1802" value="Memori tidak cukup. Matikan aplikasi lain sebelum mencoba lagi."/>
+  <STRING id="Error.1803" value="Tidak ada diska dalam drive [2]. Masukkan diska lalu klik &quot;Coba Lagi&quot;, atau klik &quot;Batal&quot; untuk kembali ke volume yang dipilih sebelumnya."/>
+  <STRING id="Error.1804" value="Tidak ada diska dalam drive [2]. Masukkan diska lalu klik &quot;Coba Lagi&quot;, atau klik &quot;Batal&quot; untuk kembali ke dialog browse dan pilih volume lainnya."/>
+  <STRING id="Error.1805" value="Folder [2] tidak ada.  Masukkan jalur ke folder yang ada."/>
+  <STRING id="Error.1806" value="Anda tidak memiliki hak untuk membaca folder ini."/>
+  <STRING id="Error.1807" value="Tidak dapat menentukan folder tujuan yang sah untuk instalasi."/>
+  <STRING id="Error.1901" value="Terjadi kesalahan ketika coba membaca basis data sumber instalasi: [2]."/>
+  <STRING id="Error.1902" value="Menjadwalkan operasi 'boot' ulang: Mengganti nama berkas [2] menjadi [3]. . Harus 'boot' ulang agar operasi selesai."/>
+  <STRING id="Error.1903" value="Menjadwal ulang operasi 'boot' ulang: Menghapus berkas [2]. Harus 'boot' ulang agar operasi selesai."/>
+  <STRING id="Error.1904" value="Modul [2] gagal didaftarkan.  HRESULT [3].  Hubungi personel pendukung."/>
+  <STRING id="Error.1905" value="Modul [2] gagal didaftarkan.  HRESULT [3].  Hubungi personel pendukung."/>
+  <STRING id="Error.1906" value="Gagal untuk menyimpan paket [2] ke memori. Kesalahan: [3]. Hubungi personel pendukung."/>
+  <STRING id="Error.1907" value="Tidak dapat mendaftarkan font [2].  Periksa apakah Anda memiliki cukup izin untuk menginstal font, dan apakah sistem mendukung font ini."/>
+  <STRING id="Error.1908" value="Tidak dapat membatalkan pendaftaran font [2]. Periksa apakah Anda memiliki cukup izin untuk menghapus font."/>
+  <STRING id="Error.1909" value="Tidak dapat membuat Pintasan [2].  Periksa apakah folder tujuan ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1910" value="Tidak dapat menghapus Pintasan [2]. Periksa apakah berkas pintasan ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1911" value="Tidak dapat mendaftarkan pustaka tipe untuk berkas [2].  Hubungi personel pendukung."/>
+  <STRING id="Error.1912" value="Tidak dapat membatalkan pendaftaran pustaka tipe untuk berkas [2].  Hubungi personel pendukung."/>
+  <STRING id="Error.1913" value="Tidak dapat memperbarui berkas ini [2][3].  Periksa apakah berkas ini ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1914" value="Tidak dapat menjadwalkan berkas [2] untuk menggantikan berkas [3] pada saat 'boot' ulang.  Periksa apakah Anda memiliki izin tulis ke berkas [3]."/>
+  <STRING id="Error.1915" value="Terjadi kesalahan dalam menghapus pengelola driver ODBC, kesalahan ODBC [2]: [3]. Hubungi personel pendukung."/>
+  <STRING id="Error.1916" value="Terjadi kesalahan dalam menghapus pengelola driver ODBC, kesalahan ODBC [2]: [3]. Hubungi personel pendukung."/>
+  <STRING id="Error.1917" value="Terjadi kesalahan dalam menghapus driver ODBC: [4], kesalahan ODBC [2]: [3]. Periksa apakah Anda memiliki cukup hak untuk menghapus driver ODBC."/>
+  <STRING id="Error.1918" value="Terjadi kesalahan dalam menginstal driver ODBC: [4][5], kesalahan ODBC [2]: [3]. Periksa apakah berkas ini [4][6] ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1919" value="Kesalahan dalam mengonfigurasi sumber data ODBC: [4][5], kesalahan ODBC [2]: [3]. Periksa apakah berkas [4][6] ada dan apakah Anda dapat mengaksesnya."/>
+  <STRING id="Error.1920" value="Layanan '[2]' ([3]) tidak dapat dijalankan.  Periksa apakah Anda memiliki cukup hak untuk menjalankan layanan sistem."/>
+  <STRING id="Error.1921" value="Layanan '[2]' ([3]) tidak dapat dihentikan.  Periksa apakah Anda memiliki cukup hak untuk menghentikan layanan sistem."/>
+  <STRING id="Error.1922" value="Layanan '[2]' ([3]) tidak dapat dihapus.  Periksa apakah Anda memiliki cukup hak untuk menghapus layanan sistem."/>
+  <STRING id="Error.1923" value="Layanan '[2]' ([3]) tidak dapat diinstal.  Periksa apakah Anda memiliki cukup hak untuk menginstal layanan sistem."/>
+  <STRING id="Error.1924" value="Tidak dapat memperbarui variabel lingkungan '[2]'.  Periksa apakah Anda memiliki cukup hak untuk mengubah variabel lingkungan."/>
+  <STRING id="Error.1925" value="Anda tidak memiliki cukup hak untuk menyelesaikan instalasi ini untuk semua pengguna mesin.  Cobalah masuk sebagai administrator, lalu ulangi instalasi ini."/>
+  <STRING id="Error.1926" value="Tidak dapat mengeset keamanan untuk berkas '[3]'. Kesalahan: [2].  Periksa apakah Anda memiliki cukup hak untuk mengubah izin keamanan untuk berkas ini."/>
+  <STRING id="Error.1927" value="Layanan Komponen (COM+ 1.0) tidak diinstal di komputer ini.  Diperlukan Layanan Komponen agar instalasi ini berhasil.  Layanan Komponen tersedia di Windows 2000."/>
+  <STRING id="Error.1928" value="Terjadi kesalahan saat mendaftarkan Aplikasi COM+.  Hubungi personel pendukung untuk informasi lebih lanjut."/>
+  <STRING id="Error.1929" value="Terjadi kesalahan saat membatalkan pendaftaran Aplikasi COM+.  Hubungi personel pendukung untuk informasi lebih lanjut."/>
+  <STRING id="Error.1930" value="Deskripsi untuk layanan '[2]' ([3]) tidak dapat diubah."/>
+  <STRING id="Error.1931" value="Layanan Penginstal Windows tidak dapat memutakhirkan berkas sistem [2] karena berkas ini diproteksi oleh Windows.  Anda perlu memperbarui sistem operasi agar program ini dapat berfungsi dengan benar. {{Versi paket: [3], versi Terproteksi OS: [4]}}"/>
+  <STRING id="Error.1932" value="Layanan Penginstal Windows tidak dapat memperbarui berkas Windows terproteksi [2]. {{Versi paket: [3], Versi Terproteksi OS: [4], Kesalahan SFP: [5]}}"/>
+  <STRING id="Error.1933" value="Penginstal Windows tidak dapat memperbarui satu atau beberapa berkas Windows terproteksi. {{Kesalahan SFP: [2].  Daftar berkas terproteksi:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Instalasi pengguna dinonaktifkan melalui kebijakan pada mesin ini."/>
+  <STRING id="Error.1935" value="Terjadi kesalahan selama instalasi komponen susunan [2]. HRESULT [3]. {{antarmuka susunan: [4], fungsi: [5], nama susunan: [6]}}"/>
+  <STRING id="Error.4000" value="Nomor seri tidak sah."/>
+  <STRING id="Error.4010" value="Versi terbaru [ProductName] sudah diinstal di komputer ini."/>
+  <STRING id="Error.4020" value="Terjadi eror saat proses konfigurasi IIS&#10;Konfigurasi IIS asli Anda akan dipulihkan."/>
+  <STRING id="Error.4021" value="Situs Web “[2]” sudah ada pada server ini&#10;&#10;Apakah Anda ingin melewati situs web ini dan melanjutkan instalasi?"/>
+  <STRING id="Error.4022" value="Direktori Virtual “[2]” di Situs Web “[3]” telah ada di server ini.&#10;&#10;Apakah Anda ingin melewati direktori virtual ini dan melanjutkan instalasi?"/>
+  <STRING id="Error.4023" value="Versi IIS ini tidak didukung atau IIS tidak terinstal dengan lengkap!&#10;&#10;Anda memerlukan Internet Information Services 5.0 atau lebih tinggi."/>
+  <STRING id="Error.4024" value="Situs Web dengan Server Bindings yang sama telah dimulai.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Tidak dapat membuat akun pengguna atau grup '[2]' di mesin lokal. Kode Kesalahan: [3]. [4]"/>
+  <STRING id="Error.4102" value="Akun pengguna atau kelompok '[2]' sudah ada di mesin lokal."/>
+  <STRING id="Error.4103" value="Tidak dapat menghapus akun pengguna atau grup '[2]' di mesin lokal. Kode Kesalahan: [3]."/>
+  <STRING id="Error.4104" value="Akun pengguna atau kelompok '[2]' tidak ada di mesin lokal."/>
+  <STRING id="Error.4105" value="Terjadi kesalahan saat berbagi pakai '[2]' dengan nama: '[3]'. Deskripsi kesalahan: [4]"/>
+  <STRING id="Error.4106" value="Terjadi kesalahan saat membuat tugas terjadwal: '[2]'. Deskripsi kesalahan: [3]"/>
+  <STRING id="Error.4107" value="Terjadi kesalahan saat menghapus tugas terjadwal: '[2]'. Deskripsi kesalahan: [3]"/>
+  <STRING id="Error.4110" value="Tidak dapat mengalokasikan memori."/>
+  <STRING id="Error.4111" value="Berkas tidak ditemukan: [2]."/>
+  <STRING id="Error.4112" value="Berkas '[2]' tidak dapat dibaca."/>
+  <STRING id="Error.4113" value="Kesalahan parse dalam berkas: '[2]' pada baris: [3], kolom: [4]. KodeKesalahan: [5]."/>
+  <STRING id="Error.4114" value="Pengodean berkas XML tidak terdukung."/>
+  <STRING id="Error.4115" value="Terjadi kesalahan saat membuka berkas: [2]."/>
+  <STRING id="Error.4116" value="Berkas '[2]' tidak dapat dituliskan."/>
+  <STRING id="Error.4117" value="Unsur akar tak terduga: &quot;[2]&quot; dalam berkas XML: '[3]'."/>
+  <STRING id="Error.4120" value="Ada eror saat proses konfigurasi Windows Firewall.&#10;Konfigurasi Firewall asli Anda akan dipulihkan."/>
+  <STRING id="Error.4121" value="Jalur gambar proses Firewall tidak sah, atau berkas tidak ditemukan: [2]."/>
+  <STRING id="Error.4122" value="Port/protokol Firewall tidak sah: [2]."/>
+  <STRING id="Error.4123" value="Lingkup jaringan Firewall tidak sah: [2]."/>
+  <STRING id="Error.4124" value="Terjadi kesalahan saat mendaftarkan aplikasi dengan Firewall Windows: [2]."/>
+  <STRING id="Error.4125" value="Terjadi kesalahan saat mendaftarkan port dengan Firewall Windows: [2]."/>
+  <STRING id="Error.4130" value="Terjadi kesalahan selama proses konigurasi Game Explorer."/>
+  <STRING id="Error.4131" value="Parental Controls mencegah Anda menjalankan permainan: [2]."/>
+  <STRING id="Error.4140" value="Terjadi kesalahan selama proses eksekusi skrip SQL."/>
+  <STRING id="Error.4141" value="Kesalahan ODBC: [2] ([3])."/>
+  <STRING id="Error.4142" value="Koneksi ODBC: waktu habis terlampaui."/>
+  <STRING id="Error.4143" value="Kesalahan parse skrip SQL: sintaks tidak sah."/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="byte"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Seluruh fitur tidak akan tersedia"/>
+  <STRING id="UIText.MenuAdvertise" value="Fitur akan diinstal bila diperlukan"/>
+  <STRING id="UIText.MenuAllCD" value="Seluruh fitur akan diinstal untuk dijalankan dari CD"/>
+  <STRING id="UIText.MenuAllLocal" value="Seluruh fitur akan diinstal di hard drive lokal"/>
+  <STRING id="UIText.MenuAllNetwork" value="Seluruh fitur akan diinstal untuk dijalankan dari jaringan"/>
+  <STRING id="UIText.MenuCD" value="Akan diinstal untuk dijalankan dari CD"/>
+  <STRING id="UIText.MenuLocal" value="Akan diinstal di hard drive lokal"/>
+  <STRING id="UIText.MenuNetwork" value="Akan diinstal untuk dijalankan dari jaringan"/>
+  <STRING id="UIText.ScriptInProgress" value="Mengumpulkan informasi yang dibutuhkan..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Fitur ini tetap tidak akan terinstal"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Fitur ini akan diset terinstal jika diperlukan"/>
+  <STRING id="UIText.SelAbsentCD" value="Fitur ini akan diinstal untuk dijalankan dari CD"/>
+  <STRING id="UIText.SelAbsentLocal" value="Fitur ini akan diinstal di hard drive lokal"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Fitur ini akan diinstal untuk dijalankan dari jaringan"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Fitur ini tidak akan tersedia"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Akan diinstal bila diperlukan"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Fitur ini tersedia untuk dijalankan dari CD"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Fitur ini akan diinstal di hard drive lokal"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Fitur ini tersedia untuk dijalankan dari jaringan"/>
+  <STRING id="UIText.SelCDAbsent" value="Instalasi fitur ini akan dihapus seluruhnya, Anda tidak dapat menjalankannya dari CD"/>
+  <STRING id="UIText.SelCDAdvertise" value="Fitur ini akan berubah, semula dijalankan dari CD menjadi diset untuk diinstal jika diperlukan"/>
+  <STRING id="UIText.SelCDCD" value="Fitur ini akan tetap dijalankan dari CD"/>
+  <STRING id="UIText.SelCDLocal" value="Fitur ini akan berubah, semula dijalankan dari CD menjadi diinstal di hard drive lokal"/>
+  <STRING id="UIText.SelChildCostNeg" value="Fitur ini membebaskan ruang hingga [1] pada hard drive Anda."/>
+  <STRING id="UIText.SelChildCostPos" value="Fitur ini membebaskan ruang [1] pada hard drive Anda."/>
+  <STRING id="UIText.SelCostPending" value="Mengumpulkan biaya untuk fitur ini..."/>
+  <STRING id="UIText.SelLocalAbsent" value="Fitur ini akan dihapus seluruhnya"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Fitur ini akan dihapus dari hard drive lokal, tetapi akan diset untuk diinstal jika diperlukan"/>
+  <STRING id="UIText.SelLocalCD" value="Fitur ini akan dihapus dari hard drive lokal, tetapi masih tetap tersedia untuk dijalankan dari CD"/>
+  <STRING id="UIText.SelLocalLocal" value="Fitur ini akan tetap berada di hard drive lokal Anda"/>
+  <STRING id="UIText.SelLocalNetwork" value="Fitur ini akan dihapus dari hard drive lokal Anda, tapi akan tetap tersedia untuk dijalankan dari jaringan"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Instalasi fitur ini akan dihapus seluruhnya, Anda tidak dapat menjalankannya dari jaringan"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Fitur ini akan berubah, semula dijalankan dari jaringan menjadi diset untuk diinstal jika diperlukan"/>
+  <STRING id="UIText.SelNetworkLocal" value="Fitur ini akan berubah, semula dijalankan dari jaringan menjadi diinstal di hard drive lokal"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Fitur ini akan tetap dijalankan dari jaringan"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Fitur ini membebaskan ruang hingga [1] pada hard drive Anda. Fitur ini memiliki [2] dari [3] subfitur terpilih. Subfitur ini membebaskan hingga [4] pada hard drive Anda."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Fitur ini membebaskan ruang hingga [1] pada hard drive Anda. Fitur ini memiliki [2] dari [3] subfitur terpilih. Subfitur ini membutuhkan hingga [4] pada hard drive Anda."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Fitur ini membebaskan ruang [1] pada hard drive Anda. Fitur ini memiliki [2] dari [3] subfitur terpilih. Subfitur ini membebaskan hingga [4] pada hard drive Anda."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Fitur ini membebaskan ruang [1] pada hard drive Anda. Fitur ini memiliki [2] dari [3] subfitur terpilih. Subfitur ini membutuhkan hingga [4] pada hard drive Anda."/>
+  <STRING id="UIText.TimeRemaining" value="Sisa waktu: {[1] menit }{[2] detik}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Tersedia"/>
+  <STRING id="UIText.VolumeCostDifference" value="Perbedaan"/>
+  <STRING id="UIText.VolumeCostRequired" value="Diperlukan"/>
+  <STRING id="UIText.VolumeCostSize" value="Ukuran Diska"/>
+  <STRING id="UIText.VolumeCostVolume" value="Volume"/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.ODBCTestMsg" value="Tunggu selama mengetes koneksi..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Menjelajahi Server SQL di jaringan..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <STRING id="UIText.HttpPostMsg" value="Mengirim data yang terkumpul..."/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.IAgree#1" value="Saya &amp;menerima ketentuan dalam Perjanjian Lisensi"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="Saya tidak menerima ketentuan dalam Kesepakatan Lisensi"/>
+  <STRING id="RadioButton.Text.ExtReg#1" value="Ya, &amp;daftarkan untuk menangani tipe file itu."/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="Tidak, &amp;lewati asosiasi berkas."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="&amp;Tutup aplikasi secara otomatis dan coba mulai lagi setelah pengesetan selesai."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="&amp;Jangan menurut aplikasi. (Dibutuhkan boot ulang.)"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="Ya, &amp;hapus versi lama."/>
+  <STRING id="Property.AI_Upgrade_Question_No" value="Tidak, &amp;instal bersebelahan dengan versi lainnya."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="Ya, &amp;hapus semua versi lama."/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="Tidak, &amp;hapus instalasi hanya versi [AI_Replaced_Versions_List]."/>
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Kembali"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Kembali"/>
+  <STRING id="Property.ButtonText_Browse" value="Je&amp;lajahi..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Batal"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Keluar"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Selesai"/>
+  <STRING id="Property.Text_Finish" value="Selesai"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Abaikan"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Instal"/>
+  <STRING id="Property.Text_Install" value="Instal"/>
+  <STRING id="Property.ButtonText_Next" value="S&amp;elanjutnya &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="S&amp;elanjutnya"/>
+  <STRING id="Property.Text_Next" value="Selanjutnya"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Tidak"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="&amp;Hapus"/>
+  <STRING id="Property.ButtonText_Repair" value="&amp;Perbaiki"/>
+  <STRING id="Property.ButtonText_Reset" value="&amp;Reset"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Lanjutkan"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Coba Lagi"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Kembali"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Ya"/>
+  <STRING id="Property.Text_Yes" value="Ya"/>
+  <STRING id="Property.CtrlEvtchanges" value="ubah"/>
+  <STRING id="Property.CtrlEvtChanging" value="Mengubah"/>
+  <STRING id="Property.CtrlEvtremoves" value="hapus"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Menghapus"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Memperbaiki"/>
+  <STRING id="Property.CtrlEvtrepairs" value="perbaiki"/>
+  <STRING id="Property.InstallModeComplete" value="Selesai"/>
+  <STRING id="Property.InstallModeCustom" value="Kustom"/>
+  <STRING id="Property.InstallModeTypical" value="Tipikal"/>
+  <STRING id="Property.Progress1" value="Menginstal"/>
+  <STRING id="Property.Progress2" value="instal"/>
+  <STRING id="Property.Setup" value="Pengesetan"/>
+  <STRING id="Property.Wizard" value="Wisaya Pengesetan"/>
+  <!-- Trialware Settings table-->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Beli"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Apakah Anda ingin membuka halaman pembelian %TrialName%?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Kunci Pendaftaran Tidak Sah"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="Kunci pendaftaran tidak sah."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="%TrialName% uji coba"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Tekan tombol &quot;Selesai&quot; untuk memvalidasi kunci dan lanjutkan."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="Masukkan semua baris kunci pendaftaran yang telah Anda terima."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Pendaftaran"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Beli"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="Kunjungi halaman pembelian %TrialName% untuk mendapatkan lisensi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="%TrialName% Masa uji coba Kedaluwarsa"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="Masa uji coba Anda %Quantity% sudah kedaluwarsa. Jika ingin terus menggunakan %TrialName% Anda harus membeli lisensi dan mendaftarkan aplikasi tersebut."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="Masa uji coba Anda %Quantity% sudah kedaluwarsa. Jika ingin terus menggunakan %TrialName% Anda harus membeli lisensi dan mendaftarkan aplikasi tersebut."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Selamat Datang di %TrialName% uji coba"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Daftar"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Masukkan kunci pendaftaran"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Coba"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Kedaluwarsa"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Beli"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="Kunjungi halaman pembelian %TrialName% untuk mendapatkan lisensi"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="%TrialName% uji coba (tinggal %TrialLeft% hari)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="%TrialName% uji coba (dapat dijalankan %TrialLeft% kali)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="Anda sedang menggunakan %TrialName% versi uji coba dari [|Manufacturer]. Pemakaian uji coba tinggal %TrialLeft% hari."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="Anda sedang menggunakan %TrialName% versi uji coba dari [|Manufacturer]. Pemakaian uji coba dapat dijalankan %TrialLeft% kali."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Selamat Datang di %TrialName% uji coba"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Daftar"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Masukkan kunci pendaftaran"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Coba"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Lanjutkan uji coba %TrialName%"/>
+</DICTIONARY>

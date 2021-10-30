@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B198CBE7C9064728A1DE167EE2BA374F" DisplayName="SQL Server Express with Tools 2014 SP1 x64" VersionMin="12.0.4100.1"
+      SetupFileUrl="http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x64/SQLEXPRWT_x64_ENU.exe"
+      Location="1" ExactSize="1134753312" MD5="c76d9cfa4096205294815491deeea3df"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64"
+      ComLine="/UpdateEnabled=False"
+      BasicUiComLine="/UpdateEnabled=False"
+      NoUiComLine="/q /IACCEPTSQLSERVERLICENSETERMS /ACTION=Install /FEATURES=SQLEngine,SSMS /INSTANCENAME=SQLEXPRESS /UpdateEnabled=False"
+      Operator="1" Options="xy" TargetName="SQL Server Express 2014 SP1"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B198CBE7C9064728A1DE167EE2BA374FCurrentVersion" Prereq="B198CBE7C9064728A1DE167EE2BA374F" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\120\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="12.0.4100.1"
+      Order="1" Property="PreReqSearch_B198CBE7C9064728A1DE167EE2BA374F"/>
+    <ROW SearchKey="B198CBE7C9064728A1DE167EE2BA374FCurrentVersion_1" Prereq="B198CBE7C9064728A1DE167EE2BA374F" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\130\Tools\ClientSetup\CurrentVersion\CurrentVersion" VerMin="13.0"
+      Order="2" Property="PreReqSearch_1_B198CBE7C9064728A1DE167EE2BA374F"/>
+  </COMPONENT>
+</FRAGMENT>

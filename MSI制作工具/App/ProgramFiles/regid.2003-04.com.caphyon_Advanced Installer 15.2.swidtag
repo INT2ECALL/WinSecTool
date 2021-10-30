@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<swid:software_identification_tag xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:swid="http://standards.iso.org/iso/19770/-2/2008/schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.iso.org/iso/19770/-2/2008/schema.xsd software_identification_tag.xsd">
+  <swid:entitlement_required_indicator>false</swid:entitlement_required_indicator>
+  <swid:product_title>Advanced Installer 15.2</swid:product_title>
+  <swid:product_version>
+    <swid:name>15.2</swid:name>
+    <swid:numeric>
+      <swid:major>15</swid:major>
+      <swid:minor>2</swid:minor>
+      <swid:build>0</swid:build>
+      <swid:review>0</swid:review>
+    </swid:numeric>
+  </swid:product_version>
+  <swid:software_creator>
+    <swid:name>Caphyon</swid:name>
+    <swid:regid>regid.2003-04.com.caphyon</swid:regid>
+  </swid:software_creator>
+  <swid:software_licensor>
+    <swid:name>Caphyon</swid:name>
+    <swid:regid>regid.2003-04.com.caphyon</swid:regid>
+  </swid:software_licensor>
+  <swid:software_id>
+    <swid:unique_id>Advanced Installer 15.2</swid:unique_id>
+    <swid:tag_creator_regid>regid.2003-04.com.caphyon</swid:tag_creator_regid>
+  </swid:software_id>
+  <swid:tag_creator>
+    <swid:name>Caphyon</swid:name>
+    <swid:regid>regid.2003-04.com.caphyon</swid:regid>
+  </swid:tag_creator>
+  <swid:license_linkage>
+    <swid:channel_type>Retail</swid:channel_type>
+    <swid:channel_name>Caphyon Sales</swid:channel_name>
+    <swid:customer_type>Corporate</swid:customer_type>
+  </swid:license_linkage>
+</swid:software_identification_tag>

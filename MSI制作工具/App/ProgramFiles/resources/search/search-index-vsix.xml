@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SearchIndex version="1.0">
+
+  <View id="VsixContentComponent">
+    product details name author version ID description support information URL user guide
+  </View>
+
+  <View id="DigCertStoreComponent">
+    digital signature files
+    PFX SPC CER PVK
+    certificates URL time stamp signtool signcode store
+    authenticode
+  </View>
+  
+  <View id="VsixSupportedProductComponent">
+    prerequisites supported .net version visual studio products isloated shell ID 
+    references  
+  </View>
+  
+  <View id="GenericFileComponent">
+    files folders properties delete 
+    content category template MEF toolbox VS template type 
+  </View>
+  
+  <View id="VsixMediaComponent">
+    output folder file 
+  </View>
+  
+  <View id="VsixUIComponent">
+    license text images icon
+  </View>
+  
+  <View id="DictionaryComponent">
+    build languages multilingual translations dictionary dictionaries 
+  </View>
+
+</SearchIndex>

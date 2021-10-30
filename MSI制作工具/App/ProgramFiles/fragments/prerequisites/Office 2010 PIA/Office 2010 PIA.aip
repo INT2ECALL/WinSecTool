@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F3A1EB1B_A24D_45E4_83E1_5F1E38127DCA" DisplayName="Office 2010 Primary Interop Assemblies" VersionMin="14.0"
+      SetupFileUrl="http://www.microsoft.com/en-us/download/details.aspx?id=3508"
+      Location="2" ExactSize="0"
+      WinNTVersions="Windows Vista RTM x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64"
+      Operator="1" Options="y"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Office"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F3A1EB1B_A24D_45E4_83E1_5F1E38127DCAUpgradeCode" Prereq="F3A1EB1B_A24D_45E4_83E1_5F1E38127DCA" SearchType="4"
+      SearchString="{00140000-1146-0000-0000-0000000FF1CE}" VerMin="14.0.4763.1150"
+      Order="1" Property="PreReqSearch_F3A1EB1B_A24D_45E4_83E1_5F1E38127DCA"/>
+  </COMPONENT>
+</FRAGMENT>

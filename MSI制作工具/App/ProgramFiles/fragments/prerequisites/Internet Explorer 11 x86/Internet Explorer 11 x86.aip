@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="E74B59B7F65C41D38A5139639A220F08" DisplayName="Internet Explorer 11 x86" VersionMin="11.0"
+      SetupFileUrl="http://download.microsoft.com/download/9/2/F/92FC119C-3BCD-476C-B425-038A39625558/IE11-Windows6.1-x86-en-us.exe"
+      Location="1" ExactSize="29720784" MD5="7d3479b9007f3c0670940c1b10a3615f"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista x86, Windows Server 2008 x86, Windows 7 RTM x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="y" TargetName="Internet Explorer 11"/>
+    <ATTRIBUTE name="GroupName" value="Internet Explorer"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="E74B59B7F65C41D38A5139639A220F08SystemFolderwininet.dll" Prereq="E74B59B7F65C41D38A5139639A220F08" SearchType="0"
+      SearchString="[SystemFolder]wininet.dll" VerMin="11.0.9600.16428"
+      Order="1" Property="PreReqSearch_E74B59B7F65C41D38A5139639A220F08"/>
+  </COMPONENT>
+</FRAGMENT>

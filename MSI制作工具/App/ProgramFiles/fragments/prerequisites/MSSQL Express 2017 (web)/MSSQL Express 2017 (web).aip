@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.5" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="EEB9A3F623AB4F318A43001374C47030" DisplayName="SQL Server Express 2017 (web installer)" VersionMin="14.0"
+      SetupFileUrl="https://download.microsoft.com/download/5/E/9/5E9B18CC-8FD5-467E-B5BF-BADE39C51F73/SQLServer2017-SSEI-Expr.exe"
+      Location="1" ExactSize="5325976" MD5="5b232c8bb56935b9e99a09d97d3494ea"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows Server 2008 x64, Windows 7 x64, Windows Server 2008 R2 x64"
+      Operator="1" Options="xy" TargetName="SQL Server Express 2017"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="EEB9A3F623AB4F318A43001374C47030Ver" Prereq="EEB9A3F623AB4F318A43001374C47030" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server\140\SQL2017\CurrentVersion\Version" VerMin="14.0.1000.169"
+      Order="1" Property="PreReqSearch_EEB9A3F623AB4F318A43001374C47030"/>
+  </COMPONENT>
+</FRAGMENT>

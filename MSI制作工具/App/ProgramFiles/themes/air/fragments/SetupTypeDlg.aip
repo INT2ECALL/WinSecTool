@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="SetupTypeDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="370" Height="304" Attributes="1" Text="[Background]" Order="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalButton" Type="PushButton" X="35" Y="91" Width="38" Height="38" Attributes="5767170" Text="[InstallerIcon]" Order="200" HelpLocId="Control.Help.SetupTypeDlg#TypicalButton"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalLabel" Type="Text" X="86" Y="91" Width="100" Height="11" Attributes="65538" TextStyle="[DlgTitleFont]" Order="300" TextLocId="Control.Text.SetupTypeDlg#TypicalLabel"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalText" Type="Text" X="86" Y="104" Width="230" Height="20" Attributes="65538" Order="400" TextLocId="Control.Text.SetupTypeDlg#TypicalText"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomButton" Type="PushButton" X="35" Y="174" Width="38" Height="38" Attributes="5767170" Text="[CustomSetupIcon]" Order="500" HelpLocId="Control.Help.SetupTypeDlg#CustomButton"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomLabel" Type="Text" X="89" Y="174" Width="100" Height="11" Attributes="65538" TextStyle="[DlgTitleFont]" Order="600" TextLocId="Control.Text.SetupTypeDlg#CustomLabel"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomText" Type="Text" X="89" Y="187" Width="230" Height="30" Attributes="65538" Order="700" TextLocId="Control.Text.SetupTypeDlg#CustomText"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TypicalCommandLinkButton" Type="CommandLinkButton" X="35" Y="91" Width="314" Height="52" Attributes="6815747" Text="[InstallerIcon]" Order="800" HelpLocId="Azure.Control.Help.SetupTypeDlg#TypicalCommand" ExtType="CommandLinkButton" ExtDataLocId="Azure.Control.ExtData.SetupTypeDlg#TypicalCommand"/>
+    <ROW Dialog_="SetupTypeDlg" Control="CustomCommandLinkButton" Type="CommandLinkButton" X="35" Y="174" Width="314" Height="52" Attributes="6815747" Text="[CustomSetupIcon]" Order="900" HelpLocId="Azure.Control.Help.SetupTypeDlg#CustomCommand" ExtType="CommandLinkButton" ExtDataLocId="Azure.Control.ExtData.SetupTypeDlg#CustomCommand"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Next" Type="PushButton" X="246" Y="277" Width="56" Height="20" Attributes="0" Text="[ButtonText_Next]" TextStyle="ImageButton" Order="1000" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Cancel" Type="ImageButton" X="306" Y="277" Width="56" Height="20" Attributes="3" Text="[NextCancelButtons]" TextStyle="ImageButton" Order="1100" TextLocId="-" ExtDataLocId="-" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Cancel]"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Back" Type="ImageButton" X="0" Y="2" Width="22" Height="22" Attributes="3" Text="[BackButton]" Order="1200" TextLocId="-" ExtDataLocId="-" HelpLocId="Air.Control.Help#Back" Options="1" ExtType="ImageButton" ExtData="[ButtonText_Back]"/>
+    <ROW Dialog_="SetupTypeDlg" Control="TitleIcon" Type="Icon" X="27" Y="5" Width="16" Height="16" Attributes="3145729" Text="[CustomSetupIcon]" Order="1300"/>
+    <ROW Dialog_="SetupTypeDlg" Control="Title" Type="Text" X="46" Y="7" Width="302" Height="15" Attributes="196611" TextStyle="Title" Order="1400" TextLocId="Air.Control.Text.WelcomeDlg#Title"/>
+    <ROW Dialog_="SetupTypeDlg" Control="SubTitle" Type="Text" X="25" Y="46" Width="323" Height="15" Attributes="196611" TextStyle="SubTitle" Order="1500" TextLocId="Control.Text.SetupTypeDlg#Description"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlConditionComponent">
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomCommandLinkButton" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalCommandLinkButton" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalText" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalLabel" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomText" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomLabel" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomButton" Action="Show" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalCommandLinkButton" Action="Default" Condition="AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Title" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TitleIcon" Action="Hide" Condition="NOT AIEXTERNALUI"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="SetupTypeDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomCommandLinkButton" Event="[AiEventsControl]" Argument="CustomButton" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalCommandLinkButton" Event="[AiEventsControl]" Argument="TypicalButton" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomButton" Event="[InstallMode]" Argument="[InstallModeCustom]" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Event="[InstallMode]" Argument="[InstallModeTypical]" Condition="1" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Event="SetInstallLevel" Argument="3" Condition="1" Ordering="200"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="300"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Event="EnableRollback" Argument="False" Condition="OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="400"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="(OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;)" Ordering="500"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="[InstallMode]" Argument="Typical" Condition="AI_INSTALL" Ordering="100"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="SetInstallLevel" Argument="3" Condition="AI_INSTALL" Ordering="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="SetupTypeDlg" HCentering="50" VCentering="50" Width="370" Height="304" Attributes="3" Control_Default="TypicalButton" Control_Cancel="Cancel" TitleLocId="Dialog.SetupTypeDlg"/>
+    <ATTRIBUTE name="ExitPoints" value="CustomizeDlg#Next##InstallMode = InstallModeCustom#SetupTypeDlg!SetupTypeDlg#CustomButton#CustomizeDlg#InstallMode = InstallModeCustom"/>
+  </COMPONENT>
+</FRAGMENT>

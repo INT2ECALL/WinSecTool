@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SearchIndex version="1.0">
+
+  <View id="WinCEPropsComponent">
+    product details name company version select application folder directory 
+  </View>
+
+  <View id="DigCertStoreComponent">
+    digital signature files
+    PFX SPC CER PVK
+    certificates URL time stamp signtool signcode store
+    authenticode
+  </View>
+  
+  <View id="WinCEFileComponent">
+    files folders shortcuts installed source path 
+    attributes "read only" system hidden archive copy 
+    options overwrite copy install shared self-register signature digitally sign 
+  </View>
+  
+  <View id="WinCERegValueComponent">
+    registry key value import REG name string integer multi binary flags data 
+  </View>
+  
+  <View id="WinCEExtensionComponent">
+    "file associations" extensions description icon configurations 
+  </View>
+  
+  <View id="WinCECfgComponent">
+    CABS package output folder file digitally sign "custom setup DLL"
+    platforms processor target devices type screen orientation 
+    XML provisioning custom add/remove options 
+    configurations content 
+  </View>
+
+</SearchIndex>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SearchIndex version="1.0">
+
+  <View id="DigCertStoreComponent">
+    digital signature files
+    PFX SPC CER PVK
+    certificates URL time stamp signtool signcode store
+    authenticode
+  </View>
+
+  <View id="GenericFileComponent">
+    files folders delete "add file"
+  </View>
+
+  <View id="AppXLangsComponent">
+    language certification allowable
+  </View>
+
+  <View id="AppXCfgComponent">
+    output folder file appx
+    build
+  </View>
+
+</SearchIndex>

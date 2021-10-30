@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="singlelanguage" lang="pt_BR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dictionary.xsd">
+  <!-- AI defaults -->
+  <STRING id="AI.Directory.Default32BitName" value="32-bit"/>
+  <STRING id="AI.Directory.DefaultDefaultDir" value="Nova Pasta"/>
+  <STRING id="AI.DuplicateFile.DestName" value="Duplicado %s de %s"/>
+  <STRING id="AI.Environment.DefaultName" value="Nova variável"/>
+  <STRING id="AI.Feature.DefaultDescription" value="Descrição"/>
+  <STRING id="AI.Feature.DefaultTitle" value="Funcionalidade"/>
+  <STRING id="AI.GameTask.DefaultPlayTaskName" value="Tocar"/>
+  <STRING id="AI.GameTask.DefaultSupportTaskName" value="Suporte"/>
+  <STRING id="AI.GameUx.DefaultGameDescription" value="Sua descrição para [|ProductName]."/>
+  <STRING id="AI.IniFile.DefaultFileName" value="Novo Arquivo"/>
+  <STRING id="AI.IniFile.DefaultKey" value="Nova Chave"/>
+  <STRING id="AI.IniFile.DefaultSection" value="Nova Seção"/>
+  <STRING id="AI.IniFile.DefaultValue" value="Novo Valor"/>
+  <STRING id="AI.Java.DefaultErrorFile" value="error.log"/>
+  <STRING id="AI.Java.DefaultOutputFile" value="output.log"/>
+  <STRING id="AI.Java.DefaultProductName" value="Seu Produto"/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] não pode ser instalado em sistemas com o Adobe Reader com versão anterior a [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] não pode ser instalado em sistemas com menos cores que [AI_REQUIRED_COLOR_QUALITY] bits."/>
+  <STRING id="AI.LaunchCondition.Description" value="Descrição da Condição de Carregamento"/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] não pode ser instalado em sistemas com Directx de versão inferior a [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] não pode ser instalado em sistemas com Framework .NET com versão anterior a [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] não pode ser instalado em sistemas com Core .NET com versão anterior a [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] não pode ser instalado em sistemas com Internet Explorer com versão anterior a [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] não pode ser instalado em sistemas com Internet Information Services com versão anterior a [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] requer uma conexão Internet ativa para instalação. Favor verificar sua configuração de rede e parâmetros do proxy."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] não pode ser instalado em sistemas com JRE com versão anterior a [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] não pode ser instalado em [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] não pode ser instalado em [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] não pode ser instalado em [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] não pode ser instalado em [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] não pode ser instalado em [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] não pode ser instalado em [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Privileged" value="[ProductName] exige privilégios de administrador para ser instalado."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] não pode ser instalado em sistemas com menos memória física que [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] não pode ser instalado em sistemas com resolução de tela inferior a [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] não pode ser instalado em sistemas rodando em máquinas virtuais."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] não pode ser instalado em sistemas com Windows Installer com versão anterior a [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.MoveFile.DestName" value="SeuArquivo.exe"/>
+  <STRING id="AI.Property.DefaultComments" value="A base dados do instalador contêm a lógica e os dados necessários para instalar o [|ProductName]."/>
+  <STRING id="AI.Property.DefaultManufacturer" value="Sua Companhia"/>
+  <STRING id="AI.Property.DefaultModuleName" value="Seu Módulo"/>
+  <STRING id="AI.Property.DefaultMsmComments" value="A base dados do instalador contêm a lógica e os dados necessários para instalar o &lt;nome do módulo&gt;."/>
+  <STRING id="AI.Property.DefaultProductName" value="Sua Aplicação"/>
+  <STRING id="AI.Property.DefaultValue" value="Seu valor"/>
+  <STRING id="AI.Property.FindExeTitle" value="Selecione o pacote de instalação para [|ProductName]"/>
+  <STRING id="AI.Property.MsmTrialMessageBody" value="Este pacote contém um módulo que foi criado a partir de uma versão experimental do Advanced Installer. Você deve usá-lo apenas para efeitos de avaliação."/>
+  <STRING id="AI.Property.TrialMessageBody" value="Este pacote foi criado a partir de uma versão experimental do Advanced Installer. Você deve usá-lo apenas para efeitos de avaliação."/>
+  <STRING id="AI.Property.TrialMessageTitle" value="Aviso"/>
+  <STRING id="AI.Registry.DefaultKey" value="Nova_Chave"/>
+  <STRING id="AI.Registry.DefaultName" value="Novo Valor"/>
+  <STRING id="AI.RemoveFile.DefaultFileName" value="SeuArquivo.exe"/>
+  <STRING id="AI.RemoveRegistry.DefaultName" value="SeuValor"/>
+  <STRING id="AI.ServiceControl.DefaultName" value="NomeServiço"/>
+  <STRING id="AI.ServiceInstall.DefaultDescription" value="A Descrição do seu Serviço"/>
+  <STRING id="AI.ServiceInstall.DefaultName" value="Seu Serviço"/>
+  <STRING id="AI.SharedFolders.DefaultName" value="Novo compartilhamento"/>
+  <STRING id="AI.Shortcut.DefaultCmdName" value="Atalho para SeuComando"/>
+  <STRING id="AI.Shortcut.DefaultName" value="Atalho para %s"/>
+  <STRING id="AI.Shortcut.DefaultUninstall" value="Desinstalar"/>
+  <STRING id="AI.Verb.DefaultCommand" value="&amp;Abrir"/>
+  <STRING id="AI.XmlFile.DefaultFileName" value="Novo arquivo"/>
+  <!-- Dialog table -->
+  <STRING id="Dialog.AdminBrowseDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.BrowseDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.CancelDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.ErrorDlg" value="Informação sobre o instalador"/>
+  <STRING id="Dialog.ExitDialog" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.FatalError" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.FilesInUse" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.FolderDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.PrepareDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.ProgressDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.ResumeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.UserExit" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[Setup] do [ProductName]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
+  <!-- Control table -->
+  <STRING id="Control.Help.AdminBrowseDlg#NewFolder" value="Criar uma nova pasta|"/>
+  <STRING id="Control.Help.AdminBrowseDlg#Up" value="Subir um nível|"/>
+  <STRING id="Control.Help.BrowseDlg#NewFolder" value="Criar uma nova pasta|"/>
+  <STRING id="Control.Help.BrowseDlg#Up" value="Subir um nível|"/>
+  <STRING id="Control.Help.CancelDlg#Icon" value="Ícone de informação|"/>
+  <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Ícone de Informação|"/>
+  <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
+  <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
+  <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#ChangeButton" value="Modificar instalação|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Remover instalação|"/>
+  <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Reparar instalação|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Instalação completa|"/>
+  <STRING id="Control.Help.SetupTypeDlg#CustomButton" value="Instalação personalizada|"/>
+  <STRING id="Control.Help.SetupTypeDlg#TypicalButton" value="Instalação típica|"/>
+  <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Ícone de exclamação|"/>
+  <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Procurar em:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Description" value="Procure a pasta de destino"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Nome da pasta:"/>
+  <STRING id="Control.Text.AdminBrowseDlg#Title" value="Altere a pasta destino atual"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Por favor, especifique um endereço de rede para a imagem do servidor do produto [ProductName]"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Entre com um novo endereço de rede ou clique Procurar para escolher um."/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Endereço de rede"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#CDKeyLabel" value="&amp;Chave do CD:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Por favor, entre com os dados da sua empresa."/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="Por favor, entre com o &amp;nome da sua organização na caixa abaixo. Este nome será utilizado como nome da empresa padrão para instalações futuras de [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Informações da empresa"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="O [Wizard] vai criar uma imagem do servidor do [ProductName] no endereço de rede especificado. Clique [Text_Next] para continuar ou Cancelar para sair do [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Bem vindo ao [Wizard] do [ProductName]"/>
+  <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Procurar em:"/>
+  <STRING id="Control.Text.BrowseDlg#Description" value="Procure a pasta destino"/>
+  <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.BrowseDlg#PathLabel" value="&amp;Nome da pasta:"/>
+  <STRING id="Control.Text.BrowseDlg#Title" value="Altere a pasta destino atual"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Tem a certeza que deseja cancelar a instalação do [ProductName]?"/>
+  <STRING id="Control.Text.CustomizeDlg#Description" value="Selecione a forma como pretende que as funcionalidades sejam instaladas."/>
+  <STRING id="Control.Text.CustomizeDlg#DiskCost" value="Uso do &amp;Disco"/>
+  <STRING id="Control.Text.CustomizeDlg#ItemDescription" value="Descrição multi-linha do item atualmente selecionado."/>
+  <STRING id="Control.Text.CustomizeDlg#ItemSize" value="Tamanho do item atualmente selecionado."/>
+  <STRING id="Control.Text.CustomizeDlg#Location" value="&lt;Endereço da seleção&gt;"/>
+  <STRING id="Control.Text.CustomizeDlg#LocationLabel" value="Localização:"/>
+  <STRING id="Control.Text.CustomizeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.CustomizeDlg#Text" value="Clique nos ícones da árvore abaixo para alterar a forma da instalação das funcionalidades."/>
+  <STRING id="Control.Text.CustomizeDlg#Title" value="Instalação personalizada"/>
+  <STRING id="Control.Text.CustomizeDlg#Tree" value="Árvore de seleções"/>
+  <STRING id="Control.Text.DiskCostDlg#Description" value="Espaço em disco necessário para a instalação de todas as funcionalidades selecionadas."/>
+  <STRING id="Control.Text.DiskCostDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.DiskCostDlg#Text" value="Os volumes em destaque (se existirem) não têm espaço em disco suficiente para as funcionalidades atualmente escolhidas. Você pode eliminar alguns arquivos dos volumes em destaque, ou instalar menos funcionalidades no(s) disco(s), ou selecionar outro(s) disco(s) destino."/>
+  <STRING id="Control.Text.DiskCostDlg#Title" value="Requisitos de Espaço do Disco"/>
+  <STRING id="Control.Text.DiskCostDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.ErrorDlg#ErrorText" value="Texto de informação"/>
+  <STRING id="Control.Text.ExitDialog#Description" value="Clique no botão Fim para sair do [Wizard]."/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Iniciar o [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="O [Wizard] completou a instalação do [ProductName]"/>
+  <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="Ver o Arquivo Leiame"/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Associar [ProductName] com os tipos de arquivos."/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="O [Wizard] irá registrar o [ProductName] como gerenciador dos seguintes tipos de arquivos: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ExtRegDlg#Title" value="Associações de arquivos"/>
+  <STRING id="Control.Text.FatalError#Description1" value="A instalação do [ProductName] parou prematuramente devido a um erro. O seu sistema não foi modificado. Para instalar este programa mais tarde, por favor reinicie a instalação."/>
+  <STRING id="Control.Text.FatalError#Description2" value="Clique no botão Fim para sair do [Wizard]."/>
+  <STRING id="Control.Text.FatalError#Title" value="O [Wizard] do [ProductName] parou prematuramente"/>
+  <STRING id="Control.Text.FilesInUse#Description" value="Alguns arquivos que necessitam ser atualizados estão sendo utilizados."/>
+  <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FilesInUse#Text" value="As seguintes aplicações estão utilizando arquivos que precisam ser atualizados por esta instalação. Feche estas aplicações e clique em Repetir para continuar a instalação ou em Cancelar para sair."/>
+  <STRING id="Control.Text.FilesInUse#Title" value="Arquivos em uso"/>
+  <STRING id="Control.Text.FolderDlg#Description" value="Esta é a pasta na qual o [ProductName] será instalado."/>
+  <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Pasta:"/>
+  <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.FolderDlg#Text" value="Para instalar nesta pasta, clique [Text_Next]. Para instalar numa pasta diferente, entre com ela abaixo ou clique em &quot;Procurar...&quot;."/>
+  <STRING id="Control.Text.FolderDlg#Title" value="Selecione a pasta de instalação"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula_pt.rtf"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Description" value="Por favor, leia o seguinte acordo de licença cuidadosamente"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.LicenseAgreementDlg#Title" value="Acordo de licença para o usuário final"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeLabel" value="&amp;Modificar"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#ChangeText" value="Permite aos usuários alterar a forma de instalação das funcionalidades."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Description" value="Selecione a operação desejada."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Remover"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Remove o [ProductName] do seu computador."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="&amp;Reparar"/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Repara erros no estado mais recente da instalação - corrige arquivos ausentes ou corruptos, atalhos e entradas de registro."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Modificar, Reparar ou Remover a instalação"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="O [Wizard] irá lhe permitir alterar a forma de instalação das funcionalidades do [ProductName] ou remover o [ProductName] do seu computador. Clique em [Text_Next] para continuar ou Cancelar para sair do [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Bem vindo ao [Wizard] do [ProductName]"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Description" value="O espaço em disco necessário para a instalação excede o espaço em disco disponível."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfDiskDlg#Text" value="Os volumes em destaque não têm espaço em disco suficiente para as funcionalidades atualmente escolhidas. Você pode eliminar alguns arquivos dos volumes em destaque, ou instalar menos funcionalidades no(s) disco(s), ou selecionar outro(s) disco(s) destino."/>
+  <STRING id="Control.Text.OutOfDiskDlg#Title" value="Não existe mais espaço em disco"/>
+  <STRING id="Control.Text.OutOfDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Description" value="O espaço em disco necessário para a instalação excede o espaço em disco disponível."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text" value="Os volumes em destaque não têm espaço em disco suficiente para as funcionalidades atualmente escolhidas. Você pode eliminar alguns arquivos dos volumes em destaque, ou instalar menos funcionalidades no(s) disco(s), ou selecionar outro(s) disco(s) destino."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Text2" value="Como alternativa, você pode escolher desativar a funcionalidade de restauração. Esta funcionalidade restaura o estado inicial do seu computador caso a instalação seja interrompida por algum motivo. Clique Sim se pretende correr o risco de desativar esta funcionalidade."/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Não existe mais espaço em disco"/>
+  <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="O [Wizard] irá instalar o Patch para o [ProductName] no seu computador. Clique em [Text_Next] para continuar ou em Cancelar para sair do Patch [Wizard]"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Bem vindo ao [ProductName] Patch [Wizard]"/>
+  <STRING id="Control.Text.PrepareDlg#Description" value="Por favor, espere enquanto o [Wizard] se prepara para o orientar durante a instalação."/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Bem vindo ao [Wizard] do [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Progresso finalizado"/>
+  <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Estado:"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Por favor, espere enquanto o [Wizard] [Progress2] o [ProductName]. Isto pode demorar vários minutos."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] o [ProductName]"/>
+  <STRING id="Control.Text.ReadmeDlg#Description" value="Por favor, leia o seguinte texto com atenção"/>
+  <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme_pt.rtf"/>
+  <STRING id="Control.Text.ReadmeDlg#Title" value="Arquivo Leia me"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="O [Wizard] vai finalizar a instalação do [ProductName] no seu computador. Clique em Instalar para continuar ou Cancelar para sair do [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Retomando o [Wizard] do [ProductName]"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="&amp;Completo"/>
+  <STRING id="Property.Text_Complete" value="Completo"/>
+  <STRING id="Control.Text.SetupTypeDlg#CompleteText" value="Todas as funcionalidades do programa serão instaladas. (Requer mais espaço em disco)"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomLabel" value="&amp;Personalizada"/>
+  <STRING id="Property.Text_Custom" value="Personalizada"/>
+  <STRING id="Control.Text.SetupTypeDlg#CustomText" value="Permite que os usuários escolham quais funcionalidades serão instaladas e onde as instalar. Recomendado para usuários avançados."/>
+  <STRING id="Control.Text.SetupTypeDlg#Description" value="Escolha o tipo de instalação mais adequado"/>
+  <STRING id="Control.Text.SetupTypeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SetupTypeDlg#Title" value="Escolha o tipo de instalação"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalLabel" value="&amp;Típico"/>
+  <STRING id="Property.Text_Typical" value="Típico"/>
+  <STRING id="Control.Text.SetupTypeDlg#TypicalText" value="Instala as funcionalidades mais comuns do programa. Recomendado para a maioria dos usuários."/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Procurar e atualizar versões antigas do [ProductName]"/>
+  <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="O [Wizard] pode procurar por versões antigas do [ProductName] e removê-las. Você quer remover estas versões?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="O [Wizard] detectou que você escolheu um local de instalação que é utilizado pela versão [AI_Replaced_Versions_List] do [ProductName]. Esta versão deve ser desinstalada. Você que remover também outras versões antigas?"/>
+  <STRING id="Control.Text.UpgradeDlg#Title" value="Atualizar versões antigas"/>
+  <STRING id="Control.Text.UserExit#Description1" value="A instalação do [ProductName] foi interrompida. O seu sistema não foi modificado. Para instalar o programa mais tarde, por favor reinicie a instalação."/>
+  <STRING id="Control.Text.UserExit#Description2" value="Clique no botão Fim para sair do [Wizard]."/>
+  <STRING id="Control.Text.UserExit#Title" value="O [Wizard] do [ProductName] foi interrompido"/>
+  <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Número de série."/>
+  <STRING id="Control.Text.UserRegistrationDlg#Description" value="Por favor, entre com os dados do cliente"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#NameLabel" value="&amp;Usuário:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
+  <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Organização:"/>
+  <STRING id="Control.Text.UserRegistrationDlg#Title" value="Dados de cliente"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="O [Wizard] está pronto para iniciar a instalação [ProductName]"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Text" value="Clique Instalar para iniciar a instalação. Se quiser rever ou alterar os parâmetros da instalação, clique em Voltar. Clique em Cancelar para sair do wizard."/>
+  <STRING id="Control.Text.VerifyReadyDlg#Title" value="Pronto para instalar"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Description" value="Você escolheu remover o programa do seu computador."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Clique em Remover para remover o [ProductName] do seu computador. Se quiser rever ou alterar os parâmetros da instalação, clique em Voltar. Clique em Cancelar para sair do wizard."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Remover o [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="O [Wizard] está pronto para iniciar a reparação do [ProductName]."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Clique em Reparar para reparar a instalação do [ProductName]. Se quiser rever ou alterar os parâmetros da instalação, clique em Voltar. Clique em Cancelar para sair do wizard."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Reparar o [ProductName]"/>
+  <STRING id="Control.Text.WaitForCostingDlg#Text" value="Por favor, aguarde até que o instalador determine os requisitos de espaço em disco."/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="O [Wizard] vai instalar o [ProductName] no seu computador. Clique em [Text_Next] para continuar ou Cancelar para sair do [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Bem vindo ao [Wizard] do [ProductName]"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Description" value="Alguns arquivos que precisam ser atualizados estão em uso no momento"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Logo" value=" Advanced Installer "/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Text" value="As seguintes aplicações estão usando arquivos que precisam ser atualizados por esse configurador"/>
+  <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Arquivos em uso"/>
+  <STRING id="Control.Text.ShortcutsDlg#Description" value="Cria atalhos para aplicações"/>
+  <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Área de Ttrabalho"/>
+  <STRING id="Control.Text.ShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Barra de inicialização rápida"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Criar atalhos para [ProductName] nos seguintes locais:"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Pasta Programas no menu Iniciar"/>
+  <STRING id="Control.Text.ShortcutsDlg#StartupShorcutsCheckBox" value="Pasta Iniciar"/>
+  <STRING id="Control.Text.ShortcutsDlg#Title" value="Configurar atalhos"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#DatabaseLabel" value="Banco de dados:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Description" value="Configurando Conexão SQL..."/>
+  <STRING id="Control.Text.SQLConnectionDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#OdbcResourceLabel" value="Recurso ODBC:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PasswordLabel" value="Senha:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortEdit" value="{5}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#PortLabel" value="Porta:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#ServerLabel" value="Servidor:"/>
+  <STRING id="Control.Text.SQLConnectionDlg#Title" value="Banco de dados SQL"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameEdit" value="{255}"/>
+  <STRING id="Control.Text.SQLConnectionDlg#UsernameLabel" value="Nome de usuário:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="Esta é a pasta onde os atalhos para [ProductName] serão instalados."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="Para instalar em uma subpasta, acrescente o seu nome, separado por uma &quot;\&quot;."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Pasta de Atalhos do menu Iniciar:"/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="Para instalar atalhos nesta pasta, &quot;[Text_Next]&quot;. Para instalar em uma pasta diferente, digite abaixo ou selecione uma da caixa de seleção."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Selecione a pasta dos atalhos do menu Iniciar"/>
+  <STRING id="Control.Text.TemplateDlg#Description" value="Nova descrição de caixa de diálogo..."/>
+  <STRING id="Control.Text.TemplateDlg#Logo" value="Advanced Installer"/>
+  <STRING id="Control.Text.TemplateDlg#Title" value="Nova caixa de diálogo"/>
+  <STRING id="Control.Text.TemplateSpawnDlg#Text" value="Nova caixa de diálogo criada(Esperar)"/>
+  <STRING id="Control.Text.PrerequisitesDlg#Description" value="Selecione os pré-requisitos que serão instalados."/>
+  <STRING id="Control.Text.PrerequisitesDlg#Title" value="Pré-requisitos "/>
+ <!-- Graphite Theme strings -->
+  <STRING id="Graphite.Control.Text.Dlg#CollectingLabel" value="Coletando informação"/>
+  <STRING id="Graphite.Control.Text.Dlg#PreparingLabel" value="Preparando instalação"/>
+  <STRING id="Graphite.Control.Text.Dlg#InstallingLabel" value="Instalando"/>
+  <STRING id="Graphite.Control.Text.Dlg#FinalizingLabel" value="Finalizando instalação"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Description" value="O [Wizard] vai instalar [ProductName] no seu computador.  Clique &quot;[Text_Next]&quot; para continuar."/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Title" value="Bem vindo à configuração do [ProductName] Setup"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Intro" value="Bem vindo à configuração do assistente do [ProductName] Setup."/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Title" value="Preparando a configuração do [ProductName]"/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Description" value="Espere até que o [Wizard] se prepare para orientá-lo durante a instalação."/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Title" value="Informação ReadMe"/>
+  <STRING id="Graphite.Control.Text.ReadmeDlg#Description" value="Leia cuidadosamente o texto abaixo."/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Description" value="Leia cuidadosamente esse contrato de licença."/>
+  <STRING id="Graphite.Control.Text.LicenseAgreementDlg#Title" value="Contrato de licença de usuário final"/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Description" value="Selecione os pré-requisitos que serão instalados."/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#Title" value="Pré-requisitos "/>
+  <STRING id="Graphite.Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}Nome,Exigido,Encontrado,Ação"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Title" value="Pasta de instalação"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Intro" value="Essa é a pasta onde o [ProductName] será instalado."/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Description" value="Para instalar nessa pasta, clique &quot;[Text_Next]&quot;. Para instalar numa pasta diferente, digite a pasta abaixo ou clique em &quot;Buscar&quot;."/>
+  <STRING id="Graphite.Control.Text.FolderDlg#SpaceRequiredLabel" value="Espaço exigido:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#AvailableSpaceLabel" value="Espaço disponível em disco:"/>
+  <STRING id="Graphite.Control.Text.FolderDlg#RemainingSpaceLabel" value="Espaço disponível restante:"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Title" value="Pronto para instalar"/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Intro" value="O [Wizard] está pronto para começar a instalação do [ProductName]."/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Description" value="Clique em  &quot;Instalar&quot; para iniciar a instalação. Se você quiser rever ou alterar as configurações de instalação, clique em  &quot;Voltar&quot;.  Clique em  &quot;Cancelar&quot; para sair do assistente."/>
+  <STRING id="Graphite.Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Title" value="[ProductName] Configuração completada"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Intro" value="[ProductName] instalado com sucesso."/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Title" value="Tipo de configuração"/>
+  <STRING id="Graphite.Control.Text.SetupTypeDlg#Description" value="Escolha o tipo de configuração que melhor atende às suas necessidades."/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Complete" value="Completado"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Typical" value="Típico"/>
+  <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Custom" value="Customizado"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Title" value="Configuração customizada"/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#Description" value="Selecione as funcionalidades do programa que você quer instalar."/>
+  <STRING id="Graphite.Control.Text.CustomizeDlg#SpaceRequiredLabel" value="Espaço exigido para os componentes selecionados:"/>
+  <STRING id="Graphite.Control.Text.UserExit#Title" value="Configuração do [ProductName] interrompida"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description1" value="Configuração do [ProductName] interrompida.  Seu sistema não foi modificado.  Para instalar esse programa mais tarde, execute a instalação novamente."/>
+  <STRING id="Graphite.Control.Text.UserExit#Description2" value="Clique no botão quot;Encerrar&quot; para sair do [Wizard]."/>
+  <STRING id="Graphite.Control.Text.FatalError#Title" value="O [Wizard] do [ProductName] foi encerrado prematuramente"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description1" value="A configuração do [ProductName] foi encerrada prematuramente por causa de um erro.  Seu sistema não foi modificado.  Para instalar esse programa mais tarde, execute a instalação novamente."/>
+  <STRING id="Graphite.Control.Text.FatalError#Description2" value="Clique no botão &quot;Encerrar&quot; para sair do [Wizard]."/>
+  <STRING id="Graphite.Control.Text.MaintenanceWelcomeDlg#Description" value="O [Wizard] vai permitir que você mude a forma como as funcionalidades do [ProductName] serão instaladas no seu computador ou até Removerr o [ProductName] do computador.  Clique em  &quot;[Text_Next]&quot; para continuar ou &quot;Cancelar&quot; para sair do [Wizard]."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#ChangeText" value="Mude o estado atual da instalação – adicione ou remova as funcionalidades do programa."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RemoverText" value="Remover o [ProductName] do seu computador."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#CorrigirText" value="Corrige erros do estado de instalação mais recente – conserta arquivos corruptos ou ausentes, atalhos e entradas de registro."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Description" value="Escolha a operação de manutenção que você quer desempenhar e clique em  &quot;[Text_Next]&quot;."/>
+  <STRING id="Graphite.MaintenanceTypeDlg#Title" value="Bem vindo à manutenção do [ProductName]"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Intro" value="Bem vindo ao Assistente para manutenção do [ProductName]."/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Modify" value="Modificar"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Repair" value="Corrigir"/>
+  <STRING id="RadioButton.Text.MaintenanceTypeOption#Remove" value="Remover"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Description" value="Clique em  &quot;Remover&quot; para remover o [ProductName] do seu computador.  Se você quiser rever ou alterar as configurações da instalação, clique em  &quot;Voltar&quot;.  Clique em  &quot;Cancelar&quot; para sair do assistente."/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Title" value="Pronto para remover"/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Intro" value="O [Wizard] está pronto para começar a remoção do [ProductName]."/>
+  <STRING id="Graphite.Control.Text.VerifyRepairlg#Description" value="Clique em  &quot;Corrigir&quot; para corrigir a instalação do  [ProductName].  Se você quiser rever ou alterar as configurações da instalação, clique em  &quot;Voltar&quot;.  Clique em  &quot;Cancelar&quot; para sair do assitente."/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Title" value="Pronto para corrigir"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Intro" value="O [Wizard] está pronto para iniciar a correção do [ProductName]."/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Title" value="Bem vindo à configuração do patch do [ProductName]"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Intro" value="Bem vindo ao Assistente do Patch Setup do [ProductName]."/>
+  <STRING id="Graphite.Control.Text.ResumeDlg#Title" value="Retomando a configuração do [ProductName]"/>
+  <STRING id="Graphite.Control.Text.MsiRMFilesInUse#Description" value="Alguns arquivos que precisam ser atualizados estão atualmente em uso."/>
+  <STRING id="Graphite.Control.Text.AdminInstallPointDlg#Title" value="Localização de rede da imagem do servidor do [ProductName]."/>
+  <STRING id="Graphite.Control.Text.SQLConnectionDlg#Title" value="Configure a base de dados SQL"/>
+  <STRING id="Graphite.Control.Text.TomcatServerDlg#Title" value="Configure os atributos do servidor Tomcat"/>
+  <!-- ActionText table -->
+  <STRING id="ActionText.Description.Advertise" value="Mostrar a aplicação"/>
+  <STRING id="ActionText.Description.AI_InstallPrerequisite" value="Instalando software de pré-requisito"/>
+  <STRING id="ActionText.Description.AllocateRegistrySpace" value="A alocar espaço no registro"/>
+  <STRING id="ActionText.Description.AppSearch" value="Procurando aplicações instaladas"/>
+  <STRING id="ActionText.Description.BindImage" value="Ligando os executáveis"/>
+  <STRING id="ActionText.Description.CCPSearch" value="Procurando produtos necessários"/>
+  <STRING id="ActionText.Description.CostFinalize" value="Calculando o espaço necessário"/>
+  <STRING id="ActionText.Description.CostInitialize" value="Calculando o espaço necessário"/>
+  <STRING id="ActionText.Description.CreateFolders" value="Criando novas pastas"/>
+  <STRING id="ActionText.Description.CreateShortcuts" value="Criando atalhos"/>
+  <STRING id="ActionText.Description.DeleteServices" value="Eliminando serviços"/>
+  <STRING id="ActionText.Description.DuplicateFiles" value="Criando arquivos duplicados"/>
+  <STRING id="ActionText.Description.FileCost" value="Calculando o espaço necessário"/>
+  <STRING id="ActionText.Description.FindRelatedProducts" value="Procurando aplicações relacionadas"/>
+  <STRING id="ActionText.Description.GenerateScript" value="Gerando operações de script para a ação"/>
+  <STRING id="ActionText.Description.InstallAdminPackage" value="Copiando arquivos de instalação da rede"/>
+  <STRING id="ActionText.Description.InstallFiles" value="Copiando arquivos novos"/>
+  <STRING id="ActionText.Description.InstallODBC" value="Instalando componentes ODBC"/>
+  <STRING id="ActionText.Description.InstallServices" value="Instalando novos serviços"/>
+  <STRING id="ActionText.Description.InstallSFPCatalogFile" value="Instalando catálogo do sistema"/>
+  <STRING id="ActionText.Description.InstallValidate" value="Validando a instalação"/>
+  <STRING id="ActionText.Description.LaunchConditions" value="Avaliando condições de início"/>
+  <STRING id="ActionText.Description.MigrateFeatureStates" value="Tranferindo os estados das funcionalidades das aplicações relacionadas"/>
+  <STRING id="ActionText.Description.MoveFiles" value="Movendo arquivos"/>
+  <STRING id="ActionText.Description.MsiPublishAssemblies" value="Publicando informações de montagem"/>
+  <STRING id="ActionText.Description.MsiUnpublishAssemblies" value="Não publicar informação de montagem"/>
+  <STRING id="ActionText.Description.PatchFiles" value="Corrigindo arquivos"/>
+  <STRING id="ActionText.Description.ProcessComponents" value="Atualizando o registro de componentes"/>
+  <STRING id="ActionText.Description.PublishComponents" value="Publicando componentes qualificados"/>
+  <STRING id="ActionText.Description.PublishFeatures" value="Publicando funcionalidades do produto"/>
+  <STRING id="ActionText.Description.PublishProduct" value="Publicando as informações do produto"/>
+  <STRING id="ActionText.Description.RegisterClassInfo" value="Registrando servidores de classe"/>
+  <STRING id="ActionText.Description.RegisterComPlus" value="Registrando aplicações e componentes COM+"/>
+  <STRING id="ActionText.Description.RegisterExtensionInfo" value="Registrando servidores de extensão"/>
+  <STRING id="ActionText.Description.RegisterFonts" value="Registrando fontes"/>
+  <STRING id="ActionText.Description.RegisterMIMEInfo" value="Registrando as informações MIME"/>
+  <STRING id="ActionText.Description.RegisterProduct" value="Registrando o produto"/>
+  <STRING id="ActionText.Description.RegisterProgIdInfo" value="Registrando identificadores do programa"/>
+  <STRING id="ActionText.Description.RegisterTypeLibraries" value="Registrando bibliotecas de tipos"/>
+  <STRING id="ActionText.Description.RegisterUser" value="Registrando usuário"/>
+  <STRING id="ActionText.Description.RemoveDuplicateFiles" value="Removendo arquivos duplicados"/>
+  <STRING id="ActionText.Description.RemoveEnvironmentStrings" value="Atualizando variáveis de ambiente"/>
+  <STRING id="ActionText.Description.RemoveExistingProducts" value="Removendo aplicações"/>
+  <STRING id="ActionText.Description.RemoveFiles" value="Removendo arquivos"/>
+  <STRING id="ActionText.Description.RemoveFolders" value="Removendo pastas"/>
+  <STRING id="ActionText.Description.RemoveIniValues" value="Removendo entradas de arquivos INI"/>
+  <STRING id="ActionText.Description.RemoveODBC" value="Removendo componentes ODBC"/>
+  <STRING id="ActionText.Description.RemoveRegistryValues" value="Removendo valores do registro do sistema"/>
+  <STRING id="ActionText.Description.RemoveShortcuts" value="Removendo atalhos"/>
+  <STRING id="ActionText.Description.RMCCPSearch" value="Procurando produtos qualificados"/>
+  <STRING id="ActionText.Description.Rollback" value="Ação de restauração"/>
+  <STRING id="ActionText.Description.RollbackCleanup" value="Removendo arquivos de backup"/>
+  <STRING id="ActionText.Description.SelfRegModules" value="Registrando módulos"/>
+  <STRING id="ActionText.Description.SelfUnregModules" value="Removendo módulos do registro"/>
+  <STRING id="ActionText.Description.SetODBCFolders" value="Inicializando diretórios ODBC"/>
+  <STRING id="ActionText.Description.StartServices" value="Inicializando serviços"/>
+  <STRING id="ActionText.Description.StopServices" value="Parando serviços"/>
+  <STRING id="ActionText.Description.UnmoveFiles" value="Removendo arquivos movidos"/>
+  <STRING id="ActionText.Description.UnpublishComponents" value="Removendo a publicação de componentes qualificados"/>
+  <STRING id="ActionText.Description.UnpublishFeatures" value="Removendo a publicação das funcionalidades do produto"/>
+  <STRING id="ActionText.Description.UnpublishProduct" value="Removendo a publicação das informações do produto"/>
+  <STRING id="ActionText.Description.UnregisterClassInfo" value="Removendo do registro os servidores de classe"/>
+  <STRING id="ActionText.Description.UnregisterComPlus" value="Removendo aplicações e componentes COM+"/>
+  <STRING id="ActionText.Description.UnregisterExtensionInfo" value="Removendo do registro servidores de extensão"/>
+  <STRING id="ActionText.Description.UnregisterFonts" value="Removendo do registro as fontes"/>
+  <STRING id="ActionText.Description.UnregisterMIMEInfo" value="Removendo do registro as informações MIME"/>
+  <STRING id="ActionText.Description.UnregisterProgIdInfo" value="Removendo do registro identificadores do programa"/>
+  <STRING id="ActionText.Description.UnregisterTypeLibraries" value="Removendo do registro bibliotecas de tipos"/>
+  <STRING id="ActionText.Description.WriteEnvironmentStrings" value="Atualizando as variáveis de ambiente"/>
+  <STRING id="ActionText.Description.WriteIniValues" value="Escrevendo os valores dos arquivos INI"/>
+  <STRING id="ActionText.Description.WriteRegistryValues" value="Escrevendo os valores do registro do sistema"/>
+  <STRING id="ActionText.Template.AllocateRegistrySpace" value="Espaço disponível: [1]"/>
+  <STRING id="ActionText.Template.AppSearch" value="Propriedade: [1], assinatura: [2]"/>
+  <STRING id="ActionText.Template.BindImage" value="Arquivo: [1]"/>
+  <STRING id="ActionText.Template.CreateFolders" value="Pasta: [1]"/>
+  <STRING id="ActionText.Template.CreateShortcuts" value="Atalho: [1]"/>
+  <STRING id="ActionText.Template.DeleteServices" value="Serviço: [1]"/>
+  <STRING id="ActionText.Template.DuplicateFiles" value="Arquivo: [1], Diretório: [9], Tamanho: [6]"/>
+  <STRING id="ActionText.Template.FindRelatedProducts" value="Aplicação encontrada: [1]"/>
+  <STRING id="ActionText.Template.InstallAdminPackage" value="Arquivo: [1], Diretório: [9], Tamanho: [6]"/>
+  <STRING id="ActionText.Template.InstallFiles" value="Arquivo: [1], Diretório: [9], Tamanho: [6]"/>
+  <STRING id="ActionText.Template.InstallServices" value="Serviço: [2]"/>
+  <STRING id="ActionText.Template.InstallSFPCatalogFile" value="Arquivo: [1],  Dependências: [2]"/>
+  <STRING id="ActionText.Template.MigrateFeatureStates" value="Aplicação: [1]"/>
+  <STRING id="ActionText.Template.MoveFiles" value="Arquivo: [1], Diretório: [9], Tamanho: [6]"/>
+  <STRING id="ActionText.Template.MsiPublishAssemblies" value="Contexto da aplicação:[1], Nome de montagem:[2]"/>
+  <STRING id="ActionText.Template.MsiUnpublishAssemblies" value="Contexto da aplicação:[1], Nome de montagem:[2]"/>
+  <STRING id="ActionText.Template.PatchFiles" value="Arquivo: [1], Diretório: [9], Tamanho: [6]"/>
+  <STRING id="ActionText.Template.PublishComponents" value="Id. do componente: [1], Qualificador: [2]"/>
+  <STRING id="ActionText.Template.PublishFeatures" value="Funcionalidade: [1]"/>
+  <STRING id="ActionText.Template.RegisterClassInfo" value="Id. de classe: [1]"/>
+  <STRING id="ActionText.Template.RegisterComPlus" value="IdApl: [1]{{, Tipo de apl.: [2], Usuários: [3], RSN: [4]}}"/>
+  <STRING id="ActionText.Template.RegisterExtensionInfo" value="Extensão: [1]"/>
+  <STRING id="ActionText.Template.RegisterFonts" value="Fonte: [1]"/>
+  <STRING id="ActionText.Template.RegisterMIMEInfo" value="Tipo de conteúdo MIME: [1], Extensão: [2]"/>
+  <STRING id="ActionText.Template.RegisterProgIdInfo" value="IdProg: [1]"/>
+  <STRING id="ActionText.Template.RegisterTypeLibraries" value="IdBib: [1]"/>
+  <STRING id="ActionText.Template.RemoveDuplicateFiles" value="Arquivo: [1], Diretório: [9]"/>
+  <STRING id="ActionText.Template.RemoveEnvironmentStrings" value="Nome: [1], Valor: [2], Ação [3]"/>
+  <STRING id="ActionText.Template.RemoveExistingProducts" value="Aplicação: [1], Linha de comando: [2]"/>
+  <STRING id="ActionText.Template.RemoveFiles" value="Arquivo: [1], Diretório: [9]"/>
+  <STRING id="ActionText.Template.RemoveFolders" value="Pasta: [1]"/>
+  <STRING id="ActionText.Template.RemoveIniValues" value="Arquivo: [1], Seção: [2], Chave: [3], Valor: [4]"/>
+  <STRING id="ActionText.Template.RemoveRegistryValues" value="Chave: [1], Nome: [2]"/>
+  <STRING id="ActionText.Template.RemoveShortcuts" value="Atalho: [1]"/>
+  <STRING id="ActionText.Template.RollbackCleanup" value="Arquivo: [1]"/>
+  <STRING id="ActionText.Template.SelfRegModules" value="Arquivo: [1], Pasta: [2]"/>
+  <STRING id="ActionText.Template.SelfUnregModules" value="Arquivo: [1], Pasta: [2]"/>
+  <STRING id="ActionText.Template.StartServices" value="Serviço: [1]"/>
+  <STRING id="ActionText.Template.StopServices" value="Serviço: [1]"/>
+  <STRING id="ActionText.Template.UnmoveFiles" value="Arquivo: [1], Diretório: [9]"/>
+  <STRING id="ActionText.Template.UnpublishComponents" value="Id. do componente: [1], Qualificador: [2]"/>
+  <STRING id="ActionText.Template.UnpublishFeatures" value="Funcionalidade: [1]"/>
+  <STRING id="ActionText.Template.UnregisterClassInfo" value="Id. de classe: [1]"/>
+  <STRING id="ActionText.Template.UnregisterComPlus" value="IdApl: [1]{{, Tipo de apl.: [2]}}"/>
+  <STRING id="ActionText.Template.UnregisterExtensionInfo" value="Extensão: [1]"/>
+  <STRING id="ActionText.Template.UnregisterFonts" value="Fonte: [1]"/>
+  <STRING id="ActionText.Template.UnregisterMIMEInfo" value="Tipo de conteúdo MIME: [1], Extensão: [2]"/>
+  <STRING id="ActionText.Template.UnregisterProgIdInfo" value="IdProg: [1]"/>
+  <STRING id="ActionText.Template.UnregisterTypeLibraries" value="IdBib: [1]"/>
+  <STRING id="ActionText.Template.WriteEnvironmentStrings" value="Nome: [1], Valor: [2], Ação [3]"/>
+  <STRING id="ActionText.Template.WriteIniValues" value="Arquivo: [1], Seção: [2], Chave: [3], Valor: [4]"/>
+  <STRING id="ActionText.Template.WriteRegistryValues" value="Chave: [1], Nome: [2], Valor: [3]"/>
+  <STRING id="ActionText.Description.AI_CreateAccount" value="Criando conta de usuário no computador local"/>
+  <STRING id="ActionText.Description.AI_CreateGroup" value="Criando grupo de usuários no computador local"/>
+  <STRING id="ActionText.Description.AI_DeleteLzma" value="Eliminando arquivos extraídos"/>
+  <STRING id="ActionText.Description.AI_ExtractLzma" value="Extraindo arquivos"/>
+  <STRING id="ActionText.Description.AI_FwConfig" value="Configurando o Firewall do Windows"/>
+  <STRING id="ActionText.Description.AI_FwInstall" value="Criando ações para configurar o Firewall do Windows"/>
+  <STRING id="ActionText.Description.AI_FwRemove" value="Configurando o Firewall do Windows"/>
+  <STRING id="ActionText.Description.AI_FwRollback" value="Desfazendo configurações no Firewall do Windows"/>
+  <STRING id="ActionText.Description.AI_FwUninstall" value="Criando ações para configurar o Firewall do Windows"/>
+  <STRING id="ActionText.Description.AI_GxConfig" value="Configurando Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxInstall" value="Criando ações para configurar Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxRemove" value="Configurando Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxRollback" value="Desfazendo configurações no Games Explorer"/>
+  <STRING id="ActionText.Description.AI_GxUninstall" value="Criando ações para configurar Games Explorer"/>
+  <STRING id="ActionText.Description.AI_IIsConfig" value="Criando websites e diretórios virtuais do IIS"/>
+  <STRING id="ActionText.Description.AI_IIsInstall" value="Criando ações para configurar o Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_IIsRemove" value="Removendo websites e diretórios virtuais do IIS"/>
+  <STRING id="ActionText.Description.AI_IIsRollback" value="Desfazendo configurações no IIS"/>
+  <STRING id="ActionText.Description.AI_IIsUninstall" value="Criando ações para configurar Internet Information Services"/>
+  <STRING id="ActionText.Description.AI_ProcessAccounts" value="Criando ações para configurar contas de usuários no computador local"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value=""/>
+  <STRING id="ActionText.Description.AI_ProcessGroups" value="Criando ações para criar grupos de usuários no computador local"/>
+  <STRING id="ActionText.Description.AI_ProcessTasks" value="Criando ações para agendar tarefas no computador local:"/>
+  <STRING id="ActionText.Description.AI_RemoveAccount" value="Removendo conta de usuário do computador local"/>
+  <STRING id="ActionText.Description.AI_RemoveGroup" value="Removendo grupo de usuários do computador local"/>
+  <STRING id="ActionText.Description.AI_RemoveSHFolders" value="Removendo pastas compartilhadas do computador local"/>
+  <STRING id="ActionText.Description.AI_RemoveTasks" value="Removendo tarefa agendada do computador local"/>
+  <STRING id="ActionText.Description.AI_RollbackAccount" value="Desfazendo a criação de contas de usuário no computador local"/>
+  <STRING id="ActionText.Description.AI_RollbackGroup" value="Desfazendo a criação de grupos de usuários no computador local"/>
+  <STRING id="ActionText.Description.AI_RollbackSHFolders" value="Desfazendo as pastas compartilhadas no computador local"/>
+  <STRING id="ActionText.Description.AI_RollbackTasks" value="Desfazendo a tarefa agendada no computador local"/>
+  <STRING id="ActionText.Description.AI_ScheduleTasks" value="Agendando tarefa no computador local"/>
+  <STRING id="ActionText.Description.AI_ShareFolders" value="Compartilhando pasta no computador local"/>
+  <STRING id="ActionText.Description.AI_SqlConfig" value="Executando scripts de SQL de instalação"/>
+  <STRING id="ActionText.Description.AI_SqlInstall" value="Criando ações para configurar bancos de dados para execução de scripts de SQL de instalação"/>
+  <STRING id="ActionText.Description.AI_SqlMaint" value="Executando scripts de manutenção de SQL"/>
+  <STRING id="ActionText.Description.AI_SqlRemove" value="Executando scripts de desinstalação de SQL"/>
+  <STRING id="ActionText.Description.AI_SqlRollback" value="Executando scripts de volta de SQL"/>
+  <STRING id="ActionText.Description.AI_SqlUninstall" value="Criando ações para configurar bancos de dados para execução de scripts de SQL de desinstalação"/>
+  <STRING id="ActionText.Description.AI_UninstallAccounts" value="Criando ações para remover contas de usuários no computador local"/>
+  <STRING id="ActionText.Description.AI_UninstallGroups" value="Criando ações para remover grupos de usuários do computador local"/>
+  <STRING id="ActionText.Description.AI_UninstallSHFolders" value="Criando ações para remover o compartilhamento de pastas do computador local"/>
+  <STRING id="ActionText.Description.AI_UninstallTasks" value="Criando ações para remover tarefas agendadas do computador local"/>
+  <STRING id="ActionText.Description.AI_XmlConfig" value="Executando configurações de arquivos XML"/>
+  <STRING id="ActionText.Description.AI_XmlInstall" value="Criando ações para configurar arquivos XML"/>
+  <STRING id="ActionText.Description.AI_XmlRemove" value="Executando configurações de arquivos XML"/>
+  <STRING id="ActionText.Description.AI_XmlRollback" value="Desfazendo configurações de arquivos XML"/>
+  <STRING id="ActionText.Description.AI_XmlUninstall" value="Criando ações para configurar arquivos XML"/>
+  <STRING id="ActionText.Template.AI_CreateAccount" value="Conta: [1]"/>
+  <STRING id="ActionText.Template.AI_CreateGroup" value="Conta: [1]"/>
+  <STRING id="ActionText.Template.AI_FwConfig" value="Configurando regra do Firewall do Windows: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRemove" value="Configurando regra do Firewall do Windows: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_FwRollback" value="Desfazendo configurações do Firewall do Windows"/>
+  <STRING id="ActionText.Template.AI_GxConfig" value="Configurando game: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRemove" value="Removendo game: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_GxRollback" value="Desfazendo configurações do Games Explorer"/>
+  <STRING id="ActionText.Template.AI_IIsConfig" value="Instalando &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRemove" value="Removendo &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_IIsRollback" value="Restaurando a configuração da metabase"/>
+  <STRING id="ActionText.Template.AI_ProcessAccounts" value="Conta: [1], Atributos: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessFolders" value="Pasta: [1], Compartilhamento: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessGroups" value="Conta: [1], Atributos: [2]"/>
+  <STRING id="ActionText.Template.AI_ProcessTasks" value="Nome da tarefa: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveAccount" value="Conta: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveGroup" value="Conta: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveSHFolders" value="Compartilhamento: [1]"/>
+  <STRING id="ActionText.Template.AI_RemoveTasks" value="Nome da tarefa: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackAccount" value="Conta: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackGroup" value="Conta: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackSHFolders" value="Nome do compartilhamento: [1]"/>
+  <STRING id="ActionText.Template.AI_RollbackTasks" value="Nome da tarefa: [1]"/>
+  <STRING id="ActionText.Template.AI_ScheduleTasks" value="Nome da tarefa: [1]"/>
+  <STRING id="ActionText.Template.AI_ShareFolders" value="Pasta: [1]"/>
+  <STRING id="ActionText.Template.AI_SqlConfig" value="Conexão: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlMaint" value="Conexão: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRemove" value="Conexão: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_SqlRollback" value="Conexão: [1]  Script: [2]"/>
+  <STRING id="ActionText.Template.AI_UninstallAccounts" value="Conta: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallGroups" value="Conta: [1]"/>
+  <STRING id="ActionText.Template.AI_UninstallSHFolders" value="Compartilhamento: [1]"/>
+  <STRING id="ActionText.Template.AI_XmlConfig" value="Configurando arquivo XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRemove" value="Configurando arquivo XML: &quot;[1]&quot;"/>
+  <STRING id="ActionText.Template.AI_XmlRollback" value="Desfazendo configurações no arquivo XML"/>
+  <STRING id="ActionText.Description.AI_ProcessFolders" value="Gerando as ações para compartilhar pastas no computador local:"/>
+  <!-- Error table -->
+  <STRING id="Error.0" value="{{Erro fatal: }}"/>
+  <STRING id="Error.1" value="{{Erro [1]. }}"/>
+  <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
+  <STRING id="Error.11" value="Tipo de mensagem: [1], argumento: [2]"/>
+  <STRING id="Error.1101" value="Erro a ler o arquivo [2]. {{ Erro do sistema [3].}} Confirme se o arquivo existe e se você tem permissão para acessá-lo."/>
+  <STRING id="Error.12" value="=== Registo log iniciado: [Date]  [Time] ==="/>
+  <STRING id="Error.13" value="=== Registo log parado: [Data]  [Time] ==="/>
+  <STRING id="Error.1301" value="Não é possível criar o arquivo &apos;[2]&apos;. Já existe um diretório com esse nome. Cancele a instalação e tente instalar em outro diretório."/>
+  <STRING id="Error.1302" value="Insira o disco [2]."/>
+  <STRING id="Error.1303" value="O instalador não tem permissões para acessar este directório: [2]. A instalação não pode continuar. Inicie a sessão como administrador ou entre em contato com o administrador do sistema."/>
+  <STRING id="Error.1304" value="Erro ao escrever o arquivo: [2]. Verifique se o arquivo existe e se você tem permissão de escrita sobre ele."/>
+  <STRING id="Error.1305" value="Erro ao ler o arquivo: [2]. {{ Erro do sistema [3].}} Verifique se o arquivo existe e se você tem permissões de escrita sobre ele."/>
+  <STRING id="Error.1306" value="Outra aplicação tem acesso exclusivo ao arquivo &apos;[2]&apos;. Feche todas as aplicações e clique em Repetir."/>
+  <STRING id="Error.1307" value="Não existe espaço suficiente para instalar o arquivo: [2]. Libere espaço no disco e clique em Repetir, ou clique em Cancelar para sair."/>
+  <STRING id="Error.1308" value="Não foi possível encontrar o ficheiro de origem [2]. Verifique se o arquivo existe e se você tem permissões para acessá-lo."/>
+  <STRING id="Error.1309" value="Erro ao ler o arquivo: [3]. {{ Erro do sistema [2].}} Verifique se o arquivo existe e se você tem permissões para acessá-lo."/>
+  <STRING id="Error.1310" value="Erro ao escrever no arquivo: [3]. {{ Erro do sistema [2].}} Verifique se você tem acesso a esse diretório."/>
+  <STRING id="Error.1311" value="Não foi encontrado o arquivo de origem {{(.CAB)}} [2]. Verifique se o arquivo existe e se você tem permissões para acessá-lo."/>
+  <STRING id="Error.1312" value="Não é possível criar o diretório &apos;[2]&apos;. Já existe um arquivo com esse nome. Por favor, renomeie ou apague o arquivo e clique em Repetir, ou clique em Cancelar para sair."/>
+  <STRING id="Error.1313" value="O volume [2] não está disponível de momento. Por favor, selecione outro."/>
+  <STRING id="Error.1314" value="O endereço especificado, &apos;[2]&apos;, não está disponível."/>
+  <STRING id="Error.1315" value="Não foi possível escrever na pasta especificada, [2]."/>
+  <STRING id="Error.1316" value="Ocorreu um erro de rede ao tentar ler o arquivo [2]."/>
+  <STRING id="Error.1317" value="Ocorreu um erro ao tentar criar o diretório [2]."/>
+  <STRING id="Error.1318" value="Ocorreu um erro de rede ao tentar criar o diretório [2]."/>
+  <STRING id="Error.1319" value="Ocorreu um erro de rede ao tentar abrir o arquivo .CAB de origem [2]."/>
+  <STRING id="Error.1320" value="O endereço especificado [2] é muito longo"/>
+  <STRING id="Error.1321" value="O instalador não tem privilégios suficientes para modificar o arquivo [2]."/>
+  <STRING id="Error.1322" value="Parte do endereço &apos;[2]&apos; não é válido. Ou está vazio ou excede o tamanho limite permitido pelo sistema."/>
+  <STRING id="Error.1323" value="O endereço &apos;[2]&apos; contém palavras que não são válidas em endereços."/>
+  <STRING id="Error.1324" value="O endereço &apos;[2]&apos; contem caracteres inválidos."/>
+  <STRING id="Error.1325" value="&apos;[2]&apos; não é um nome de arquivo curto válido."/>
+  <STRING id="Error.1326" value="Erro ao obter a segurança do arquivo [3]. GetLastError: [2]."/>
+  <STRING id="Error.1327" value="Unidade inválida: [2]"/>
+  <STRING id="Error.1328" value="Erro a corrigir o arquivo [2]. Provavelmente foi atualizado por outros meios e não é possível corrigir o arquivo a esta altura. Para mais informações entre em contato com o suporte técnico.  {{Erro do sistema: [3]}}"/>
+  <STRING id="Error.1329" value="Não foi possível instalar um arquivo necessário porque o arquivo .CAB não está assinado digitalmente. Isto pode significar que o arquivo .CAB está corrompido."/>
+  <STRING id="Error.1330" value="Não foi possível instalar um arquivo necessário porque o arquivo .CAB tem uma assinatura digital inválida. Isto pode significar que o arquivo .CAB está corrompido.{{  Erro [3] devolvido por WinVerifyTrust.}}"/>
+  <STRING id="Error.1331" value="Não foi possível copiar o arquivo [2] corretamente: erro CRC."/>
+  <STRING id="Error.1332" value="Não foi possível mover o arquivo [2] corretamente: erro CRC."/>
+  <STRING id="Error.1333" value="Não foi possível reparar o arquivo [2] corretamente: erro CRC."/>
+  <STRING id="Error.1334" value="O arquivo [2] não pode ser instalado porque não foi possível encontra-lo no arquivo .CAB [3]. Isto poderá indicar um erro de rede, um erro a ler do CD-ROM ou um erro deste pacote."/>
+  <STRING id="Error.1335" value="O arquivo .CAB [2] necessário para esta instalação está corrompido e não pode ser utilizado. Isto poderá indicar um erro de rede, um erro a ler do CD-ROM ou um erro deste pacote."/>
+  <STRING id="Error.1336" value="Ocorreu um erro ao criar um arquivo temporário que é necessário para completar a instalação.{{  Pasta: [3]. Código do erro do sistema: [2]}}"/>
+  <STRING id="Error.14" value="Início da ação às [Time]: [1]."/>
+  <STRING id="Error.1401" value="Não foi possível criar a chave [2]. {{ Erro do sistema [3].}} Verifique se você tem privilégios suficientes para acessar a chave, ou entre em contato com o suporte técnico."/>
+  <STRING id="Error.1402" value="Não foi possível abrir a chave [2]. {{ Erro do sistema [3].}} Verifique se você tem privilégios suficientes para acessar a chave, ou entre em contato com o suporte técnico."/>
+  <STRING id="Error.1403" value="Não foi possível eliminar o valor [2] da chave [3]. {{Erro do sistema [4].}} Verifique se você tem privilégios suficientes para acessar a chave, ou entre em contato com o suporte técnico."/>
+  <STRING id="Error.1404" value="Não foi possível eliminar a chave [2]. {{Erro do sistema [3].}} Verifique se você tem privilégios suficientes para acessar a chave, ou entre em contato com o suporte técnico."/>
+  <STRING id="Error.1405" value="Não foi possível ler o valor [2] da chave [3]. {{Erro do sistema [4].}} Verifique se você tem privilégios suficientes para acessar a chave, ou entre em contato com o suporte técnico."/>
+  <STRING id="Error.1406" value="Não foi possível escrever o valor [2] na chave [3]. {{Erro do sistema [4].}} Verifique se você tem privilégios suficientes para acessar a chave, ou entre em contato com o suporte técnico."/>
+  <STRING id="Error.1407" value="Não foi possível obter os nomes dos valores da chave [2]. {{Erro do sistema [3].}} Verifique se você tem privilégios suficientes para acessar a chave, ou entre em contato com o suporte técnico."/>
+  <STRING id="Error.1408" value="Não foi possível obter os nomes das sub chaves da chave [2]. {{Erro do sistema[3].}} Verifique se você tem privilégios suficientes para acessar a chave, ou entre em contato com o suporte técnico."/>
+  <STRING id="Error.1409" value="Não foi possível ler a informação de segurança da chave [2]. {{Erro do sistema [3].}} Verifique se você tem privilégios suficientes para acessar a chave, ou entre em contato com o suporte técnico."/>
+  <STRING id="Error.1410" value="Não foi possível aumentar o espaço disponível para o registro. É necessário [2] KB de espaço no registro para instalar esta aplicação."/>
+  <STRING id="Error.15" value="Fim da ação às [Time]: [1]. Valor de retorno: [2]."/>
+  <STRING id="Error.1500" value="Existe outra instalação em progresso. É necessário completar essa instalação antes de poder continuar esta."/>
+  <STRING id="Error.1501" value="Ocorreu um erro ao tentar ler dados protegidos. Por favor, verifique que o Windows Installer está configurado corretamente e tente instalar novamente."/>
+  <STRING id="Error.1502" value="O usuário &apos;[2]&apos; iniciou anteriormente uma instalação do produto &apos;[3]&apos;. Esse usuário deverá instalar de novo o produto antes de poder utilizá-lo. Esta instalação vai, agora, continuar."/>
+  <STRING id="Error.1503" value="O usuário &apos;[2]&apos; iniciou anteriormente uma instalação do produto &apos;[3]&apos;. Esse usuário deverá instalar de novo o produto antes de poder utilizá-lo."/>
+  <STRING id="Error.16" value="Tempo restante: {[1] minutos }{[2] segundos}"/>
+  <STRING id="Error.1601" value="Espaço em disco insuficiente -- Volume: &apos;[2]&apos;; Espaço necessário: [3] KB; Espaço disponível: [4] KB. Libere algum espaço do disco e tente novamente."/>
+  <STRING id="Error.1602" value="Tem a certeza que deseja cancelar?"/>
+  <STRING id="Error.1603" value="O arquivo [2][3] está sendo utilizado{ pelo seguinte processo: Nome: [4], Id.: [5], Título da janela: &apos;[6]&apos;}. Feche essa aplicação e tente de novo."/>
+  <STRING id="Error.1604" value="O produto &apos;[2]&apos; já está instalado, o que impede a instalação deste produto, já que os dois produtos são incompatíveis."/>
+  <STRING id="Error.1605" value="Não existe espaço suficiente no volume &apos;[2]&apos; para continuar a instalação com a recuperação activa. É necessário [3] KB, mas apenas [4] KB estão disponíveis. Clique em Ignorar para continuar sem guardar informação de recuperação, clique em Repetir para verificar novamente se existe espaço suficiente, ou clique em Cancelar para sair da instalação."/>
+  <STRING id="Error.1606" value="Não foi possível acessar o endereço de rede [2]."/>
+  <STRING id="Error.1607" value="As seguintes aplicações deveriam ser fechadas antes de continuar com a instalação:"/>
+  <STRING id="Error.1608" value="Não foi encontrado nenhum produto compatível previamente instalado na máquina para instalar este produto."/>
+  <STRING id="Error.1609" value="Ocorreu um erro ao aplicar as configurações de segurança. [2] não é um usuário ou grupo válido. Isto poderá ser um problema com o pacote, ou um problema ao se conectar ao controlador do domínio de rede. Verifique a sua ligação de rede e clique em Repetir, ou clique em Cancelar para finalizar a instalação. {{Não foi possível encontrar o SID do utilizador, erro do sistema [3]}}"/>
+  <STRING id="Error.17" value="Memória insuficiente. Feche outras aplicações antes de tentar de novo."/>
+  <STRING id="Error.1701" value="A chave [2] não é válida. Verifique se você escreveu a chave corretamente."/>
+  <STRING id="Error.1702" value="O instalador tem que reiniciar o sistema para que a configuração de [2] possa continuar. Clique em Sim para reiniciar agora, ou clique em Não caso pretenda reiniciar manualmente mais tarde."/>
+  <STRING id="Error.1703" value="Você tem de reiniciar o sistema para que as alterações feitas à configuração do [2] tenham efeito. Clique em Sim para reiniciar agora, ou clique em Não caso pretenda reiniciar manualmente mais tarde."/>
+  <STRING id="Error.1704" value="Uma instalação de [2] está atualmente suspensa. Você deverá cancelar as alterações feitas por essa instalação antes de continuar. Deseja cancelar essas alterações?"/>
+  <STRING id="Error.1705" value="Existe uma instalação anterior deste produto em curso. Você deverá cancelar as alterações feitas por essa instalação antes de continuar. Deseja cancelar essas alterações?"/>
+  <STRING id="Error.1706" value="Não foi encontrado um pacote de instalação do produto [2]. Tente instalar novamente usando uma copia válida do pacote de instalação &apos;[3]&apos;."/>
+  <STRING id="Error.1707" value="A instalação terminou com sucesso."/>
+  <STRING id="Error.1708" value="A instalação falhou."/>
+  <STRING id="Error.1709" value="Produto: [2] -- [3]"/>
+  <STRING id="Error.1710" value="Você pode restaurar o estado do seu computador ao seu estado anterior, ou continuar a instalação mais tarde. Deseja restaurar o seu computador?"/>
+  <STRING id="Error.1711" value="Ocorreu um erro ao tentar escrever informação do cliente para o disco. Verifique que existe espaço suficiente em disco, e clique em Repetir, ou clique em Cancelar para sair da instalação."/>
+  <STRING id="Error.1712" value="Não foi possível encontrar um ou mais arquivos necessário para restaurar o seu computar ao seu estado anterior. Não será possível restaurar o seu computador."/>
+  <STRING id="Error.1713" value="[2] não conseguiu instalar um dos seus produtos necessários. Entre em contato com o suporte técnico.  {{Erro do sistema: [3].}}"/>
+  <STRING id="Error.1714" value="Não foi possível remover a versão anterior do [2]. Entre em contato com o suporte técnico.  {{Erro do sistema: [3].}}"/>
+  <STRING id="Error.1715" value="Instalado [2]"/>
+  <STRING id="Error.1716" value="Configurado [2]"/>
+  <STRING id="Error.1717" value="Removido [2]"/>
+  <STRING id="Error.1718" value="O arquivo [2] foi rejeitado devido à política da assinatura digital."/>
+  <STRING id="Error.1719" value="Não foi possível acessar o serviço do Windows Installer. Isto pode acontecer se você estiver rodando o Windows em modo de segurança, ou se o Windows Installer não está instalado corretamente. Contacte o suporte técnico."/>
+  <STRING id="Error.1720" value="Existe um problema com o serviço do Windows Installer. Não foi possível executar um script necessário para completar esta instalação. Entre em contato com o suporte técnico ou o vendedor do pacote.  {{Ação personalizada [2] Erro da script [3], [4]: [5] Linha [6], Coluna [7], [8] }}"/>
+  <STRING id="Error.1721" value="Existe um problema com o serviço do Windows Installer. Não foi possível executar um script necessário para completar esta instalação. Entre em contato com o suporte técnico ou o vendedor do pacote.  {{Ação [2], Localização: [3], Comando: [4] }}"/>
+  <STRING id="Error.1722" value="Existe um problema com este pacote do Windows Installer. Um programa executado como parte da instalação não terminou como era esperado. Entre em contato com o suporte técnico ou o vendedor do pacote.  {{Ação [2], Localização: [3], Comando: [4] }}"/>
+  <STRING id="Error.1723" value="Existe um problema com este pacote do Windows Installer. Não foi possível executar um arquivo .DLL necessário para completar esta instalação. Entre em contato com o suporte técnico ou o vendedor do pacote.  {{Ação [2], entrada: [3], biblioteca: [4] }}"/>
+  <STRING id="Error.1724" value="A remoção terminou com sucesso."/>
+  <STRING id="Error.1725" value="A remoção falhou."/>
+  <STRING id="Error.1726" value="O anúncio terminou com sucesso."/>
+  <STRING id="Error.1727" value="O anúncio falhou."/>
+  <STRING id="Error.1728" value="A configuração terminou com sucesso."/>
+  <STRING id="Error.1729" value="A configuração falhou."/>
+  <STRING id="Error.1730" value="É necessário ter privilégios de administração para remover esta aplicação. Para remover esta aplicação, você deve entrar como administrador, ou contactar o suporte técnico para obter assistência."/>
+  <STRING id="Error.18" value="O instalador não está respondendo"/>
+  <STRING id="Error.1801" value="O endereço [2] não é válido. Indique um endereço válido."/>
+  <STRING id="Error.1802" value="Memória insuficiente. Feche outras aplicações antes de tentar outra vez."/>
+  <STRING id="Error.1803" value="Não existe disco na unidade [2]. Por favor, insira um e clique em Repetir, ou clique em Cancelar para voltar ao volume previamente escolhido."/>
+  <STRING id="Error.1804" value="Não existe disco na unidade [2]. Por favor, insira um e clique em Repetir, ou clique em Cancelar para voltar ao diálogo de seleção de endereço para escolher um volume diferente."/>
+  <STRING id="Error.1805" value="A pasta [2] não existe. Introduza um endereço para uma pasta existente."/>
+  <STRING id="Error.1806" value="Você não tem privilégios suficientes para ler esta pasta."/>
+  <STRING id="Error.1807" value="Não foi possível determinar uma pasta válida para a instalação."/>
+  <STRING id="Error.19" value="O instalador parou prematuramente."/>
+  <STRING id="Error.1901" value="Ocorreu um erro ao tentar ler a base de dados fonte da instalação: [2]."/>
+  <STRING id="Error.1902" value="Agendando uma operação de reiniciação: alterando o nome do arquivo [2] para [3]. Você deve reiniciar o computador para terminar a operação."/>
+  <STRING id="Error.1903" value="Agendando uma operação de reiniciação: apagando o arquivo [2]. Você deve reiniciar o computador para terminar a operação."/>
+  <STRING id="Error.1904" value="Ocorreu um erro ao registrar o módulo [2]. HRESULT [3]. Entre em contato com o suporte técnico."/>
+  <STRING id="Error.1905" value="Ocorreu um erro ao cancelar o registro do módulo [2]. HRESULT [3]. Entre em contato com o suporte técnico."/>
+  <STRING id="Error.1906" value="Ocorreu um erro ao mover o pacote [2] para a memória cache. Erro: [3]. Entre em contato com o suporte técnico."/>
+  <STRING id="Error.1907" value="Não foi possível registrar a fonte [2]. Verifique se você tem privilégios suficientes para instalar fontes e que o sistema suporta esta fonte."/>
+  <STRING id="Error.1908" value="Não foi possível cancelar o registro da fonte [2]. Verifique se você tem privilégios suficientes para remover fontes."/>
+  <STRING id="Error.1909" value="Não foi possível criar o atalho [2]. Verifique se a pasta destino existe e se você tem privilégios para acessá-la."/>
+  <STRING id="Error.1910" value="Não foi possível remover o atalho [2]. Verifique se o atalho existe e se você tem privilégios para removê-lo"/>
+  <STRING id="Error.1911" value="Não foi possível registrar a biblioteca de tipos para o arquivo [2]. Entre em contato com o suporte técnico."/>
+  <STRING id="Error.1912" value="Não foi possível cancelar o registro da biblioteca de tipos para o arquivo [2]. Entre em contato com o suporte técnico."/>
+  <STRING id="Error.1913" value="Não foi possível atualizar o arquivo .INI [2][3]. Verifique se o arquivo existe e se você tem privilégios para acessá-lo."/>
+  <STRING id="Error.1914" value="Não foi possível agendar a substituição do arquivo [2] pelo arquivo [3] depois de reiniciar o sistema. Confirme se você tem permissões de escrita no arquivo [3]."/>
+  <STRING id="Error.1915" value="Ocorreu um erro ao remover o controlador ODBC; Erro ODBC [2]: [3]. Entre em contato com o suporte técnico."/>
+  <STRING id="Error.1916" value="Ocorreu um erro ao instalar o controlador ODBC; Erro ODBC [2]: [3]. Entre em contato com o suporte técnico."/>
+  <STRING id="Error.1917" value="Ocorreu um erro ao remover o controlador ODBC; Erro ODBC [2]: [3]. Verifique se o arquivo [4] existe e se você pode acessá-lo."/>
+  <STRING id="Error.1918" value="Ocorreu um erro ao instalar o controlador ODBC; Erro ODBC [2]: [3]. Verifique se o arquivo [4][6] existe e se você pode acessá-lo."/>
+  <STRING id="Error.1919" value="Ocorreu um erro ao configurar a origem dos dados ODBC; Erro ODBC [2]: [3]. Verifique se o arquivo [4][6] existe e se você pode acessá-lo."/>
+  <STRING id="Error.1920" value="Não foi possível iniciar o serviço &apos;[2]&apos; ([3]). Verifique se você tem privilégios para iniciar serviços de sistema."/>
+  <STRING id="Error.1921" value="Não foi possível parar o serviço &apos;[2]&apos; ([3]). Verifique se você tem privilégios para parar serviços de sistema."/>
+  <STRING id="Error.1922" value="Não foi possível remover o serviço &apos;[2]&apos; ([3]). Verifique se você tem privilégios para parar serviços de sistema."/>
+  <STRING id="Error.1923" value="Não foi possível instalar o serviço &apos;[2]&apos; ([3]). Verifique se você tem privilégios para parar serviços de sistema."/>
+  <STRING id="Error.1924" value="Não foi possível atualizar a variável de ambiente &apos;[2]&apos;. verifique se você tem privilégios para modificar variáveis de ambiente."/>
+  <STRING id="Error.1925" value="Você não tem privilégios suficientes para instalar esta aplicação para todos os utilizadores. Inicie uma sessão como administrador e tente de novo."/>
+  <STRING id="Error.1926" value="Não foi possível estabelecer a segurança para o arquivo &apos;[3]&apos;. Erro: [2]. Verifique se você tem privilégios suficientes para alterar a segurança deste arquivo."/>
+  <STRING id="Error.1927" value="Component Services (COM+ 1.0) não estão instalados no sistema.  É necessário ter instalado os Component Services para finalizar esta instalação com sucesso. Component Services estão disponíveis no Windows 2000."/>
+  <STRING id="Error.1928" value="Ocorreu um erro ao registrar a aplicação COM+. Contacte o suporte técnico para mais informações."/>
+  <STRING id="Error.1929" value="Ocorreu um erro ao cancelar o registro da aplicação COM+. Entre em contato com o suporte técnico para mais informações."/>
+  <STRING id="Error.1930" value="Não foi possível alterar a descrição do serviço &apos;[2]&apos; ([3])."/>
+  <STRING id="Error.1931" value="O serviço do Windows Installer não conseguiu atualizar o arquivo de sistema [2] porque está protegido pelo Windows. Poderá ser necessário atualizar o Windows para este programa funcionar correctamente. {{Versão do pacote: [3], Versão protegida do Windows: [4]}}"/>
+  <STRING id="Error.1932" value="O serviço do Windows Installer não conseguiu atualizar o arquivo protegido pelo Windows [2]. {{Versão do pacote: [3], Versão protegida do Windows: [4], Erro SFP: [5]}}"/>
+  <STRING id="Error.1933" value="O serviço do Windows Installer não conseguiu atualizar um ou mais arquivos protegidos pelo Windows. {{Erro SFP: [2].  Lista de arquivos protegidos:\r\n[3]}}"/>
+  <STRING id="Error.1934" value="Não é permitido aos usuários instalar aplicações devido à política da máquina."/>
+  <STRING id="Error.1935" value="Ocorreu um erro ao instalar o componente de montagem [2]. HRESULT: [3]. {{Interface de montagem: [4], Função: [5], Nome de montagem: [6]}}"/>
+  <STRING id="Error.2" value="Aviso [1]. "/>
+  <STRING id="Error.20" value="Por favor, espere enquanto o Windows configura o [ProductName]"/>
+  <STRING id="Error.21" value="Recolhendo informações necessárias... "/>
+  <STRING id="Error.22" value="Removendo versões antigas desta aplicação..."/>
+  <STRING id="Error.23" value="Preparando-se para remover versões antigas desta aplicação... "/>
+  <STRING id="Error.32" value="A instalação do {[ProductName] }terminou com sucesso."/>
+  <STRING id="Error.33" value="A instalação do {[ProductName] }falhou."/>
+  <STRING id="Error.4" value="Informação [1]. "/>
+  <STRING id="Error.4000" value="Número de série inválido."/>
+  <STRING id="Error.4010" value="Uma versão mais recente do [ProductName] já está instalada neste computador."/>
+  <STRING id="Error.4020" value="Ocorreu um erro durante o processo de configuração do IIS. A configuração original do IIS foi restaurada."/>
+  <STRING id="Error.4021" value="O Web Site [1] já existe neste servidor"/>
+  <STRING id="Error.4022" value="O diretório virtual [1] no Web Site [2] já existe neste servidor"/>
+  <STRING id="Error.5" value="O instalador encontrou um erro inesperado ao instalar este pacote. Isto pode indicar um problema com este pacote. O código do erro é [1]. {{Os argumentos são: [2], [3], [4]}}"/>
+  <STRING id="Error.7" value="{{Disco cheio: }}"/>
+  <STRING id="Error.8" value="Ação [Time]: [1]. [2]"/>
+  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.4023" value="Esta versão do IIS não é suportada ou o IIS não está completamente instalado! &#10;&#10;Você precisa do Internet Information Services 5.0 ou mais recente."/>
+  <STRING id="Error.4024" value="Um website com os mesmos vínculos no servidor já está rodando.&#10;&#10;[2]"/>
+  <STRING id="Error.4101" value="Não foi possível criar uma conta ou grupo de usuários &apos;[2]&apos; na máquina local. Código de erro: [3]. [4]"/>
+  <STRING id="Error.4102" value="Conta ou grupo de usuário &apos;[2]&apos; já existe na máquina local."/>
+  <STRING id="Error.4103" value="Não foi possível remover conta ou grupo de usuários &apos;[2]&apos; na máquina local."/>
+  <STRING id="Error.4104" value="Conta ou grupo de usuários &apos;[2]&apos; não existe na máquina local."/>
+  <STRING id="Error.4105" value="Um erro aconteceu ao compartilhar&apos;[2]&apos; com o nome: &apos;[3]&apos;. Descrição do erro: [4]"/>
+  <STRING id="Error.4106" value="Um erro aconteceu ao criar uma tarefa agendada: &apos;[2]&apos;. Descrição do erro: [3]"/>
+  <STRING id="Error.4107" value="Um erro aconteceu ao remover uma tarefa agendada: &apos;[2]&apos;. Descrição do erro: [3]"/>
+  <STRING id="Error.4110" value="Não foi possível alocar memória."/>
+  <STRING id="Error.4111" value="Arquivo não encontrado: [2]."/>
+  <STRING id="Error.4112" value="Arquivo &apos;[2]&apos; não pode ser lido."/>
+  <STRING id="Error.4113" value="Erro ao criar arquivo: &apos;[2]&apos; na linha: [3], coluna: [4]. Código do erro: [5]."/>
+  <STRING id="Error.4114" value="Codificação de XML não suportada."/>
+  <STRING id="Error.4115" value="Erro ao abrir arquivo: [2]."/>
+  <STRING id="Error.4116" value="Arquivo &apos;[2]&apos; não pode ser escrito."/>
+  <STRING id="Error.4117" value="Elemento na raiz inesperado: &quot;[2]&quot; no arquivo XML: &apos;[3]&apos;."/>
+  <STRING id="Error.4120" value="Houve um erro durante o processo de configuração do Firewall do Windows.&#10;Suas configurações originais do Firewall serão restauradas."/>
+  <STRING id="Error.4121" value="Caminho da imagem do processo do Firewall inválido, ou arquivo não encontrado: [2]."/>
+  <STRING id="Error.4122" value="Porta/protocolo do Firewall inválido: [2]."/>
+  <STRING id="Error.4123" value="Escopo de rede do Firewall inválido: [2]."/>
+  <STRING id="Error.4124" value="Houve um erro ao registrar uma aplicação no Firewall do Windows: [2]."/>
+  <STRING id="Error.4125" value="Houve um erro ao registrar uma a porta no Firewall do Windows: [2]."/>
+  <STRING id="Error.4130" value="Houve um erro durante o processo da configuração do Game Explorer."/>
+  <STRING id="Error.4131" value="O Controle dos Pais impede que você jogue o game: [2]."/>
+  <STRING id="Error.4140" value="houve um erro durante o processo de execução do script de SQL."/>
+  <STRING id="Error.4141" value="Erro ODBC: [2] ([3])."/>
+  <STRING id="Error.4142" value="Conexão ODBC: tempo excedido."/>
+  <STRING id="Error.4143" value="Erro de parse do script SQL: sintaxe inválida."/>
+  <!-- UIText table -->
+  <STRING id="UIText.bytes" value="bytes"/>
+  <STRING id="UIText.GB" value="GB"/>
+  <STRING id="UIText.KB" value="KB"/>
+  <STRING id="UIText.MB" value="MB"/>
+  <STRING id="UIText.MenuAbsent" value="Toda a funcionalidade não estará disponível"/>
+  <STRING id="UIText.MenuAdvertise" value="A funcionalidade será instalada quando for necessária"/>
+  <STRING id="UIText.MenuAllCD" value="Toda a funcionalidade será instalada para rodar a partir do CD"/>
+  <STRING id="UIText.MenuAllLocal" value="Toda a funcionalidade será instalada no disco local"/>
+  <STRING id="UIText.MenuAllNetwork" value="Toda a funcionalidade será instalada para rodar a partir da rede"/>
+  <STRING id="UIText.MenuCD" value="Será instalado para rodar a partir do CD"/>
+  <STRING id="UIText.MenuLocal" value="Será instalado no disco local"/>
+  <STRING id="UIText.MenuNetwork" value="Será instalado para rodar a partir da rede"/>
+  <STRING id="UIText.ScriptInProgress" value="Recolhendo informações necessárias..."/>
+  <STRING id="UIText.SelAbsentAbsent" value="Esta funcionalidade continuará desinstalada"/>
+  <STRING id="UIText.SelAbsentAdvertise" value="Esta funcionalidade será instalada quando necessário"/>
+  <STRING id="UIText.SelAbsentCD" value="Esta funcionalidade será instalada para rodar a partir do CD"/>
+  <STRING id="UIText.SelAbsentLocal" value="Esta funcionalidade será instalada no disco local"/>
+  <STRING id="UIText.SelAbsentNetwork" value="Esta funcionalidade será instalada para rodar a partir da rede"/>
+  <STRING id="UIText.SelAdvertiseAbsent" value="Esta funcionalidade ficará indisponível"/>
+  <STRING id="UIText.SelAdvertiseAdvertise" value="Será instalado quando necessário"/>
+  <STRING id="UIText.SelAdvertiseCD" value="Esta funcionalidade estará disponível para rodar a partir do CD"/>
+  <STRING id="UIText.SelAdvertiseLocal" value="Esta funcionalidade será instalada no disco local"/>
+  <STRING id="UIText.SelAdvertiseNetwork" value="Esta funcionalidade estará disponível para rodar a partir da rede"/>
+  <STRING id="UIText.SelCDAbsent" value="Esta funcionalidade será desinstalada completamente, não a poderá rodar a partir do CD"/>
+  <STRING id="UIText.SelCDAdvertise" value="Esta funcionalidade será alterada de rodar a partir do CD para ser instalada quando necessária"/>
+  <STRING id="UIText.SelCDCD" value="Esta funcionalidade continuará a rodar a partir do CD"/>
+  <STRING id="UIText.SelCDLocal" value="Esta funcionalidade será alterada de rodar a partir do CD para ser instalada no disco local"/>
+  <STRING id="UIText.SelChildCostNeg" value="Esta funcionalidade libera [1] do seu disco."/>
+  <STRING id="UIText.SelChildCostPos" value="Esta funcionalidade necessita [1] do seu disco rígido."/>
+  <STRING id="UIText.SelCostPending" value="Compilando o custo desta funcionalidade"/>
+  <STRING id="UIText.SelLocalAbsent" value="Esta funcionalidade será completamente removida"/>
+  <STRING id="UIText.SelLocalAdvertise" value="Esta funcionalidade será completamente removida do seu disco local, mas irá ser instalada quando for necessário"/>
+  <STRING id="UIText.SelLocalCD" value="Esta funcionalidade será completamente removida do seu disco local, mas estará disponível para rodar a partir do CD"/>
+  <STRING id="UIText.SelLocalLocal" value="Esta funcionalidade continuará instalada no seu disco local"/>
+  <STRING id="UIText.SelLocalNetwork" value="Esta funcionalidade será completamente removida do seu disco local, mas estará disponível para rodar a partir da rede"/>
+  <STRING id="UIText.SelNetworkAbsent" value="Esta funcionalidade será completamente removida e não a poderá rodar a partir da rede"/>
+  <STRING id="UIText.SelNetworkAdvertise" value="Esta funcionalidade será alterada de rodar a partir da rede para o estado de ser instalada quando necessário"/>
+  <STRING id="UIText.SelNetworkLocal" value="Esta funcionalidade será alterada de rodar a partir da rede para ser instalada no disco local"/>
+  <STRING id="UIText.SelNetworkNetwork" value="Esta funcionalidade continuará a rodar a partir da rede"/>
+  <STRING id="UIText.SelParentCostNegNeg" value="Esta funcionalidade libera [1] do seu disco. Tem [2] de [3] funcionalidades secundárias selecionadas. As funcionalidades secundárias liberam [4] do seu disco."/>
+  <STRING id="UIText.SelParentCostNegPos" value="Esta funcionalidade libera [1] do seu disco. Tem [2] de [3] funcionalidades secundárias selecionadas. As funcionalidades secundárias necessitam [4] do seu disco."/>
+  <STRING id="UIText.SelParentCostPosNeg" value="Esta funcionalidade necessita [1] do seu disco. Tem [2] de [3] funcionalidades secundárias selecionadas. As funcionalidades secundárias liberam [4] do seu disco."/>
+  <STRING id="UIText.SelParentCostPosPos" value="Esta funcionalidade necessita [1] do seu disco. Tem [2] de [3] funcionalidades secundárias selecionadas. As funcionalidades secundárias necessitam [4] do seu disco."/>
+  <STRING id="UIText.TimeRemaining" value="Tempo restante: {[1] minutos }{[2] segundos}"/>
+  <STRING id="UIText.VolumeCostAvailable" value="Disponível"/>
+  <STRING id="UIText.VolumeCostDifference" value="Diferença"/>
+  <STRING id="UIText.VolumeCostRequired" value="Necessário"/>
+  <STRING id="UIText.VolumeCostSize" value="Tamanho do disco"/>
+  <STRING id="UIText.VolumeCostVolume" value="Volume"/>
+  <STRING id="UIText.ODBCTestMsg" value="Aguarde enquanto a conexão é testada..."/>
+  <STRING id="UIText.ODBCTestTitle" value="ODBC"/>
+  <STRING id="UIText.SQLBrowseMsg" value="Examinando SQL Servers na rede..."/>
+  <STRING id="UIText.SQLBrowseTitle" value="SQL"/>
+  <STRING id="UIText.HttpPostMsg" value="Enviando os dados coletados..."/>
+  <STRING id="UIText.HttpPostTitle" value=" "/>
+  <!-- RadioButton table -->
+  <STRING id="RadioButton.Text.ExtReg#1" value="&amp;Sim, registre-o para gerenciar estes tipos de arquivos"/>
+  <STRING id="RadioButton.Text.ExtReg#2" value="Não, pule as associações de arquivos"/>
+  <STRING id="RadioButton.Text.IAgree#1" value="Estou de &amp;acordo com as condições do Acordo de Licença"/>
+  <STRING id="RadioButton.Text.IAgree#2" value="&amp;Não estou de acordo com as condições do Acordo de Licença"/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#1" value="Automaticamente &amp;fechar as aplicações e tentar reiniciá-las após a configuração estar completa."/>
+  <STRING id="RadioButton.Text.AppsShutdownOption#2" value="&amp;Não fechar as aplicações (será necessário reiniciar o computador.)"/>
+  <!-- Property table -->
+  <STRING id="Property.AI_Upgrade_Question_No" value="&amp;Não, instale concorrentemente com outras versões"/>
+  <STRING id="Property.AI_Upgrade_Question_Yes" value="&amp;Sim, remova versões antigas"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_No" value="&amp;Não, desinstale apenas as versões [AI_Replaced_Versions_List]"/>
+  <STRING id="Property.AI_Upgrade_Replace_Question_Yes" value="&amp;Sim, remova todas as versões antigas"/>
+  <STRING id="Property.ButtonText_Back" value="&lt; &amp;Voltar"/>
+  <STRING id="Property.ButtonText_Back_No_Arrow" value="&amp;Voltar"/>
+  <STRING id="Property.ButtonText_Browse" value="&amp;Procurar..."/>
+  <STRING id="Property.ButtonText_Cancel" value="Cancelar"/>
+  <STRING id="Property.ButtonText_Exit" value="&amp;Sair"/>
+  <STRING id="Property.ButtonText_Finish" value="&amp;Fim"/>
+  <STRING id="Property.Text_Finish" value="Fim"/>
+  <STRING id="Property.ButtonText_Ignore" value="&amp;Ignorar"/>
+  <STRING id="Property.ButtonText_Install" value="&amp;Instalar"/>
+  <STRING id="Property.Text_Install" value="Instalar"/>
+  <STRING id="Property.ButtonText_Next" value="&amp;Próximo &gt;"/>
+  <STRING id="Property.ButtonText_Next_No_Arrow" value="&amp;Próximo"/>
+  <STRING id="Property.Text_Next" value="Próximo"/>
+  <STRING id="Property.ButtonText_No" value="&amp;Não"/>
+  <STRING id="Property.ButtonText_OK" value="OK"/>
+  <STRING id="Property.ButtonText_Remove" value="R&amp;emover"/>
+  <STRING id="Property.ButtonText_Repair" value="Re&amp;parar"/>
+  <STRING id="Property.ButtonText_Reset" value="Re&amp;set"/>
+  <STRING id="Property.ButtonText_Resume" value="&amp;Continuar"/>
+  <STRING id="Property.ButtonText_Retry" value="&amp;Repetir"/>
+  <STRING id="Property.ButtonText_Return" value="&amp;Retornar"/>
+  <STRING id="Property.ButtonText_Yes" value="&amp;Sim"/>
+  <STRING id="Property.Text_Yes" value="Sim"/>
+  <STRING id="Property.CtrlEvtchanges" value="alterar"/>
+  <STRING id="Property.CtrlEvtChanging" value="Alterando"/>
+  <STRING id="Property.CtrlEvtremoves" value="remove"/>
+  <STRING id="Property.CtrlEvtRemoving" value="Removendo"/>
+  <STRING id="Property.CtrlEvtRepairing" value="Reparando"/>
+  <STRING id="Property.CtrlEvtrepairs" value="repara"/>
+  <STRING id="Property.InstallModeComplete" value="completa"/>
+  <STRING id="Property.InstallModeCustom" value="Personalizada"/>
+  <STRING id="Property.InstallModeTypical" value="Típica"/>
+  <STRING id="Property.Progress1" value="Instalando"/>
+  <STRING id="Property.Progress2" value="instala"/>
+  <STRING id="Property.Setup" value="Instalação"/>
+  <STRING id="Property.Wizard" value="Wizard de instalação"/>
+  <!-- Trialware Settings table -->
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#DlgCaption" value="Compre"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#BuyDlg#MsgCaption" value="Você gostaria de abrir a página de compra de %TrialName%?"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#DlgCaption" value="Chave de registro inválida"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#InvalidSerialDlg#MsgCaption" value="A chave de registro é inválida."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#DlgCaption" value="Avaliação de %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#Msg2Caption" value="Pressione o botão &quot;Finalizar&quot; para validar a chave e continuar."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#MsgCaption" value="por favor digite todas as linhas da chave de registro que você recebeu."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#RegisterPage#PageHeader" value="Registro"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyCaption" value="Compre"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#BuyNote" value="visite a página de compra do %TrialName% para adquirir uma licença"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#DlgCaption" value="Avaliação de %TrialName% Expirada"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionDays" value="Seus %Quantity% dias de avaliação expiraram. Se você quer continuar usando %TrialName%, você deve comprar uma licença e registrar a aplicação."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#MsgCaptionRuns" value="Suas %Quantity% utilizações de avaliação expiraram. Se você quer continuar usando %TrialName%, você deve comprar uma licença e registrar a aplicação."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#PageHeader" value="Bem-vindo à Avaliação de %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterCaption" value="Registro"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#RegisterNote" value="Digite a chave de registro"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryCaption" value="Avalie"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialExpiredPage#TryNote" value="Expirado"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyCaption" value="Compre"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#BuyNote" value="visite a página de compra do %TrialName% para adquirir uma licença"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionDays" value="Avaliação de %TrialName% (%TrialLeft% dias disponíveis)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#DlgCaptionRuns" value="Avaliação de %TrialName% (%TrialLeft% utilizações disponíveis)"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionDays" value="Você está usando a versão de avaliação de %TrialName% de [|Manufacturer]. Você tem %TrialLeft% dias disponíveis."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#MsgCaptionRuns" value="Você está usando a versão de avaliação de %TrialName% de [|Manufacturer]. Você tem %TrialLeft% utilizações disponíveis."/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#PageHeader" value="Bem-vindo à Avaliação de %TrialName%"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterCaption" value="Registro"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#RegisterNote" value="Digite a chave de registro"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryCaption" value="Avalie"/>
+  <STRING id="TrialwareSettings.alltrials#Strings#TrialPage#TryNote" value="Continue a avaliação de %TrialName%"/>
+</DICTIONARY>

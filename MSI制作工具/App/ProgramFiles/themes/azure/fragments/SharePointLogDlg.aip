@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="SharePointLogDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="SharePointLogDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SharePointLogDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SharePointLogDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="1" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="SharePointLogDlg" Control="Title" Type="Text" X="33" Y="23" Width="200" Height="15" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Control.Text.SharePointLogDlg#Title"/>
+    <ROW Dialog_="SharePointLogDlg" Control="SharePointLog" Type="Edit" X="55" Y="100" Width="360" Height="200" Attributes="65539" Property="AI_SHAREPOINT_LOG" Order="600" TextLocId="Control.Text.SharePointLogDlg#SharePointLog" ExtAttributes="521"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="SharePointLogDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="SharePointLogDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.SharePointLogDlg"/>
+  </COMPONENT>
+</FRAGMENT>

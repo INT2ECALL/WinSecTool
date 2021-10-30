@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.9" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="CDA8AC57595B4588BB50985514BC41E2" DisplayName="Java SE Runtime Environment 10.0.1 x64" VersionMin="10.0.1"
+      SetupFileUrl="http://www.oracle.com/technetwork/java/javase/downloads/jre10-downloads-4417026.html"
+      Location="2" ExactSize="0"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64"
+      Operator="0" Options="xy"/>
+    <ATTRIBUTE name="GroupName" value="Flash, Java and other Tools"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="CDA8AC57595B4588BB50985514BC41E2CurrentVersion" Prereq="CDA8AC57595B4588BB50985514BC41E2" SearchType="2"
+      SearchString="HKLM\SOFTWARE\JavaSoft\JRE\CurrentVersion" VerMin="10.0.1"
+      Order="1" Property="PreReqSearch_CDA8AC57595B4588BB50985514BC41E2"/>
+    <ROW SearchKey="CDA8AC57595B4588BB50985514BC41E2JRE" Prereq="CDA8AC57595B4588BB50985514BC41E2" SearchType="1"
+      SearchString="HKLM\SOFTWARE\JavaSoft\JRE" VerMin="10.0.1"
+      Order="2" Property="PreReqSearch_1_CDA8AC57595B4588BB50985514BC41E2"/>
+  </COMPONENT>
+</FRAGMENT>

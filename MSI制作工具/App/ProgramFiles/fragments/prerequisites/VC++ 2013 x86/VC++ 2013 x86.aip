@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D564007E3BBE4F85950A09B470A7CA65" DisplayName="Visual C++ Redistributable for Visual Studio 2013 Update 5 x86" VersionMin="12.0"
+      SetupFileUrl="http://download.microsoft.com/download/C/C/2/CC2DF5F8-4454-44B4-802D-5EA68D086676/vcredist_x86.exe"
+      Location="1" ExactSize="6510272" MD5="6a3a1760342ea699d5e6df1f2a1c7707"
+      NoUiComLine="/q /norestart"
+      Operator="0" Options="f" TargetName="Visual C++ Redistributable for Visual Studio 2013?vcredist_2013u5_x86.exe"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D564007E3BBE4F85950A09B470A7CA65Version" Prereq="D564007E3BBE4F85950A09B470A7CA65" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\12.0\RuntimeMinimum\Version" VerMin="12.0.40649"
+      Order="1" Property="PreReqSearch_D564007E3BBE4F85950A09B470A7CA65"/>
+    <ROW SearchKey="D564007E3BBE4F85950A09B470A7CA65SystemFoldermsvcp120.dll" Prereq="D564007E3BBE4F85950A09B470A7CA65" SearchType="0"
+      SearchString="[SystemFolder]msvcp120.dll" VerMin="12.0.40649.5"
+      Order="2" Property="PreReqSearch_1_D564007E3BBE4F85950A09B470A7CA65"/>
+    <ROW SearchKey="D564007E3BBE4F85950A09B470A7CA65SystemFoldermsvcr120.dll" Prereq="D564007E3BBE4F85950A09B470A7CA65" SearchType="0"
+      SearchString="[SystemFolder]msvcr120.dll" VerMin="12.0.40649.5"
+      Order="3" Property="PreReqSearch_2_D564007E3BBE4F85950A09B470A7CA65"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Dialog</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="varstyle.css" media="screen" />
+
+  <script type="text/javascript" src="jquery-1.3.2.js"></script>
+
+  <script type="text/javascript" src="common.js"></script>
+
+  <script type="text/javascript">
+    //hook the window load event ("event" argument will be automatically populated by standard browsers)
+    //background: url(background.jpg) no-repeat;
+    $(document).ready(function() {
+
+      /* START XXX */
+
+      InitPage();
+      UpdateBackGroundInd("DialogBitmap", 'main');
+      UpdateBackGroundInd("ReadmeLogoIcon", 'logo');
+
+      ResolveTag("p");
+      ResolveTag("h1"); ResolveTag("span");
+
+      var a = ['leftBtnA', 'leftBtnSpan', 'rightBtnA', 'rightBtnSpan', 'cancelBtnA', 'cancelBtnSpan'];
+      UpdateBackGroundIndVec("BannerBitmap", a);
+      ShowFooter();
+
+      /* END XXX */
+
+    });
+  </script>
+
+  <!--[if IE 6]>
+	<script src="pngfix/DD_belatedPNG_0.0.8a.js"></script>
+	<script>
+	  if(screen.deviceXDPI == 96) DD_belatedPNG.fix('img,#logoBig,#logo');
+	</script>
+	<![endif]-->
+</head>
+<body>
+  <!-- Background will be changed at load with the one specified in Binary... this default value is used for openning the HTML in other browser aka debugging -->
+  <div id="main" style="background-image: url(../background.jpg);">
+    <div id="header">
+      <div id="logo" style="background-image: url(../ReadmeLogo.png);">
+      </div>
+      <h1 formatted="twice" style="visibility: visible">
+        [LanguageDlgTitle]</h1>
+      <div class="clear">
+      </div>
+
+      <script type="text/javascript">
+        AdvinstTextMark();
+      </script>
+
+    </div>  
+    <div id="content">
+      <p class="langtext" id="lang" formatted="twice" keepamp="true" style="visibility: hidden;">
+        [LanguageDlgLangText]</p>      
+    </div>
+    <div id="footer" style="visibility: visible">
+      <div class="button-group">        
+        <div class="buttonwrapper buttonwrapper-right">
+          <a id="rightBtnA" onclick="external.MsiPublishEvents('Next');" href="#"><b>
+            <img src="next.png" width="16" height="16" />
+          </b><span id="rightBtnSpan" formatted="noarrow">[ButtonText_Next]</span> </a>
+        </div>
+        <!--
+            <div class="buttonwrapper cancel">
+                <a id="cancelBtnA" href="#" onclick="external.MsiPublishEvents('Cancel');">
+                    <b>
+                        <img src="cancel.png" width="16" height="16"/>
+                    </b>
+                    <span id="cancelBtnSpan" formatted="noarrow">[ButtonText_Cancel]</span>
+                </a>
+            </div>                
+            -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>

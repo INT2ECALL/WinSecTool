@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="LanguageDlg" Sequence="75" Condition="AI_BOOTSTRAPPER AND (NOT AI_SKIPBOOTSTRAPPERLANG) AND (NOT Installed)" SeqType="3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="LanguageDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="450" Height="360" Attributes="1048577" Text="[Background]" Order="100"/>
+    <ROW Dialog_="LanguageDlg" Control="Next" Type="PushButton" X="380" Y="330" Width="56" Height="17" Attributes="3" Text="[ButtonText_Next]" Order="200" TextLocId="-" Options="1"/>
+    <ROW Dialog_="LanguageDlg" Control="Cancel" Type="PushButton" X="450" Y="0" Width="0" Height="0" Attributes="2" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" Options="1"/>
+    <ROW Dialog_="LanguageDlg" Control="Back" Type="PushButton" X="320" Y="330" Width="56" Height="17" Attributes="0" Text="[ButtonText_Back]" Order="400" TextLocId="-" Options="1"/>
+    <ROW Dialog_="LanguageDlg" Control="Title" Type="Text" X="33" Y="23" Width="370" Height="15" Attributes="196611" TextStyle="TitleFont" Order="500" TextLocId="Control.Text.LanguageDlg#Title"/>
+    <ROW Dialog_="LanguageDlg" Control="LangComboBox" Type="ComboBox" X="77" Y="119" Width="302" Height="16" Attributes="196611" Property="AI_BOOTSTRAPPERLANG" Order="600"/>
+    <ROW Dialog_="LanguageDlg" Control="LangText" Type="Text" X="77" Y="99" Width="220" Height="11" Attributes="65539" Property="AI_LANGTEXT_PROP" Order="700" TextLocId="Control.Text.LanguageDlg#LangText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="LanguageDlg" Control_="Cancel" Event="SpawnDialog" Argument="CancelDlg" Condition="1" Ordering="100"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="LanguageDlg" HCentering="50" VCentering="50" Width="450" Height="360" Attributes="3" Control_Default="Next" Control_Cancel="Cancel" TitleLocId="Dialog.LanguageDlg"/>
+  </COMPONENT>  
+</FRAGMENT>

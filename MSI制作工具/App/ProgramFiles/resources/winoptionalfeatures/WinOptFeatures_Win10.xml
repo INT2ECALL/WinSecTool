@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FeatureBundle WinMajor="10" WinMinor="0" WinBuild="17134" WinServicePack="0" IsServer="false">
+  <Feature Name="AppServerClient" DisplayName="Remote Desktop Services Application Server" RequiresRestart="Yes" Description="Add or remove Remote Desktop Services Application Server"/>
+  <Feature Name="Client-DeviceLockdown" DisplayName="Device Lockdown" Description="Services and tools to provide a controlled and specialized experience for the end user of a device">
+    <Feature Name="Client-EmbeddedBootExp" DisplayName="Unbranded Boot" Description="Suppresses Windows elements that appear when Windows starts, resumes or encounters unrecovered errors"/>
+    <Feature Name="Client-EmbeddedLogon" DisplayName="Custom Logon" Description="Enables customized logon experiences"/>
+    <Feature Name="Client-EmbeddedShellLauncher" DisplayName="Shell Launcher" Description="Launches an alternate shell instead of the default Windows shell"/>
+    <Feature Name="Client-KeyboardFilter" DisplayName="Keyboard Filter" Description="Enables controls to suppress undesirable key presses or key combinations"/>
+    <Feature Name="Client-UnifiedWriteFilter" DisplayName="Unified Write Filter" Description="Installs services and tools to protect physical media from write operations"/>
+  </Feature>
+  <Feature Name="Client-ProjFS" DisplayName="Windows Projected File System (Beta)" Description="Enables Windows Projected File System"/>
+  <Feature Name="Containers" DisplayName="Containers" Description="Provides services and tools to create and manage Windows Server Containers and their resources."/>
+  <Feature Name="DataCenterBridging" DisplayName="Data Center Bridging" Description="IEEE Data Center Bridging"/>
+  <Feature Name="DirectoryServices-ADAM-Client" DisplayName="Active Directory Lightweight Directory Services" Description="This installs Active Directory Lightweight Directory Services (AD LDS)."/>
+  <Feature Name="HypervisorPlatform" DisplayName="Windows Hypervisor Platform" Description="Enables virtualization software to run on the Windows hypervisor"/>
+  <Feature Name="IIS-HostableWebCore" DisplayName="Internet Information Services Hostable Web Core" Description="Program your application to serve HTTP requests by using core IIS functionality."/>
+  <Feature Name="IIS-WebServerRole" DisplayName="Internet Information Services" Description="Internet Information Services provides support for Web and FTP servers, along with support for ASP.NET web sites, dynamic content such as Classic ASP and CGI, and local and remote management.">
+    <Feature Name="IIS-FTPServer" DisplayName="FTP Server" Description="Enable your server to transfer files by using the FTP protocol.">
+      <Feature Name="IIS-FTPExtensibility" DisplayName="FTP Extensibility" Description="Customize FTP publishing by writing your own software extensions.">
+        <Dependency Name="IIS-FTPSvc"/>
+      </Feature>
+      <Feature Name="IIS-FTPSvc" DisplayName="FTP Service" Description="Enable FTP publishing on a Web server."/>
+    </Feature>
+    <Feature Name="IIS-WebServer" DisplayName="World Wide Web Services" Description="Installs the IIS World Wide Web Services. Provides support for HTML web sites and optional support for ASP.NET, Classic ASP, and web server extensions.">
+      <Feature Name="IIS-ApplicationDevelopment" DisplayName="Application Development Features" Description="Install Web server application development features">
+        <Feature Name="IIS-ASP" DisplayName="ASP" Description="Enable your Web server to host Classic ASP applications">
+          <Dependency Name="IIS-RequestFiltering"/>
+          <Dependency Name="IIS-ISAPIExtensions"/>
+        </Feature>
+        <Feature Name="IIS-ASPNET" DisplayName="ASP.NET 3.5" Description="Enable your Web server to host ASP.NET 3.5 applications">
+          <Dependency Name="IIS-DefaultDocument"/>
+          <Dependency Name="IIS-ISAPIFilter"/>
+          <Dependency Name="IIS-ISAPIExtensions"/>
+          <Dependency Name="IIS-NetFxExtensibility"/>
+        </Feature>
+        <Feature Name="IIS-ASPNET45" DisplayName="ASP.NET 4.x" Description="Enable your Web server to host ASP.NET v4.x applications">
+          <Dependency Name="NetFx4Extended-ASPNET45"/>
+          <Dependency Name="IIS-DefaultDocument"/>
+          <Dependency Name="IIS-ISAPIFilter"/>
+          <Dependency Name="IIS-ISAPIExtensions"/>
+          <Dependency Name="IIS-NetFxExtensibility45"/>
+        </Feature>
+        <Feature Name="IIS-ApplicationInit" DisplayName="Application Initialization" Description="Application Initialization perform expensive web application initialization tasks before serving web pages."/>
+        <Feature Name="IIS-CGI" DisplayName="CGI" Description="Enable support for CGI executables"/>
+        <Feature Name="IIS-ISAPIExtensions" DisplayName="ISAPI Extensions" Description="Allow ISAPI extensions to handle client requests"/>
+        <Feature Name="IIS-ISAPIFilter" DisplayName="ISAPI Filters" Description="Allow ISAPI filters to modify Web server behavior"/>
+        <Feature Name="IIS-NetFxExtensibility" DisplayName=".NET Extensibility 3.5" Description="Enable your Web server to host .NET Framework 3.5 applications">
+          <Dependency Name="IIS-RequestFiltering"/>
+          <Dependency Name="NetFx3"/>
+          <Dependency Name="NetFx4Extended-ASPNET45"/>
+        </Feature>
+        <Feature Name="IIS-NetFxExtensibility45" DisplayName=".NET Extensibility 4.x" Description="Enable your Web server to host .NET Framework v4.x applications">
+          <Dependency Name="NetFx4Extended-ASPNET45"/>
+          <Dependency Name="IIS-RequestFiltering"/>
+        </Feature>
+        <Feature Name="IIS-ServerSideIncludes" DisplayName="Server-Side Includes" Description="Serve .stm, .shtm, and .shtml files from a Web site"/>
+        <Feature Name="IIS-WebSockets" DisplayName="WebSocket Protocol" Description="IIS and ASP.NET 4.x support writing server applications that communicate over the WebSocket Protocol."/>
+      </Feature>
+      <Feature Name="IIS-CommonHttpFeatures" DisplayName="Common HTTP Features" Description="Installs support for Web server content such as HTML and image files.">
+        <Feature Name="IIS-DefaultDocument" DisplayName="Default Document" Description="Allows you to specify a default file to be loaded when users do not specify a file in a request URL"/>
+        <Feature Name="IIS-DirectoryBrowsing" DisplayName="Directory Browsing" Description="Allow clients to see the contents of a directory on your Web server"/>
+        <Feature Name="IIS-HttpErrors" DisplayName="HTTP Errors" Description="Allows you to customize the error messages returned to clients"/>
+        <Feature Name="IIS-HttpRedirect" DisplayName="HTTP Redirection" Description="Redirect client requests to a specific destination"/>
+        <Feature Name="IIS-StaticContent" DisplayName="Static Content" Description="Serve .htm, .html, and image files from a Web site"/>
+        <Feature Name="IIS-WebDAV" DisplayName="WebDAV Publishing" Description="Publish and manage files on a Web server by using the HTTP protocol.">
+          <Dependency Name="IIS-StaticContent"/>
+        </Feature>
+      </Feature>
+      <Feature Name="IIS-HealthAndDiagnostics" DisplayName="Health and Diagnostics" Description="Enables you to monitor and manage server, site, and application health">
+        <Feature Name="IIS-CustomLogging" DisplayName="Custom Logging" Description="Enable support for custom logging for Web servers, sites, and applications"/>
+        <Feature Name="IIS-HttpLogging" DisplayName="HTTP Logging" Description="Enables logging of Web site activity for this server"/>
+        <Feature Name="IIS-HttpTracing" DisplayName="Tracing" Description="Enable tracing for ASP.NET applications and failed requests"/>
+        <Feature Name="IIS-LoggingLibraries" DisplayName="Logging Tools" Description="Install IIS logging tools and scripts"/>
+        <Feature Name="IIS-ODBCLogging" DisplayName="ODBC Logging" Description="Enable support for logging to an ODBC-compliant database."/>
+        <Feature Name="IIS-RequestMonitor" DisplayName="Request Monitor" Description="Monitor server, site, and application health"/>
+      </Feature>
+      <Feature Name="IIS-Performance" DisplayName="Performance Features" Description="Install performance features">
+        <Feature Name="IIS-HttpCompressionDynamic" DisplayName="Dynamic Content Compression" Description="Compress dynamic content before returning it to client"/>
+        <Feature Name="IIS-HttpCompressionStatic" DisplayName="Static Content Compression" Description="Compress static content before returning it to a client"/>
+      </Feature>
+      <Feature Name="IIS-Security" DisplayName="Security" Description="Enable additional security features to secure servers, sites, applications, vdirs, and files">
+        <Feature Name="IIS-BasicAuthentication" DisplayName="Basic Authentication" Description="Require a valid Windows user name and password for connection."/>
+        <Feature Name="IIS-CertProvider" DisplayName="Centralized SSL Certificate Support" Description="Centralized SSL Certificate Support enables you to manage SSL server certificates centrally using a file share. Maintaining SSL server certificates on a file share simplifies management since there is one place to manage them."/>
+        <Feature Name="IIS-ClientCertificateMappingAuthentication" DisplayName="Client Certificate Mapping Authentication" Description="Authenticate client certificates with Active Directory accounts."/>
+        <Feature Name="IIS-DigestAuthentication" DisplayName="Digest Authentication" Description="Authenticate clients by sending a password hash to a Windows domain controller."/>
+        <Feature Name="IIS-IISCertificateMappingAuthentication" DisplayName="IIS Client Certificate Mapping Authentication" Description="Map client certificates 1-to-1 or many-to-1 to a Windows security identity."/>
+        <Feature Name="IIS-IPSecurity" DisplayName="IP Security" Description="Allow or deny content access based on IP address or domain name."/>
+        <Feature Name="IIS-RequestFiltering" DisplayName="Request Filtering" Description="Configure rules to block selected client requests."/>
+        <Feature Name="IIS-URLAuthorization" DisplayName="URL Authorization" Description="Authorize client access to the URLs that comprise a Web application."/>
+        <Feature Name="IIS-WindowsAuthentication" DisplayName="Windows Authentication" Description="Authenticate clients by using NTLM or Kerberos."/>
+      </Feature>
+    </Feature>
+    <Feature Name="IIS-WebServerManagementTools" DisplayName="Web Management Tools" Description="Install Web management console and tools">
+      <Feature Name="IIS-IIS6ManagementCompatibility" DisplayName="IIS 6 Management Compatibility" Description="Allows you to use existing IIS 6.0 APIs and scripts to manage this IIS web server">
+        <Feature Name="IIS-LegacyScripts" DisplayName="IIS 6 Scripting Tools" Description="Install IIS 6.0 configuration scripts">
+          <Dependency Name="IIS-Metabase"/>
+          <Dependency Name="IIS-WMICompatibility"/>
+        </Feature>
+        <Feature Name="IIS-LegacySnapIn" DisplayName="IIS 6 Management Console" Description="Install the IIS 6.0 Management Console. Provides support for administration of remote IIS 6.0 servers from this computer.">
+          <Dependency Name="IIS-Metabase"/>
+        </Feature>
+        <Feature Name="IIS-Metabase" DisplayName="IIS Metabase and IIS 6 configuration compatibility" Description="Install IIS metabase and compatibility layer to allow metabase calls to interact with new IIS configuration store"/>
+        <Feature Name="IIS-WMICompatibility" DisplayName="IIS 6 WMI Compatibility" Description="Install IIS 6.0 WMI scripting interfaces">
+          <Dependency Name="IIS-Metabase"/>
+        </Feature>
+      </Feature>
+      <Feature Name="IIS-ManagementConsole" DisplayName="IIS Management Console" Description="Install Web server Management Console which supports management of local and remote Web servers."/>
+      <Feature Name="IIS-ManagementScriptingTools" DisplayName="IIS Management Scripts and Tools" Description="Manage a local Web server with IIS configuration scripts"/>
+      <Feature Name="IIS-ManagementService" DisplayName="IIS Management Service" Description="Allow the web server to be managed remotely from another computer via the Web server Management Console">
+        <Dependency Name="NetFx4Extended-ASPNET45"/>
+      </Feature>
+    </Feature>
+  </Feature>
+  <Feature Name="Internet-Explorer-Optional-amd64" DisplayName="Internet Explorer" RequiresRestart="Yes" Description="Finds and displays information and Web sites on the Internet."/>
+  <Feature Name="LegacyComponents" DisplayName="Legacy Components" Description="Controls legacy components in Windows.">
+    <Feature Name="DirectPlay" DisplayName="DirectPlay" Description="Enables the installation of DirectPlay on demand."/>
+  </Feature>
+  <Feature Name="MSMQ-Container" DisplayName="Microsoft Message Queue (MSMQ) Server" Description="Microsoft Message Queue (MSMQ) Server.">
+    <Feature Name="MSMQ-DCOMProxy" DisplayName="MSMQ DCOM Proxy" Description="The DCOM proxy feature enables MSMQ applications to use MSMQ DCOM API to connect to a remote MSMQ Server."/>
+    <Feature Name="MSMQ-Server" DisplayName="Microsoft Message Queue (MSMQ) Server Core" Description="This feature installs the core components of MSMQ which enables you to perform basic Message queuing functions. This feature is a minimum requirement." IsIndependent="Yes">
+      <Feature Name="MSMQ-ADIntegration" DisplayName="MSMQ Active Directory Domain Services Integration" Description="Active Directory Domain Services Integration feature enables publishing of queue properties to Active Directory Domain Services, out-of-the-box authentication and encryption of messages using certificates registered in Active Directory Domain Services, and routing of messages across Windows sites. This feature becomes operational only when the computer joins a domain."/>
+      <Feature Name="MSMQ-HTTP" DisplayName="MSMQ HTTP Support" Description="The HTTP Support feature allows you to expose a queue to the internet such that applications can send messages to the queue using HTTP protocol. This feature requires Internet Information Server.">
+        <Dependency Name="IIS-StaticContent"/>
+        <Dependency Name="IIS-DefaultDocument"/>
+        <Dependency Name="IIS-DirectoryBrowsing"/>
+        <Dependency Name="IIS-HttpErrors"/>
+        <Dependency Name="IIS-HttpRedirect"/>
+        <Dependency Name="IIS-HttpLogging"/>
+        <Dependency Name="IIS-LoggingLibraries"/>
+        <Dependency Name="IIS-RequestMonitor"/>
+        <Dependency Name="IIS-HttpTracing"/>
+        <Dependency Name="IIS-HttpCompressionStatic"/>
+        <Dependency Name="IIS-ISAPIExtensions"/>
+        <Dependency Name="IIS-Metabase"/>
+      </Feature>
+      <Feature Name="MSMQ-Multicast" DisplayName="Multicasting Support" Description="The Multicast support feature enables you to send messages to a Multicast IPAddress. Queues can be associated with a Multicast IPAddress. Messages sent to a Multicast IPAddress will be delivered to the queues that are associated with that IPAddress."/>
+      <Feature Name="MSMQ-Triggers" DisplayName="MSMQ Triggers" Description="Message Queue Triggers enables the invocation of a COM component or an executable depending on the filters that you define for the incoming messages in a given queue."/>
+    </Feature>
+  </Feature>
+  <Feature Name="MSRDC-Infrastructure" DisplayName="Remote Differential Compression API Support" Description="Installs Remote Differential Compression (RDC) support for use in third-party applications."/>
+  <Feature Name="MediaPlayback" DisplayName="Media Features" Description="Controls media features such as Windows Media Player.">
+    <Feature Name="WindowsMediaPlayer" DisplayName="Windows Media Player" Description="Play audio and video files on your local machine and on the Internet."/>
+  </Feature>
+  <Feature Name="Microsoft-Hyper-V-All" DisplayName="Hyper-V" Description="Provides services and management tools for creating and running virtual machines and their resources.">
+    <Feature Name="Microsoft-Hyper-V" DisplayName="Hyper-V Platform" Description="Provides the services that you can use to create and manage virtual machines and their resources.">
+      <Feature Name="HostGuardian" DisplayName="Guarded Host" RequiresRestart="Yes" Description="Enables the device to create and run Shielded Virtual Machine using remote attestation.">
+        <Dependency Name="Microsoft-Hyper-V-Hypervisor"/>
+        <Dependency Name="Microsoft-Hyper-V-Services"/>
+        <Dependency Name="BitLocker"/>
+      </Feature>
+      <Feature Name="Microsoft-Hyper-V-Hypervisor" DisplayName="Hyper-V Hypervisor" Description="Provides the Hyper-V Hypervisor."/>
+      <Feature Name="Microsoft-Hyper-V-Services" DisplayName="Hyper-V Services" Description="Provides the services that you can use to create and manage virtual machines and their resources."/>
+    </Feature>
+    <Feature Name="Microsoft-Hyper-V-Tools-All" DisplayName="Hyper-V Management Tools" Description="Includes GUI and command-line tools for managing Hyper-V.">
+      <Feature Name="Microsoft-Hyper-V-Management-Clients" DisplayName="Hyper-V GUI Management Tools" Description="Includes the Hyper-V Manager snap-in and Virtual Machine Connection tool."/>
+      <Feature Name="Microsoft-Hyper-V-Management-PowerShell" DisplayName="Hyper-V Module for Windows PowerShell" Description="Includes Windows PowerShell cmdlets for managing Hyper-V."/>
+    </Feature>
+  </Feature>
+  <Feature Name="Microsoft-Hyper-V-Common-Drivers-Package" DisplayName="" Removed="April 2018 Update (RS4)"/>
+  <Feature Name="Microsoft-Hyper-V-Guest-Integration-Drivers-Package" DisplayName="" Removed="April 2018 Update (RS4)"/>
+  <Feature Name="Microsoft-Windows-Client-EmbeddedExp-Package" DisplayName=""/>
+  <Feature Name="Microsoft-Windows-NetFx-VCRedist-Package" DisplayName=""/>
+  <Feature Name="Microsoft-Windows-NetFx3-OC-Package" DisplayName=""/>
+  <Feature Name="Microsoft-Windows-NetFx3-WCF-OC-Package" DisplayName=""/>
+  <Feature Name="Microsoft-Windows-NetFx4-US-OC-Package" DisplayName=""/>
+  <Feature Name="Microsoft-Windows-NetFx4-WCF-US-OC-Package" DisplayName=""/>
+  <Feature Name="Microsoft-Windows-Printing-PrintToPDFServices-Package" DisplayName=""/>
+  <Feature Name="Microsoft-Windows-Printing-XPSServices-Package" DisplayName=""/>
+  <Feature Name="Microsoft-Windows-Subsystem-Linux" DisplayName="Windows Subsystem for Linux" Description="Provides services and environments for running native user-mode Linux shells and tools on Windows."/>
+  <Feature Name="MicrosoftWindowsPowerShellV2Root" DisplayName="Windows PowerShell 2.0" Description="Adds or Removes Windows PowerShell 2.0">
+    <Feature Name="MicrosoftWindowsPowerShellV2" DisplayName="Windows PowerShell 2.0 Engine" Description="Adds or Removes Windows PowerShell 2.0 Engine"/>
+  </Feature>
+  <Feature Name="MultiPoint-Connector" DisplayName="MultiPoint Connector" Description="Allows your computer to be monitored and managed by the MultiPoint Manager and MultiPoint Dashboard apps.">
+    <Feature Name="MultiPoint-Connector-Services" DisplayName="MultiPoint Connector Services" Description="Allows your computer to be monitored and managed by the MultiPoint Manager and MultiPoint Dashboard apps."/>
+    <Feature Name="MultiPoint-Tools" DisplayName="MultiPoint Manager and MultiPoint Dashboard" Description="GUI tools for managing MultiPoint."/>
+  </Feature>
+  <Feature Name="NetFx3" DisplayName=".NET Framework 3.5 (includes .NET 2.0 and 3.0)" Description=".NET Framework 3.5 (includes .NET 2.0 and 3.0)" IsIndependent="Yes">
+    <Feature Name="WCF-HTTP-Activation" DisplayName="Windows Communication Foundation HTTP Activation" Description="Windows Communication Foundation HTTP Activation">
+      <Dependency Name="IIS-NetFxExtensibility"/>
+      <Dependency Name="WAS-ProcessModel"/>
+      <Dependency Name="WAS-NetFxEnvironment"/>
+      <Dependency Name="WAS-ConfigurationAPI"/>
+    </Feature>
+    <Feature Name="WCF-NonHTTP-Activation" DisplayName="Windows Communication Foundation Non-HTTP Activation" Description="Windows Communication Foundation Non-HTTP Activation">
+      <Dependency Name="WAS-ProcessModel"/>
+      <Dependency Name="WAS-NetFxEnvironment"/>
+      <Dependency Name="WAS-ConfigurationAPI"/>
+    </Feature>
+  </Feature>
+  <Feature Name="NetFx4-AdvSrvs" DisplayName=".NET Framework 4.x Advanced Services" Description=".NET Framework 4.x Advanced Services">
+    <Feature Name="NetFx4Extended-ASPNET45" DisplayName="ASP.NET 4.x" Description="ASP.NET 4.x"/>
+    <Feature Name="WCF-Services45" DisplayName="WCF Services" Description="WCF Services">
+      <Feature Name="WCF-HTTP-Activation45" DisplayName="HTTP Activation" Description="HTTP Activation">
+        <Dependency Name="IIS-NetFxExtensibility45"/>
+        <Dependency Name="IIS-ASPNET45"/>
+        <Dependency Name="WAS-ProcessModel"/>
+        <Dependency Name="WAS-ConfigurationAPI"/>
+      </Feature>
+      <Feature Name="WCF-MSMQ-Activation45" DisplayName="Message Queuing (MSMQ) Activation" Description="Message Queuing (MSMQ) Activation">
+        <Dependency Name="IIS-NetFxExtensibility45"/>
+        <Dependency Name="WAS-ProcessModel"/>
+        <Dependency Name="WAS-ConfigurationAPI"/>
+        <Dependency Name="MSMQ-Server"/>
+      </Feature>
+      <Feature Name="WCF-Pipe-Activation45" DisplayName="Named Pipe Activation" Description="Named Pipe Activation">
+        <Dependency Name="IIS-NetFxExtensibility45"/>
+        <Dependency Name="WAS-ProcessModel"/>
+        <Dependency Name="WAS-ConfigurationAPI"/>
+      </Feature>
+      <Feature Name="WCF-TCP-Activation45" DisplayName="TCP Activation" Description="TCP Activation">
+        <Dependency Name="WCF-TCP-PortSharing45"/>
+        <Dependency Name="IIS-NetFxExtensibility45"/>
+        <Dependency Name="WAS-ProcessModel"/>
+        <Dependency Name="WAS-ConfigurationAPI"/>
+      </Feature>
+      <Feature Name="WCF-TCP-PortSharing45" DisplayName="TCP Port Sharing" Description="TCP Port Sharing"/>
+    </Feature>
+  </Feature>
+  <Feature Name="Printing-Foundation-Features" DisplayName="Print and Document Services" Description="Enable print, fax, and scan tasks on this computer">
+    <Feature Name="FaxServicesClientPackage" DisplayName="Windows Fax and Scan" Description="Enable fax and scan tasks on this computer"/>
+    <Feature Name="Printing-Foundation-InternetPrinting-Client" DisplayName="Internet Printing Client" Description="Enables clients to use HTTP to connect to printers on Web print servers"/>
+    <Feature Name="Printing-Foundation-LPDPrintService" DisplayName="LPD Print Service" Description="Makes your Windows computer work as a Line Printer Daemon (LPD) and Remote Line Printer client"/>
+    <Feature Name="Printing-Foundation-LPRPortMonitor" DisplayName="LPR Port Monitor" Description="Enables clients to print to TCP/IP printers connected to a Unix (or VAX) server"/>
+    <Feature Name="ScanManagementConsole" DisplayName="Scan Management" Description="Manages distributed scanners, scan processes, and scan servers"/>
+  </Feature>
+  <Feature Name="Printing-PrintToPDFServices-Features" DisplayName="Microsoft Print to PDF" Description="Provides binaries on the system for creating the Microsoft Print to PDF Print Queue"/>
+  <Feature Name="Printing-XPSServices-Features" DisplayName="Microsoft XPS Document Writer" Description="Provides binaries on the system for creating the XPS Document Writer Print Queue"/>
+  <Feature Name="RasCMAK" DisplayName="RAS Connection Manager Administration Kit (CMAK)" Description="Create profiles for connecting to remote servers and networks on computers running 32-bit versions of Windows."/>
+  <Feature Name="RasRip" DisplayName="RIP Listener" Description="Listens for route updates sent by routers that use the Routing Information Protocol version 1 (RIPv1)"/>
+  <Feature Name="SMB1Protocol" DisplayName="SMB 1.0/CIFS File Sharing Support" Description="Support for the SMB 1.0/CIFS file sharing protocol, and the Computer Browser protocol.">
+    <Feature Name="SMB1Protocol-Client" DisplayName="SMB 1.0/CIFS Client" Description="Support for the SMB 1.0/CIFS client for accessing legacy servers."/>
+    <Feature Name="SMB1Protocol-Server" DisplayName="SMB 1.0/CIFS Server" Description="Support for the SMB 1.0/CIFS file server for sharing data with legacy clients and browsing the network neighborhood."/>
+  </Feature>
+  <Feature Name="SNMP" DisplayName="Simple Network Management Protocol (SNMP)" Description="This feature includes Simple Network Management Protocol agents that monitor the activity in network devices and report to the network console workstation">
+    <Feature Name="WMISnmpProvider" DisplayName="WMI SNMP Provider" Description="The SNMP WMI Provider enables WMI clients to  consume SNMP information through the CIM model as implemented by WMI"/>
+  </Feature>
+  <Feature Name="SearchEngine-Client-Package" DisplayName="Windows Search" Description="Provides content indexing, property caching, and search results for files, e-mail, and other content."/>
+  <Feature Name="ServicesForNFS-ClientOnly" DisplayName="Services for NFS" Description="Allows you to access files using the Network File System (NFS) protocol.">
+    <Feature Name="ClientForNFS-Infrastructure" DisplayName="Client for NFS" Description="Enables this computer to gain access to files on UNIX-based computers"/>
+    <Feature Name="NFS-Administration" DisplayName="Administrative Tools" Description="Tools for managing Services for NFS on local and remote computers"/>
+  </Feature>
+  <Feature Name="SimpleTCP" DisplayName="Simple TCPIP services (i.e. echo, daytime etc)" Description="Install Simple TCPIP services"/>
+  <Feature Name="SmbDirect" DisplayName="SMB Direct" Description="Remote Direct Memory Access (RDMA) support for the SMB 3.x file sharing protocol"/>
+  <Feature Name="TFTP" DisplayName="TFTP Client" Description="Transfer files using the Trivial File Transfer Protocol"/>
+  <Feature Name="TIFFIFilter" DisplayName="Windows TIFF IFilter" Description="Enables the indexing and searching of Tagged Image File Format (TIFF) files using Optical Character Recognition (OCR)."/>
+  <Feature Name="TelnetClient" DisplayName="Telnet Client" Description="Allows you to connect to other computers remotely."/>
+  <Feature Name="WAS-WindowsActivationService" DisplayName="Windows Process Activation Service" Description="Install Windows Process Activation Service">
+    <Feature Name="WAS-ConfigurationAPI" DisplayName="Configuration APIs" Description="Install managed code configuration APIs"/>
+    <Feature Name="WAS-NetFxEnvironment" DisplayName=".NET Environment" Description="Install the .NET Environment for supporting managed code activation">
+      <Dependency Name="NetFx3"/>
+      <Dependency Name="NetFx4Extended-ASPNET45"/>
+    </Feature>
+    <Feature Name="WAS-ProcessModel" DisplayName="Process Model" Description="Install Process Model for the Windows Process Activation Service"/>
+  </Feature>
+  <Feature Name="Windows-Defender-ApplicationGuard" DisplayName="Windows Defender Application Guard" Description="Offer secure container for internet browsing"/>
+  <Feature Name="Windows-Defender-Default-Definitions" DisplayName=""/>
+  <Feature Name="Windows-Identity-Foundation" DisplayName="Windows Identity Foundation 3.5" Description="Windows Identity Foundation (WIF) 3.5 is a set of .NET Framework classes that can be used for implementing claims-based identity in your .NET 3.5 and 4.0 applications. WIF 3.5 has been superseded by WIF classes that are provided as part of .NET 4.x. It is recommended that you use .NET 4.x for supporting claims-based identity in your applications."/>
+  <Feature Name="WorkFolders-Client" DisplayName="Work Folders Client" Description="Allows file synchronization with a configured file server."/>
+  <Feature Name="Xps-Foundation-Xps-Viewer" DisplayName="XPS Viewer" Description="Allows you to read, copy, print, sign, and set permissions for XPS documents" Removed="April 2018 Update (RS4)"/>
+</FeatureBundle>

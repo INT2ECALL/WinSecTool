@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="DFC02E4131D046E6A6F1BFD531B38A22" DisplayName="SQL Server Express LocalDB 2012 x64" VersionMin="11.0.2318.0"
+      SetupFileUrl="http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SqlLocalDB.msi"
+      Location="1" ExactSize="34635776" MD5="d2abbf3597f6b32d4470c80408a5480b"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista RTM x64, Windows Vista SP1 x64, Windows 8.1 x64, Windows Server 2012 R2 x64, Windows 10 x64, Windows Server 2016 x64"
+      BasicUiComLine="/qb IACCEPTSQLLOCALDBLICENSETERMS=YES"
+      NoUiComLine="/qn IACCEPTSQLLOCALDBLICENSETERMS=YES"
+      Operator="1" Options="xf" TargetName="SQL Server Express LocalDB 2012?SqlLocalDB_x64.msi"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="DFC02E4131D046E6A6F1BFD531B38A22Version" Prereq="DFC02E4131D046E6A6F1BFD531B38A22" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server 2012 Redist\MSSQL11E.LOCALDB\1033\CurrentVersion\Version" VerMin="11.0.2318.0"
+      Order="1" Property="PreReqSearch_DFC02E4131D046E6A6F1BFD531B38A22"/>
+  </COMPONENT>
+</FRAGMENT>

@@ -1,0 +1,113 @@
+'begin script
+Public Sub Main()
+  Try
+    'read the file that contains the list of resources
+    Dim byteContent As [Byte]() = ReadFileContent(ResourceFilePath)
+    Dim content As String
+    For i As Integer = 0 To byteContent.Length - 1
+      content = content + Convert.ToString(Convert.ToChar(Convert.ToInt16(byteContent(i).ToString)))
+    Next
+
+    Dim files() As String = content.Split(";")
+        
+    'Remove resources
+    For Each file As String In files
+      Dim path As String
+      Dim ext As String = file.Substring(file.LastIndexOf("."))
+      Dim removeExt As Boolean = true
+      Select Case ext
+        Case ".rds"
+          path = "/" + DataSourceFolder
+
+        Case ".rsd"
+          path = "/" + DataSetFolder
+
+        Case ".rdl"
+          path = "/" + ReportFolder
+          
+        Case Else
+          path = "/" + ReportFolder
+          removeExt = false
+      End Select
+
+      path = path + "/" + file
+      If removeExt Then
+        path = path.Substring(0, path.LastIndexOf("."))
+      End If
+      
+      Try 
+        Console.WriteLine("Removing item: {0}", path)
+        rs.DeleteItem(path)
+      Catch ex As SoapException
+        Console.WriteLine(ex.Message)
+      End Try
+    Next
+    
+    'Remove folders
+    Console.WriteLine("Removing folders ...")
+    DeleteDeploymentFolders()
+    
+    Console.WriteLine("Done")
+  Catch ex As Exception
+    Console.WriteLine(ex.Message)
+  End Try
+End Sub
+
+'Function used for reading the content of a files
+Private Function ReadFileContent(aFilePath As String) As [Byte]()
+  Dim stream As FileStream = File.OpenRead(aFilePath)
+  Dim content As [Byte]() = New [Byte](stream.Length - 1) {}
+  stream.Read(content, 0, CInt(stream.Length))
+  stream.Close()
+
+  Return content
+End Function
+
+'Method used for removing the created folders
+Private Sub DeleteDeploymentFolders()
+  'remove dataset folder
+  Try 
+    Dim folderPath As String = "/" + DataSetFolder
+    RemoveFolder(folderPath)
+  Catch ex As SoapException
+    Console.WriteLine(ex.Message)
+  End Try
+  
+  'remove datasource folder
+  Try 
+    Dim folderPath As String = "/" + DataSourceFolder
+    RemoveFolder(folderPath)
+  Catch ex As SoapException
+    Console.WriteLine(ex.Message)
+  End Try
+  
+  'remove reports folder
+  Try 
+    Dim folderPath As String = "/" + ReportFolder
+    RemoveFolder(folderPath)
+  Catch ex As SoapException
+    Console.WriteLine(ex.Message)
+  End Try
+End Sub
+
+'Helper method used for removing a folder recursively only if it's empty
+Private Sub RemoveFolder(ByVal aFolderPath As String)
+  If aFolderPath.Length > 1 Then ' > 1 because we don't want to remove the root folder
+    'strip trailing slash
+    If aFolderPath.LastIndexOf("/") = (aFolderPath.Length - 1) Then
+      aFolderPath = aFolderPath.Substring(0, aFolderPath.Length - 1)
+    End If
+    
+    Console.WriteLine("Attempting to remove folder {0} ...", aFolderPath)
+    Dim children() As CatalogItem = rs.ListChildren(aFolderPath, false)
+    If children.Length = 0 Then
+      rs.DeleteItem(aFolderPath)
+      Console.WriteLine("Removed folder.")
+      
+      Dim parentPath As String = aFolderPath.Substring(0, aFolderPath.LastIndexOf("/"))
+      RemoveFolder(parentPath)
+    Else
+      Console.WriteLine("Folder is not empty")
+    End If
+  End If
+End Sub

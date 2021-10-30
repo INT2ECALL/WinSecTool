@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="13.2" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="A9B3CC_B8E4_4F03_B719_D9E76675954E" DisplayName="Visual C++ 2010 x64 (MFC Security Update)" VersionMin="10.0"
+      SetupFileUrl="http://download.microsoft.com/download/4/D/0/4D00D6C0-09FC-446C-AE9C-C923AF2DF29A/vcredist_x64.exe"
+      Location="1" ExactSize="10276696" MD5="2fdf0c01ac6677522a98040e8737b39a"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="f" TargetName="Visual C++ 2010"/>
+    <ATTRIBUTE name="GroupName" value="Visual Studio"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="A9B3CC_B8E4_4F03_B719_D9E76675954EVersion" Prereq="A9B3CC_B8E4_4F03_B719_D9E76675954E" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\10.0\red\amd64\1033\Version" VerMin="30319.415"
+      Order="1" Property="PreReqSearch_A9B3CC_B8E4_4F03_B719_D9E76675954E"/>
+  </COMPONENT>
+</FRAGMENT>

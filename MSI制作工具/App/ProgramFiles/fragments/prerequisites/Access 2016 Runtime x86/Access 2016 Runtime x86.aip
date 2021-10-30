@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="A8967625D0944C218331E6B62B2A164E" DisplayName="Access 2016 Runtime x86" VersionMin="16.0"
+      SetupFileUrl="https://download.microsoft.com/download/D/B/D/DBD20EF9-A945-4768-AEB0-617BCEA2214A/accessruntime_4288-1001_x86_en-us.exe"
+      Location="1" ExactSize="247976464" MD5="3c57bb889394df89a2e42d5193af9b14"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista x86, Windows Server 2008 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="f" TargetName="Access 2016 Runtime"/>
+    <ATTRIBUTE name="GroupName" value="Microsoft Office"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="A8967625D0944C218331E6B62B2A164EMSACCESS.EXE" Prereq="A8967625D0944C218331E6B62B2A164E" SearchType="0"
+      SearchString="[ProgramFilesFolder]Microsoft Office\Office16\MSACCESS.EXE" VerMin="16.0.4288.1001"
+      Order="1" Property="PreReqSearch_A8967625D0944C218331E6B62B2A164E"/>
+  </COMPONENT>
+</FRAGMENT>

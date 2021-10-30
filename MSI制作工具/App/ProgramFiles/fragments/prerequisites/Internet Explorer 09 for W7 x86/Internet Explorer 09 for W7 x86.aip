@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="F716F5F8_326D_400C_8AC7_5FCA621D8325" DisplayName="Internet Explorer 9 for Windows 7 x86" VersionMin="9.0"
+      SetupFileUrl="http://download.microsoft.com/download/C/3/B/C3BF2EF4-E764-430C-BDCE-479F2142FC81/IE9-Windows7-x86-enu.exe"
+      Location="1" ExactSize="18124080" MD5="ef96e737f4a1a6e586e44bcd146bb19e"
+      WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista x86, Windows Server 2008 x86, Windows 8 x86, Windows 8.1 x86, Windows 10 x86"
+      WinNT64Versions="Windows XP/Vista/Windows 7/Windows 8 x64/Windows 8.1 x64/Windows 10 x64"
+      NoUiComLine="/quiet"
+      Operator="1" Options="y" TargetName="Internet Explorer 9"/>
+    <ATTRIBUTE name="GroupName" value="Internet Explorer"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="F716F5F8_326D_400C_8AC7_5FCA621D8325SystemFolderwininet.dll" Prereq="F716F5F8_326D_400C_8AC7_5FCA621D8325" SearchType="0"
+      SearchString="[SystemFolder]wininet.dll" VerMin="9.0.8112.16421"
+      Order="1" Property="PreReqSearch_F716F5F8_326D_400C_8AC7_5FCA621D8325"/>
+  </COMPONENT>
+</FRAGMENT>

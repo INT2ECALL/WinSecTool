@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FRAGMENT Type="ReadOnly" CreateVersion="14.1" RootPath="." Language="en">
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="E8105C7F784AFC87D8FABE546CCBC4" DisplayName="Microsoft System CLR Types for SQL Server 2014 SP2 x64" VersionMin="12.2"
+      SetupFileUrl="https://download.microsoft.com/download/6/7/8/67858AF1-B1B3-48B1-87C4-4483503E71DC/ENU/x64/SQLSysClrTypes.msi"
+      Location="1" ExactSize="3244032" MD5="1a026622fc72b94864e3017fc2eed210"
+      WinNTVersions="Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86"
+      WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64"
+      NoUiComLine="/q /norestart"
+      Operator="1" Options="fx" TargetName="Microsoft System CLR Types for SQL Server 2014 SP2?SQLSysClrTypes_x64.msi"/>
+    <ATTRIBUTE name="GroupName" value="Database"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="E8105C7F784AFC87D8FABE546CCBC4Version" Prereq="E8105C7F784AFC87D8FABE546CCBC4" SearchType="2"
+      SearchString="HKLM\SOFTWARE\Microsoft\Microsoft SQL Server 2014 Redist\SQL Server System CLR Types\CurrentVersion\Version" VerMin="12.2.5000.0"
+      Order="1" Property="PreReqSearch_E8105C7F784AFC87D8FABE546CCBC4"/>
+  </COMPONENT>
+</FRAGMENT>
